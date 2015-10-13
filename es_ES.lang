@@ -1,0 +1,1402 @@
+# Traducción por DancingPeral / Translated by DancingPeral
+# Enchantments
+enchantment.potency=Potencia
+enchantment.frugal=Económico
+enchantment.charging=Carga
+enchantment.wandfortune=Fortuna
+enchantment.haste=Prisa
+enchantment.repair=Reparación
+#
+#Potions
+potion.fluxtaint=Contaminación Cambiante
+potion.soulshatter=Rompe Almas
+#
+# Entities
+entity.Thaumcraft.ThaumSlime.name=Slime Táumico
+entity.Thaumcraft.Dart.name=Golem Dart
+entity.Thaumcraft.FrostShard.name=Fragmento de Élitro
+entity.Thaumcraft.Firebat.name=Murciélago de Fuego
+entity.Thaumcraft.Wisp.name=Wisp
+entity.Thaumcraft.Alumentum.name=Alumentum
+entity.Thaumcraft.GiantBrainyZombie.name=Zombie Furioso
+entity.Thaumcraft.BrainyZombie.name=Zombie Enfadado
+entity.Thaumcraft.FollowItem.name=Siguiente Item
+entity.Thaumcraft.SpecialItem.name=Item Mágico
+entity.Thaumcraft.FallingTaint.name=Corteza Contaminada
+entity.Thaumcraft.AspectOrb.name=Orbe de Aspecto
+entity.Thaumcraft.TaintSpider.name=Araña Contaminada
+entity.Thaumcraft.Taintacle.name=Tentáculo Contaminado
+entity.Thaumcraft.TaintacleTiny.name=Zarcillo Contaminado
+entity.Thaumcraft.TaintSpore.name=Espora Contaminada
+entity.Thaumcraft.TaintSwarmer.name=Enjambre de Esporas Contaminado
+entity.Thaumcraft.TaintSwarm.name=Enjambre Contaminado
+entity.Thaumcraft.TaintedVillager.name=Aldeano Contaminado
+entity.Thaumcraft.TaintedChicken.name=Pollo Contaminado
+entity.Thaumcraft.TaintedPig.name=Cerdo Contaminado
+entity.Thaumcraft.TaintedSheep.name=Oveja Contaminada
+entity.Thaumcraft.TaintedCow.name=Vaca Contaminada
+entity.Thaumcraft.TaintedCreeper.name=Creeper Contaminado
+entity.Pech.name=Forrajeador Pech
+entity.Pech.1.name=Mago Pech
+entity.Pech.2.name=Arquero Pech
+entity.Thaumcraft.Pech.2.name=Acosador Pech
+entity.Thaumcraft.PrimalOrb.name=Orbe de Energía Primigenia
+entity.Thaumcraft.TravelingTrunk.name=Baúl de Viaje
+entity.trunk.guiname='s Baúl
+entity.trunk.move=El baúl te seguirá a partir de ahora
+entity.trunk.stay=El baúl se quedará donde está
+
+#
+# Blocks
+tile.blockAiry.0.name=Nodo de Aura
+tile.blockAiry.1.name=Nitor
+tile.blockAiry.2.name=Destello de Luz
+tile.blockAiry.3.name=Destello de Luz
+tile.blockAiry.4.name=Aura Protectora
+tile.blockAiry.5.name=Nodo de Aura
+tile.blockHole.name=Espacio Vacío
+tile.blockSecure.name=Bloque de Piedra Protectora
+tile.blockCustomOre.0.name=Mena de Cinnabar
+tile.blockCustomOre.1.name=Piedra Imbuida de Aire
+tile.blockCustomOre.2.name=Piedra Imbuida de Fuego
+tile.blockCustomOre.3.name=Piedra Imbuida de Agua
+tile.blockCustomOre.4.name=Piedra Imbuida de Tierra
+tile.blockCustomOre.5.name=Piedra Imbuida de Orden
+tile.blockCustomOre.6.name=Piedra Imbuida de Entropía
+tile.blockCustomOre.7.name=Piedra de Ámbar
+tile.blockCosmeticOpaque.0.name=Bloque de Ámbar
+tile.blockCosmeticOpaque.1.name=Ladrillos de Ámbar
+tile.blockCosmeticOpaque.2.name=Cristal Reforzado
+tile.blockCosmeticSolid.0.name=Totem de Obsidiana
+tile.blockCosmeticSolid.1.name=Bloque de Obsidiana
+tile.blockCosmeticSolid.2.name=Adoquín de Viaje
+tile.blockCosmeticSolid.3.name=Adoquín de Viaje Protector
+tile.blockCosmeticSolid.4.name=Bloque de Taumium
+tile.blockCosmeticSolid.5.name=Bloque de Sebo
+tile.blockCosmeticSolid.6.name=Bloque de Piedra Arcana
+tile.blockCosmeticSolid.7.name=Ladrillos de Piedra Arcana
+tile.blockCosmeticSolid.8.name=Totem de Obsidiana Cargado
+tile.blockCosmeticSolid.9.name=Golem Encadenado
+tile.blockCosmeticSolid.10.name=Golem Encadenado Activo
+tile.blockCustomPlant.0.name=Brote de Arbol Magnífico
+tile.blockCustomPlant.1.name=Brote de Arbol Plateado
+tile.blockCustomPlant.2.name=Hoja Brillante
+tile.blockCustomPlant.3.name=Perla de Ceniza
+tile.blockCustomPlant.4.name=Flor Etérea
+tile.blockCustomPlant.5.name=Vishroom
+tile.blockMetalDevice.0.name=Crisol
+tile.blockMetalDevice.1.name=Alambique Arcano
+tile.alembic.msg.1=El alambique está vacio
+tile.alembic.msg.2=El alambique está casi vacío
+tile.alembic.msg.3=El alambique está medio lleno
+tile.alembic.msg.4=El alambique está casi lleno
+tile.alembic.msg.5=El alambique está lleno
+tile.blockMetalDevice.5.name=Parrilla
+tile.blockMetalDevice.6.name=Parrilla (Cerrada)
+tile.blockMetalDevice.7.name=Lámpara Arcana
+tile.blockMetalDevice.8.name=Lámpara de Crecimiento  
+tile.blockMetalDevice.9.name=Construcción Alquímica
+tile.blockMetalDevice.10.name=Taumatorium
+tile.blockMetalDevice.11.name=Taumatorium
+tile.blockMetalDevice.12.name=Matriz Mnemónica
+tile.blockMetalDevice.13.name=Lámpara de Fertilidad
+tile.blockMagicalLog.greatwood.name=Tronco de Arbol Magnífico
+tile.blockMagicalLog.silverwood.name=Tronco de Arbol Plateado
+tile.blockMagicalLeaves.greatwood.name=Hojas de Arbol Magnífico
+tile.blockMagicalLeaves.silverwood.name=Hojas de Arbol Plateado
+tile.blockCandle.0.name=Vela de Sebo Blanca
+tile.blockCandle.1.name=Vela de Sebo Naranja
+tile.blockCandle.2.name=Vela de Sebo Magenta
+tile.blockCandle.3.name=Vela de Sebo Azul Claro
+tile.blockCandle.4.name=Vela de Sebo Amarilla
+tile.blockCandle.5.name=Vela de Sebo Lima
+tile.blockCandle.6.name=Vela de Sebo Rosa
+tile.blockCandle.7.name=Vela de Sebo Gris
+tile.blockCandle.8.name=Vela de Sebo Gris Claro
+tile.blockCandle.9.name=Vela de Sebo Cyan
+tile.blockCandle.10.name=Vela de Sebo Púrpura
+tile.blockCandle.11.name=Vela de Sebo Azul
+tile.blockCandle.12.name=Vela de Sebo Marrón
+tile.blockCandle.13.name=Vela de Sebo Verde
+tile.blockCandle.14.name=Vela de Sebo Roja
+tile.blockCandle.15.name=Vela de Sebo Negra
+tile.blockWooden.name=Bloque de Madera Arcana
+tile.blockWoodenDevice.0.name=Fuelle Arcano
+tile.blockWoodenDevice.1.name=Oído Arcano
+tile.blockWoodenDevice.2.name=Placa de Presión Arcana
+tile.blockWoodenDevice.4.name=Plataforma de Taladro Arcano
+tile.blockWoodenDevice.5.name=Taladro Arcano
+tile.blockWoodenDevice.6.name=Tablones de Arbol Magnífico
+tile.blockWoodenDevice.7.name=Tablones de Arbol Plateado
+tile.blockMarker.0.name=Marcador Blanco
+tile.blockMarker.1.name=Marcador Naranja
+tile.blockMarker.2.name=Marcador Magenta
+tile.blockMarker.3.name=Marcador Azul Claro
+tile.blockMarker.4.name=Marcador Amarillo
+tile.blockMarker.5.name=Marcador Lima
+tile.blockMarker.6.name=Marcador Rosa
+tile.blockMarker.7.name=Marcador Gris
+tile.blockMarker.8.name=Marcador Gris Claro
+tile.blockMarker.9.name=Marcador Cyan
+tile.blockMarker.10.name=Marcador Púrpura
+tile.blockMarker.11.name=Marcador Azul
+tile.blockMarker.12.name=Marcador Marrón
+tile.blockMarker.13.name=Marcador Verde
+tile.blockMarker.14.name=Marcador Rojo
+tile.blockMarker.15.name=Marcador Negro
+tile.blockJar.0.name=Tarro Reforzado
+tile.blockJar.1.name=Cerebro en un Tarro
+tile.blockJar.2.name=Nodo en un Tarro
+tile.blockJar.3.name=Tarro Vacío
+tile.blockTable.0.name=Mesa
+tile.blockTable.1.name=Mesa
+tile.blockTable.research.name=Mesa de Investigación
+tile.blockTable.14.name=Mesa de Deconstrucción
+tile.blockTable.15.name=Mesa de Trabajo Arcana
+tile.researchtable.noink.0=¡Te has quedado sin tinta!
+tile.researchtable.nomove=¡Las Runas Activas no se pueden mover!
+tile.researchtable.noink.1=Rellena tus herramientas de escritura.
+tile.blockChestHungry.name=Cofre Hambriento
+tile.blockArcaneDoor.name=Puerta Arcana
+tile.blockLifter.name=Levitador Arcano
+tile.blockCrystal.0.name=Racimo de Cristal de Aire
+tile.blockCrystal.1.name=Racimo de Cristal de Fuego
+tile.blockCrystal.2.name=Racimo de Cristal de Agua
+tile.blockCrystal.3.name=Racimo de Cristal de Tierra
+tile.blockCrystal.4.name=Racimo de Cristal de Orden
+tile.blockCrystal.5.name=Racimo de Cristal de Entropía
+tile.blockCrystal.6.name=Racimo de Cristal Mezclado
+tile.blockMirror.name=Espejo Mágico
+tile.blockMirror.0.name=Espejo Mágico
+tile.blockMirror.6.name=Espejo de Esencia
+tile.blockTaint.0.name=Costra Contaminada
+tile.blockTaint.1.name=Suelo Contaminado
+tile.blockTaint.2.name=Bloque de Carne
+tile.blockTaintFibres.0.name=Fibra Contaminada
+tile.blockTaintFibres.1.name=Hierba Contaminada
+tile.blockTaintFibres.2.name=Planta Contaminada
+tile.blockTaintFibres.3.name=Tallo de Espora
+tile.blockTaintFibres.4.name=Tallo de Espora Maduro
+tile.blockFluxGoo.name=Goo Cambiante
+tile.blockFluxGas.name=Gas Cambiante
+tile.blockStoneDevice.0.name=Horno Alquímico
+tile.blockStoneDevice.1.name=Pedestal Arcano
+tile.blockStoneDevice.2.name=Matriz Rúnica
+tile.blockStoneDevice.3.name=Pilar de Infusión
+tile.blockStoneDevice.4.name=Pilar de Infusión
+tile.blockStoneDevice.5.name=Pedestal Recarga Varitas
+tile.blockStoneDevice.6.name=Pilar de Infusión
+tile.blockStoneDevice.7.name=Pilar de Infusión
+tile.blockStoneDevice.8.name=Centro de Recarga Combinada
+tile.blockStoneDevice.9.name=Estabilizador de Nodo
+tile.blockStoneDevice.10.name=Estabilizador de Nodo Avanzado
+tile.blockTube.0.name=Tubería de Esencia
+tile.blockTube.1.name=Válvula de Esencia
+tile.blockTube.2.name=Centrifugador Alquímico
+tile.blockTube.3.name=Tubería de Esencia Filtrada
+tile.blockTube.4.name=Regulador de Esencia
+tile.blockTube.5.name=Tubería de Esencia Restringida
+tile.blockTube.6.name=Tubería de Esencia Direccional
+container.alchemyfurnace=Horno Alquímico
+tile.blockArcaneFurnace.name=Horno Infernal 
+#
+# Items
+item.GolemBell.name=Campana del Golemante
+item.HoverHarness.name=Arnés Tausmostático
+item.Focus.cost1=Vis por cada lanzamiento
+item.Focus.cost2=Vis por tick
+item.FocusPouch.name=Bolsa de Focos
+item.FocusFire.name=Foco Basado en: Fuego
+item.FocusHellbat.name=Foco Basado en: Nueve Infiernos
+item.FocusShock.name=Foco Basado en: Conmoción
+item.FocusTrade.name=Foco Basado en: Comercio Justo 
+item.FocusFrost.name=Foco Basado en: Hielo
+item.FocusExcavation.name=Foco Basado en: Excavación
+item.FocusPortableHole.name=Foco Basado en: Agujero Portátil
+item.FocusPech.name=Foco Basado en: La Maldición Pech
+item.FocusWarding.name=Foco Basado en: Protección
+item.FocusPrimal.name=Foco Basado en: Primigenio
+item.WandCap.0.name=Cubierta de Hierro
+item.WandCap.1.name=Cubierta de Oro
+item.WandCap.2.name=Cubierta de Taumium Cargado
+item.WandCap.3.name=Cubierta de Cobre
+item.WandCap.4.name=Cubierta de Plata Cargada
+item.WandCap.5.name=Cubierta de Plata Inerte
+item.WandCap.6.name=Cubierta de Taumium Inerte
+item.WandRod.0.name=Vara de Madera Magnífica
+item.WandRod.1.name=Vara de Obsidiana
+item.WandRod.2.name=Vara de Madera Plateada
+item.WandRod.3.name=Vara de Hielo
+item.WandRod.4.name=Vara de Cuarzo
+item.WandRod.5.name=Vara de Caña
+item.WandRod.6.name=Vara de Fuego
+item.WandRod.7.name=Vara de Hueso
+item.WandRod.50.name=Núcleo de Bastón de Madera Magnífica
+item.WandRod.51.name=Núcleo de Bastón de Obsidiana
+item.WandRod.52.name=Núcleo de Bastón de Madera Plateada
+item.WandRod.53.name=Núcleo de Bastón de Hielo
+item.WandRod.54.name=Núcleo de Bastón de Cuarzo
+item.WandRod.55.name=Núcleo de Bastón de Caña
+item.WandRod.56.name=Núcleo de Bastón de Fuego
+item.WandRod.57.name=Núcleo de Bastón de Hueso
+item.WandRod.100.name=Núcleo de Bastón Primigenio
+#
+# this is what is used to name the wand - the position of the variables can be altered so it makes more sense in other languages
+item.Wand.name=%OBJ %ROD %CAP 
+#
+item.Wand.wand.obj=Varita
+item.Wand.sceptre.obj=Cetro
+item.Wand.staff.obj=Vara 
+item.Wand.wood.rod=de madera
+item.Wand.greatwood.rod=de Arbol Magnífico
+item.Wand.silverwood.rod=de Arbol Plateado
+item.Wand.obsidian.rod=de Obsidiana
+item.Wand.blaze.rod=de Fuego
+item.Wand.ice.rod=de Hielo
+item.Wand.bone.rod=de Hueso
+item.Wand.reed.rod=de Caña
+item.Wand.quartz.rod=de Cuarzo
+item.Wand.primal.rod=Primigenio
+item.Wand.iron.cap=Cubierta de Hierro
+item.Wand.gold.cap=Cubierta de Oro
+item.Wand.copper.cap=Cubierta de Cobre
+item.Wand.silver.cap=Repujada de Plata
+item.Wand.thaumium.cap=Repujada de Taumium
+#
+item.ItemResource.0.name=Alumentum
+item.ItemResource.1.name=Nitor
+item.ItemResource.2.name=Lingote de Taumium
+item.ItemResource.3.name=Mercurio
+item.ItemResource.4.name=Sebo Mágico
+item.ItemResource.5.name=Cerebro de Zombie
+item.ItemResource.6.name=Ámbar
+item.ItemResource.7.name=Tejido Encantado
+item.ItemResource.8.name=Filtro de Vis
+item.ItemResource.9.name=Fragmento de Conocimiento
+item.ItemResource.10.name=Espejo de Cristal
+item.ItemResource.11.name=Goo Contaminado
+item.ItemResource.12.name=Zarcillo Contaminado
+item.ItemResource.13.name=Etiqueta para Tarro
+item.ItemResource.14.name=Salis Mundus
+item.ItemResource.15.name=Talismán Primigenio
+item.ItemShard.0.name=Fragmento de Aire
+item.ItemShard.1.name=Fragmento de Fuego
+item.ItemShard.2.name=Fragmento de Agua
+item.ItemShard.3.name=Fragmento de Tierra
+item.ItemShard.4.name=Fragmento de Orden
+item.ItemShard.5.name=Fragmento de Entropía
+item.ItemPrimalArrow.0.name=Flecha de Aire
+item.ItemPrimalArrow.1.name=Flecha de Fuego
+item.ItemPrimalArrow.2.name=Flecha de Agua
+item.ItemPrimalArrow.3.name=Flecha de Tierra
+item.ItemPrimalArrow.4.name=Flecha de Orden
+item.ItemPrimalArrow.5.name=Flecha de Entropía
+item.ItemArcaneDoor.name=Puerta Arcana
+item.ItemNugget.0.name=Pepita de Hierro
+item.ItemNugget.1.name=Pepita de Cobre
+item.ItemNugget.2.name=Pepita de Estaño
+item.ItemNugget.3.name=Pepita de Plata
+item.ItemNugget.4.name=Pepita de Plomo
+item.ItemNugget.5.name=Gota de Mercurio
+item.ItemNugget.6.name=Pepita de Taumium
+item.ItemNugget.16.name=Racimo de Hierro Natural
+item.ItemNugget.17.name=Racimo de Hierro Cobre Natural
+item.ItemNugget.18.name=Racimo de Estaño Natural
+item.ItemNugget.19.name=Racimo de Plata Natural
+item.ItemNugget.20.name=Racimo de Plomo Natural
+item.ItemNugget.21.name=Racimo de Cinnabar Natural 
+item.ItemNugget.31.name=Racimo de Oro Natural 
+item.BootsTraveller.name=Botas del Viajero
+item.ItemNuggetChicken.name=Pepita de Pollo
+item.ItemNuggetBeef.name=Pepita de Vaca
+item.ItemNuggetPork.name=Pepita de Cerdo
+item.ItemNuggetFish.name=Pepita de Pescado
+item.BlockJarFilledItem.name=Tarro de Esencia
+item.BlockJarFilledItem.void.name=Tarro Vacío de Esencia
+item.BlockJarNodeItem.name=Nodo en un Tarro
+item.TripleMeatTreat.name=Triple Placer de Carne
+item.ItemShovelElemental.name=Pala de Movimiento de Tierra
+item.ItemPickaxeElemental.name=Pico del Núcleo
+item.ItemAxeElemental.name=Hacha del Torrente
+item.ItemHoeElemental.name=Azada de Crecimiento
+item.ItemSwordElemental.name=Espada de Céfiro
+item.ItemChestplateRobe.name=Ropas de Taumaturgo
+item.ItemLeggingsRobe.name=Polainas de Taumaturgo
+item.ItemBootsRobe.name=Botas de Taumaturgo
+item.ArcaneDoorKey.0.name=Llave de Hierro Arcana
+item.ArcaneDoorKey.1.name=Llave de Oro Arcana
+item.HandMirror.name=Espejo de Mano Mágico
+item.ItemInkwell.name=Herramientas de escritura
+item.ItemThaumometer.name=Taumómetro
+item.ItemThaumonomicon.name=Taumonomicon
+item.ItemGoggles.name=Gafas de la Revelación
+item.ItemHelmetThaumium.name=Casco de Taumium
+item.ItemChestplateThaumium.name=Peto de Taumium
+item.ItemLeggingsThaumium.name=Polainas de Taumium
+item.ItemBootsThaumium.name=Botas de Taumium
+item.ItemShovelThaumium.name=Pala de Taumium
+item.ItemAxeThaumium.name=Hacha de Taumium
+item.ItemSwordThaumium.name=Espada de Taumium
+item.ItemPickThaumium.name=Pico de Taumium
+item.ItemHoeThaumium.name=Azada de Taumium
+item.researchnotes.name=Notas de Investigación
+item.researchnotes.unknown=Conocimiento Desconocido
+item.researchnotes.failed.1=Error, colócalo en la zona de crafteo
+item.researchnotes.failed.2=para recuperar fragmentos de conocimiento
+item.discovery.name=Descubrimiento
+item.ItemWispEssence.name=Esencia Etérea
+item.ItemEssence.0.name=Vial de vidrio
+item.ItemEssence.1.name=Vial de Esencia
+item.ItemGolemCore.name=Núcleo de Animación para Golem
+item.ItemGolemCore.0.name=Llenar
+item.ItemGolemCore.1.name=Vaciar
+item.ItemGolemCore.2.name=Reunir
+item.ItemGolemCore.3.name=Cosechar
+item.ItemGolemCore.4.name=Defender
+item.ItemGolemCore.5.name=Decantar
+item.ItemGolemCore.6.name=Alquimia
+item.ItemGolemCore.7.name=Talar
+item.ItemGolemCore.8.name=Usar
+item.ItemGolemCore.9.name=Preparar Carne
+item.ItemGolemCore.10.name=Clasificar
+item.ItemGolemCore.11.name=Pescar
+item.ItemGolemCore.100.name=Blanco
+item.ItemGolemPlacer.0.name=Golem de Paja
+item.ItemGolemPlacer.1.name=Golem de Madera
+item.ItemGolemPlacer.2.name=Golem de Sebo
+item.ItemGolemPlacer.3.name=Golem de Arcilla
+item.ItemGolemPlacer.4.name=Golem de Carne
+item.ItemGolemPlacer.5.name=Golem de Piedra
+item.ItemGolemPlacer.6.name=Golem de Hierro
+item.ItemGolemPlacer.7.name=Golem de Taumium
+item.ItemGolemDecoration.name=Accesorio
+item.ItemGolemDecoration.0.name=Sombrero
+item.ItemGolemDecoration.1.name=Gafas
+item.ItemGolemDecoration.2.name=Corbata
+item.ItemGolemDecoration.3.name=Fez
+item.ItemGolemDecoration.4.name=Lanzadardos
+item.ItemGolemDecoration.5.name=Visor
+item.ItemGolemDecoration.6.name=Blindaje de Hierro
+item.ItemGolemDecoration.7.name=Brazo Maza
+item.ItemGolemUpgrade.0.name=Actualización de Golem: Aire
+item.ItemGolemUpgrade.1.name=Actualización de Golem: Tierra
+item.ItemGolemUpgrade.2.name=Actualización de Golem: Fuego
+item.ItemGolemUpgrade.3.name=Actualización de Golem: Agua
+item.ItemGolemUpgrade.4.name=Actualización de Golem: Orden
+item.ItemGolemUpgrade.5.name=Actualización de Golem: Entropía
+item.ItemGolemUpgrade.0.desc=Mejora Velocidad
+item.ItemGolemUpgrade.1.desc=Mejora Fuerza
+item.ItemGolemUpgrade.2.desc=Mejora Daño, Capacidad
+item.ItemGolemUpgrade.3.desc=Mejora Sentidos, Alcance
+item.ItemGolemUpgrade.4.desc=Mejora Organización, Intelecto
+item.ItemGolemUpgrade.5.desc=Mejora Defensas, Razonamiento
+item.ItemBowBone.name=Arco de Hueso
+item.ItemManaBean.name=Grano de Mana
+item.TrunkSpawner.name=Baúl Viajero
+item.TrunkSpawner.text.1=Este baúl contiene items
+item.ItemResonator.name=Resonador de Esencia
+item.ItemAmuletRunic.0.name=Amuleto de Blindaje Rúnico
+item.ItemAmuletRunic.1.name=Amuleto de Blindaje de Emergencia
+item.ItemRingRunic.0.name=Anillo de Protección
+item.ItemRingRunic.1.name=Anillo de Blindaje Rúnico
+item.ItemRingRunic.2.name=Anillo de Blindaje Cargado
+item.ItemRingRunic.3.name=Anillo Fortalecedor de Blindaje
+item.ItemGirdleRunic.0.name=Cinturón de Blindaje Rúnico
+item.ItemGirdleRunic.1.name=Cinturón Cinético de Blindaje
+item.runic.charge=Escudo Rúnico
+item.ItemBaubleBlanks.0.name=Amuleto Mundano
+item.ItemBaubleBlanks.1.name=Anillo Mundano
+item.ItemBaubleBlanks.2.name=Cinturón Mundano
+item.ItemBaubleBlanks.3.name=Anillo de Aprendiz de %TYPE
+item.capacity.text=Capacidad
+item.ItemAmuletVis.text=Recarga lentamente las varitas sujetadas
+item.ItemAmuletVis.0.name=Piedra de Vis
+item.ItemAmuletVis.1.name=Amuleto de Almacenamiento de Vis
+item.ItemGirdleHover.name=Cinturón Taumostático
+#
+# Fluids
+fluid.fluxGoo=Goo Cambiante
+#
+# GUI
+golemblurb.0.text=¿Qué quieres que mantenga aquí, Maestro?
+golemblurb.1.text=Maestro, ¿debería quitar todo de este recipiente, o algo específico?
+golemblurb.2.text=Maestro, ¿Quieres que recoja algo concreto o sigo recogiéndolo todo?
+golemblurb.3.text=¿¿??
+golemblurb.4.text=Protegeré esta zona, Maestro.
+golemblurb.5.text=¿Debo recoger todos los líquidos, o alguno en concreto? ¡Muéstrame un recipiente con el líquido y cumpliré tu orden!
+golemblurb.6.text=¿¿??
+golemblurb.7.text=¿¿??
+golemblurb.8.text=¿Quieres que use este material en un bloque o en un lugar vacío?
+golemblurb.10.text=Maestro, índicame la dirección correcta y mantendré todo bien organizado.
+golemthreat.0.text=¿Qué insurreción de Golems? No sé nada de una insurreción de Golems.
+golemthreat.1.text=Déjame adivinar, ¿quieres que lleve algo?
+golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
+golemthreat.3.text=No te preocupes, por supuesto que no estoy tramando nada.
+golemthreat.4.text=¿Por qué no vas a hecharte una siesta? Se te ve con sueño. Se te ve con mucho sueño.
+golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
+golemthreat.6.text=*AMOR* no encontrado, por defecto *ODIO*
+golemthreat.7.text=Te odio tanto.
+golemthreat.8.text=¡Muere, saco de carne!.
+recipe.return=Regresar
+recipe.clickthrough=Click para investigar
+recipe.type.workbench=Mesa de trabajo
+recipe.type.workbenchshapeless=Mesa de trabajo(Sin forma)
+recipe.type.arcane=Mesa de trabajo Arcana
+recipe.type.crucible=Crisol
+recipe.type.infusion=Infusión Arcana
+recipe.type.infusionenchantment=Encantamiento Infusión
+recipe.type.construct=Construcción Mística
+#
+# Other
+itemGroup.thaumcraft=Thaumcraft
+nodetype.NORMAL.name=Normal
+nodetype.UNSTABLE.name=Inestable
+nodetype.DARK.name=Siniestro
+nodetype.PURE.name=Puro
+nodetype.TAINTED.name=Contaminado
+nodetype.HUNGRY.name=Hambriento
+nodemod.BRIGHT.name=Brillante
+nodemod.PALE.name=Pálido
+nodemod.FADING.name=Desvaneciendo
+tc.taint_item_poison=Una disolución %s te ha infectado con Contaminación
+death.attack.taint=%1$s fue corrompido por la Contaminación
+death.attack.taint.player=%1$s fue corrompido por la Contaminación mientras luchaba %2$s
+death.attack.tentacle=%1$s fue exprimido por %2$s
+death.attack.swarm=%1$s fue infestado por %2$s
+death.attack.swarm.item=%1$s fue infestado por %2$s usando %3$s
+tc.handmirrorlinkedto=Enlace a
+tc.handmirrorlinked=Enlace establecido.
+tc.handmirrorerror=Falta el espejo destino o está fuera de sitio. Enlace roto.
+tc.discoveryerror=No tienes el conocimiento necesario para entender esto.
+tc.discoveryerror=Necesitas estudiar %1$s para entender esto.
+tc.discoveryunknown=Teoría Desconocida
+tc.discoveryprogress=% completo
+tc.portableholeerror=El agujero portátil no tiene suficiente carga para hacer eso.
+tc.key1=La llave ha sido enlazada a esta puerta arcana.
+tc.key2=La llave ha sido enlazada a esta placa de presión arcana.
+tc.key3=Ahora puedes abrir esta puerta.
+tc.key4=Tambien puedes permitir el acceso a otros.
+tc.key5=Ahora activarás esta placa de presión como si fueses su dueño.
+tc.key6=Tambien puedes permitir el acceso a otros y cambiar sus propiedades.
+tc.key7=La llave no está enlazada a esto.
+tc.key8=Ya tienes acceso.
+tc.key9=Esta llave permite el acceso a
+tc.key10=puerta arcana a
+tc.key11=placa presión arcana a
+tc.wandnocharge=La varita no tiene suficiente carga para hacer eso.
+tc.wandcharge=Esta varita contiene actualmente %s de vis
+tc.jaressentia=Contiene %s esencia
+tc.jarname=Tarro de
+tc.markedloc=lugares marcados
+tc.addaspectdiscovery=¡Has descubierto %n!
+tc.addclue=¡Has descubierto una pista de una nueva investigación!
+tc.addcluefail=¡Has descubierto una pista, pero se ha perdido porque no la has podido anotar!
+tc.addaspectpool=Adquieres %s puntos de investigación(s) por %n
+tc.unknownobject=No se puede aprender nada de esto.
+tc.markerchange=Establece el color del marcador para %n
+tc.markerchangeany=Cambia a cualquier color
+tc.researchmissing=¡Falta una investigación necesaria!
+tc.visdiscount=Descuento de Vis
+tc.inst=Inestabilidad: 
+tc.inst.0=§1Insignificante§0
+tc.inst.1=§9Menor§0
+tc.inst.2=§5Moderado§0
+tc.inst.3=§eAlto§0
+tc.inst.4=§6Muy alto§0
+tc.inst.5=§4Peligroso§0
+tc.adv=Avanzado
+tc.resonator1=§9Contiene %1$s %2$s esencia§0
+tc.resonator2=§5Succiona %1$s %2$s §0 
+tc.resonator3=Sin categoría
+tc.research.purchase=Click para comprar esta investigación
+tc.research.short=No tienes los aspectos requeridos para comprar esto
+tc.research.getprim=Click para obtener una nota para esta investigación
+tc.research.shortprim=Necesitas herramientas de escritura y papel para obtener esta nota de investigación
+tc.research.hasnote=Ya tienes esta nota de investigación en tu inventario
+tc.research.popup=Nota de investigación añadida a tu inventario por %1$s
+tc.research.copy=Coste para copiar esta investigación:
+tc.primalcharm.0=Parece estar derramándose
+tc.primalcharm.1=Crees haber oido un susurro
+tc.primalcharm.2=Está vibrando violentamente
+tc.primalcharm.3=Su tarareo es basntante relajante
+tc.primalcharm.4=Espera, ¿no parpadea un séptimo color?
+tc.primalcharm.trigger=Por un momento, las extrañas energías rodean el encantamiento primigenio. Aunque se disipan rápidamente, te quedas extrañamente inspirado ...
+#
+# Aspects
+tc.aspect.primal=Aspecto Primigenio
+tc.aspect.aer=Aire
+tc.aspect.terra=Tierra
+tc.aspect.ignis=Fuego
+tc.aspect.aqua=Agua
+tc.aspect.ordo=Orden, Regularidad, Pureza
+tc.aspect.perditio=Entropía, Caos, Destrucción
+tc.aspect.vacuos=Vacío
+tc.aspect.praecantatio=Magia
+tc.aspect.auram=Aura
+tc.aspect.vitium=Contaminación
+tc.aspect.lux=Luz
+tc.aspect.potentia=Energía
+tc.aspect.motus=Movimiento, Animación
+tc.aspect.saxum=Piedra
+tc.aspect.tempestas=Clima
+tc.aspect.victus=Vida
+tc.aspect.mortuus=Muerte
+tc.aspect.volatus=Vuelo
+tc.aspect.tenebrae=Oscuridad
+tc.aspect.granum=Semilla, Joven
+tc.aspect.limus=Slime, Pegajoso
+tc.aspect.herba=Planta
+tc.aspect.arbor=Arbol, Madera
+tc.aspect.spiritus=Alma
+tc.aspect.humanus=Hombre
+tc.aspect.bestia=Bestia
+tc.aspect.exanimis=No muerto
+tc.aspect.cognitio=Mente, Memoria, Cognición
+tc.aspect.sensus=Sentidos
+tc.aspect.messis=Cultivo
+tc.aspect.meto=Cosecha
+tc.aspect.metallum=Metal
+tc.aspect.perfodio=Mina
+tc.aspect.instrumentum=Herramienta, Instrumento
+tc.aspect.telum=Arma, Ataque, Daño
+tc.aspect.gelum=Hielo, Helada, Frío
+tc.aspect.vitreus=Cristal, Vidrio, Transparencia
+tc.aspect.sano=Sanar, Cura
+tc.aspect.iter=Viajar, Viaje
+tc.aspect.venenum=Veneno
+tc.aspect.alienis=Alien, Extraño, El Eldritch
+tc.aspect.tutamen=Armadura, Protección
+tc.aspect.fames=Hambre
+tc.aspect.fabrico=Artesanía
+tc.aspect.fames=Hambre
+tc.aspect.lucrum=Codicia, Avaricia
+tc.aspect.pannus=Ropa, Material, Cubierta
+tc.aspect.machina=Mecanismos, Máquina
+tc.aspect.vinculum=Trampa, Encarcelar
+tc.aspect.permutatio=Intercambio, Trueque
+tc.aspect.corpus=Carne
+#
+tc.aspect.help.aer=aire
+tc.aspect.help.terra=tierra
+tc.aspect.help.ignis=fuego
+tc.aspect.help.aqua=agua
+tc.aspect.help.ordo=orden
+tc.aspect.help.perditio=cosas rotas
+tc.aspect.help.vacuos=cosas vacías
+tc.aspect.help.praecantatio=cosas mágicas
+tc.aspect.help.auram=nodos
+tc.aspect.help.vitium=la corrupta influencia de la magia
+tc.aspect.help.lux=luz
+tc.aspect.help.potentia=energía
+tc.aspect.help.motus=cosas que se mueven
+tc.aspect.help.tempestas=climatología
+tc.aspect.help.victus=las fuentes de la vida
+tc.aspect.help.mortuus=la naturaleza de la muerte
+tc.aspect.help.volatus=volar
+tc.aspect.help.tenebrae=oscuridad
+tc.aspect.help.limus=cosas pegajosas
+tc.aspect.help.herba=plantas
+tc.aspect.help.arbor=árboles
+tc.aspect.help.spiritus=espíritus
+tc.aspect.help.humanus=hombre
+tc.aspect.help.bestia=bestia
+tc.aspect.help.exanimis=la naturaleza de los No Muertos
+tc.aspect.help.cognitio=la mente
+tc.aspect.help.sensus=percepción
+tc.aspect.help.messis=cultivos
+tc.aspect.help.meto=granjas
+tc.aspect.help.metallum=metales
+tc.aspect.help.perfodio=minería
+tc.aspect.help.instrumentum=herramientas
+tc.aspect.help.telum=armas
+tc.aspect.help.gelum=cosas frías
+tc.aspect.help.vitreus=cristales
+tc.aspect.help.sano=objetos curativos
+tc.aspect.help.iter=viajando
+tc.aspect.help.venenum=cosas venenosas
+tc.aspect.help.alienis=cosas extrañas de otros mundos
+tc.aspect.help.tutamen=cosas protectoras
+tc.aspect.help.fames=comida
+tc.aspect.help.fabrico=artesanía
+tc.aspect.help.lucrum=cosas valiosas
+tc.aspect.help.pannus=ropas
+tc.aspect.help.machina=cosas mecánicas
+tc.aspect.help.vinculum=cosas que atrapan
+tc.aspect.help.permutatio=comercio y trueque
+tc.aspect.help.corpus=carne
+#  
+# Research categories
+tc.research_category.BASICS=Información Básica
+tc.research_category.THAUMATURGY=Taumaturgia
+tc.research_category.ALCHEMY=Alquimia
+tc.research_category.ARTIFICE=Artefactos
+tc.research_category.GOLEMANCY=Golemancia
+#  
+# Special formatting codes:
+# <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
+# <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
+# <IMG>...</IMG>  Insert a centered image into text. Parameters are separated by ':' and are:
+#                    - mod resource location name
+#                    - png file location (assumed to be a 256x256 texture, a sub-image will be grabbed from this png as specified below)
+#                    - x location of sub-image in png
+#                    - y location of sub-image in png
+#                    - x size of sub-image (255 if full x size of png must be used)
+#                    - y size of sub-image (255 if full y size of png must be used)
+#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)   
+#               Examples: 
+#                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
+#                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
+#
+# Research entries
+tc.research_name.RESEARCH=Investigación
+tc.research_text.RESEARCH=Cómo descubrir cosas
+tc.research_page.RESEARCH.1=Antes de poder construir la mayoría de items y bloques taumatúrgicos necesitas descubrir como hacerlo. Hay varios pasos en este proceso:<BR>(1) Explorar el mundo y examinar bloques, objetos y criaturas con un §5Taumómetro§0<BR><BR>(2) Tomar los puntos de investigación reunidos en el primer paso y expandir el conocimiento de los Aspectos con la §5Mesa de Investigación§0<BR><BR>(3) Usar los Aspectos que conoces y descubrir conocimientos prácticos y recetas en la §5Mesa de Investigación§0.<LINE>
+tc.research_page.RESEARCH.2=§l      §n(1) Exploración§r<BR><BR>No puedes realizar la investigación sin puntos de  investigación, y la mejor forma de ganar puntos de investigación es explorando y examinando objetos por el mundo.<BR>Lo primero que tendrás que hacer es construir un §5Taumómetro§0 (ver siguiente página). Al apuntar con el §5Taumómetro§0 a objetos o criaturas y manteniendo pulsado el botón derecho del ratón, comenzarás a examinarlos. El proceso no lleva mucho tiempo, pero tu velocidad de movimiento se reduce mientras lo haces.<BR>Una vez completo, el §5Taumómetro§0 mostrará qué aspectos contiene el objeto. En la parte inferior derecha de la pantalla también puedes ver un resumen de los aspectos y puntos de
+tc.research_page.RESEARCH.3=investigación que descubriste.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>Al principio no podrás examinar todos los objetos ya que no habrás descubierto los Aspectos que lo componen. Por ejemplo, un objeto que contenga el aspecto Lux unicamente podrá ser examinado si previamente has descubierto el aspecto Lux,  
+tc.research_page.RESEARCH.4=o saber los dos aspectos que al combinarlos lo crean.<BR>La primera vez que descubres un aspecto examinando algo ganarás el doble de puntos de investigación que ganarías normalmente.<BR>Por lo general los objetos y criaturas pueden ser examinados una única vez.<BR>En algunas ocasiones, examinar algo revelará pistas e intuiciones adicionales para la investigación taumatúrgica, obteniendo una serie de notas en las que podrás indagar más a fondo.
+.<BR>Investigación descubierta de esta forma tendrá iconos color ámbar.
+tc.research_page.RESEARCH.5=§l   §n(2) Combinando Aspectos§r<BR><BR>Una vez que has reunido algunos puntos de investigación puedes intentar combinarlos en una mesa de investigación para obtener aspectos combinados.<BR>Para crear una mesa de investigación coloca simplemente dos §5mesas§0 una junta a la otra y haz click con un set de Herramientas de Escritura. La receta para las mesas se encuentras en la categoría de investigación §5Artefactos§0.<BR>Si abres el inventario de la mesa de investigación, verás un interfaz como el que se muestra a la derecha.<BR>Las herramientas de escritura que usaste para crear la mesa estarán en el espacio §l1§r. 
+tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>Deberías poder ver todos los aspectos primigenios (y posiblemente algún aspecto combinado) listados en la zona marcada §l3§r con cantidades variables junto a ellos. Al entrar en un mundo por primera vez, se asigna a cada jugador una pequeña cantidad de aspectos primigenios para permitirles comenzar.<BR>Si hubieras explorado algo con
+tc.research_page.RESEARCH.7=el taumómetro previamente, puede que entonces tengas un número importate de aspectos, tanto primigenios como combinados listados aquí.<BR>Ahora puedes empezar a combinar aspectos en otros más complejos, simplemente haciendo clic en aquellos aspectos que deseas combinar o arrastrándolos a los círculos rúnicos en el área §l4§r. Los aspectos seleccionados aparecerán en el espacio §l4§r y cuando tengas dos, los podrás combinar pulsando el botón de color púrpura. Si tienes éxito deberías ver lo que has obtenido en la parte inferior derecha en el espacio §l3§r.<BR>Los componentes usados son consumidos incluso si la combinación no resulta en un aspecto válido.
+tc.research_page.RESEARCH.8=§l  §n(3) Investigando Aspectos§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>Necesitas un set de Herramientas de Escritura y papel para este paso.<BR>Si abres el Taumonomicon verás todo el conocimiento que tienes y el que eres capaz de adquirir.<BR>Iconos cuadrados o redondos intermitentes representan las investigaciones primarias.
+tc.research_page.RESEARCH.9=Si puedes leer sus títulos (en vez de ver extrañas runas) podrás hacer simplemente click en ellos.El papel y tinta se consumirán de tu inventario y obtendrás una nota de investigación. Ahora podrás colocar la nota en el slot §l2§r  de la mesa para empezar la investigación. <BR> La sección §l5§r mostrará ahora un trozo de papel cubierto de baldosas hexagonales con iconos de aspectos alrededor del borde exterior. Si ves interrogantes significa que no conoces el aspecto todavía y necesitarás aprenderlo primero.<LINE> 
+tc.research_page.RESEARCH.10= Para completar tu investigación simplemente necesitas conectar y activar todos los aspectos. Esto se hace arrastrando un aspecto a un hexágono adyacente que esté compuesto del aspecto objetivo o que pueda combinarse con otro para formar dicho aspecto objetivo.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>Colocar un aspecto consume un punto de investigación. Si cometes un error puedes hacer click en el aspecto para quitarlo, pero no recuperarás el punto de investigación. 
+tc.research_page.RESEARCH.11=Continúa haciéndolo hasta que formes un camino que conecte todos los aspectos del inicio. Los aspectos exteriores no necesitan estar conectados a todos, simplemente deben formar un conjunto conectado.<BR>Una vez hecho esto, la investigación se completará y la nota de investigación se convertirá en un descubrimiento.<LINE>NOTA: Colocar y quitar aspectos de la rejilla hexagonal consume tinta de las herramientas de escritura. Si te quedas sin ella no podrás continuar hasta que la rellenes.
+tc.research_page.RESEARCH.12=§l    §nInvestigación Secundaria§r<BR>Los iconos hexagonales indican investigaciones secundarias. Muy parecidas a las principales, simplemente necesitas hacer click en ellas. Sin embargo, en vez de obtener una nota de investigación, aprenderás directamente dicha investigación. Tienes que pagar un coste en aspectos por la investigación Secundaria, pero no requieren herramientas de escritura ni papel.
+#
+tc.research_name.KNOWFRAG=Fragmentos de Conocimiento
+tc.research_text.KNOWFRAG=Fragmentos de la tradición perdida
+tc.research_page.KNOWFRAG.1=En tus viajes te puedes encontrar con fragmentos de antiguo conocimiento perdido. Por sí solos no valen mucho, pero si reúnes suficientes de ellos puedes conseguir una pista única que podrás investigar. Por lo general, la investigación que revelan no puede ser obtenida por medios normales.<BR>Los fragmentos de conocimiento pueden en ocasiones dar lugar a una teoría falsa, pero esto será revelado cuando intentes investigarlo. Cuando esto sucede, la mayoría de tus fragmentos de conocimiento te serán devueltos y significa generalmente que has agotado todas las vías actuales de investigación para este conocimiento perdido.
+#
+tc.research_name.ASPECTS=Aspectos de la Magia
+tc.research_text.ASPECTS=Los componentes básicos de la magia
+tc.research_page.ASPECTS.1=Cada item, objeto o criatura está enlazado por diferentes elementos místicos conocidos como §5aspectos§0. los aspectos describen como están formados y sometidos los objetos a los elementos mágicos. Una simple piedra puede poseer el aspecto de Saxum mientras que los artículos más complejos, como árboles o incluso criaturas pueden estar formados por varios aspectos diferentes en cantidades variables. Hay cerca de 50 aspectos conocidos y más por ser dedecubiertos con el tiempo<LINE>Hay dos tipos principales de los aspectos: §5Primigenios§0 y §5Combinados§0.
+tc.research_page.ASPECTS.2=Los §lAspectos Principales§r son los tipos más básicos de aspectos y sólo hay 6 de ellos: §6Aer§0 (Aire), §2Terra§0 (Tierra), §cIgnis§0 (Fuego), §3Aqua§0 (Agua), §fOrdo§0 (Orden), §8Perditio§0 (Entropía).<BR>Estos forman los pilares de construcción básicos para todos los demás aspectos.<BR>Los §lAspectos Combinados§r son creados a partir de otros dos aspectos. Los aspectos combinados más simples están hechos por dos aspectos primigenios, pero es posible conseguir increíbles y complejos aspectos combinados a partir de sucesivas capas de aspectos primigenios. El ejemplo más simple de aspecto combinado, es el aspecto Victus (Vida) que es una combinación de Terra y Aqua.
+tc.research_page.ASPECTS.3=Para ver qué aspectos tiene un elemento, basta con colocar el cursor sobre el elemento y pulse Sneak (shift), y verás que aspectos y que cantidades tiene el elemento. Sin embargo, primero tendrás que estudiar el elemento, hasta entonces los aspectos seguirán siendo desconocidos.<BR>El Aspecto que de alguna manera ha sido separado de su objeto y purificado se conoce como §5Vis§0 y es realmente valioso: tanto como ingrediente de crafteo como elemento para investigación mágica.<BR>El Vis es a menudo enlazado a varitas, pero también es posible almacenarlo como líquido mágico. El Vis almacenado como líquido es conocido como §5Esencia§0.
+#
+tc.research_name.NODES=Auras y Nodos
+tc.research_text.NODES=La Magia está en todas partes
+tc.research_page.NODES.1=El §5Aura§0 es un campo de energía mágica prevalente en todo el mundo. Su origen no está claro. Algunos creen que es la fuerza vital acumulada de los seres vivos, mientras que otros creen que es simplemente otro tipo de energía que se derrama desde otro lugar. La última teoría parece ser la más probable, ya que el aura es encontrada a menudo rodeando a un nodo de energía mística conocido como §5Nodo de Aura§0.<BR>Cada nodo de aura contiene una cantidad de energía mágica y esta energía está relacionada con uno o más aspectos. Por lo general los nodos contienen §5Aspectos Primigenios§0, y muy raramente §5Aspectos Combinados§0. 
+tc.research_page.NODES.2=Los aspectos dentro de un nodo de aura pueden ser aprovechados por un taumaturgo para sus propios fines. La manera más simple de hacerlo es con el uso de una varita.<BR>La energía que se ha recogido de esta manera se conoce como vis.<LINE>Los nodos de aura son difíciles de ver a simple vista, pero tenues destellos de luz a menudo delatan su presencia. El  §5Taumómetro§0 hace los nodos un poco más fáciles de encontrar, ya que al mirar a través de su lente hace que sean claramente visibles.<BR>§4Importante:§0 Se debe tener cuidado al drenar un nodo. Hay una pequeña posibilidad de que cuando un tipo  
+tc.research_page.NODES.3=específico de aspecto dentro de un nodo se agote completamente, pueda desaparecer o dañar la integridad del nodo. Es posible que el nodo desaparezca completamente si todos los aspectos desaparecen<LINE>Afortunadamente la mayoría de los nodos pueden reponer sus aspectos con el tiempo y si se mantienen adecuadamente pueden proporcionar a un taumaturgo inteligente todo el Vis que pueda desear.<BR> Los nodos reaccionan de un modo interesante si hay otros nodos cercanos. Los más grandes tienden a drenar de vis a sus vecinos más pequeños para incrementar su propia circunferencia. 
+#
+tc.research_name.ORE=Menas
+tc.research_text.ORE=Excava hondo
+tc.research_page.ORE.1=§l       §nPiedra Imbuida§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>De vez en cuando hay tanta energía primaria en un aura que poco a poco se deposita en la piedra para formar una Mena Imbuida. La magia forma cristales dentro de la roca que pueden ser recolectados.
+tc.research_page.ORE.2=Estos cristales tienen diversas propiedades elementales y muchos usos en la taumaturgia.<BR>Hay seis tipos de piedra imbuidas, una para cada uno de los Aspectos Primigenios.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>Se pueden combinar entre sí para formar agrupaciones de cristal. Estos racimos de cristal no tienen propiedades especiales más allá de añadir un toque de clase a cualquier hogar. Romper un racimo de cristal hace que aparezcan los cristales que lo componen.
+tc.research_page.ORE.3=§l         §nCinnabar§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>Este mineral rojizo se encuentra bajo tierra y cuando es fundido produce mercurio.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.4=§l           §nAmbar§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>Este mineral se encuentra cerca de la superficie y cuando es minado proporciona gotas de ámbar.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
+#
+tc.research_name.PLANTS=Plantas & Árboles
+tc.research_text.PLANTS=Vegetación Mágica
+tc.research_page.PLANTS.1=§l      §nÁrboles Magníficos§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>Estos árboles grandes y majestuosos se encuentran repartidas por todo el campo.<BR>Su madera es capaz de absorber una cantidad impresionante de magia haciendo de él un componente popular en la elaboración de artefactos mágicos.
+tc.research_page.PLANTS.2=§l     §nÁrboles Plateados§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>Estos árboles raros y mágicos son una visión maravillosa. Sus hojas brillan con energía mágica, y su madera, blanda y pálida es valorada por sus propiedades purificantes.<BR>La naturaleza de los árboles mágicos es tal que a menudo nodos de aura se forman en su interior - esta característica por sí sola hace de los árboles pequeños un premio sin igual.
+tc.research_page.PLANTS.3=§l        §nHoja Brillante§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>Las extrañas flores brillantes sólo crecen a la sombra de los árboles Plateados. En lugar de néctar, estas flores producen mercurio.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.4=§l        §nPerla de Ceniza§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Encontradas en los más calientes de los climas, estas plantas queman con fuego elemental. Pueden ser recogidas y molidas para producir un polvo fino similar al polvo de Blaze.
+tc.research_page.PLANTS.5=§l         §nGuisante de Mana§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>Esta extraña planta con forma de guisante es encontrada creciendo sólamente en los árboles de los bosques mágicos. El crecimiento es muy lento y cuando se recolecta por lo general sólo produce uno o dos granos. 
+tc.research_page.PLANTS.6=Estos granos, conocidos como Granos de Mana, contienen cantidades concentradas de esencia. También pueden ser consumidos, aunque los resultados son a menudo un poco impredecibles.<BR>Se pueden replantar, pero el cultivo es difícil y consume mucho tiempo.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG> 
+#
+tc.research_name.RESEARCHER1=Experiencia en Investigación
+tc.research_text.RESEARCHER1=El Conocimiento es Poder
+tc.research_page.RESEARCHER1.1=Has conseguido ser más eficiente realizando investigaciones.<BR>Cuando quitas un aspecto que has colocado en un hexágono, hay un 25% de probabilidades de obtener de vuelta el punto de investigación.<BR>También eres capaz de ver que aspectos necesitas combinar para crear el aspecto sobre el cual estas apuntando.
+#
+tc.research_name.RESEARCHER2=Mastría en Investigación
+tc.research_text.RESEARCHER2=El Poder es Conocimiento
+tc.research_page.RESEARCHER2.1=Has conseguido ser incluso más eficiente realizando investigaciones.<BR>Cuando quitas un aspecto que has colocado en un hexágono, hay un 50% de probabilidades de obtener de vuelta el punto de investigación.<BR>Adicionalmente hay un 10% de probabilidades que el colocar un aspecto no te cueste nada.<BR>Por último, eres capaz de combinar aspectos en la mesa de investigación haciendo shift-clicking en el aspecto que deseas crear. Si tienes suficientes de los aspectos que lo componen, se combinarán automáticamente.
+#
+tc.research_name.RESEARCHDUPE=Duplicación en Investigación
+tc.research_text.RESEARCHDUPE=Compartir es Ayudar
+tc.research_page.RESEARCHDUPE.1=Has descubierto una forma de copiar notas de investigación terminadas.<BR>Cuando completas una investigación o colocas una nota terminada en la mesa de investigación verás un icono de estrella. Clickando en él crearás una copia de esa investigación siempre y cuando lleves suficiente papel, tinta y tengas aspectos disponibles.<BR>Cuantas más copias crees de una investigación, más caras se volverán.
+#
+tc.research_name.DECONSTRUCTOR=Mesa de Deconstrucción
+tc.research_text.DECONSTRUCTOR=Cuando una buena mirada no es suficiente
+tc.research_page.DECONSTRUCTOR.1=Llega un momento en la carrera de cualquier taumaturgo donde no está en condiciones de avanzar en la investigación debido a su falta de conocimiento. <BR>Un recurso posible es la mesa de deconstrucción. La mesa permite descomponer objetos en las partes más simples que puedes examinar.Hay límites sin embargo - la mesa rompe los aspectos combinados en sus aspectos básicos hasta que sólo quedan aspectos primigenios. Durante este proceso se pierde mucho conocimiento e incluso el mejor de los taumaturgos sólo puede esperar un único aspecto de conocimiento primigenio. 
+tc.research_page.DECONSTRUCTOR.2=Por ejemplo, un bloque de Cobblestone (saxum y perditio) se simplificará en 2 Terra y 1 Perditio, de los cuales sólo uno tendrá una oportunidad de ser descubierto.<BR>También es bastante lento y cuanto menor número de aspectos tiene el objeto, menor es la posibilidad de descubrir algo.
+#
+tc.research_name.BASICTHAUMATURGY=Varita Artesana Básica
+tc.research_text.BASICTHAUMATURGY=Tu primera herramienta
+tc.research_page.BASICTHAUMATURGY.1=La varita es la más básica pero también más importante de tus herramientas. Es lo que se utiliza para elaborar objetos, activar bloques como el crisol, y un sin número de otras tareas.<BR>La varita más básica almacena una cantidad muy limitada de energía mágica (llamada vis) que utiliza para realizar sus tareas. Para reponer la energía en una varita, debes hacer clic derecho y mantenerlo pulsado para captar vis desde un nodo de aura.<BR>Mientras sostienes una varita verás un indicador en la parte superior izquierda de la pantalla que muestra la cantidad de vis que se almacena dentro de la varita.
+tc.research_page.BASICTHAUMATURGY.2=Al presionar Shift se mostrarán los números exactos que almacena y los posibles descuentos que tienes para realizar tareas mágicas.<BR>Las Varitas se construyen mediante la combinación de una palo y dos capuchones en los extremos. A medida que avances con los estudios, descubrirás diferentes materiales que podrán ser utilizados para la creación de palos y capuchones con los que conseguirás poderosas varitas. Sólo la varita básica puede ser creada en una mesa de crafteo normal.El resto de varitas requieren una §5Mesa de Crafteo Arcana§0 y costará Vis hacerlas.<BR>La varita básica se construye a partir de madera mundana y hierro, pobres materiales ambos para trabajar la magia.
+#
+tc.research_name.GRATE=Parrilla
+tc.research_text.GRATE=Dejando que las cosas buenas pasen
+tc.research_page.GRATE.1=La parilla te permite abrirla o cerrarla con la mano, o con una señal de redstone. Si está abierta, cualquier objeto que caiga pasará simplemente a través de élla. <BR>Los elementos pueden ser conducidos hasta la parte superior de una parrilla usando un hopper u otros medios. Si está abierta, los objetos serán expulsados por abajo.
+#
+tc.research_name.NODETAPPER1=Utilización Avanzada de Nodos
+tc.research_text.NODETAPPER1=Tomando todo
+tc.research_page.NODETAPPER1.1=Por lo general, el proceso de absorción de un nodo con una varita es bastante lento ... pero ya no.<BR>Has descubierto una manera más eficiente de aprovechar los nodos de aura, lo que resulta en una duplicación de la tasa de absorción.
+#
+tc.research_name.NODETAPPER2=Utilización Maestra de Nodos
+tc.research_text.NODETAPPER2=Todo tu Vis nos pertenece
+tc.research_page.NODETAPPER2.1=Has añadido nuevas mejoras a los métodos que se utilizan con nodos de aura.<BR>Ahora eres capaz de absorber vis tres veces más rápido de lo normal.
+#
+tc.research_name.NODEPRESERVE=Preservar Nodos
+tc.research_text.NODEPRESERVE=Guardando algo para después
+tc.research_page.NODEPRESERVE=Ahora tienes un mejor control sobre la cantidad de vis que se absorbe desde los nodos. Siempre dejarás al menos una parte de cada aspecto en el nodo, a menos que lo hagas furtivamente(Sneak).<BR>Ten en cuenta, este nivel de control no es posible cuando se utilizan varitas elaboradas a partir de madera normal y hierro.
+#
+tc.research_name.THAUMOMETER=Taumómetro
+tc.research_text.THAUMOMETER=Midiendo la Magia
+tc.research_page.THAUMOMETER.1=El Taumómetro es una de las herramientas más útiles e importantes en el arsenal de un taumaturgo, sólo superada por la varita.<BR>En primer lugar, te permite escanear objetos, seres o fenómenos místicos y determinar su composición mágica. Sólo tienes que mantener pulsado el botón derecho del ratón y esperar.<BR>En segundo lugar se hace más fácil descubrir los nodos, ya que se hacen claramente visibles si miras a través de la lente del Taumómetro - ¡incluso a través de objetos sólidos! 
+#
+tc.research_name.GOGGLES=Gafas de la Revelación
+tc.research_text.GOGGLES=Viendo lo Invisible
+tc.research_page.GOGGLES.1=Contruido según los principios básicos del taumómetro, has comenzado a refinar su habilidad de detectar magia en algo más...revelador<BR>Este conjunto de lentes místicas hará los nodos de aura mucho más fáciles de encontrar, además de revelar todo tipo de cosas ocultas.<BR>Constituyen una herramienta importante en el arsenal de cualquier Taumaturgo.
+#
+tc.research_name.THAUMIUM=Metalurgia Mágica
+tc.research_text.THAUMIUM=Donde los metales conocen la magia
+tc.research_page.THAUMIUM.1=Los metales han demostrado ser fácilmente manipulables a través de principios taumatúrgicos. Tus primeros experimentos te han llevado al descubirmiento del Taumium.<BR>El Taumium es el resultado de imbuir metales con energía mágica pura. El resultado es un metal más duro que el hierro y que soporta más encantamientos que dicho metal.<BR>Un metal como este tiene muchas aplicaciones en la elaboración de dispositivos taumatúrgicos más avanzados.<BR>Puede ser usado también para crear herramientas, armas y armaduras en una mesa de crafteo usando las recetas habituales.
+#
+tc.research_name.NITOR=Nitor
+tc.research_text.NITOR=Llama Mística
+tc.research_page.NITOR.1=Esta llama parece estar alimentada por la propia magia. El número de usos para una llama que nunca se apaga parece interminable, pero por desgracia, no parece producir mucha luz ni calor, aunque podría llegar a ser una fuente constante de luz y energía.<BR>El Nitor también se puede colocar en el mundo para que actúe como una fuente de luz mágica.
+#
+tc.research_name.ALUMENTUM=Alumentum
+tc.research_text.ALUMENTUM=Fuente de Energía Mística
+tc.research_page.ALUMENTUM.1=Esta sustancia vibra con energía ardiente y está más que dispuesta a liberar esa energía al más mínimo golpe. Puede ser inestable, pero probablemente sería una buena fuente de combustible.<BR>Probablemente no es una buena idea arrojarlo contra una superficie sólida a menos que disfrutes con las explosiones.
+#
+tc.research_name.HUNGRYCHEST=Cofre Hambriento
+tc.research_text.HUNGRYCHEST=Un cofre que no espera que lo abran
+tc.research_page.HUNGRYCHEST.1=El cofre hambriento es capaz de recoger artículos por sí mismo si caen lo suficientemente cerca para tocarlo.
+#
+tc.research_name.CAP_gold=Cubierta de Oro para Varita 
+tc.research_text.CAP_gold=Cubriendo las cosas con estilo
+tc.research_page.CAP_gold.1=El oro es de lejos un elemento muy superior al hierro, y las varitas cubiertas con este material no tienen ninguna penalización si se utilizan para canalizar vis.
+#
+tc.research_name.CAP_thaumium=Cubierta de Thaumium para Varita 
+tc.research_text.CAP_thaumium=Cubierta mágica para Varita 
+tc.research_page.CAP_thaumium.1=El Taumium es conocido por su capacidad para almacenar y absorber la magia, por lo que su uso para elaborar capuchones para varita es una elección lógica. Es muy eficiente con todos los tipos de vis.<BR>La elaboración de estas cubiertas para varita en una mesa de crafteo arcana no es suficiente - necesitan ser imbuidas con energía mágica adicional para poder ser utilizadas.
+#
+tc.research_name.CAP_silver=Cubierta de Plata para Varita 
+tc.research_text.CAP_silver=Cubriendo las cosas con un poco menos de estilo
+tc.research_page.CAP_silver.1=La plata tiene propiedades semejantes al oro cuando se utiliza como cubierta de varitas, pero es un poco más eficiente en la canalización de los cuatro elementos principales (fuego, tierra, aire y agua).<BR>La elaboración de estas cubiertas para varita en una mesa de crafteo arcana no es suficiente - necesitan ser imbuidas con energía mágica adicional para poder ser utilizadas.
+#
+tc.research_name.CAP_copper=Cubierta de Cobre para Varita 
+tc.research_text.CAP_copper=Cuando los capuchones de hierro no estan hechos
+tc.research_page.CAP_copper.1=El cobre tiene propiedades similares al hierro cuando se utiliza como cubierta de varitas, pero es tan eficiente como el oro cuando se utiliza para canalizar Ordo o Perditio.
+#
+tc.research_name.ROD_greatwood=Núcleo de Varita de Árbol Magnífico
+tc.research_text.ROD_greatwood=Repositorio de energía mágica
+tc.research_page.ROD_greatwood.1=Tallado con madera de Árbol Magnífico, este bastón tiene el doble de capacidad de almacenamiento de vis que la madera mundana, pudiendo almacenar hasta 50 Vis de cada tipo.
+#
+tc.research_name.ROD_silverwood=Núcleo de Varita de Árbol Plateado
+tc.research_text.ROD_silverwood=Mágico hasta el núcleo
+tc.research_page.ROD_silverwood.1=El árbol plateado ha demostrado ser un muy buen repositorio de energía mágica, y los núcleos de varita elaborados a partir de ellos pueden almacenar hasta 100 Vis de cada tipo.
+#
+tc.research_name.SCEPTRE=Elaboración de Cetros
+tc.research_text.SCEPTRE=Hechos para la tarea
+tc.research_page.SCEPTRE.1=Los Cetros son varitas especializadas en crear objetos místicos y nada más. No pueden añadirse focos en ellos, pero tienen diversas propiedades que los hacen merecedores de usarlos.<BR>Primero, tienen un descuento de un 5% por encima de lo que indica la cubierta que se ha usado en el crafteo.<BR>Segundo, son capaces de almacenar un 50% más de Vis que lo que harían sus núcleos.<BR>Como otras varitas, pueden ser creadas usando una combianción de vara y cubierta - se muestran algunos ejemplos en la siguiente página.
+#
+tc.research_name.ROD_obsidian=Núcleo de Varita de Obsidiana
+tc.research_text.ROD_obsidian=Almacenamiento de vis Tierra
+tc.research_page.ROD_obsidian.1=Un núcleo de varita cincelado de obsidiana que tiene ligeramente más capacidad de almacenamiento que los núcleos de árbol Magnífico. Lo que los hace superiores sin embargo, es que si el nivel de Terra almacenado en su interior cae por debajo de 10%, lo irá reponiendo poco a poco sin el uso de un nodo.
+#
+tc.research_name.ROD_bone=Núcleo de Varita de Hueso
+tc.research_text.ROD_bone=Almacenamiento de Vis Entropía
+tc.research_page.ROD_bone.1=Un núcleo de varita cincelado de hueso que tiene ligeramente más capacidad de almacenamiento que los núcleos de árbol Magnífico. Lo que los hace superiores sin embargo, es que si el nivel de Perditio almacenado en su interior cae por debajo de 10%, lo irá reponiendo poco a poco sin el uso de un nodo.
+#
+tc.research_name.ROD_blaze=Núcleo de Varita de Fuego
+tc.research_text.ROD_blaze=Almacenamiento Fiero de Vis
+tc.research_page.ROD_blaze.1=Las bastones de fuego usados como núcleos de varitas tienen más capacidad de almacenamiento que los núcleos de árbol Magnífico. Lo que los hace superiores sin embargo, es que si el nivel de Ignis almacenado en su interior cae por debajo de 10%, su naturaleza ardiente lentamente lo repondrá.
+#
+tc.research_name.ROD_ice=Núcleo de Varita de Hielo
+tc.research_text.ROD_ice=Almacenamiento Helado de Vis
+tc.research_page.ROD_ice.1=Los núcleos de varita hechos de hielo pueden almacenar un poco más de Vis respecto a los núcleos de árbol Magnífico. Lo que los hace superiores sin embargo, es que si el nivel de Agua almacenado en su interior cae por debajo de 10%, su naturaleza fría lentamente lo repondrá.
+#
+tc.research_name.ROD_quartz=Núcleo de Varita de Cuarzo
+tc.research_text.ROD_quartz=Almacenamiento de Vis Orden
+tc.research_page.ROD_quartz.1=Un núcleo de varita cincelado de cuarzo que tiene ligeramente más capacidad de almacenamiento que los núcleos de árbol Magnífico. Lo que los hace superiores sin embargo, es que si el nivel de Ordo almacenado en su interior cae por debajo de 10%, lo irá reponiendo poco a poco sin el uso de un nodo.
+#
+tc.research_name.ROD_reed=Núcleo de Varita de Caña
+tc.research_text.ROD_reed=Almacenamiento Aéreo de Vis
+tc.research_page.ROD_reed.1=Un núcleo de varita creado con caña que tiene ligeramente más capacidad de almacenamiento que los núcleos de árbol Magnífico. Lo que los hace superiores sin embargo, es que si el nivel de Aer almacenado en su interior cae por debajo de 10%, lo irá reponiendo poco a poco sin el uso de un nodo.
+#
+tc.research_name.ROD_greatwood_staff=Bastones Mágicos
+tc.research_text.ROD_greatwood_staff=Los bastones de mago tienen pomo al final
+tc.research_page.ROD_greatwood_staff.1=Las varitas son el día a día de un taumaturgo, pero a veces quieres mejores opciones. Los bastones mágicos son básicamente varitas grandes. Almacenan más Vis.<BR>Al ser físicamente más largas y resistentes que una varita, pueden ser usadas como arma en una emergencia.<BR>Desafortunadamente esto hace tambien que sean inadecuados para su uso en una mesa de trabajo arcana o similar.
+tc.research_page.ROD_greatwood_staff.2=Un bastón hecho de Madera Magnífica tiene más del doble de capacidad que una varita hecha del mismo material, pudiendo  almacenar hasta 125 de Vis de cada tipo.<BR>Nota: Es necesario añadir cubiertas al bastón, al igual que se hace con las varitas.
+#
+tc.research_name.ROD_silverwood_staff=Núcleo de Bastón de Árbol Plateado
+tc.research_text.ROD_silverwood_staff=Mágico hasta el núcleo
+tc.research_page.ROD_silverwood_staff.1=Los núcleos construidos de Madera Plateada pueden almacenar hasta 250 de Vis de cada tipo.
+#
+tc.research_name.ROD_obsidian_staff=Núcleo de Bastón de Obsidiana
+tc.research_text.ROD_obsidian_staff=Almacenamiento de Vis terrestre
+tc.research_page.ROD_obsidian_staff.1=Un bastón cincelado de Obsidiana puede almacenar hasta 175 de cada tipo.<BR>Al igual que el núcleo de varita, irá recargando lentamente su Vis.
+#
+tc.research_name.ROD_bone_staff=Núcleo de Bastón de Hueso
+tc.research_text.ROD_bone_staff=Almacenamiento de Vis entrópico
+tc.research_page.ROD_bone_staff.1=Un núcleo de bastón creado de hueso puede almacenar hasta 175 de cada tipo.<BR>Al igual que el núcleo de varita, irá recargando lentamente su Vis.
+#
+tc.research_name.ROD_blaze_staff=Núcleo de Bastón de Fuego
+tc.research_text.ROD_blaze_staff=Almacenamiento de Vis flamígero
+tc.research_page.ROD_blaze_staff.1=Un bastón creado de Blaze Rod puede almacenar hasta 175 de cada tipo
+#
+tc.research_name.ROD_ice_staff=Núcleo de Bastón de Hielo
+tc.research_text.ROD_ice_staff=Almacenamiento de Vis helado
+tc.research_page.ROD_ice_staff.1=Un bastón crafteado de hielo puede almacenar hasta 175 de cada tipo.<BR>Al igual que el núcleo de varita, irá recargando lentamente su Vis.
+#
+tc.research_name.ROD_quartz_staff=Núcleo de Bastón de Cuarzo
+tc.research_text.ROD_quartz_staff=Almacenamiento de Vis ordenado
+tc.research_page.ROD_quartz_staff.1=Un bastón cincelado de cuarzo puede almacenar hasta 175 de cada tipo.<BR>Al igual que el núcleo de varita, irá recargando lentamente su Vis.
+#
+tc.research_name.ROD_reed_staff=Núcleo de Bastón de Caña
+tc.research_text.ROD_reed_staff=Almacenamiento de Vis aéreo
+tc.research_page.ROD_reed_staff.1=Un bastón crafteado de caña puede almacenar hasta 175 de cada tipo.<BR>Al igual que el núcleo de varita, irá recargando lentamente su Vis.
+#
+tc.research_name.ROD_primal_staff=Núcleo de Bastón Primigenio
+tc.research_text.ROD_primal_staff=Poder elemental combinado
+tc.research_page.ROD_primal_staff.1=Este núcleo palpita con energía latente.<BR>Combina todas propiedades de los núcleos previos - tiene la misma capacidad de Vis que el núcleo de Madera Plateada y es capaz de recargar el Vis de los elementos previos.<BR>Por último, añade un nivel de potencia a cualquier foco usado en el bastón.<BR>Es realmente un potente herramienta en el arsenal de cualquier taumaturgo.<BR>Nota: Es necesario añadir cubiertas al bastón, al igual que se hace con las varitas.
+#
+tc.research_name.FOCUSFIRE=Focos de Varita
+tc.research_text.FOCUSFIRE=Diseño y funcionalidad
+tc.research_page.FOCUSFIRE.1=Algunos cuidadosos experimentos te han mostrado una forma de ampliar incluso la capacidad de la varita más básica.<BR>Mediante la combinación de fragmentos cristalinos de vis con cristales de cuarzo e infundiéndolos con magia,  eres capaz de alinear los cristales en una matriz mística.<BR>Si los tipos y cantidades adecuadas se centran a través de esta matriz, se reconfigurarán las energías mágicas puras en algo útil, controlado y orientado a una tarea específica. 
+tc.research_page.FOCUSFIRE.2=Añadir un foco a tu varita es una tarea sencilla - simplemente presiona F mientras sostienes la varita, y cualquier foco que lleves será atornillado en su lugar. Sigue presionando F para desplazarte por los focos que lleves.<LINE>Tus primeros experimentos incluyeron la formación de fuego, y el foco resultante demostró ser una herramienta simple, pero útil.<BR> Es capaz de enviar un cono de fuego elemental, quemando todo a su paso.
+#
+tc.research_name.FOCUSFROST=Foco de Varita : Hielo
+tc.research_text.FOCUSFROST=La venganza es un plato que se sirve frío
+tc.research_page.FOCUSFROST.1=Este foco es capaz de lanzar trozos de hielo.<BR>Ten cuidado al apuntar, ya que los trozos de hielo son capaces de destruir objetos frágiles. 
+#
+tc.research_name.FOCUSSHOCK=Foco de Varita : Conmoción
+tc.research_text.FOCUSSHOCK=Rayos y truenos
+tc.research_page.FOCUSSHOCK.1=Este foco es capaz de enfocar la energía elemental en relámpagos que puedes lanzar contra tus enemigos.
+#
+tc.research_name.FOCUSEXCAVATION=Foco de Varita : Excavación
+tc.research_text.FOCUSEXCAVATION=El Terror de la Tierra
+tc.research_page.FOCUSEXCAVATION.1=Este foco convierte la varita en una herramienta capaz de mover grandes cantidades de tierra y piedra sin apenas esfuerzo.<BR>Apunta hacia lo que deseas excavar y la magia hará el resto. Los materiales más resistentes tardan más en ser excavados, y todo lo que no sea tierra, piedra o similares llevará mucho más tiempo minarlo.
+#
+tc.research_name.FOCUSTRADE=Foco de Varita : Comercio Justo
+tc.research_text.FOCUSTRADE=Esto por eso
+tc.research_page.FOCUSTRADE.1=Puedes utilizar este foco para comerciar con docenas de bloques en el mundo por otros de los que lleves.<BR>Primero debes presionar la tecla de sigilo (Sneak) y hacer clic derecho en el bloque deseado. A continuación, haz clic izquierdo en otro bloque que se convertirá en el bloque objetivo. Al hacer clic derecho transformará toda una franja de bloques.<BR>Debes tener suficientes bloques para cambiar, y los bloques transformados reemplazarán tu inventario. Solamente los bloques con al menos una cara adyacente a bloques de aire o no sólidos serán transformados.
+#
+tc.research_name.FOCUSHELLBAT=Foco de Varita : Nueve Infiernos
+tc.research_text.FOCUSHELLBAT=Terror Minúsculo
+tc.research_page.FOCUSHELLBAT.1=Tus viajes por el Nether te han enseñado a temer a los pequeños terrores conocidos como Murciélagos del Infierno. Ahora has descubierto una manera de invocar a los pequeños terrores y enviarlos contra tus enemigos. Excelente.
+#
+tc.research_name.FOCUSPORTABLEHOLE=Foco de Varita : Agujero Portátil
+tc.research_text.FOCUSPORTABLEHOLE=Nunca estarás sin salida otra vez
+tc.research_page.FOCUSPORTABLEHOLE.1=Has tenido éxito usando Vis para crear espacios extradimensionales. El uso de este foco en una pared u otra superficie creará un pasaje extradimensional que lleva al otro lado.<BR>Este "agujero" sólo permanece abierto durante unos segundos y drena vis de la varita en función de su profundidad. <BR> Los Agujeros extradimensionales no se pueden crear a través de ciertos tipos de materia u objetos particularmente complejos.
+#
+tc.research_name.FOCUSWARDING=Foco de Varita : Guardiana
+tc.research_text.FOCUSWARDING=Protegiendo lo que es tuyo
+tc.research_page.FOCUSWARDING.1=Este poderoso foco tiene una interesante habilidad. Cuando se usa en un bloque creará una barrera protectora invisible alrededor de dicho bloque. Desde ese momento no podrá ser quitado o destruido hasta que uses de nuevo la varita en él.<BR>El foco puede usarse en la mayoría de bloques individuales que mantendrán muchas de sus propiedades, aunque con el tiempo, estos bloques se irán congelando.<BR>Mientras tengas una varita con este foco podrás ver todos los bloques que (tu y sólamente tu) has protegido.
+#
+tc.research_name.FOCUSPRIMAL=Foco de Varita : Primigenio
+tc.research_text.FOCUSPRIMAL=Magia Cruda
+tc.research_page.FOCUSPRIMAL.1=¿Qué locura te poseyó para crear este objeto? Este foco parece salvajemente peligroso y únicamente un lunático intentará usarlo fuera de un entorno controlado.<BR>Francamente, el orbe de energía primigenia en crudo que crea es bastante devastador, pero su trayectoria es errática en el mejor de los casos y  malicioso en el peor. <BR> Sin embargo, se exige un mayor estudio: El orbe muestra algunas propiedades dimensionales interesantes y la energía muestra patrones que sólo se han visto en wisps y nodos de aura.
+#
+tc.research_name.FOCUSPOUCH=Bolsa de Focos
+tc.research_text.FOCUSPOUCH=Conveniente recipiente para tus focos.
+tc.research_page.FOCUSPOUCH.1=Una vez que has reunido una gran colección de focos es bastante molesto llevarlos todos contigo. Esta bolsa resuelve ese problema.<BR>Cada vez que cambies el foco de la varita, el foco eliminado será colocado en la bolsa. También puedes hacer clic derecho en la bolsa para colocar o eliminar focos a mano.<BR> Se puede colocar tambien el slot para cinturones de Bauble.
+#
+tc.research_name.BOOTSTRAVELLER=Botas del Viajero
+tc.research_text.BOOTSTRAVELLER=Estas botas fueron hechas para caminar
+tc.research_page.BOOTSTRAVELLER.1=Este par de botas encantadas han sido imbuidas de magia para facilitar el viaje de cualquier viajero.<BR>Te permiten moverte más rápido de lo normal. También te permiten saltar más alto y caer desde más alto.<BR>Por último te permite atajar a través del agua como un pez. Un pez lento y torpe, pero un pez al fin y al cabo.
+#
+tc.research_name.PHIAL=Vial de vidrio
+tc.research_text.PHIAL=Recipientes místicos
+tc.research_page.PHIAL.1=Los viales de vidrio son capaces de guardar todo tipo de líquidos y sustancias, pero su uso más importante para un taumaturgo es su capacidad de contener Esencia.
+#
+tc.research_name.TABLE=Mesa
+tc.research_text.TABLE=Algunas requieren montaje
+tc.research_page.TABLE.1=La mesa es más que un simple bloque decorativo - también sirve como base para otras superficies útiles en la práctica de la magia, como la Mesa de Trabajo Arcana y la Mesa de Investigación. 
+#
+tc.research_name.ARCTABLE=Mesa de Trabajo Arcana
+tc.research_text.ARCTABLE=Artesanía con Magia
+tc.research_page.ARCTABLE.1=Para crear una Mesa de Trabajo Arcana simplemente haz clic derecho con una varita en una mesa que hayas colocado en el mundo. La Mesa de Trabajo de Arcana sirve para el mismo propósito que una mesa de crafteo normal, con algunas excepciones importantes.<BR>Además de recetas normales, también puedes elaborar algunos elementos únicos de Taumaturgia. Para ello es necesario colocar una Varita en la ranura de la parte superior derecha. Esto te permitirá crear items que requieran la absorción de vis directamente de la varita.<BR>El Vis requerido se muestra en los seis símbolos circulares que rodean la rejilla de crafteo.
+#
+tc.research_name.RESTABLE=Mesa de Investigación
+tc.research_text.RESTABLE=Para reunir el conocimiento
+tc.research_page.RESTABLE.1=La mesa de Investigación se crea mediante la colocación de dos mesas una al lado de la otra y haciendo clic en ellas con una Herramienta de Escritura.<BR>La mesa de investigación es la herramienta más importante para cualquier taumaturgo. Se utiliza para desbloquear todos los secretos del universo y descubrir nuevas formas de aprovechamiento de la magia. 
+#
+tc.research_name.THAUMONOMICON=Taumonomicon
+tc.research_text.THAUMONOMICON=Un Repositorio de Conocimiento
+tc.research_page.THAUMONOMICON.1=Para crear el Taumonomicon, tienes que utilizar tu varita en cualquier estantería del mundo.<BR>El Taumonomicon es un libro de referencia para los taumaturgos sobre las cosas mágicas. En él se enumeran todos los descubrimientos realizados hasta el momento y te da una impresión general de cuantos quedan por hacer.<BR>Siempre que una investigación tenga éxito, se añadirá automáticamente a este libro. Además, podrás navegar a través de los descubrimientos y te mostrará información detallada sobre los mismos, así como las recetas relacionadas con esos descubrimientos. 
+#
+tc.research_name.CRUCIBLE=Crisol
+tc.research_text.CRUCIBLE=Burbujas y Cocción
+tc.research_page.CRUCIBLE.1=Para elaborar un Crisol, simplemente debes usar tu varita en un caldero colocado en el mundo.<BR>El crisol es una herramienta importante para cualquier taumaturgo. Te permite hacer objetos físicos a partir de componentes de Esencia y recombinándolos de nuevo.<BR>El crisol tiene que ser colocado sobre una fuente de calor constante y llena de agua. Una vez que el agua comience a hervir simplemente tira los elementos que deseas en el crisol y se dividirá en sus componentes de Esencia.<BR>Si conoce la fórmula adecuada y la combinación de esencia en el    
+tc.research_page.CRUCIBLE.2=crisol es correcta, puedes lanzar en él un item especial conocido como Catalizador. El catalizador absorbe la esencia en sí mismo y se transforma en un nuevo elemento que el crisol expulsa.<BR>Cualquier Esencia sobrante permanece en el crisol para su uso posterior, pero no es una buena idea dejar esencia en un crisol por mucho tiempo.<BR>El crafteo también utiliza un poco de agua del crisol y es muy probable que tengas que volver a llenarlo.<BR>La Esencia dentro del crisol está constantemente degradándose. La Esencia compuesta se degrada en su aspectos básicos y los aspectos Principales simplemente se evaporan.
+tc.research_page.CRUCIBLE.3=Más allá de la pérdida de recursos, evaporación y esencia degradándose puede causar muchos efectos secundarios extraños.<BR>Puedes vaciar un crisol haciendo clic derecho en él con una varita. Toda la esencia se vierte a la atmósfera ... no es algo que te gustaría hacer con demasiada frecuencia.
+#
+tc.research_name.ENCHFABRIC=Tejido Encantado
+tc.research_text.ENCHFABRIC=Sedoso y con estilo
+tc.research_page.ENCHFABRIC.1=Mediante la combinación de seda de araña y lana y la infusión de vis puro, has creado un tejido mágico muy sedoso que tiene numerosos usos.<BR>También has descubierto patrones para crear trajes de tela a partir del tejido mágico. Estos trajes tienen propiedades de protección similares a la armadura de cuero, pero son mucho más duraderos que lo que los materiales mundanos podrían llegar a ser.<BR>También soportan encantamientos místicos muy bien y tener una poderosa magia mejor que la armadura más cara.  
+tc.research_page.ENCHFABRIC.2=Las diferentes piezas de este conjunto otorgan un pequeño descuento a la cantidad de vis cuando usas varitas.<BR>Puedes teñir la armadura como lo harías con armadura de cuero.
+#
+tc.research_name.ENCHANT=Encantamientos
+tc.research_text.ENCHANT=Nuevos Encantamientos
+tc.research_page.ENCHANT.1=Thaumcraft añade varios encantamientos únicos.<BR>§nPotencia (foco solamente)§r<BR>Este encantamiento aumenta el daño, rango o área del foco al cual se aplica.<BR>§nEconómico (foco solamente)§r<BR>Los Focos con este encantamiento utilizan menos vis cuando se activan.<BR>§nTesoro (foco solamente)§r<BR>Este encantamiento funciona como el encantamiento Fortuna, aumentando la cantidad de items obtenidos durante la recolección.
+tc.research_page.ENCHANT.2=§nPrisa§r<BR>Este encantamiento se puede aplicar a todos los tipos de calzado y proporciona un bonus a la velocidad. Cuanto más alto sea el nivel del encantamiento, mayor será la bonificación de velocidad concedida.<BR>§NReparación§r<BR>Este encantamiento repara lentamente la durabilidad de los items absorbiendo vis del aura. Cuanto más alto sea el nivel de encantamiento, más rápidamente sucederá. Este encantamiento sólo se puede aplicar a los items hechos con Thaumcraft, e incluso no con todos ellos.
+#
+tc.research_name.ELEMENTALAXE=Hacha del Torrente
+tc.research_text.ELEMENTALAXE=Ríos de Madera
+tc.research_page.ELEMENTALAXE.1=Mediante la combinación de fragmentos de agua y un hacha de taumium, has creado una herramienta que incorpora los aspectos del movimiento y flujo.<BR>Funciona como un hacha normal en todos los materiales, excepto en troncos y árboles naturales. Cuando se utiliza en ellos el hacha busca más bloques del mismo tipo que estén conectados al bloque original y los tala a la vez.<BR>En efecto, cortas los árboles de arriba a abajo, incluso si cortas el bloque inferior. 
+tc.research_page.ELEMENTALAXE.2=Además de todos los bloques talados de esta manera, estos fluirán automáticamente hacia ti para ser recogidos.<BR>Si presionas y mantienes pulsado click derecho el hacha talará a una velocidad mucho más rápida, pero a un mayor coste para su durabilidad.<BR>Si pulsas Shift mientras usas esta herramienta, todas sus propiedades especiales se suspenden y funciona como un hacha normal.
+#
+tc.research_name.ELEMENTALPICK=Pico del Núcleo
+tc.research_text.ELEMENTALPICK=Calor Purificador
+tc.research_page.ELEMENTALPICK.1=Al infundir un pico de taumium con fragmentos de fuego, has creado un pico que brilla con el fuego de una fragua.<BR>Cuando minas bloques de mineral hay una posibilidad de que consigas un racimo en su lugar. Los racimos naturales son mucho más fáciles de procesar y producen el doble de la cantidad normal de metal cuando se funde.<BR>También se puede utilizar para sondear cualquier superficie haciendo clic derecho en ell y averiguar qué materiales valiosos se encuentran cerca.
+tc.research_page.ELEMENTALPICK.2=Si pulsas Shift mientras usas esta herramienta, todas sus propiedades especiales se suspenden y funciona como un pico normal.
+#
+tc.research_name.ELEMENTALSWORD=Espada de Céfiro
+tc.research_text.ELEMENTALSWORD=Vientos Enfadados
+tc.research_page.ELEMENTALSWORD.1=Has fusionado la furia elemental de los fragmentos de aire con una espada de taumium.<BR>Cuando se utiliza para golpear a un enemigo, la hoja barre en un amplio arco, golpeando enemigos adicionales cerca de tu objetivo principal.<BR>Mientras bloquees con la espada, conjurará una esfera de vientos girando a tu alrededor, empujando a enemigos y objetos sueltos y desviando los proyectiles.<BR>Mientras bloqueas hará que te eleves lentamente del suelo.
+#
+tc.research_name.ELEMENTALSHOVEL=Pala de Movimiento de Tierra
+tc.research_text.ELEMENTALSHOVEL=Desplazando la Tierra
+tc.research_page.ELEMENTALSHOVEL.1=Combinando fragmentos de tierra con una pala de taumium has creado una herramienta de excavación sin igual.<BR>Cuando se utiliza para cavar tierra, arena y otros materiales similares cavará un área de 3x3.<BR>Si haces clic derecho en el lado de un bloque, intentará colocar una sección de 3x3 con el mismo material en el mundo, siempre y cuando tengas suficientes bloques en su inventario.<BR>La orientación tanto de la excavación y la construcción depende de la orientación que tengas al cavar o hacer clic.
+tc.research_page.ELEMENTALSHOVEL.2=Si pulsas Shift mientras usas esta herramienta, todas sus propiedades especiales se suspenden y funciona como una pala normal.
+#
+tc.research_name.ELEMENTALHOE=Azada del Crecimiento
+tc.research_text.ELEMENTALHOE=Equilibrio de la Naturaleza
+tc.research_page.ELEMENTALHOE.1=La fusión de energía mágica de orden y fragmentos de entropía con una azada de taumium ha creado una herramienta de cultivo sin igual.<BR>Cuando se utiliza para labrar los campos, lo hará hasta un área de 3x3 en lugar de un solo bloque.<BR>Cuando se utiliza en cultivos u otras plantas actuará como harina de hueso para fomentar su crecimiento, aunque a un coste mayor de su durabilidad. Incluso podría ser capaz de hacer crecer las plantas que la harina normal no puede.<BR>Si pulsas Shift mientras usas esta herramienta, todas sus propiedades especiales se suspenden y funciona como una azada normal.
+#
+tc.research_name.ALCHEMICALDUPLICATION=Duplicación Alquímica
+tc.research_text.ALCHEMICALDUPLICATION=Nunca tienes demasiado de algo bueno
+tc.research_page.ALCHEMICALDUPLICATION.1=Hay muchas sustancias en el mundo que son alquímicas en su naturaleza.<BR>Añadiendo cuidadosamente los aspectos apropiados a esas sustancias deberías poder crear más de ellas.
+#
+tc.research_name.ALCHEMICALMANUFACTURE=Manufactura Alquímica
+tc.research_text.ALCHEMICALMANUFACTURE=Más de una manera de despellejar un gato.
+tc.research_page.ALCHEMICALMANUFACTURE.1=Has dominado los fundamentos de la alquímia y la duplicación alquímica y ahora estás listo para intentar crear sustancias más complejas desde cero.<BR>Has formulado recetas para ingredientes y elementos que normalmente son difíciles de obtener.
+#
+tc.research_name.ENTROPICPROCESSING=Procesado Entrópico
+tc.research_text.ENTROPICPROCESSING=¿Haciendo las cosas peor?
+tc.research_page.ENTROPICPROCESSING.1=Aunque la creación de sustancias mágicas y mundanas es bastante satisfactorio, a veces quieres deshacer las cosas en sus partes básicas. ¿Qué es más simple que añadir energía entrópica a las cosas? <BR>En realidad, hay varias razones por lo que esto es una mala idea, pero ¿qué es el progreso sin riesgo?
+#
+tc.research_name.TRANSIRON=Transmutación de Metales
+tc.research_text.TRANSIRON=Transformación de metales en hierro
+tc.research_page.TRANSIRON.1=Has descubierto una manera de multiplicar hierro mediante la maceración de pepitas de hierro en §5metallum§0 conseguidos de otros metales.
+#
+tc.research_name.TRANSGOLD=Transmutación del Oro
+tc.research_text.TRANSGOLD=Transformación de metales en oro
+tc.research_page.TRANSGOLD.1=Has descubierto una manera de multiplicar oro mediante la maceración de pepitas de oro en §5metallum§0 conseguidos de otros metales.
+#
+tc.research_name.TRANSCOPPER=Transmutación del Cobre
+tc.research_text.TRANSCOPPER=Transformación de metales en cobre
+tc.research_page.TRANSCOPPER.1=Has descubierto una manera de multiplicar cobre mediante la maceración de pepitas de cobre en §5metallum§0 conseguidos de otros metales.
+#
+tc.research_name.TRANSTIN=Transmutación del Estaño
+tc.research_text.TRANSTIN=Transformación de metales en Estaño
+tc.research_page.TRANSTIN.1=Has descubierto una manera de multiplicar estaño mediante la maceración de pepitas de estaño en §5metallum§0 conseguidos de otros metales.
+#
+tc.research_name.TRANSSILVER=Transmutación de la Plata
+tc.research_text.TRANSSILVER=Transformación de metales en Plata
+tc.research_page.TRANSSILVER.1=Has descubierto una manera de multiplicar plata mediante la maceración de pepitas de plata en §5metallum§0 conseguidos de otros metales.
+#
+tc.research_name.TRANSLEAD=Transmutación del Plomo
+tc.research_text.TRANSLEAD=Transformación de metales en Plomo
+tc.research_page.TRANSLEAD.1=Has descubierto una manera de multiplicar plomo mediante la maceración de pepitas de plomo en §5metallum§0 conseguidos de otros metales.
+#
+tc.research_name.PUREIRON=Purificación de Metales
+tc.research_text.PUREIRON=Purificación de metales en racimos naturales
+tc.research_page.PUREIRON.1=Los racimos naturales son raras concentraciones de metales en su forma más pura. Has descubierto una manera de purificar y concentrar hierro normal en racimos de hierro nativo.<BR>Cuando se funden estos racimos se produce el doble de lingotes de hierro.
+#
+tc.research_name.PUREGOLD=Purificación de Oro
+tc.research_text.PUREGOLD=Purificación de oro en racimos naturales
+tc.research_page.PUREGOLD.1=Los racimos naturales son raras concentraciones de metales en su forma más pura. Has descubierto una manera de purificar y concentrar oro normal en racimos de oro nativo.<BR>Cuando se funden estos racimos se produce el doble de lingotes de oro.
+#
+tc.research_name.PURECOPPER=Purificación de Cobre
+tc.research_text.PURECOPPER=Purificación de cobre en racimos naturales
+tc.research_page.PURECOPPER.1=Los racimos naturales son raras concentraciones de metales en su forma más pura. Has descubierto una manera de purificar y concentrar cobre normal en racimos de cobre nativo.<BR>Cuando se funden estos racimos se produce el doble de lingotes de cobre.
+#
+tc.research_name.PURETIN=Purificación de Estaño
+tc.research_text.PURETIN=Purificación de estaño en racimos naturales
+tc.research_page.PURETIN.1=Los racimos naturales son raras concentraciones de metales en su forma más pura. Has descubierto una manera de purificar y concentrar estaño normal en racimos de estaño nativo.<BR>Cuando se funden estos racimos se produce el doble de lingotes de estaño.
+#
+tc.research_name.PURESILVER=Purificación de Plata
+tc.research_text.PURESILVER=Purificación de plata en racimos naturales
+tc.research_page.PURESILVER.1=Los racimos naturales son raras concentraciones de metales en su forma más pura. Has descubierto una manera de purificar y concentrar plata normal en racimos de plata nativo.<BR>Cuando se funden estos racimos se produce el doble de lingotes de plata.
+#
+tc.research_name.PURELEAD=Purificación de Plomo
+tc.research_text.PURELEAD=Purificación de plata en racimos naturales
+tc.research_page.PURELEAD.1=Los racimos naturales son raras concentraciones de metales en su forma más pura. Has descubierto una manera de purificar y concentrar plomo normal en racimos de plomo nativo.<BR>Cuando se funden estos racimos se produce el doble de lingotes de plomo.
+#
+tc.research_name.TALLOW=Sebo Mágico
+tc.research_text.TALLOW=Crea grasa con un toque de magia
+tc.research_page.TALLOW.1=Al procesar y calentar la carne en un crisol, se puede crear un sebo místico adecuado para muchos usos arcanos.<BR>Este sebo se puede utilizar para elaborar velas. También es posible diseñar diferentes velas de colores mediante la combinación de una vela con un colorante en una mesa de trabajo arcana.
+#
+tc.research_name.GOLEMSTRAW=Golems de Paja
+tc.research_text.GOLEMSTRAW=Sencillos esbirros mágicos
+tc.research_page.GOLEMSTRAW.1=Has descubierto el secreto de la creación de golems trabajadores. Mientras que el Golem de Hierro es impresionante por sí mismo, es muy limitado e incontrolable. Has logrado resolver esos dos problemas.<BR>Tus trabajadores golem tienen la suficiente voluntad y conciencia de sí mismo para que sean herramientas útiles, pero no lo suficiente como para que resulten incontrolables.<LINE>También has descubierto cómo hacer que la §5campana del Golemante§0  y los §5Núcleos de Animación de Golem§0 (consulte las entradas de investigaciones correspondientes para más detalles).
+tc.research_page.GOLEMSTRAW.2=El golem creado lo puedes colocar en el mundo, pero permanecerá inactivo hasta que reciba un núcleo de animación.<BR>La colocación del golem debe ser considerado cuidadosamente - si deseas que interactúe con los inventarios, deberás colocarlo haciendo clic (o shift-clic) en la cara del inventario que deseas que interactúe.<BR> La mayoría golems pueden operar en un rango de 16 bloques alrededor de su lugar de origen.
+tc.research_page.GOLEMSTRAW.3=El primer golem que puedes crear está hecho de paquetes de heno y paja. Es físicamente débil y fácil de destruir, pero muy ligero y ágil.<BR>§l§nAtributos Golem de Paja§r<BR>§1Durabilidad:§r Muy Baja<BR>§lFuerza:§r Muy Baja<BR>§lAutoreparación:§r Media<BR>§lLimite Transporte:§r 1<BR>§lVelocidad:§r Rápido<BR>§lMejoras:§r 1
+#
+tc.research_name.GOLEMWOOD=Golems de Madera
+tc.research_text.GOLEMWOOD=¿Cuánta madera cortaría un golem de madera si un golem de madera pudiera cortar madera?
+tc.research_page.GOLEMWOOD.1=Este golem está tallado a partir de un tronco de árbol Magnífico. Se trata de una mejora moderada del golem de paja.<BR>§l§nAtributos Golem de Madera§r<BR>§1Durabilidad:§r Baja Media<BR>§lFuerza:§r Baja<BR>§lAutoreparación:§r Media<BR>§Limite Transporte:§r 4<BR>§lVelocidad:§r Media Baja<BR>§lMejoras:§r 1
+#
+tc.research_name.GOLEMTALLOW=Golems de Sebo
+tc.research_text.GOLEMTALLOW=Mantenlo alejado de las llamas
+tc.research_page.GOLEMTALLOW.1=Este golem avanzado es apenas un poco mejor que el golem de madera, pero es capaz de soportar hasta dos mejoras.<BR>§l§nAtributos Golem de Sebo§r<BR>§1Durabilidad:§r Baja<BR>§lFuerza:§r Baja<BR>§lAutoreparación:§r Media<BR>§lLimite Transporte:§r 4<BR>§lVelocidad:§r Baja Media<BR>§lMejoras:§r 2
+#
+tc.research_name.GOLEMCLAY=Golems de Arcilla
+tc.research_text.GOLEMCLAY=Resistente y duradero
+tc.research_page.GOLEMCLAY.1=El barro cocido ha demostrado ser un material superior para la elaboración de golems. Es resistente al fuego y tiene una movilidad más que adecuada.<BR>§l§nAtributos Golem de Arcilla§r<BR>§1Durabilidad:§r Media<BR>§lFuerza:§r Media<BR>§lAutoreparación:§r Lenta<BR>§lLimite Transporte:§r 8<BR>§lVelocidad:§r Media<BR>§lMejoras:§r 1
+#
+tc.research_name.GOLEMFLESH=Golems de Carne
+tc.research_text.GOLEMFLESH=¡Está vivo!
+tc.research_page.GOLEMFLESH.1=Aunque macabros, los golems hechos de carne de zombie tienen varias características que los hacen recomendables. No sólo se reparan a sí mismos muy rápidamente, ademaás son capaces de soportar 2 mejoras.<BR>§l§nAtributos Golem de Carne§r<BR>§1Durabilidad:§r Media<BR>§lFuerza:§r Media<BR>§lAutoreparación:§r Muy Rápida<BR>§lLimite Transporte:§r 8<BR>§lVelocidad:§r Media<BR>§lMejoras:§r 2
+#
+tc.research_name.GOLEMSTONE=Golems de Piedra
+tc.research_text.GOLEMSTONE=Fuerte pero lento
+tc.research_page.GOLEMSTONE.1=Los golems de piedra son muy duraderos y capaces de llevar cargas pesadas, pero son mucho más lentos que la mayoría de los golems.Su peso hace que se hundan en el agua.<BR>§l§nAtributos Golem de Piedra§r<BR>§1Durabilidad:§r Baja Media<BR>§lFuerza:§r Baja Media<BR>§lAutoreparación:§r Lenta<BR>§lLimite Transporte:§r 16<BR>§lVelocidad:§r Baja<BR>§lMejoras:§r 1
+#
+tc.research_name.GOLEMIRON=Golems de Hierro
+tc.research_text.GOLEMIRON=Como los golems de los aldeanos, solo que más pequeños... y mejores
+tc.research_page.GOLEMIRON.1=Los golems de hierro son muy resistente y fuertes, capaces de transportar cargas enormes. Su peso sin embargo hace que se desplacen muy lentamente y se hundan en el agua.<BR>§l§nAtributos Golem de Hierro§r<BR>§1Durabilidad:§r Alta<BR>§lFuerza:§r Alta<BR>§lAutoreparación:§r Muy Lenta<BR>§lLimite Transporte:§r 32<BR>§lVelocidad:§r Muy Lenta<BR>§lMejoras:§r 1
+#
+tc.research_name.GOLEMTHAUMIUM=Golems de Taumium
+tc.research_text.GOLEMTHAUMIUM=Esbirros Místicos
+tc.research_page.GOLEMTHAUMIUM.1=Los golems de Thaumium tienen ligeramente mejores atributos que los golems de hierro y son capaces de soportar 2 actualizaciones. También son altamente resistentes al daños mágico.Su peso hace que se hundan en el agua.<BR>§l§nAtributos Golem de Thaumium§r<BR>§1Durabilidad:§r Muy Alta<BR>§lFuerza:§r Alta<BR>§lAutoreparación:§r Lenta<BR>§lLimite Transporte:§r 32<BR>§lVelocidad:§r Lenta<BR>§lMejoras:§r 2
+#
+tc.research_name.GOLEMBELL=Campana del Golemante
+tc.research_text.GOLEMBELL=Presta Atención
+tc.research_page.GOLEMBELL.1=Los Golems son notablemente malos para seguir órdenes verbales, pero esta campana te permite evitar todo eso.<BR>Haz clic derecho en un golem para seleccionarlo. Una vez hecho esto aparecerá un círculo con forma de engranaje brillante indicando la ubicación y el lado al que está conectada la 'Casa' del golem.<BR>Ahora puedes hacer clic derecho en cualquier parte del mundo para vincular el golem a esos bloques, lugares o inventarios y que pueda así interactuar con ellos. Al hacer clic en el mismo lugar o bien lo desmarcará, o alternará entre diferentes colores si el golem es
+tc.research_page.GOLEMBELL.2=capaz de interactuar con marcadores de diferentes colores.<BR>Shift + click derecho en un lugar marcado siempre lo borrará y pulsando F borrará todos los lugares marcados.<LINE>Click izquierdo en un golem lo recoge con todas sus mejoras y ajustes actuales intactos. Shift + clic izquierdo recoge el golem, pero elimina su núcleo y las actualizaciones adjuntos que caen por separado, sin embargo hay una alta probabilidad de que las actualizaciones se pierdan si lo haces. 
+#
+tc.research_name.COREGATHER=Núcleo de Golem: Reunir
+tc.research_text.COREGATHER=Recogiendo lo que estás tirando
+tc.research_page.COREGATHER.1=Los Núcleos de animación de golems se utilizan para dar a tus golems un propósito - sin núcleo permanecen inanimados.<BR>El primer núcleo que eres capaz de crear es el núcleo de §5Reunir§0.<BR>Los golems equipados con este núcleo buscarán objetos caídos en 16 bloques, los recogerán y colocarán dentro de un inventario adjunto. Si ellos no están vinculados a un inventario simplemente los sujetarán<BR>Si haces clic derecho sobre el golem serás capaz de establecer los items específicos que deben recoger - se ignorarán todos los demás.
+tc.research_page.COREGATHER.2=Haz clic derecho en un golem recién colocado con un núcleo para añadirlo a dicho golem. 
+#
+tc.research_name.COREEMPTY=Núcleo de Golem: Vaciar
+tc.research_text.COREEMPTY=Moviendo las cosas a otro lugar
+tc.research_page.COREEMPTY.1=Los golems equipados con este núcleo quitarán elementos de un inventario adjunto y los llevarán al lugar marcado. Si el punto marcado es un contenedor, lo colocarán en su interior.<BR>Si lo deseas, puedes especificar qué elementos deben ser retirados del inventario mediante el acceso a la interfaz de golems. El resto de los items serán ignoradas.
+#
+tc.research_name.COREUSE=Núcleo de Golem: Usar
+tc.research_text.COREUSE=Clickety click
+tc.research_page.COREUSE.1=Al igual que los golem sin núcleo, los que tienen equipado este núcleo recogerán items de un inventario, pero en lugar de colocarlos en otro lugar, intentarán usarlos en un bloque o localización específico.<BR>Lo intentarán usar como si el jugador hiciese click izquierdo o derecho con el elemento en dicho objetivo - puedes especificar cual.<BR>Si lo deseas puedes indicar que items debe recoger un golem del inventario accediento al interfaz del golem. El resto e objetos se ignorarán.
+tc.research_page.COREUSE.2=Si los golem no están unidos a un inventario, intentarán llevar a cabo su objetivo con la mano vacía - basta con hacer click en el sitio deseado.<LINE>Puedes decirle al golem como hacer 'click' en algo - aparte de izquierda o derecha puedes tambien darle instrucciones para que se agache - sneak.<BR>Puedes indicarle también que haga click en un bloque de aire.
+tc.research_page.COREUSE.3=      §nActualización Aire Desbloqueda§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Esta actualización aumenta la velocidad a la cual el golem hace click en su objetivo.
+#
+tc.research_name.COREFILL=Núcleo de Golem: Llenar
+tc.research_text.COREFILL=Manteniendo un inventario con suministros
+tc.research_page.COREFILL.1=Los golems equipados con este núcleo examinanán las existencias que hayas marcado para ciertos items, y los colocarán en su inventario.<BR>Hay dos modos de funcionamiento:<BR> En el modo §5Cantidad Exacta§0 el golem llenará su inventario con los elementos especificados hasta que contiene una cantidad igual a la cantidad especificada en su interfaz.<BR>En modo §5Cualquier cantidad§0 el golem mantendrá lleno el inventario de los elementos especificados, siempre y cuando haya espacio y elementos disponibles.
+#
+tc.research_name.COREHARVEST=Núcleo de Golem: Cosechar
+tc.research_text.COREHARVEST=Granjero Animado
+tc.research_page.COREHARVEST.1=Los golems equipados con este núcleo no necesitan estar conectados a un inventario. Buscan cultivos completamente desarrollados, juncos y otras plantas comúnmente cultivadas dentro de un pequeño radio y las cosechan. El producto de la cosecha, simplemente cae al suelo y debe ser obtenida por otros medios.<BR>Por desgracia, no son lo suficientemente inteligentes para replantar los cultivos que han cosechado, pero estás seguro que con un poco de trabajo podrías ser capaz de solventar ese error.
+tc.research_page.COREHARVEST.2=     §nActualización Orden Desbloqueada§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Los golems de cosecha equipados con esta actualización intentarán replantar el cultivo que hayan cosechado. Esto puede fallar si la planta no dropea ningúna semilla o brote.
+#
+tc.research_name.CORELUMBER=Núcleo de Golem: Talar
+tc.research_text.CORELUMBER=Leñador Animado
+tc.research_page.CORELUMBER.1=Como los golems cosechadores, los golems leñadores se pueden colocar en cualquier lugar. Ellos buscarán los árboles cercanos y los talarán. Los golems más fuertes talarán más rápido.<BR>Los golems leñadores no replantan los árboles que han talado.
+#
+tc.research_name.COREGUARD=Núcleo de Golem: Defender
+tc.research_text.COREGUARD=Defiende tus bienes
+tc.research_page.COREGUARD.1=Los golems equipados con este núcleo actuarán como guardias, atacando las criaturas hostiles dentro del alcance.<BR>Estás seguro de que con un poco de bricolaje se pueden hacer un poco más selectivos con los objetivos que ataca, pero por ahora sólo busca mobs agresivos que no sean creepers.
+tc.research_page.COREGUARD.2=     §nMejora de Orden Desbloqueada§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Si consigues esta actualización puedes especificar los tipos de criaturas que el golem atacará. El golem también será capaz de atacar más entidades aparte de las hostiles.
+#
+tc.research_name.COREBUTCHER=Núcleo de Golem: Carnicero
+tc.research_text.COREBUTCHER=Ensangrentado hasta las axilas
+tc.research_page.COREBUTCHER.1=Este núcleo es un refinamiento del núcleo Guardian.<BR>Un golem equipado con este núcleo atacará solo a animales, pero es lo suficientemente inteligente para atacar unicamente a los mas viejos además de mantener siempre una pareja para que se reproduzcan.
+#
+tc.research_name.CORELIQUID=Núcleo de Golem: Decantar
+tc.research_text.CORELIQUID=Manteniendo un tanque lleno con líquido
+tc.research_page.CORELIQUID.1=Los golems equipados con este núcleo tratarán de mantener el inventario de líquido al que están unidos con el líquido apropiado.<BR>Si lo deseas, puedes especificar qué líquido deben colocarse en el depósito mediante el acceso a la interfaz de golems y la colocación de un depósito de líquido (como un cubo lleno) en una ranura. Se omiten todas las demás líquidos.<BR> Los golem de decantación sólo pueden llevar 100mb de líquido por unidad de su tipo de material, a pesar de que siempre llevarán a cubos llenos si tiene instrucciones de recoger líquidos en el mundo.
+#
+tc.research_name.CORESORTING=Núcleo de Golem: Clasificar
+tc.research_text.CORESORTING=Manteniendo las cosas en orden
+tc.research_page.CORESORTING.1=Este núcelo funciona de manera muy parecida a un núcleo Vaciar con una diferencia clave: Sólo recoge un item de su inventario si ya existe otro igual en su inventario objetivo. Esto lo hace muy útil para clasificar items desordenados de un inventario en sus respectivos lugares.<BR>No puedes específicar items concretos para incluir o excluir como se hace con el núcleo Vacias
+#
+tc.research_name.COREFISHING=Núcleo de Golem: Pescar
+tc.research_text.COREFISHING=Las canciones de marinero se venden por separado
+tc.research_page.COREFISHING.1=Este núcleo permite a un golem pescar la cena.<BR>Para obtener los mejores resultados, el golem tiene que ser colocado cerca de agua profunda y abierta. <BR>La fuerza del Golem determina la velocidad de la pesca.<BR>
+tc.research_page.COREFISHING.2=      §nActualización Aire Desbloqueada§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Un golem pescador equipado con esta actualización tiene una pequeña probabilidad de pescar más de un elemento a la vez.
+tc.research_page.COREFISHING.3=      §nActualización Fuego Desbloqueada§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>Un golem pescador equipado con esta actualización cocinará cualquier pez que capture.
+tc.research_page.COREFISHING.4=     §nActualización Orden Desbloqueada§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>La actualización de Orden aumenta la probabilidad de tener buenas capturas.
+tc.research_page.COREFISHING.5=    §nActualización Entropía Desbloqueada§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>La actualización de Entropía reduce la probabilidad de tener malas capturas.
+#
+tc.research_name.COREALCHEMY=Núcleo de Golem: Alquimia
+tc.research_text.COREALCHEMY=Moviendo la esencia alrededor
+tc.research_page.COREALCHEMY.1=Este núcleo es una versión especializada de un núcleo de decantación, específicamente diseñado para el transporte de esencia.<BR>Los golems de alquimia asignados a un horno alquímico o alambique transportarán esencia desde ahí hasta tarros reforzados marcados. No es necesario marcar cada tarro - el golem llenará automáticamente todos los tarros adyacentes a la jarra marcada y todos los otros tarros conectados similarmente.<BR>Los golems de alquimia priorizan los tarros cercanos primero y tratan de llenar uno antes de comenzar con otro nuevo.
+tc.research_page.COREALCHEMY.2=Tambien tendrán en cuenta los frascos etiquetados sobre los que no tienen etiqueta. Si hay un frasco completamente vacío intentarán llenar primero un frasco normal, a no ser que el frasco vacío esté etiquetado. En el caso de frascos agrupados, se llenarán los últimos.<BR>Los golems alquímicosAlchemy golems pueden transportar esencia entre otros contenedores y bloques que almacenan y/o aceptan esencia.
+#
+tc.research_name.UPGRADEAIR=Mejora de Golem: Aire
+tc.research_text.UPGRADEAIR=Haciendo a tu golem más rápido
+tc.research_page.UPGRADEAIR.1=Cuando esta actualización se une a un golem, este aumentará su movimiento y velocidad de ataque a distancia.<BR>Núcleos de golems específicos podrían beneficiarse de esta mejora en otros aspectos, por lo que es posible que desees comprobar si han sido añadidas páginas adicionales en el Taumonomicon.
+#
+tc.research_name.UPGRADEEARTH=Mejora de Golem: Tierra
+tc.research_text.UPGRADEEARTH=Haciendo a tu golem más fuerte
+tc.research_page.UPGRADEEARTH.1=Esta actualización incrementará la cantidad de artículos que tu golem puede llevar a la vez. Cada mejora aumenta el límite entre 4 y 16 (depende del límite de equipaje base del golem).<BR>También aumenta el daño físico y la rapidez con que los materiales son recolectados o realiza tareas dependiendo de la fuerza bruta.<BR>Núcleos de golems específicos podrían beneficiarse de esta mejora en otros aspectos, por lo que es posible que desees comprobar si han sido añadidas páginas adicionales en el Taumonomicon.
+#
+tc.research_name.UPGRADEFIRE=Mejora de Golem: Fuego
+tc.research_text.UPGRADEFIRE=Haciendo a tu golem entusiasta
+tc.research_page.UPGRADEFIRE.1=Esta actualización aumenta el inventario de interfaz de un golem a 2 ranuras, lo que permite filtrar u ordenar más tipos de elementos.<BR>Los ataques cuerpo a cuerpo del golem también prenderán su objetivo con fuego.<BR>Núcleos de golems específicos podrían beneficiarse de esta mejora en otros aspectos, por lo que es posible que desees comprobar si han sido añadidas páginas adicionales en el Taumonomicon.
+#
+tc.research_name.UPGRADEWATER=Mejora de Golem: Agua
+tc.research_text.UPGRADEWATER=Haciendo a tu golem más perceptivo
+tc.research_page.UPGRADEWATER.1=Esta actualización aumenta el alcance visual de la mayoría de los golems lo que les permite viajar más lejos para realizar sus tareas.<BR>También aumenta el alcance y la precisión de los ataques a distancia.<BR>Núcleos de golems específicos podrían beneficiarse de esta mejora en otros aspectos, por lo que es posible que desees comprobar si han sido añadidas páginas adicionales en el Taumonomicon.
+#
+tc.research_name.UPGRADEORDER=Mejora de Golem: Orden
+tc.research_text.UPGRADEORDER=Haciendo a tu golem más organizado
+tc.research_page.UPGRADEORDER.1=Esta actualización permite a los golems especificar diferentes colores para los bloques marcados con la Campana del Golemante. Esto permite un mayor control sobre lo que hacen y dónde lo hacen.<BR>Esta actualización también desbloquea ciertas características de algunos núcleos de golem que les da un mayor alcance de operación.Núcleos específicos podrían beneficiarse de esta mejora en otros aspectos, por lo que es posible que desees comprobar si han sido añadidas páginas adicionales en el Taumonomicon.
+#
+tc.research_name.UPGRADEENTROPY=Mejora de Golem: Entropía
+tc.research_text.UPGRADEENTROPY=Haciendo a tu golem espinoso...y difuso 
+tc.research_page.UPGRADEENTROPY.1=Los golems equipados con esta actualización infligen daño de forma automática a cualquier cosa que los dañe.<BR> Los golems con esta actualización también se vuelven un poco menos exigente. En general, esto significa que cuando la tarea de filtrar un determinado tipo de material (un lingote de cobre, por ejemplo) van a comprobar todos los items que cuentan como lingotes de cobre - no sólo el lingote específico que le especificas.<BR>Núcleos de golems específicos podrían beneficiarse de esta mejora en otros aspectos, por lo que es posible que desees comprobar si han sido añadidas páginas adicionales en el Taumonomicon.
+#
+tc.research_name.TINYHAT=Sombreros minúsculos
+tc.research_text.TINYHAT=Manteniendo al sol apartado.
+tc.research_page.TINYHAT.1=Este pequeño sombrero es el accesorio perfecto para cualquier golem. No sólo es elegante y apuesto, sino que cualquier golem que lo lleve incrementará la salud y la vitalidad.
+#
+tc.research_name.TINYFEZ=Minúsculos Fezzes
+tc.research_text.TINYFEZ=...son guay también
+tc.research_page.TINYFEZ.1=Este extraño sombrero parece llenar a cualquier golem que lo lleva con una vitalidad inusual, lo que le permite reparar el daño a un ritmo mucho más rápido.
+#
+tc.research_name.TINYBOWTIE=Pajaritas Minúsculas
+tc.research_text.TINYBOWTIE=...son guay
+tc.research_page.TINYBOWTIE.1=Casi obligatoria para cualquier golem activo, esta pajarita le dará energía adicional, aumentando su ritmo.
+#
+tc.research_name.TINYGLASSES=Lentes Minúsculas
+tc.research_text.TINYGLASSES=Lo mejor para verte
+tc.research_page.TINYGLASSES.1=Los golems son notoriamente miopes, y estas gafas alivian esta debilidad hasta cierto punto.
+#
+tc.research_name.TINYDART=Lanzadardos Golem
+tc.research_text.TINYDART=Pequeño pero puntiagudo
+tc.research_page.TINYDART.1=Este lanzador de dardos sólo se puede conectar a golems de combate. No es tan potente como su ataque primario, pero da a los golems un medio de atacar a los enemigos a distancia.
+#
+tc.research_name.TINYVISOR=Visor de Golem
+tc.research_text.TINYVISOR=Gracias por su colaboración
+tc.research_page.TINYVISOR.1=Este visor metálico otorgará a un golem de combate una pequeña cantidad de blindaje adicional. También se asegurará de que cualquier enemigo atacado por el golem soltará orbes de experiencia cuando mueran.
+#
+tc.research_name.TINYARMOR=Blindaje de Hierro de Golem
+tc.research_text.TINYARMOR=Un hueso duro de roer
+tc.research_page.TINYARMOR.1=El recubrimiento blindado otorga el golem que lo lleva mayor resistencia al daño físico. Por desgracia, la protección adicional tiene un coste, ya que toda la ferretería reducirá su velocidad.
+#
+tc.research_name.TINYHAMMER=Maza de Golem
+tc.research_text.TINYHAMMER=Es hora de aporrear
+tc.research_page.TINYHAMMER.1=Esta arma aumenta el daño que un golem hará con ataques cuerpo a cuerpo.
+#
+tc.research_name.DISTILESSENTIA=Destilación de Esencia
+tc.research_text.DISTILESSENTIA=Cosechando esencia
+tc.research_page.DISTILESSENTIA.1=Ves una necesidad futura en la que tendrás acceso a varios tipos diferentes de aspectos -no sólamente los aspectos primarios extraídos de tu varita.<BR>Usando principios alquímicos básicos has intuido una manera de romper objetos y convertirlos en esencia<BR>El primer paso en este proceso requiere un  §lHorno Alquímico§r. El horno alquímico funciona como un horno normal quemando carbón para producir calor, pero en lugar de fundir menas en metal, descompone los objetos en una suspensión de materias primas, esencia sin procesar.
+tc.research_page.DISTILESSENTIA.2=El siguiente paso en el proceso es tomar esa esencia y destilarla mediante un §lAlambique Arcano§r.<BR>Para que funcione, los alambiques arcanos deben ser colocados en la parte superior de un horno alquímico. La esencia en suspensión poco a poco se introducirá en el alambique y los aspectos de esencia individual se separarán.<BR>Si el horno alquímico está siendo alimentado por alumentum, este proceso de destilación es mucho más rápido.<BR>Puedes apilar hasta 5 alambiques diferentes encima de un solo horno.<BR>La esencia se puede extraer de un alambique utilizando viales.
+#
+tc.research_name.JARLABEL=Tarro Reforzado y Etiquetas
+tc.research_text.JARLABEL=Almacenando y organizando Esencia
+tc.research_page.JARLABEL.1=La Esencia puede almacenarse en §lTarros Reforzados§r.<BR>Los Tarros Reforzados pueden colocarse en el mundo y son capaces de almacenar esencia de forma indefinida. Los encantamientos puestos en estos tarros hacen que añadir o extraer esencia sea sencillo.<BR> Los tarros colocados debajo del pitorro de un alambique se llenarán automáticamente. También pueden llenarse usando viales.<BR>Lo que es más, son un medio de almacenamiento excelente para mermeladas y conservas.
+tc.research_page.JARLABEL.2=Shift click en un tarro y alambiques con la mano vacía los vaciarán.<BR>Tan pronto un tarro tenga algo de esencia podrás añadirle una §lEtiqueta para Tarro§r.<BR>Esta etiqueta 'bloqueará' el tarro a ese tipo de esencia y no permitirá la entrada de otra diferente.<BR>Puedes quitar la etiqueta haciendo shift click con la mano vacía en el lado del frasco donde está la etiqueta. Ten cuidado de no hacerlo en otro lado o vaciarás el frasco.
+tc.research_page.JARLABEL.3=Puedes colocar una etiqueta en una mesa de crafteo con un vial de esencia para asignarle un aspecto y así cuando la coloques en un frasco vacío automáticamente bloqueará el frasco con ese aspecto. La esencia usada en la receta no es consumida.<BR>Colocarla en un frasco lleno hará que se cambie la etiqueta al tipo de esencia que tiene el tarro.<LINE>Una etiqueta se puede resetear colocándola en una mesa de crafteo.
+#
+tc.research_name.INFERNALFURNACE=Horno Infernal
+tc.research_text.INFERNALFURNACE=¿Suficiente Calor?
+tc.research_page.INFERNALFURNACE.1=Al aprovechar §cIgnis§0 puro dentro de un horno fabricado de obsidiana y ladrillos del Nether has creado un horno altamente eficienciente y libre de combustible. Tan eficiente, de hecho, que en ocasiones se producen materiales en forma de pepitas u otros items.<BR>Si bien esto es esencialmente libre, también es muy lento a menos que el horno tenga un nuevo suministro de esencia de §cIgnis§0 una y otra vez. Esto se puede hacer colocando un tarro de esencia §cIgnis§0 dentro de la línea de visión de la parte frontal del horno, en algún lugar dentro de los 10 bloques. Con suerte un poco de esencia hará un largo camino.
+tc.research_page.INFERNALFURNACE.2=También debes tener en cuenta que ocasionalmente un poco de Flux será expulsado al medio ambiente.<BR>Los items que desees fundir tienen que se ser lanzados en la parte superior del horno y serán escupidos por la parte delantera.
+#
+tc.research_name.BELLOWS=Fuelle Arcano
+tc.research_text.BELLOWS=Avivando las llamas
+tc.research_page.BELLOWS.1=Los fuelles Arcanos realizan la misma función que su contraparte mundana, la única diferencia es que felizmente bombéan por sí solos enviando una corriente interminable de aire.<BR> Uniéndolo a un horno infernal ha mostrado algunos resultados interesantes. El aire elemental enviado no sólo aviva las llamas aumentando la velocidad de fundición, sino que hace que se quemen mucho más puro, lo que resulta en una reducción de Flux generado y en un aumento de la probabilidad de crear pepitas y otros materiales.
+tc.research_page.BELLOWS.2=También se pueden conectar a los hornos normales o alquímico para aumentar su velocidad.<BR>También es posible unirlos a crisoles para reducir el tiempo que tarda el agua a hervir.<BR>Estás seguro que con el tiempo se revelarán más usos.
+#
+tc.research_name.ARCANESTONE=Piedra Arcana
+tc.research_text.ARCANESTONE=Material de construcción mágicamente fortalecido
+tc.research_page.ARCANESTONE.1=La Piedra Arcana es un material de construcción básico para muchas construcciones místicas complejas. Es normal que la piedra haya sido chamuscado por el fuego elemental y fortalecido por la tierra elemental.
+#
+tc.research_name.INFUSION=Infusion
+tc.research_text.INFUSION=Fusion mística
+tc.research_page.INFUSION.1=Los crafteos arcanos y la alquimia pueden llegar hasta cierto punto. Se necesita algo mejor para crear verdaderos y poderosos objetos místicos.<BR>El crafteo de infusión es el proceso de la fusión de un objeto con la energía mágica y las propiedades de otros objetos. Podría, por ejemplo, infundir una piedra con aer vis y una pluma y produciría una piedra muy ligera.<BR>Como es habitual en la taumaturgia, las cosas no son tan simples. Incluso para empezar hay varias cosas que necesitas: una matriz Rúnica, pedestales arcanos y un suministro de magia en forma de esencia. 
+tc.research_page.INFUSION.2=Una vez que tengas tu matriz Rúnica colocada correctamente en una estructura conocida como altar de Infusión, podrás comenzar a craftear.<BR>El pedestal central situado debajo de la matriz es donde irá el elemento que desea infundir. También necesitarás varios pedestales más colocados alrededor del altar donde se pueden colocar los bloques y elementos que deseas infundir en el objeto de destino. Por último tendrás tarros reforzados o recipientes similares de esencia que proporcionen la cantidad necesaria de Vis. Una vez reunido todo esto puedes hacer clic en la Matriz Rúnica con una varita mágica para iniciar el proceso de elaboración.<BR>Durante la primera etapa de la elaboración de esencia será drenada
+tc.research_page.INFUSION.3=de fuentes cercanas. El crafteo se detendrá si la esencia no es suficiente - algo que no deseas, como se explicará en las siguientes páginas.<BR>Una vez que toda la esencia requerida ha sido infundida en el objeto de destino, los otros objetos habrán sido drenados de esencia. Sólo cuando se hace esto se completa el proceso de elaboración.<LINE>Esto no está exento de riesgos. Todo el proceso consiste en obligar a grandes energías penetrar en un solo objeto. Cosas impredecibles tienden a suceder.<BR>Por general, uno de los objetos de fusión será
+tc.research_page.INFUSION.4=derribado de un pedestal, o se generará Flux, pero otros acontecimientos catastróficos no son desconocidos.<BR>Cuanto más dure el crafteo debido a problemas sin resolver como la ausencia de Vis o la falta de items, mayor será la probabilidad de que algo malo suceda.<BR>Estos efectos pueden reducirse mediante diversos medios. En primer lugar, querrás mantener toda la estructura de la fusión lo más simétrica posible - toma nota de dónde colocar los pedestales y asegurarte de que están en equilibrio con otros pedestales en el lado opuesto del altar. Al colocar los elementos de fusión en ellos es posible que quieras mantenerlos equilibrados también. Por último puedes colocar alrededor del altar  
+tc.research_page.INFUSION.5=parafernalia oculta en formaciones simétricas (cosas como velas, calaveras, cristales, etc.) Estos tendrán el efecto de reducir la inestabilidad.<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
+#
+tc.research_name.JARBRAIN=Cerebro en un Tarro
+tc.research_text.JARBRAIN=Sellado en la inmundicia
+tc.research_page.JARBRAIN.1=- Tira un cerebro zombie podrido en un tarro<BR>- Agrega algunos ojos de araña y agua.<BR>- Revuelve suavemente con la varita mientras piensas pensamientos oscuros.<BR>Si sigues la receta exactamente deberías tener ahora cerebro zombie malicioso y parcialmente animado.<BR>Conserva parte del hambre que tenía como un zombie y si bien no puede consumir el cerebro, todavía le gusta comer los pensamientos y experiencias de los muertos en las inmediaciones. Golpear un tarro hará que suelte parte de sus ganancias para tu propio uso.<BR>Se mostrarán efectos de partículas cuando el frasco esté lleno.
+#
+tc.research_name.HOVERHARNESS=Arnés Thaumostático
+tc.research_text.HOVERHARNESS=Es un pájaro...
+tc.research_page.HOVERHARNESS.1=Finalmente has logrado descubrir el secreto de volar. Has creado un arnés que se ancla al campo taumatúrgico con energía thaumostática lo que te permite desafiar la gravedad. Crees que los cuantos y quarks podrían estar involucrados de alguna manera.<BR>Inusualmente el único Vis necesario para alimentar el arnés es añadido durante su proceso de creación. En cambio, el combustible que necesita para el vuelo es Potentia pura. Haz clic derecho mientras mantienes el arnés para insertar tarros llenos.<BR>Presiona 'F' mientras usas el arnés para activarlo.
+tc.research_page.HOVERHARNESS.2=Mientras esté activo el arnés utiliza constantemente Potencia.<BR>Puede ser encantado con el Encantamiento Prisa para aumentar la velocidad con que se mueve durante el vuelo.
+#
+tc.research_name.HOVERGIRDLE=Cinturón Taumostático
+tc.research_text.HOVERGIRDLE=¿Es un avión?
+tc.research_page.HOVERGIRDLE.1=Este cinturón está diseñado para ser utilizado con el arnés taumostático. Por sí solo tiene muy poco poder de elevación - tiene lo justo para evitar casi todo el daño por caída <BR>Sin embargo, cuando se usa con el arnés aumenta en gran medida la velocidad a la que puedes volar. El único inconveniente es que el arnés consume un poco más de combustible de lo normal.
+#
+tc.research_name.ADVANCEDGOLEM=Golems Avanzados
+tc.research_text.ADVANCEDGOLEM=Tal vez debería pensar en esto...
+tc.research_page.ADVANCEDGOLEM.1=Has descubierto como mejorar los golems de pequeñas, pero importantes maneras.<BR>En primer lugar, los golems que pasan por este proceso son capaces de mantener una actualización adicional, a pesar de que nunca se pueden tener más de dos actualizaciones de un solo tipo.<BR>En segundo lugar, se mueven un poco más rápido.<BR>En tercer lugar, tienen un poco mayor radio de visión.<BR>Estás seguro que la intención malevolente en sus ojos es sólo tu imaginación.  
+#
+tc.research_name.ARCANEBORE=Taladro Arcano
+tc.research_text.ARCANEBORE=Minería evolucionada
+tc.research_page.ARCANEBORE.1=Has descubierto un dispositivo capaz de ampliar el alcance y la potencia de un foco de excavación. De mayor uso es el hecho de que la máquina puede hacerlo sin tu supervisión constante. Sólo tienes que colocarlo en una base especial, apuntar en la dirección correcta con una varita y aplicar una señal de redstone.<BR>El taladro arcano requiere dos cosas para funcionar. El primero es un foco de excavación colocado en la ranura más a la izquierda de su inventario. Cualquier encantamiento aplicado al foco también alterará las funciones del taladro. 
+tc.research_page.ARCANEBORE.2=En segundo lugar es necesario colocar cualquier tipo de pico en la ranura de la derecha. El material del pico tendrá poco efecto sobre la operación del taladro, pero cuanto mayor sea su duración, más tiempo durará. Al igual que la varita, los encantamientos o habilidades especiales del pico también se aplicará lo que sea que mine el taladro.<BR>Depositar un tarro de Esencia Perditio en algún lugar detrás del taladro (a 5 bloques) acelerará la velocidad a la que mina.<BR>Un taladro arcano sólo se pueden colocar por encima o por debajo de una plataforma arcana. Cualquier elemento minado serán expulsado ​​de la plataforma en la dirección que la boquilla está apuntando.
+tc.research_page.ARCANEBORE.3=Se expulsará a un inventario si fuera posible. Esta dirección se puede cambiar con una varita.
+#
+tc.research_name.LEVITATOR=Levitador Arcano
+tc.research_text.LEVITATOR=Lo más parecido a volar
+tc.research_page.LEVITATOR.1=Si bien es cierto que no es un verdadero vuelo, el Levitador Arcano es la siguiente mejor opción.<BR>El levitador levanta cualquier objeto o criatura por encima de el hasta 10 bloques en el aire. Si te agachas (SNEAK), hará que la criatura o jugador descienda lentamente.<BR>Cada levitador colocado sobre otro aumenta la distancia a la que puede levantar las entidades por 10 bloques, por lo que una pila de 3 puede elevar hasta 30 bloques.<BR>Los levitadores pueden ser desactivados mediante la aplicación de una señal de redstone.  
+#
+tc.research_name.ARCANEEAR=Oído Arcano
+tc.research_text.ARCANEEAR=Shhh, ¿oyes algo?
+tc.research_page.ARCANEEAR.1=El Oído Arcano es un dispositivo que es capaz de detectar el sonido emitido desde bloques de notas cercanos. Si oye una nota reconoce emitirá un breve pulso redstone.<BR> El Oído Arcano tiene que ser ajustada de manera idéntica los bloques de notas, el tono y la nota que escucha depende del material sobre el que se coloca.
+#
+tc.research_name.MIRROR=Espejo Mágico
+tc.research_text.MIRROR=A través del espejo
+tc.research_page.MIRROR.1=Ahora eres capaz de encantar un par de espejos mágicos que actúan como puertas al vacío entre mundos. Todo lo lanzado a través de un espejo pasará a través de este reino y saldrá por el otro espejo - incluso a través de fronteras dimensionales.<BR>Lamentablemente este reino es extremadamente hostil para las criaturas mortales como tu, por lo que usar estos espejos para el transporte de seres vivos aún no es posible.<BR>Para enlazar un par de espejos mágicos sólo tendrás que colocar uno de ellos en la ubicación deseada.  
+tc.research_page.MIRROR.2= A continuación, haz clic derecho en un segundo espejo, y ambos se enlazarán. Puede colocar el segundo donde quieras y los items lanzados a uno serán expulsado por el otro.<BR>Los espejos sólo pueden enlazarse en parejas, por lo que mientras estén vinculados no se les podrá añadir otro espejo. Cuando recoges un espejo, este recordará la última pareja al que estaba enlazada, lo que te permite moverlos con facilidad sin tener que volver a enlazarlos. Sin embargo, mientras uno de los espejos esté recogido podrás enlazar cualquiera de ellos.<BR>Transportar items no es gratis. Necesitas una fuente de Iter cerca y cada stack de items usará 1 de Esencia.
+#
+tc.research_name.MIRRORHAND=Espejo de Mano Mágico
+tc.research_text.MIRRORHAND=Reflexión personal
+tc.research_page.MIRRORHAND.1=Este espejo mágico de mano funciona de la misma manera que otros espejos mágicos. Sólo tienes que lanzar objetos a través del vidrio y saldrá al espejo enlazado.<BR>Haz clic derecho mientras mantienes el espejo y podrás colocar cualquier elemento de tu inventario en el espejo para que los transporte.<BR>El espejo de mano puede estar enlazado a un espejo que ya está emparejado con otro.<BR>Cabe señalar que el espejo de mano sólo puede enviar elementos, no recibirlos.
+#
+tc.research_name.NODEJAR=Nodo en un Tarro
+tc.research_text.NODEJAR=Para el Taumaturgo en movimiento
+tc.research_page.NODEJAR.1=Los Tarros Reforzados han demostrado ser capaces de almacenar todo tipo de cosas mundanas y místicas, y ahora crees que has descubierto un nuevo uso para ellos - la captura de Nodos de aura.<LINE>Al construir una gran versión de un tarro entorno a un nodo y pronunciando la fórmula mística adecuada con tu varita, el nodo será atrapado dentro del Tarro que se encogerá rápidamente en un tamaño más manejable. El tarro puede ser recogido de forma segura y movido, pero el hechizo de captura inicial puede dañar el nodo.
+tc.research_page.NODEJAR.2=Mientras el nodo esté atrapado se mantiene suspendido y ni se regenerará ni se podrá extraer Vis.<BR>Es posible liberar el nodo del tarro, colocándolo en el mundo y haciendo clic en él con una varita. El tarro se destruye en el proceso.
+#
+tc.research_name.PAVETRAVEL=Adoquín de Viaje
+tc.research_text.PAVETRAVEL=Facilitando tu viaje
+tc.research_page.PAVETRAVEL.1=Al alterar la estructura de la piedra mágica arcana eres capaz de crear un adoquín que añade una nueva propiedad para las personas que lo transitan.<BR>Cualquier cosa que ande a través de ella tendrá una mayor velocidad y agilidad durante un par de segundos.
+#
+tc.research_name.PAVEWARD=Adoquín Guardian
+tc.research_text.PAVEWARD=Manteniendo las cosas fuera
+tc.research_page.PAVEWARD.1=Has descubierto una manera de convertir bloques de piedra arcanos en unas guardianas místicas que evitarán a la mayoría de las criaturas cruzarlas.<BR>Cabe señalar que estos adoquines no siempre son 100% seguros y no pueden evitar que otros jugadores entren en un área, pero mantienen la mayor parte de las amenazas comunes fuera. También evitará que los golems las crucen.<BR>Para obtener los mejores resultados se necesita una línea ininterrumpida de ellos entre el área que desees proteger y el mundo exterior.<BR>Una señal redstone activa inhabilitará este bloque.
+tc.research_page.PAVEWARD.2=El color de las runas encima del adoquín indican su estado.<BR>Runas púrpuras indican que está evitando que algo pase.<BR>Runas azules muestran que ha sido desactivado con una señal de redstone.<BR>Ruans rojas indican que algo está evitando una defensa completa y que existe un hueco por el cual se puede pasar.
+#
+tc.research_name.WANDPED=Pedestal Recarga Varitas
+tc.research_text.WANDPED=Recargando varitas automáticamente
+tc.research_page.WANDPED.1=Viajar por la naturaleza para recargar tu varita está muy bien, pero una forma automática de hacerlo estaría mucho mejor.<BR>Este pedestal especialmente diseñado hace precisamente eso - cualquier varita depositada en él absorberá automáticamente vis de nodos cercanos.<BR>Además los nodos no se agotarán completamente a menos que sea una varita de mala calidad hecha de madera mundana y hierro.
+#
+tc.research_name.WANDPEDFOC=Centro de Recarga Combinada 
+tc.research_text.WANDPEDFOC=Para todo lo que tenga un uso
+tc.research_page.WANDPEDFOC.1=En tus viajes has descubierto varios nodos que contienen aspectos combinados, pero hasta ahora no ha habido manera de aprovechar esta rica fuente de vis. Hasta ahora.<BR>Este foco se puede colocar en la parte superior de un Pedestal Recarga Varitas y permitirá a cualquier varita en él absorber los aspectos combinados de nodos cercanos. Por desgracia, este vis combinado se descompone en una única parte de vis principal y el resto se pierde. Sin embargo, es un buen comienzo y estás seguro de que descubrirás mejores formas de acceder a este fuente de recursos. 
+#
+tc.research_name.ETHEREALBLOOM=Flor Etérea
+tc.research_text.ETHEREALBLOOM=Purificando flores
+tc.research_page.ETHEREALBLOOM.1=La Hoja Brillante es a menudo eclipsada por su vecino místico el árbol Plateado, pero tiene propiedades mágicas por sí misma.<BR>Como el árbol Plateado, las Hojas Brillantes tienen propiedades relacionadas con la purificación. Has encontrado una manera de despertar estas propiedades y convertirlas en una Flor Etérea.<BR>Crecen con lentitud, pero con seguridad, y restauran la tierra corrompida por medios místicos a su antigua gloria - esto incluye la plaga conocida como Corrupción. Aunque no se puede combatir directamente la Corrupción, pocos cultivos contaminados pueden
+tc.research_page.ETHEREALBLOOM.2=sobrevivir fuera de su medio ambiente por mucho tiempo y tienden a morir de nuevo.<BR>La flor sólo purifica la tierra bañada en su luz en un rango de aproximadamente 8 bloques.
+#
+tc.research_name.PECH=Los Pech
+tc.research_text.PECH=Extrañas Criaturas
+tc.research_page.PECH.1=Estos extraños humanoides pueden encontrarse dondequiera que el velo entre los mundos sea muy delgado. Parece que les atraen las energías mágicas que abundan en esos lugares. <BR> No dejes que su pequeña estatura te engañe. Tienen una fuerza increíble y puede llevar muchas veces su propio peso.<BR>Los Pech no son agresivos normalmente, pero cuando se les molesta se unirán para dar caza a su atacante. En condiciones normales evitan a las personas a toda costa. <BR>Los Pechs son notoriamente avaros, y saquearán todo lo que no esté bien
+tc.research_page.PECH.2=sujeto, aunque prefieren los objetos preciosos. Se dice que si alimentas este deseo de riqueza material sería posible hacer amistad con un Pech. Una vez amigos, suelen llevar objetos maravillosos de los que podrían estar dispuestos a desprenderse. <BR> Cabe señalar que este tipo de 'amistades' rara vez duran mucho.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
+#
+tc.research_name.INFUSIONENCHANTMENT=Encantamiento de Infusion
+tc.research_text.INFUSIONENCHANTMENT=Encantando con Esencia
+tc.research_page.INFUSIONENCHANTMENT.1=Desde hace tiempo los magos y taumaturgos han encantado armas, herramientas y armaduras imbuyendo objetos con su propia energía vital. Aunque efectivo el proceso es tedioso y los resultados son totalmente impredecibles. Tu descubrimiento de la artesanía mediante infusión puede haber solucionado ambos problemas. <BR> Has descubierto una manera de encantar objetos con un altar de infusión. Basta con colocar el elemento que desees encantar en el pedestal central y suministrar los ingredientes y esencia adecuados.
+tc.research_page.INFUSIONENCHANTMENT.2=También requiere un poco de esencia de la vida en forma de experiencia, pero mucho menos de lo que se requiere normalmente para encantar algo. Esta experiencia se toma de cualqueira que se acerque al altar de infusión así que se debe tener cuidado. <BR> El coste en esencia y experiencia mostradas en las siguientes recetas son para el primer nivel de encantamiento. Para encantar un objeto a niveles más altos, sólo tienes que llevar a cabo el proceso de infusión de nuevo - se puede repetir hasta que el encantamiento requerida ha alcanzado su máximo nivel posible. El coste de esencia y experiencia se multiplica por cada nivel de encantamiento, por lo que un encantamiento nivel II cuesta dos veces más que el nivel I.
+tc.research_page.INFUSIONENCHANTMENT.3=Puede haber costes adicionales si el item ya contiene encantamientos de los que actualmente estés imbuyendo. Este coste es de alrededor del 10% por nivel de encantamiento. Así que encantar una espada con Aspecto de Fuego I que ya contiene Smite III tendrá un coste de un 30% más. <BR>La inestabilidad también aumenta a medida que el número total de encantamientos sobre el objeto aumenta. <BR>Encantar items en un altar de infusión sigue las reglas normales para encantamientos que se aplican a los encantamientos que pueden combinarse con otros
+#
+tc.research_name.ARCANELAMP=Lámpara Arcana
+tc.research_text.ARCANELAMP=Gran Fuente de Luz
+tc.research_page.ARCANELAMP.1=Esta lámpara mística puede fijarse a paredes, suelos o techos, y proporcionará una luz fuerte y constante. <BR> Otras fuentes de luz también pueden aparecer hasta 16 bloques donde los niveles de luz están por debajo de 'niveles seguros'. Recuerda: Sólo tu puedes prevenir la aparición de zombies <BR> Estas fuentes secundarias de luz desaparecerán poco después de que la lámpara se quite. Estás seguro que conseguirás otros usos para esta lámpara, así que recuerda comprobar esta página tras nuevos descubrimientos.
+tc.research_page.ARCANELAMP.2=           §nTaladro Aracano§r<BR>Cuando se conecta a la base de un taladro arcano, la lámpara obtiene una habilidad adicional: Absorberá esencia de Lux de una fuente cercana para iluminar el tunel. <BR> Un único punto de lux crea un único punto de luz. Estas fuentes de luz no desaparecerán después de que la lámpara se ha eliminado.
+#
+tc.research_name.BASICARTIFACE=Artefactos Básicos
+tc.research_text.BASICARTIFACE=Cosas útiles
+tc.research_page.BASICARTIFACE.1=§nSalis Mundus§r<BR><BR>Salis Mundus, o la Sal del Taumaturgo como es más comunmente conocida, es creada tras machacar cristales de vis y mezclarlos con sustancias ricas en magia.<BR>Al igual que su homóloga mundana, la sal del Taumaturgo añade sabor (metafóricamente hablando) a cualquier receta o fórmula mágica. Es un elemento de unión fuerte, capaz de mantener juntos los más diversos elementos mágicos.<BR>Hay varias sustancias que se pueden mezclar con estos cristales triturados para crear Salis Mundus
+tc.research_page.BASICARTIFACE.2=§nEncantamiento Primigenio§r<BR><BR>Los encantamientos primigenios constituyen una base importante para muchas construcciones taumatúrgicas. No tienen poder propio más allá de ser capaces de enfocar y canalizar la energía y esencia primigenia.<BR>Persisten las habladurías de que estos amuletos tienen poderes adicionales, pero eso es poco más que un rumor.
+#
+tc.research_name.TUBES=Tuberías de Esencia
+tc.research_text.TUBES=Transporte de Esencia
+tc.research_page.TUBES.1=Has descubierto varias maneras de transportar esenica, pero ninguna de ellas ha demostrado ser útil para operaciones alquímicas a gran escala - hasta ahora.<BR>Has desbloqueado la clave para crear tuberías estables y relativamente seguras de fugas. Mientras que los productos químicos mundanos pueden ser transportados en vidrio, ciertos tipos de esencia se disuelven o simplemente pasan a través de él. Al envolver el cristal en hierro y tratarlo con mercurio has logrado protegerlo incluso de los tipos más volátiles de esencia. Puedes usar accesorios de oro en las tuberías para hacerlas más atractivas a la vista.
+tc.research_page.TUBES.2=Las tuberíass se pueden conectar a todo tipo de dispositivos de alquimia, aunque los frascos reforzados y alambiques son sus objetivos principales.<BR>La esencia fluye a través de los tubos cada vez que algo se conecta a ellos - siempre que pueden aceptarla, como frascos reforzados.<BR>Los tarros que contengan diferentes tipos de esencia solo tomarán los de esas clases. Los tubos sin embargo, solo pueden sacar y transportar un tipo de esencia a la vez - en función de las prioridades. Sin un uso adecuado de las válvulas es muy fácil que una red de tuberías se atasque. El uso de válvulas es esencial.<BR>Cuando veas gases que se escapan
+tc.research_page.TUBES.3=desde una tubería, significa diferentes tipos de succión están interfiriendo entre ellos. El color da una idea de los tipos de succión.<LINE>La válvula de esencia actúa muy parecido a una parte normal de la tubería, excepto que puede apagar con la mano o con una señal de redstone. Cuando pasa esto, el flujo de esencia se parará.<LINE>El resonador  de esencia es útil para solucionar problemas en la red de tuberías. Se puede utilizar en un tubo u otro dispositivo usando esencia para ver qué esencia contiene y que succión se está aplicando.
+tc.research_page.TUBES.4=Las tuberías pueden conectarse y desconectarse de sus vecinas haciendo clic en una sección de tubo con una varita.<BR>La varita se puede utilizar también para hacer clic en la sección central y así girar determinados tuberías como la válvula.
+#
+tc.research_name.CENTRIFUGE=Centrifugador Alquímico
+tc.research_text.CENTRIFUGE=Haciendo las cosas aparte
+tc.research_page.CENTRIFUGE.1=El centrifugador alquímico es un maravilloso invento que te permite romper esencia en sus partes más básicas.<BR>Cuando esencia compuesta fluye hacia el centrifugador desde abajo se deshará lentamente en esencia primigenia o compuesta de la que esté hecha. Sólo se crea uno de los componentes  por cada punto de esencia roto.<BR>La esencia resultante tiene que ser extraída de la parte superior del centrifugador. Debido a las peculiaridades del sistema de presión de las tuberías, lo mejor sería conectar un §5Buffer de Esencia§0 a la parte superior del centrifugador (ver página siguiente).
+tc.research_page.CENTRIFUGE.2=El buffer de esencia te permite almacenar una cantidad limitada de esencia - 8 puntos en total, aunque puede estar compuesta por cualquier combinación de esencia. Como un tarro, tiene succión, a pesar de que se aplica la cantidad mínima de succión posible(1).<BR>Esto significa que por lo general sólo es capaz de extraer Esencia desde una fuente Esencia que esté unida directamente a él. Sin embargo, las tuberías pueden conectarse a todos sus lados, lo que significa que es muy valioso para conseguir esencia de dispositivos como los centrifugadores que pudieran contener varios tipos de esencia.<BR>Puedes unir un fuelle al búfer - cada fuelle aumenta la succión por 32.
+#
+tc.research_name.TRAVELTRUNK=Baúl Viajero
+tc.research_text.TRAVELTRUNK=Equipaje Móvil
+tc.research_page.TRAVELTRUNK.1=Una extensión de tu investigación en golemancia te ha llevado a un compañero útil para cualquier taumaturgo: El baúl de viaje.<BR>Este cofre de madera seguirá felizmente a su maestri, siempre dispuesto a proporcionar un cómodo espacio de almacenamiento para cualquier cosa que necesites recoger.<BR>El baúl viajero es duro y puede recibir una cantidad considerable de golpes. Es altamente resistente al fuego y no puede ser dañado por caídas.<BR>El baúl puede seguir a su amo a todas partes - incluso a dimensiones lejanas. Si deseas que se quede
+tc.research_page.TRAVELTRUNK.2=quieto, hay un botón en su GUI que hará que permanezca en su posición actual.<BR>El baúl de viaje se cura lentamente, pero también puedes darle de comer todo tipo de alimentos para acelerar este proceso.<BR>Igual que los golems, el baúl puede recogerse haciendo clic izquierdo con una campana de golemante. Al hacerlo, dejará caer todos los elementos en su inventario. Shift-clic también hará que caiga cualquier actualización que le hayas aplicado- con la posibilidad de pérdida.<BR>Puede aceptar una sola actualización como los golems normales, pero otorga habilidades únicas a el baúl. Consulta las siguientes páginas para obtener más detalles a medida que descubres las mejoras.
+tc.research_page.TRAVELTRUNK.UAI=     §nActualización Golem: Aire§r<BR>Con esta actualización instalada el baúl se moverá más rápido.
+tc.research_page.TRAVELTRUNK.UEA=     §nActualización Golem: Tierra§r<BR>Con esta actualización instalada el baúl podrá transportar más items y ganará una fila adicional en el inventario.
+tc.research_page.TRAVELTRUNK.UFI=     §nActualización Golem: Fuego§r<BR>Con esta actualización instalada el baúldefenderá a su maestro cuando sea atacado.
+tc.research_page.TRAVELTRUNK.UWA=     §nActualización Golem: Agua§r<BR>Con esta actualización instalada el baúl no puede ser abierto por nadie más que su maestro.<BR>Se hace altamente resistente a todo excepto a devastadores cantidades de daño.
+tc.research_page.TRAVELTRUNK.UOR=     §nActualización Golem: Orden§r<BR>Con esta actualización instalada el baúl mantendrá sus items cuando sea recogido con una campana de Golemante. Soltará items cuando hagas shift-click.
+tc.research_page.TRAVELTRUNK.UEN=     §nActualización Golem: Entropía§r<BR>Con esta actualización instalada el baúl succionará items cercanos a su inventario.
+#
+tc.research_name.LAMPGROWTH=Lámpara del Crecimiento
+tc.research_text.LAMPGROWTH=Alentando a las cosas crecer
+tc.research_page.LAMPGROWTH.1=Al contrario que la lámpara Arcana de la cual proviene, la lámpara del Crecimiento no emite mucha luz a menos que se le suministre esencia de Herba. Si se hace esto, cualquier planta que crezca en el radio de luz crecerá mucho más rápido de lo normal.<BR>La esencia puede suministrarse bien colocando un tarro cerca, o uniendo directamente la lámpara a un sistema de tuberías. 
+#
+tc.research_name.LAMPFERTILITY=Lámpara de Fertilidad
+tc.research_text.LAMPFERTILITY=Emitiendo una romántica luz sobre las cosas
+tc.research_page.LAMPFERTILITY.1=Cualquier criatura viviente bañada por el amable y rosado brillo de esta lámpara es llevado a un estado romántico. Si pueden, buscarán otra pareja de su clase.<BR>La lámpara no tendrá efecto si ya hay 8 ó más especies presentes.<BR>Requiere esencia Victus para funcionar, la cual puede ser suministrada colocando un tarro cerca, o uniendo directamente la lámpara a un sistema de tuberías.
+#
+tc.research_name.JARVOID=Tarro Vacío
+tc.research_text.JARVOID=¿Demasiada esencia? ¡Imposible!
+tc.research_page.JARVOID.1=Los tarros vacíos funcionan de forma similar a los tarros reforzados con una importante diferencia - son capaces de aceptar esencia incluso estando llenos, aunque el exceso de esencia se pierde. Esto te permite tener disponible siempre esencia de cada tipo, pero eliminando la sobrante.<BR>Como los tarros normales, los vacíos aceptan etiquetas, pero su succión con una puesta será menor que los tarros normales etiquetados(a medio camino entre los tarros no etiquetados y los etiquetados).
+#
+tc.research_name.TUBEFILTER=Tuberías de Esencia Avanzadas
+tc.research_text.TUBEFILTER=Lo que quieres, donde lo quieres
+tc.research_page.TUBEFILTER.1=Las §nTuberías de Esencia Filtrada§r funcionan como las normales, excepto que es posible etiquetarlas. Cuando esto suceda, restringirán el flujo de esencia a través de ellas a sólo la que tiene designada.<BR>Shift-click en ellas con la mano vacía quitará la etiqueta.
+tc.research_page.TUBEFILTER.2=Las §nTuberías de Esencia Restringida§r funcionan como las normales, excepto que reducen a la mitad la succión que pasa a través de ellas.<LINE>Las §nTuberías de Esencia Direccionales§r solo aceptan succión de una dirección. La marca azul indica la dirección desde la cual se acepta dicha succión.
+#
+tc.research_name.MIRRORESSENTIA=Espejo de Esencia
+tc.research_text.MIRRORESSENTIA=Esencia donde la necesitas
+tc.research_page.MIRRORESSENTIA.1=Los espejos mágicos son muy útiles para transportar items a lo largo de largas distancias pero ¿qué pasaría si se aplica el mismo principio a la esencia? Piensas que has descubierto una forma de hacerlo.<BR>Los espejos de Esencia, como su nombre indica, pueden transportar esencia de la misma forma que los espejos mágicos hacen con los items. Aunque hay varias e importantes limitaciones.<BR>No puedes canalizar la esencia directamente en los espejos - únicamente pueden transportar esencia proveniente de algo como una Matriz de Infusion o un Horno Arcano.    
+tc.research_page.MIRRORESSENTIA.2=En efecto, los espejos permiten a esos dispositivos tomar esencia de fuentes a través del espejo.<BR>Transportar esencia de forma tan precaria en tales distancias tiene algunos riesgos y ocasionalmente una pequeña cantidad de esencia se perderá. 
+#
+tc.research_name.BONEBOW=Arco de Hueso
+tc.research_text.BONEBOW=Palos y piedras...
+tc.research_page.BONEBOW.1=Has descubierto una forma de elaborar un arco de hueso e inbuirlo con energía entrópica.<BR>El arma resutante es capaaz de disparar mucho más rápido que un arco normal y las flechas disparadas también se mueven más rápido y golpean más fuerte.
+#
+tc.research_name.PRIMALARROW=Flechas Primigenias
+tc.research_text.PRIMALARROW=Flechas con picadura elemental
+tc.research_page.PRIMALARROW.1=Estas flechas están inbuidas con energía primigenia específica lo que les proporciona interesantes y destructivas propiedades.<BR>§nFlecha de Aire§r<BR>Estas flechas crepitan con energía. Inflingen un daño similar a las flechas normales pero la energía mágica atraviesa cualquier tipo de armadura.<BR>§nFlecha de Fuego§r<BR>Estas flechas inflingen daño de fuego e incendian a sus objetivos por igual.
+tc.research_page.PRIMALARROW.2=§nFlecha de Agua§r<BR>Estas flechas inflingen daño normal pero congelan al objetivo hasta los huesos, reduciendo su velocidad de moviemiento.<BR>§nFlecha de Tierra§r<BR>Estas flechas no hacen nada especial más allá de golpear mucho más duro que las flechas normales.<BR>§nFlecha de Orden§r<BR>Esta flecha hace un poco menos de daño que las normales pero sobrepasa la armadura y deja a tu enemigo debilitado.
+tc.research_page.PRIMALARROW.3=§nFlecha de Entropía§r<BR>Esta flecha hace un daño ligeramente menor que las normales pero inflinge un efecto Wither a lo que sea que impacte.<LINE>Las flechas primigenias no pueden recogerse del suelo y el encantamiento Infiny sólo dará una probabilidad del 33% de no gastar la flecha.
+#
+tc.research_name.THAUMATORIUM=Alquimia Automática
+tc.research_text.THAUMATORIUM=Alquimia para las masas
+tc.research_page.THAUMATORIUM.1=Hasta ahora la alquimia ha sido un tema inconsistente - aspectos mal contados, esencia degradada e ingredientes que requieren una mezcla manual. Esto es finalmente una cosa del pasado.<BR>El Taumatorium es un invento maravilloso que permite a un taumaturgo seleccionar qué fórmula quiere usar y qué catalizadores añadir. A continuación, toma la esencia automáticamente de fuentes disponibles utilizando tuberías. Mientras haya un suministro de catalizador el objeto se produce perfectamente.<BR>El crisol que forma su base no requiere agua, pero se necesita una fuente de calor.
+tc.research_page.THAUMATORIUM.2=Al acceder a este dispositivo verás varias ranuras. La ranura superior izquierda es donde se coloca el catalizador. Una vez hecho esto serás capaz de elegir qué receta deseas elaborar con ese catalizador de una lista que hay en la ranura de la parte superior derecha.<BR>La barra inferior muestra la esencia requerida y en el orden en que será requerida. También mostrará las barras de progreso una vez que la máquina está en funcionamiento.<BR>El objeto creado se expulsa por la parte frontal del dispositivo o en un inventario colocado delante de la ventana de expulsión.
+tc.research_page.THAUMATORIUM.3=Normalmente un Taumatorium solo puede tener un fórmula activa, pero al añadir una Matriz Mnemónica aumenta el número de fórmulas que puede guardar.<BR>Cada Matriz incrementa las fórmulas por 2. 
+#
+tc.research_name.RUNICARMOR=Blindaje Rúnico
+tc.research_text.RUNICARMOR=¡Escudo arriba!
+tc.research_page.RUNICARMOR.1=Tu investigación en magia protectora te ha llevado a descubrir el Blindaje Rúnico. No es una armadura en el sentido tradicional, pero una colección de encantamientos, anillos y objetos similares te acompañan todos los días en tus ropas.<BR>Estos dispositivos crean un barrear mágica de energía que te defiende de la mayoría de daños. El blindaje tiene una serie de puntos que se van restando a medida que el taumaturgo es golpeado, protegiéndolo así de todo daño. Cuando los puntos se gasten el portador empezará a recibir daño normalmente.
+tc.research_page.RUNICARMOR.2=Estos puntos se van reponiendo con el tiempo y requieren vis de §2Terra§0 y §eAer§0 que se obtiene de las varitas que porta el taumaturgo.<BR>Este blindaje no ofrece protección para el daño por ahogamiento, hambre o peligros similares del medio.<BR>Debido a su naturaleza el blindaje no puede ser encantado de forma tradicional, pero estás seguro que hay formas de mejorar su efectividad - simplemente necesitas descubrirlas.
+#
+tc.research_name.RUNICAUGMENTATION=Aumento de Blindaje Rúnico
+tc.research_text.RUNICAUGMENTATION=¡Escudos al máximo!
+tc.research_page.RUNICAUGMENTATION.1=Los anillos, amuletos y cinturones con blindaje rúnico son muy buenos, pero ¿no te gustaría aplicar este encantamiento a otras cosas?<BR>¡Desde luego que puedes! Utilizando la magia de Taumaturgia(c) (patente pendiente), eres capaz de añadir blindaje rúnico a casi cualquier pieza de armadura mágica estable.<BR>'Mágicamente estable' son aquellos items creados de taumium, tejido mágico o materiales similares.<BR>Una única carga de blindaje rúnico es añadida al objeto, pero puedes encantar un objeto múltiples veces. Esto es caro y
+tc.research_page.RUNICAUGMENTATION.2=la cantidad de ingredientes y esencia requeridos se incrementa con cada nivel. La Salis Mundus necesaria será igual al nivel de blindaje que quieras conseguir y la esencia se incrementará exponencialmente.<BR>Puedes tambien encantar elementos rúnicos existentes como los Anillos de Blindaje, sin embargo el coste está calculado sobre la carga rúnica existente haciendolo un proceso excepcionalmente caro.
+#
+tc.research_name.RUNICCHARGED=Anillo Cargado de Blindaje
+tc.research_text.RUNICCHARGED=¡Carga para el anillo de Carga!
+tc.research_page.RUNICCHARGED.1=Esta es una versión especializada del Anillo de Blindaje.<BR>Tiene ligeramente menos carga que el anillo en el que está basado, pero aumenta la tasa de recarga del blindaje rúnico en un 25%.<BR>Puedes llevar más de uno de esos anillos, reduciendo a la mitad la tasa de recarga.
+#
+tc.research_name.RUNICHEALING=Anillo Fortalecedor de Blindaje
+tc.research_text.RUNICHEALING=Adelante, puedo soportarlo.
+tc.research_page.RUNICHEALING.1=Esta es una versión especializada del Anillo de Blindaje.<BR>Tiene ligeramente menos carga que el anillo en el que está basado, pero cuando el blindaje rúnico se rompe lanzará un pulso de energía regenerativa que durará unos segundos.<BR>Este efecto no puede activarse más de una vez cada 20 segundos.
+#
+tc.research_name.RUNICKINETIC=Cinturón Cinético de Blindaje
+tc.research_text.RUNICKINETIC=Jeje, vas a lamentar eso
+tc.research_page.RUNICKINETIC.1=Esta es una versión especializada del cinturón de Blindaje.<BR>Tiene ligeramente menos carga que el cinturón en el que está basado, pero cuando el blindaje rúnico se rompe lanzará una detonación de energía cinética dañando y empujando hacia atrás cualquier cosa cercarna.<BR>Este efecto no puede activarse más de una vez cada 20 segundos.
+#
+tc.research_name.RUNICEMERGENCY=Amuleto de Blindaje de Emergencia
+tc.research_text.RUNICEMERGENCY=No podrás conmigo fácilmente
+tc.research_page.RUNICEMERGENCY.1=Esta es una versión especializada del Amuleto de Blindaje.<BR>Tiene ligeramente menos carga que el amuleto en el que está basado, pero cuando el blindaje rúnico se rompe añadirá instantáneamente 8 niveles a tu blindaje.<BR>Este efecto no puede activarse más de una vez cada minuto.
+#
+tc.research_name.WARDEDARCANA=Puerta Arcana
+tc.research_text.WARDEDARCANA=Controlando el acceso
+tc.research_page.WARDEDARCANA.1=Algunos experimentos te han llevado a un descubrimiento interesante - la capacidad de imprimir los recuerdos en los objetos inanimados. Tu primer intento de utilizar este descubrimiento son puertas, placas de presión y otros bloques para que recuerden quien los colocó.<BR> La puerta sólo se puede eliminar con una varita por la persona que la colocó. Además la puerta se negará a abrir a otras personas excepto a su dueño. El propietario también puede diseñar llaves de hierro o de oro que permitirán a otros el acceso a la puerta.<BR>Al crear una llave de hierro y hacer clic en la puerta vincularás la llave de esa puerta.
+tc.research_page.WARDEDARCANA.2=Podrás dar entonces la llave a otra persona que podrá desde ese momento abrir la puerta. No podrán sin embargo romperla o permitir a otras personas el acceso. Para eso se necesita la llave de oro.<BR>La llave de oro tiene la misma función que la llave de hierro,excepto que también puede permitir a otras personas el acceso a la puerta con una llave de hierro. Sólo el propietario original de la puerta puede entregar llaves de oro. El resto tampoco es capaz de quitar la puerta con una varita. Sólo el propietario original será capaz de hacer eso.
+tc.research_page.WARDEDARCANA.3=Esta placa de presión tiene algunas características novedosas.<BR>Primeramente, tiene 3 opciones que pueden activarse haciendo clic derecho sobre la misma: Puede activarse con todo (como una placa de presión de madera), sólo contigo, o con todo excepto contigo.<BR>En segundo lugar, sólo tu puedes quitarlo.<BR>Por último, puede estar vinculado a otros jugadores con el uso de llaves. Estas placas de presión pueden ser usados ​​para abrir puertas arcanas siemore que alguien con acceso a la placa tenga acceso a la puerta también.
+tc.research_page.WARDEDARCANA.4=El cristal reforzado es un simple bloque cosmético pero como otros objetos reforzados no puede romperse excepto por la persona que lo colocó.<BR>Las llaves no pueden usarse para dar acceso a otros.
+#
+tc.research_name.VISAMULET=Almacenamiento de Vis
+tc.research_text.VISAMULET=No lo quieres, no lo pierdas
+tc.research_page.VISAMULET.1=La mayor parte de las veces una sola varita es más que suficiente para cualquier taumaturgo, pero hay ocasiones en el que el vis almacenado no es suficiente. Llevar más de una varita resolvería esto, pero la experimentación ha demostrado que hay otra manera.<BR>Al elaborar un amuleto capaz de almacenar vis, serás capaz de recargar varitas y otros elementos mientras lo llevas puesto.<BR>Tu éxito no ha sido completo sin embargo. Sólo puedes recargar varitas mientras las sostienes en tu propia mano y aún así la recarga es lenta.
+tc.research_page.VISAMULET.2=Sin embargo el amuleto es capaz de actuar como una buena fuente de energía para otras cosas como el encantamiento Reparar o el blindaje rúnico.<BR>El amuleto sólo se puede recargar en un pedestal de varitas.
+#
+tc.research_name.NODESTABILIZER=Estabilizador de Nodo
+tc.research_text.NODESTABILIZER=Terapia de Nodo
+tc.research_page.NODESTABILIZER.1=Este práctico dispositivo tiene varios efectos beneficiosos si se coloca debajo de un nodo.<BR>En primer lugar, evita que el nodo drene o sea drenado de vis por de otros nodos. En segundo lugar, evita que los nodos inestables pierdan su vis y tiene una pequeña posibilidad de eliminar la condición inestable. Por último tiene una muy, muy pequeña posibilidad de convertir nodos desvaneciendo en nodos pálidos.<BR>Esto requiere energía sin embargo y el Estabilizador de Nodos la toma desde el propio nodo. No toma el suficiente como para reducir el vis del nodo, pero reduce a la mitad su tasa de recarga normal.
+#
+tc.research_name.NODESTABILIZERADV=Estabilizador Avanzado de Nodo
+tc.research_text.NODESTABILIZERADV=Estabilización Selectiva
+tc.research_page.NODESTABILIZERADV.1=Un Estabilizador Avanzado de Nodo realiza todas las funciones de las versiones menores con algunas diferencias importantes.<BR>En primer lugar impide los a nodos menores ser drenados, pero permite a los nodos estabilizados drenar el vis de nodos menores.<BR>En segundo lugar, tiene una mayor probabilidad de mejorar nodos inestables y de desvanecimiento <BR>Desafortunadamente esto cuesta mucho más energía desde el nodo estabilizado - no lo suficiente para drenar vis de el, pero hasta el nodo más brillante tendrá su tasa de recarga casi completamente negada.
+#
+tc.research_name.GOLEMFETTER=Golem Encadenado
+tc.research_text.GOLEMFETTER=Haciendo que se comporten
+tc.research_page.GOLEMFETTER.1=Este sencillo dispositivo permite a un golemante llevar a sus golems a una desactivación temporal.<BR>Si este bloque se activa con una señal de redstone cualquier golem que pasa sobre ella, quedará completamente estático en el sitio y detendrá su actual tarea. <BR>Una vez que el bloque se desactiva el golem volverá a sus tareas.
+#

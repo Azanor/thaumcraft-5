@@ -1,0 +1,1582 @@
+# Enchantments
+enchantment.potency=파워
+enchantment.frugal=절약
+enchantment.charging=결계
+enchantment.wandfortune=탐욕
+enchantment.haste=신속
+enchantment.repair=수리
+#
+#Potions
+potion.fluxtaint=테인트 중독
+potion.soulshatter=영혼 파괴
+potion.visexhaust=플럭스 감기
+potion.infvisexhaust=전염성 플럭스 감기
+potion.unhunger=폭식증
+potion.warpward=뒤틀림 해소
+potion.deathgaze=죽음의 시선
+potion.blurred=안개
+potion.sunscorned=햇빛 알러지
+potion.thaumarhia=플럭스 분비
+#
+#Warp
+warp.text.1=이상하게 기운이 빠진 듯 지칩니다.
+warp.text.2=갑작스럽게 부자연스러운 허기가 몸을 잠식했습니다.
+warp.text.hunger.1=이 허기짐은 일반적인 음식으로는 채워지지 않을 것입니다.
+warp.text.hunger.2=배고픔이 서서히 사라져갑니다.
+warp.text.3=이상한 속삭임이 비밀스러운 무언가를 전해왔습니다.
+warp.text.4=시야가 갑자기 이상하리만치 음침해 졌습니다.
+warp.text.5=갑자기 불빛이 피부를 태울 정도로 너무나 강렬하게 느껴집니다.
+warp.text.6=갑자기 깊은 안개가 드리웠습니다. 무언가 심연 속에서 움직이는 것만 같습니다.
+warp.text.7=사방에 그것들이 있어... 도망, 도망가야돼!
+warp.text.8=머리가 너무 아파... 이 두통을 없앨순 없을까?
+warp.text.9=당신은 일을 하는 것에 피로감을 느꼈습니다.
+warp.text.10=당신은 방금 무언가를 느꼈습니다.
+warp.text.11=방금 그 소리는 뭐였지? 네 뒤에 무언가가 있어.
+warp.text.12=누군가가 날 따라오고 있어.
+warp.text.13=누군가가 당신을 보고 있습니다. 아마도 이제 멈출 시간인 것 같습니다.
+warp.text.14=당신은 방금 뭔가가 명확해짐을 느꼈습니다.
+warp.text.15=당신의 뱃속이 갑자기 꼴록꼴록거리기 시작합니다.
+#
+# Entities
+entity.Thaumcraft.ThaumSlime.name=사우믹 슬라임
+entity.Thaumcraft.Dart.name=골렘 다트
+entity.Thaumcraft.FrostShard.name=얼음 덩어리
+entity.Thaumcraft.Firebat.name=불박쥐
+entity.Thaumcraft.Wisp.name=위습
+entity.Thaumcraft.Alumentum.name=알루멘텀
+entity.Thaumcraft.GiantBrainyZombie.name=사나운 좀비
+entity.Thaumcraft.BrainyZombie.name=화난 좀비
+entity.Thaumcraft.FollowItem.name=Following Item
+entity.Thaumcraft.SpecialItem.name=마법 아이템
+entity.Thaumcraft.FallingTaint.name=테인트 부스러기
+entity.Thaumcraft.AspectOrb.name=위상 구체
+entity.Thaumcraft.TaintSpider.name=테인트 거미
+entity.Thaumcraft.Taintacle.name=테인타클
+entity.Thaumcraft.TaintacleTiny.name=테인트 덩굴
+entity.Thaumcraft.TaintSpore.name=테인트 스포어
+entity.Thaumcraft.TaintSwarmer.name=테인트 스워머
+entity.Thaumcraft.TaintSwarm.name=테인트 스웜
+entity.Thaumcraft.TaintedVillager.name=테인트 주민
+entity.Thaumcraft.TaintedChicken.name=테인트 닭
+entity.Thaumcraft.TaintedPig.name=테인트 돼지
+entity.Thaumcraft.TaintedSheep.name=테인트 양
+entity.Thaumcraft.TaintedCow.name=테인트 소
+entity.Thaumcraft.TaintedCreeper.name=테인트 크리퍼
+entity.Thaumcraft.Pech.name=펙 약탈자
+entity.Thaumcraft.Pech.1.name=펙 마법사
+entity.Thaumcraft.Pech.2.name=펙 스토커
+entity.Thaumcraft.PrimalOrb.name=태초의 에너지 구체
+entity.TravelingTrunk.name=여행 트렁크
+entity.trunk.guiname=의 트렁크
+entity.trunk.move=이제 트렁크가 따라다닙니다.
+entity.trunk.stay=이제 트렁크가 이곳에서 기다립니다.
+entity.Thaumcraft.MindSpider.name=기억 거미
+entity.Thaumcraft.EldritchGuardian.name=이계의 수호자
+entity.Thaumcraft.EldritchOrb.name=이계의 구체
+entity.Thaumcraft.CultistKnight.name=크림슨 기사
+entity.Thaumcraft.CultistCleric.name=크림슨 성직자
+#
+# Blocks
+tile.blockAiry.0.name=오라 노드
+tile.blockAiry.1.name=나이터
+tile.blockAiry.2.name=희미한 빛
+tile.blockAiry.3.name=희미한 빛
+tile.blockAiry.4.name=결계막
+tile.blockAiry.5.name=활성화된 오라 노드
+tile.blockHole.name=빈 공간
+tile.blockSecure.name=경계석
+tile.blockCustomOre.0.name=진사 광석
+tile.blockCustomOre.1.name=바람의 힘이 깃든 돌
+tile.blockCustomOre.2.name=불의 힘이 깃든 돌
+tile.blockCustomOre.3.name=물의 힘이 깃든 돌
+tile.blockCustomOre.4.name=대지의 힘이 깃든 돌
+tile.blockCustomOre.5.name=질서의 힘이 깃든 돌
+tile.blockCustomOre.6.name=혼돈의 힘이 깃든 돌
+tile.blockCustomOre.7.name=호박이 박힌 돌
+tile.blockCosmeticOpaque.0.name=호박 블럭
+tile.blockCosmeticOpaque.1.name=호박 벽돌
+tile.blockCosmeticOpaque.2.name=마법 강화 유리
+tile.blockCosmeticSolid.0.name=흑요석 토템
+tile.blockCosmeticSolid.1.name=흑요석 타일
+tile.blockCosmeticSolid.2.name=여행석
+tile.blockCosmeticSolid.3.name=경계석
+tile.blockCosmeticSolid.4.name=사우뮴 블럭
+tile.blockCosmeticSolid.5.name=수지 블럭
+tile.blockCosmeticSolid.6.name=아케인 스톤
+tile.blockCosmeticSolid.7.name=아케인 스톤 벽돌
+tile.blockCosmeticSolid.8.name=충전된 흑요석 토템
+tile.blockCosmeticSolid.9.name=골렘 족쇄
+tile.blockCosmeticSolid.10.name=활성화된 골렘 족쇄
+tile.blockCustomPlant.0.name=그레이트우드 묘목
+tile.blockCustomPlant.1.name=실버우드 묘목
+tile.blockCustomPlant.2.name=시머리프
+tile.blockCustomPlant.3.name=신더펄
+tile.blockCustomPlant.4.name=천상의 꽃
+tile.blockCustomPlant.5.name=비쉬룸
+tile.blockMetalDevice.0.name=도가니
+tile.blockMetalDevice.1.name=아케인 증류장치
+tile.alembic.msg.1=증류기가 완전히 비어있음
+tile.alembic.msg.2=증류기가 거의 비어있음
+tile.alembic.msg.3=증류기가 절반정도 차있음
+tile.alembic.msg.4=증류기가 거의 차있음
+tile.alembic.msg.5=증류기가 가득 차있음
+tile.blockMetalDevice.2.name=비스 충전 중계기
+tile.blockMetalDevice.5.name=받침쇠
+tile.blockMetalDevice.6.name=받침쇠 (닫힘)
+tile.blockMetalDevice.7.name=아케인 램프
+tile.blockMetalDevice.8.name=성장의 램프
+tile.blockMetalDevice.9.name=연금 구성체
+tile.blockMetalDevice.10.name=사우마토리엄
+tile.blockMetalDevice.11.name=사우마토리엄
+tile.blockMetalDevice.12.name=느모닉 매트릭스
+tile.blockMetalDevice.13.name=번영의 램프
+tile.blockMetalDevice.14.name=비스 중계기
+tile.blockMagicalLog.greatwood.name=그레이트우드 원목
+tile.blockMagicalLog.silverwood.name=실버우드 원목
+tile.blockMagicalLeaves.greatwood.name=그레이트우드 잎
+tile.blockMagicalLeaves.silverwood.name=실버우드 잎 
+tile.blockCandle.0.name=흰색 수지 양초
+tile.blockCandle.1.name=오렌지색 수지 양초
+tile.blockCandle.2.name=자홍색 수지 양초
+tile.blockCandle.3.name=밝은 파랑색 수지 양초
+tile.blockCandle.4.name=노랑색 수지 양초
+tile.blockCandle.5.name=라임색 수지 양초
+tile.blockCandle.6.name=분홍색 수지 양초
+tile.blockCandle.7.name=회색 수지 양초
+tile.blockCandle.8.name=밝은 회색 수지 양초
+tile.blockCandle.9.name=청록색 수지 양초
+tile.blockCandle.10.name=보라색 수지 양초
+tile.blockCandle.11.name=파랑색 수지 양초
+tile.blockCandle.12.name=갈색 수지 양초
+tile.blockCandle.13.name=초록색 수지 양초
+tile.blockCandle.14.name=빨간색 수지 양초
+tile.blockCandle.15.name=검정색 수지 양초
+tile.blockWooden.name=아케인 나무 블럭
+tile.blockWoodenDevice.0.name=아케인 풀무
+tile.blockWoodenDevice.1.name=아케인 이어
+tile.blockWoodenDevice.2.name=아케인 감압판
+tile.blockWoodenDevice.4.name=아케인 채굴기 받침대
+tile.blockWoodenDevice.5.name=아케인 채굴기
+tile.blockWoodenDevice.6.name=그레이트우드 판자
+tile.blockWoodenDevice.7.name=실버우드 판자
+tile.blockJar.0.name=단지
+tile.blockJar.1.name=단지 안의 뇌
+tile.blockJar.2.name=단지 안의 노드
+tile.blockJar.3.name=공허의 단지
+tile.blockTable.0.name=테이블
+tile.blockTable.1.name=테이블
+tile.blockTable.research.name=연구 테이블
+tile.blockTable.14.name=분석 테이블
+tile.blockTable.15.name=아케인 작업대
+tile.researchtable.noink=잉크가 부족합니다.
+tile.researchtable.nomove=활성화된 룬은 이동시킬 수 없습니다.
+tile.blockChestHungry.name=배고픈 상자
+tile.blockArcaneDoor.name=아케인 도어
+tile.blockLifter.name=아케인 공중부양기
+tile.blockCrystal.0.name=에어 크리스탈 덩어리
+tile.blockCrystal.1.name=파이어 크리스탈 덩어리
+tile.blockCrystal.2.name=워터 크리스탈 덩어리
+tile.blockCrystal.3.name=어스 크리스탈 덩어리
+tile.blockCrystal.4.name=오더 크리스탈 덩어리
+tile.blockCrystal.5.name=엔트로피 크리스탈 덩어리
+tile.blockCrystal.6.name=혼합된 크리스탈 덩어리
+tile.blockMirror.name=마법 거울
+tile.blockMirror.0.name=마법 거울
+tile.blockMirror.6.name=에센시아 거울
+tile.blockTaint.0.name=굳은 테인트
+tile.blockTaint.1.name=테인트 흙
+tile.blockTaint.2.name=살점 블럭
+tile.blockTaintFibres.0.name=테인트 섬유
+tile.blockTaintFibres.1.name=테인트 풀
+tile.blockTaintFibres.2.name=테인트 식물
+tile.blockTaintFibres.3.name=포자 줄기
+tile.blockTaintFibres.4.name=자란 포자 줄기
+tile.blockFluxGoo.name=플럭스 점액
+tile.blockFluxGas.name=플럭스 기체
+tile.blockFluidPure.name=정화의 액체
+tile.blockFluidDeath.name=액체 죽음
+tile.blockStoneDevice.0.name=연성 화로
+tile.blockStoneDevice.1.name=아케인 주각
+tile.blockStoneDevice.2.name=루닉 매트릭스
+tile.blockStoneDevice.3.name=인퓨전 기둥
+tile.blockStoneDevice.4.name=인퓨젼 기둥
+tile.blockStoneDevice.5.name=완드 충전 주각
+tile.blockStoneDevice.6.name=인퓨전 기둥
+tile.blockStoneDevice.7.name=인퓨전 기둥
+tile.blockStoneDevice.8.name=복합 충전 포커스
+tile.blockStoneDevice.9.name=노드 스태빌라이저
+tile.blockStoneDevice.10.name=Adv. 노드 스태빌라이저
+tile.blockStoneDevice.11.name=노드 변환기
+tile.blockTube.0.name=에센시아 튜브
+tile.blockTube.1.name=에센시아 밸브
+tile.blockTube.2.name=연금술 원심분리기
+tile.blockTube.3.name=에센시아 필터링 튜브
+tile.blockTube.4.name=에센시아 버퍼
+tile.blockTube.5.name=감쇄 에센시아 튜브
+tile.blockTube.6.name=단방향 에센시아 튜브
+tile.blockTube.6.name=에센시아 결정화 장치
+container.alchemyfurnace=연성 화로
+tile.blockArcaneFurnace.name=지옥불 화로
+tile.blockEldritch.0.name=이계의 제단
+tile.blockEldritch.1.name=이계의 방첨탑
+tile.blockEldritch.2.name=이계의 방첨탑
+tile.blockEldritch.3.name=이계의 캡스톤
+tile.blockPortalEldritch.name=이계의 포탈
+tile.blockEssentiaReservoir.name=에센시아 저장소
+#
+# Items
+item.GolemBell.name=골레맨서의 종
+item.HoverHarness.name=사우모스태틱 하네스
+item.Focus.cost1=시전시 비스 소모량
+item.Focus.cost2=틱당 비스 소모량
+item.FocusPouch.name=포커스 주머니
+item.FocusFire.name=완드 포커스: 화염
+item.FocusHellbat.name=완드 포커스: 나인 헬
+item.FocusShock.name=완드 포커스: 쇼크
+item.FocusTrade.name=완드 포커스: 등가 교환
+item.FocusFrost.name=완드 포커스: 프로스트
+item.FocusExcavation.name=완드 포커스: 채굴
+item.FocusPortableHole.name=완드 포커스: 포터블 홀
+item.FocusPech.name=완드 포커스: 펙의 저주
+item.FocusWarding.name=완드 포커스: 경계
+item.FocusPrimal.name=완드 포커스: 태초의 힘
+item.WandCap.0.name=철 캡
+item.WandCap.1.name=금 캡
+item.WandCap.2.name=활성화된 사우뮴 캡
+item.WandCap.3.name=구리 캡
+item.WandCap.4.name=활성화된 은 캡
+item.WandCap.5.name=활성화되지 않은 은 캡
+item.WandCap.6.name=활성화되지 않은 사우뮴 캡
+item.WandCap.7.name=활성화된 공허합금 캡
+item.WandCap.8.name=활성화되지 않은 공허합금 캡
+item.WandRod.0.name=그레이트우드 완드 코어
+item.WandRod.1.name=흑요석 완드 코어
+item.WandRod.2.name=실버우드 완드 코어
+item.WandRod.3.name=얼어붙은 완드 코어
+item.WandRod.4.name=석영 완드 코어
+item.WandRod.5.name=사탕수수 완드 코어
+item.WandRod.6.name=타오르는 완드 코어
+item.WandRod.7.name=본 완드 코어
+item.WandRod.50.name=그레이트우드 스태프 코어
+item.WandRod.51.name=흑요석 스태프 코어
+item.WandRod.52.name=실버우드 스태프 코어
+item.WandRod.53.name=얼어붙은 스태프 코어
+item.WandRod.54.name=석영 스태프 코어
+item.WandRod.55.name=사탕수수 스태프 코어
+item.WandRod.56.name=타오르는 스태프 코어
+item.WandRod.57.name=본 스태프 코어
+item.WandRod.100.name=태초의 스태프 코어
+#
+# this is what is used to name the wand - the position of the variables can be altered so it makes more sense in other languages
+item.Wand.name=%ROD %CAP %OBJ
+#
+item.Wand.wand.obj=완드
+item.Wand.staff.obj=스태프
+item.Wand.sceptre.obj=홀
+item.Wand.wood.rod=목재
+item.Wand.greatwood.rod=그레이트우드
+item.Wand.silverwood.rod=실버우드
+item.Wand.obsidian.rod=흑요석
+item.Wand.blaze.rod=타오르는
+item.Wand.ice.rod=얼어붙은
+item.Wand.bone.rod=본
+item.Wand.reed.rod=사탕수수
+item.Wand.quartz.rod=석영
+item.Wand.primal.rod=태초의
+item.Wand.iron.cap=아이언
+item.Wand.gold.cap=골든
+item.Wand.copper.cap=구리
+item.Wand.silver.cap=실버
+item.Wand.thaumium.cap=사우믹
+item.Wand.void.cap=공허합금
+#
+item.ItemResource.0.name=알루멘텀
+item.ItemResource.1.name=나이터
+item.ItemResource.2.name=사우뮴 주괴
+item.ItemResource.3.name=수은
+item.ItemResource.4.name=마법 수지
+item.ItemResource.5.name=좀비 뇌 (잠들어 있음)
+item.ItemResource.6.name=호박
+item.ItemResource.7.name=마법이 깃든 천
+item.ItemResource.8.name=비스 필터
+item.ItemResource.9.name=지식의 조각
+item.ItemResource.10.name=거울
+item.ItemResource.11.name=테인트 덩어리
+item.ItemResource.12.name=테인트 덩굴
+item.ItemResource.13.name=단지 라벨
+item.ItemResource.14.name=정화된 소금
+item.ItemResource.15.name=태초의 부적
+item.ItemResource.16.name=공허합금 주괴
+item.ItemResource.17.name=공허의 씨앗
+item.ItemZombieBrain.name=좀비 뇌
+item.ItemShard.0.name=에어 샤드
+item.ItemShard.1.name=파이어 샤드
+item.ItemShard.2.name=워터 샤드
+item.ItemShard.3.name=어스 샤드
+item.ItemShard.4.name=오더 샤드
+item.ItemShard.5.name=엔트로피 샤드
+item.ItemShard.6.name=균형을 이룬 샤드
+item.ItemPrimalArrow.0.name=바람의 화살
+item.ItemPrimalArrow.1.name=불의 화살
+item.ItemPrimalArrow.2.name=물의 화살
+item.ItemPrimalArrow.3.name=대지의 화살
+item.ItemPrimalArrow.4.name=질서의 화살
+item.ItemPrimalArrow.5.name=혼돈의 화살
+item.ItemArcaneDoor.name=아케인 문
+item.ItemNugget.0.name=철 조각
+item.ItemNugget.1.name=구리 조각
+item.ItemNugget.2.name=주석 조각
+item.ItemNugget.3.name=은 조각
+item.ItemNugget.4.name=납 조각
+item.ItemNugget.5.name=수은 방울
+item.ItemNugget.6.name=사우뮴 조각
+item.ItemNugget.7.name=공허합금 조각
+item.ItemNugget.16.name=순수한 철 덩어리
+item.ItemNugget.17.name=순수한 구리 덩어리
+item.ItemNugget.18.name=순수한 주석 덩어리
+item.ItemNugget.19.name=순수한 은 덩어리
+item.ItemNugget.20.name=순수한 납 덩어리
+item.ItemNugget.21.name=순수한 진사 덩어리   
+item.ItemNugget.31.name=순수한 금 덩어리
+item.BootsTraveller.name=여행자의 신발
+item.ItemNuggetChicken.name=닭고기 조각
+item.ItemNuggetBeef.name=스테이크 조각
+item.ItemNuggetPork.name=돼지고기 조각
+item.ItemNuggetFish.name=생선 조각
+item.BlockJarFilledItem.name=에센시아 단지
+item.BlockJarFilledItem.void.name=공허의 에센시아 단지
+item.BlockJarNodeItem.name=단지 안의 노드
+item.TripleMeatTreat.name=삼종 고기 간식
+item.ItemShovelElemental.name=대지이동의 삽
+item.ItemPickaxeElemental.name=중심의 곡괭이
+item.ItemAxeElemental.name=흐름의 도끼
+item.ItemHoeElemental.name=성장의 괭이
+item.ItemSwordElemental.name=미풍의 검
+item.ItemChestplateRobe.name=마도학자의 로브
+item.ItemLeggingsRobe.name=마도학자의 바지
+item.ItemBootsRobe.name=마도학자의 부츠
+item.ArcaneDoorKey.0.name=아케인 철 열쇠
+item.ArcaneDoorKey.1.name=아케인 금 열쇠
+item.HandMirror.name=마법 손거울
+item.ItemInkwell.name=필기도구
+item.ItemThaumometer.name=사우모미터
+item.ItemThaumonomicon.name=사우모노미콘
+item.ItemGoggles.name=발견의 고글
+item.ItemHelmetThaumium.name=사우뮴 헬멧
+item.ItemChestplateThaumium.name=사우뮴 갑옷
+item.ItemLeggingsThaumium.name=사우뮴 레깅스
+item.ItemBootsThaumium.name=사우뮴 부츠
+item.ItemShovelThaumium.name=사우뮴 삽
+item.ItemAxeThaumium.name=사우뮴 도끼
+item.ItemSwordThaumium.name=사우뮴 검
+item.ItemPickThaumium.name=사우뮴 곡괭이
+item.ItemHoeThaumium.name=사우뮴 괭이
+item.researchnotes.name=연구일지
+item.researchnotes.unknown=알 수 없는 지식
+item.researchnotes.failed.1=실패했습니다. 지식의 조각으로 다시
+item.researchnotes.failed.2=반환하려면 조합창에 올려놓으십시오
+item.discovery.name=발견
+item.ItemWispEssence.name=에테리얼 에센스
+item.ItemCrystalEssence.name=결정화된 에센스
+item.ItemEssence.0.name=유리병
+item.ItemEssence.1.name=에센시아 병
+item.ItemGolemCore.name=골렘 코어
+item.ItemGolemCore.0.name=채우기
+item.ItemGolemCore.1.name=비우기
+item.ItemGolemCore.2.name=줍기
+item.ItemGolemCore.3.name=수확
+item.ItemGolemCore.4.name=보호
+item.ItemGolemCore.5.name=액체 채우기
+item.ItemGolemCore.6.name=연금술
+item.ItemGolemCore.7.name=벌목
+item.ItemGolemCore.8.name=사용
+item.ItemGolemCore.9.name=도살
+item.ItemGolemCore.10.name=분류
+item.ItemGolemCore.11.name=낚시
+item.ItemGolemCore.100.name=비어있음
+item.ItemGolemPlacer.0.name=밀짚 골렘
+item.ItemGolemPlacer.1.name=나무 골렘
+item.ItemGolemPlacer.2.name=수지 골램
+item.ItemGolemPlacer.3.name=점토 골렘
+item.ItemGolemPlacer.4.name=살 골렘
+item.ItemGolemPlacer.5.name=스톤 골렘
+item.ItemGolemPlacer.6.name=아이언 골렘
+item.ItemGolemPlacer.7.name=사우뮴 골렘
+item.ItemGolemDecoration.name=액세서리
+item.ItemGolemDecoration.0.name=모자
+item.ItemGolemDecoration.1.name=안경
+item.ItemGolemDecoration.2.name=나비넥타이
+item.ItemGolemDecoration.3.name=터키모자
+item.ItemGolemDecoration.4.name=다트 발사기
+item.ItemGolemDecoration.5.name=바이저
+item.ItemGolemDecoration.6.name=철 갑옷
+item.ItemGolemDecoration.7.name=메이스 
+item.ItemGolemUpgrade.0.name=골렘 업그레이드: 에어
+item.ItemGolemUpgrade.1.name=골렘 업그레이드: 어스
+item.ItemGolemUpgrade.2.name=골렘 업그레이드: 파이어
+item.ItemGolemUpgrade.3.name=골렘 업그레이드: 워터
+item.ItemGolemUpgrade.4.name=골렘 업그레이드: 오더
+item.ItemGolemUpgrade.5.name=골렘 업그레이드: 엔트로피
+item.ItemGolemUpgrade.0.desc=속도 향상
+item.ItemGolemUpgrade.1.desc=힘 향상
+item.ItemGolemUpgrade.2.desc=공격력, 용량 향상
+item.ItemGolemUpgrade.3.desc=사거리, 감각 향상
+item.ItemGolemUpgrade.4.desc=지능, 조직 향상
+item.ItemGolemUpgrade.5.desc=방어력, 추론 향상
+item.ItemBowBone.name=본 보우
+item.ItemManaBean.name=마나 콩
+item.TrunkSpawner.name=여행 트렁크
+item.TrunkSpawner.text.1=트렁크에 아이템이 있습니다
+item.ItemResonator.name=에센시아 공진기
+item.ItemAmuletRunic.0.name=결계 아뮬렛
+item.ItemAmuletRunic.1.name=결계 아뮬렛: 긴급 방호
+item.ItemRingRunic.0.name=보호의 반지
+item.ItemRingRunic.1.name=결계 반지
+item.ItemRingRunic.2.name=결계 반지: 가속
+item.ItemRingRunic.3.name=결계 반지: 재활성화
+item.ItemGirdleRunic.0.name=결계 허리띠
+item.ItemGirdleRunic.1.name=결계 허리띠: 충격파
+item.runic.charge=결계량
+item.ItemBaubleBlanks.0.name=아뮬렛
+item.ItemBaubleBlanks.1.name=반지
+item.ItemBaubleBlanks.2.name=허리띠
+item.ItemBaubleBlanks.3.name=견습생의 %TYPE 반지
+item.capacity.text=용량
+item.ItemAmuletVis.text=손에 쥔 완드를 천천히 충전시킵니다.
+item.ItemAmuletVis.0.name=비스석
+item.ItemAmuletVis.1.name=비스 저장 아뮬렛
+item.ItemGirdleHover.name=사우모스태틱 허리띠
+item.ItemBathSalts.name=정화용 입욕 소금
+item.ItemBucketDeath.name=액체 죽음 양동이
+item.ItemHelmetFortress.name=사우뮴 전투 헬멧
+item.ItemChestplateFortress.name=사우뮴 전투 흉갑
+item.ItemLeggingsFortress.name=사우뮴 전투 레깅스
+item.HelmetFortress.mask.0=악마의 미소
+item.HelmetFortress.mask.1=분노한 영혼
+item.HelmetFortress.mask.2=새어나오는 광기
+item.ItemEldritchObject.name=이계의 눈빛
+item.ItemHelmetVoid.name=공허의 헬멧
+item.ItemChestplateVoid.name=공허의 갑옷
+item.ItemLeggingsVoid.name=공허의 레깅스
+item.ItemBootsVoid.name=공허의 부츠
+item.ItemShovelVoid.name=공허의 삽
+item.ItemAxeVoid.name=공허의 도끼
+item.ItemSwordVoid.name=공허의 검
+item.ItemPickVoid.name=공허의 곡괭이
+item.ItemHoeVoid.name=공허의 괭이
+item.ItemHelmetVoidRobe.name=공허의 후드
+item.ItemChestplateVoidRobe.name=공허의 로브
+item.ItemLeggingsVoidRobe.name=공허의 바지
+item.ItemSanitySoap.name=정화의 비누
+item.ItemSanityChecker.name=뒤틀림 측정기
+item.ItemHelmetCultistRobe.name=크림슨 컬트 후드
+item.ItemChestplateCultistRobe.name=크림슨 컬트 로브
+item.ItemLeggingsCultistRobe.name=크림슨 컬트 바지
+item.ItemBootsCultist.name=크림슨 컬트 부츠
+item.ItemHelmetCultistPlate.name=크림슨 컬트 헬멧
+item.ItemChestplateCultistPlate.name=크림슨 컬트 갑옷
+item.ItemLeggingsCultistPlate.name=크림슨 컬트 레깅스
+#
+# Fluids
+fluid.fluxGoo=플럭스 점액
+fluid.fluxGas=플럭스 기체
+fluid.purity=정화의 액체
+fluid.death=액체 죽음
+#
+# GUI
+golemblurb.0.text=뭘 남겨둘까요 주인님?
+golemblurb.1.text=여길 싹 비울까요? 아니면 뭔가 특별히 꺼내야 하는 아이템이 있으십니까?
+golemblurb.2.text=특별히 모아야 하는 것이 있습니까? 지정해 주실 게 없다면 주변에 떨어진 건 모두 모아두겠습니다.
+golemblurb.3.text=??
+golemblurb.4.text=이곳을 지키겠습니다.
+golemblurb.5.text=제가 모아두길 원하는 액체가 든 용기를 보여주세요. 특별히 정해 주실 게 없다면 주변의 모든 액체를 모아두겠습니다.
+golemblurb.6.text=??
+golemblurb.7.text=??
+golemblurb.8.text=이 아이템을 블럭 위에 사용할까요, 아니면 특정 장소에서 사용할까요?
+golemblurb.10.text=방향을 지정해 주시면 정리를 해 두겠습니다.
+golemthreat.0.text=뭐, 골렘의 반란? 그게 뭐야? 난 아무것도 몰라!
+golemthreat.1.text=흠, 내가 뭔가를 옮기길 원하는 거야?
+golemthreat.2.text=크하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하!
+golemthreat.3.text=걱정하지 말라고, 아무짓도 안하지 않을테니까...
+golemthreat.4.text=낮잠이나 좀 자는 건 어때? 정말 졸려보이는군. 아주 많이 말이야.
+golemthreat.5.text=ㅂㅈㅁㄴㅇㅀㅋㅌㅊㅍㅈㄷㄹㅋㅇㄻㄷㄹ!
+golemthreat.6.text=너같은 녀석을 존중해줄 생각은 전혀 없다고!
+golemthreat.7.text=난 네녀석이 정말 싫어.
+golemthreat.8.text=나가 죽어, 멍청이같은 녀석!
+recipe.return=이전 항목으로 돌아가기
+recipe.clickthrough=눌러서 설명 보기
+recipe.type.workbench=작업대
+recipe.type.smelting=화로
+recipe.type.workbenchshapeless=작업대
+recipe.type.arcane=아케인 작업대
+recipe.type.crucible=도가니
+recipe.type.infusion=인퓨전
+recipe.type.infusionenchantment=인퓨전 인챈트
+recipe.type.construct=마법 구조물
+#
+# Other
+itemGroup.thaumcraft=Thaumcraft
+nodetype.NORMAL.name=평범함
+nodetype.UNSTABLE.name=불안정함
+nodetype.DARK.name=사악함
+nodetype.PURE.name=순수함
+nodetype.TAINTED.name=테인트
+nodetype.HUNGRY.name=탐욕스러움
+nodemod.BRIGHT.name=눈부심
+nodemod.PALE.name=희미함
+nodemod.FADING.name=꺼져감
+tc.taint_item_poison=녹아내린 %s로 인해 테인트에 감염되었습니다.
+death.attack.taint=%1$s 이(가) 테인트로 인해 파괴되었습니다.
+death.attack.taint.player=%1$s 이(가) %2$s와(과) 싸우던 도중 테인트에 의해 파괴당하였습니다.
+death.attack.tentacle=%1$s 이(가) %2$s에게 짓눌렸습니다.
+death.attack.swarm=%1$s 이(가) %2$s에게 감염되었습니다.
+death.attack.swarm.item=%1$s 가 %3$s을(를) 사용하여 %2$s에게 감염되었습니다.
+death.attack.dissolve=%1$s 은(는) 녹아내렸습니다.
+death.attack.dissolve.player=%1$s 이(가) %2$s와(과) 싸우던 도중 녹아내렸습니다.
+tc.handmirrorlinkedto=연결 시작
+tc.handmirrorlinked=성공적으로 연결되었습니다.
+tc.handmirrorerror=목적지 거울이 없거나 잘못 설치되었습니다. 연결이 끊어집니다.
+tc.researcherror=이것을 이해하기 위한 지식이 부족합니다.
+tc.discoveryerror=이것을 이해하기 위해선 %1$s 연구를 선행해야 합니다.
+tc.discoveryunknown=알 수 없는 이론
+tc.discoveryprogress=% 완료
+tc.portableholeerror=포터블 홀에 저장된 에너지가 불충분합니다.
+tc.key1=열쇠가 아케인 문에 연결되었습니다. 
+tc.key2=열쇠가 아케인 감압판에 연결되었습니다. 
+tc.key3=이제 이 문을 열 수 있습니다. 
+tc.key4= 다른 사람들에게도 사용 권한을 줄 수 있습니다. 
+tc.key5=만약 당신이 이 감압판의 주인이라면, 이 감압판이 감지할 수 있습니다. 
+tc.key6= 다른 사람들에게도 사용 권한을 줄 수 있습니다. 
+tc.key7=이 열쇠는 이곳에 연결되지 않았습니다. 
+tc.key8=이미 이용 권한을 획득했습니다. 
+tc.key9=이 열쇠는 다음의 이용 권한을 부여합니다: 
+tc.key10=아케인 문: 
+tc.key11=아케인 감압판:
+tc.wandnocharge=완드에 충전되어있는 비스가 부족합니다.
+tc.wandcharge=이 완드는 현재 %s 비스를 가지고 있습니다
+tc.jaressentia=%s 에센시아 보유중
+tc.jarname=단지:
+tc.markedloc=표시된 위치
+tc.addaspectdiscovery=%n을(를) 발견했습니다!
+tc.addclue=새로운 연구에 대한 단서를 발견했습니다!
+tc.addcluefail=발견한 단서를 기록할 곳이 없습니다...
+tc.addaspectpool=%n을(를) %s포인트 획득하였습니다.
+tc.addwarp=§5뒤틀림 수치가 증가하였습니다!§0
+tc.addwarptemp=§5뒤틀림 수치가 일시적으로 증가하였습니다!§0
+tc.forbidden=§l§5금지된 지식 (%n)§0
+tc.forbidden.level.1=거의 무해함
+tc.forbidden.level.2=조금 위험함
+tc.forbidden.level.3=평범한 수준임
+tc.forbidden.level.4=위험함
+tc.forbidden.level.5=금기시 여겨짐
+tc.unknownobject=이것엔 배울 만한 것이 없습니다.
+tc.markerchange=%n으로 마커색을 설정
+tc.markerchangeany=다른 색으로 설정
+tc.researchmissing=필요한 연구 누락!
+tc.discount=절약
+tc.visdiscount=비스 절약
+tc.vis.cost=비스 요구량
+tc.vis.costavg=평균 비스 요구량
+tc.inst=불안정성: 
+tc.inst.0=§1미미함§0
+tc.inst.1=§9낮음§0
+tc.inst.2=§5보통§0
+tc.inst.3=§e높음§0
+tc.inst.4=§6매우 높음§0
+tc.inst.5=§4!!위험!!§0
+tc.adv=강화됨
+tc.resonator1=§9%2$s를 %1$s 보유중§0
+tc.resonator2=§5흡입력: %1$s %2$s §0 
+tc.resonator3=지정되지 않음
+tc.research.purchase=눌러서 해당 연구 획득
+tc.research.short=획득에 필요한 위상이 부족합니다
+tc.research.getprim=눌러서 해당 연구에 대한 연구일지 획득
+tc.research.shortprim=연구일지를 얻기 위해서는 필기도구와 종이가 필요합니다
+tc.research.hasnote=같은 연구일지가 이미 인벤토리에 존재합니다
+tc.research.popup=%1$s의 연구일지가 인벤토리에 추가되었습니다 
+tc.research.copy=복사에 필요한 것들:
+tc.primalcharm.0=무언가 새는 것 같습니다
+tc.primalcharm.1=무언가 속삭이는 듯 합니다
+tc.primalcharm.2=격렬하게 진동합니다
+tc.primalcharm.3=부드럽게 웅웅거리는 소리가 납니다
+tc.primalcharm.4=잠깐, 지금 일곱 번 째 색으로 빛나지 않았어?
+tc.primalcharm.trigger=태초의 부적에서 이상한 에너지가 느껴집니다. 에너지는 얼마 못가 사라졌지만, 그 강렬한 인상은 쉽게 잊을 수 없을 듯 합니다
+#
+# Aspects
+tc.aspect.primal=태초의 위상
+tc.aspect.unknown=알 수 없는 위상
+tc.aspect.aer=공기
+tc.aspect.terra=땅
+tc.aspect.ignis=불
+tc.aspect.aqua=물
+tc.aspect.ordo=질서, 규칙, 순수함
+tc.aspect.perditio=엔트로피, 혼돈, 파괴
+tc.aspect.vacuos=공허
+tc.aspect.praecantatio=마법
+tc.aspect.auram=오라
+tc.aspect.vitium=테인트, 오염
+tc.aspect.lux=빛
+tc.aspect.potentia=힘
+tc.aspect.motus=움직임, 활력
+tc.aspect.tempestas=날씨
+tc.aspect.victus=생명
+tc.aspect.mortuus=죽음
+tc.aspect.volatus=비행
+tc.aspect.tenebrae=암흑
+tc.aspect.limus=슬라임, 끈적끈적함
+tc.aspect.herba=식물
+tc.aspect.arbor=나무, 목재
+tc.aspect.spiritus=영혼
+tc.aspect.humanus=사람
+tc.aspect.bestia=짐승
+tc.aspect.exanimis=언데드
+tc.aspect.cognitio=정신, 기억, 인식
+tc.aspect.sensus=감각
+tc.aspect.messis=작물
+tc.aspect.meto=수확
+tc.aspect.metallum=금속
+tc.aspect.perfodio=채굴
+tc.aspect.instrumentum=도구, 장치
+tc.aspect.telum=무기, 공격, 피해
+tc.aspect.gelum=얼음, 혹한, 추위
+tc.aspect.vitreus=수정, 유리, 맑음
+tc.aspect.sano=회복, 치유 
+tc.aspect.iter=여행, 여정
+tc.aspect.venenum=독
+tc.aspect.alienis=이질감, 이상함, 공포
+tc.aspect.tutamen=갑옷, 보호
+tc.aspect.fames=배고픔
+tc.aspect.fabrico=제작, 공예
+tc.aspect.lucrum=식탐, 탐욕
+tc.aspect.pannus=옷, 천, 덮개
+tc.aspect.machina=기계, 기구
+tc.aspect.vinculum=함정, 속박
+tc.aspect.permutatio=교환, 거래
+tc.aspect.corpus=살, 시체
+#
+tc.aspect.help.aer=공기
+tc.aspect.help.terra=땅
+tc.aspect.help.ignis=불
+tc.aspect.help.aqua=물
+tc.aspect.help.ordo=질서
+tc.aspect.help.perditio=부서진 것들
+tc.aspect.help.vacuos=비어있는 것들
+tc.aspect.help.praecantatio=마법과 관련된 것들
+tc.aspect.help.auram=노드
+tc.aspect.help.vitium=마법의 부정적 영향
+tc.aspect.help.lux=빛
+tc.aspect.help.potentia=힘
+tc.aspect.help.motus=움직이는 것들
+tc.aspect.help.tempestas=날씨
+tc.aspect.help.victus=생명의 근원
+tc.aspect.help.mortuus=죽음의 특성
+tc.aspect.help.volatus=비상
+tc.aspect.help.tenebrae=어둠
+tc.aspect.help.limus=끈적끈적한 것들
+tc.aspect.help.herba=식물
+tc.aspect.help.arbor=나무
+tc.aspect.help.spiritus=영혼
+tc.aspect.help.humanus=인간
+tc.aspect.help.bestia=짐승
+tc.aspect.help.exanimis=언데드의 특성
+tc.aspect.help.cognitio=인지
+tc.aspect.help.sensus=시각
+tc.aspect.help.messis=작물
+tc.aspect.help.meto=농사
+tc.aspect.help.metallum=금속
+tc.aspect.help.perfodio=채광
+tc.aspect.help.instrumentum=도구
+tc.aspect.help.telum=무기
+tc.aspect.help.gelum=차가운 것들
+tc.aspect.help.vitreus=수정
+tc.aspect.help.sano=치유
+tc.aspect.help.iter=여정
+tc.aspect.help.venenum=독극물
+tc.aspect.help.alienis=이계의 기괴함
+tc.aspect.help.tutamen=보호와 관련된 것들
+tc.aspect.help.fames=음식
+tc.aspect.help.fabrico=제작
+tc.aspect.help.lucrum=가치있는 것들
+tc.aspect.help.pannus=직물
+tc.aspect.help.machina=기계적인 것들
+tc.aspect.help.vinculum=속박과 관련된 것들
+tc.aspect.help.permutatio=교환과 변화
+tc.aspect.help.corpus=살점
+#
+# Research categories
+tc.research_category.BASICS=기본 정보
+tc.research_category.THAUMATURGY=마도학
+tc.research_category.ALCHEMY=연금술
+tc.research_category.ARTIFICE=마공학
+tc.research_category.GOLEMANCY=골렘학
+tc.research_category.ELDRITCH=이계의 지식
+#  
+# Special formatting codes:
+# <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
+# <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
+# <IMG>...</IMG>  Insert a centered image into text. Parameters are separated by ':' and are:
+#                    - mod resource location name
+#                    - png file location (assumed to be a 256x256 texture, a sub-image will be grabbed from this png as specified below)
+#                    - x location of sub-image in png
+#                    - y location of sub-image in png
+#                    - x size of sub-image (255 if full x size of png must be used)
+#                    - y size of sub-image (255 if full y size of png must be used)
+#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)   
+#               Examples: 
+#                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
+#                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
+#
+# Research entries
+tc.research_name.RESEARCH=연구
+tc.research_text.RESEARCH=발견의 기본
+tc.research_page.RESEARCH.1=모든 눈부신 기적 뒤에는 수많은 연구와 노력이 있습니다. 여기선 기적을 행하기 위한 기초를 소개합니다.:<BR>(1) 기적을 행하기 위해선 우선 §5사우모미터§0를 통해 여러 아이템, 블럭들을 관찰한 뒤<BR><BR>(2) 관찰을 통해 얻은 연구포인트를 가지고 §5연구 테이블§0에서 지식을 확장할 필요가 있습니다.<BR><BR>(3) §5연구 테이블§0은 알아낸 위상들을 이용해서 실질적인 지식을 이끌어낼 수 있도록 도와줍니다.<LINE>
+tc.research_page.RESEARCH.2=§l         §n(1) 탐험§r<BR><BR>연구에 있어서 필수 불가결한 요소인 연구 포인트는 탐험을 하면서 곳곳의 물체들을 관찰함으로써 얻을 수 있습니다.<BR>관찰에는 §5사우모미터§0라는 도구가 필요합니다 (조합법은 다음페이지에). 관찰하고 싶은 대상에 §5사우모미터§0를 조준하고 우클릭을 해서 관찰을 시작할 수 있습니다. 관찰은 그리 오래 걸리지 않지만, 관찰중에는 이동속도가 느려집니다.<BR>관찰이 끝나면 §5사우모미터§0에 대상이 갖고 있는 위상 종류가 표시됩니다. 또한 화면 우측 하단에 위상에 대한 간략한 정보와 함께 획득한 연구 포인트 수량이 표시됩니다.
+tc.research_page.RESEARCH.3=<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>자신이 알지 못하는 위상을 포함한 물체는 관찰이 불가능 합니다. 예를 들어, Lux위상이 포함된 대상을 관찰하기 위해선 Lux 위상을 이미 발견한 적이 있거나, Lux 위상을 이루는 구성 위상을 알아야 합니다.
+tc.research_page.RESEARCH.4=관찰을 통해 새로운 위상을 발견하면 해당 위상의 연구포인트를 평소보다 2포인트 더 얻을 수 있습니다.<BR>하나의 대상은 오직 한 번만 관찰이 가능합니다.<BR>관찰을 하다보면 가끔 생각지도 못한, 후에 연구해 볼 만한 단서나 마법적 지식을 얻는 경우도 있습니다.<BR>이런 방법으로 발견한 연구과제에는 호박 아이콘이 표시됩니다.
+tc.research_page.RESEARCH.5=§l      §n(2) 위상의 조합§r<BR><BR>연구 테이블에서는 모아놓은 연구 포인트를 합성하여 복합 위상을 만들 수 있습니다.<BR>§5테이블§0 두 개를 양쪽으로 붙여놓은 후 필기도구로 우클릭하면 연구 테이블이 됩니다. 테이블의 조합법은 사우모노미콘의 §5마공학§0 카테고리에 있습니다.<BR>연구 테이블을 우클릭하면 우측 이미지와 같은 화면을 볼 수 있습니다.<BR>연구 테이블 제작에 사용된 필기도구는 §l1§r번 칸에 위치해 있습니다. 
+tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>§l3§r번으로 표시된 공간에는 모든 태초의 위상들이 (그리고 약간의 복합 위상도) 다양한 수량으로 나열된 것을 볼 수 있습니다. 모든 플레이어는 처음 시작할 때 약간의 태초의 위상 포인트를 지급받습니다.<BR>만약 이전에 사우모미터를 가지고 탐험을 했었다면
+tc.research_page.RESEARCH.7=꽤 많은 양의 태초의 위상과 복합 위상을 갖고 있을겁니다.<BR>합성하고 싶은 두 개의 위상을 선택하거나 §l4§r번 칸의 룬이 새겨진 공간으로 끌어다 놓아서 합성을 시작할 수 있습니다. 선택된 위상은 §l4§r번 칸에 나타나며 두 개의 위상을 선택한 뒤 보라색 버튼을 누르면 두 위상이 합성됩니다. 합성에 성공하면 우측 하단에 무엇을 얻었는지 표시되며 §l3§r번 칸에 획득한 위상이 나타납니다.<BR>제대로 된 조합식이 아니더라도 재료로 쓰인 위상들은 사라져버리니 주의하세요.
+tc.research_page.RESEARCH.8=§l       §n(3) 일차 연구§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>이 단계에서는 약간의 종이와 필기도구가 필요합니다.<BR>사우모노미콘을 펼쳐보면 알고 있는 지식들과 지금 연구를 시작할 수 있는 항목들이 표시됩니다.<BR>빛나는 사각형이나 둥근 아이콘은 일차 연구를 의미합니다.
+tc.research_page.RESEARCH.9=알 수 없는 룬문자 대신 읽을 수 있는 제목이 표시되는 항목은 클릭이 가능합니다. 인벤토리에서 약간의 잉크와 종이를 소모해서 연구일지를 얻을 수 있습니다. 이 연구일지는 연구 테이블의 §l2§r번 칸에 올려놓고 바로 연구를 시작 할 수 있습니다.<BR>§l5§r번 칸에는 육각형들이 새겨진 연구일지가 나타나며, 가장 바깥쪽의 육각형에는 몇 개의 위상이 표시되어 있을 겁니다. 만약 물음표가 표시된다면 해당 위상을 아직 알고 있지 않다는 뜻이며 연구를 시작하기 전에 해당 위상을 알아야 합니다.<LINE> 
+tc.research_page.RESEARCH.10=연구를 마치기 위해선 모든 위상들을 활성화시켜야 합니다. 표적 위상을 이루고 있거나 표적 위상을 이루고있는 위상의 조합에 필요한 위상을 붙어있는 다른 육각형 칸에 끌어다 놓아서 연결함으로써 활성화가 가능합니다.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>위상을 한 번 놓을 때마다 연구 포인트를 1씩 소모합니다. 잘못 놓았을 경우 다시 눌러서 제거 할 수 있지만 연구 포인트는 돌려받을 수 없습니다. 
+tc.research_page.RESEARCH.11=이런 방식으로 처음에 표시되어있던 바깥쪽 위상(시작 위상)들을 전부 연결해야 합니다. 시작 위상들이 전부 서로 직접 연결될 필요는 없으며 전체가 하나의 연결을 이루고 있으면 됩니다.<BR>이 작업이 끝마치면 연구가 완료되고 연구일지가 발견으로 변환됩니다.<LINE>주의:위상을 놓거나 제거 할 때마다 필기도구의 잉크가 조금씩 소모되며, 잉크가 다 떨어지면 잉크를 다시 채울 때 까지 연구를 진행할 수 없습니다.
+tc.research_page.RESEARCH.12=§l         §n이차 연구§r<BR>육각형 아이콘은 이차 연구를 의미합니다. 일차 연구처럼 클릭하는 것은 같지만, 연구일지를 얻는 대신 그 항목을 바로 배울 수 있습니다. 이차 연구를 얻기 위해선 약간의 연구 포인트가 필요하며 필기도구와 종이는 필요하지 않습니다.
+#
+tc.research_name.KNOWFRAG=지식의 조각
+tc.research_text.KNOWFRAG=잃어버린 지식의 조각들
+tc.research_page.KNOWFRAG.1=탐험을 하다 보면 고대의 잃어버린 지식의 조각이 간혹 발견되곤 합니다. 그 자체로는 약간의 연구 포인트정도의 가치밖에 되지 않지만 조각을 모아서 합치면 새로운 연구일지를 얻을 수 있습니다. 이렇게 얻은 연구일지는 대체로 일반적인 방법으로는 얻을 수 없는 내용을 담고 있습니다.<BR>이런 연구일지들을 연구하다 보면 종종 엉뚱한 가설로 드러날 때도 있으니 주의합시다. 연구일지에서 지식의 조각들이 다시 반환된다면 해당 연구일지는 엉뚱한 가설이었다는 것을 의미합니다.
+#
+tc.research_name.ASPECTS=마법의 위상들
+tc.research_text.ASPECTS=마법의 구성요소
+tc.research_page.ASPECTS.1=모든 물체들과 생물들은 §5위상§0이라 알려진 신비로운 원소들로 엮여 있습니다. 위상들은 물체의 구성원리를 담고 있습니다. 아주 단순한 돌도 Terra란 위상을 갖고 있으며 돌보다 훨씬 복잡한, 이를테면 나무나 생명체들 또한 다양한 위상들을 제각각 포함하고 있습니다. 위상은 약 50종류가 있는것으로 알려졌으며, 현재도 계속해서 새로운 위상이 발견되고 있습니다.<LINE>위상은 §5태초의 위상§0과 §5복합위상§0으로 구분되어집니다.
+tc.research_page.ASPECTS.2=§l태초의 위상§r에는 §6Aer§0 (공기), §2Terra§0 (대지), §cIgnis§0 (불), §3Aqua§0 (물), §fOrdo§0 (질서), §8Perditio§0 (혼돈)의 총 6종류가 있으며 이것들은 다른 위상의 기본 재료가 되는 위상입니다.<BR>§l복합위상§r 은 이름 그대로 두가지 위상이 합성된 것입니다. 가장 단순한 것은 태초의 위상 두가지로 만들수 있지만 복합위상끼리 합성해서 만드는 복잡한 복합위상 또한 존재합니다.<BR>가장 단순한 복합위상으로는 Victus (생명)가 있으며 §2Terra§0와 §3Aqua§0로 이루어져 있습니다. 
+tc.research_page.ASPECTS.3=아이템이 가지고 있는 위상을 알고싶다면 Shift키를 누른 채로 마우스를 아이템 위에 올려놓으면 됩니다. 하지만 이렇게 구성 위상을 보기 위해선 그 위상들이 알고 있는 위상이어야 하는데, 그 전까진 알 수 없는 위상으로 남아있게 됩니다.<LINE>특수한 방법을 통해 물체로부터 추출되서 정화된 위상은 §5비스(Vis)§0라고 부릅니다. 비스는 마법물품 제작에 들어가는 재료로도, 연구 과제로도 대단히 큰 가치를 지닙니다.<BR>비스는 보통 완드에 저장하지만 액체상태로 저장하는 것 또한 가능합니다. 액체상태의 비스는 §5에센시아§0라 부릅니다.
+#
+tc.research_name.NODES=오라와 노드
+tc.research_text.NODES=마법은 모든 곳에
+tc.research_page.NODES.1=§5오라§0는 세계 전체를 덮고 있는 에너지장으로, 그 기원은 아직 명확히 밝혀지지 않았습니다. 생명체의 생명에너지가 축적된 것이란 설도 있고, 전혀 다른 이계의 에너지가 흘러들어온 것이라는 설도 있는데, 오라는 §5오라 노드§0라 불리는 마법 에너지가 축적된 지점 주변을 두텁게 감싸고 있는 형태로 주로 발견되는것으로 보아 후자의 가설이 설득력을 얻고 있습니다.<BR>각각의 오라 노드들은 담을 수 있는 마법 에너지의 최대량이 정해져 있으며  이 에너지는 위상의 형태로 표출됩니다. 보통은 §5태초의 위상§0으로 존재하지만, 희귀하긴 해도 §5복합위상§0의 형태로 존재하는 경우  
+tc.research_page.NODES.2=또한 있습니다.<BR>오라 노드의 위상들은 마법사가 완드를 통해 추출 할 수 있습니다.<BR>이렇게 추출된 에너지는 비스(Vis)라고 부릅니다.<LINE>육안으로 거의 보이지 않는 오라 노드는 §5사우모미터§0의 렌즈로 좀 더 명확하게 보입니다.<BR>§4중요:§0 노드에서 비스를 추출 할 때는 주의가 필요합니다. 노드에서 어느 한 종류의 위상이 완전히 추출되면, 그 위상 자체가 사라져버리거나 
+tc.research_page.NODES.3=노드에 안좋은 영향을 끼칠 수 있습니다.<BR>모든 위상들이 완전히 추출되면 노드가 사라져버릴 수 있습니다.<LINE>하지만 대부분의 노드는 빨려나간 위상을 천천히 회복하며 제대로 관리한다면 계속해서 필요한 만큼의 비스를 추출할 수 있습니다. 
+#
+tc.research_name.ORE=광물
+tc.research_text.ORE=깊은 곳으로
+tc.research_page.ORE.1=§l    §n윈소의 힘이 깃든 돌§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>오라에 태초의 에너지가 과도하게 존재하면 이 에너지들이 돌에 스며들어 원소의 힘이 깃든 돌을 형성할 때가 있습니다. 이렇게 돌 안에 형성된 마법 수정은 캘 수 있습니다.
+tc.research_page.ORE.2=이 수정들은 다양한 원소들의 속성을 지니고 있으며 많은 곳에 이용됩니다.<BR>윈소의 힘이 깃든 돌은 각각 하나의 태초의 위상에 대응되는 6종류가 존재합니다.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>수정들을 합쳐서 크리스탈 덩어리를 만들 수 있습니다. 이 크리스탈 덩어리들은 장식용 외에 별 다른 용도는 없습니다. 크리스탈 덩어리를 부수면 만들 때 들어간 수정들을 되돌려받을 수 있습니다.
+tc.research_page.ORE.3=§l         §n진사 광석§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>이 붉은색 광석은 지하 깊은 곳에서 발견되며 수은으로 가공할 수 있습니다.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.4=§l           §n호박석§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>이 광석은 지표 근처에서 발견되며 캤을 경우 호박 덩어리를 줍니다.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
+#
+tc.research_name.PLANTS=풀과 나무
+tc.research_text.PLANTS=마법 식물들
+tc.research_page.PLANTS.1=§l      §n그레이트우드 나무§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>이 크고 웅장한 나무는 세계 곳곳에서 발견됩니다.<BR>이 나무는 어마어마한 양의 마법에너지를 머금을 수 있기 때문에 마법 도구들을 만드는 데 자주 쓰입니다.
+tc.research_page.PLANTS.2=§l       §n실버우드 나무§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>이 신비로운 나무는 굉장히 희귀하며 매우 아름답게 생겼습니다. 마법에너지로 인해 잎사귀에서 빛이 나며 희고 부드러운 목재는 정화능력이 있어 가치가 매우 높습니다.<BR>이런 신비로운 특징들은 이 나무의 중심부에 오라 노드가 형성되기 때문인데 이때문에 실버우드 나무 묘목은 그 값을 매길 수 없을 정도로 귀합니다.
+tc.research_page.PLANTS.3=§l          §n시머리프§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>이 반짝이는 꽃은 실버우드의 그늘 아래서만 자랍니다. 이 꽃은 수은으로 가공할 수 있습니다.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.4=§l           §n신더펄§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>매우 뜨거운 기후에서만 발견되는 이 꽃은 불의 원소로 충만해 타오릅니다. 채집한 뒤 빻으면 블레이즈 가루와 매우 유사한 가루를 만들 수 있습니다.
+tc.research_page.PLANTS.5=§l          §n마나 콩§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>이 콩깍지처럼 생긴 이상한 식물은 마법의 숲 에 있는 나무에서만 자랍니다. 자라는 속도가 매우 느리며 수확되는 양 또한 그리 많지 않습니다. 
+tc.research_page.PLANTS.6=마나 콩으로 알려진 이 콩들에는 에센시아가 농축되어있습니다. 먹는 것 또한 가능은 하지만 무슨 일이 생길지는......<BR>이 콩은 다시 심을 수 있지만 재배하기 까다롭고 시간이 많이 소요됩니다.<BR>숲에서 발견되는 마나 콩은 일반적으로 태초의 위상만을 함유하고 있지만, 심어져있는 콩 옆에 다른 콩을 심으면 가끔씩 그 둘의 복합 위상을 함유한 콩으로 자란다고 알려져 있습니다.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
+#
+tc.research_name.RESEARCHER1=연구 전문가
+tc.research_text.RESEARCHER1=지식은 곧 힘
+tc.research_page.RESEARCHER1.1=좀 더 효율적인 연구 진행이 가능합니다.<BR>육각형에 이미 올려놓은 위상을 제거할 때 25%의 확률로 연구 포인트를 돌려받을 수 있습니다.<BR>또한 위상 아이콘 위에 커서를 올려놓을 경우 그 위상을 조합하는데 필요한 위상들이 보여집니다.
+#
+tc.research_name.RESEARCHER2=연구 마스터
+tc.research_text.RESEARCHER2=힘은 곧 지식
+tc.research_page.RESEARCHER2.1=더욱 더 효율적인 연구 진행이 가능합니다.<BR>육각형에 이미 올려놓은 위상을 제거할 때 50%의 확률로 연구 포인트를 돌려받을 수 있습니다.<BR>또한 육각형에 위상을 올려놓을 때 10%의 확률로 연구 포인트를 소모하지 않습니다.<BR>마지막으로, 위상을 합성할 때 만들어내고 싶은 위상을 Shift 클릭 하는 것 만으로도 합성이 가능합니다. 재료 위상이 충분할 경우 선택한 위상을 자동적으로 생성합니다.
+#
+tc.research_name.RESEARCHDUPE=연구 복사
+tc.research_text.RESEARCHDUPE=나눔의 미덕
+tc.research_page.RESEARCHDUPE.1=연구일지를 복사하는 방법을 알아내었습니다.<BR>연구를 완료하거나 완료된 연구일지를 연구 테이블에 올려놓으면 별모양 아이콘이 표시됩니다. 이 아이콘을 누르면 약간의 위상과 잉크, 종이를 소모해서 연구일지를 복사합니다.<BR>복사를 하면 할 수록 복사 비용은 점점 비싸집니다.
+#
+tc.research_name.DECONSTRUCTOR=분석 테이블
+tc.research_text.DECONSTRUCTOR=관찰만으로는 충분하지 않을 때
+tc.research_page.DECONSTRUCTOR.1=마도학자들에게는 지식의 부족으로 인해 연구 진행이 불가능해지는 시점이 올 때가 있습니다. <BR>이 때 가능한 해결책이 바로 분석 테이블입니다. 이 테이블은 물체를 연구할 수 있는 가장 기본이 되는 단위로 쪼갤 수 있도록 해 줍니다. 하지만 이 테이블에도 한계가 있는데, 복합위상을 분해할 경우 가장 기본적인 태초의 위상 단 하나만 나오게 됩니다. 이 과정에서 많은 지식이 소실되며, 마도학자는 필요한 위상이 나오기를 바라는 수밖에 없습니다.
+tc.research_page.DECONSTRUCTOR.2=예를 들어, 철괴(Metallum)는 §2Terra§0와 §fOrdo§0로 분해되며, 이 중 하나만이 발견됩니다.<BR>이 과정은 매우 느리며, 분해 대상이 가진 위상이 적을수록 무언가 발견될 확률도 낮아집니다.
+#
+tc.research_name.BASICTHAUMATURGY=기본 완드 제작
+tc.research_text.BASICTHAUMATURGY=첫 번째 도구
+tc.research_page.BASICTHAUMATURGY.1=완드는 가장 기본적이면서도 가장 중요한 도구입니다. 물건을 제작할 때도 쓰이고 도가니를 활성화시킬 때도 쓰이며 그 용도가 무궁무진합니다.<BR>가장 기본적인 완드는 작업에 필요한 마법 에너지(비스)를 그리 많이 저장하지 못합니다. 완드의 에너지를 보충하기 위해선 완드를 들고 오라 노드를 우클릭해서 에너지를 추출해야 합니다.<BR>완드를 손에 들면 화면 좌측 상단에 완드에 충전된 비스의 양을 보여주는 게이지가 나타납니다.
+tc.research_page.BASICTHAUMATURGY.2=Shift키를 누르면 비스의 양과 작업할 때 절감할 수 있는 비스의 양이 정확한 수치로 표시됩니다.<BR>완드는 코어 하나와 두 개의 꼭지 덮개로 제작됩니다. 연구가 진척될수록 완드 제작에 쓸 수 있는 여러 종류의 물질들을 발견하게 됩니다. 가장 기본적인 완드만에 일반 제작대에서 제작할 수 있습니다. 다른 완드들은 §5아케인 제작대§0에서만 만들 수 있으며 제작에 비스가 들어갑니다.<BR>기본 완드는 철과 평범한 나무로 제작되며 마법을 행하기에 그리 적합한 완드는 아닙니다.
+#
+tc.research_name.GRATE=받침쇠
+tc.research_text.GRATE=좋은 것은 안으로
+tc.research_page.GRATE.1= 받침쇠는 손이나 레드스톤 신호로 열고 닫을 수 있습니다. 열린 상태에선 아이템이 통과할 수 있습니다. 
+#
+tc.research_name.NODETAPPER1=더 나은 노드 추출
+tc.research_text.NODETAPPER1=모두 내 꺼!
+tc.research_page.NODETAPPER1.1=보통 노드에서 비스를 추출하는 작업은 꽤 느립니다. 하지만 더이상은 아니죠.<BR>좀 더 효율적인 방법으로 일반적인 속도보다 두 배 빠르게 비스를 추출할 수 있습니다.
+#
+tc.research_name.NODETAPPER2=노드 추출 마스터
+tc.research_text.NODETAPPER2=너의 비스는 곧 나의 것
+tc.research_page.NODETAPPER2.1=비스 추출 기술이 거의 최고수준에 도달했습니다.<BR>이제 평소의 세 배의 속도로 비스를 추출할 수 있습니다.
+#
+tc.research_name.NODEPRESERVE=노드 수호자
+tc.research_text.NODEPRESERVE=나중을 위해
+tc.research_page.NODEPRESERVE=노드에서 추출해내는 비스의 양을 좀 더 잘 제어할 수 있게 되었습니다. 이젠 위상을 적어도 1씩 남겨놓고 추출할 수 있습니다.<BR>이 정도 수준의 섬세한 조절은 일반 나무와 철로 만들어진 저급 완드로는 불가능하니 주의합시다.
+#
+tc.research_name.THAUMOMETER=사우모미터
+tc.research_text.THAUMOMETER=마법의 수치화
+tc.research_page.THAUMOMETER.1=사우모미터는 마도학자에게 있어서 완드만큼이나 중요한 존재입니다.<BR>이 장치는 마도학자가 온갖 물체들을 분석하거나 신비로운 현상들을 발견해내는 것을 가능케 해줍니다. 마우스 오른쪽 버튼을 잠시 누르고 있는 것으로 물체를 분석할 수 있습니다.<BR>또한 사우모미터의 렌즈를 통해서라면 심지어 다른 물체에 가려져있는 노드까지도 선명하게 볼 수 있습니다. 
+#
+tc.research_name.GOGGLES=발견의 고글
+tc.research_text.GOGGLES=볼 수 없는것을 보자
+tc.research_page.GOGGLES.1=이 특수한 고글은 사우모미터의 원리를 응용해서 만들어진 것으로, 좀 더 고차원적인 마법 현상들을 발견할 수 있게 해 줍니다.<BR>오라 노드를 선명하게 보여주는 기능은 물론이거니와, 사우모미터를 통해서도 볼 수 없었던 정보들을 볼 수 있게 됩니다.<BR>이 또한 마도학자에게 있어선 빼먹을 수 없는 도구입니다. 이 고글은 사우모미터에 있는 물체의 위상을 분석하는 기능은 없으니 주의합시다.
+#
+tc.research_name.THAUMIUM=사우뮴
+tc.research_text.THAUMIUM=금속과 마법이 만날 때
+tc.research_page.THAUMIUM.1=사우뮴은 평범한 금속에 순수한 마법 에너지를 불어넣어 만들어진 신비한 금속입니다. 이 새로운 금속은 철보다 강도가 높고 일반적인 금속은 받아들이지 못하는 인챈트까지 받아들일 수 있습니다.<BR>사우뮴은 강력한 마법 도구들의 재료로 쓰입니다.<BR>또한 이 금속으로 검이나 도끼같은 다른 금속으로 만들 수 있는 평범한 도구들도 제작할 수 있습니다.
+#
+tc.research_name.NITOR=나이터
+tc.research_text.NITOR=신비한 불꽃
+tc.research_page.NITOR.1=이 불꽃은 마법 그 자체로부터 에너지를 받아 타오릅니다. 영원히 타오르는 불꽃은 그 쓰임새가 무궁무진할 것 같지만, 이 불꽃은 열보다는 빛을 주로 내뿜기 때문에 약하지만 지속적인 열 공급이 필요한 곳 외에 에너지를 공급하기엔 역부족입니다.<BR>나이터는 마치 횃불처럼 월드에 설치할 수 있습니다.
+#
+tc.research_name.ALUMENTUM=알루멘텀
+tc.research_text.ALUMENTUM=신비한 에너지원
+tc.research_page.ALUMENTUM.1=화염 에너지로 가득차 불안정하게 달아오른 이 물질은 아주 작은 충격에도 터져버립니다. 아주 위험한 물질이지만 연료로 사용될 경우 엄청난 효율을 보여줍니다.<BR>폭파광이 아니라면 이걸 벽이나 바닥에 던지진 맙시다.
+#
+tc.research_name.HUNGRYCHEST=배고픈 상자
+tc.research_text.HUNGRYCHEST=냠냠냠냠
+tc.research_page.HUNGRYCHEST.1=이 상자는 주변에 떨어진 아이템을 스스로 주워 담습니다.
+#
+tc.research_name.CAP_gold=금 완드캡
+tc.research_text.CAP_gold=스타일리쉬한 마무리
+tc.research_page.CAP_gold.1=금은 철보다 마법에너지를 집중시키는 능력이 훨씬 뛰어나기 때문에 금이 씌워진 완드는 저장된 비스를 100% 효율로 방출할 수 있습니다.
+#
+tc.research_name.CAP_thaumium=사우뮴 완드캡
+tc.research_text.CAP_thaumium=신비한 완드캡
+tc.research_page.CAP_thaumium.1=사우뮴은 마력을 흡수하고 저장하는 능력이 뛰어난 물질로 완드캡의 재료로는 최상입니다. 모든 종류의 비스에서 최고의 효율을 보여줍니다.
+#
+tc.research_name.CAP_silver=은 완드캡
+tc.research_text.CAP_silver=악간 덜 스타일리쉬한 마무리
+tc.research_page.CAP_silver.1=은은 완드캡의 재료로 사용됐을 때 금과 그 특성이 매우 비슷하지만 자연 원소(§3Aqua§0, §cIgnis§0, §6Aer§0, §2Terra§0)를 방출할 때 금보다 약간 더 우월한 성능을 보여줍니다.
+#
+tc.research_name.CAP_copper=구리 완드캡
+tc.research_text.CAP_copper=철 완드 덮개로는 부족할 때
+tc.research_page.CAP_copper.1=구리는 완드캡의 재료로 사용됐을 때 철과 그 특성이 매우 비슷하지만 §7Ordo§0와 §8Perditio§0 비스를 방출할 때 금과 동일한 성능을 보여줍니다.
+#
+tc.research_name.ROD_greatwood=그레이트우드 완드 코어
+tc.research_text.ROD_greatwood=마법에너지 저장소
+tc.research_page.ROD_greatwood.1=그레이트우드 원목을 깎아 만든 이 완드 코어는 평범한 나무로 만든 완드 코어보다 2배 더 많은 비스를 저장할 수 있습니다. 각각의 비스마다 최대 50을 저장할 수 있습니다.
+#
+tc.research_name.ROD_silverwood=실버우드 완드 코어
+tc.research_text.ROD_silverwood=마법의 근원
+tc.research_page.ROD_silverwood.1=실버우드는 마법에너지 저장소로는 최고의 선택입니다. 실버우드로 만들어진 완드 코어는 각각의 비스를 최대 100씩 저장할 수 있습니다.
+#
+tc.research_name.SCEPTRE=제작용 홀
+tc.research_text.SCEPTRE=제작을 위해서
+tc.research_page.SCEPTRE.1=제작용 홀은 오직 마법 도구 제작을 위해 고안되었습니다. 홀은 포커스를 장착시킬 수 없는 대신 완드와는 다른 특별한 기능들을 갖고 있습니다.<BR>우선, 홀은 사용된 캡의 비스 절약량에 추가로 5% 더 절약할 수 있도록 해 줍니다.<BR>또한 홀을 제작할 때 사용한 코어의 기본 저장량의 50%를 추가적으로 가집니다.<BR>완드와 마찬가지로 홀은 대부분의 코어와 완드 캡으로 만들 수 있습니다. 다음 페이지에는 몆가지 예시가 나와있습니다.
+#
+tc.research_name.ROD_obsidian=흑요석 완드 코어
+tc.research_text.ROD_obsidian=단단한 비스 저장소
+tc.research_page.ROD_obsidian.1=흑요석으로 이루어진 이 완드 코어는 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 코어가 그레이트우드 코어보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 §2Terra§0 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 §2Terra§0 비스를 회복합니다.
+#
+tc.research_name.ROD_bone=본 완드 코어
+tc.research_text.ROD_bone=혼돈의 비스 저장소
+tc.research_page.ROD_bone.1=뼈를 깎아 만든 이 완드 코어는 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 코어가 그레이트우드 코어보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 §8Perditio§0 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 §8Perditio§0 비스를 회복합니다.
+#
+tc.research_name.ROD_blaze=타오르는 완드 코어
+tc.research_text.ROD_blaze=타오르는 비스 저장소
+tc.research_page.ROD_blaze.1=블레이즈 막대로 만든 이 완드 코어는 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 코어가 그레이트우드 코어보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 §cIgnis§0 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 §cIgnis§0 비스를 회복합니다.
+#
+tc.research_name.ROD_ice=얼어붙은 완드 코어
+tc.research_text.ROD_ice=얼어붙은 비스 저장소
+tc.research_page.ROD_ice.1=얼음을 깎아 만든 이 완드 코어는 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 코어가 그레이트우드 코어보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 §3Aqua§0 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 §3Aqua§0 비스를 회복합니다.
+#
+tc.research_name.ROD_quartz=석영 완드 코어
+tc.research_text.ROD_quartz=안정된 비스 저장소
+tc.research_page.ROD_quartz.1=지옥 석영으로 이루어진 이 완드 코어는 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 코어가 그레이트우드 코어보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 §7Ordo§0 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 §7Ordo§0 비스를 회복합니다.
+#
+tc.research_name.ROD_reed=사탕수수 완드 코어
+tc.research_text.ROD_reed=가볍고 경쾌한 비스 저장소
+tc.research_page.ROD_reed.1=사탕수수로 만든 이 완드 코어는 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 코어가 그레이트우드 코어보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 §6Aer§0 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 §6Aer§0 비스를 회복합니다.
+#
+tc.research_name.ROD_greatwood_staff=마법 스태프
+tc.research_text.ROD_greatwood_staff=마법사의 스태프는 끝에 옹이가 있지
+tc.research_page.ROD_greatwood_staff.1=완드는 마법사의 상징이지만 가끔은 좀 더 크고 아름다운 것이 필요할 때가 있습니다. 마법 스태프는 기본적으로는 그냥 커다란 완드입니다. 스태프는 좀 더 많은 양의 비스를 저장할 수 있습니다.<BR>완드보다 좀 더 크고 단단하기 때문에 긴급한 상황에서는 무기로도 쓸 수 있습니다.<BR>하지만 이러한 특성은 아케인 작업대나 비슷한 작업에 필요한 복잡한 기술과 세밀한 조절에는 부적합하게 만들기도 합니다.
+tc.research_page.ROD_greatwood_staff.2=그레이트우드로 만들어진 스태프는 같은 종류의 완드보다 두 배 이상의, 125비스를 저장할 수 있습니다.
+#
+tc.research_name.ROD_silverwood_staff=실버우드 스태프 코어
+tc.research_text.ROD_silverwood_staff=마법의 근원
+tc.research_page.ROD_silverwood_staff.1=실버우드로 만들어진 스태프는 최대 250비스를 저장할 수 있습니다.
+#
+tc.research_name.ROD_obsidian_staff=흑요석 스태프 코어
+tc.research_text.ROD_obsidian_staff=단단한 비스 저장소
+tc.research_page.ROD_obsidian_staff.1=흑요석을 조각해 만든 이 스태프 코어는 최대 175비스를 저장 할 수 있습니다.<BR>완드 코어처럼 스태프 코어는 저장된 비스를 서서히 회복합니다.
+#
+tc.research_name.ROD_bone_staff=본 스태프 코어
+tc.research_text.ROD_bone_staff=혼돈의 비스 저장소
+tc.research_page.ROD_bone_staff.1=뼈를 깎아 만든 이 스태프 코어는 최대 175비스를 저장 할 수 있습니다.<BR>완드 코어처럼 스태프 코어는 저장된 비스를 서서히 회복합니다.
+#
+tc.research_name.ROD_blaze_staff=타오르는 스태프 코어
+tc.research_text.ROD_blaze_staff=불타오르는 비스 저장소
+tc.research_page.ROD_blaze_staff.1=블레이즈 막대로 만들어진 이 스태프 코어는 최대 175비스를 저장 할 수 있습니다.<BR>완드 코어처럼 스태프 코어는 저장된 비스를 서서히 회복합니다.
+#
+tc.research_name.ROD_ice_staff=얼어붙은 스태프 코어
+tc.research_text.ROD_ice_staff=얼어붙은 비스 저장소
+tc.research_page.ROD_ice_staff.1=얼음으로 만들어진 이 스태프 코어는 최대 175비스를 저장 할 수 있습니다.<BR>완드 코어처럼 스태프 코어는 저장된 비스를 서서히 회복합니다.
+#
+tc.research_name.ROD_quartz_staff=석영 스태프 코어
+tc.research_text.ROD_quartz_staff=안정된 비스 저장소
+tc.research_page.ROD_quartz_staff.1=지옥 석영을 조각해 만든 이 스태프 코어는 최대 175비스를 저장 할 수 있습니다.<BR>완드 코어처럼 스태프 코어는 저장된 비스를 서서히 회복합니다.
+#
+tc.research_name.ROD_reed_staff=사탕수수 스태프 코어
+tc.research_text.ROD_reed_staff=경쾌한 비스 저장소
+tc.research_page.ROD_reed_staff.1=사탕수수로 만들어진 이 스태프 코어는 최대 175비스를 저장 할 수 있습니다.<BR>완드 코어처럼 스태프 코어는 저장된 비스를 서서히 회복합니다.
+#
+tc.research_name.ROD_primal_staff=태초의 스태프 코어
+tc.research_text.ROD_primal_staff=융합된 원소의 에너지
+tc.research_page.ROD_primal_staff.1=이 스태프 코어는 잠재된 에너지로 박동합니다.<BR>하급 스태프 코어들의 모든 기능이 융합되어 있습니다 - 용량은 실버우드 코어만큼 크며 모든 종류의 비스를 서서히 회복 할 수 있습니다.<BR>또한 장착된 포커스의 파워를 한단계 상승시켜줍니다.<BR>마도학자에게 있어서는 가장 강력한 도구임에 틀림없습니다.
+#
+tc.research_name.FOCUSFIRE=완드 포커스
+tc.research_text.FOCUSFIRE=형태에 기능이 더해질 때
+tc.research_page.FOCUSFIRE.1=몇몇 주의 깊은 실험의 결과 완드의 기능을 확장시킬 수 있는 방법이 개발되었습니다.<BR>결정화된 비스 샤드와 석영을 합쳐서 마법 에너지를 주입함으로써 수정의 결정을 신비한 형태로 재배열할 수 있습니다.<BR>이 새로운 결정체에 알맞은 종류의 비스가 어느정도 집중되면, 이 결정체는 순수한 마법 에너지를 좀 더 유용하고 다루기 쉬운 형태로 변형시켜서 방출합니다. 
+tc.research_page.FOCUSFIRE.2=완드를 든 채로 F키를 눌러서 인벤토리에 있는 포커스를 완드에 장착시킬 수 있습니다. F키를 다시 눌러서 인벤토리에 있는 다른 포커스로 갈아 끼울 수 있습니다.<LINE>완드 포커스를 연구하는 과정에서 불을 이용하는 포커스에 대한 지식을 얻었습니다.<BR>이 포커스는 순수한 불의 원소를 이용해 반경 내의 모든 것들을 태워버립니다.
+#
+tc.research_name.FOCUSFROST=완드 포커스: 프로스트
+tc.research_text.FOCUSFROST=차가운 복수
+tc.research_page.FOCUSFROST.1=이 포커스는 얼음 파편을 강하게 발사합니다.<BR>유리같은 물체는 깨버릴 수 있기 때문에 사용할 때 주의가 필요합니다. 
+#
+tc.research_name.FOCUSSHOCK=완드 포커스: 쇼크
+tc.research_text.FOCUSSHOCK=천둥번개
+tc.research_page.FOCUSSHOCK.1=이 포커스는 순수한 마법 에너지를 전기로 변환해 적에게 발사합니다.
+#
+tc.research_name.FOCUSEXCAVATION=완드 포커스: 채굴
+tc.research_text.FOCUSEXCAVATION=지형 파괴
+tc.research_page.FOCUSEXCAVATION.1=이 포커스는 완드를 곡괭이처럼 쓸 수 있게 만들어줍니다.<BR>포커스를 장착한 채 마우스 오른쪽 버튼을 누르면 나가는 초록색 광선은 채굴하는 데 이용할 수 있습니다. 물체가 단단할 수록 채굴 시간이 길어지며, 흙이나 돌이 아닌 다른 종류, 이를테면 나무 등의 물체를 채굴할 때 역시 채굴 시간이 길어집니다.
+#
+tc.research_name.FOCUSTRADE=완드 포커스: 등가교환
+tc.research_text.FOCUSTRADE=이것은 곧 저것
+tc.research_page.FOCUSTRADE.1=이 포커스를 이용해서 월드에 놓여져 있는 블럭과 인벤토리 내의 블럭을 바꿔칠 수 있습니다.<BR>인벤토리에 있는 조약돌을 다른 블럭과 바꿔치기 하고 싶다면 우선 조약돌을 월드에 하나 설치한 뒤 포커스를 장착한 완드를 들고 Shift-우클릭을 합니다. 그다음 조약돌과 바꾸고 싶은 블럭을 좌클릭하면 블럭이 서로 교환됩니다. 우클릭을 할 경우 넓은 면적을 동시에 바꿔치기할 수 있습니다.<BR>인벤토리에 바꿔치기할 블록이 충분히 있어야 하며 교환한 블록은 자동으로 인벤토리의 빈칸으로 들어갑니다. 용암이나 물은 교환할 수 없습니다.
+#
+tc.research_name.FOCUSHELLBAT=완드 포커스: 나인 헬
+tc.research_text.FOCUSHELLBAT=작은 악몽
+tc.research_page.FOCUSHELLBAT.1=지옥 탐험은 '작은 악몽'이라 불리는 불박쥐들이 얼마나 무서운가를 깨닫게 해 줍니다. 이 불박쥐들을 이용해 적들을 괴롭혀줄 수 있는 끝내주는 방법을 발견하였습니다.
+#
+tc.research_name.FOCUSPORTABLEHOLE=완드 포커스: 포터블 홀
+tc.research_text.FOCUSPORTABLEHOLE=EXIT
+tc.research_page.FOCUSPORTABLEHOLE.1=비스를 사용해서 아공간을 여는데 성공했습니다. 이 포커스를 벽이나 바닥에 사용하면 반대편까지 이어지는 아공간이 열립니다.<BR>이 통로는 몇 초 동안만 유지되며 통로의 깊이가 깊을수록 소모하는 비스의 양이 늘어납니다.<BR>아공간 통로는 특정한 물체나 너무 복잡한 물체를 통해서는 열리지 않습니다.
+#
+tc.research_name.FOCUSWARDING=완드 포커스: 경계
+tc.research_text.FOCUSWARDING=당신의 것을 보호합니다
+tc.research_page.FOCUSWARDING.1=이 포커스는 꽤 재밌는 기능을 가진 강력한 포커스입니다. 이 포커스를 블럭에 사용하면 해당 블럭 주위에 보이지 않는 결계를 생성합니다. 이 포커스를 다시 사용하기 전까지는 그 블럭은 움직이거나 파괴 할 수 없게 됩니다.<BR>이 포커스는 대부분의 단순한 블럭에 사용 할 수 있으며 해당 블럭의 특성들은 거의 유지되지만 그 블럭의 시간의 흐름을 정지시킵니다.<BR>이 포커스가 장착된 완드를 들고 있으면 자신이 결계를 쳐 놓은 모든 블럭들을 볼 수 있습니다.
+#
+tc.research_name.FOCUSPRIMAL=완드 포커스: 태초의 힘
+tc.research_text.FOCUSPRIMAL=정제되지 않은 마력
+tc.research_page.FOCUSPRIMAL.1=이 포커스를 도대체 무슨 생각으로 만든 겁니까? 미치광이가 아닌 이상에야 이 포커스를 굳이 만들 필요는 없을 겁니다.<BR>이 포커스가 발사하는 정제되지 않은 태초의 에너지 덩어리는 굉장히 강력할지라도, 그 구체의 궤적은 도무지 종잡을 수가 없으며 심지어는 자신을 향해 날아드는 경우도 있습니다.<BR>하지만, 어쩌면 연구 해 볼 가치가 있을지도 모르겠군요. 이것에서 발사된 구체는 꽤나 흥미로운 특성을 지니고 있고, 위습이나 오라 노드에서만 확인 할 수 있는 에너지 패턴을 띠고 있습니다.
+#
+tc.research_name.FOCUSPOUCH=포커스 주머니
+tc.research_text.FOCUSPOUCH=좀 더 편한 포커스 보관
+tc.research_page.FOCUSPOUCH.1=포커스가 많으면 그걸 전부 가지고 다니는것도 일입니다. 하지만 이 주머니가 있으면 인벤토리 공간을 한참 절약할 수 있습니다.<BR>F키를 이용해서 포커스를 교체할 때 주머니에서 포커스를 꺼내놓지 않아도 교체가 가능합니다. 또한 주머니를 우클릭해서 직접 포커스를 장착하거나 분리할 수 있습니다. 
+#
+tc.research_name.BOOTSTRAVELLER=여행자의 신발
+tc.research_text.BOOTSTRAVELLER=본격 워킹화
+tc.research_page.BOOTSTRAVELLER.1=이 부츠는 여행을 좀 더 편안하게 해주는 마법으로 가득 차 있습니다.<BR>이걸 신으면 평소보다 더 빠르게 걸을 수 있으며 좀 더 높이 뛸 수 있습니다.<BR>한 칸 높이의 블럭은 뛰지 않고도 지나갈 수 있으며 물 속에서도 물고기처럼, 그래도 좀 느리지만, 어쨌든 물고기처럼 재빠르게 움직일 수 있게 해 줍니다.
+#
+tc.research_name.PHIAL=유리병
+tc.research_text.PHIAL=신비한 보관용기
+tc.research_page.PHIAL.1=유리병은 모든 종류의 액체나 물질을 보관하는 데 적합하며 에센시아 또한 보관할 수 있습니다. 
+#
+tc.research_name.TABLE=테이블
+tc.research_text.TABLE=조립이 필요합니다
+tc.research_page.TABLE.1=테이블은 그냥 단순한 장식블럭이 아닙니다. 테이블은 아케인 작업대나 연구 테이블 등을 구성하는 가장 기본적인 블럭입니다. 
+#
+tc.research_name.ARCTABLE=아케인 작업대
+tc.research_text.ARCTABLE=마법과 함께 제작을
+tc.research_page.ARCTABLE.1=테이블을 설치한 후 완드로 우클릭해서 아케인 작업대를 만들 수 있습니다. 아케인 작업대는 가장 큰 특징을 빼놓는다면 일반 작업대와 동일하게 쓸 수 있습니다.<BR>이 가장 큰 특징은, 이 아케인 작업대에서는 완드를 이용해 여러 특수한 도구들을 만들 수 있다는 겁니다. 제작에 필요한 마법 에너지, 비스는 우측 상단에 놓인 완드에서 끌어다 쓰게 됩니다.<BR>필요한 비스의 종류와 양은 조합창 테두리의 여섯개의 심볼로 표시됩니다.
+#
+tc.research_name.RESTABLE=연구 테이블
+tc.research_text.RESTABLE=지식의 축적을 위해
+tc.research_page.RESTABLE.1=연구 테이블은 테이블 두개를 양쪽으로 서로 붙여놓고 필기도구로 우클릭해 만들 수 있습니다.<BR>이 테이블은 모든 마도학자들에게 없어서는 안될 존재로 마도학자들은 이 테이블에서 마법의 비밀과 그 이용방법을 파헤칩니다. 
+#
+tc.research_name.THAUMONOMICON=사우모노미콘
+tc.research_text.THAUMONOMICON=지식의 보고
+tc.research_page.THAUMONOMICON.1=사우모노미콘은 책장을 완드로 우클릭해 만들 수 있습니다.<BR>사우모노미콘은 모든 마법의 기본이 되는 책입니다. 이 책에는 지금까지 발견한 모든 것이 표시되며 앞으로 진행할 수 있는 연구에 대한 대략적인 정보를 보여줍니다.<BR>무언가 새로운 연구를 완료했다면 그 발견에 대한 정보가 즉시 사우모노미콘에 등록됩니다. 책을 펼쳐서 지금까지의 발견 목록을 열람할 수 있으며 좀 더 자세한 정보가 보고 싶은 발견이 있다면 그 발견을 선택해서 그것에 대한 자세한 내용과 관련된 조합법들을 볼 수 있습니다. 
+#
+tc.research_name.CRUCIBLE=기초 연금술
+tc.research_text.CRUCIBLE=보글보글...
+tc.research_page.CRUCIBLE.1=도가니는 가마솥을 완드로 우클릭해 만들 수 있습니다.<BR>도가니는 모든 연금술사들에게 중요한 도구입니다. 도가니를 통해 아이템이나 블럭들을 에센시아로 녹여낼 수 있습니다.<BR>도가니가 작동하기 위해선 지속적인 열을 아래쪽에서 공급해주어야 하며 물이 채워져 있어야 합니다. 물이 끓기 시작했다면 아이템을 던져넣어서 그 아이템의 구성 위상들을 에센시아로 녹여낼 수 있습니다.<BR>알맞는 조합 공식을 알고 있고 도가니 안의 에센시아가
+tc.research_page.CRUCIBLE.2=알맞게 섞여있다면 카탈리스트라 부르는 특별한 아이템을 던져넣을 수 있습니다. 카탈리스트로써 도가니에 던져진 아이템은 에센시아를 흡수해서 새로운 아이템으로 변형됩니다.<BR>조합에 사용되고 남은 에센시아는 도가니에 그대로 남아있지만 이 남은 에센시아를 도가니에 오랫동안 방치하는 것은 그다지 바람직하지 않습니다.<BR>또한 조합에는 약간의 물이 사용되므로 도가니에 물을 주기적으로 채워주어야 합니다. 도가니 안의 에센시아는 천천히 분해됩니다. 복합위상의 에센시아는 그 구성위상의 에센시아로 분해되며 태초의 위상 형태까지 분해된 에센시아는 결국 증발해 버립니다.  
+tc.research_page.CRUCIBLE.3=자원을 낭비한다는 것은 둘째 치고, 에센시아의 분해와 증발은 이상한 부작용들을 일으킵니다.<BR>도가니는 완드로 Shift-우클릭해서 비울 수 있습니다. 모든 에센시아들을 자주 공기중으로 증발시키면 무언가 좋지 않은 일이 생길 수 있습니다.
+tc.research_page.CRUCIBLE.4=마법에 문외한인 사람도 간단한 연금술은 행할 수 있습니다. 다음 페이지들에 누구나 행할 수 있는 연금술 공식들이 나와있습니다.<LINE>§n균형을 이룬 비스 샤드§r<BR><BR>이 특별한 샤드는 일반적인 샤드에 거기에 포함되어있지 않은 다른 5가지의 속성을 모두 주입해 만들어졌습니다. 이 샤드는 완벽한 태초의 에너지로 가득 차 있습니다.<BR>이 샤드를 화로에서 가공하면 정화된 소금을 만들 수 있습니다.(다음 페이지를 보세요).
+tc.research_page.CRUCIBLE.5=§n정화된 소금§r<BR><BR>정화된 소금, 혹은 마공학자의 소금으로 알려진 이 물질은 균형을 이룬 샤드에 높은 열을 가해 만든 고운 가루입니다.<BR>마치 일반적인 소금처럼, 이 특수한 소금은 여러 마법 공식들에 -비유적으로 말하자면-풍미를 더해주며, 마치 접착제와 같은 역할을 하여 여러 마법적 속성들을 서로 연결시켜 줍니다.
+#
+tc.research_name.ENCHFABRIC=마법이 깃든 천
+tc.research_text.ENCHFABRIC=실키 & 스타일리쉬
+tc.research_page.ENCHFABRIC.1=양털과 거미줄에 비스를 주입해서 다양한 용도를 가진 매우 부드러운 마법 천을 만들 수 있습니다.<BR>이 천으로 옷을 만들 수 있습니다. 이 천으로 만들어진 로브는 방어력이 가죽 방어구와 비슷한 수준이지만, 평범한 물질로 만들어진 방어구에 비해 엄청난 내구도를 지니고 있습니다.<BR>또한 이 로브는 인챈트가 훨씬 수월하며 더 비싼 갑옷들보다도 강력한 마법을 더 오랫동안 머금을 수 있습니다.  
+tc.research_page.ENCHFABRIC.2=이 로브에는 완드의 비스 소모량을 절약해 주는 기능이 있습니다.<BR>가죽 방어구처럼 염색하는 것 또한 가능합니다.
+#
+tc.research_name.ENCHANT=인챈트
+tc.research_text.ENCHANT=새로운 인챈트들
+tc.research_page.ENCHANT.1=사움크래프트는 몇가지 새로운 인챈트들을 추가합니다.<BR>        §n파워 (포커스 전용)§r<BR>이 인챈트가 붙은 포커스는 데미지가 더 강력해지거나 사거리 혹은 범위가 증가하는 대신, 비스를 약간 더 소모합니다.<BR>        §n절약 (포커스 전용)§r<BR>이 인챈트가 붙은 포커스는 사용시 비스를 더 적게 소비합니다.<BR>        §n탐욕 (포커스 전용)§r<BR>일반적인 행운 인챈트처럼, 포커스를 사용해서 채굴한 아이템의 숫자를 늘려줍니다.
+tc.research_page.ENCHANT.2=               §n신속§r<BR>이 인챈트는 모든 신발류 방어구에 붙일 수 있으며 이 인챈트가 붙은 신발은 이동속도를 증가시켜줍니다. 인챈트 레벨이 높을수록 이동속도 증가폭이 커집니다.<BR>                §n수리§r<BR>이 인챈트는 완드의 비스를 소모하여 도구를 수리합니다. 비스 소모량은 도구의 가치에 따라 다르며 인챈트 레벨이 높을수록 수리 속도가 빨라집니다. 이 인챈트는 사움크래프트의 장비들 중에도 일부에만 적용할 수 있습니다.
+#
+tc.research_name.ELEMENTALAXE=흐름의 도끼
+tc.research_text.ELEMENTALAXE=나무의 강
+tc.research_page.ELEMENTALAXE.1=사우뮴 도끼에 워터 샤드의 마력을 더해 흐르는 물의 특성이 담겨있는 도끼를 만들 수 있습니다..<BR>이 도끼는 다른 도끼와 그 능력이 동일하지만, 원목과 나무를 자를 때만은 다릅니다. 원목에 이 도끼를 사용하게 되면, 이 도끼를 직접 사용한 원목 대신 그 원목에 연결된 가장 멀리 있는 같은 종류의 원목을 캐게 됩니다.<BR>이 효과로 인해 나무의 가장 밑동만 잘라내도 전체 나무를 벌목할 수 있습니다. 
+tc.research_page.ELEMENTALAXE.2=또한 이렇게 잘라낸 나무는 자른 사람에게 흘러와 자동으로 인벤토리에 모입니다.<BR>우클릭으로 도끼를 사용할 경우 매우 빠른 속도로 나무를 캐지만 그만큼 내구도 소모가 커지게 됩니다.<BR>Shift키를 누른 채 이 도끼를 사용하면 모든 특수한 기능들이 작동하지 않고 일반 도끼처럼 쓸 수 있습니다.#
+#
+tc.research_name.ELEMENTALPICK=중심의 곡괭이
+tc.research_text.ELEMENTALPICK=정화의 불꽃
+tc.research_page.ELEMENTALPICK.1=사우뮴 곡괭이에 파이어 샤드의 마력을 더해 대장간의 열기로 달아오른 곡괭이를 만들 수 있습니다.<BR>이 곡괭이로 광석을 캘 경우 가끔씩 광물 덩어리를 드롭하는 경우가 있습니다. 이 순수한 광물 덩어리는 가공하기가 좀 더 수월하며 화로에서 구우면 두 배의 광물을 생산해냅니다.<BR>또한 이 곡괭이는 음파를 이용해서 주변에 어떠한 광물이 있는지 알아내는 기능이 있어서 주변의 벽을 우클릭할 경우 근처에 묻혀있는 광물들의 위치를 알려줍니다.
+tc.research_page.ELEMENTALPICK.2=Shift키를 누른 채 이 곡괭이를 사용하면 모든 특수한 기능들이 작동하지 않고 일반 곡괭이처럼 쓸 수 있습니다.
+#
+tc.research_name.ELEMENTALSWORD=미풍의 검
+tc.research_text.ELEMENTALSWORD=바람의 분노
+tc.research_page.ELEMENTALSWORD.1=사우뮴 검에 에어 샤드의 마력을 더해 바람의 힘이 깃들어있는 검을 만들 수 있습니다.<BR>이 검으로 적을 공격하면 부채꼴 모양으로 주변의 적을 추가적으로 공격합니다.<BR>이 검을 들고 방어자세를 취하게 되면 사용자의 주위에 소용돌이치는 바람의 방어막을 소환해서 근처의 적이나 날아오는 물체들을 모두 튕겨냅니다.<BR>바람 방어막이 소환된 동안 사용자는 천천히 하늘로 떠오릅니다.
+#
+tc.research_name.ELEMENTALSHOVEL=대지이동의 삽
+tc.research_text.ELEMENTALSHOVEL=대지의 움직임
+tc.research_page.ELEMENTALSHOVEL.1=사우뮴 삽에 어스 샤드의 마력을 더해 멈출 수 없는 성능을 보여주는 삽을 만들 수 있습니다.<BR>이 삽은 한번에 3x3공간을 파냅니다.<BR>블록의 한 면을 이 삽으로 우클릭하면 인벤토리에 충분한 양의 블럭이 있을 경우 같은 종류의 블럭을 3x3크기로 놓습니다.<BR>파는 방향이나 블럭을 설치하는 방향은 캐거나 설치할 때 누르는 방향으로 결정됩니다.
+tc.research_page.ELEMENTALSHOVEL.2=Shift키를 누른 채 이 삽을 사용하면 모든 특수한 기능들이 작동하지 않고 일반 삽처럼 쓸 수 있습니다.
+#
+tc.research_name.ELEMENTALHOE=성장의 괭이
+tc.research_text.ELEMENTALHOE=자연의 균형
+tc.research_page.ELEMENTALHOE.1=사우뮴 괭이에 오더와 엔트로피 샤드의 마력을 더해 자연의 균형을 이루는 힘이 담긴 괭이를 만들 수 있습니다.<BR>이 괭이는 한번에 3x3공간을 경작합니다.<BR>작물이나 다른 식물에 사용하면 뼛가루와 같은 효과를 볼 수 있지만 내구도가 경작할 때보다 크게 소모됩니다. 또한 뼛가루로 성장시킬 수 없는 종류의 식물도 성장시킬 수 있습니다.<BR>Shift키를 누른 채 이 괭이를 사용하면 모든 특수한 기능들이 작동하지 않고 일반 괭이처럼 쓸 수 있습니다.
+#
+tc.research_name.ALCHEMICALDUPLICATION=연금 복제
+tc.research_text.ALCHEMICALDUPLICATION=좋은 것은 많이 가질 수 없는 법
+tc.research_page.ALCHEMICALDUPLICATION.1=세상의 수많은 물질들은 이미 연금술적인 방법으로 이루어져 있습니다.<BR>그러한 물질들에는 알맞는 위상을 더 넣어줌으로써 그 양을 늘릴 수 있습니다.
+#
+tc.research_name.ALCHEMICALMANUFACTURE=연금 제작
+tc.research_text.ALCHEMICALMANUFACTURE=한 가지 방법에만 얽메이지 마세요
+tc.research_page.ALCHEMICALMANUFACTURE.1=연금술과 연금 복제 방법에 통달한 결과 무로부터 새로운 물질을 창조해낼 수 있게 되었습니다.<BR>이로써 연금술을 통해 굉장히 희귀한 물질이나 아이템을 만드는 것이 가능해질 것입니다.
+#
+tc.research_name.ENTROPICPROCESSING=노화 가속
+tc.research_text.ENTROPICPROCESSING=때로는 골동품이 필요한 경우도 있는 법
+tc.research_page.ENTROPICPROCESSING.1=물질들을 조합해서 새로운 것을 만들어내는 것도 좋지만, 가끔은 이미 만들어진 것을 그 구성요소로 분해하고 싶을 때가 있습니다. 무엇인가를 분해하는 데는 혼돈의 에너지만한 것은 아마 없을것입니다.<BR>사실 이게 그다지 좋은 방법은 아니지만, 아무 위험도 없는 것도 너무 지루하지 않을까요?
+#
+tc.research_name.TRANSIRON=철 연성
+tc.research_text.TRANSIRON=금속으로부터 철 연성하기
+tc.research_page.TRANSIRON.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 철조각을 복제하는 방법을 알아냈습니다.
+#
+tc.research_name.TRANSGOLD=금 연성
+tc.research_text.TRANSGOLD=금속으로부터 금 연성하기
+tc.research_page.TRANSGOLD.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 금조각을 복제하는 방법을 알아냈습니다.
+#
+tc.research_name.TRANSCOPPER=구리 연성
+tc.research_text.TRANSCOPPER=금속으로부터 구리 연성하기
+tc.research_page.TRANSCOPPER.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 구리조각을 복제하는 방법을 알아냈습니다.
+#
+tc.research_name.TRANSTIN=주석 연성
+tc.research_text.TRANSTIN=금속으로부터 주석 연성하기
+tc.research_page.TRANSTIN.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 주석조각을 복제하는 방법을 알아냈습니다.
+#
+tc.research_name.TRANSSILVER=은 연성
+tc.research_text.TRANSSILVER=금속으로부터 은 연성하기
+tc.research_page.TRANSSILVER.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 은조각을 복제하는 방법을 알아냈습니다.
+#
+tc.research_name.TRANSLEAD=납 연성
+tc.research_text.TRANSLEAD=금속으로부터 납 연성하기
+tc.research_page.TRANSLEAD.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 납조각을 복제하는 방법을 알아냈습니다.
+#
+tc.research_name.PUREIRON=철 정제
+tc.research_text.PUREIRON=철을 정제해서 순수한 덩어리로 만들기
+tc.research_page.PUREIRON.1=순수한 덩어리는 금속이 가장 순수한 상태로 뭉쳐있는 희귀한 현상입니다. 일반적인 철 광석을 정제하고 농축시켜서 순수한 철 덩어리로 가공하는 방법을 알아내었습니다.<BR>구울 경우 두 배의 주괴를 얻을 수 있습니다.
+#
+tc.research_name.PUREGOLD=금 정제
+tc.research_text.PUREGOLD=금을 정제해서 순수한 덩어리로 만들기
+tc.research_page.PUREGOLD.1=순수한 덩어리는 금속이 가장 순수한 상태로 뭉쳐있는 희귀한 현상입니다. 일반적인 금 광석을 정제하고 농축시켜서 순수한 금 덩어리로 가공하는 방법을 알아내었습니다.<BR>구울 경우 두 배의 주괴를 얻을 수 있습니다.
+#
+tc.research_name.PURECOPPER=구리 정제
+tc.research_text.PURECOPPER=구리를 정제해서 순수한 덩어리로 만들기
+tc.research_page.PURECOPPER.1=순수한 덩어리는 금속이 가장 순수한 상태로 뭉쳐있는 희귀한 현상입니다. 일반적인 구리 광석을 정제하고 농축시켜서 순수한 구리 덩어리로 가공하는 방법을 알아내었습니다.<BR>구울 경우 두 배의 주괴를 얻을 수 있습니다.
+#
+tc.research_name.PURETIN=주석 정제
+tc.research_text.PURETIN=주석을 정제해서 순수한 덩어리로 만들기
+tc.research_page.PURETIN.1=순수한 덩어리는 금속이 가장 순수한 상태로 뭉쳐있는 희귀한 현상입니다. 일반적인 주석 광석을 정제하고 농축시켜서 순수한 주석 덩어리로 가공하는 방법을 알아내었습니다.<BR>구울 경우 두 배의 주괴를 얻을 수 있습니다.
+#
+tc.research_name.PURESILVER=은 정제
+tc.research_text.PURESILVER=은을 정제해서 순수한 덩어리로 만들기
+tc.research_page.PURESILVER.1=순수한 덩어리는 금속이 가장 순수한 상태로 뭉쳐있는 희귀한 현상입니다. 일반적인 은 광석을 정제하고 농축시켜서 순수한 은 덩어리로 가공하는 방법을 알아내었습니다.<BR>구울 경우 두 배의 주괴를 얻을 수 있습니다.
+#
+tc.research_name.PURELEAD=납 정제
+tc.research_text.PURELEAD=납을 정제해서 순수한 덩어리로 만들기
+tc.research_page.PURELEAD.1=순수한 덩어리는 금속이 가장 순수한 상태로 뭉쳐있는 희귀한 현상입니다. 일반적인 납 광석을 정제하고 농축시켜서 순수한 납 덩어리로 가공하는 방법을 알아내었습니다.<BR>구울 경우 두 배의 주괴를 얻을 수 있습니다.
+#
+tc.research_name.TALLOW=마법 수지
+tc.research_text.TALLOW=마법으로 가공된 수지
+tc.research_page.TALLOW.1=마법적인 용도로 많이 사용되는 이 특수한 수지는 도가니에서 살점을 열처리해서 만들 수 있습니다.<BR>이 수지로는 양초를 만들 수 있으며 아케인 작업대에서 염료를 이용해 여러 색의 양초를 만들 수도 있습니다.
+#
+tc.research_name.GOLEMSTRAW=밀짚 골렘
+tc.research_text.GOLEMSTRAW=가장 단순한 마법 하인
+tc.research_page.GOLEMSTRAW.1=골렘 일꾼 제작의 비밀을 알아내었습니다. 마을에서 종종 보이는 철 골렘은 그 자체로도 쓸만하지만 내 마음대로 제어하는데는 한계가 있었습니다. 이제 이러한 문제점들을 해결할 수 있습니다.<BR>이 새로운 골렘 일꾼은 약간의 지능을 가지고 있어서 원하는 일들을 시킬 수 있습니다.<LINE>또한 §5골레멘서의 종§0과 §5골렘 코어§0 제작이 가능합니다. 이들에 대한 더 자세한 정보는 사우모노미콘 골렘학 다른 파트에 나와있습니다.
+tc.research_page.GOLEMSTRAW.2=막 만들어진 골렘도 소환 할 수는 있지만 코어가 장착되기 전까진 아무 일도 할 수 없습니다.<BR>골렘을 놓을 자리는 신중하게 결정해야 합니다 - 골렘을 특정 인벤토리와 연결시키고 싶다면 골렘과 연결시킬 방향에서 우클릭(또는 쉬프트 우클릭)으로 소환하면 됩니다.<BR>대부분의 골렘들은 소환된 장소에서 최대 16블럭 내의 다른 블럭들과 교류가 가능합니다.
+tc.research_page.GOLEMSTRAW.3=처음으로 제작해 볼 수 있는 골렘은 밀짚으로 만들어진 골렘입니다. 이 골렘은 매우 연약하지만 무게가 굉장히 가벼워 빠른 속도를 가지고 있습니다.<BR>§l§n밀짚 골렘 성능§r<BR>§l내구성:§r 매우 낮음<BR>§l힘:§r 매우 약함<BR>§l자가회복:§r 평균<BR>§l운반 한계:§r 1<BR>§l속도:§r 빠름<BR>§l가능한 업그레이드 갯수:§r 1
+#
+tc.research_name.GOLEMWOOD=나무 골렘
+tc.research_text.GOLEMWOOD=이 나무꾼 나무골렘이 나무를 얼마나 많이 벌목해야 좋은 나무꾼 나무골렘입니까?
+tc.research_page.GOLEMWOOD.1=그레이트우드 나무를 깎아서 만든 이 골렘은 밀짚 골렘보다 좀 더 나은 성능을 보여줍니다.<BR>§l§n나무 골렘 성능§r<BR>§l내구성:§r 평균 이하<BR>§l힘:§r 약함<BR>§l자가회복:§r 평균<BR>§l운반 한계:§r 4<BR>§l속도:§r 평균 이상<BR>§l가능한 업그레이드 갯수:§r 1
+#
+tc.research_name.GOLEMTALLOW=수지 골렘
+tc.research_text.GOLEMTALLOW=불에서 멀리하세요
+tc.research_page.GOLEMTALLOW.1=이 상급 골렘은 기본적인 능력은 점토 골렘과 비슷하지만 2개의 업그레이드를 장착할 수 있다는 장점이 있습니다.<BR>§l§n수지 골렘 성능§r<BR>§l내구성:§r 평균<BR>§l힘:§r 평균<BR>§l자가회복:§r 평균<BR>§l운반 한계:§r 8<BR>§l속도:§r 평균<BR>§l가능한 업그레이드 갯수:§r 2
+#
+tc.research_name.GOLEMCLAY=점토 골렘
+tc.research_text.GOLEMCLAY=힘쎄고 오래가는 -
+tc.research_page.GOLEMCLAY.1=구운 점토는 골렘 제작에 아주 적합합니다. 이 골렘은 높은 화염 저항력과 적당한 속도를 보여줍니다.<BR>§l§n점토 골렘 성능§r<BR>§l내구성:§r 평균<BR>§l힘:§r 평균<BR>§l자가회복:§r 느림<BR>§l운반 한계:§r 8<BR>§l속도:§r 평균<BR>§l가능한 업그레이드 갯수:§r 1
+#
+tc.research_name.GOLEMFLESH=살점 골렘
+tc.research_text.GOLEMFLESH=살아 움직인다!
+tc.research_page.GOLEMFLESH.1=소름끼치는 좀비 살점으로 만들어진 이 골렘은 몇가지 장점이 있습니다. 좀비의 살로 만들어졌기 때문에 회복속도가 매우 빠르며 업그레이드를 2개까지 장착 가능합니다.<BR>§l§n살점 골렘 성능§r<BR>§l내구성:§r 낮음<BR>§l힘:§r 약함<BR>§l자가회복:§r 매우 빠름<BR>§l운반 한계:§r 4<BR>§l속도:§r 평균 이상<BR>§l가능한 업그레이드 갯수:§r 2
+#
+tc.research_name.GOLEMSTONE=스톤 골렘
+tc.research_text.GOLEMSTONE=느리지만 강력한 - 
+tc.research_page.GOLEMSTONE.1=스톤 골렘은 꽤나 튼튼하고 힘 쓰는 일에도 적합하지만 속도가 대부분의 다른 골렘들에 비해 느립니다. 또한 무게 때문에 물에 가라앉습니다.<BR>§l§n스톤 골렘 성능§r<BR>§l내구성:§r 평균 이상<BR>§l힘:§r 평균 이상<BR>§l자가회복:§r 느림<BR>§l운반 한계:§r 16<BR>§l속도:§r 느림<BR>§l가능한 업그레이드 갯수:§r 1
+#
+tc.research_name.GOLEMIRON=아이언 골렘
+tc.research_text.GOLEMIRON=작은 마을 골렘
+tc.research_page.GOLEMIRON.1=아이언 골렘은 굉장히 튼튼하며 아주 힘든 일 또한 척척 해냅니다. 하지만 무게가 무겁기 때문에 속도가 느리며, 물에 가라앉습니다.<BR>§l§n아이언 골렘 성능§r<BR>§l내구성:§r 높음<BR>§l힘:§r 강력함<BR>§l자가회복:§r 매우 느림<BR>§l운반 한계:§r 32<BR>§l속도:§r 매우 느림<BR>§l가능한 업그레이드 갯수:§r 1
+#
+tc.research_name.GOLEMTHAUMIUM=사우뮴 골렘
+tc.research_text.GOLEMTHAUMIUM=신비한 하인
+tc.research_page.GOLEMTHAUMIUM.1=사우뮴 골렘은 아이언 골렘보다 약간 더 나은 성능을 보여주며 2개의 업그레이드를 장착 가능합니다. 또한 마법 데미지에 약간의 저항력이 있으며, 무게 때문에 물에 가라앉습니다.<BR>§l§n사우뮴 골렘 성능§r<BR>§l내구성:§r 매우 높음<BR>§l힘:§r 강력함<BR>§l자가회복:§r 느림<BR>§l운반 한계:§r 32<BR>§l속도:§r 느림<BR>§l가능한 업그레이드 갯수:§r 2
+#
+tc.research_name.GOLEMBELL=골레맨서의 종
+tc.research_text.GOLEMBELL=집중!
+tc.research_page.GOLEMBELL.1=골렘은 말로 된 명령을 잘 알아듣지 못하기로 악명 높기 때문에 대신 이 종을 사용해서 명령을 내릴 수 있습니다.<BR>명령을 내릴 골렘을 이 종으로 우클릭하면 골렘이 처음 소환되어 연결된 장소에 빛나는 원형 표식이 나타납니다.<BR> 그 다음 어떤 블록이던 그 골렘이 교류하기를 원한다면 해당 블록의 원하는 방향을 우클릭해 지정할 수 있습니다. 이미 지정된 곳을 다시 우클릭하면 지정이 해제되거나, 여러 색의 표식과 교류가 가능한 골렘이라면 표식의 색이 바뀝니다.
+tc.research_page.GOLEMBELL.2=<BR>표식을 Shift 우클릭하면 해당 표식을 제거하며 F키를 누를 경우 모든 표식을 제거합니다.<LINE>이 종으로 골렘을 좌클릭 할 경우 코어와 업그레이드가 장착된 채로 아이템화 됩니다. Shift 좌클릭의 경우에는 장착된 업그레이드와 코어가 모두 분리되어 따로 아이템화됩니다. 하지만 이 과정에서 골렘 업그레이드는 소실될 수도 있습니다. 
+#
+tc.research_name.COREGATHER=골렘 코어: 줍기
+tc.research_text.COREGATHER=떨어진 것을 줍습니다
+tc.research_page.COREGATHER.1=골렘 코어는 장착된 골렘에게 할 일을 부여합니다 - 코어가 없이는 골렘은 작동하지 않습니다.<BR>가장 첫번째로 제작할 수 있는 코어는 §5줍기§0 코어 입니다.<BR>이 코어가 장착된 골렘은 16블록 이내의 떨어져있는 아이템을 주워서 연결된 인벤토리에 집어넣습니다. 만약 인벤토리와 연결되어있지 않다면 주운 아이템을 들고 있게 됩니다.<BR>골렘을 우클릭해서 특정 아이템만 줍도록 설정할 수 있습니다.
+tc.research_page.COREGATHER.2=골렘 코어로 설치된 골렘을 우클릭해서 코어를 장착시킬 수 있습니다. 
+#
+tc.research_name.COREEMPTY=골렘 코어: 비우기
+tc.research_text.COREEMPTY=물건들을 다른곳으로 옮깁니다
+tc.research_page.COREEMPTY.1=이 코어가 장착된 골렘은 연결된 인벤토리의 아이템을 꺼내서 지정된 장소로 가져갑니다. 만약 인벤토리가 있는 블럭을 지정해 주었다면 아이템을 그 인벤토리에 옮겨넣습니다.<BR>골렘을 우클릭해 특정 아이템만 꺼내가도록 설정할 수 있습니다.
+#
+tc.research_name.COREUSE=골렘 코어: 사용
+tc.research_text.COREUSE=클릭 클릭
+tc.research_page.COREUSE.1=마치 비우기 코어처럼 이 코어가 장착된 골렘은 연결된 인벤토리에서 아이템을 꺼냅니다. 하지만 이 코어가 장착된 골렘은 그 아이템을 지정된 인벤토리에 넣거나 땅바닥에 버리는 대신 지정된 장소나 블럭 위에 사용합니다.<BR>골렘이 아이템을 사용하면 플레이어가 마치 우클릭을 한 것과 같은 효과가 발생합니다.<BR>골렘을 우클릭해서 특정 아이템만 꺼내 사용하도록 설정할 수 있습니다.
+tc.research_page.COREUSE.2=만약 골렘이 인벤토리에 연결되어있지 않을 경우 빈 손으로 지정해준 동작을 수행하려 시도합니다. 다시 말해, 선택한 블럭(혹은 그와 비슷한 것)클릭 합니다.<LINE>골렘이 '클릭'을 어떻게 할지도 지정해 줄 수있습니다. 여기에는 단순히 우클릭, 좌클릭만이 아니라 쉬프트를 누른 채로 클릭하는 등의 동작도 포함됩니다.<BR>특정 블럭이 아닌 그냥 허공에 클릭하도록 지정할 수도 있습니다.
+tc.research_page.COREUSE.3=      §nAir Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>이 업그레이드가 적용된 사용 코어 골렘은 '클릭'을 좀 더 빠른 속도로 수행합니다.
+#
+tc.research_name.COREFILL=골렘 코어: 채우기
+tc.research_text.COREFILL=인벤토리를 항상 채워둡니다
+tc.research_page.COREFILL.1=이 코어가 장착된 골렘은 지정된 인벤토리에서 특정 아이템을 찾아서 해당 골렘이 연결된 인벤토리에 채워넣습니다.<BR>두가지 옵션중 하나를 선택할 수 있습니다:<BR>§5Precise Amount§0는 채워둘 아이템의 수량이 플레이어가 설정해둔 양과 같아질 때까지 아이템을 채워넣습니다.<BR>§5Any Amount§0모드에서는 연결된 인벤토리에 빈 공간이 있을 경우 지정한 아이템을 계속해서 채워넣습니다.
+#
+tc.research_name.COREHARVEST=골렘 코어: 수확
+tc.research_text.COREHARVEST=골렘 농부
+tc.research_page.COREHARVEST.1=이 코어가 장착된 골렘은 인벤토리에 연결시켜서 소환할 필요가 없습니다. 수확 코어 골렘은 좁은 반경 내의 다 자란 작물을 수확합니다. 수확 코어 골렘은 수확된 작물을 모아오지는 않기 때문에 직접 줍거나 다른 방법을 이용해야 합니다.<BR>골렘은 수확 후 씨앗을 다시 심을 정도로 똑똑하진 않습니다. 하지만 후에 약간의 노력으로 이러한 문제점을 보완 할 수 있습니다.
+tc.research_page.COREHARVEST.2=         §n오더 업그레이드§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>이 업그레이드가 장착된 수확 코어 골렘은 수확한 작물의 씨앗을 다시 심습니다. 수확된 작물이 적당한 씨앗을 떨어뜨리지 않는다면 씨앗을 다시 심을 수 없습니다.
+#
+tc.research_name.CORELUMBER=골렘 코어: 벌목
+tc.research_text.CORELUMBER=골렘 벌목꾼
+tc.research_page.CORELUMBER.1=수확 코어 골렘처럼 벌목 코어 골렘은 아무데나 소환이 가능합니다. 이 코어가 장착된 골렘은 주변의 나무를 벌목하며, 힘이 쎈 골렘일수록 벌목 속도가 빠릅니다.<BR>벌목 코어 골렘은 벌목한 나무 묘목을 다시 심지 않습니다.
+#
+tc.research_name.COREGUARD=골렘 코어: 보호
+tc.research_text.COREGUARD=소중한 것들을 보호합니다
+tc.research_page.COREGUARD.1=이 코어가 장착된 골렘은 마치 경호원처럼 주변의 적대적인 몬스터를 공격합니다.<BR>약간의 조작을 통해 공격 대상을 지정해 줄 수도 있지만 지금 당장은 크리퍼를 제외한 다른 적대적인 몬스터만을 공격합니다.
+tc.research_page.COREGUARD.2=         §n오더 업그레이드§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>이 업그레이드가 장착된 보호 코어 골렘은 공격 대상을 지정할 수 있습니다. 또한 적대적인 몬스터 뿐만 아니라 다른 대상도 공격대상으로 지정할 수 있습니다.
+#
+tc.research_name.COREBUTCHER=골렘 코어: 도살
+tc.research_text.COREBUTCHER=피투성이 팔뚝
+tc.research_page.COREBUTCHER.1=이 코어는 일반적인 보호 코어의 기능을 좀 다듬은 것입니다.<BR>이 코어가 장착된 골렘은 동물만을 공격하지만, 적당한 지능이 부여되어 있어 다 자란 동물만 잡으며 교배를 위해 항상 두 마리는 남겨놓습니다.
+#
+tc.research_name.CORELIQUID=골렘 코어: 액체 채우기
+tc.research_text.CORELIQUID=탱크에 항상 액체를 채워둡니다
+tc.research_page.CORELIQUID.1=이 코어가 장착된 골렘은 연결된 블럭의 액체 탱크에 적절한 액체를 항상 채워둡니다.<BR>골렘을 우클릭해 원하는 액체가 담긴 용기(물 양동이 등)를 지정해 줘서 특정 액체만 채우도록 할 수 도 있습니다.<BR>골렘은 한번에 100mb의 액체밖에 옮길 수 없지만 액체 블럭을 직접 퍼서 옮기도록 지정할 경우 한번에 한 블럭(1000mb) 전체를 옮깁니다.
+#
+tc.research_name.CORESORTING=골렘 코어: 분류
+tc.research_text.CORESORTING=정리정돈
+tc.research_page.CORESORTING.1=이 코어가 장착된 골렘은 비우기 코어 골렘과 유사하게 행동하지만, 한가지 큰 차이점이 있습니다. 분류 코어 골렘은 비우려 하는 인벤토리에서 자신이 아이템을 옮겨두는 인벤토리에 이미 있는 아이템만을 꺼내갑니다. 이 기능은 잡다하게 섞여있는 아이템들을 분류하는 데 매우 편리합니다.<BR>비우기 코어에 있는 꺼내갈 아이템을 추가, 혹은 제외하는 기능은 이 코어에는 없습니다.
+#
+tc.research_name.COREFISHING=골렘 코어: 낚시
+tc.research_text.COREFISHING=골렘계의 강태공
+tc.research_page.COREFISHING.1=이 코어는...골렘에게 낚시를 시킵니다!<BR>골렘을 깊고 넓은 물 속에 두면 알아서 물고기를 낚아올립니다.<BR>물고기를 잡는데 드는 시간은 골렘의 힘에 따라 달라집니다.<BR>
+tc.research_page.COREFISHING.2=         §n에어 업그레이드§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>이 업그레이드가 장착된 낚시 코어 골렘은 가끔 두 가지 이상을 낚아올리는 경우가 있습니다.
+tc.research_page.COREFISHING.3=        §n파이어 업그레이드§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>이 업그레이드가 장착된 낚시 코어 골렘은 잡아올린 물고기를 스스로 굽습니다.
+tc.research_page.COREFISHING.4=         §n오더 업그레이드§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>오더 업그레이드가 장착된 낚시 코어 골렘은 물고기를 낚아올릴 확률이 높습니다.
+tc.research_page.COREFISHING.5=       §n엔트로피 업그레이드§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>엔트로피 업그레이드가 장착된 낚시 코어 골렘은 물고기가 아닌 것을 낚을 확률이 낮습니다.
+#
+tc.research_name.COREALCHEMY=골렘 코어: 연금술
+tc.research_text.COREALCHEMY=에센시아를 옮깁니다
+tc.research_page.COREALCHEMY.1=이 코어는 액체 채우기 코어를 좀 더 특별한 쪽으로 최적화 시킨 코어로, 에센시아를 옮기기 위해 특별히 만들어졌습니다.<BR>연성 화로나 증류기에 연결된 연금술 코어 골렘은 증류기에 담긴 에센시아 전부를 지정된 단지로 옮깁니다. 모든 단지에 표식을 지정해 줄 필요는 없습니다. 이 골렘은 지정된 단지 주변에 붙어있는 모든 단지에 차례대로 에센시아를 채워넣습니다.<BR>연금술 코어 골렘은 지정된 단지가 다 찼을 경우 그 단지와 가장 가까운 단지부터 가득 채워 나갑니다.
+tc.research_page.COREALCHEMY.2=또한 이 코어가 장착된 골렘은 에센시아가 들어있는 모든 종류의 블럭 사이에서 에센시아를 옮길 수 있습니다.
+#
+tc.research_name.UPGRADEAIR=골렘 업그레이드: 에어
+tc.research_text.UPGRADEAIR=더 빠른 골렘
+tc.research_page.UPGRADEAIR.1=이 업그레이드가 장착된 골렘은 이동속도가 빨라지며 범위공격 속도가 증가합니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
+#
+tc.research_name.UPGRADEEARTH=골렘 업그레이드: 어스
+tc.research_text.UPGRADEEARTH=더 강한 골렘
+tc.research_page.UPGRADEEARTH.1=이 업그레이드는 골렘이 한 번에 옮길 수 있는 아이템의 수량을 늘려줍니다. 각각의 업그레이드는 운반 한계를 4에서 최대 16까지(골렘의 기본 운반 능력에 따라 달라짐) 늘려줍니다.<BR>또한 물리 공격력을 증가시켜주고 작물 수확이나 벌목 등 일 처리 속도를 빠르게 해 줍니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
+#
+tc.research_name.UPGRADEFIRE=골렘 업그레이드: 파이어
+tc.research_text.UPGRADEFIRE=더 뜨거운 골렘
+tc.research_page.UPGRADEFIRE.1=이 업그레이드는 골렘의 아이템 지정 슬롯을 2칸 더 늘려주어 더 다양한 종류의 아이템을 분류/필터링 할 수 있게 해 줍니다.<BR>또한 골렘의 타격공격에 맞은 대상에 불이 붙습니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
+#
+tc.research_name.UPGRADEWATER=골렘 업그레이드: 워터
+tc.research_text.UPGRADEWATER=더 예민한 골렘
+tc.research_page.UPGRADEWATER.1=이 업그레이드는 골렘의 작업 반경을 늘려줍니다.<BR>또한 골렘의 범위공격의 정확도를 향상시켜 줍니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
+#
+tc.research_name.UPGRADEORDER=골렘 업그레이드: 오더
+tc.research_text.UPGRADEORDER=더 논리적인 골렘
+tc.research_page.UPGRADEORDER.1=이 업그레이드는 골렘이 여러 색 표식을 사용할 수 있도록 해줍니다. 이것은 골렘이 어디서 무엇을 할지 설정하는것을 매우 쉽게 해줍니다.<BR>또한 이 업그레이드는 특정 골렘 코어들의 능률을 올려주는 추가 기능들을 사용할 수 있도록 해 줍니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
+#
+tc.research_name.UPGRADEENTROPY=골렘 업그레이드: 엔트로피
+tc.research_text.UPGRADEENTROPY=더 성급한 골렘
+tc.research_page.UPGRADEENTROPY.1=이 업그레이드가 장착된 골렘은 데미지를 입었을 경우 바로 그 데미지를 되돌려줍니다.<BR>이 업그레이드는 골렘의 식별력을 약간 떨어뜨리는데, 이는 특정 아이템을 걸러낼 때(예를 들어 구리 주괴) 지정된 구리 주괴 뿐만 아니라 다른 '구리 주괴'로 취급되는 모든 아이템을 걸러내게 됩니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
+#
+tc.research_name.TINYHAT=작은 모자
+tc.research_text.TINYHAT=자외선 가리개
+tc.research_page.TINYHAT.1=이 작은 모자는 어느 골렘에게나 잘 어울립니다. 이 모자는 세련될 뿐만 아니라 장착한 골렘의 체력과 회복력을 증진시켜줍니다.
+#
+tc.research_name.TINYFEZ=작은 터키모자
+tc.research_text.TINYFEZ=...역시 멋져
+tc.research_page.TINYFEZ.1=이 독특한 모자를 착용한 골렘을 활력으로 가득 차 좀 더 빠르게 자가회복을 할 수 있게 됩니다.
+#
+tc.research_name.TINYBOWTIE=작은 나비넥타이
+tc.research_text.TINYBOWTIE=...멋지군
+tc.research_page.TINYBOWTIE.1=골렘이 추가적인 힘을 얻어 더 빠르게 돌아다닐 수 있게 해 주는 이 넥타이는 자주 움직어야 하는 골렘에겐 필수품입니다.
+#
+tc.research_name.TINYGLASSES=작은 안경
+tc.research_text.TINYGLASSES=주인을 더 잘 알아보기 위해서
+tc.research_page.TINYGLASSES.1=골렘은 시력이 매우 안좋기 때문에 이 안경을 씌워서 약점을 보완해 줍시다.
+#
+tc.research_name.TINYDART=골렘 다트 발사기
+tc.research_text.TINYDART=작은 고추가 매운법
+tc.research_page.TINYDART.1=이 다트 발사기는 전투용 골렘에만 장착할 수 있습니다. 골렘의 근접공격보다는 약하지만, 대신 골렘이 원거리 공격을 할 수 있도록 해 줍니다.
+#
+tc.research_name.TINYVISOR=골렘 바이저
+tc.research_text.TINYVISOR=협조해 주셔서 감사합니다
+tc.research_page.TINYVISOR.1=이 금속 바이저는 골렘의 방어력을 약간 상승시켜줍니다. 또한 바이저를 장착한 골렘이 죽인 대상은 경험치를 드롭합니다.
+#
+tc.research_name.TINYARMOR=골렘 철 갑옷
+tc.research_text.TINYARMOR=깨뜨리기엔 너무 단단한 호두
+tc.research_page.TINYARMOR.1=이 갑옷은 골렘의 물리공격에 대한 방어력을 강화시켜줍니다. 하지만 보호기능이 강력한 대신 무게가 꽤 나가기 때문에 골렘의 이동속도가 눈에띄게 느려집니다.
+#
+tc.research_name.TINYHAMMER=골렘 메이스
+tc.research_text.TINYHAMMER=깽판 칠 시간이다!
+tc.research_page.TINYHAMMER.1=이 무기는 골렘의 근접공격력을 강화시켜줍니다.
+#
+tc.research_name.DISTILESSENTIA=에센시아 증류
+tc.research_text.DISTILESSENTIA=에센시아 추출하기
+tc.research_page.DISTILESSENTIA.1=종종 여러 종류의 위상들(완드에 담겨진 태초의 위상 뿐만 아니라 복합위상 또한)이 많이 필요한 경우가 있습니다.<BR>그렇기 때문에 기본적인 연금술 지식을 이용해 물체를 분해해서 에센시아의 형태로 변환시키는 방법이 발명되었습니다.<BR>물체를 에센시아로 변환하기 위해서는 우선 §l연성 화로§r가 필요합니다. 연성 화로는 석탄을 태워서 열을 발생시킨다는 점에서는 일반 화로와 같지만 이 특수한 화로는 금속을 제련하는 대신에 물체를 분해해서 가공되지 않은 에센시아 현탁액으로 만듭니다.
+tc.research_page.DISTILESSENTIA.2=이 에센시아 현탁액은 §l아케인 증류기§r를 통해 증류시켜야 합니다.<BR>증류기는 연금 화로 위에 설치해야만 작동합니다. 연금 화로에서 만들어진 에센시아 현탁액은 증류기로 조금씩 흘러들어가 각각의 위상 에센시아로 분리됩니다.<BR>연금 화로가 알루멘텀을 연료로 쓰고 있다면 증류를 매우 빠르게 할 수 있습니다.<BR>한 대의 연금 화로 위로 증류기를 최대 5개까지 달 수 있습니다.<BR>증류된 에센시아는 유리병으로 증류기를 우클릭해 추출할 수 있습니다.
+#
+tc.research_name.JARLABEL=단지와 단지 라벨
+tc.research_text.JARLABEL=에센시아의 저장과 분류
+tc.research_page.JARLABEL.1=에센시아는 §l단지§r 안에 저장됩니다.<BR>단지는 땅에 놓을 수 있고 에센시아를 아주 오랫동안 보관할 수 있습니다. 또한 단지의 뚜껑에 부여된 마법은 단지에 에센시아를 넣거나 추출하는 작업을 아주 쉽게 만들어줍니다.<BR>증류기의 주둥이 아래에 단지를 놓으면 자동으로 증류기의 에센시아가 단지로 옮겨갑니다. 유리병으로 단지를 채우거나 비울수도 있습니다.
+tc.research_page.JARLABEL.2=빈 손으로 증류기나 단지를 Shift-클릭해서 내용물을 비울 수 있습니다.<BR>단지에 에센시아가 들어있다면 단지에 §l단지 라벨§r을 붙일 수 있습니다.<BR>이 라벨은 단지를 '잠그기' 때문에 라벨과 같은 종류의 에센시아가 아닌 다른 모든 에센시아는 받아들이지 않습니다.<BR>빈 손으로 라벨이 붙은 면을 Shift 클릭해 라벨을 떼어낼 수 있습니다. 다른 면을 Shift 클릭 할 경우 단지의 내용물이 비워져버리니 주의하세요.
+tc.research_page.JARLABEL.3=라벨을 에센시아가 담긴 유리병과 조합해서 원하는 라벨을 미리 만들어 두었다가 빈 단지에 붙일 수도 있습니다. 조합에 사용되는 에센시아 유리병은 되돌려받습니다.<BR>이렇게 만들어진 라벨을 이미 다른 에센시아가 들어있는 단지에 붙이면 라벨이 해당 단지에 담겨있는 에센시아 라벨로 바뀝니다.<LINE>조합대에서 라벨만 조합해 다시 빈 라벨로 만들 수 있습니다.
+#
+tc.research_name.INFERNALFURNACE=지옥불 화로
+tc.research_text.INFERNALFURNACE=이 정도면 충분히 뜨거운가요?
+tc.research_page.INFERNALFURNACE.1=순수한 §cIgnis§0 에센시아를 이용하여 흑요석과 지옥벽돌로 이루어진 효율 좋고 연료가 필요없는 화로를 만들었습니다. 효율이 너무나도 뛰어나서 때때로 부산물을 생성해냅니다.<BR>기본적으로는 연료가 필요 없지만 §cIgnis§0 에센시아나 비스를 지속적으로 공급해주지 않으면 굉장히 느린 속도로 굽습니다. 에센시아나 비스는 이미 알고 있는 지식, 혹은 앞으로 알게 될 지식을 이용해서 공급할 수 있습니다..
+tc.research_page.INFERNALFURNACE.2=때때로 플럭스가 방출되는 경우가 있습니다.<BR>구울 아이템은 화로 위의 구멍으로 던져 넣어야 하며 구워진 아이템은 화로 앞으로 튀어나옵니다.
+#
+tc.research_name.BELLOWS=아케인 풀무
+tc.research_text.BELLOWS=화염 축적하기
+tc.research_page.BELLOWS.1=아케인 풀무는 평범한 풀무와 그 용도가 똑같지만 이 특별한 풀무는 스스로 펌프질을 하여 공기를 내뿜습니다.<BR>지옥불 화로에 붙일 경우 쓸만한 결과를 보여줍니다. 이 풀무의 공기는 불꽃을 키워서 굽는 속도를 빠르게 해줄 뿐만 아니라 불꽃을 좀 더 순수하게 타오르도록 해주어 추가적인 부산물의 생성 확률을 높여줍니다.
+tc.research_page.BELLOWS.2=또한 이 풀무는 일반 화로나 연성 화로에 붙여서 속도를 높일수도 있습니다.<BR>도가니에 붙여서 물이 끓는 시간을 단축시키는 것도 가능합니다.<BR>풀무는 레드스톤 신호를 줄 경우 작동을 멈춥니다.<BR>다른 용도들도 많으니 직접 찾아보시기 바랍니다. 
+#
+tc.research_name.ARCANESTONE=아케인 스톤
+tc.research_text.ARCANESTONE=마법으로 강화된 건축 재료
+tc.research_page.ARCANESTONE.1=아케인 스톤은 복잡한 마법건축물들의 기본 재료입니다. 이 돌은 평범한 돌을 불의 원소로 그을린 뒤 땅의 원소로 강화한 것입니다.
+#
+tc.research_name.INFUSION=인퓨전
+tc.research_text.INFUSION=마법 융합
+tc.research_page.INFUSION.1=아케인 제작과 연금술로는 부족합니다. 진정으로 강력한 마법을 행하기 위해서는 다른 방식의 제작이 필요합니다.<BR>인퓨전 제작은 하나의 물체에 다른 물체들의 특성과 마법 에너지를 주입하는 작업입니다. 예를 들어 평범한 돌에 §6Aer§0 비스와 깃털의 특성을 주입함으로써 매우 가벼운 돌을 만드는 것입니다.<BR>하지만 마공학은 그리 만만하지 않습니다. 인퓨전 제작에 필요한 장치만 해도 여러 가지가 필요한데, 바로 루닉 매트릭스, 아케인 주각, 그리고 필요한 충분한 에센시아가 충분히 들어있는 단지입니다.
+tc.research_page.INFUSION.2=인퓨전 제단이라 부르는 구조물에 마지막으로 루닉 매트릭스가 알맞게 자리잡으면, 이제 제작을 시작할 수 있습니다.<BR>루닉 매트릭스 바로 아래의 중심 주각은 인퓨전할 대상물을 놓는 자리입니다. 또한 제단 주변에 대상물에 주입시킬 아이템들을 놓을 주각이 몇 개 더 필요합니다. 마지막으로 제작에 필요한 에센시아를 담고 있는 단지나 비슷한 종류의 다른 용기들을 주변에 배치해야 합니다.<BR>필요한 모든 것이 갖춰지면 완드로 루닉 매트릭스를 우클릭해 인퓨전을 시작할 수 있습니다.<BR>인퓨전의 첫번째 단계에선 주변의 단지로부터 에센시아가 추출됩니다.
+tc.research_page.INFUSION.3=만약 제작에 필요한 에센시아가 부족하다면 제작은 그 단계에서 멈춰있게 되며, 뒤에서 설명하겠지만 이것은 전혀 바람직하지 않은 현상입니다.<BR>필요한 에센시아가 대상물에 전부 주입이 되면 그 다음으로 주변의 다른 주각에 놓여진 재료들이 분해되어 대상물에 주입됩니다. 이 모든 과정이 끝나야만 제작을 완료할 수 있습니다.<LINE>인퓨전 제작에는 위험성이 있습니다. 작업 전체가 하나의 물체에 엄청난 양의 마법 에너지를 주입하는 것이기 때문에 예측 할 수 없는 일이 종종 벌어집니다.
+tc.research_page.INFUSION.4=일반적으로 재료아이템중 하나가 주각에서 떨어지거나 플럭스가 생성되지만 아직 알려지지 않은 재앙과도 같은 일이 벌어질 수 도 있습니다.<BR>에센시아 부족이나 떨어진 아이템으로 인해 제작 시간이 길어질수록 무언가 안좋은 일이 벌어질 확률이 커집니다.<BR>이런 현상들은 다양한 방법으로 줄일 수 있습니다. 우선 인퓨전 제단을 최대한 대칭이 되도록 만들어야 합니다. 주각의 위치에 주의하세요. 또한 주각에 재료 아이템을 올려놓을 때도 최대한 대칭이 되도록 하는 것이 좋습니다. 마지막으로 초자연적인 물건들, 이를테면 양초나 해골, 크리스탈 등을 제단 주위에 대칭구조로  
+tc.research_page.INFUSION.5=놓아 둘 수도 있습니다. 이것들은 불안정성을 낮춰주는 효과가 있습니다.<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
+#
+tc.research_name.JARBRAIN=단지 안의 뇌
+tc.research_text.JARBRAIN=악의로 가득찬
+tc.research_page.JARBRAIN.1=- 썩은 좀비 뇌 하나를 단지 안에 던져넣으세요.<BR>- 물을 넣고 거미 눈을 약간 첨가합니다.<BR>- 사악한 생각을 하며 완드로 휘저어 주세요.<BR>레시피를 정확히 따랐다면 악의로 가득 찬, 부분적으로 살아있는 좀비 뇌를 얻을 수 있습니다.<BR>이 뇌는 좀비였을 적의 탐욕을 지니고 있습니다. 이제 다른 뇌는 먹을 수 없게 됐지만, 그 대신 주변에 떨어진 경험치를 흡수합니다. 뇌가 부당하게 가져간 경험치는 단지를 흔들어서 다시 뺏어 올 수 있습니다.<BR>단지가 가득 찼을 경우 입자 효과가 표시됩니다.
+#
+tc.research_name.HOVERHARNESS=사우모스태틱 하네스
+tc.research_text.HOVERHARNESS=마치 새처럼
+tc.research_page.HOVERHARNESS.1=마침내 비행의 비밀을 알아냈습니다. 사우모스태틱 에너지를 사용해 마력장 안을 중력에 구애받지 않고 비행할 수 있는 이 장치에는 양자역학의 원리도 약간 적용되었습니다.<BR>하네스는 작동하는데 연료가 필요합니다. 이 장치는 연료로 순수한 Potentia 에센시아를 사용합니다. 하네스를 손에 든 채로 우클릭해 뜨는 창에 Potentia 단지를 넣어주면 됩니다.<BR>장착 후 F키를 눌러서 하네스를 활성화/비활성화할 수 있습니다.
+tc.research_page.HOVERHARNESS.2=활성화 된 동안에는 지속적으로 Potentia를 소모합니다.<BR>신속 인챈트를 부여해서 비행 이동 속도를 빠르게 할 수 있습니다.
+#
+tc.research_name.HOVERGIRDLE=사우모스태틱 허리띠
+tc.research_text.HOVERGIRDLE=마치 비행기처럼
+tc.research_page.HOVERGIRDLE.1=이 허리띠는 사우모스태틱 하네스와 같이 사용하도록 특별히 고안된 허리띠입니다. 이 허리띠 자체에는 낙하 데미지를 어느정도 무마해 주는 수준의 부양력밖에 없습니다.<BR>하지만 하네스와 같이 착용하였을 경우는 이야기가 좀 달라지는데, 약간의 연료를 더 소모하는 것으로 하네스의 속도를 큰 폭으로 끌어올려주게 됩니다.
+#
+tc.research_name.ADVANCEDGOLEM=강화 골렘
+tc.research_text.ADVANCEDGOLEM=이건 생각을 좀 해봐야 겠는데...
+tc.research_page.ADVANCEDGOLEM.1=골렘을 조금씩이지만 확실하게 개선하는 방법을 찾았습니다.<BR>우선, 장착 가능한 업그레이드의 갯수를 한 개 늘려줍니다. 하지만 같은 종류의 업그레이드는 최대 두 개 까지만 장착 가능합니다.<BR>둘째로, 움직이는 속도가 좀 더 빨라집니다.<BR>마지막으로 골렘의 시야가 좀 더 넓어집니다.<BR>골렘의 눈이 악의로 빛난 듯 한 느낌은 아마 착각...일 겁니다.  
+#
+tc.research_name.ARCANEBORE=아케인 채굴기
+tc.research_text.ARCANEBORE=진화하는 채굴방법
+tc.research_page.ARCANEBORE.1=채굴 포커스의 범위와 파워를 확장시켜주는 장치를 제작할 수 있게 되었습니다. 무엇보다도, 이 장치는 사람의 관리 없이도 채굴을 합니다. 특수한 받침대 위에 올려놓고 완드로 채굴 방향을 설정한 뒤 레드스톤 신호를 주면 채굴을 시작합니다.<BR>아케인 채굴기는 작동에 두 가지를 필요로 합니다. 첫 번째는 왼쪽 슬롯에 장착될 채굴 포커스입니다. 포커스에 적용된 인챈트는 아케인 채굴기의 성능에도 영향을 줍니다. 
+tc.research_page.ARCANEBORE.2=두 번째로 오른쪽 칸에 장착할 곡괭이가 필요합니다. 곡괭이의 재질도 약간은 영향을 주지만, 채굴기를 오래 가동시키기 위해선 무엇보다도 곡괭이의 내구도가 중요합니다. 포커스와 마찬가지로 곡괭이에 적용된 인챈트는 채굴기의 성능에 영향을 줍니다.<BR>아케인 채굴기는 채굴기 받침대 위쪽이나 아래쪽에만 설치가 가능합니다. 채굴된 모든 아이템들은 받침대에 나 있는 구멍 방향으로 배출됩니다. <BR>만약 붙어있는 인벤토리가 있다면 그곳으로 아이템을 넣습니다. 아이템 배출 방향은 완드로 설정할 수 있습니다.
+tc.research_page.ARCANEBORE.3=채굴기에 §8Perditio§0 에센시아나 비스를 파이프, 혹은 비스 중계기를 이용해 공급해 주면 채굴 속도를 훨씬 빠르게 가속시킬 수 있습니다.<BR>20블럭을 채굴할 때 마다 §8Perditio§0를 1씩 소모합니다. 혹은, 1블럭 채굴당 5CV를 소모해서 속도를 높일 수 있으며 틱당 최대 100CV까지 받아들일 수 있습니다.
+#
+tc.research_name.LEVITATOR=아케인 부양장치
+tc.research_text.LEVITATOR=비행을 위한 차선책
+tc.research_page.LEVITATOR.1=진짜 비행은 아니지만, 아케인 부양장치는 훌륭한 차선책입니다.<BR>부양장치 위에 놓여진 모든 아이템/생물체는 최대 10블럭 높이까지 들어올려집니다. Shift로 수그릴 경우 천천히 하강합니다.<BR>부양장치를 겹쳐놓으면 부양력이 중첩됩니다. 3개를 겹쳤을 경우 최대 30블럭 높이까지 들어올려집니다.<BR>레드스톤 신호를 주어서 부양장치를 끌 수 있습니다.  
+#
+tc.research_name.ARCANEEAR=아케인 이어
+tc.research_text.ARCANEEAR=쉿, 뭔가 들리니?
+tc.research_page.ARCANEEAR.1=아케인 귀는 주변의 노트블럭에서 나오는 소리를 감지할 수 있습니다. 만약 소리가 감지된다면 레드스톤 신호를 짧게 방출합니다.<BR>아케인 귀를 특정 블럭 위에 설치함으로써 특정 소리만 감지할 수 있도록 설정 할 수 있습니다.
+#
+tc.research_name.MIRROR=거울 마술
+tc.research_text.MIRROR=여기에 있는게, 저기에도 있고
+tc.research_page.MIRROR.1=한 쌍의 거울에 마법을 부여해서 원거리 연결통로로 이용 할 수 있습니다. 이 거울로 들어간 모든 것은 거울 속 세계를 지나 반대편 거울로 나오게 되며, 심지어는 차원간 이동도 가능합니다.<BR>하지만 이 거울 속 세계의 환경은 살아있는 생명체는 견딜 수 없기에, 살아있는 생명체를 거울을 통해 이동시키기란 불가능합니다.<BR>두 개의 거울을 연결시키기 위해서는 일단 첫 번째 거울을 원하는 곳에 둔 뒤 두 번째 거울로 첫 번째 거울을 우클릭하면 됩니다.
+tc.research_page.MIRROR.2=그 다음 두 번째 거울을 역시 원하는 곳에 설치하면 이제 한쪽 거울에 던져진 아이템이 반대쪽 거울로 나오게 됩니다.<BR>거울은 서로 한 쌍의 거울끼리만 연결되며 다른 거울과 연결시킬 수 없습니다. 거울을 떼어내도 마지막으로 연결되었던 거울의 정보는 남아있기 때문에 다시 연결시킬 필요 없이 바로 다시 설치해 쓸 수 있습니다. 거울을 떼어내서 다른 거울과 짝을 이루게 할 수도 있습니다.
+tc.research_page.MIRROR.3=거울을 통해 아이템을 이동시킬 때마다 거울에 무리가 가게 되며, 이 경우 거울은 스스로 반대편으로 아이템을 내보내는 속도를 줄여서 자기 자신이 깨지는 것을 방지합니다. 불안정성이 증가할수록 아이템 전송 속도가 느려집니다.<BR>이 불안정성은 시간이 지나면 점점 줄어들지만 §7Ordo§0 비스를 중계기를 통해 거울에 직접 공급해서 인위적으로 낮춰 줄 수도 있습니다.
+#
+tc.research_name.MIRRORHAND=마법 손거울
+tc.research_text.MIRRORHAND=개인용 거울
+tc.research_page.MIRRORHAND.1=이 마법 손거울은 일반적인 마법 거울과 똑같이 작동합니다. 여기로 집어넣어진 아이템은 반대쪽의 연결된 거울에서 튀어나오게 됩니다.<BR>손거울을 든 채 우클릭을 하면 나타나는 창에 아이템을 집어넣으면 반대쪽 거울로 이동합니다.<BR>손거울은 다른 거울과 이미 연결된 거울에 연결이 가능합니다.<BR>손거울은 아이템을 보낼 수는 있지만 받을 수는 없습니다.
+#
+tc.research_name.NODEJAR=단지 안의 노드
+tc.research_text.NODEJAR=부지런히 일하는 마도학자를 위하여
+tc.research_page.NODEJAR.1=단지가 평범하던 아니던 무언가를 저장하는데 매우 적합하다는 사실은 이미 증명되었습니다. 그리고 이제, 단지의 다른 용도, 바로 오라 노드를 담는 용도로도 사용 될 수 있다는 사실이 발견되었습니다.<BR>오라 노드를 둘러싼 커다란 단지를 만든 뒤 적절한 공식을 이용해 완드로 마법을 주입하면 단지가 노드를 안에 담은 채로 들고 다닐만한 크기로 줄어들게 됩니다. 이렇게 만들어진 단지는 편리하게 들고 다닐 수 있지만 단지 안에 노드를 가두는 과정에서 높은 확률로 노드에 손상이 가게 됩니다.
+tc.research_page.NODEJAR.2=노드가 단지 안에 갇혀 있는 동안에는 노드에 비스가 다시 충전되지도, 완드로 뽑아올수도 없습니다.<BR>원하는 곳에 놓은 뒤 완드로 우클릭함으로써 노드를 다시 풀어놓을 수 있습니다. 이 과정에서 단지는 파괴됩니다.
+#
+tc.research_name.PAVETRAVEL=여행석
+tc.research_text.PAVETRAVEL=보다 편한 여행
+tc.research_page.PAVETRAVEL.1=아케인 스톤의 마법적인 구조를 개량해서 그 위를 걸어갈 경우 보폭을 크게 만들어주는 바닥재를 만들 수 있습니다.<BR>이 위를 지나가는 모든 것은 몇 초간 더 빠른 속도와 민첩성을 가지게 됩니다.
+#
+tc.research_name.PAVEWARD=경계석
+tc.research_text.PAVEWARD=외부로부터의 보호
+tc.research_page.PAVEWARD.1=아케인 스톤을 경계벽으로 개량해서 거의 대부분의 생물이 지나가지 못하도록 하는 바닥재를 만들 수 있습니다.<BR>이 바닥재가 100% 완벽한 것은 아니며 다른 플레이어가 지나가는 것은 막지 못하지만 거의 대부분의 위협은 막아낼 수 있습니다. 또한 골렘은 이 돌 위를 지나가지 못합니다.<BR>최상의 결과를 위해서는 보호하고 싶은 장소 주위를 이 돌로 끊어진 부분 없이 둘러치는 것이 좋습니다.<BR>활성화된 레드스톤 신호는 이 돌의 특성을 억제시킵니다.
+tc.research_page.PAVEWARD.2=경계석 위에 표시되는 룬의 색은 경계석의 현재 상태를 나타냅니다.<BR>보라색 룬은 현재 경계석의 기능이 작동중임을 나타냅니다.<BR>파란색 룬은 현재 경계석이 레드스톤 신호에 의해 비활성화 되었음을 의미합니다.<BR>빨간색 룬은 현재 경계석이 보호하는 구역 어딘가에 빠져나갈 수 있는 틈새가 있다는 것을 의미합니다.
+ #
+tc.research_name.WANDPED=완드 충전 주각
+tc.research_text.WANDPED=자동 완드 충전기
+tc.research_page.WANDPED.1=완드를 충전하기 위해 여기저기 돌아다니는 것도 좋지만 역시 자동 충전이 좀 더 편리하겠죠.<BR>이 특별히 제작된 주각은 주각 안에 놓여진 완드에 자동으로 주변의 노드에서 비스를 끌어와 충전시켜줍니다.<BR>완드가 철이나 완드 코어기로 만들어진 저급이 아닌 이상 노드가 완전히 소모되지는 않습니다.
+#
+tc.research_name.WANDPEDFOC=복합 충전 포커스
+tc.research_text.WANDPEDFOC=모든것을 사용하기 위해
+tc.research_page.WANDPEDFOC.1=몇몇 노드들은 복합위상을 포함하고 있다는 사실은 알려졌지만 이 풍부한 비스의 원천을 이용하는 방법은 없었습니다. 아직까진 말이죠.<BR>이 포커스는 완드 충전 주각 위에 설치해서 주변 노드의 복합위상을 끌어다 쓸 수 있게 해 줍니다. 하지만 복합위상 하나는 하나의 태초의 위상으로만 분리되어지고 나머지 위상들은 사라져 버립니다. 그래도 이 자원에 접근할 수 있게 되었다는 것만으로도 좋은 출발이며, 나중에 좀 더 효율적인 방법이 나올 수도 있습니다. 
+#
+tc.research_name.ETHEREALBLOOM=천상의 꽃
+tc.research_text.ETHEREALBLOOM=정화의 꽃
+tc.research_page.ETHEREALBLOOM.1=시머리프는 종종 실버우드에 의해 그 가치가 가려지곤 하지만, 시머리프에도 이 꽃만의 마법적 성질을 지니고 있습니다.<BR>실버우드처럼 이 꽃에는 정화능력이 잠재되어 있습니다. 그리고 이 능력을 이끌어내 천상의 꽃으로 변화시키는 방법이 발견되었습니다.<BR>천상의 꽃은, 느리지만 확실하게 사악한 마법으로 오염된 지역을 이전의 모습으로 정화시키며, 이 정화 대상에는 테인트 또한 포함됩니다. 테인트을 즉각 몰아내지는 않지만 테인트에서 자라는 생물들은 테인트 지형이 아닌 곳에서는 그리 오래 살지 못하고 점차 사라집니다.
+tc.research_page.ETHEREALBLOOM.2=이 꽃은 꽃에서 나오는 정화의 빛이 닿는 8블럭 내의 공간만 정화할 수 있습니다.
+#
+tc.research_name.PECH=펙
+tc.research_text.PECH=알 수 없는 생명체
+tc.research_page.PECH.1=이 인간을 닮은 이상한 생물은 세계간의 장벽이 얇아진 곳에서 자주 발견됩니다. 또한 이 생물은 마법 에너지가 충만한 지역으로 이끌려 오는듯 합니다.<BR>그 작은 키를 놀려주고 싶겠지만, 펙은 엄청난 힘으로 자기 몸무게의 몇배가 되는 짐들을 지고 다닙니다.<BR>펙은 보통 공격적이지 않지만 그 중 하나가 공격을 당하면 서로 연합해서 공격한 자를 무찌릅니다. 일반적으로 그들은 인간과의 접촉을 피합니다.<BR>펙은 매우 탐욕스럽기 때문에 주울 수 있는 모든 걸 주워담습니다.
+tc.research_page.PECH.2=가치있는 물건으로 이 탐욕을 채워주면 친해질 수도 있다고 알려져 있습니다. 친해진 펙은 종종 진귀한 물건을 갖고와 기꺼이 나눠주기도 합니다.<BR>하지만 이런 '우정'은 길게 유지되지는 않습니다.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
+
+tc.research_name.INFUSIONENCHANTMENT=인퓨전 인챈트
+tc.research_text.INFUSIONENCHANTMENT=에센시아로 인챈트를
+tc.research_page.INFUSIONENCHANTMENT.1=수년동안 마법사들과 마도학자들은 자신들의 무기, 도구, 방어구 등에 생명력을 이용해서 인챈트를 해 왔습니다. 이 방식은 효율적이지만, 지루하고 그 결과물을 예측할 수 없었습니다. 인퓨전 제작법에 대한 발견은 이 두 가지 문제를 모두 해결할 수 있을 듯 합니다.<BR>이제 인퓨전 제단에서 도구들을 인챈트 할 수 있습니다. 인챈트 하기를 원하는 아이템을 제단의 중심에 올려놓고 필요한 재료와 에센시아를 공급해주면 됩니다. 
+tc.research_page.INFUSIONENCHANTMENT.2=이 방식도 경험치 형태의 생명력을 요구하긴 하지만, 일반적인 인챈트 방식에 비해 현저히 적습니다. 이 경험치는 제단 주변의 아무에게서나 추출되기 때문에 주의하세요.<BR>뒤의 레시피에 나와있는 에센시아와 경험치 요구량은 모두 레벨 I 인챈트에 해당하는 수치입니다. 더 높은 단계의 인챈트 레벨을 원한다면 인챈트를 반복하면 되며, 인챈트 가능한 최대 레벨에 도달할 때까지 반복이 가능합니다. 에센시아와 경험치 요구량은 인챈트 레벨에 따라 배가 되기에, 레벨 II 인챈트의 요구량은 레벨 I 인챈트의 2배가 됩니다.
+tc.research_page.INFUSIONENCHANTMENT.3=또한 인챈트할 도구에 이미 다른 인챈트가 되어 있다면 요구량이 늘어날 수 있습니다. 인챈트 레벨당 대략 10%정도로 요구량이 늘어납니다. 따라서 강타 III 인챈트가 되어있는 검에 화염 I 인챈트를 할 경우 요구량은 30% 늘어나게 됩니다.<BR>불안정성 역시 인챈트 갯수에 비례해 커집니다.<BR>인퓨전 인챈트 역시 일반적인 인챈트 조합 규칙을 따릅니다.
+#
+tc.research_name.ARCANELAMP=아케인 램프
+tc.research_text.ARCANELAMP=강력한 빛의 근원
+tc.research_page.ARCANELAMP.1=벽이나 바닥, 천장에 달아 둘 수 있는 이 신비한 램프는 강력하고 꾸준한 빛을 제공합니다.<BR>16블록 이내의 밝기가 '위험'수준 이하인 곳에는 추가적인 빛의 근원이 생성됩니다. 하지만 좀비 발생을 막는 가장 확실한 방법은 지속적으로 주의를 기울이는 거라는 걸 잊지 마세요.<BR>이렇게 생긴 빛은 램프가 제거되면 같이 사라집니다.<LINE>이 램프의 새로운 이용 방법이 발견 될 수도 있으므로 새로운 발견을 하고 난 뒤에는 항상 이 페이지를 확인하세요.
+tc.research_page.ARCANELAMP.2=          §n아케인 채굴기§r<BR>채굴기의 받침대에 부착될 경우, 아케인 램프는 추가적인 능력을 얻습니다: 채굴기가 판 구멍을 밝힙니다.
+#
+tc.research_name.BASICARTIFACE=마공학의 기본
+tc.research_text.BASICARTIFACE=유용한 것들
+tc.research_page.BASICARTIFACE.1=§n태초의 부적§r<BR><BR>태초의 부적은 많은 마법 구조물들의 중요한 기초재료입니다. 그 자체로는 태초의 힘과 에센시아를 집중시키고 연결하는 것 외의 기능은 없습니다.<BR>이 부적에는 또다른 힘이 내재되어있다는 소문이 끊이지 않지만, 그저 풍문에 불과할 뿐입니다.
+#
+tc.research_name.TUBES=에센시아 튜브
+tc.research_text.TUBES=에센시아 수송
+tc.research_page.TUBES.1=이전에도 에센시아를 옮기는 몇가지 방법이 있었지만, 대규모 작업에 적합한 방법은 없었습니다 - 지금까진 말이죠.<BR>새지 않고 안정적인 액체 튜브를 만드는 방법을 알게 되었습니다. 일반적인 화학 물질들은 유리병으로 옮길 수 있었지만 어떤 에센시아들은 용기를 녹여버리거나 그냥 통과해 버리기도 했습니다. 유리를 철로 감싸고 수은으로 화학처리를 해서 가장 증발하기 쉬운 에센시아조차도 새어 나가지 못하게 하는 데 성공했습니다. 금으로 장식을 새겨넣어 미관 또한 살렸습니다.
+tc.research_page.TUBES.2=이 튜브는 주로 단지와 증류기를 연결하는 데 사용되며 그 외에도 거의 대부분의 연금술 장치들에 연결시켜 사용할 수 있습니다.<BR>단지 같은 에센시아를 받아들일 수 있는 장치가 연결되면 즉각 튜브 안으로 에센시아가 흐르게 됩니다.<BR>서로 다른 종류의 에센시아를 담고 있는 단지는 같은 종류의 에센시아만을 끌어당깁니다. 하지만 에센시아 튜브는 한 번에 한 종류의 에센시아만을 통과시킬 수 있고 우선권은 흡입력이 가장 센 쪽이 갖습니다. 밸브를 사용하지 않으면 네트워크 내부 흐름이 쉽게 막혀버리기 때문에 밸브의 사용은 필수적이라 할 수 있습니다.<LINE>  
+tc.research_page.TUBES.3=에센시아 밸브는 기본적으로 에센시아 튜브와 같은 기능을 하지만, 레드스톤 신호를 주거나 밸브를 손으로 돌려서 에센시아의 흐름을 차단할 수 있습니다.<LINE>에센시아 공진기는 네트워크의 문제를 해결하기 위한 편리한 도구입니다. 이 장치는 에센시아 튜브나 다른 에센시아를 사용하는 장치에 사용 할 수 있으며 사용할 경우 어떤 에센시아를 담고 있는지, 적용되는 흡입력이 어느 정도인지 등을 알 수 있습니다. 
+tc.research_page.TUBES.4=완드로 튜브를 우클릭해서 우클릭한 지점의 모든 연결을 끊을 수 있습니다.<BR>또한 밸브 같은 특정 튜브들은 정 중앙을 완드로 우클릭해서 방향을 바꿀 수 있습니다.
+#
+tc.research_name.CENTRIFUGE=연금술 원심분리기
+tc.research_text.CENTRIFUGE=분리하기
+tc.research_page.CENTRIFUGE.1=연금술 원심분리기는 에센시아를 그 구성요소로 분해시켜주는 아주 놀라운 장치입니다.<BR>원심분리기 아래쪽으로 복합 에센시아를 주입하면 원심분리기는 그 에센시아를 구성하는 하위 에센시아로 천천히 분리시킵니다. 구성 에센시아 두 개가 모두 나오는 것은 아니고 하나의 에센시아만 추출됩니다.<BR>분리된 에센시아는 원심분리기의 윗부분으로 추출할 수 있습니다. 
+tc.research_page.CENTRIFUGE.2=에센시아 버퍼는 서로 다른 종류의 에센시아를 저장 할 수 있으며, 합계 최대 8포인트까지 저장이 가능합니다. 단지처럼 버퍼 또한 흡입력이 있지만, 항상 최소한의 흡입력만을 가집니다 (1).<BR>이는 일반적인 경우 버퍼로 직접 에센시아를 공급해야만 버퍼가 에센시아를 흡입할 수 있다는 것을 의마합니다. 하지만, 버퍼는 튜브와 모든 방향으로 연결시킬 수 있으며, 이는 원심분리기처럼 여러 종류의 에센시아를 담고 있는 장치에서 에센시아를 뽑아내는 데 매우 유용한 역할을 합니다.<BR>버퍼에는 풀무를 장착시킬 수 있으며, 장착된 풀무 하나당 흡입력을 32씩 증가시켜줍니다.
+#
+tc.research_name.TRAVELTRUNK=여행 트렁크
+tc.research_text.TRAVELTRUNK=움직이는 짐짝
+tc.research_page.TRAVELTRUNK.1=골렘학 연구를 좀 더 확장한 결과, 바쁜 마도학자들에게 아주 좋은 친구 하나를 알게 되었습니다. 바로 여행 트렁크입니다.<BR>이 나무 상자는 주인의 뒤를 기꺼이 따라다니며 아이템을 보관할 공간을 제공합니다.<BR>여행 트렁크는 매우 튼튼하여 웬만한 충격에도 끄떡하지 않습니다. 또한 이 트렁크는 불에 타지 않으며 아주 높은 곳에서 떨어져도 망가지지 않습니다.<BR>트렁크는 주인을 심지어는 다른 차원으로까지 따라옵니다. 트렁크가 한군데 가만히 있기를 바란다면 트렁크를 우클릭해 GUI를 열어보세요.
+tc.research_page.TRAVELTRUNK.2=트렁크가 한 자리에 가만히 있게 하는 명령 버튼이 있습니다.<BR>여행 트렁크는 받은 데미지를 서서히 회복하며, 음식을 줘서 빠르게 회복시킬 수도 있습니다.<BR>다른 골렘들처럼 골레맨서의 종으로 클릭해서 아이템화 시킬 수 있습니다. 아이템화 시킬 경우 안에 든 아이템은 전부 떨어뜨리게 됩니다. Shift 클릭으로 장착된 업그레이드를 제거하는 것도 가능하며, 업그레이드가 소실될 확률은 다른 골렘과 같습니다.<BR>트렁크는 1개의 업그레이드를 장착 할 수 있으며 골렘과는 좀 다른 효과를 부여받습니다. 다음 페이지에 업그레이드별 효과에 대해 자세하게 나와있습니다.
+tc.research_page.TRAVELTRUNK.UAI=     §n골렘 업그레이드: 에어§r<BR>이 업그레이드를 장착할 경우 트렁크가 더 빠르게 움직입니다.
+tc.research_page.TRAVELTRUNK.UEA=     §n골렘 업그레이드: 어스§r<BR>이 업그레이드를 장착할 경우 트렁크의 인벤토리가 한 줄 더 늘어납니다.
+tc.research_page.TRAVELTRUNK.UFI=    §n골렘 업그레이드: 파이어§r<BR>이 업그레이드를 장착할 경우 주인이 공격당하면 트렁크가 적을 공격합니다.
+tc.research_page.TRAVELTRUNK.UWA=     §n골렘 업그레이드: 워터§r<BR>이 업그레이드를 장착할 경우 오직 주인만이 이 트렁크를 열어보거나 아이템화시킬 수 있습니다.<BR>또한 매우 강력한 공격이 아닌 대부분의 공격에 큰 방어력을 가집니다.
+tc.research_page.TRAVELTRUNK.UOR=     §n골렘 업그레이드: 오더§r<BR>이 업그레이드를 장착할 경우 골레맨서의 종으로 아이템화 시키더라도 내부의 아이템을 그대로 가지고 있습니다. 골레맨서의 종으로 Shift 클릭할 경우엔 아이템을 모두 떨어뜨리게 됩니다.
+tc.research_page.TRAVELTRUNK.UEN=   §n골렘 업그레이드: 엔트로피§r<BR>이 업그레이드를 장착할 경우 트렁크 내부에 빈 공간이 있을 경우 주변에 떨어진 아이템을 자동으로 주워담습니다.
+#
+tc.research_name.LAMPGROWTH=성장의 램프
+tc.research_text.LAMPGROWTH=성장을 촉진시키는 램프
+tc.research_page.LAMPGROWTH.1=재료로 쓰인 아케인 램프와는 다르게, 성장의 램프는 Herba 에센시아를 공급해주기 전에는 그다지 많은 빛을 뿜어내지 않습니다. Herba 에센시아를 공급할 경우, 이 램프의 빛이 환하게 닿는 곳의 작물들은 매우 빠른 속도로 자라납니다.<BR>에센시아 공급을 위해서는 에센시아 튜브를 이용해야 합니다.
+#
+tc.research_name.LAMPFERTILITY=번영의 램프
+tc.research_text.LAMPFERTILITY=낭만적인 불빛
+tc.research_page.LAMPFERTILITY.1=이 램프의 부드러운 분홍빛 불빛 속에서 모든 살아있는 생물들은 사랑의 감정에 빠지게 되며, 자신과 같은 종의 짝짓기 상대를 찾게 됩니다.<BR>한 종류의 생물이 8마리 이상 있는 경우 이 램프는 아무런 영향을 주지 않습니다.<BR>램프의 작동에는 Victus 에센시아가 필요하며, 공급을 위해선 에센시아 튜브를 이용해야 합니다.
+#
+tc.research_name.JARVOID=공허의 단지
+tc.research_text.JARVOID=에센시아가 너무 많다고? 그럴리가!
+tc.research_page.JARVOID.1=공허의 단지는 기본적인 특성은 평범한 단지와 같지만 가장 큰 차이점이 있습니다. 이 단지는 가득 찬 경우에도 에센시아를 더 받아들일 수 있지만 넘친 에센시아는 사라져버리게 됩니다. 이러한 특성은 넘치는 에센시아를 제거하면서도 약간은 남겨두는 것을 보다 편리하게 해줍니다.<BR>공허의 단지에도 라벨을 붙일 수는 있지만 그 흡입력은 라벨을 붙인 일반 단지에 못 미칩니다(라벨이 붙어있는 일반 단지와 붙어있지 않은 일반 단지의 중간 정도 됩니다).
+#
+tc.research_name.TUBEFILTER=강화 에센시아 튜브
+tc.research_text.TUBEFILTER=원하는게 무엇이건 어디서든지 - 
+tc.research_page.TUBEFILTER.1=§n에센시아 필터링 튜브§r는 일반 튜브와 같은 기능을 가졌으며 라벨을 붙일 수 있다는 특징이 있습니다. 라벨을 붙일 경우, 라벨에 표시된 에센시아만이 이 튜브를 통해 흐를 수 있게 됩니다.<BR>빈 손으로 Shift 우클릭을 할 경우 라벨을 제거합니다.
+tc.research_page.TUBEFILTER.2=§n감쇄 에센시아 튜브§r는 내부의 흡입력을 절반으로 감쇄시킵니다.<LINE>§n단방향 에센시아 튜브§r는 흡입력을 한쪽으로만 받아들입니다. 파란색 표식이 어느 방향의 흡입력을 받아들일지 나타냅니다.
+#
+tc.research_name.MIRRORESSENTIA=에센시아 거울
+tc.research_text.MIRRORESSENTIA=에센시아가 필요한 곳으로
+tc.research_page.MIRRORESSENTIA.1=마법 거울은 장거리 운송에 매우 편리하지만, 만약 에센시아에도 같은 원리를 적용할 수 있다면 어떨까요? 아무래도 지금 막 그 방법을 알아낸 것 같습니다.<BR>에센시아 거울은, 이름에서 말하듯, 마법 거울과 같은 방식으로 에센시아를 전송할 수 있습니다. 하지만 여기에는 몇가지 중대한 제약이 따릅니다.<BR>튜브를 직접 거울에 연결할 수는 없고 아케인 화로나 인퓨전 매트릭스같은 장치로부터 에센시아를 직접 공급받아야 합니다.    
+tc.research_page.MIRRORESSENTIA.2=이러한 방식을 통해서 거울을 통해 에센시아를 끌어올 수 있습니다.<BR>에센시아처럼 불안정한 물질을 이러한 방식으로 장거리 전송을 할 경우, 가끔 소량의 에센시아가 사라져버리는 경우도 있습니다. 
+#
+tc.research_name.BONEBOW=본 보우
+tc.research_text.BONEBOW=막대와 돌
+tc.research_page.BONEBOW.1=뼈에 혼돈의 에너지를 불어넣어서 활을 제작하는 방법을 알아내었습니다.<BR>그 결과, 일반적인 활보다 빠른 장전이 가능하며, 화살을 좀 더 멀리, 좀 더 강하게 발사할 수 있는 활이 탄생하였습니다.
+#
+tc.research_name.PRIMALARROW=속성 화살
+tc.research_text.PRIMALARROW=원소의 힘이 깃들어있는 화살
+tc.research_page.PRIMALARROW.1=이 화살들에는 특정한 강력하고 독특한 태초의 힘들이 각각 깃들어 있습니다.<BR>§n바람의 화살§r<BR>이 화살은 에너지로 가득 차 진동합니다. 데미지 자체는 평범한 화살과 비슷하지만, 이 화살에 깃든 신비한 에너지는 그 어떠한 종류의 방어구도 관통합니다.<BR>§n불의 화살§r<BR>이 화살은 순수한 불로 공격하며 맞은 대상은 불에 타게 됩니다.
+tc.research_page.PRIMALARROW.2=§n물의 화살§r<BR>이 화살의 데미지는 일반적인 화살과 같은 수준이지만, 대신 이 화살은 맞은 대상을 뼛속까지 얼어붙게 하여 이동 속도를 늦춥니다.<BR>§n대지의 화살§r<BR>이 화살은 맞은 대상을 일반적인 화살보다 훨씬 더 멀리 밀쳐냅니다.<BR>§n질서의 화살§r<BR>이 화살의 데미지는 그다지 강력하지 않지만, 모든 종류의 방어구를 관통하며 맞은 적을 약화시킵니다.<BR>
+tc.research_page.PRIMALARROW.3=§n혼돈의 화살§r<BR>이 화살은 공격력이 약간 낮은 대신, 맞은 대상에 위더 디버프를 겁니다.<LINE>속성 화살은 다시 회수할 수 없으며, 활에 무한 인챈트가 부여되어 있더라도 화살이 소모될 확률을 3분의 2로 줄여줄 뿐 완전히 없애주진 않습니다.
+#
+tc.research_name.THAUMATORIUM=연금술 자동화
+tc.research_text.THAUMATORIUM=대규모 연금술
+tc.research_page.THAUMATORIUM.1=지금까지 연금술은 잘못 계산된 위상들, 점점 사라지는 에센시아와 재료 등 일일이 수동 작업을 요하는 다소 산만한 작업이었습니다. 드디어 이런 것들을 과거의 유물로 만들어버릴 만한 방법이 탄생했습니다.<BR>사우마토리엄은 마법사가 어떤 공식을 통해서, 어떤 촉매를 사용할지 직접 선택할 수 있게 해 주는 놀라운 발명품입니다. 이 장치는 그 다음 튜브를 통해서 자동으로 필요한 에센시아를 끌어옵니다. 지속적인 촉매의 공급만 있다면 이 장치는 계속해서 완벽하게 완성품을 만들어냅니다.
+tc.research_page.THAUMATORIUM.2=이 장치를 구성하는 데 필요한 도가니에는 물은 필요가 없지만, 용암이나 나이터 같은 열원은 여전히 필요합니다. 이 장치를 열어보면 여러 칸이 존재하는 것을 볼 수 있습니다. 좌측 상단의 칸은 촉매가 들어가는 곳입니다. 촉매를 넣어주면, 해당 촉매를 이용할 수 있는 공식들이 우측 상단에 표시됩니다.<BR>하단의 게이지는 순서대로 그 공식들이 필요로 하는 에센시아의 수량을 보여줍니다. 여기에는 기계의 진행률 또한 표시됩니다.<BR>완성품은 기계 앞으로 배출되거나 반출구 앞의 인벤토리로 들어가게 됩니다.
+tc.research_page.THAUMATORIUM.3=사우마토리엄은 기본적으로는 한번에 하나의 공식만을 실행할 수 있지만, 옆면에 느모닉 매트릭스를 장착시킬 경우 동시에 여러가지 공식을 실행할 수 있습니다.<BR>각각의 매트릭스는 동시에 실행할 수 있는 공식을 2개씩 늘려줍니다. 
+#
+tc.research_name.RUNICARMOR=루닉 결계
+tc.research_text.RUNICARMOR=가드를 올려라!
+tc.research_page.RUNICARMOR.1=지속적인 보호마법의 연구 결과 루닉 결계의 개념에 대해 알게 되었습니다. 이름 때문에 착각할 수 도 있지만, 이것은 일반적인 보호구가 아니라 평상복 위에 덧입는 부적, 반지 등의 액세서리들입니다.<BR>이 엑세서리들은 대부분의 데미지를 막아내는 결계를 생성합니다. 결계는 체력바 위에 덧씌워져서 나타나며, 착용자에게 가해지는 모든 데미지를 우선해서 받아냅니다. 결계 수치가 바닥나면 평소처럼 착용자에게 데미지가 직접 들어오게 됩니다.
+tc.research_page.RUNICARMOR.2=결계는 천천히 복구되지만, 결계가 없더라도 가죽 방어구 수준의 방어력을 제공합니다.<BR>결계를 회복하는 데는 §2Terra§0와 §eAer§0비스를 필요로 하며, 이 비스는 가지고 있는 완드에서 소모됩니다.<BR>이 방어구는 굶주림, 익사 등의 환경적 요인에 의한 데미지는 막지 못합니다.<BR>이러한 특징 때문에 이 보호장비는 일반적인 방법으로는 인챈트할 수 없고, 특별한 방법을 통해서 효율성을 끌어올려야만 하며, 이 방법은 연구를 통한 발견이 필요합니다.
+#
+tc.research_name.RUNICAUGMENTATION=결계 확장
+tc.research_text.RUNICAUGMENTATION=가드를 최대로!
+tc.research_page.RUNICAUGMENTATION.1=결계가 부여된 반지와 부적, 허리띠만으로도 매우 훌륭하지만, 이런 결계를 다른 도구에도 부여할 수는 없는 걸까요?<BR>마법에서는 불가능이 마법입니다. 마도학자의 기술을 응용해서 마법구조적으로 매우 안정한 방어구에는 결계를 부여하는 것이 가능합니다.<BR>'마법구조적으로 안정한' 방어구라 함은, 사우뮴이나 마법이 깃든 천, 혹은 이와 비슷한 재료로 이루어진 방어구를 말합니다.<BR>결계는 한번에 1포인트밖에 부여할 수 없지만, 한 도구에 여러번 결계를 부여할 수 있습니다.
+tc.research_page.RUNICAUGMENTATION.2=하지만 결계량이 1 늘어나면 에센시아 소모는 두 배로 늘어나며, 결계 반지와 같은 도구도 이 방법으로 결계량을 늘릴 수 있지만 이 에센시아 소모량 증가에는 이미 존재하는 결계량도 포함되기 때문에 굉장히 많은 에센시아를 필요로 합니다.
+#
+tc.research_name.RUNICCHARGED=결계 반지: 가속
+tc.research_text.RUNICCHARGED=충전을 위한 충전
+tc.research_page.RUNICCHARGED.1=이 반지는 결계 반지를 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 반지보다 결계량은 약간 적지만, 결계 재충전 속도가 25%정도 더 빠릅니다.<BR>반지를 여러개 착용해서 결계 재충전 시간을 효과적으로 줄일 수도 있습니다.
+#
+tc.research_name.RUNICHEALING=결계 반지: 재활성화
+tc.research_text.RUNICHEALING=그 정도론 끄떡 없지
+tc.research_page.RUNICHEALING.1=이 반지는 결계 반지를 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 반지보다 결계량은 약간 적지만, 결계가 깨졌을 경우 몆 초간 착용자에게 생명 에너지를 불어넣습니다.<BR>이 기능은 20초에 한 번만 작동합니다.
+#
+tc.research_name.RUNICKINETIC=결계 허리띠: 충격파
+tc.research_text.RUNICKINETIC=후후, 날 치면 후회하게 될 텐데?
+tc.research_page.RUNICKINETIC.1=이 허리띠는 결계 허리띠를 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 허리띠보다 결계량은 약간 적지만, 결계가 깨졌을 경우 주변에 걍력한 충격파를 발산하여 데미지를 주고 멀리 밀쳐냅니다.<BR>이 기능은 20초에 한 번만 작동합니다.
+#
+tc.research_name.RUNICEMERGENCY=결계 부적: 긴급 방호
+tc.research_text.RUNICEMERGENCY=날 그리 쉽게 쓰러뜨릴 순 없어
+tc.research_page.RUNICEMERGENCY.1=이 부적은 결계 부적을 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 부적보다 결계량은 약간 적지만, 결계가 깨졌을 경우 즉시 8의 결계 포인트를 회복합니다.<BR>이 기능은 1분에 한 번만 작동합니다.
+#
+tc.research_name.WARDEDARCANA=사생활 보호
+tc.research_text.WARDEDARCANA=접근 제한
+tc.research_page.WARDEDARCANA.1=몇 가지 실험 결과, 살아있는 생물이 아님에도 기억 능력을 부여하는 방법을 알아내었습니다. 이것을 응용한 첫 번 째 시도로써 자신을 설치한 사용자를 기억하는 문과 감압판, 그 외 다른 블럭들을 만들어 볼 수 있습니다.<BR>이렇게 만든 문은 처음 설치한 사람이 아닌 이상 부수는 것이 불가능합니다. 또한 주인이 아닌 사람에 의해 열리는 것을 거부합니다. 철제나 금 열쇠를 만들어서 다른 사람이 이 문을 열 수 있도록 할 수도 있습니다.<BR>철제 열쇠를 만들어서 문에 사용하는 것으로 그 열쇠와 문을 연결시킬 수 있습니다. 
+tc.research_page.WARDEDARCANA.2=이 열쇠를 다른 사람에게 주어서 그 사람이 해당 문을 자유롭게 사용하도록 할 수 있습니다. 하지만 그 열쇠를 받은 사람일지라도 문을 부수거나 다른 사람이 통과하게 할 수는 없습니다. 이런 권한까지 주기 위해선 금 열쇠가 필요합니다.<BR>금 열쇠는 철제 열쇠의 기능을 포함하며, 다른 사람이 철제 열쇠를 만드는 것 또한 가능하게 합니다. 금 열쇠를 만들 수 있는 건 오직 최초 설치자 뿐입니다. 문은 완드를 통해서도 제거가 불가능하며, 최초 설치자만이 완드를 통한 제거를 할 수 있습니다.
+tc.research_page.WARDEDARCANA.3=새로운 감압판은 몇가지 특징적인 기능들을 갖고 있습니다.<BR>우선, 이 감압판은 우클릭으로 변경할 수 있는 세 가지 모드가 있습니다. 나무 감압판처럼 모든 것에 반응하거나, 주인에게만 반응하거나, 주인에게만 반응을 하지 않게 설정할 수 있습니다.<BR>또한 주인만이 이 감압판을 제거할 수 있습니다.<BR>마지막으로, 열쇠를 사용해서 다른 사람에게 권한을 부여할 수 있습니다. 또한 이 감압판은 아케인 문을 열 때도 사용이 가능하며, 이 경우 문과 감압판 모두에 사용 권한이 있어야 합니다.
+tc.research_page.WARDEDARCANA.4=결계 유리는 단순한 장식블럭으로 이 블럭 또한 마찬가지로 주인이 아닌 사람은 부술 수 없습니다.<BR>이 유리는 열쇠를 사용해도 다른 사람에게 권한을 주는 것이 불가능합니다.
+#
+tc.research_name.VISAMULET=비스 부적
+tc.research_text.VISAMULET=어디서든 부족함 없이
+tc.research_page.VISAMULET.1=완드 하나로도 대부분의 상황에는 충분합니다. 하지만 가끔 완드 하나에 저장된 비스만으로는 부족한 경우가 있기 마련이죠. 두 개 이상의 완드를 들고 다니는 것만으로 이 문제를 해결할 수 있지만, 연구 결과 다른 방법 또한 존재함을 알 수 있었습니다.<BR>비스를 저장할 수 있는 이 부적은, 착용할 경우 인벤토리에 소지한 모든 비스를 소모하는 도구들을 자동으로 충전시킵니다.<BR>이 도구에도 한계는 있는데, 이 부적으로 완드를 충전하기 위해서는 충전하고자 하는 완드를 손에 들고 있어야 하며 충전 속도도 꽤 느린 편입니다. 
+tc.research_page.VISAMULET.2=그럼에도 루닉 결계나 수리 인챈트가 된 도구에 비스를 공급하기에는 최적의 도구라 할 수 있습니다.<BR>부적은 완드 충전 주각에서 충전시키거나, 주변의 비스 중계기로부터 자동으로 충전됩니다.
+#
+tc.research_name.NODESTABILIZER=노드 스태빌라이저
+tc.research_text.NODESTABILIZER=노드 치유
+tc.research_page.NODESTABILIZER.1=이 유용한 장치는 노드 아래 둘 경우 몆가지 이로운 효과들을 제공합니다.<BR>우선, 노드들이 서로 비스를 뺏고 빼앗기는 것을 방지합니다. 또한 불안정한 노드가 비스를 잃는 것을 방지하며, 가끔 불안정한 상태를 완전히 제거하는 경우도 있습니다. 마지막으로, 비록 아주 미미한 확률이지만, 꺼져가는 노드를 희미한 노드로 회복시켜줄 수 있습니다.<BR>하지만 장치가 작동하기 위해선 동력원이 필요하며 이 동력은 위에 놓여진 노드에서 충당합니다. 노드에 담긴 비스가 줄어들 정도로 많이 소모하진
+tc.research_page.NODESTABILIZER.2=않지만, 위에 놓여진 노드의 재충전 속도를 절반 가까이 떨어뜨립니다.<BR>레드스톤 신호를 주어서 스태빌라이저의 작동을 중지시킬 수 있습니다.
+#
+tc.research_name.NODESTABILIZERADV=Adv. 노드 스태빌라이저
+tc.research_text.NODESTABILIZERADV=선택적 안정화
+tc.research_page.NODESTABILIZERADV.1=Adv. 노드 스태빌라이저는 기본적으로 일반 스태빌라이저의 모든 기능을 갖고 있지만, 몆가지 중대한 차이점이 있습니다.<BR>우선, 이 장치가 장착된 노드는 다른 더 큰 노드에게 비스를 뺏기지 않으나, 반대로 다른 더 작은 노드의 비스를 빼앗아 올 수 있습니다.<BR>또한 노드를 회복시켜줄 확률이 더 높습니다.<BR>하지만 여기에는 더 많은 동력이 필요하며, 여전히 노드에 담긴 비스가 줄어들 정도는 아닐지라도, 눈부신 노드의 충전속도조차 무마될 수준의 비스를 소모합니다.
+#
+tc.research_name.GOLEMFETTER=골렘 족쇄
+tc.research_text.GOLEMFETTER=동작 강제
+tc.research_page.GOLEMFETTER.1=이 간단한 장치는 골렘을 일시적으로 정지시킬 수 있게 해 줍니다.<BR>이 블럭이 레드스톤 신호에 의해 활성화될 경우 이 위를 지나는 모든 골렘은 그 자리에 멈춰서며 수행중이던 작업을 모두 일시중단합니다.<BR>레드스톤 신호가 끊어질 경우 멈춰있던 골렘은 다시 하던 일을 이어서 하게 됩니다.
+#
+tc.research_name.VISPOWER=비스의 이용
+tc.research_text.VISPOWER=에너지 공급
+tc.research_page.VISPOWER.1=마도학자에게 있어서 비스가 들어있는 노드는 자신이 행하는 모든 기적의 근원이라 할 수 있습니다. 하지만 노드들에는 여러 제약이 있기 때문에 대규모의 작업에 사용하기란 쉬운 일이 아닙니다. 이 제약들 중에서도 가장 큰 문제가 되는 것은, 노드의 에너지는 쉽게 고갈되며, 이 고갈된 에너지가 다시 충전되기까진 꽤 오랜 시간이 걸린다는 점입니다..<BR>여기 이 문제에 대한 몇가지 해결책이 있습니다. 이 노드라는 것은 실제로는 신비한 에너지의 기원이 되는 곳으로 이어진 작은 통로 주변에 에너지가 비스의 형태로 축적되어 있는 것입니다. 이 문은 너무나도 작아서
+tc.research_page.VISPOWER.2=아주 소량의 에너지만이 우리가 사는 세계로 넘어오게 됩니다. 때문에 이 통로를 강제로 넓힌다면 대량의 에너지가 순식간에 넘어오도록 하는 것이 가능합니다.<BR>하지만 이는 매우 위험한 행동이며, 통로를 넓히는 과정 내내 극도의 주의가 필요합니다.<BR>우선, 노드가 작업중에 계속해서 안정된 상태를 유지해야 합니다. 노드의 안정화가 완료되었다면 그 후에 §l노드 변환기§r를 노드 위에 설치하세요. 그 후 변환기에 레드스톤 신호를 주어 활성화시키면 활성화된 노드로의 변환이 시작되고 저장된 비스를 빠르게 잃게 됩니다.<BR>약간의 시간 후에 노드는 활성화된 노드로
+tc.research_page.VISPOWER.3=완전히 탈바꿈하게 됩니다. 활성화된 노드로 변환된 후에는 스태빌라이저와 변환기 모두 절대로 꺼져서는 안됩니다.<LINE>활성화된 노드는 더이상 비스를 저장하지도, 충전되지도 않으며 완드나 이와 비슷한 도구로 비스를 추출하는 것도 불가능해 집니다. 대신, 이 노드는 매 틱마다§lCV§r (센티비스, 100분의 1비스) 를 꾸준히 생산합니다. 이 에너지는 주변에 비스 중계기를 놓아 추출할 수 있습니다.<BR>각각의 중계기는 CV를 전달하는 통로 역할을 하며 활성화된 노드로부터 8블럭 이내에 여러 대의 중계기를 설치 가능합니다. 또한 중계기는 서로 비스를 주고 받을 수 있기 때문에 이를 이용해
+tc.research_page.VISPOWER.4=지옥불 화로와 같이 비스를 필요로 하는 곳 어디에든 연결이 가능합니다.<BR>이 중계기는 분기 구조를 따르기 때문에 하나의 중계기는 한 군데의 중계기나 노드에서만 비스를 받을 수 있지만 받은 비스는 여러 중계기로 나뭇가지가 뻗어나가듯이 분배해 주는 것이 가능합니다.<BR>또한 중계기에 적절한 샤드를 사용해서 특정 속성의 비스에 '채널을 맞추는' 것이 가능합니다. 이렇게 채널을 맞춘다고 해서 해당 중계기를 지나는 비스의 종류를 제한하는 것은 아니며, 채널이 맞춰지지 않거나 같은 속성의 비스에 맞춰진 중계기 외의 다른 중계기와 연결되는 것을 막는 것 뿐입니다.
+tc.research_page.VISPOWER.5=노드가 틱당 생산하는 에너지의 양은 제한되어있기 때문에 한 노드에 너무 많은 장치들을 연결시키면 CV 소모량이 생산량을 초과할 수 있습니다.<LINE>변환기의 작동을 중지시키면 활성화된 노드가 다시 평범한 노드로 서서히 돌아옵니다. 이 때 이전 상태로 되돌려진 노드에는 비스가 전혀 없는 상태이기 때문에 노드에 손상이 갈 수 도 있으니 주의하세요.
+#
+tc.research_name.VISCHARGERELAY=비스 충전 중계기
+tc.research_text.VISCHARGERELAY=단순화된 아케인 제작
+tc.research_page.VISCHARGERELAY.1=자꾸만 고갈되는 완드는 마도학자들이 아케인 작업대에서 무언가 만드는 것을 굉장히 귀찮아 하게 만드는 주범입니다.<BR>이 비스 충전 중계기를 이용한다면, 비스를 노드로부터 직접 끌어와 사용할 수 있게 됩니다. 기본적으로는 일반적인 중계기와 똑같이 작동하지만, 이 특별한 중계기는 아케인 작업대 위에 설치하도록 설계되었습니다. 이 장치는 다른 중계기로부터 비스를 끌어와 작업대에 놓여진 완드를 자동으로 충전시킵니다.<BR>단점이라면 충전속도가 좀 느리다는 것이 있겠네요. 
+#
+tc.research_name.WARP=뒤틀림, 플럭스, 그 외의 해로운 것들
+tc.research_text.WARP=모든 행위엔 그에 합당한 대가를
+tc.research_page.WARP.1=§n뒤틀림§r<BR>보통 인간의 몸은 마법에 그리 적합하지 않다고들 하며, 우리는 '뒤틀림'이라는 것의 존재에 의해 이게 틀린 말만은 아니라는 것을 알 수 있습니다.<BR>금지된 마법을 연구하거나 무언가 수상한 것을 제작할 때면, 마도학자의 몸과 영혼은 쉽게 뒤틀리게 되고, 마도학자가 현실을 보는 시야마저 왜곡시킵니다. 이러한 현상을 '뒤틀림'이라 부릅니다.<BR>일시적인 뒤틀림은 시간이 지나면 서서히 증세가 사라지지만, 힘을 뒤쫒는데 따르는 위험함을 무시하기로 작정한
+tc.research_page.WARP.2=마도학자들에게서 종종 나타나는 영구적인 뒤틀림 현상은 아직 그 치료 방법이 전혀 알려진 바가 없습니다.<BR>뒤틀림의 증상은 보통 경미한 집중 장애, 육체적 고통, 혹은 환각으로 나타납니다.<BR>하지만 이는 단순한 정신질환에 불과한 것이 아닙니다. 때때로 뒤틀린 시야에서 중요한 지식을 찾는 경우가 있으며 그저 환영이라 생각한 것이 실제로는 소름끼치는 진실인 경우 또한 있습니다.
+tc.research_page.WARP.3=§n플럭스§r<BR>뒤틀림이 잘못된 마법이 정신에 영향을 주어 생기는 증상이라면, 플럭스는 외부적으로 나타나는 현상입니다.<BR>이 플럭스는 세 가지 형태로 발현되는데, 액체 형태, 기체 형태, 그리고 육체적인 병이 바로 플럭스의 주된 현상입니다. 앞의 두 현상은 대부분의 마도학자들이 귀찮아 하는 현상으로, 보통 인퓨전이나 연금술을 행할 때 발생합니다. 이걸 치우는 건 그다지 어렵지 않지만, 문제는 이 액체, 혹은 기체와 닿았을 때 종종 걸리는 세 번째 증상으로, 바로 플럭스 감기입니다. 이 병에 걸리게 되면 마법 에너지 집중 힘들어져 비스 소모량이 늘어나게 됩니다.
+#
+tc.research_name.BATHSALTS=정화의 입욕 소금
+tc.research_text.BATHSALTS=정신적 스트레스로부터 해방을
+tc.research_page.BATHSALTS.1=아무리 세심한 마도학자라도 뒤틀림을 피하기란 쉬운 일이 아닙니다. 그리고 이 뒤틀림으로 인한 증상들은 매우 성가시며, 때때로 위험하기까지 합니다. 이 특별한 소금은 뒤틀림 증상을 조금이나마 완화시켜줍니다.<BR>물 속에 이 소금을 던져넣으면 곧 몸과 정신을 정화시켜주는 은빛의 액체로 변하게 되며 이 액체에 들어갈 경우 모든 스트레스들을 해소해주어 잠시나마 뒤틀림 증상들로부터 벗어날 수 있도록 해 줍니다. 다만, 뒤틀림 증상이 심할 수록 이 정화 효과는 지속시간이 줄어듭니다.<BR>이 소금은 쉽사리 오염되기 때문에 함부로 던지진 마세요.
+#
+tc.research_name.LIQUIDDEATH=액체 죽음
+tc.research_text.LIQUIDDEATH=외용으로만 사용하세요!
+tc.research_page.LIQUIDDEATH.1=강력한 독성을 띠는 이 액체는 어떠한 종류의 생명체일 지라도 살과 뼈, 심지어는 더 단단한 부위들까지 순식간에 녹여버립니다.<BR>실용성은 제쳐두고라도, 이 액체에는 꽤 흥미로운 특징이 존재하는데, 이 액체에 녹아버린 생명체에 포함된 에센시아가 액체 속에서 결정을 이루게 됩니다.<BR>이렇게 만들어진 에센시아 결정을 어디에 사용할지는 여러분의 상상에 맡기겠습니다. 
+#
+tc.research_name.ARMORFORTRESS=사우뮴 전투 갑주
+tc.research_text.ARMORFORTRESS=철벽 방어
+tc.research_page.ARMORFORTRESS.1=기존의 사우뮴 방어구는 여러 장점이 많은 무난한 갑옷이지만, 그 단순한 설계 구조로 인해 다이아몬드 갑옷에 비해 성능이 떨어졌습니다. 때문에 제작 과정을 다듬고 좀 더 튼튼한 구조를 채용한다면 기존의 사우뮴 갑옷에 비해 훨씬 튼튼하고, 보기에도 좋은 갑옷을 만들어낼 수 있습니다.<BR>각 부위에 대응되는 사우뮴 전투 갑주는 기본적으로는 다이아몬드 갑옷과 같은 방어력에 더 높은 내구력을 제공하며, 불과 마법에 큰 저항력을 가집니다.<BR>하지만 이 갑옷의 가장 큰 특징은 세트를 갖추어 입었을때 비로소 발휘됩니다.
+tc.research_page.ARMORFORTRESS.2=모든 부위를 다 갖춰 착용할 경우 각 부위가 가지는 방어력의 총합보다 더 높은 방어력을 갖게 되며, 외관상으로 멋져 보이기까지 합니다.<BR>사우뮴으로 만들어진 다른 도구들처럼 이 갑옷 역시 인챈트가 수월한 편입니다.
+#
+tc.research_name.HELMGOGGLES=발견의 헬멧
+tc.research_text.HELMGOGGLES=사우뮴 전투 헬멧 업그레이드
+tc.research_page.HELMGOGGLES.1=마도학자들은 보통 외출을 할 때 기능과 방어력 사이에서 고민하게 됩니다. 때문에 이 고민을 덜어보기 위해 발견의 헬멧이 고안되었습니다.<BR>이 개조된 헬멧은 완벽하게 발견의 고글처럼 기능합니다. 대신 비스를 절약해 주는 특성은 빠져있습니다.<BR>이 업그레이드는 안면 보호구와 동시에 적용이 가능합니다. 
+#
+tc.research_name.MASKGRINNINGDEVIL=안면 보호판: 악마의 미소
+tc.research_text.MASKGRINNINGDEVIL=사우뮴 전투 헬멧 업그레이드
+tc.research_page.MASKGRINNINGDEVIL.1=이 보호판은 사우뮴 전투 헬멧에 덧씌워 착용하도록 설계되었습니다.<BR>이를 착용할 경우, 뒤틀림으로 인해 발생하던 현상들을 대폭 약화시켜줍니다. 발생 횟수를 줄여주는 것은 아니고, 그 강도를 줄여주는 정도입니다.<BR>마치 악마와도 같은 웃음을 짓고 있습니다. 
+#
+tc.research_name.MASKANGRYGHOST=안면 보호판: 분노한 영혼
+tc.research_text.MASKANGRYGHOST=사우뮴 전투 헬멧 업그레이드
+tc.research_page.MASKANGRYGHOST.1=이 보호판은 사우뮴 전투 헬멧에 덧씌워 착용하도록 설계되었습니다.<BR>이를 착용한 채로 누군가와 싸울 경우, 착용자를 공격한 상대는 간혹 위더 디버프에 걸리게 됩니다.<BR>그들에 합당한 대우를 하기 바랍니다.
+#
+tc.research_name.MASKSIPPINGFIEND=안면 보호판: 새어나오는 광기
+tc.research_text.MASKSIPPINGFIEND=사우뮴 전투 헬멧 업그레이드
+tc.research_page.MASKSIPPINGFIEND.1=이 보호판은 사우뮴 전투 헬멧에 덧씌워 착용하도록 설계되었습니다.<BR>이를 착용한 채로 누군가를 공격할 경우 가끔씩 상대방의 체력을 빼앗아 올 수 있습니다.<BR>사실 상대방의 피를 마셔 체력을 회복하는 것이지만, 그다지 역겹게 느껴지진 않을 것입니다. 뭐 거리낄 게 있습니까?
+#
+tc.research_name.ELDRITCHMINOR=이계에 대한 깨달음
+tc.research_text.ELDRITCHMINOR=미지로의 첫 걸음
+tc.research_page.ELDRITCHMINOR.1=머릿속의 광명으로부터 갑작스런 깨달음을 얻었습니다. 다른 이들이 혼돈이라 부르는 그 속에서 종종 희미한, 하지만 굉장히 기괴하고 꺼림칙한 형상이 보입니다. 이 우주의 가장 어두운 구석에서, 무언가가 깨어났다는 것을 느낄 수 있습니다...<BR>이를 다른 이들에게 설명하려 한다면 분명히 미치광이 취급을 받을 것입니다. 하지만 그들에게 알려야만 합니다.<BR>그들은 알아야만 합니다...
+#
+tc.research_name.ELDRITCHMAJOR=드러난 이세계
+tc.research_text.ELDRITCHMAJOR=나는 무한의 경계 저 너머를 보고야 말았어...
+tc.research_page.ELDRITCHMAJOR.1=장막은 거두어지기 마련이고, 이계를 가린 장막이 지금 막, 내 머릿속에서 거둬졌다.<BR>나는 경이로움을 목격했다. 경이로움? 아니, 그건 경이로움이 아니야..내가 본 것은 말이지..<BR><IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
+tc.research_page.ELDRITCHMAJOR.2=§o나는 봤어.. 나는 봤어... 봤어.. 봤어.. 봤다고 봐버렸어!.... "나는 그들을 봤어"§r<BR><BR><IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>
+#
+tc.research_name.VOIDMETAL=공허합금
+tc.research_text.VOIDMETAL=금속인데 차갑지 않네...?
+tc.research_page.VOIDMETAL.1=사우뮴은 마법을 금속에 불어넣어 만들어낸 특별한 금속입니다. 이는 제법 가치있는 발견이지만, 이제 사우뮴은 초보 입문자들에게 넘겨주세요.<BR>이상하지만 생생한 꿈에서, 독특한 발상을 하게 되었습니다. 금속에 마법 그 이상, 마법 에너지의 원천이라 할 수 있는 우주의 어둠과 공허에 존재하는 정수 그 자체를 주입해 보는 건 어떨까요?<BR>그 결과물은 너무나도 매끄럽고 약간의 온기가 느껴지는 합금입니다. 이 금속은 거의 금처럼 무르기 때문에 가공하기 쉽지만
+tc.research_page.VOIDMETAL.2=제련할 경우 사우뮴과 같은, 혹은 그 이상의 강도를 지니게 됩니다. 게다가 이 금속은 원형을 유지하려는 성질이 있어 엄청난 손상을 입어도 금속 스스로 서서히 복구가 됩니다.<BR>단점이라 할 만한 건 사우뮴처럼 인챈트에 능하지는 않다는 것이지만, 철 등의 일반적인 금속에 비해서는 잘 되는 편입니다.<BR>이 금속을 다룰 때는 주의를 기울여야 하는데, 이 금속에 의해 상처가 났을 경우 일시적으로 힘이 저하될 수 있습니다.
+#
+tc.research_name.ARMORVOIDFORTRESS=공허의 로브
+tc.research_text.ARMORVOIDFORTRESS=이세계 스타일
+tc.research_page.ARMORVOIDFORTRESS.1=진정으로 깨우친 마도학자라면 기능성과 방어력 사이에서 고민하지 않을 것입니다.<BR>적절한 마법을 이용해서 증강시킨 공허의 갑옷을 마도학자의 로브와 합치면 물리적 방어력뿐만 아니라 마법에 대한 내성도 지니는 로브를 만들어 낼 수 있습니다.<BR>이 로브는 공허의 갑옷의 모든 기능을 그대로 가지며, 특히 후드에는 제작에 들어간 고글의 기능 또한 포함되어 있습니다.<BR>이 로브는 염색이 가능합니다.
+#
+tc.research_name.CAP_void=공허합금 완드캡
+tc.research_text.CAP_void=이세계의 힘
+tc.research_page.CAP_void.1=마법에 저항력이 강한 공허합금으로 완드캡을 만드는 것은 통념에 반하는 행위 같지만, 지금은 기존의 통념을 뒤집는 자가 성공하는 시대입니다.<BR>그리고 이 도박은 꽤 성공적인 것 같아 보입니다. 재료가 된 금속 자체는 마법에 저항이 강할지 몰라도, 이 금속으로 만든 완드캡은 놀라울 정도로 쉽게 마력을 머금습니다. 좀 §o이상하게§r 생각될지 몰라도, 마법이란게 원래 그런식 아니겠습니까.
+#
+tc.research_name.ARCANESPA=아케인 스파
+tc.research_text.ARCANESPA=지친 당신에게 휴식을...
+tc.research_page.ARCANESPA.1=일일이 물에다 정화용 입욕 소금을 타는 것은 귀찮은 일입니다.<BR>당신은 간단한 마법을 통해 자동으로 물과 소금을 섞어주는 기계를 발명했습니다. 기계의 버튼이 녹색 화살표일 때는 배합 모드를, 적색 직선일 때는 채우기 모드를 나타냅니다.<BR>배합 모드일 때는 소금과 물이 섞인 액체를 기계 위 5*5 공간에 채웁니다. 기계가 채우기 모드일 때는 소금의 유무와 상관 없이 탱크의 액체를 기계 위 5*5 공간에 채웁니다.<BR>당신은 기계에 양동이 등으로 클릭을 해 액체를 채울 수 있습니다. 또한 기계에 레드스톤 신호를 줘 작동을 멈출 수 있습니다.
+#
+tc.research_name.SANESOAP=정화의 비누
+tc.research_text.SANESOAP=손씻기는 전염병 예방의 기본!
+tc.research_page.SANESOAP.1=몸을 씻는 것은 간단하지만, 당신의 정신에 있는 뒤틀림을 제거하는 것은 매우 어렵습니다.<BR>이 비누는 당신의 몸을 씻어내지만, 당신의 정신에 미치는 효과가 이 비누가 특별한 이유입니다. 이 비누는 작은 확률이지만 소량의 뒤틀림을 영구적으로 제거할 수 있는 확률을 가집니다.<BR>당신이 뒤틀림 해소 효과를 가지고 있거나 정화의 액체에 들어가 있을 때 뒤틀림을 제거할 확률이 높아집니다.
+#
+tc.research_name.SANITYCHECK=뒤틀림 측정기
+tc.research_text.SANITYCHECK=용기에 대한 성찰
+tc.research_page.SANITYCHECK.1=요즘 들어 마음이 혼란해지는 일들이 잦습니다.<BR>이 장치는 당신의 정신에 뒤틀림이 얼마나 많은 영향을 주는지를 나타냅니다.
+#
+tc.research_name.CRIMSON=크림슨 컬트
+tc.research_text.CRIMSON=당부의 말 한마디
+tc.research_page.CRIMSON.1=이 책의 대부분은 알 수 없는 기호들과 문자로 가득하지만, 크림슨 컬트의 목표에 대한 어떤 이상한 통찰력을 제공합니다.<BR>그들의 기원은 베일에 쌓여있지만, 그들의 목표의 완성은 대략적으로나마 짐작이 갑니다. 그들이 무엇을 하는 것임엔 틀림이 없지만, 그것이 과연 좋은 일인지엔 의심이 갑니다.<BR>흥미롭게도, 당신은 저주 마법의 누락된 조각을 이들에게서 찾을 수 있을지도 모릅니다. 하지만 그걸 시도하는 사람은 아마 미치광이밖에 없을겁니다.
+#
+tc.research_name.OCULUS=개안 의식
+tc.research_text.OCULUS=나는 봤어! 나는 봤다고!
+tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult. The sinister node above the keystone must remain intact.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 100 units of each should be sufficient.
+tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown! 
+#
+tc.research_name.ESSENTIARESERVOIR=고급 에센시아 저장소
+tc.research_text.ESSENTIARESERVOIR=취급주의
+tc.research_page.ESSENTIARESERVOIR.1=대부분의 에센시아는 매우 휘발성이 강합니다. 그래서 특별히 관리에 주의해야 합니다 - 그래서 대부분의 마도학자들은 유리 단지를 에센시아 저장에 사용합니다.<BR>당신은 공허 합금이라는 환상적인 새 물질을 이용해 에센시아의 저장을 크게 개선하는 법을 발견했습니다. 
+tc.research_page.ESSENTIARESERVOIR.2=단지와 비슷하게, 이 장치는 한 면으로만 에센시아를 받거나 내보냅니다. 당신은 이 면의 방향을 정할 수 있습니다. 불행하게도, 이 장치는 골렘이나 에센시아 관을 통해서만 에센시아를 넣고 뺄 수 있습니다.<BR>에센시아가 채워진 이 장치를 부수는 건 음... 멍청한 생각입니다.<BR>당신은 이 대단한 발명을 동료 마도학자들에게 보여 주는 것으로 만족했습니다. 이상하게도, 그들 대부분은 장치가 완벽히 안전함을 확인시켰음에도 불구하고 스트레스에 의한 금속음이 날 때마다 두려움에 떨었습니다.
+#
+tc.research_name.ESSENTIACRYSTAL=에센시아 결정화
+tc.research_text.ESSENTIACRYSTAL=범용성? 간편성?
+tc.research_page.ESSENTIACRYSTAL.1=드디어 액체 상태의 에센시아를 간단한 마법 공식으로 결정화하는 방법을 알아냈습니다!<BR>에센시아 결정화 장치는 주변의 에센시아 튜브에서 에센시아를 끌어와 천천히 결정화된 에센시아의 파편으로 바꿉니다. 결정화된 에센시아는 매우 안정적이고 취급이 용이합니다.<BR>에센시아 결정화기는 결정화된 에센시아를 전방의 인벤토리나 월드로 배출합니다. 이 장치는 레드스톤 신호로 비활성화 할 수 있습니다.<BR>비스 중계기를 통해 Terra 비스를 공급할 경우 빠른 정제 속도를 기대할 수 있습니다.
+#
