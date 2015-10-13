@@ -1,9 +1,9 @@
-Thaumcraft 4
+Thaumcraft 5
 ============
 
 Thaumcraft localization files
 
-Add any localization files here to add language support for Thaumcraft 4
+Add any localization files here to add language support for Thaumcraft 5
 
 Always use the en_US.lang file as the origin of your entries, this is the most up-to-date file!
 

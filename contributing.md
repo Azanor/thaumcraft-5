@@ -1,7 +1,7 @@
 * Do not post questions, ideas or suggestions unless they directly correlate to a bug you're reporting. If you want to do any of the former, do so on the [TC thread](http://www.minecraftforum.net/topic/2011841-).
 * Check the other issues first to make sure yours hasn't been reported yet.
 * Make sure you are running the latest version of Thaumcraft and Forge;
-* Do not report issues for 1.6 versions of Thaumcraft, they aren't supported any more.
+* Do not report issues for 1.7 versions of Thaumcraft, they aren't supported any more.
 * Make sure you list your TC and Forge version at the top of any issue.
 * Issues regarding MCPC+/Cauldron are not accepted. If you find an issue in a server running MCPC+/Cauldron, try to reproduce it in a vanilla (Forge) server. If you can't, report the issue to the MCPC+/Cauldron issue tracker, not here;
 * Issues regarding running Thaumcraft in a developer environment are not accepted, this is not TC addon development hotline;
