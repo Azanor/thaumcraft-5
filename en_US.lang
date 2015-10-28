@@ -38,6 +38,7 @@ warp.text.12=Something is following you.
 warp.text.13=Something is watching you. Maybe it is time to stop.
 warp.text.14=You have a moment of clarity.
 warp.text.15=Your stomach suddenly gurgles very strangely.
+warp.text.16=The faint sound of chanting can be heard nearby.
 #
 # Entities
 ###################################
@@ -99,6 +100,7 @@ entity.Thaumcraft.InhabitedZombie.name=Shambling Husk
 entity.Thaumcraft.TurretBasic.name=Automated Crossbow
 entity.Thaumcraft.TurretFocus.name=Autocaster
 entity.Thaumcraft.TurretEldritch.name=Ancient Autocaster
+entity.Thaumcraft.NodeMagnet.name=Node Magnet
 #
 champion.mod.bold=Bold
 champion.mod.spine=Spined
@@ -166,6 +168,7 @@ tile.slab_wood.silverwood.name=Silverwood Slab
 tile.slab_stone.arcane.name=Arcane Stone Slab
 tile.slab_stone.arcane_brick.name=Arcane Brick Slab
 tile.slab_stone.ancient.name=Ancient Stone Slab
+tile.slab_stone.eldritch.name=Eldritch Stone Slab
 tile.shimmerleaf.name=Shimmerleaf
 tile.cinderpearl.name=Cinderpearl
 tile.vishroom.name=Vishroom
@@ -251,6 +254,7 @@ tile.metal.thaumium.name=Thaumium Block
 tile.metal.void.name=Void Metal Block
 tile.metal.alchemical.name=Alchemical Construct
 tile.metal.advanced_alchemical.name=Advanced Alchemical Construct
+tile.metal.brass.name=Brass Block
 tile.paving_stone.barrier.name=Barrier Stone
 tile.paving_stone.travel.name=Paving Stone of Travel
 tile.flesh_block.name=Block of Flesh
@@ -350,14 +354,20 @@ item.cluster.cinnabar.name=Native Cinnabar Cluster
 item.cluster.gold.name=Native Gold Cluster
 #
 # Resources
-item.vis_filter.name=Vis Filter
+item.filter.name=Essentia Filter
+item.morphic_resonator.name=Morphic Resonator
 item.tallow.name=Magic Tallow
 item.void_seed.name=Void Seed
 item.salis_mundus.name=Salis Mundus
 item.primal_charm.name=Primal Charm
 item.mirrored_glass.name=Mirrored Glass
 item.plate.brass.name=Brass Plate
+item.plate.iron.name=Iron Plate
+item.plate.thaumium.name=Thaumium Plate
+item.plate.void.name=Void Metal Plate
 item.gear.brass.name=Brass Gear
+item.gear.thaumium.name=Thaumium Gear
+item.gear.void.name=Void Metal Gear
 item.wisp_essence.name=Ethereal Essence
 item.fabric.name=Enchanted Fabric
 item.crystal_essence.name=Crystallized Essence
@@ -390,6 +400,7 @@ item.loot_bag.rare.name=Rare Treasure
 tc.lootbag=Click to open or keep to trade
 item.turret.basic.name=Automated Crossbow
 item.turret.focus.name=Autocaster
+item.turret.magnet.name=Node Magnet
 #
 # Tools
 item.thaumonomicon.name=Thaumonomicon
@@ -428,6 +439,9 @@ item.hand_mirror.name=Magic Hand Mirror
 # Armor
 item.goggles.name=Goggles of Revealing
 item.fortress_helm.name=Thaumium Fortress Helm
+item.fortress_helm.mask.0=Grinning Devil
+item.fortress_helm.mask.1=Angry Ghost
+item.fortress_helm.mask.2=Sipping Fiend
 item.fortress_chest.name=Thaumium Fortress Cuirass
 item.fortress_legs.name=Thaumium Fortress Thigh Guards
 item.thaumium_helm.name=Thaumium Helm
@@ -554,6 +568,9 @@ item.runed_tablet.text=It seems to be part of something larger.
 item.research_notes.name=Research Notes
 item.research_notes.discovery.name=Discovery
 item.researchnotes.learn=Right click to learn this discovery
+item.creative_placer.obelisk.name=Obelisk Placer
+item.creative_placer.node.name=Node Placer
+item.creative_placer.caster.name=Ancient Autocaster Placer
 #
 # Text
 item.runic.charge=Runic shield
@@ -637,6 +654,7 @@ wandtable.text3=Start Upgrade
 button.turretfocus.1=Target Animals
 button.turretfocus.2=Target Mobs
 button.turretfocus.3=Target Players
+button.turretfocus.4=Target Friendly
 turretfocus.range=Range %t blocks
 #
 tile.researchtable.noink.0=You have run out of ink!
@@ -688,7 +706,9 @@ tc.wandcharge=This wand currently holds %s vis
 tc.jaressentia=Holds %s essentia
 tc.jarname=Jar of
 tc.markedloc=marked locations
-tc.addclue=You have discovered something new!
+tc.addclue=§aYou have discovered something that could aid future research§0
+tc.addpage=§aYou have discovered something new about %1$s§0
+tc.addaspect=§aYou have discovered something about %1$s§0
 tc.addwarp=§5You have gained permanent Warp!§0
 tc.addwarptemp=§5You have gained temporary Warp!§0
 tc.addwarpsticky=§5You have gained Warp!§0
@@ -717,6 +737,7 @@ tc.inst.3=§eHigh§0
 tc.inst.4=§6Very High§0
 tc.inst.5=§4Dangerous§0
 tc.adv=Advanced
+tc.thaumometer=Press '$s' to change what is displayed
 tc.resonator1=§9Contains %1$s %2$s essentia§0
 tc.resonator2=§5Suction %1$s %2$s §0 
 tc.resonator3=Untyped
@@ -742,7 +763,8 @@ tc.boss.enrage=is enraged by your powerful blows.
 tc.levitator=Range set to %s blocks. (%d vis/sec)
 tc.dioptra.1=Showing %s levels in the aura. 
 tc.dioptra.2=Showing highest aura levels.
-tc.dioptra.3=Showing all aura levels.
+tc.dioptra.3=Showing aura level ratios.
+tc.notowned=This does not belong to you.
 #
 # Aspects
 tc.aspect.primal=Primal Aspect
@@ -755,7 +777,7 @@ tc.aspect.ordo=Order, Regularity, Purity
 tc.aspect.perditio=Entropy, Chaos, Destruction
 tc.aspect.vacuos=Void
 tc.aspect.auram=Aura
-tc.aspect.vitium=Taint
+tc.aspect.vitium=Taint, Change, Mutation
 tc.aspect.lux=Light
 tc.aspect.potentia=Energy, Power
 tc.aspect.motus=Motion, Animation
@@ -781,6 +803,7 @@ tc.aspect.fabrico=Craft
 tc.aspect.desiderium=Wish, Desire, Yearning, Want
 tc.aspect.machina=Mechanism, Machine
 tc.aspect.vinculum=Trap, Imprison
+tc.aspect.permutatio=Exchange, Barter
 #  
 # Research categories
 tc.research_category.BASICS=Basic Information
@@ -828,18 +851,18 @@ tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of a
 #
 tc.research_name.ASPECTS=Aspects of Magic
 tc.research_text.ASPECTS=The building blocks of magic
-tc.research_page.ASPECTS.1=Every item, object or creature is bound by varying mystical elements known as §5aspects§0. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Terra while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 50 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
+tc.research_page.ASPECTS.1=Every item, object or creature is bound by varying mystical elements known as §5aspects§0. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Terra while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 40 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
 tc.research_page.ASPECTS.2=§lPrimal Aspects§r are the most basic types of aspects and there are only 6 of them: §6Aer§0 (air), §2Terra§0 (earth), §cIgnis§0 (fire), §3Aqua§0 (Water), §7Ordo§0 (order), §8Perditio§0 (entropy).<BR>These form the basic building blocks of all other aspects.<BR>§lCompound Aspects§r are built from two other aspects. The simplest compound aspects are made from two primal aspects, but it is possible to have incredibly complex compound aspects made from successive layers of simpler aspects.<BR>The simplest example of such a compound aspect, is the aspect of Victus (life), which is a combination of §2Terra§0 and §3Aqua§0. 
-tc.research_page.ASPECTS.3=To view what aspects an item possesses, simply hover your cursor over the item and press sneak (shift), and you will see what aspects that item has and what amounts of each. You will first need to study the item however, until then the aspects will remain unknown.<LINE>Aspects that have somehow been separated from their object and purified is known as §5Vis§0 and is very valuable: both as a crafting ingredient and as a subject for magical research.<BR>Vis is most often bound into wands, but it is also possible to store it as a magical liquid. Vis stored as a liquid is known as §5Essentia§0.
+tc.research_page.ASPECTS.3=To view what aspects an item possesses, simply hover your cursor over the item and press sneak (shift), and you will see what aspects that item has and what amounts of each.<LINE>Aspects that have somehow been separated from their object and purified is known as §5Vis§0 and is very valuable: both as a crafting ingredient and as a subject for magical research.<BR>Vis is most often bound into wands, but it is also possible to store it as a magical liquid. Vis stored as a liquid is known as §5Essentia§0.
 #
 tc.research_name.NODES=Auras and Nodes
 tc.research_text.NODES=Magic is everywhere
 tc.research_page.NODES.1=The §5Aura§0 is a field of magical energy prevalent throughout the world. Its origin is unclear. Some believe it is the accumulated life force of living beings, while others believe it to merely be another type of energy seeping in from some other place. The last theory seems to be most likely, as the aura is often found surrounding a node of concentrated mystical energy known as an §5Aura Node§0.<BR>The aura has varying levels of energy for each primal. For example, auras near water often has more §3Aqua§0, while those in a desert would have more §cIgnis§0.
-tc.research_page.NODES.2=The aura varies from chunk to chunk based on this. If you the aura in an area becomes depleted then aura will flow in from neighboring areas that have higher energy values. The levels will never quite equalize as the aura acts more like an ocean of thick glue than water.<BR>The aura can also become tainted and gain the §5Vitium§0 (flux) aspect. Flux is 'thicker' and tends gather more in discrete areas before flowing to neighboring chunks. Auras that fall too far below their base levels can also generate Flux.<BR>If too much flux gathers in an area it can lead to §lTaint§r. For more information on taint see the relevant section in your Thaumonomicon.
-tc.research_page.NODES.3=Aura nodes act like a doorway to some other mystical realm through which magical energy seeps. Each node is usually 'tuned' to a §5Primal Aspects§0, but rarely a node may be tuned to a §5Compound Aspect§0.<BR>Nodes cannot be tapped directly, but do slowly replenish the aura around them.<BR>Generally the rate of replenishment seems to vary with the phases of the moon with the full moon having the highest rates.<BR>The size of the node is also directly related to how quickly it will replenish the aura.
-tc.research_page.NODES.4=Aura nodes are hard to see with the naked eye, but faint glimmers of light often betray their presence. Often the only way to determine their presence is to look for elevated aura levels in a localized area.<BR>Nearby nodes often attract each and will move closer together. When they get close enough they will merge with varying results, but usually resulting in a larger node containing features of one or both the original nodes.<BR>There are many different kinds of nodes to be found, but as yet you know very little about them.
+tc.research_page.NODES.2=The aura varies from chunk to chunk based on this. If the aura in an area becomes depleted then aura will flow in from neighboring areas that have higher energy values. The levels will never quite equalize as the aura acts more like an ocean of thick glue than water.<BR>The aura can also become tainted and gain the §5Vitium§0 (flux) aspect. Flux is 'thicker' and tends gather more in discrete areas before flowing to neighboring chunks. Auras that fall too far below their base levels can also generate Flux.<BR>If too much flux gathers in an area it can lead to §lTaint§r. For more information on taint see the relevant section in your Thaumonomicon.
+tc.research_page.NODES.3=Aura nodes act like a doorway to some other mystical realm through which magical energy seeps. Each node is usually 'tuned' to a §5Primal Aspect§0, but rarely a node may be tuned to a §5Compound Aspect§0.<BR>Nodes cannot be tapped directly, but do slowly replenish the aura around them.<BR>Generally the rate of replenishment seems to vary with the phases of the moon with the full moon having the highest rates.<BR>The size of the node is also directly related to how quickly it will replenish the aura.
+tc.research_page.NODES.4=Aura nodes are virtually impossible to see with the naked eye. Often the only way to determine their presence is to look for elevated aura levels in a localized area.<BR>Nearby nodes often attract each other and will move closer together. When they get close enough they will merge with varying results, but usually resulting in a larger node containing features of one or both the original nodes.<BR>There are many different kinds of nodes to be found, but as yet you know very little about them.
 tc.research_page.NODES.A=§l§nAstral Nodes§r<BR>These nodes seems to react to light - the greater the amount of light, the faster they recharge the aura.  
-tc.research_page.NODES.D=§l§nDark Nodes§r<BR>These nodes operate best in darkness and when the moon is waning. Furthermore the area around such nodes is often quite sinister and dangerous as if they are tapping into some evil and dangerous mystical realm.
+tc.research_page.NODES.D=§l§nSinister Nodes§r<BR>These nodes operate best in darkness and when the moon is waning. Furthermore the area around such nodes is often quite sinister and dangerous as if they are tapping into some evil and dangerous mystical realm.
 tc.research_page.NODES.H=§l§nHungry Nodes§r<BR>Instead of recharging the aura, these nodes slowly drain it instead. These nodes seem to increase in size and strength the more aura they consume.<BR>Many thaumaturges speculate that what you call a hungry node may merely be a node seen from the other side, but if that was true then and normal nodes would also grow in size and hungry nodes would be far more common. Fortunately, they are not.
 tc.research_page.NODES.P=§l§nPure Nodes§r<BR>Pure nodes are always a welcome find. They slowly remove any flux from the surrounding aura.
 tc.research_page.NODES.T=§l§nTainted Nodes§r<BR>These nodes are mystically tainted. The energy they tap into has been fouled and will occasionally create flux in the aura they are replenishing.
@@ -900,7 +923,7 @@ tc.research_page.WARP.3=§nFlux§r<BR>If Warp is the mental manifestation of mag
 #######################
 tc.research_name.BASICTHAUMATURGY=Basic Wand Craft
 tc.research_text.BASICTHAUMATURGY=Your first tool
-tc.research_page.BASICTHAUMATURGY.1=The casting wand is your most basic, but also your most important tool. It is what you use to craft objects, activate blocks like the crucible, and countless other tasks.<BR>The most basic wand stores a very limited amount of magical energy (called vis) that it uses to perform its tasks. The replenish the energy in a wand you must simply hold it in your hand and it will draw vis from the aura.<BR>While holding a wand you will see a indicator on the top left of the screen that shows how much vis is stored within the wand.
+tc.research_page.BASICTHAUMATURGY.1=The casting wand is your most basic, but also your most important tool. It is what you use to craft objects, activate blocks like the crucible, and countless other tasks.<BR>The most basic wand stores a very limited amount of magical energy (called vis) that it uses to perform its tasks. To replenish the energy in a wand you must simply hold it in your hand and it will draw vis from the aura.<BR>While holding a wand you will see a indicator on the top left of the screen that shows how much vis is stored within the wand.
 tc.research_page.BASICTHAUMATURGY.2=Holding shift will display exact numbers held by the wand and any possible discounts you have to performing magical tasks.<BR>Wands are always constructed by the combination of a rod and two end-caps. As you progress with your studies, you are sure you will discover different materials that you can use to craft rods and caps to make powerful wands. Only the basic wand can be put together in a normal crafting table. All other wands require the §5Arcane Workbench§0 and will cost vis to construct.<BR>The basic wand is constructed from mundane wood and iron, both of which make poor materials for working magic.
 #
 tc.research_name.NODETAPPER1=Advanced Aura Tapping
@@ -1012,6 +1035,10 @@ tc.research_name.FOCUSPRIMAL=Wand Focus: Primal
 tc.research_text.FOCUSPRIMAL=Raw Magic
 tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
 #
+tc.research_name.FOCUSSHIELDING=Wand Focus: Shielding
+tc.research_text.FOCUSSHIELDING=Protecting your allies
+tc.research_page.FOCUSSHIELDING.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
+#
 tc.research_name.FOCUSPOUCH=Focus Pouch
 tc.research_text.FOCUSPOUCH=Convenient carry container for your foci.
 tc.research_page.FOCUSPOUCH.1=Once you have gathered a sizable collection of foci it is quite annoying to carry them all with you. This pouch solves that problem.<BR>Whenever you change the focus on your wand, it will check this pouch first and any foci that get removed will be placed inside it first. You can also right-click the pouch to place or remove foci by hand.<BR>It can also be carried in your belt bauble slot.
@@ -1036,6 +1063,12 @@ tc.research_page.VISAMULET.2=However the amulet is able to act as a good power s
 tc.research_name.WORKBENCHCHARGER=Arcane Workbench Charger
 tc.research_text.WORKBENCHCHARGER=Arcane Crafting Simplified
 tc.research_page.WORKBENCHCHARGER.1=An annoyance for any thaumaturge that performs regular arcane crafting is to constantly keep his wand charged.<BR>Now that you have found an automated way to draw vis directly from the aura you are able to craft an Arcane Workbench Charger. It is designed to be placed on top of an arcane crafting table and will draw vis from the aura to recharge wands placed in the table.<BR>The only drawback is that it recharges much slower than it would from a wand recharging pedestal or doing it by hand. 
+#
+tc.research_name.NODEMAGNET=Node Attraction
+tc.research_text.NODEMAGNET=It works with magnets
+tc.research_page.NODEMAGNET.1=Manipulating the aura is one thing, but if you were able to move nodes around you could insure a steady supply of vis where and when you want it. To this end you have developed Node Magnets.<BR>The magnet focuses on the nearest node within 32 blocks and slowly draws it towards the itself. It sounds simple, but in effect the node is being forcefully ripped through the aura. This not only requires large amounts of vis of all types, but causes considerable amounts of flux.<BR>The larger a node is, the slower the it moves which leads to more vis being used and more flux being generated.
+tc.research_page.NODEMAGNET.2=The Node Magnet itself is quite fragile and care must be taken not to damage or topple it. It can survive minor knocks, but anything more will shatter the delicate components.<BR>It can be picked up by right-clicking on it with a wand.
+tc.research_page.NODEMAGNET.3=§nWarning!§r<BR><BR>The moment you place down the node magnet you notice something strange: It seems to emit an almost inaudible humming noise that still manages to set your teeth on edge.<BR>Angry grunts and howls from the surrounding area seems to indicate you are not the only one disturbed by the noise.
 #
 # Artifice 
 #######################
@@ -1071,10 +1104,6 @@ tc.research_page.TABLE.1=The table is more than a simple decorative block - it a
 tc.research_name.ARCTABLE=Arcane Workbench
 tc.research_text.ARCTABLE=Crafting with magic
 tc.research_page.ARCTABLE.1=To create an Arcane Workbench simply right-click with a wand on a table you have placed in the world. The Arcane Workbench serves the same purpose as a normal crafting table, with a few key exceptions.<BR>Apart from normal crafting recipes, it can also craft some of the items unique to Thaumaturgy. To do that you need to place a wand in the top-right slot. This will allow you to craft items that require vis by drawing the energy directly from the wand.<BR>The vis required to craft an item will be shown in the six circular symbols surrounding the crafting grid.
-#
-tc.research_name.SINSTONE=Sinister Lodestone 
-tc.research_text.SINSTONE=Do you dare follow it?
-tc.research_page.SINSTONE.1=You have made an interesting discovery during your study of nodes. Different kinds of nodes emit varying types of radiant energy, but none are quite as distinct as that of Sinister nodes.<BR>The energy emitted by Sinister nodes is quite unique and simple to track. By infusing a piece of flint you think you can create a simple scrying device that will light up whenever it is pointed towards such a node.<BR>The range is limited, but it is a worthwhile invention since you have often found Sinister nodes in the most interesting of places.
 #
 tc.research_name.ENCHFABRIC=Enchanted Fabric
 tc.research_text.ENCHFABRIC=Silky and Stylish
@@ -1369,6 +1398,26 @@ tc.research_name.BASICGOLEMANCY=Basic Golemancy
 tc.research_text.BASICGOLEMANCY=Motion Controlled
 tc.research_page.BASICGOLEMANCY.1=You have studied the basic, primitive golems anyone can create and found them lacking. They have potentional, but it is not possible to control them.<BR>You are sure you can do better.
 #
+tc.research_name.MATSTUDWOOD=Material Studies: Wood
+tc.research_text.MATSTUDWOOD=Advanced Wood crafting
+tc.research_page.MATSTUDWOOD.1=Golemancy places great demands on your craftsmanship as it often requires intricate components with very narrow margins for error. You will need to increase your skill and knowledge of both mundane and arcane materials. Your first target is wood.<BR>Wood is a versatile substance and despite its weakness, it is light and easy to work. You have found Greatwood to be a superior wood particularly well suited to golemancy. 
+#
+tc.research_name.MATSTUDIRON=Material Studies: Iron
+tc.research_text.MATSTUDIRON=Advanced Iron crafting
+tc.research_page.MATSTUDIRON.1=Iron has many properties to recommend it - it is much sturdier than wood and malleable in a way that wood can never be. It is harder to work with however and quite heavy.
+#
+tc.research_name.MATSTUDBRASS=Material Studies: Brass
+tc.research_text.MATSTUDBRASS=Advanced Brass crafting
+tc.research_page.MATSTUDBRASS.1=While brass is softer than iron, it is still quite sturdy and well suited to fine mechanical constructs. In your opinion it is the best mundane material for golemancy purposes and you would not dream of crafting intricate metals from any other material. It is quite pleasing to the eye as well. 
+#
+tc.research_name.MATSTUDTHAUMIUM=Material Studies: Thaumium
+tc.research_text.MATSTUDTHAUMIUM=Advanced Thaumium crafting
+tc.research_page.MATSTUDTHAUMIUM.1=Thaumium is an arcane metal that sucks up enchantments like a proverbial sponge. It is significantly stronger than iron too. Unfortunately it is slightly heavier than iron and its strength also makes it hard to work.<BR>While it cannot compete with brass when it comes to intricate clockwork, thaumiums strength makes it a useful material to craft mechanisms that require strength over precision. 
+#
+tc.research_name.MATSTUDVOID=Material Studies: Void Metal
+tc.research_text.MATSTUDVOID=Advanced Void Metal crafting
+tc.research_page.MATSTUDVOID.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
+#
 tc.research_name.HUNGRYCHEST=Hungry Chest
 tc.research_text.HUNGRYCHEST=A chest that doesn't wait to be opened
 tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
@@ -1404,7 +1453,7 @@ tc.research_page.BASICTURRET.1=You have found a way to give a crossbow a mind of
 #
 tc.research_name.FOCUSTURRET=Autocaster
 tc.research_text.FOCUSTURRET=Automated Foci
-tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with via development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce to activation costs of foci.<BR>The autocaster can be placed on any surface and it is possible to fine tune which targets it attacks.<BR>Clicking on it with a wand will pick it up.
+tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with via development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce to activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
 #
 # Eldritch 
 #######################
@@ -1460,4 +1509,8 @@ tc.research_name.OCULUS=Opening the Eye
 tc.research_text.OCULUS=I will show them, I will show them all!
 tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 1000 units of each should be sufficient.
 tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown! 
+#
+tc.research_name.SINSTONE=Sinister Lodestone 
+tc.research_text.SINSTONE=Do you dare follow it?
+tc.research_page.SINSTONE.1=You have made an interesting discovery during your study of the Apertis Oculis ritual. The spot where the "eye" will open emits a very distinct kind of energy that is detectable even when it is still closed.<BR>By infusing a piece of flint you think you can create a simple scrying device that will light up whenever it is pointed towards such an energy signature.<BR>The range is limited, but it is a worthwhile invention since the ritual stones are often hard to find.
 #
