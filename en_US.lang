@@ -215,8 +215,8 @@ tile.candle.green.name=Green Tallow Candle
 tile.candle.red.name=Red Tallow Candle
 tile.candle.black.name=Black Tallow Candle
 tile.pedestal.normal.name=Arcane Pedestal
-tile.pedestal.eldritch.name=Eldritch Altar
-tile.pedestal.ancient.name=Ancient Altar
+tile.pedestal.eldritch.name=Eldritch Pedestal
+tile.pedestal.ancient.name=Ancient Pedestal
 tile.nitor.white.name=White Nitor
 tile.nitor.orange.name=Orange Nitor
 tile.nitor.magenta.name=Magenta Nitor
@@ -258,6 +258,7 @@ tile.metal.brass.name=Brass Block
 tile.paving_stone.barrier.name=Barrier Stone
 tile.paving_stone.travel.name=Paving Stone of Travel
 tile.flesh_block.name=Block of Flesh
+tile.redstone_relay.name=Redstone Relay
 #
 # Misc
 tile.hole.name=Dimensional Tear
@@ -1258,6 +1259,11 @@ tc.research_page.RUNICSPECIAL.1=§nCharged Ring of Shielding§r<BR>This is a spe
 tc.research_page.RUNICSPECIAL.2=§nRevitalizing Ring of Shielding§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but when your runic shielding is breached it will release a pulse of regenerative energy that will last for a few seconds.<BR>This effect cannot trigger more than once every 20 seconds.
 tc.research_page.RUNICSPECIAL.3=§nKinetic Girdle of Shielding§r<BR>This is a specialized version of the Girdle of Shielding.<BR>It has slightly less charge than the girdle it is based on, but when your shielding is breached a detonation of kinetic energy will be released damaging and shoving back anything nearby.<BR>This effect cannot trigger more than once every 20 seconds.
 tc.research_page.RUNICSPECIAL.4= §nAmulet of Emergency Shielding§r<BR>This is a specialized version of the Amulet of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once a minute.
+#
+tc.research_name.REDSTONERELAY=Redstone Relay
+tc.research_text.REDSTONERELAY=Magical Redstone Interaction
+tc.research_page.REDSTONERELAY.1=You have always been curious about the seemingly negative reaction between mystical devices and redstone signals. You have studied the matter and while it is a well-known phenomenon that redstone inhibits magic, you have discovered that in specific circumstances the opposite can be true as well.<BR>One practical application of this is the Redstone Relay. By sending a redstone signal through a magical substance like vis crystals you can inhibit it as much or as little as you want.
+tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay the activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.
 #
 # Alchemy 
 #######################
