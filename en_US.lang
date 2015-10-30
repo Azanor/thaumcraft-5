@@ -1036,10 +1036,6 @@ tc.research_name.FOCUSPRIMAL=Wand Focus: Primal
 tc.research_text.FOCUSPRIMAL=Raw Magic
 tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
 #
-tc.research_name.FOCUSSHIELDING=Wand Focus: Shielding
-tc.research_text.FOCUSSHIELDING=Protecting your allies
-tc.research_page.FOCUSSHIELDING.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
-#
 tc.research_name.FOCUSPOUCH=Focus Pouch
 tc.research_text.FOCUSPOUCH=Convenient carry container for your foci.
 tc.research_page.FOCUSPOUCH.1=Once you have gathered a sizable collection of foci it is quite annoying to carry them all with you. This pouch solves that problem.<BR>Whenever you change the focus on your wand, it will check this pouch first and any foci that get removed will be placed inside it first. You can also right-click the pouch to place or remove foci by hand.<BR>It can also be carried in your belt bauble slot.
@@ -1084,7 +1080,7 @@ tc.research_page.ARCANELAMP.2=§nArcane Bore§r<BR>When attached to the base of 
 #
 tc.research_name.THAUMOMETER=Thaumometer
 tc.research_text.THAUMOMETER=Measuring Magic
-tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to click on things to scan them.<BR>Secondly They display the current aura in the chunk you are located. Pressing 'F' while holding it allows you to change what aspect of the aura it displays. 
+tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to click on things to scan them. Things that can be scanned for new information will be surrounded by golden questionmarks while you hold the thaumometer<BR>Secondly They display the current aura in the chunk you are located. Pressing 'F' while holding it allows you to change what aspect of the aura it displays. 
 #
 tc.research_name.GOGGLES=Goggles of Revealing
 tc.research_text.GOGGLES=Seeing the Unseen
@@ -1263,7 +1259,7 @@ tc.research_page.RUNICSPECIAL.4= §nAmulet of Emergency Shielding§r<BR>This is 
 tc.research_name.REDSTONERELAY=Redstone Relay
 tc.research_text.REDSTONERELAY=Magical Redstone Interaction
 tc.research_page.REDSTONERELAY.1=You have always been curious about the seemingly negative reaction between mystical devices and redstone signals. You have studied the matter and while it is a well-known phenomenon that redstone inhibits magic, you have discovered that in specific circumstances the opposite can be true as well.<BR>One practical application of this is the Redstone Relay. By sending a redstone signal through a magical substance like vis crystals you can inhibit it as much or as little as you want.
-tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay the activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.
+tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay to activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.
 #
 # Alchemy 
 #######################
@@ -1333,7 +1329,7 @@ tc.research_page.DISTILESSENTIA2.1=The Thaumium Smeltery works much like the bas
 #
 tc.research_name.DISTILESSENTIA3=Void Metal Essentia Smeltery
 tc.research_text.DISTILESSENTIA3=Harvesting essentia
-tc.research_page.DISTILESSENTIA3.1=The Void Metal Smeltery works much like the basic smeltery, but it has roughly 95% efficiency instead of 80%.<BR>It breaks down essentia slurry slightly quicker than the basic smeltery, but not nearly as fast as the thaumium smeltery.
+tc.research_page.DISTILESSENTIA3.1=The Void Metal Smeltery works much like the basic smeltery, but it has roughly 95% efficiency instead of 80%.<BR>It breaks down essentia slurry slightly quicker than the basic smeltery, but not nearly as fast as the thaumium smeltery.<LINE>When crafting the Advanced Alchemical Construct the primordial pearl is not consumed - it is merely required as a catalyst.
 #
 tc.research_name.IMPROVED_DISTILLATION=Improved Essentia Distillation
 tc.research_text.IMPROVED_DISTILLATION=Essentia Harvesting... Improved
@@ -1432,7 +1428,7 @@ tc.research_name.ARCANEBORE=Arcane Bore
 tc.research_text.ARCANEBORE=Mining evolved
 tc.research_page.ARCANEBORE.1=You have discovered a device capable of extending the range and power of an Excavation focus. Of even greater use is the fact that the machine can do so without your constant supervision. You merely need to place it on a specially constructed base, point it in the right direction with a wand and apply a redstone signal.<BR>The arcane bore requires two things to function. The first is an excavation focus placed in its leftmost inventory slot. Any enchantments applied to the focus will also alter the functions of the bore. 
 tc.research_page.ARCANEBORE.2=Secondly you need to place any kind of pickaxe into the rightmost slot. The material of the pickaxe will have little effect on the operation of the bore, but the greater its durability, the longer it will last. Like the wand, any enchantments or special abilities of the pickaxe will also be applied to whatever the bore mines.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing.<BR>It will eject into an inventory if possible. This direction can be changed with a wand.
-tc.research_page.ARCANEBORE.3=The bore can be powered with §8Perditio§0 essentia or vis which will greatly speed up the rate at which it mines. Vis or essentia can be provided by pipes and/or relays as normal.<BR>One point of §8Perditio§0 essentia will speed the bore for the next 20 blocks mined. Alternatively 5 CV is required per block mined and the bore can accept up to 100 CV per tick.
+tc.research_page.ARCANEBORE.3=The bore can be powered with §8Perditio§0 essentia which will greatly speed up the rate at which it mines. Essentia can be provided by pipes as normal.<BR>One point of §8Perditio§0 essentia will speed the bore for the next 20 blocks mined.<BR>If no essentia is provided the bore will use §8Perditio§0 vis to function. It is drawn from the aura and a single point of vis will be able to mine about 5 blocks. The speed will be much slower when powered by vis.
 #
 tc.research_name.TRAVELTRUNK=Traveling Trunk
 tc.research_text.TRAVELTRUNK=Mobile Luggage
@@ -1493,10 +1489,6 @@ tc.research_name.PRIMPEARL=Primordial Pearl
 tc.research_text.PRIMPEARL=What came before
 tc.research_page.PRIMPEARL.1=For the first time you find yourself with a puzzle that you do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what you consider normal, everyday primal aspects. You have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of
 tc.research_page.PRIMPEARL.2=magic as you have come to understand it. You are not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is time you start putting it to use.
-#
-tc.research_name.PRIMNODE=Primordial Node Manipulation 
-tc.research_text.PRIMNODE=Just rub them together and see what happens
-tc.research_page.PRIMNODE.1=You have developed a bit of a wild theory that might be worth exploring. Why not bring a primordial pearl into contact with an aura node?<BR>Sure, bringing two such sources of raw magical energy into contact with each other might be catastrophic, but their interaction could also be highly... interesting.<BR>While anyone can do this, you are sure that completing this research has slightly improved your chances of getting a good result. Very slightly.
 #
 tc.research_name.PRIMALCRUSHER=Primal Crusher 
 tc.research_text.PRIMALCRUSHER=Breaking all the things
