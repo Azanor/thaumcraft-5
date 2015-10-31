@@ -967,11 +967,11 @@ tc.research_page.CAP_void.1=Crafting wand caps from void metal seems counterintu
 #
 tc.research_name.ROD_greatwood=Greatwood Wand Core
 tc.research_text.ROD_greatwood=Repository of magical energy
-tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has double the vis storage potential of mundane wood, being able to store up to 500 vis of each type.
+tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has double the vis storage potential of mundane wood, being able to store up to 250 vis of each type.
 #
 tc.research_name.ROD_silverwood=Silverwood Wand Core
 tc.research_text.ROD_silverwood=Magical to the core
-tc.research_page.ROD_silverwood.1=Silverwood has proved to be an excellent repository of magical energy, and wand cores crafted from it can store up to 1000 vis of each type.
+tc.research_page.ROD_silverwood.1=Silverwood has proved to be an excellent repository of magical energy, and wand cores crafted from it can store up to 500 vis of each type.
 #
 tc.research_name.SCEPTRE=Crafting Scepters
 tc.research_text.SCEPTRE=Made to task
@@ -988,16 +988,16 @@ tc.research_page.PRIMALRODS.6=§l§nBone Wand Core§r<BR>A bone used as a wand c
 #
 tc.research_name.PRIMALSTAVES=Elemental Staves 
 tc.research_text.PRIMALSTAVES=Elemental vis storage
-tc.research_page.PRIMALSTAVES.1=Like the elemental wand cores, these stave cores are linked to a specific primal element which grants them additional abilities and slowly replenish their vis stores if they get low enough. They can store 1750 vis of each type.
+tc.research_page.PRIMALSTAVES.1=Like the elemental wand cores, these stave cores are linked to a specific primal element which grants them additional abilities and slowly replenish their vis stores if they get low enough. They can store 750 vis of each type.
 #
 tc.research_name.ROD_greatwood_staff=Magic Staves
 tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
 tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for your buck. Magical staves are basically just bigger wands. They are able to store more vis.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.<BR>Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.
-tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has more than double the vis storage potential of a greatwood wand, being able to store up to 1250 vis of each type.<BR>Note: You still need to add caps to a stave rod, just like you would for a wand.
+tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has double the vis storage potential of a greatwood wand, being able to store up to 500 vis of each type.<BR>Note: You still need to add caps to a stave rod, just like you would for a wand.
 #
 tc.research_name.ROD_silverwood_staff=Silverwood Staff Core
 tc.research_text.ROD_silverwood_staff=Magical to the core
-tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 2500 vis of each type.
+tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 1000 vis of each type.
 #
 tc.research_name.ROD_primal_staff=Staff Core of the Primal
 tc.research_text.ROD_primal_staff=Elemental power combined
@@ -1063,7 +1063,7 @@ tc.research_page.WORKBENCHCHARGER.1=An annoyance for any thaumaturge that perfor
 #
 tc.research_name.NODEMAGNET=Node Attraction
 tc.research_text.NODEMAGNET=It works with magnets
-tc.research_page.NODEMAGNET.1=Manipulating the aura is one thing, but if you were able to move nodes around you could insure a steady supply of vis where and when you want it. To this end you have developed Node Magnets.<BR>The magnet focuses on the nearest node within 32 blocks and slowly draws it towards the itself. It sounds simple, but in effect the node is being forcefully ripped through the aura. This not only requires large amounts of vis of all types, but causes considerable amounts of flux.<BR>The larger a node is, the slower the it moves which leads to more vis being used and more flux being generated.
+tc.research_page.NODEMAGNET.1=Manipulating the aura is one thing, but if you were able to move nodes around you could insure a steady supply of vis where and when you want it. To this end you have developed Node Magnets.<BR>The magnet focuses on the nearest node within 32 blocks and slowly draws it towards the itself. It sounds simple, but in effect the node is being forcefully ripped through the aura. This not only requires large amounts of vis of all types, but causes considerable amounts of flux.<BR>The larger a node is, the slower the it moves.
 tc.research_page.NODEMAGNET.2=The Node Magnet itself is quite fragile and care must be taken not to damage or topple it. It can survive minor knocks, but anything more will shatter the delicate components.<BR>It can be picked up by right-clicking on it with a wand.
 tc.research_page.NODEMAGNET.3=§nWarning!§r<BR><BR>The moment you place down the node magnet you notice something strange: It seems to emit an almost inaudible humming noise that still manages to set your teeth on edge.<BR>Angry grunts and howls from the surrounding area seems to indicate you are not the only one disturbed by the noise.
 #
@@ -1148,7 +1148,7 @@ tc.research_page.INFUSIONBOOST.1=You have found a way to improve infusion altars
 #
 tc.research_name.JARBRAIN=Brain in a Jar
 tc.research_text.JARBRAIN=Sealing in the foulness
-tc.research_page.JARBRAIN.1=- Throw one rotten zombie brain into a jar.<BR>- Add some spider eyes and water.<BR>- Stir gently with your wand while thinking dark thoughts.<BR>If you follow the recipe exactly you should now have a partially animated and fully malicious zombie brain.<BR>It retains some of the hunger it possessed as a zombie and while it cannot consume brains, it still enjoys eating the thoughts and experiences of those slain nearby. Giving its jar a good shake will make it surrender some of its ill-gotten gains for your own use.<BR>Particle effects will be displayed above the jar when it is full.
+tc.research_page.JARBRAIN.1=You have discovered a way to reanimate a zombie brain and put it to your own dark uses.<BR>It retains some of the hunger it possessed as a zombie and while it cannot consume brains, it still enjoys eating the thoughts and experiences of those slain nearby. Giving its jar a good shake will make it surrender some of its ill-gotten gains for your own use.<BR>Particle effects will be displayed above the jar when it is full.
 #
 tc.research_name.HOVERHARNESS=Thaumostatic Harness
 tc.research_text.HOVERHARNESS=Is it a bird?
@@ -1428,7 +1428,7 @@ tc.research_name.ARCANEBORE=Arcane Bore
 tc.research_text.ARCANEBORE=Mining evolved
 tc.research_page.ARCANEBORE.1=You have discovered a device capable of extending the range and power of an Excavation focus. Of even greater use is the fact that the machine can do so without your constant supervision. You merely need to place it on a specially constructed base, point it in the right direction with a wand and apply a redstone signal.<BR>The arcane bore requires two things to function. The first is an excavation focus placed in its leftmost inventory slot. Any enchantments applied to the focus will also alter the functions of the bore. 
 tc.research_page.ARCANEBORE.2=Secondly you need to place any kind of pickaxe into the rightmost slot. The material of the pickaxe will have little effect on the operation of the bore, but the greater its durability, the longer it will last. Like the wand, any enchantments or special abilities of the pickaxe will also be applied to whatever the bore mines.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing.<BR>It will eject into an inventory if possible. This direction can be changed with a wand.
-tc.research_page.ARCANEBORE.3=The bore can be powered with §8Perditio§0 essentia which will greatly speed up the rate at which it mines. Essentia can be provided by pipes as normal.<BR>One point of §8Perditio§0 essentia will speed the bore for the next 20 blocks mined.<BR>If no essentia is provided the bore will use §8Perditio§0 vis to function. It is drawn from the aura and a single point of vis will be able to mine about 5 blocks. The speed will be much slower when powered by vis.
+tc.research_page.ARCANEBORE.3=The bore can be powered with §8Perditio§0 essentia which will greatly speed up the rate at which it mines. Essentia can be provided by pipes as normal.<BR>One point of §8Perditio§0 essentia will speed the bore for the next 20 blocks mined.<BR>If no essentia is provided the bore will use §8Perditio§0 vis to function. It is drawn from the aura and a single point of vis will only be able to mine a single block. The speed will be much slower when powered by vis.
 #
 tc.research_name.TRAVELTRUNK=Traveling Trunk
 tc.research_text.TRAVELTRUNK=Mobile Luggage
