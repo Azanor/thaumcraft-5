@@ -158,6 +158,7 @@ tile.stone.matrix_cost.name=Infusion Cost Stone
 tile.stone.ancient_doorway.name=Ancient Doorway
 tile.stone.glyphed.name=Glyphed Stone
 tile.stone.bedrock.name=Starry Void
+tile.stone.porous.name=Porous Stone
 tile.arcane_stairs.name=Arcane Stone Stairs
 tile.arcane_brick_stairs.name=Arcane Brick Stairs
 tile.ancient_stairs.name=Ancient Stone Stairs
@@ -185,6 +186,7 @@ tile.taint_fibre.name=Fibrous Taint
 tile.taint.crust.name=Crusted Taint
 tile.taint.soil.name=Tainted Soil
 tile.taint.geyser.name=Taint Geyser
+tile.taint.rock.name=Tainted Rock
 tile.taint_feature.name=Swollen Taint
 tile.eldritch.altar.name=Eldritch Altar
 tile.eldritch.obelisk_base.name=Eldritch Obelisk
@@ -302,6 +304,7 @@ tile.smelter_thaumium.name=Thaumium Essentia Smeltery
 tile.smelter_void.name=Void Metal Essentia Smeltery
 tile.alembic.alembic_normal.name=Arcane Alembic
 tile.smelter_aux.name=Auxiliary Slurry Pump
+tile.smelter_vent.name=Auxiliary Venting Port
 tile.arcane_bore_base.name=Arcane Bore Base
 tile.arcane_bore.name=Arcane Bore
 tile.thaumatorium.name=Thaumatorium
@@ -584,8 +587,8 @@ item.chargebonus.text=Charge
 ##############################
 fluid.fluxGoo=Flux Goo
 fluid.fluxGas=Flux Gas
-fluid.fluidPure=Purifying Fluid
-fluid.fluidDeath=Liquid Death
+fluid.purifying_fluid=Purifying Fluid
+fluid.liquid_death=Liquid Death
 #
 # General Focus Upgrades
 ##############################
@@ -709,7 +712,7 @@ tc.jarname=Jar of
 tc.markedloc=marked locations
 tc.addclue=§aYou have discovered something that could aid future research§0
 tc.addpage=§aYou have discovered something new about %1$s§0
-tc.addaspect=§aYou have discovered something about %1$s§0
+tc.addaspect=§aYou have gained practical knowledge of %1$s§0
 tc.addwarp=§5You have gained permanent Warp!§0
 tc.addwarptemp=§5You have gained temporary Warp!§0
 tc.addwarpsticky=§5You have gained Warp!§0
@@ -865,7 +868,7 @@ tc.research_page.NODES.4=Aura nodes are virtually impossible to see with the nak
 tc.research_page.NODES.A=§l§nAstral Nodes§r<BR>These nodes seems to react to light - the greater the amount of light, the faster they recharge the aura.  
 tc.research_page.NODES.D=§l§nSinister Nodes§r<BR>These nodes operate best in darkness and when the moon is waning. Furthermore the area around such nodes is often quite sinister and dangerous as if they are tapping into some evil and dangerous mystical realm.
 tc.research_page.NODES.H=§l§nHungry Nodes§r<BR>Instead of recharging the aura, these nodes slowly drain it instead. These nodes seem to increase in size and strength the more aura they consume.<BR>Many thaumaturges speculate that what you call a hungry node may merely be a node seen from the other side, but if that was true then and normal nodes would also grow in size and hungry nodes would be far more common. Fortunately, they are not.
-tc.research_page.NODES.P=§l§nPure Nodes§r<BR>Pure nodes are always a welcome find. They slowly remove any flux from the surrounding aura.
+tc.research_page.NODES.P=§l§nPure Nodes§r<BR>Pure nodes are always a welcome find. They slowly remove any flux from the surrounding aura, though this seems to weaken and eventually destroy them.
 tc.research_page.NODES.T=§l§nTainted Nodes§r<BR>These nodes are mystically tainted. The energy they tap into has been fouled and will occasionally create flux in the aura they are replenishing.
 tc.research_page.NODES.U=§l§nUnstable Nodes§r<BR>These nodes are highly unstable and the type of aspect they replenish will occasionally change to some other random primal.
 #
@@ -967,7 +970,7 @@ tc.research_page.CAP_void.1=Crafting wand caps from void metal seems counterintu
 #
 tc.research_name.ROD_greatwood=Greatwood Wand Core
 tc.research_text.ROD_greatwood=Repository of magical energy
-tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has double the vis storage potential of mundane wood, being able to store up to 250 vis of each type.
+tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has more than double the vis storage potential of mundane wood, being able to store up to 250 vis of each type.
 #
 tc.research_name.ROD_silverwood=Silverwood Wand Core
 tc.research_text.ROD_silverwood=Magical to the core
@@ -979,7 +982,7 @@ tc.research_page.SCEPTRE.1=Crafting scepters are specialized wands made to be us
 #
 tc.research_name.PRIMALRODS=Elemental Wand Cores
 tc.research_text.PRIMALRODS=Elemental vis storage
-tc.research_page.PRIMALRODS.1=Each of these wand cores is linked to a specific primal element which grants them additional abilities.<LINE>§l§nReed Wand Core§r<BR>A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_page.PRIMALRODS.1=Each of these wand cores is linked to a specific primal element which grants them additional abilities.<LINE>§l§nReed Wand Core§r<BR>A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, its will slowly replenish without drawing from the aura.
 tc.research_page.PRIMALRODS.2=§l§nBlazing Wand Core§r<BR>Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
 tc.research_page.PRIMALRODS.3=§l§nObsidian Wand Core§r<BR>A wand core chiseled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
 tc.research_page.PRIMALRODS.4=§l§nIcy Wand Core§r<BR>Wand cores crafted from ice can store slightly more vis than greatwood cores. What makes it superior to greatwood cores however is that if the level of §3Aqua§0 stored inside it drops below 10%, its icy nature will slowly replenish it.
@@ -1054,8 +1057,7 @@ tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wan
 #
 tc.research_name.VISAMULET=Vis Storage
 tc.research_text.VISAMULET=Waste not, Want not
-tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>Your success has been mixed however. You can only recharge wands while holding them in your hand and even then the recharge rate is slow. 
-tc.research_page.VISAMULET.2=However the amulet is able to act as a good power source for other things like the Repair enchant or runic shielding.<BR>The amulet recharges itself slowly while worn, or it can be placed in a recharge pedestal.
+tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>The amulet will only recharge wands or items located in your hotbar. The amulet can also be placed in a recharge pedestal.
 #
 tc.research_name.WORKBENCHCHARGER=Arcane Workbench Charger
 tc.research_text.WORKBENCHCHARGER=Arcane Crafting Simplified
@@ -1063,7 +1065,7 @@ tc.research_page.WORKBENCHCHARGER.1=An annoyance for any thaumaturge that perfor
 #
 tc.research_name.NODEMAGNET=Node Attraction
 tc.research_text.NODEMAGNET=It works with magnets
-tc.research_page.NODEMAGNET.1=Manipulating the aura is one thing, but if you were able to move nodes around you could insure a steady supply of vis where and when you want it. To this end you have developed Node Magnets.<BR>The magnet focuses on the nearest node within 32 blocks and slowly draws it towards the itself. It sounds simple, but in effect the node is being forcefully ripped through the aura. This not only requires large amounts of vis of all types, but causes considerable amounts of flux.<BR>The larger a node is, the slower the it moves.
+tc.research_page.NODEMAGNET.1=Manipulating the aura is one thing, but if you were able to move nodes around you could insure a steady supply of vis where and when you want it. To this end you have developed Node Magnets.<BR>The magnet focuses on the nearest node within 32 blocks and slowly draws it towards itself. It sounds simple, but in effect the node is being forcefully ripped through the aura. This not only requires large amounts of vis of all types, but causes considerable amounts of flux.<BR>The larger a node is, the slower the it moves.
 tc.research_page.NODEMAGNET.2=The Node Magnet itself is quite fragile and care must be taken not to damage or topple it. It can survive minor knocks, but anything more will shatter the delicate components.<BR>It can be picked up by right-clicking on it with a wand.
 tc.research_page.NODEMAGNET.3=§nWarning!§r<BR><BR>The moment you place down the node magnet you notice something strange: It seems to emit an almost inaudible humming noise that still manages to set your teeth on edge.<BR>Angry grunts and howls from the surrounding area seems to indicate you are not the only one disturbed by the noise.
 #
@@ -1266,15 +1268,15 @@ tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters 
 tc.research_name.CRUCIBLE=Basic Alchemy
 tc.research_text.CRUCIBLE=Bubble and Boil
 tc.research_page.CRUCIBLE.1=To craft the Crucible, you must simply use your wand on a cauldron placed in the world.<BR>The crucible is an important tool for any thaumaturge. It allows him to render physical objects into their component Essentia and recombine it again as he wishes.<BR>The crucible needs to be placed over a source of constant heat and filled with water. Once the water starts boiling you simply throw any items you wish into the crucible and they will be broken down into their component Essentia.<BR>If you know the proper formula and the mix of essentia within the    
-tc.research_page.CRUCIBLE.2=crucible is correct, you can then drop a special item into the crucible known as a Catalyst. The catalyst draws the essentia into itself and transforms into a whole new item that the crucible then ejects.<BR>Any leftover Essentia remains within the crucible for further use, but it is not a good idea to leave essentia within a crucible for too long.<BR>Crafting also uses some of the water within the crucible and you will eventually need to refill it.<BR>Essentia within the crucible is constantly degrading. Compound essentia degrades into one of its component aspects, and Primal essentia simply evaporates.  
-tc.research_page.CRUCIBLE.3=Beyond the waste of resources, evaporating and degrading essentia can cause many strange side-effects.<BR>You can empty a crucible by shift right-clicking on it with a wand. All the essentia is dumped into the atmosphere... not something you would want to do too often.
-tc.research_page.CRUCIBLE.4=There are some basic alchemical recipes that anyone can perform. See the following pages for their recipes.<LINE>§nBalanced Vis Shards§r<BR><BR>These are normal vis shards that have been alchemically infused with the five primal elements they do not already possess. This results in a shard of crystal that is perfectly resonating with primal energy.<BR>Smelting a balanced vis shard in a furnace creates Salis Mundus (see following pages).
+tc.research_page.CRUCIBLE.2=crucible is correct, you can then drop a special item into the crucible known as a Catalyst. The catalyst draws the essentia into itself and transforms into a whole new item that the crucible then ejects.<BR>Any leftover Essentia remains within the crucible for further use, but it is not a good idea to leave essentia within a crucible for too long as it will eventually degrade into Flux.<BR>Crafting also uses some of the water within the crucible and you will eventually need to refill it.  
+tc.research_page.CRUCIBLE.3=You can empty a crucible by shift right-clicking on it with a wand. All the essentia is dumped into the atmosphere as flux... not something you would want to do too often.<LINE>There are some basic alchemical recipes that anyone can perform. See the following pages for their recipes.
+tc.research_page.CRUCIBLE.4=§nBalanced Vis Shards§r<BR><BR>These are normal vis shards that have been alchemically infused with the five primal elements they do not already possess. This results in a shard of crystal that is perfectly resonating with primal energy.<BR>Smelting a balanced vis shard in a furnace creates Salis Mundus (see following pages).
 tc.research_page.CRUCIBLE.5=§nSalis Mundus§r<BR><BR>Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by exposing a balanced vis shard to high enough heat that it shatters into a fine powder.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavor (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.
 #
 tc.research_name.METALLURGY=Magical Metallurgy
 tc.research_text.METALLURGY=Where metals meet magic
-tc.research_page.METALLURGY.1=Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armor in a crafting table using the normal recipes.
-tc.research_page.METALLURGY.2=While thaumium has many useful features, sometimes mundane metals are better suited to certain tasks. Brass is a sturdy, low friction metal perfectly suited to craft intricate mechanical devices.<BR>Unfortunately it is not always possible to get hold of it due to the morphic properties of the universe you may find yourself in. Fortunately you have found an alchemical method of crafting this useful metal.
+tc.research_page.METALLURGY.1=Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to the discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armor in a crafting table using the normal recipes.
+tc.research_page.METALLURGY.2=§nAlchemical Brass§r<BR>While thaumium has many useful features, sometimes mundane metals are better suited to certain tasks. Brass is a sturdy, low friction metal perfectly suited to craft intricate mechanical devices.<BR>Unfortunately it is not always possible to get hold of it due to the morphic properties of the universe you may find yourself in. Fortunately you have found an alchemical method of crafting this useful metal.
 #
 tc.research_name.NITOR=Nitor
 tc.research_text.NITOR=Mystical Flame
@@ -1334,6 +1336,7 @@ tc.research_page.DISTILESSENTIA3.1=The Void Metal Smeltery works much like the b
 tc.research_name.IMPROVED_DISTILLATION=Improved Essentia Distillation
 tc.research_text.IMPROVED_DISTILLATION=Essentia Harvesting... Improved
 tc.research_page.IMPROVED_DISTILLATION.1=While smelters can be very fast, they could always be faster - especially the speed at which they break down the essentia slurry into usable essentia.<BR>Each Auxiliary Slurry Pump placed on the side of a smelter acts as a secondary processor, outputting refined essentia to any alembics placed above it.
+tc.research_page.IMPROVED_DISTILLATION.2=You have also discovered a way to manage the flux generated by the smelting process. By running the slurry through a secondary set of essentia filters you are able to separate out the flux and safely vent it as harmless steam.<BR>The process manages to reduce flux produced by about a third and additional vents will increase this, though there is diminishing returns. 
 #
 tc.research_name.JARLABEL=Warded Jars and Labels
 tc.research_text.JARLABEL=Storing and organizing essentia
@@ -1355,7 +1358,7 @@ tc.research_page.TUBES.4=Tubes can be connected and disconnected from their neig
 #
 tc.research_name.CENTRIFUGE=Alchemical Centrifuge
 tc.research_text.CENTRIFUGE=Taking things apart
-tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wondrous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system, it would be best to connect a §5Essentia Buffer§0 to the top of the centrifuge (see next page).
+tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wondrous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system, it would be best to connect a §5Essentia Buffer§0 to the top of the centrifuge.
 #
 tc.research_name.JARVOID=Void Jar
 tc.research_text.JARVOID=Too much essentia? Impossible!
