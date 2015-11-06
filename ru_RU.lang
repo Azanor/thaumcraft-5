@@ -44,14 +44,14 @@ warp.text.16=Слабое пение слышится неподалёку...
 ###################################
 entity.Thaumcraft.AuraNode.name=Узел Ауры
 entity.Thaumcraft.Golem.name=Голем
-entity.Thaumcraft.ThaumSlime.name=Таум-слизень
+entity.Thaumcraft.ThaumSlime.name=Таумический слизень
 entity.Thaumcraft.Dart.name=Болт голема
 entity.Thaumcraft.FrostShard.name=Глыба льда
 entity.Thaumcraft.ExplosiveOrb.name=Огненный шар
-entity.Thaumcraft.ShockOrb.name=Шоковый шар
+entity.Thaumcraft.ShockOrb.name=Шаровая молния
 entity.Thaumcraft.GolemOrb.name=Энергетический шар
 entity.Thaumcraft.BottleTaint.name=Порча в бутылке
-entity.Thaumcraft.Firebat.name=Огненная мышь
+entity.Thaumcraft.Firebat.name=Адская мышь
 entity.Thaumcraft.Wisp.name=Висп
 entity.Thaumcraft.Alumentum.name=Алюментум
 entity.Thaumcraft.GiantBrainyZombie.name=Яростный зомби
@@ -62,8 +62,8 @@ entity.Thaumcraft.FallingTaint.name=Заражённый осадок
 entity.Thaumcraft.AspectOrb.name=Сфера аспекта
 entity.Thaumcraft.TaintSpider.name=Заражённый паучок
 entity.Thaumcraft.Taintacle.name=Заражённое щупальце
-entity.Thaumcraft.TaintacleTiny.name=Заражённое усико
-entity.Thaumcraft.TaintacleGiant.name=огромный заражённый тентакль
+entity.Thaumcraft.TaintacleTiny.name=Заражённый ус
+entity.Thaumcraft.TaintacleGiant.name=Огромная заражённая тентакля
 entity.Thaumcraft.TaintSpore.name=Заражённая спора
 entity.Thaumcraft.TaintSwarmer.name=Заражённый роевик
 entity.Thaumcraft.TaintSwarm.name=Заражённый рой
@@ -75,16 +75,16 @@ entity.Thaumcraft.TaintedSheep.name=Заражённая овца
 entity.Thaumcraft.TaintedCow.name=Заражённая корова
 entity.Thaumcraft.TaintedCreeper.name=Заражённый крипер
 entity.Thaumcraft.Pech.name=Гном-добытчик
-entity.Thaumcraft.Pech.1.name=Гном-маг
+entity.Thaumcraft.Pech.1.name=Гном-колдун
 entity.Thaumcraft.Pech.2.name=Гном-искатель
 entity.Thaumcraft.PrimalOrb.name=Шар первоначальной энергии
 entity.Thaumcraft.TravelingTrunk.name=Ходячий сундук
-entity.trunk.guiname= сундук
+entity.trunk.guiname=Ходячий сундук
 entity.trunk.move=Сундук будет следовать за Вами
 entity.trunk.stay=Сундук будет стоять здесь
 entity.Thaumcraft.MindSpider.name=Мозговой паук
 entity.Thaumcraft.EldritchGuardian.name=Древний страж
-entity.Thaumcraft.EldritchWarden.name=Древний смотритель
+entity.Thaumcraft.EldritchWarden.name=Древний страж
 entity.Thaumcraft.EldritchWarden.name.custom=%s - %d
 entity.Thaumcraft.EldritchGolem.name=Древний голем
 entity.Thaumcraft.EldritchGolem.name.custom=%s древний голем
@@ -124,7 +124,7 @@ tc.boss.taint=Откуда-то доносится органический хр
 # Blocks
 ###################################
 # World
-tile.ore_amber.name=Янтарная руда
+tile.ore_amber.name=Янтарь
 tile.ore_cinnabar.name=Киноварь
 tile.crystal_aer.name=Скопление грозовых кристаллов
 tile.crystal_ignis.name=Скопление огненных кристаллов
@@ -281,7 +281,7 @@ tile.crucible.name=Тигель
 tile.arcane_ear.name=Магическое ухо
 tile.levitator.name=Магический подъемник
 tile.bellows.name=Магические меха
-tile.dioptra.name=Thaumic Dioptra
+tile.dioptra.name=Устройство для мониторинга ауры
 tile.water_jug.name=Вечный фонтан
 tile.recharge_pedestal.name=Перезарядочный пьедестал
 tile.hungry_chest.name=Голодный сундук
@@ -290,7 +290,7 @@ tile.lamp_growth.name=Светильник роста
 tile.lamp_fertility.name=Светильник плодородия
 tile.jar.jar_normal.name=Магическая банка
 tile.jar.jar_void.name=Пустотная банка
-tile.jar.jar_brain.name=Мозг-в-банке
+tile.jar.jar_brain.name=Мозг в банке
 tile.tube.tube_normal.name=Труба эссенции
 tile.tube.tube_valve.name=Клапан эссенции
 tile.tube.tube_filter.name=Труба-фильтр эссенции
@@ -359,7 +359,7 @@ item.filter.name=Фильтр эссенции
 item.morphic_resonator.name=Морфорезонатор
 item.tallow.name=Магический жир
 item.void_seed.name=Семя пустоты
-item.salis_mundus.name=Salis Mundus
+item.salis_mundus.name=Соль чародея
 item.primal_charm.name=Сингулярный амулет
 item.mirrored_glass.name=Зеркало
 item.plate.brass.name=Латунная пластина
@@ -398,7 +398,7 @@ item.sanity_soap.name=Лечащее мыло
 item.loot_bag.common.name=Обычное сокровище
 item.loot_bag.uncommon.name=Необычное сокровище
 item.loot_bag.rare.name=Редкое сокровище
-tc.lootbag=Откройте ПКМ или сохраните для торговли
+tc.lootbag=Откройте с помощью ПКМ или сохраните для торговли
 item.turret.basic.name=Арбалетная турель
 item.turret.focus.name=Магическая турель
 item.turret.magnet.name=Узловой магнит
@@ -551,7 +551,7 @@ item.Wand.gold.cap=Окаймленный золотом
 item.Wand.copper.cap=Обёрнутый медью
 item.Wand.silver.cap=Орнаментированный серебром
 item.Wand.thaumium.cap=Покрытый таум-металлом
-item.Wand.void.cap=Пустотой окутанный
+item.Wand.void.cap=Пустотой пустотной окутанный
 #
 # Мелочь
 item.tainted.slime.name=Заражённая слизь
@@ -570,7 +570,7 @@ item.research_notes.name=Записки исследования
 item.research_notes.discovery.name=Открытие
 item.researchnotes.learn=Нажмите ПКМ для изучения открытия.
 item.creative_placer.obelisk.name=Установщик обелисков
-item.creative_placer.node.name=Установщик узлов
+item.creative_placer.node.name=Генератор узлов
 item.creative_placer.caster.name=Установщик древней магической турели
 #
 # Текст
@@ -1513,3 +1513,6 @@ tc.research_name.SINSTONE=Зловещий камень
 tc.research_text.SINSTONE=Стоит ли ему доверять?
 tc.research_page.SINSTONE.1=Вы сделали интересное открытие, пока изучали ритуал Apertis Oculis. Точка, где "глаз" можно открыть, испускает очень необычный тип энергии, чувствуемой даже когда "глаз" еще закрыт.<BR>Наполнив кусочек кремня энергией, Вы создали компасоподобное устройство, светящееся при улавливании такой энергии.<BR>Дальность действия ограничена, но это - стоящая вещь, так как часто подходящие для Apertis Oculis алтари сложно найти.
 #
+
+
+###Короче, немного фиксов от Древнего (для модберина - хаюшкин xD)
