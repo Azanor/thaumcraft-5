@@ -48,7 +48,7 @@ entity.Thaumcraft.ThaumSlime.name=Таум-слизень
 entity.Thaumcraft.Dart.name=Болт голема
 entity.Thaumcraft.FrostShard.name=Глыба льда
 entity.Thaumcraft.ExplosiveOrb.name=Огненный шар
-entity.Thaumcraft.ShockOrb.name=Шоковый шар
+entity.Thaumcraft.ShockOrb.name=Шаровая молния
 entity.Thaumcraft.GolemOrb.name=Энергетический шар
 entity.Thaumcraft.BottleTaint.name=Порча в бутылке
 entity.Thaumcraft.Firebat.name=Огненная мышь
@@ -62,7 +62,7 @@ entity.Thaumcraft.FallingTaint.name=Заражённый осадок
 entity.Thaumcraft.AspectOrb.name=Сфера аспекта
 entity.Thaumcraft.TaintSpider.name=Заражённый паучок
 entity.Thaumcraft.Taintacle.name=Заражённое щупальце
-entity.Thaumcraft.TaintacleTiny.name=Заражённое усико
+entity.Thaumcraft.TaintacleTiny.name=Заражённый ус
 entity.Thaumcraft.TaintacleGiant.name=огромный заражённый тентакль
 entity.Thaumcraft.TaintSpore.name=Заражённая спора
 entity.Thaumcraft.TaintSwarmer.name=Заражённый роевик
@@ -75,7 +75,7 @@ entity.Thaumcraft.TaintedSheep.name=Заражённая овца
 entity.Thaumcraft.TaintedCow.name=Заражённая корова
 entity.Thaumcraft.TaintedCreeper.name=Заражённый крипер
 entity.Thaumcraft.Pech.name=Гном-добытчик
-entity.Thaumcraft.Pech.1.name=Гном-маг
+entity.Thaumcraft.Pech.1.name=Гном-колдун
 entity.Thaumcraft.Pech.2.name=Гном-искатель
 entity.Thaumcraft.PrimalOrb.name=Шар первоначальной энергии
 entity.Thaumcraft.TravelingTrunk.name=Ходячий сундук
@@ -401,7 +401,7 @@ item.sanity_soap.name=Лечащее мыло
 item.loot_bag.common.name=Обычное сокровище
 item.loot_bag.uncommon.name=Необычное сокровище
 item.loot_bag.rare.name=Редкое сокровище
-tc.lootbag=Откройте ПКМ или сохраните для торговли
+tc.lootbag=Откройте, нажав ПКМ или сохраните для торговли
 item.turret.basic.name=Арбалетная турель
 item.turret.focus.name=Магическая турель
 item.turret.magnet.name=Узловой магнит
@@ -817,16 +817,16 @@ tc.research_category.ARTIFICE=Изобретения
 tc.research_category.GOLEMANCY=Големантия
 tc.research_category.ELDRITCH=Древние знания
 #  
-# Блаблабла
-# Блаблабла
-# Блаблабла
-# Блаблабла
-# Блаблабла
-# Блаблабла
+# Авторы и соавторы перевода
+# 
+# Основной перевод Mexahoid
+# Короче, немного фиксов от Древнего (для модберина - хаюшкин xD) (handicraftsman)
+#
 # 
 # 
 # 
-# Короче, переведено Mexahoid'ом
+# 
+# 
 # 
 # 
 # 
@@ -1167,8 +1167,8 @@ tc.research_page.WATERJUG.1=Фонтанчик чистой воды, бьющи
 #
 tc.research_name.LEVITATOR=Магический подъёмник
 tc.research_text.LEVITATOR=Еще одна отличная вещь для полёта
-tc.research_page.LEVITATOR.1=Хоть он не обеспечивает настоящий полёт, но парение - уже хорошо.<BR>После установки, он поднимет любой предмет или существо над ним до 8 блоков вверх. Крадущееся существо или тауматург будет медленно опускаться.<BR>Когда на подъёмнике что-то парит, он потребляет 2 §6Aer§0 сВ в секунду из Ауры.<BR>Подъёмник можно направить в любую сторону, к примеру горизонтально поставленный подъёмник будет двигать существо в сторону, подняв его.
-tc.research_page.LEVITATOR.2=Задний переключатель позволяет изменять дальность работы, изменяя при этом количество потребляемого сВ.  
+tc.research_page.LEVITATOR.1=Хоть он не обеспечивает настоящий полёт, но парение - уже хорошо.<BR>После установки, он поднимет любой предмет или существо над ним до 8 блоков вверх. Крадущееся существо или тауматург будет медленно опускаться.<BR>Когда на подъёмнике что-то парит, он потребляет 2 §6Aer§0 Вис в секунду из Ауры.<BR>Подъёмник можно направить в любую сторону, к примеру горизонтально поставленный подъёмник будет двигать существо в сторону, подняв его.
+tc.research_page.LEVITATOR.2=Задний переключатель позволяет изменять дальность работы, изменяя при этом количество потребляемого Вис.  
 #
 tc.research_name.ARCANEEAR=Магическое ухо
 tc.research_text.ARCANEEAR=Тссс, Вы слышите что-нибудь?
