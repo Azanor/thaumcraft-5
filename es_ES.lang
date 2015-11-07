@@ -4,6 +4,8 @@
 ###################################
 enchantment.haste=Prisa
 enchantment.repair=Reparación
+enchantment.special.sapless=Baja Absorción
+enchantment.special.sapgreat=Alta Absorción
 #
 #Potions
 ###################################
