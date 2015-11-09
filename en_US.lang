@@ -576,6 +576,17 @@ item.creative_placer.obelisk.name=Obelisk Placer
 item.creative_placer.node.name=Node Placer
 item.creative_placer.caster.name=Ancient Autocaster Placer
 #
+# Golem
+item.golem_bell.name=Golemancer's Bell
+item.golem.name=Golem
+item.seal.blank.name=Blank Seal
+item.seal.pickup.name=Control Seal: Collect
+item.seal.fill.name=Control Seal: Fill
+item.seal.fill_advanced.name=Advanced Control Seal: Fill
+item.seal.empty.name=Control Seal: Empty
+item.seal.empty_advanced.name=Advanced Control Seal: Empty
+
+#
 # Text
 item.runic.charge=Runic shield
 item.warping=Warping
@@ -660,6 +671,13 @@ button.turretfocus.2=Target Mobs
 button.turretfocus.3=Target Players
 button.turretfocus.4=Target Friendly
 turretfocus.range=Range %t blocks
+button.category.0=Priority
+button.category.1=Filter
+button.category.2=Area
+button.category.3=Options
+button.caption.x=East / West
+button.caption.y=Up / Down
+button.caption.z=North / South
 #
 tile.researchtable.noink.0=You have run out of ink!
 tile.researchtable.noink.1=Refill your scribing tools.
@@ -1082,7 +1100,7 @@ tc.research_page.ARCANELAMP.2=§nArcane Bore§r<BR>When attached to the base of 
 #
 tc.research_name.THAUMOMETER=Thaumometer
 tc.research_text.THAUMOMETER=Measuring Magic
-tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to click on things to scan them. Things that can be scanned for new information will be surrounded by golden questionmarks while you hold the thaumometer<BR>Secondly They display the current aura in the chunk you are located. Pressing 'F' while holding it allows you to change what aspect of the aura it displays. 
+tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to click on things to scan them. Things that can be scanned for new information will be surrounded by golden questionmarks while you hold the thaumometer<BR>Secondly they display the current and base aura in the chunk you are located. Pressing 'F' while holding it allows you to change what aspect of the aura it displays. 
 #
 tc.research_name.GOGGLES=Goggles of Revealing
 tc.research_text.GOGGLES=Seeing the Unseen
@@ -1141,8 +1159,8 @@ tc.research_page.INFUSION.2=Once you have your Runic Matrix properly placed into
 tc.research_page.INFUSION.3=from nearby sources. Crafting will stall of there is insufficient essentia available - something that you do not want as will be explained on following pages.<BR>Once all the required essentia has been infused into the target object, the other objects will have their essential essence drained. Only when this is done will the crafting process complete.<LINE>Infusion crafting is not without risks. The entire process involves forcing vast energies into a single object. Unpredictable things tend to happen.<BR>Usually one of the fusion objects get
 tc.research_page.INFUSION.4=knocked off a pedestal, or flux gets generated, but more catastrophic events are not unheard of.<BR>The longer crafting continues due to unresolved problems like lack of vis or dropped items, the greater the chance of something bad happening.<BR>These effects can be reduced by various means. Firstly you wish to keep the entire fusion structure as symmetrical as possible - take careful note of where you place pedestals and make sure they are balanced with other pedestals on the opposite side of the altar. When placing fusion items into them you may wish to keep them balanced as well. Lastly you can place occult paraphernalia around the  
 tc.research_page.INFUSION.5=altar in symmetrical formations (things like candles, skulls, crystals, etc.). These will have the effect of reducing instability.<IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
-tc.research_page.INFUSION.ANCIENT=§nAncient Stone§r<BR>The strange, ancient stone you have found has some interesting mystical properties. You believe that when used to craft the pillars for an infusion altar that it will help reduce the amount of essentia required during infusion crafting and speed up the crafting process by a small amount. It will however increase instability slightly.<BR>Should you find pedestals crafted from the same material each one will also help reduce essentia costs. Unfortunately you have been unable to craft such pedestals yourself.
-tc.research_page.INFUSION.ELDRITCH=§nEldritch Stone§r<BR>The dark, eldritch stone you have discovered has some strange properties. When used to craft the infusion altar pillars it will help reduce instability and speed up the crafting process by a moderate amount. It will unfortunately increase crafting cost slightly.<BR>Should you happen accross any pedestals made from the same material it will have much the same effect. Caution should be taken to carefully balance them however as unbalanced eldritch pedestals will massively increase your instability. Unfortunately you have been unable to craft such pedestals yourself.
+tc.research_page.INFUSION.ANCIENT=§nAncient Stone§r<BR>The strange, ancient stone you have found has some interesting mystical properties. You believe that when used to craft the pillars for an infusion altar that it will help reduce the amount of essentia required during infusion crafting and speed up the crafting process by a small amount. It will however increase instability slightly.<BR>Should you find pedestals crafted from the same material each one will also help reduce essentia costs.
+tc.research_page.INFUSION.ELDRITCH=§nEldritch Stone§r<BR>The dark, eldritch stone you have discovered has some strange properties. When used to craft the infusion altar pillars it will help reduce instability and speed up the crafting process by a moderate amount. It will unfortunately increase crafting cost slightly.<BR>Should you happen accross any pedestals made from the same material it will have much the same effect. Caution should be taken to carefully balance them however as unbalanced eldritch pedestals will massively increase your instability.
 #
 tc.research_name.INFUSIONBOOST=Infusion Boosting
 tc.research_text.INFUSIONBOOST=Upgraded mystical fusion
@@ -1244,7 +1262,7 @@ tc.research_page.PRIMALARROW.3=but inflicts a withering effect on whatever it hi
 tc.research_name.RUNICARMOR=Runic Shielding
 tc.research_text.RUNICARMOR=Shields up!
 tc.research_page.RUNICARMOR.1=Your research into protective magics have led you to discover Runic Shielding. This is not armor in the traditional sense, but a collection of charms, rings and similar protective baubles worn with your everyday clothes.<BR>These devices create a barrier of magical energy that wards out most types of damage. The shielding has a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal.
-tc.research_page.RUNICARMOR.2=The pool replenishes over time and requires §2Terra§0 and §eAer§0 vis to replenish its charge which it draws from the aura.<BR>The armor offers no protection from damage suffered due to drowning, starvation or similar environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
+tc.research_page.RUNICARMOR.2=The pool replenishes over time and requires §2Terra§0 and §eAer§0 vis to replenish its charge which it draws from the aura.<BR>The armor offers no protection from damage suffered due to certain environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
 #
 tc.research_name.RUNICAUGMENTATION=Runic Shielding Augmentation
 tc.research_text.RUNICAUGMENTATION=Shields to maximum!
@@ -1458,7 +1476,7 @@ tc.research_page.BASICTURRET.1=You have found a way to give a crossbow a mind of
 #
 tc.research_name.FOCUSTURRET=Autocaster
 tc.research_text.FOCUSTURRET=Automated Foci
-tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with via development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce to activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
+tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with the development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce the activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
 #
 # Eldritch 
 #######################
