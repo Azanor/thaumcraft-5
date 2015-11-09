@@ -576,6 +576,17 @@ item.creative_placer.obelisk.name=方尖碑敷设器
 item.creative_placer.node.name=节点敷设器
 item.creative_placer.caster.name=荒古施法器敷设器
 #
+# Golem
+item.golem_bell.name=傀儡使铃铛
+item.golem.name=傀儡
+item.seal.blank.name=空白印记
+item.seal.pickup.name=操控印记:聚集
+item.seal.fill.name=操控印记:填充
+item.seal.fill_advanced.name=高级操控印记:填充
+item.seal.empty.name=操控印记:空置
+item.seal.empty_advanced.name=高级操控印记:空置
+
+#
 # Text
 item.runic.charge=符文护盾
 item.warping=扭曲
@@ -660,6 +671,13 @@ button.turretfocus.2=以生物为目标
 button.turretfocus.3=以玩家为目标
 button.turretfocus.4=以友善生物为目标
 turretfocus.range=范围为%t格
+button.category.0=优先级
+button.category.1=过滤器
+button.category.2=区域
+button.category.3=选项
+button.caption.x=东/西
+button.caption.y=上/下
+button.caption.z=北/南
 #
 tile.researchtable.noink.0=墨水已耗尽!
 tile.researchtable.noink.1=请补充新的笔与墨!
