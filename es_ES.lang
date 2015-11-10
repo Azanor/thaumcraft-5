@@ -2,9 +2,9 @@
 # Translated by francogp     | es_AR, es_MX, es_UY, es_VE | Thaumcraft 4
 # Translated by andrewgigena | global spanish             | Thaumcraft 5
 # Don't traduce word: Warp, Warp Ward, Flux, Vishroom, Wisp, Nitor, Allumentum, Pech
-# TODO:
-# Percentage of translation work: 70%
-# Internationalize: 0%
+# Percentage of translation work: +85% complete
+# Internationalize: 0% complete
+# Spellchecking: +95% complete
 #
 # Enchantments
 ###################################
@@ -268,8 +268,8 @@ tile.vacuum.name=Vacio Mortal
 tile.effect.shock.name=Campo Estático
 tile.effect.sapping.name=Campo Minero
 tile.effect.glimmer.name=Centello
-tile.purifying_fluid.name=Liquido de Purificación
-tile.liquid_death.name=Liquido de la Muerte
+tile.purifying_fluid.name=Purificación Liquida
+tile.liquid_death.name=Muerte Liquida
 tile.placeholder.furnace_brick.name=Horno Infernal
 tile.placeholder.furnace_obsidian.name=Horno Infernal
 tile.barrier.name=Blindaje Aural
@@ -361,14 +361,14 @@ item.filter.name=Filtro de Esencia
 item.morphic_resonator.name=Resonador Morfico
 item.tallow.name=Sebo Mágico
 item.void_seed.name=Semilla de Vacío
-item.salis_mundus.name=Sal Mundana
+item.salis_mundus.name=Salis Mundus
 item.primal_charm.name=Amuleto Primigenio
 item.mirrored_glass.name=Espejo de Cristal
-item.plate.brass.name=Placa de Latón
+item.plate.brass.name=Placa de Latón Alquímico
 item.plate.iron.name=Placa de Hierro
 item.plate.thaumium.name=Placa de Thaumium
 item.plate.void.name=Placa de Vacío Metálico
-item.gear.brass.name=Engranaje de Latón
+item.gear.brass.name=Engranaje de Latón Alquímico
 item.gear.thaumium.name=Engranaje de Thaumium
 item.gear.void.name=Engranaje de Vacío Metálico
 item.wisp_essence.name=Esencia Etérea
@@ -394,7 +394,7 @@ item.chunk.mutton.name=Nugget de Oveja
 item.triple_meat_treat.name=Delicia de Carne Triple
 item.bath_salts.name=Sales de Baño Purificadoras
 item.bucket_death.name=Cubo con Liquido de la Muerte
-item.bucket_pure.name=Cubo con Liquido de Purificación
+item.bucket_pure.name=Cubo con Purificación Liquida
 item.bottle_taint.name=Botella de Contaminación
 item.sanity_soap.name=Jabón Desinfectante
 item.loot_bag.common.name=Tesoro Común
@@ -506,7 +506,7 @@ item.focus_primal.name=Foco de varita: Primigenio
 item.focus_shard.name=Foco de varita: Fragmento de Vis
 item.wand_cap.iron.name=Cubierta de Hierro
 item.wand_cap.gold.name=Cubierta de Oro
-item.wand_cap.brass.name=Cubierta de Latón
+item.wand_cap.brass.name=Cubierta de Latón Alquímico
 item.wand_cap.thaumium.name=Cubierta Cargada de Thaumium
 item.wand_cap.thaumium_inert.name=Cubierta Inerte de Thaumium
 item.wand_cap.void.name=Cubierta Cargada de Vacío Metálico
@@ -573,6 +573,17 @@ item.researchnotes.learn=Haga clic derecho para aprender este descubrimiento
 item.creative_placer.obelisk.name=Colocador de Obelisco
 item.creative_placer.node.name=Colocador de Nodo
 item.creative_placer.caster.name=Colocador de Torreta Antigua
+#
+# Golem
+item.golem_bell.name=Campara para golem
+item.golem.name=Golem
+item.seal.blank.name=Sello en blanco
+item.seal.pickup.name=Sello de control: Recolectar
+item.seal.fill.name=Sello de control: Llenar
+item.seal.fill_advanced.name=Sello de control avanzado: Recolectar
+item.seal.empty.name=Sello de control: Vacio
+item.seal.empty_advanced.name=Sello de control avanzado: Vacio
+#
 # Text
 item.runic.charge=Escudo Rúnico
 item.warping=Warping
@@ -583,8 +594,8 @@ item.chargebonus.text=Cargar
 ##############################
 fluid.fluxGoo=Goo Cambiante
 fluid.fluxGas=Gas Cambiante
-fluid.purifying_fluid=Liquido de la Purificación
-fluid.liquid_death=Liquido de la Muerte
+fluid.purifying_fluid=Purificación Liquida
+fluid.liquid_death=Muerte Liquida
 #
 # General Focus Upgrades
 ##############################
@@ -656,6 +667,13 @@ button.turretfocus.2=Objetivo Mobs
 button.turretfocus.3=Objetivo Jugadores
 button.turretfocus.4=Objetivo Amistoso
 turretfocus.range=Rango: %t bloques
+button.category.0=Prioridad
+button.category.1=Filtro
+button.category.2=Área
+button.category.3=Opciones
+button.caption.x=Este / Oeste
+button.caption.y=Arriba / Abajo
+button.caption.z=Norte / Sur
 #
 tile.researchtable.noink.0=Te has quedado sin tinta!
 tile.researchtable.noink.1=Vuelva a llenar sus herramientas de escritura.
@@ -989,7 +1007,7 @@ tc.research_name.PRIMALSTAVES=Bastones Elementales
 tc.research_text.PRIMALSTAVES=Almacenamiento elemental de vis
 tc.research_page.PRIMALSTAVES.1=Al igual que los núcleos elementales para varita, éstos bastones están vinculados a un aspecto primogenio específico que les concede habilidades adicionales y lentamente recarga su vis si esta lo suficientemente bajo. Pueden almacenar 750 vis de cada tipo.
 #
-tc.research_name.ROD_greatwood_staff=Bastones Magicos
+tc.research_name.ROD_greatwood_staff=Bastones Mágicos
 tc.research_text.ROD_greatwood_staff=Los bastones de mago tienen pomo al final
 tc.research_page.ROD_greatwood_staff.1=Las varitas son el día a día de un thaumaturgo, pero a veces quieres mejores opciones. Los bastones mágicos son básicamente varitas grandes. Almacenan más Vis.<BR>Al ser físicamente más largas y resistentes que una varita, pueden ser usadas como arma en una emergencia.<BR>Desafortunadamente esto hace también que sean inadecuados para su uso en una mesa de trabajo arcana o similar.
 tc.research_page.ROD_greatwood_staff.2=Un bastón hecho de Madera Magnífica tiene más del doble de capacidad que una varita hecha del mismo material, pudiendo  almacenar hasta 500 de Vis de cada tipo.<BR>Nota: Es necesario añadir cubiertas al bastón, al igual que se hace con las varitas.
@@ -1138,8 +1156,8 @@ tc.research_page.INFUSION.2=Una vez que tengas tu matriz Rúnica colocada correc
 tc.research_page.INFUSION.3=de fuentes cercanas. El crafteo se detendrá si la esencia no es suficiente - algo que no deseas, como se explicara en las siguientes paginas.<BR>Una vez que toda la esencia requerida ha sido infundida en el objeto de destino, los otros objetos habrán sido drenados de esencia. Solo cuando se hace esto se completa el proceso de elaboración.<LINE>Esto no esta exento de riesgos. Todo el proceso consiste en obligar a grandes energías concentrarse en un solo objeto. Cosas impredecibles tienden a suceder.<BR>Por general, uno de los objetos de fusión sera
 tc.research_page.INFUSION.4=derribado de un pedestal, o se generara Flux, pero otros acontecimientos catastróficos no son desconocidos.<BR>Cuanto mas dure el crafteo debido a problemas sin resolver como la ausencia de Vis o la falta de objetos, mayor sera la probabilidad de que algo malo suceda.<BR>Estos efectos pueden reducirse mediante diversos medios. En primer lugar, querrás mantener toda la estructura de la fusión lo mas simétrica posible - toma nota de donde colocar los pedestales y asegurarte de que están en equilibrio con otros pedestales en el lado opuesto del altar. Al colocar los elementos de fusión en ellos es posible que quieras mantenerlos equilibrados también. Por ultimo puedes colocar alrededor del altar  
 tc.research_page.INFUSION.5=parafernalia oculta en formaciones simétricas (cosas como velas, calaveras, cristales, etc.) Estos tendrán el efecto de reducir la inestabilidad.<IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
-tc.research_page.INFUSION.ANCIENT=§nPiedra Antigua§r<BR>La extraña piedra antigua, que ha encontrado tiene algunas propiedades místicas interesantes. Usted cree que cuando se utiliza para elaborar los pilares para un altar de infusión que va a ayudar a reducir la cantidad de esencia requerida durante elaboración de infusión y acelerar el proceso de elaboración de una pequeña cantidad. Sin embargo, aumentará la inestabilidad ligeramente.<BR>Si encuentras pedestales elaborados con el mismo material que cada uno también ayudará a reducir los costos de esencia. Lamentablemente usted ha sido incapaz de elaborar dichos pedestales.
-tc.research_page.INFUSION.ELDRITCH=§nPiedra Eldritch§r<BR>La piedra eldritch que usted ha descubierto tiene algunas propiedades extrañas. Cuando se utiliza para elaborar los pilares del altar de infusión le ayudará a reducir la inestabilidad y acelerar el proceso de elaboración en una cantidad moderada. Desgraciadamente aumentará el coste de la elaboración ligeramente.<BR>Los pedestales tienen los mismo efectos, y se debe tener extremo cuidado al equilibrarlos, un pedestal desequilibrado aumentará masivamente la inestabilidad. Lamentablemente usted ha sido incapaz de elaborar dichos pedestales ti mismo.
+tc.research_page.INFUSION.ANCIENT=§nPiedra Antigua§r<BR>La extraña piedra antigua, que ha encontrado tiene algunas propiedades místicas interesantes. Usted cree que cuando se utiliza para elaborar los pilares para un altar de infusión que va a ayudar a reducir la cantidad de esencia requerida durante elaboración de infusión y acelerar el proceso de elaboración de una pequeña cantidad. Sin embargo, aumentará la inestabilidad ligeramente.<BR>Si encuentras pedestales elaborados con el mismo material que cada uno también ayudará a reducir los costos de esencia.
+tc.research_page.INFUSION.ELDRITCH=§nPiedra Eldritch§r<BR>La piedra eldritch que usted ha descubierto tiene algunas propiedades extrañas. Cuando se utiliza para elaborar los pilares del altar de infusión le ayudará a reducir la inestabilidad y acelerar el proceso de elaboración en una cantidad moderada. Desgraciadamente aumentará el coste de la elaboración ligeramente.<BR>Los pedestales tienen los mismo efectos, y se debe tener extremo cuidado al equilibrarlos, un pedestal desequilibrado aumentará masivamente la inestabilidad. 
 #
 tc.research_name.INFUSIONBOOST=Acelerando la infusión
 tc.research_text.INFUSIONBOOST=Mejorando la infusión mística
@@ -1154,7 +1172,7 @@ tc.research_page.HOVERHARNESS.1=El arnés es impulsado por el vis extraído del 
 tc.research_page.HOVERHARNESS.2=Puede ser encantado con el encantamiento Prisa para aumentar la velocidad a la que usted se mueve durante el vuelo.<BR> El arnés no reducirá su velocidad de ruptura del bloque, mientras que usted está volando con ella.
 #
 tc.research_name.HOVERGIRDLE=Cinturon Thaumostatico
-tc.research_text.HOVERGIRDLE=¿Es un avion?
+tc.research_text.HOVERGIRDLE=¿Es un avión?
 tc.research_page.HOVERGIRDLE.1=Este cinturón esta diseñado para ser utilizado con el arnés thaumostatico. Por si solo tiene muy poco poder de elevación - tiene lo justo para evitar casi todo el daño por caída <BR>Sin embargo, cuando se usa con el arnés aumenta en gran medida la velocidad a la que puedes volar. El único inconveniente es que el arnés consume un poco mas de combustible de lo normal.
 #
 tc.research_name.WATERJUG=Tarro de Agua
@@ -1163,14 +1181,14 @@ tc.research_page.WATERJUG.1=Una pequeña fuente de agua pura siempre fluye desde
 #
 tc.research_name.LEVITATOR=Levitador Arcano
 tc.research_text.LEVITATOR=Lo mas parecido a volar
-tc.research_page.LEVITATOR.1=Si bien no es un vuelo real, el levitador arcano es la segunda mejor opción.<BR>Al coloca el levitador arcano este moverá cualquier objeto o criatura hasta 8 bloques en el aire.<BR>Mientras el levitador este activo se extraera 2 CV de §cAer§0 por segundo desde el aura local.<BR>El levitador se puede colocar en cualquier orientación, y cuando se coloca horizontalmente empujará criaturas a lo largo mientras que los mantiene elevados. 
+tc.research_page.LEVITATOR.1=Si bien no es un vuelo real, el levitador arcano es la segunda mejor opción.<BR>Al coloca el levitador arcano este moverá cualquier objeto o criatura hasta 8 bloques en el aire.<BR>Mientras el levitador este activo se extraerá 2 CV de §cAer§0 por segundo desde el aura local.<BR>El levitador se puede colocar en cualquier orientación, y cuando se coloca horizontalmente empujará criaturas a lo largo mientras que los mantiene elevados. 
 tc.research_page.LEVITATOR.2=Una palanca en la parte posterior del dispositivo le permite alterar el rango en el que opera, también cambia la cantidad de CV que utiliza.
 #
 tc.research_name.ARCANEEAR=Oido Arcano
 tc.research_text.ARCANEEAR=Shhh, ¿oyes algo?
 tc.research_page.ARCANEEAR.1=El Oído Arcano es un dispositivo que es capaz de detectar el sonido emitido desde bloques de notas cercanos. Si oye una nota reconoce emitirá un breve pulso de redstone.<BR> El Oído Arcano tiene que ser ajustada de manera idéntica a los bloques de notas, el tono y la nota que escucha depende del material sobre el que se coloca.
 #
-tc.research_name.MIRROR=Espejo Magico
+tc.research_name.MIRROR=Espejo Mágico
 tc.research_text.MIRROR=A través del espejo
 tc.research_page.MIRROR.1=Ahora eres capaz de encantar un par de espejos mágicos que actúan como puertas al vació entre mundos. Todo lo lanzado a través de un espejo pasara a través de este reino y saldrá por el otro espejo - incluso a través de fronteras dimensionales.<BR>Lamentablemente este reino es extremadamente hostil para las criaturas mortales como tu, por lo que usar estos espejos para el transporte de seres vivos aun no es posible.<BR>Para enlazar un par de espejos mágicos solo tendrás que colocar uno de ellos en la ubicación deseada.  
 tc.research_page.MIRROR.2=A continuación, haz clic derecho en un segundo espejo, y ambos se enlazaran. Puede colocar el segundo donde quieras y los objetos lanzados a uno serán expulsado por el otro.<BR>Los espejos solo pueden enlazarse en parejas, por lo que mientras estén vinculados no se les podrá añadir otro espejo. Cuando recoges un espejo, este recordara la ultima pareja al que estaba enlazada, lo que te permite moverlos con facilidad sin tener que volver a enlazarlos. Sin embargo, mientras uno de los espejos este recogido podrás enlazar cualquiera de ellos.<BR>Transportar objetos no es gratis. Necesitas una fuente de §cIter§0 cerca y cada stack de objetos usara 1 de Esencia.
@@ -1186,7 +1204,7 @@ tc.research_page.PAVETRAVEL.1=Al alterar la estructura de la piedra mágica arca
 #
 tc.research_name.PAVEBARRIER=Barrera de Piedra Mística
 tc.research_text.PAVEBARRIER=Manteniendo las cosas fuera
-tc.research_page.PAVEBARRIER.1=Has descubierto una manera de convertir bloques de piedra arcanos en unas barreras de piedra místicas que evitaran a la mayoría de las criaturas cruzarlas.<BR>Cabe señalar que estos adoquines no siempre son 100% seguros y no pueden evitar que otros jugadores entren en un área, pero mantienen la mayor parte de las amenazas comunes fuera. También evitara que los golems las crucen.<BR>Para obtener los mejores resultados se necesita una linea ininterrumpida de ellos entre el área que desees proteger y el mundo exterior.<BR>Una señal de redstone activa inhabilitara este bloque.
+tc.research_page.PAVEBARRIER.1=Has descubierto una manera de convertir bloques de piedra arcanos en unas barreras de piedra místicas que imposibilitaran a la mayoría de las criaturas cruzar.<BR>Cabe señalar que estos adoquines no siempre son 100% seguros y no pueden evitar que otros jugadores entren en un área, pero mantienen la mayor parte de las amenazas comunes fuera. También evitara que los golems las crucen.<BR>Para obtener los mejores resultados se necesita una linea ininterrumpida de ellos entre el área que desees proteger y el mundo exterior.<BR>Una señal de redstone activa inhabilitara este bloque.
 tc.research_page.PAVEBARRIER.2=El color de las runas encima del adoquin indican su estado.<BR>Runas purpuras indican que esta evitando que algo pase.<BR>Runas azules muestran que ha sido desactivado con una señal de redstone.<BR>Runas rojas indican que algo esta evitando una defensa completa y que existe un hueco por el cual se puede pasar.
 #
 tc.research_name.ARMORFORTRESS=Armadura Blindada de Thaumium
@@ -1200,7 +1218,7 @@ tc.research_page.HELMGOGGLES.1=Por lo general, un taumaturgo tiene que elegir, e
 #
 tc.research_name.MASKGRINNINGDEVIL=Mascara Mueca del diablo
 tc.research_text.MASKGRINNINGDEVIL=Mejora para Yelmo Blindado de Thaumium
-tc.research_page.MASKGRINNINGDEVIL.1=Esta máscara está diseñada para ser añadida a un Yelmo de Fortaleza Thaumium existente.<BR>Cuando se usa, esta máscara tiene un efecto de amortiguación interesante en aquellos que sufren de evento Warp. Aunque no reduce el número de eventos, sí reduce algo su gravedad.<BR>Parece que reír en la cara del peligro tiene sus recompensas.
+tc.research_page.MASKGRINNINGDEVIL.1=Esta máscara está diseñada para ser añadida a un Yelmo de Fortaleza Thaumium existente.<BR>Cuando se usa, esta máscara tiene un efecto amortiguador interesante en aquellos que sufren de evento Warp. Aunque no reduce el número de eventos, sí reduce algo su gravedad.<BR>Parece que reír en la cara del peligro tiene sus recompensas.
 #
 tc.research_name.MASKANGRYGHOST=Máscara Fantasma Enojado
 tc.research_text.MASKANGRYGHOST=Mejora para Yelmo Blindado de Thaumium
@@ -1240,12 +1258,12 @@ tc.research_page.PRIMALARROW.3= pero infringe un efecto Wither a lo que sea que 
 tc.research_name.RUNICARMOR=Blindaje Rúnico
 tc.research_text.RUNICARMOR=¡Mejores escudos!
 tc.research_page.RUNICARMOR.1=Tu investigación en magia protectora te ha llevado a descubrir el Blindaje Rúnico. No es una armadura en el sentido tradicional, pero una colección de encantamientos, anillos y objetos similares te acompañan todos los días en tus ropas.<BR>Estos dispositivos crean un barrear mágica de energía que te defiende de la mayoría de daños. El blindaje tiene una serie de puntos que se van restando a medida que el taumaturgo es golpeado, protegiéndolo así de todo daño. Cuando los puntos se gasten el portador empezara a recibir daño normalmente.
-tc.research_page.RUNICARMOR.2=Estos puntos se van reponiendo con el tiempo y requieren vis de §2Terra§0 y §eAer§0 que se obtiene de las varitas que porta el taumaturgo.<BR>Este blindaje no ofrece protección para el daño por ahogamiento, hambre o peligros similares del medio.<BR>Debido a su naturaleza el blindaje no puede ser encantado de forma tradicional, pero estas seguro que hay formas de mejorar su efectividad - simplemente necesitas descubrirlas.
+tc.research_page.RUNICARMOR.2=Estos puntos se van reponiendo con el tiempo y requieren vis de §2Terra§0 y §eAer§0 que se obtiene de las varitas que porta el taumaturgo.<BR>Este blindaje no ofrece ninguna protección contra el daño sufrido debido a determinados riesgos ambientales.<BR>Debido a su naturaleza el blindaje no puede ser encantado de forma tradicional, pero estas seguro que hay formas de mejorar su efectividad - simplemente necesitas descubrirlas.
 #
 tc.research_name.RUNICAUGMENTATION=Aumento de Blindaje Rúnico
 tc.research_text.RUNICAUGMENTATION=¡Escudos al máximo!
-tc.research_page.RUNICAUGMENTATION.1=Los anillos, amuletos y cinturones con blindaje rúnico son muy buenos, pero ¿no te gustaría aplicar este encantamiento a otras cosas?<BR>¡Desde luego que puedes! Utilizando la magia de Taumaturgia(c) (patente pendiente), eres capaz de añadir blindaje rúnico a casi cualquier pieza de armadura mágica estable.<BR>'Magicamente estable' son aquellos objetos creados de thaumium, tejido mágico o materiales similares.<BR>Una unica carga de blindaje rúnico es añadida al objeto, pero puedes encantar un objeto multiples veces. Esto es caro y
-tc.research_page.RUNICAUGMENTATION.2=la cantidad de ingredientes y esencia requeridos se incrementa con cada nivel. La sal mundana necesaria sera igual al nivel de blindaje que quieras conseguir y la esencia se incrementara exponencialmente.<BR>Puedes también encantar elementos rúnicos existentes como los Anillos de Blindaje, sin embargo el coste esta calculado sobre la carga rúnica existente haciéndolo un proceso excepcionalmente caro.
+tc.research_page.RUNICAUGMENTATION.1=Los anillos, amuletos y cinturones con blindaje rúnico son muy buenos, pero ¿no te gustaría aplicar este encantamiento a otras cosas?<BR>¡Desde luego que puedes! Utilizando la magia de Taumaturgia(c) (patente pendiente), eres capaz de añadir blindaje rúnico a casi cualquier pieza de armadura mágica estable.<BR>'Magicamente estable' son aquellos objetos creados de thaumium, tejido mágico o materiales similares.<BR>Una única carga de blindaje rúnico es añadida al objeto, pero puedes encantar un objeto múltiples veces. Esto es caro y
+tc.research_page.RUNICAUGMENTATION.2=la cantidad de ingredientes y esencia requeridos se incrementa con cada nivel. La salis mundus necesaria sera igual al nivel de blindaje que quieras conseguir y la esencia se incrementara exponencialmente.<BR>Puedes también encantar elementos rúnicos existentes como los Anillos de Blindaje, sin embargo el coste esta calculado sobre la carga rúnica existente haciéndolo un proceso excepcionalmente caro.
 #
 tc.research_name.RUNICSPECIAL=Anillos Rúnicos Especializados
 tc.research_text.RUNICSPECIAL=¡Carga para el anillo de Carga!
@@ -1261,58 +1279,58 @@ tc.research_page.REDSTONERELAY.2=Los relés se colocan al igual que los repetido
 #
 # Alchemy 
 #######################
-tc.research_name.CRUCIBLE=Basic Alchemy
-tc.research_text.CRUCIBLE=Bubble and Boil
-tc.research_page.CRUCIBLE.1=To craft the Crucible, you must simply use your wand on a cauldron placed in the world.<BR>The crucible is an important tool for any thaumaturge. It allows him to render physical objects into their component Essentia and recombine it again as he wishes.<BR>The crucible needs to be placed over a source of constant heat and filled with water. Once the water starts boiling you simply throw any items you wish into the crucible and they will be broken down into their component Essentia.<BR>If you know the proper formula and the mix of essentia within the    
-tc.research_page.CRUCIBLE.2=crucible is correct, you can then drop a special item into the crucible known as a Catalyst. The catalyst draws the essentia into itself and transforms into a whole new item that the crucible then ejects.<BR>Any leftover Essentia remains within the crucible for further use, but it is not a good idea to leave essentia within a crucible for too long as it will eventually degrade into Flux.<BR>Crafting also uses some of the water within the crucible and you will eventually need to refill it.  
-tc.research_page.CRUCIBLE.3=You can empty a crucible by shift right-clicking on it with a wand. All the essentia is dumped into the atmosphere as flux... not something you would want to do too often.<LINE>There are some basic alchemical recipes that anyone can perform. See the following pages for their recipes.
-tc.research_page.CRUCIBLE.4=§nBalanced Vis Shards§r<BR><BR>These are normal vis shards that have been alchemically infused with the five primal elements they do not already possess. This results in a shard of crystal that is perfectly resonating with primal energy.<BR>Smelting a balanced vis shard in a furnace creates Salis Mundus (see following pages).
-tc.research_page.CRUCIBLE.5=§nSalis Mundus§r<BR><BR>Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by exposing a balanced vis shard to high enough heat that it shatters into a fine powder.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavor (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.
+tc.research_name.CRUCIBLE=Alquimia Básica
+tc.research_text.CRUCIBLE=En ebullición
+tc.research_page.CRUCIBLE.1=Para elaborar un Crisol, simplemente debe usar su varita en un caldero colocado en el mundo.<BR>El crisol es una herramienta importante para cualquier thaumaturgo. Le permite utilizar objetos físicos en forma de esencia y recombiarlos de nuevo como él desea.<BR>El crisol tiene que ser colocado sobre una fuente de calor constante y llenarlo de agua. Una vez que el agua empiece a hervir simplemente tirar ningún artículo que desea en el crisol y serán descomponen en sus componentes Essentia.<BR>Si conoce la fórmula adecuada y mezcla 
+tc.research_page.CRUCIBLE.2=la esencia dentro del crisol, debe tirar el objeto esencial para la formula, llamado catalizador. El catalizador controla la esencia por si mismo y lo transformara en un elemento completamente nuevo, que el crisol expulsara.<BR>Cualquier sobra de esencia puede utilizarse luego, aunque no es buena idea dejarlo mucho tiempo, ya que se descompone generando Flux.<BR>Al utilizarlo debe rellenar el agua.
+tc.research_page.CRUCIBLE.3=Puedes vaciar un crisol haciendo clic sobre el con una varita. Toda la esencia sera vertida a la atmósfera como flux<BR>Hay algunas recetas alquímicas básicas que cualquier persona puede realizar. Vea las páginas siguientes para las recetas.
+tc.research_page.CRUCIBLE.4=§nFragmento de Conocimiento§r<BR><BR>Estos son fragmentos normales que han sido alquímicamente infundidos con los cinco esencias primordiales que no poseen. Esto resulta en un fragmento que está perfectamente equilibrado con la energía primigenia.<BR>Fundir un fragmento de conocimiento en un horno crea Salis Mundus (ver páginas siguientes).
+tc.research_page.CRUCIBLE.5=§nSalis Mundus§r<BR><BR>Salis Mundus, o sal de taumaturgo como se le conoce más comúnmente, se realiza mediante la exposición de un fragmento de Vis balanceado frente a un calor lo suficientemente alto que rompe el fragmento transformándolo en un polvo fino.<BR>Al igual que su contrapartida mundana, la sal de taumaturgo añade sabor (metafóricamente hablando) a cualquier receta mágica o una fórmula. Es un agente de unión fuerte, capaz de mantener el más dispar de elementos mágicos juntos.
 #
-tc.research_name.METALLURGY=Magical Metallurgy
-tc.research_text.METALLURGY=Where metals meet magic
-tc.research_page.METALLURGY.1=Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to the discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armor in a crafting table using the normal recipes.
-tc.research_page.METALLURGY.2=§nAlchemical Brass§r<BR>While thaumium has many useful features, sometimes mundane metals are better suited to certain tasks. Brass is a sturdy, low friction metal perfectly suited to craft intricate mechanical devices.<BR>Unfortunately it is not always possible to get hold of it due to the morphic properties of the universe you may find yourself in. Fortunately you have found an alchemical method of crafting this useful metal.
+tc.research_name.THAUMIUM=Metalurgia Mágica
+tc.research_text.THAUMIUM=Donde los metales conocen la magia
+tc.research_page.METALLURGY.1=Los metales han demostrado ser fácilmente manipularles a través de principios thaumaturgicos. Tus primeros experimentos te han llevado al descubrimiento del Thaumium.<BR>El Thaumium es el resultado de imbuir metales con energía mágica pura. El resultado es un metal mas duro que el hierro y que soporta mas encantamientos que dicho metal.<BR>Un metal como este tiene muchas aplicaciones en la elaboración de dispositivos thaumaturgicos mas avanzados.<BR>Puede ser usado también para crear herramientas, armas y armaduras en una mesa de elaboración usando las recetas habituales.
+tc.research_page.METALLURGY.2=§nLatón Alquímico§r<BR>Mientras el thaumium tiene muchas funciones útiles, a veces los metales mundanos son los más adecuados para ciertas tareas. El latón es robusto, de baja fricción perfectamente adaptado a las elaboraciones de los dispositivos mecánicos complejos.<BR>Por desgracia, no siempre es posible apoderarse de él debido a las propiedades mórficas del universo debes encontrarlo tu mismo. Afortunadamente se han encontrado este útil método alquímico para la elaboración del metal.
 #
 tc.research_name.NITOR=Nitor
-tc.research_text.NITOR=Mystical Flame
-tc.research_page.NITOR.1=This flame seems to be fuelled by magic itself. The number of uses for an ever burning flame seems endless, but unfortunately it seems to produce much more light than heat. Despite that it could still prove to be a steady source of energy.<BR>Nitor can also be placed in the world to act as a magical light source. It will take on the color of any dye you combine it with in a crafting table.
+tc.research_text.NITOR=Llama Mística
+tc.research_page.NITOR.1=Esta llama parece estar alimentada por la propia magia. El numero de usos para una llama que nunca se apaga parece interminable, pero por desgracia, no parece producir mucha luz ni calor, aunque podría llegar a ser una fuente constante de luz y energía.<BR>El Nitor también se puede colocar en el mundo para que actué como una fuente de luz mágica.
 #
 tc.research_name.ALUMENTUM=Alumentum
-tc.research_text.ALUMENTUM=Mystical Energy Source
-tc.research_page.ALUMENTUM.1=This substance throbs with fiery energy and it is more than eager to release that energy at the slightest bump. It may be unstable, but it would probably make a good source of fuel.<BR>It is probably not a good idea to throw it against a solid surface unless you enjoy explosions.
+tc.research_text.ALUMENTUM=Fuente de Energía Mística
+tc.research_page.ALUMENTUM.1=Esta sustancia vibra con energía ardiente y esta mas que dispuesta a liberar esa energía al mas mínimo golpe. Puede ser inestable, pero probablemente seria una buena fuente de combustible.<BR>Probablemente no es una buena idea arrojarlo contra una superficie solida a menos que disfrutes con las explosiones.
 #
-tc.research_name.PHIAL=Glass Phial
-tc.research_text.PHIAL=Mystical containers
-tc.research_page.PHIAL.1=Glass phials are capable of holding all manner of liquids and substances, but their most important use to a thaumaturge is their ability to hold Essentia. 
+tc.research_name.PHIAL=Vial de vidrio
+tc.research_text.PHIAL=Recipientes místicos
+tc.research_page.PHIAL.1=Los viales de vidrio son capaces de guardar todo tipo de líquidos y sustancias, pero su uso mas importante para un taumaturgo es su capacidad de contener Esencia. 
 #
-tc.research_name.BOTTLETAINT=Bottled Taint 
-tc.research_text.BOTTLETAINT=Why would you want this?
-tc.research_page.BOTTLETAINT.1=Cleaning Taint is one thing, but ever considered spreading it?<BR>By concentrating and collecting the essence of taint into a bottle it is simply a matter of dropping it somewhere to create a patch of taint. It is up to you to decide why you would want to do this. 
+tc.research_name.BOTTLETAINT=Contaminación Embotellada
+tc.research_text.BOTTLETAINT=¿Por qué quieres esto?
+tc.research_page.BOTTLETAINT.1=Limpiar la corrupción es una cosa, ¿pero nunca consideraste difundirla?<BR>Al concentrar y recoger la esencia de la corrupción en una botella es simplemente una cuestión de dejarla caer en alguna parte para crear un comienzo de corrupción. Depende de usted decidir para qué querría hacer esto.
 #
-tc.research_name.ALCHEMICALDUPLICATION=Alchemical Duplication
-tc.research_text.ALCHEMICALDUPLICATION=You can never have too much of a good thing.
-tc.research_page.ALCHEMICALDUPLICATION.1=There are many substances in the world that are alchemical in nature.<BR>By carefully adding the proper aspects to these substances you should be able to make more of them.
+tc.research_name.ALCHEMICALDUPLICATION=Duplicacion Alquímica
+tc.research_text.ALCHEMICALDUPLICATION=Nunca tienes demasiado de algo bueno
+tc.research_page.ALCHEMICALDUPLICATION.1=Hay muchas sustancias en el mundo que son alquímicas en su naturaleza.<BR>Añadiendo cuidadosamente los aspectos apropiados a esas sustancias deberías poder crear mas de ellas.
 #
-tc.research_name.ALCHEMICALMANUFACTURE=Alchemical Manufacture
-tc.research_text.ALCHEMICALMANUFACTURE=More than one way to skin a cat.
-tc.research_page.ALCHEMICALMANUFACTURE.1=You have mastered the basics of alchemy and are now ready to try creating more complex substances from scratch.<BR>You have formulated several recipes that create normally hard to get substances and items via alchemy.
+tc.research_name.ALCHEMICALMANUFACTURE=Manufactura Alquímica
+tc.research_text.ALCHEMICALMANUFACTURE=Mas de una manera de despellejar un gato.
+tc.research_page.ALCHEMICALMANUFACTURE.1=Has dominado los fundamentos de la alquimia y la duplicación alquímica y ahora estas listo para intentar crear sustancias mas complejas desde cero.<BR>Has formulado recetas para ingredientes y elementos que normalmente son difíciles de obtener.
 #
-tc.research_name.ENTROPICPROCESSING=Entropic Processing
-tc.research_text.ENTROPICPROCESSING=Making things worse?
-tc.research_page.ENTROPICPROCESSING.1=While creating magical and mundane substances is quite satisfying, sometimes you just want to break things down into their component parts. What is simpler than adding entropic energy to things?<BR>Actually, there is several reasons why this is a bad idea, but what is progress without some risk?
+tc.research_name.ENTROPICPROCESSING=Procesado Entropico
+tc.research_text.ENTROPICPROCESSING=Haciendo las cosas peor?
+tc.research_page.ENTROPICPROCESSING.1=Aunque la creación de sustancias mágicas y mundanas es bastante satisfactorio, a veces quieres deshacer las cosas en sus partes básicas. ¿Que es mas simple que añadir energía entropica a las cosas?<BR>En realidad, hay varias razones por lo que esto es una mala idea, pero ¿que es el progreso sin riesgo?
 #
-tc.research_name.PUREMETAL=Metal Purification
-tc.research_text.PUREMETAL=Purification of metals into native clusters
-tc.research_page.PUREMETAL.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal ore into a native cluster.<BR>When smelted these clusters produces twice the normal amount of ingots.
+tc.research_name.PUREIRON=Purificacion de Metales
+tc.research_text.PUREIRON=Purificacion de metales en racimos naturales
+tc.research_page.PUREIRON.1=Los racimos naturales son raras concentraciones de metales en su forma mas pura. Has descubierto una manera de purificar y concentrar hierro normal en racimos de hierro nativo.<BR>Cuando se funden estos racimos se produce el doble de lingotes de hierro.
 #
-tc.research_name.TRANSMETAL=Metal Transmutation
-tc.research_text.TRANSMETAL=Transformation of metals into other metals
-tc.research_page.TRANSMETAL.1=You have discovered a way to multiply metals by steeping nuggets of that metal in §5metallum§0 and other aspects.
+tc.research_name.TRANSIRON=Transmutacion de Metales
+tc.research_text.TRANSIRON=Transformacion de metales en hierro
+tc.research_page.TRANSIRON.1=Has descubierto una manera de multiplicar hierro mediante la maceración de pepitas de hierro en §5metallum§0 conseguidos de otros metales.
 #
-tc.research_name.TALLOW=Magic Tallow
-tc.research_text.TALLOW=Rendered fat with a touch of magic
-tc.research_page.TALLOW.1=By processing and heating flesh in a crucible, you can create a mystical tallow suited for many arcane uses.<BR>This tallow can be used to craft candles. It is also possible to craft different colored candles by combining a candle with a dye in an arcane workbench.
+tc.research_name.TALLOW=Sebo Mágico
+tc.research_text.TALLOW=Crea grasa con un toque de magia
+tc.research_page.TALLOW.1=Al procesar y calentar la carne en un crisol, se puede crear un sebo místico adecuado para muchos usos arcanos.<BR>Este sebo se puede utilizar para elaborar velas. También es posible diseñar diferentes velas de colores mediante la combinación de una vela con un colorante en una mesa de trabajo arcana.
 #
 tc.research_name.DISTILESSENTIA=Essentia Distillation
 tc.research_text.DISTILESSENTIA=Harvesting essentia
@@ -1334,64 +1352,64 @@ tc.research_text.IMPROVED_DISTILLATION=Essentia Harvesting... Improved
 tc.research_page.IMPROVED_DISTILLATION.1=While smelters can be very fast, they could always be faster - especially the speed at which they break down the essentia slurry into usable essentia.<BR>Each Auxiliary Slurry Pump placed on the side of a smelter acts as a secondary processor, outputting refined essentia to any alembics placed above it.
 tc.research_page.IMPROVED_DISTILLATION.2=You have also discovered a way to manage the flux generated by the smelting process. By running the slurry through a secondary set of essentia filters you are able to separate out the flux and safely vent it as harmless steam.<BR>The process manages to reduce flux produced by about a third and additional vents will increase this, though there is diminishing returns. 
 #
-tc.research_name.JARLABEL=Warded Jars and Labels
-tc.research_text.JARLABEL=Storing and organizing essentia
-tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantment placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars can be filled from an alembic by clicking with the jar directly on the alembic. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.
-tc.research_page.JARLABEL.2=Shift clicking on jars and alembics with an empty hand will empty them.<BR>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.
-tc.research_page.JARLABEL.3=You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<LINE>A label can be made blank again by simply placing it by itself in a crafting grid.
+tc.research_name.JARLABEL=Tarro Reforzado y Etiquetas
+tc.research_text.JARLABEL=Almacenando y organizando Esencia
+tc.research_page.JARLABEL.1=La Esencia puede almacenarse en §lTarros Reforzados§r.<BR>Los Tarros Reforzados pueden colocarse en el mundo y son capaces de almacenar esencia de forma indefinida. Los encantamientos puestos en estos tarros hacen que añadir o extraer esencia sea sencillo.<BR> Los tarros colocados debajo del pitorro de un alambique se llenaran automáticamente. También pueden llenarse usando viales.<BR>Lo que es mas, son un medio de almacenamiento excelente para mermeladas y conservas.
+tc.research_page.JARLABEL.2=Usar shift + clic en un tarro y alambiques con la mano vacía los vaciaran.<BR>Tan pronto un tarro tenga algo de esencia podrás añadirle una §lEtiqueta para Tarro§r Esta etiqueta 'bloqueara' el tarro a ese tipo de esencia y no permitirá la entrada de otra diferente.<BR>Puedes quitar la etiqueta haciendo shift + clic con la mano vacía en el lado del frasco donde esta la etiqueta. Ten cuidado de no hacerlo en otro lado o vaciaras el frasco.
+tc.research_page.JARLABEL.3=Puedes colocar una etiqueta en una mesa de crafteo con un vial de esencia para asignarle un aspecto y así cuando la coloques en un frasco vació automáticamente bloqueara el frasco con ese aspecto. La esencia usada en la receta no es consumida.<BR>Colocarla en un frasco lleno hara que se cambie la etiqueta al tipo de esencia que tiene el tarro.<LINE>Una etiqueta se puede limpiar colocándola en una mesa de crafteo.
 #
-tc.research_name.ETHEREALBLOOM=Ethereal Bloom
-tc.research_text.ETHEREALBLOOM=Purifying Flower
-tc.research_page.ETHEREALBLOOM.1=Shimmerleaf is often overshadowed by its mystical neighbor the Silverwood tree, but it has magical properties of its own.<BR>Like the Silverwood, Shimmerleaf flowers have purifying properties that lie dormant. You have found a way to awaken these properties and turn it into an Ethereal Bloom.<BR>Ethereal blooms slowly, but surely, restores land corrupted by mystical means to its former glory - this includes the blight known as Taint. While it cannot combat Taint directly, few tainted growths can survive outside their native environment for long and tend to die back.
-tc.research_page.ETHEREALBLOOM.2=The flower only purifies the land bathed in its light out to a range of about 8 blocks. 
+tc.research_name.ETHEREALBLOOM=Flor Etérea
+tc.research_text.ETHEREALBLOOM=Purificando flores
+tc.research_page.ETHEREALBLOOM.1=La Hoja Brillante es a menudo eclipsada por su vecino místico el Árbol Plateado, pero tiene propiedades mágicas por si misma.<BR>Como el Árbol Plateado, las Hojas Brillantes tienen propiedades relacionadas con la purificación. Has encontrado una manera de despertar estas propiedades y convertirlas en una Flor Etérea.<BR>Crecen con lentitud, pero con seguridad, y restauran la tierra corrompida por medios místicos a su antigua gloria - esto incluye la plaga conocida como Corrupción. Aunque no se puede combatir directamente la Corrupción, pocos cultivos contaminados pueden
+tc.research_page.ETHEREALBLOOM.2=sobrevivir fuera de su medio ambiente por mucho tiempo y tienden a morir de nuevo.<BR>La flor solo purifica la tierra bañada en su luz en un rango de aproximadamente 8 bloques. 
 #
-tc.research_name.TUBES=Essentia Tubes
-tc.research_text.TUBES=Transportation of essentia
-tc.research_page.TUBES.1=You have discovered several ways to transport essentia, but none of them has proven useful for large scale alchemical operations - until now.<BR>You have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass, certain types of essentia either dissolve or simply pass right through it. By wrapping the glass in iron and treating it with quicksilver you have managed to protect it from even the most volatile types of essentia. Gold fittings finish off the piping system and make it visually appealing.
-tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars.<BR>Jars containing different kinds of essentia will only draw their kind of essentia towards them. Tubes however can only draw and transport one kind of essentia at a time - the highest drawing strength will take priority. Without the proper use of valves it is quite easy for a network of tubes to get gummed up. The use of valves is essential.<BR>When you see gasses being vented
-tc.research_page.TUBES.3=from a tube, it means different kinds of suction are interfering with each other. The color gives a clue as to the types of suction.<LINE>The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off.<LINE>The Essentia Resonator is handy for troubleshooting your tube network. You can use it on a tube or other essentia using device to see what essentia it currently contains and the suction it is applying. 
-tc.research_page.TUBES.4=Tubes can be connected and disconnected from their neighbors by clicking on a section of tubing with a wand.<BR>The wand can also be used to click on the central section to rotate certain tubes like the valve.
+tc.research_name.TUBES=Tuberías de Esencia
+tc.research_text.TUBES=Transporte de Esencia
+tc.research_page.TUBES.1=Has descubierto varias maneras de transportar esencia, pero ninguna de ellas ha demostrado ser util para operaciones alquímicas a gran escala - hasta ahora.<BR>Has desbloqueado la clave para crear tuberías estables y relativamente seguras de fugas. Mientras que los productos químicos mundanos pueden ser transportados en vidrio, ciertos tipos de esencia se disuelven o simplemente pasan a través de el. Al envolver el cristal en hierro y tratarlo con mercurio has logrado protegerlo incluso de los tipos mas volátiles de esencia. Puedes usar accesorios de oro en las tuberías para hacerlas mas atractivas a la vista.
+tc.research_page.TUBES.2=Las tuberías se pueden conectar a todo tipo de dispositivos de alquimia, aunque los frascos reforzados y alambiques son sus objetivos principales.<BR>La esencia fluye a través de los tubos cada vez que algo se conecta a ellos - siempre que pueden aceptarla, como frascos reforzados.<BR>Los tarros que contengan diferentes tipos de esencia solo tomaran los de esas clases. Los tubos sin embargo, solo pueden sacar y transportar un tipo de esencia a la vez - en función de las prioridades. Sin un uso adecuado de las válvulas es muy fácil que una red de tuberías se atasque. El uso de válvulas es esencial.<BR>Cuando veas gases que se escapan
+tc.research_page.TUBES.3=desde una tubería, significa diferentes tipos de succión están interfiriendo entre ellos. El color da una idea de los tipos de succión.<LINE>La válvula de esencia actúa muy parecido a una parte normal de la tubería, excepto que puede apagar con la mano o con una señal de redstone. Cuando pasa esto, el flujo de esencia se parara.<LINE>El resonador  de esencia es útil para solucionar problemas en la red de tuberías. Se puede utilizar en un tubo u otro dispositivo usando esencia para ver que esencia contiene y que succión se esta aplicando. 
+tc.research_page.TUBES.4=Las tuberías pueden conectarse y desconectarse de sus vecinas haciendo clic en una sección de tubo con una varita.<BR>La varita se puede utilizar también para hacer clic en la sección central y así girar determinados tuberías como la válvula.
 #
-tc.research_name.CENTRIFUGE=Alchemical Centrifuge
-tc.research_text.CENTRIFUGE=Taking things apart
-tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wondrous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system, it would be best to connect a §5Essentia Buffer§0 to the top of the centrifuge.
+tc.research_name.CENTRIFUGE=Centrifugador Alquímico
+tc.research_text.CENTRIFUGE=Haciendo las cosas aparte
+tc.research_page.CENTRIFUGE.1=El centrifugador alquímico es un maravilloso invento que te permite romper esencia en sus partes mas básicas.<BR>Cuando esencia compuesta fluye hacia el centrifugador desde abajo se deshará lentamente en esencia primigenia o compuesta de la que este hecha. Solo se crea uno de los componentes por cada punto de esencia roto.<BR>La esencia resultante tiene que ser extraída de la parte superior del centrifugador. Debido a las peculiaridades del sistema de presión de las tuberías, lo mejor seria conectar un §5Buffer de Esencia§0 a la parte superior del centrifugador.
 #
-tc.research_name.JARVOID=Void Jar
-tc.research_text.JARVOID=Too much essentia? Impossible!
-tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply vented as flux. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
+tc.research_name.JARVOID=Tarro Vació
+tc.research_text.JARVOID=Demasiada esencia? ¡Imposible!
+tc.research_page.JARVOID.1=Los tarros vacíos funcionan de forma similar a los tarros reforzados con una importante diferencia - son capaces de aceptar esencia incluso estando llenos, aunque el exceso de esencia se pierde. Esto te permite tener disponible siempre esencia de cada tipo, pero eliminando la sobrante.<BR>Como los tarros normales, los vacíos aceptan etiquetas, pero su succión con una puesta sera menor que los tarros normales etiquetados(a medio camino entre los tarros no etiquetados y los etiquetados).
 #
-tc.research_name.TUBEFILTER=Advanced Essentia Tubes
-tc.research_text.TUBEFILTER=What you want, where you want it
-tc.research_page.TUBEFILTER.1=§nFiltered essentia tubes§r work like normal tubes, except it is possible to mark them with labels, phails or other items that clearly identify a single type of essentia. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the filter.
-tc.research_page.TUBEFILTER.2=§nRestricted essentia tubes§r work like normal tubes, except they halve the any suction passing through them.<LINE>§nDirectional essentia tubes§r only accept suction from one direction. The blue markings indicate the direction from which suction will be accepted.
-tc.research_page.TUBEFILTER.3=The essentia buffer allows you to store a limited amount of essentia - 8 points total, though it can be made up of any combination of essentia types. Like a jar it has suction, though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides, meaning that it is invaluable for getting essentia out of devices like the centrifuges that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 32.
-tc.research_page.TUBEFILTER.4=Additionally you can toggle individual connections on and off as with a normal tube, but if you shift click a connection, it will choke the suction back to 1 (blue band) or 0 (red band) on that side.<BR>This allows for some interesting possibilities when routing essentia.
+tc.research_name.TUBEFILTER=Tuberias de Esencia Avanzadas
+tc.research_text.TUBEFILTER=Lo que quieras, donde quieras
+tc.research_page.TUBEFILTER.1=Las §nTuberias de Esencia Filtrada§r funcionan como las normales, excepto que es posible etiquetarlas. Cuando esto suceda, restringen el flujo de esencia a través de ellas a solo la que tiene designada.<BR>Al usar Shift + clic en ellas con la mano vacía quitara la etiqueta.
+tc.research_page.TUBEFILTER.2=Las §nTuberias de Esencia Restringida§r funcionan como las normales, excepto que reducen a la mitad la succión que pasa a través de ellas.<LINE>Las §nTuberias de Esencia Direccionales§r solo aceptan succión de una dirección. La marca azul indica la dirección desde la cual se acepta dicha succión.
+tc.research_page.CENTRIFUGE.3=El §nCentrifugador Alquimico§r te permite almacenar una cantidad limitada de esencia - 8 puntos en total, aunque puede estar compuesta por cualquier combinación de esencia. Como un tarro, tiene succión, a pesar de que se aplica la cantidad mínima de succión posible(1).<BR>Esto significa que por lo general solo es capaz de extraer esencia desde una fuente esencia que este unida directamente a el. Sin embargo, las tuberías pueden conectarse a todos sus lados, lo que significa que es muy valioso para conseguir esencia de dispositivos como los centrifugadores que pudieran contener varios tipos de esencia.<BR>Puedes unir un fuelle al centrifugador - cada fuelle aumenta la succión por 32.
+tc.research_page.CENTRIFUGE.4=Además, puede alternar las conexiones individuales y bajarlas con un tubo normal, pero si haces Shift + Clic en una conexión, esto ahogar la succión, lo que dará regreso a 1 (banda azul) o a 0 (banda roja) en ese lado.<BR>Esto permite algunas posibilidades interesantes sobre el enlazamiento de esencias.
 #
-tc.research_name.THAUMATORIUM=Automated Alchemy
-tc.research_text.THAUMATORIUM=Alchemy for the masses
-tc.research_page.THAUMATORIUM.1=Up to now alchemy has been somewhat of a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. This is finally a thing of the past.<BR>The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.
-tc.research_page.THAUMATORIUM.2=When you access this device you will see several slots. The top-left slot is where you place the catalyst. Once you have done this you will be able to choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.
-tc.research_page.THAUMATORIUM.3=Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side you can increase the number of formulas it can keep track.<BR>Each matrix increases the number of formulas by 2. 
+tc.research_name.THAUMATORIUM=Alquimia Automática
+tc.research_text.THAUMATORIUM=Alquimia para las masas
+tc.research_page.THAUMATORIUM.1=Hasta ahora la alquimia ha sido un tema inconsistente - aspectos mal contados, esencia degradada e ingredientes que requieren una mezcla manual. Esto es finalmente una cosa del pasado.<BR>El Thaumatorium es un invento maravilloso que permite a un taumaturgo seleccionar que formula quiere usar y que catalizadores añadir. A continuación, toma la esencia automáticamente de fuentes disponibles utilizando tuberías. Mientras haya un suministro de catalizador el objeto se produce perfectamente.<BR>El crisol que forma su base no requiere agua, pero se necesita una fuente de calor.
+tc.research_page.THAUMATORIUM.2=Al acceder a este dispositivo veras varias ranuras. La ranura superior izquierda es donde se coloca el catalizador. Una vez hecho esto seras capaz de elegir que receta deseas elaborar con ese catalizador de una lista que hay en la ranura de la parte superior derecha.<BR>La barra inferior muestra la esencia requerida y en el orden en que sera requerida. También mostrara las barras de progreso una vez que la maquina esta en funcionamiento.<BR>El objeto creado se expulsa por la parte frontal del dispositivo o en un inventario colocado delante de la ventana de expulsión.
+tc.research_page.THAUMATORIUM.3=Normalmente un Thaumatorium solo puede tener un formula activa, pero al añadir una Matriz Mnemonica aumenta el numero de formulas que puede guardar.<BR>Cada Matriz incrementa las formulas por 2. 
 #
-tc.research_name.BATHSALTS=Purifying Bath Salts
-tc.research_text.BATHSALTS=Stress relief for the mind
-tc.research_page.BATHSALTS.1=Warp is a danger for even the most careful of thaumaturges. For those that have done a bit too much dabbling Warp effects are probably more than just an annoyance. Purifying Bath Salts help with that.<BR>Simply tossing these salts into water will turn the water into a silvery, purifying liquid that sooths away the stresses of the day and brings temporary relief from the effects of Warp. It should be noted however the more warp a thaumaturge suffers from, the shorter the duration of this protection.<BR>The salts are quite fragile and will soon dissolve if tossed around haphazardly. 
+tc.research_name.BATHSALTS=Sales de Baño Purificadoras
+tc.research_text.BATHSALTS=El alivio del estrés para la mente
+tc.research_page.BATHSALTS.1=Warp es un peligro incluso para los más cuidadoso de los taumaturgos. Para aquellos que han ido un poco mas allá, los efectos del Warp son probablemente algo más que una molestia. Las Sales de Baño Purificadoras ayudan con eso.<BR>Simplemente lanzando estas sales en el agua va a convertir el agua en un líquido purificador plateado que calma el estrés del día a día y trae un alivio temporal de los efectos del Warp. Cabe señalar sin embargo, que cuanto más warp un taumaturgo sufre, más corta será la duración de esta protección.<BR>Las sales son muy frágiles y pronto se disolverán si se echan por todos lados al azar.
 #
-tc.research_name.LIQUIDDEATH=Liquid Death
-tc.research_text.LIQUIDDEATH=For external use only
-tc.research_page.LIQUIDDEATH.1=This liquid is so dangerously toxic that virtually nothing can prevent it from dissolving flesh, bone and even harder substances. Nothing alive or that even displays the semblance of life can survive it.<BR>Apart from obvious practical applications, this vile substance has another interesting property: Any essentia a dissolved creature possessed form into crystals that can be harvested.<BR>I will leave it to the reader's imagination what uses those crystals can be put to. 
+tc.research_name.LIQUIDDEATH=Muerte Líquida
+tc.research_text.LIQUIDDEATH=Para uso externo únicamente
+tc.research_page.LIQUIDDEATH.1=Este líquido es tan peligrosamente tóxico, que prácticamente nada puede impedir que disuelva la carne, hueso y sustancias aún más difíciles. Nada vivo o incluso algo que muestre señales de vida puede sobrevivir a esto.<BR>Aparte de las aplicaciones prácticas evidentes, esta sustancia vil tiene otra propiedad interesante: cualquier esencia disuelta que poseía alguna criatura, formara cristales que pueden ser cosechados.<BR>Dejaré a la imaginación del lector el uso que esos cristales puedan tener. 
 #
-tc.research_name.ARCANESPA=Arcane Spa
-tc.research_text.ARCANESPA=Relaxing in style
-tc.research_page.ARCANESPA.1=Pouring bath salts into water is a bit of a chore, but luckily one easily solved with a bit of magic.<BR>You have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally, you have found that it can be used to pump nearly any liquid you can fill it with. You can fill it with automation, or by clicking on the block with the appropriate container. Applying a redstone signal will disable it.
+tc.research_name.ARCANESPA=Spa Arcano
+tc.research_text.ARCANESPA=Relajarse con Estilo
+tc.research_page.ARCANESPA.1=Echar las sales de baño en el agua es un poco costoso, pero por suerte uno lo resuelve fácilmente con un poco de magia.<BR>Has creado una máquina muy útil que cuando se llena de agua y sales de baño se mezclarán automáticamente y bombearan el líquido en un área por encima de ella. El líquido va a llenar un área de 5x5 por encima de la ubicación en la que se coloca la máquina.<BR>Además, has descubierto que puede ser utilizado para bombear casi cualquier líquido que pueda llenarlo. puedes llenarlo de una forma automática, o haciendo clic en el bloque con el contenedor adecuado. La aplicación de una señal de Redstone lo hará desactivarse.
 #
-tc.research_name.SANESOAP=Sanitizing Soap
-tc.research_text.SANESOAP=Getting rid of dirty thoughts
-tc.research_page.SANESOAP.1=Cleaning the body is easy enough, but once warp becomes a nuisance you need something that can clean the mind as well.<BR>This soap cleans the flesh, but the effects it has on your psyche is what truly makes it special. When used it has a small chance of reducing non-permanent warp and will remove all temporary warp.<BR>Using it while under the effects of a Warp Ward or while standing in Purifying Fluid will increase your odds.  
+tc.research_name.SANESOAP=Jabón sanitizante
+tc.research_text.SANESOAP=Deshacerse de pensamientos perturbados
+tc.research_page.SANESOAP.1=La Limpieza del cuerpo es bastante fácil, pero una vez que el warp se convierte en una molestia que necesitas de algo que puede aclararte la mente también.<BR>Este jabón no tan solo limpia la carne, sino los efectos que tiene sobre su psiquis es lo que realmente lo hace especial. Cuando se utiliza tiene una pequeña posibilidad de reducir el warp no permanente y de eliminar todo el warp temporal.<BR>Usarlo mientras estas bajo los efectos del Warp ward o mientras está de pie en Fluidos Purificadores aumentará sus probabilidades.
 #
-tc.research_name.ESSENTIACRYSTAL=Essentia Crystallization 
-tc.research_text.ESSENTIACRYSTAL=Hard currency or liquid assets?
-tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystallizer draws in liquid essentia from a pipe network and converts it into small shards of crystalline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystallizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>It draws terra vis from the aura to power itself.
+tc.research_name.ESSENTIACRYSTAL=Cristalización de Esencia 
+tc.research_text.ESSENTIACRYSTAL=Circulación Dura o activos líquidos?
+tc.research_page.ESSENTIACRYSTAL.1=Casi has dominado el arte de convertir objetos concretos en Esencia líquida, por lo cual hacerlo a la inversa es un asunto sencillo.<BR>El cristalizador de esencias aspira esencia líquida de una red de tuberías y la transforma lentamente en pequeños fragmentos de esencia cristalizada. el Cristalizador de esencias es seguro de manejar y muy estable.<BR>El cristalizador expulsa o bien los cristales en el mundo o en un recipiente. Se puede desactivar con una señal de Redstone.<BR>El suministro con Vis de terra aumentará en gran medida su velocidad.
 #
 # Golemancy 
 #######################
