@@ -1,10 +1,10 @@
 # Translated by DancingPeral | es_ES                      | Thaumcraft 4
 # Translated by francogp     | es_AR, es_MX, es_UY, es_VE | Thaumcraft 4
-# Translated by andrewgigena | global spanish             | Thaumcraft 5
-# Don't traduce word: Warp, Warp Ward, Flux, Vishroom, Wisp, Nitor, Allumentum, Pech
-# Percentage of translation work: +85% complete
+# Translated by andrewgigena | global spanish             | Thaumcraft 5.0.3
+# Don't traduce word: Warp, Warp Ward, Flux, Vishroom, Wisp, Nitor, Allumentum, Pech, Thaumium
+# Percentage of translation work: 100% complete
 # Internationalize: 0% complete
-# Spellchecking: +95% complete
+# Spellchecking: +99% complete
 #
 # Enchantments
 ###################################
@@ -24,7 +24,7 @@ potion.warpward=Warp Ward
 potion.deathgaze=Mirada mortal
 potion.blurred=Visión Borrosa
 potion.sunscorned=Día Soleado
-potion.thaumarhia=Taumaria
+potion.thaumarhia=Thaumaria
 #
 # Warp
 ###################################
@@ -73,16 +73,16 @@ entity.Thaumcraft.TaintedPig.name=Cerdo Contaminado
 entity.Thaumcraft.TaintedSheep.name=Oveja Contaminada
 entity.Thaumcraft.TaintedCow.name=Vaca Contaminada
 entity.Thaumcraft.TaintedCreeper.name=Creeper Contaminado
-entity.Pech.name=Forrajeador Pech
-entity.Pech.1.name=Mago Pech
-entity.Pech.2.name=Arquero Pech
-entity.Thaumcraft.Pech.2.name=Acosador Pech
+entity.Pech.name=Pech Forrajeador
+entity.Pech.1.name=Pech Mago
+entity.Pech.2.name=Pech Arquero
+entity.Thaumcraft.Pech.2.name=Pech Acosador
 entity.Thaumcraft.PrimalOrb.name=Orbe de Energía Primigenia
 entity.Thaumcraft.TravelingTrunk.name=Baúl de Viaje
 entity.trunk.guiname='s Baúl
 entity.trunk.move=El baúl te seguirá a partir de ahora
 entity.trunk.stay=El baúl se quedará donde está
-entity.Thaumcraft.MindSpider.name=Araña Imaginaria
+entity.Thaumcraft.MindSpider.name=Araña Mental
 entity.Thaumcraft.EldritchGuardian.name=Guardian Eldritch 
 entity.Thaumcraft.EldritchWarden.name=Jefe Eldritch
 entity.Thaumcraft.EldritchWarden.name.custom=%s el %d
@@ -279,7 +279,7 @@ tile.research_table.name=Mesa de Investigación
 tile.arcane_workbench.name=Mesa de Trabajo Arcana
 tile.arcane_workbench_charger.name=Centro de Recarga Combinada
 tile.wand_workbench.name=Manipulador de Focos
-tile.crucible.name=Crucible
+tile.crucible.name=Crisol
 tile.arcane_ear.name=Oído Arcano
 tile.levitator.name=Levitador Arcano
 tile.bellows.name=Fuelle Arcano
@@ -300,8 +300,8 @@ tile.tube.tube_restrict.name=Tubería de Esencia Restringida
 tile.tube.tube_oneway.name=Tubería de Esencia Direccional
 tile.tube.tube_buffer.name=Regulador de Esencia
 tile.smelter_basic.name=Fundición de Esencias
-tile.smelter_thaumium.name=Fundición Esencias de Thaumium
-tile.smelter_void.name=Fundición Esencias de Vacío Metálico
+tile.smelter_thaumium.name=Fundición de Esencias de Thaumium
+tile.smelter_void.name=Fundición de Esencias de Vacío Metálico
 tile.alembic.alembic_normal.name=Alambique Arcano
 tile.smelter_aux.name=Bomba de Lodos Auxiliar
 tile.smelter_vent.name=Puerta de Ventilación Auxiliar
@@ -315,8 +315,8 @@ tile.pillar.pillar_eldritch.name=Pilar de Infusión Eldritch
 tile.infusion_matrix.name=Matriz Rúnica
 tile.aura_totem.push.name=Tótem de Dispersión Aural
 tile.aura_totem.pull.name=Tótem de Atracción Aural
-tile.aura_totem.pole_inner.name=Tótem Interior
-tile.aura_totem.pole_outer.name=Tótem Exterior
+tile.aura_totem.pole_inner.name=Polo Interior para Tótem 
+tile.aura_totem.pole_outer.name=Polo Exterior para Tótem
 tile.aura_totem.pole_pure.name=Estabilizador de Tótem
 tile.centrifuge.name=Centrifugador Alquímico
 tile.crystallizer.name=Cristalizador de Esencias
@@ -328,7 +328,7 @@ tile.mirror_essentia.name=Espejo de Esencia
 ###################################
 # Raw Materials
 item.amber.name=Ámbar
-item.quicksilver.name=Quicksilver
+item.quicksilver.name=Mercurio
 item.shard.air.name=Fragmento de Aire
 item.shard.fire.name=Fragmento de Fuego
 item.shard.water.name=Fragmento de Agua
@@ -380,7 +380,7 @@ item.phial.filled.name=Vial de Esencia
 item.label.blank.name=Etiqueta
 item.label.filled.name=Etiqueta Marcada
 item.mind.clockwork.name=Mente Mecánica
-item.mind.biothaumic.name=Mente Biotaumica
+item.mind.biothaumic.name=Mente Biothaumica
 #
 # Consumables
 item.alumentum.name=Alumentum
@@ -401,8 +401,8 @@ item.loot_bag.common.name=Tesoro Común
 item.loot_bag.uncommon.name=Tesoro Poco Común
 item.loot_bag.rare.name=Tesoro Raro
 tc.lootbag=Haga clic para abrir o guardar para comerciar
-item.turret.basic.name=Ballesta Automática
-item.turret.focus.name=Torreta
+item.turret.basic.name=Torreta Automática
+item.turret.focus.name=Torreta Mágica
 item.turret.magnet.name=Imán de Nodos
 #
 # Tools
@@ -411,7 +411,7 @@ item.thaumonomicon.cheat.name=Thaumonomicon
 item.thaumometer.name=Taumómetro
 item.sanity_checker.name=Comprobador de Cordura
 item.resonator.name=Resonador de Esencia
-item.sinister_stone.name=Iman Siniestro
+item.sinister_stone.name=Magnetita Siniestra
 item.scribing_tools.name=Herramientas de escritura
 item.thaumium_shovel.name=Pala de Thaumium
 item.thaumium_axe.name=Hacha de Thaumium
@@ -421,7 +421,7 @@ item.thaumium_hoe.name=Azada de Thaumium
 item.elemental_shovel.name=Pala del Enterrador
 item.elemental_pick.name=Pico del Núcleo
 item.elemental_axe.name=Hacha del Torrente
-item.elemental_hoe.name=Azada del Crecimiento
+item.elemental_hoe.name=Azada de Crecimiento
 item.elemental_sword.name=Espada de Céfiro
 item.void_shovel.name=Pala de Vacío Metálico
 item.void_axe.name=Hacha de Vacío Metálico
@@ -458,7 +458,7 @@ item.void_helm.name=Casco de Vacío Metálico
 item.void_chest.name=Peto de Vacío Metálico
 item.void_legs.name=Grebas de Vacío Metálico
 item.void_boots.name=Botas de Vacío Metálico
-item.void_robe_helm.name=Casco Thaumaturgico de Vacío
+item.void_robe_helm.name=Capucha Thaumaturgico de Vacío
 item.void_robe_chest.name=Ropa Thaumaturgica de Vacío
 item.void_robe_legs.name=Grebas Thaumaturgica de Vacío
 item.crimson_boots.name=Botas del Culto Crimson
@@ -572,10 +572,10 @@ item.research_notes.discovery.name=Descubrimiento
 item.researchnotes.learn=Haga clic derecho para aprender este descubrimiento
 item.creative_placer.obelisk.name=Colocador de Obelisco
 item.creative_placer.node.name=Colocador de Nodo
-item.creative_placer.caster.name=Colocador de Torreta Antigua
+item.creative_placer.caster.name=Colocador de Torreta Mágica Antigua
 #
 # Golem
-item.golem_bell.name=Campara para golem
+item.golem_bell.name=Campana de golemante
 item.golem.name=Golem
 item.seal.blank.name=Sello en blanco
 item.seal.pickup.name=Sello de control: Recolectar
@@ -610,7 +610,7 @@ focus.upgrade.enlarge.text=Esta actualización aumenta el área de efecto de los
 focus.upgrade.extend.name=Extendere
 focus.upgrade.extend.text=Esta actualización aumenta la duración de los efectos que los focos podrían crear.
 focus.upgrade.architect.name=Architectus
-focus.upgrade.architect.text=Esta actualización da mucho más control sobre el área de efecto de los focos. El área exacta que se verán afectados se muestra y se puede cambiar el tamaño utilizando la tecla de conmutación varita (predeterminado G). Shift + G le permite alternar qué dimensiones puede cambiar.
+focus.upgrade.architect.text=Esta actualización da mucho más control sobre el área de efecto de los focos. El área exacta que se verán afectados se muestra y se puede cambiar el tamaño utilizando [Shift+G] le permite alternar qué dimensiones puede cambiar.
 #
 # Specific Focus Upgrades
 ##############################
@@ -652,7 +652,7 @@ focus.upgrade.persistant.text=Cuando el objetivo muere, desaparece o se mueve fu
 recipe.return=Regresar
 recipe.clickthrough=Click para investigar
 recipe.type.workbench=Mesa de Trabajo
-recipe.type.smelting=Fundicion
+recipe.type.smelting=Fundición
 recipe.type.workbenchshapeless=Mesa de trabajo(Sin forma)
 recipe.type.arcane=Mesa de trabajo Arcana
 recipe.type.crucible=Crisol
@@ -663,7 +663,7 @@ wandtable.text1=Coste de Vis
 wandtable.text2=Coste de Experiencia
 wandtable.text3=Comenzar Actualización
 button.turretfocus.1=Objetivo Animales
-button.turretfocus.2=Objetivo Mobs
+button.turretfocus.2=Objetivo Monstruos
 button.turretfocus.3=Objetivo Jugadores
 button.turretfocus.4=Objetivo Amistoso
 turretfocus.range=Rango: %t bloques
@@ -1332,31 +1332,32 @@ tc.research_name.TALLOW=Sebo Mágico
 tc.research_text.TALLOW=Crea grasa con un toque de magia
 tc.research_page.TALLOW.1=Al procesar y calentar la carne en un crisol, se puede crear un sebo místico adecuado para muchos usos arcanos.<BR>Este sebo se puede utilizar para elaborar velas. También es posible diseñar diferentes velas de colores mediante la combinación de una vela con un colorante en una mesa de trabajo arcana.
 #
-tc.research_name.DISTILESSENTIA=Essentia Distillation
-tc.research_text.DISTILESSENTIA=Harvesting essentia
-tc.research_page.DISTILESSENTIA.1=In the future you will definitely need to have ready access to multiple different kinds of aspects - not just primal aspects drawn from your wand.<BR>Using basic alchemical principles you have devised a way to break down objects and convert them into essentia.<BR>The first step in this process requires an §lEssentia Smeltery§r. The smelter works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia. This process isn't very efficient and a small 
-tc.research_page.DISTILESSENTIA.2=amount of essentia is converted into flux roughly 20% of the time.<BR>The next step in the process is to take the essentia slurry and distill it using an §lArcane Alembic§r.<BR>To work, arcane alembics need to be placed on top of a smelter. Multiple alembics can be placed on top of each other to increase storage, but it does not influence processing speed. The essentia slurry will slowly be drawn into the alembic and the individual aspected essentia separated out.<BR>If the smelter is being powered by alumentum, this distillation process is much faster.
-tc.research_page.DISTILESSENTIA.3=The essentia can then be extracted out of an alembic using phials, jars or more complex means.
-tc.research_page.DISTILESSENTIA.4=§nArcane Bellows§r<BR>Arcane bellows placed on the side of a smelter will greatly increase the heat it generates, allowing items to be broken down into a slurry much quicker.
+tc.research_name.DISTILESSENTIA=Destilacion de Esencia
+tc.research_text.DISTILESSENTIA=Cosechando esencia
+tc.research_page.DISTILESSENTIA.1=En un futuro sin duda necesitaras tener fácil acceso a varios tipos de aspectos - aspectos no solo primigenios extraídos con su varita.<BR> Utilizando los principios básicos de la alquimia usted a ideado una manera de romper objetos y convertirlos en esencia.<BR>El primer paso en este proceso requiere una §lFundición de Esencias§r. La fundición funciona como un horno normal quemando carbón para producir calor, pero en lugar de fundir menas en metal, descompone los objetos en una suspensión de materias primas, esencia sin procesar. 
+tc.research_page.DISTILESSENTIA.2=Este proceso no es muy eficiente y una pequeña cantidad de esencia se convierte en flux alrededor del 20% de las veces.<BR>El siguiente paso en el proceso es tomar la materia prima y destilarla usando un §lAlambique Arcano§r.<BR>Para el trabajo, los alambiques arcanos deben ser colocados en la parte superior de una fundición. Múltiples alambiques pueden ser colocados uno encima del otro para aumentar el almacenamiento, esto no influye en la velocidad de procesamiento. La materia prima se introduce dentro del alambique y los aspectos se separan en esencia refinada.<BR>Si la fundición está siendo alimentado por alumentum, este proceso de destilación sera mucho más rápido.
+tc.research_page.DISTILESSENTIA.3=La esencia refinada puede entonces ser extraída de un alambique usando frascos, tarros o medios más complejos.
+tc.research_page.DISTILESSENTIA.4=§nFuelles Arcanos§r<BR>
+Los fuelles arcanos colocados al lado de una fundición aumentara en  gran medida el calor generado, lo que permitirá que los objetos se descompongan en sus materias primas mas rápidamente.
 #
-tc.research_name.DISTILESSENTIA2=Thaumium Essentia Smeltery
-tc.research_text.DISTILESSENTIA2=Harvesting essentia
-tc.research_page.DISTILESSENTIA2.1=The Thaumium Smeltery works much like the basic smeltery, but it has roughly 85% efficiency instead of 80%.<BR>Its main benefit is that it breaks down essentia slurry at double the normal speed. 
+tc.research_name.DISTILESSENTIA2=Fundición de Esencias de Thaumium
+tc.research_text.DISTILESSENTIA2=Cosechando esencia
+tc.research_page.DISTILESSENTIA2.1=La Fundición de Thaumium es parecida a la fundición básica, a diferencia que tiene alrededor de 85% de eficiencia en lugar de 80%.<BR>Su principal ventaja es que descompone las materias primas al doble de velocidad.
 #
-tc.research_name.DISTILESSENTIA3=Tótem Metal Essentia Smeltery
-tc.research_text.DISTILESSENTIA3=Harvesting essentia
-tc.research_page.DISTILESSENTIA3.1=The Void Metal Smeltery works much like the basic smeltery, but it has roughly 95% efficiency instead of 80%.<BR>It breaks down essentia slurry slightly quicker than the basic smeltery, but not nearly as fast as the thaumium smeltery.<LINE>When crafting the Advanced Alchemical Construct the primordial pearl is not consumed - it is merely required as a catalyst.
+tc.research_name.DISTILESSENTIA3=Fundición de Esencias de Vació Metálico
+tc.research_text.DISTILESSENTIA3=Cosechando esencia
+tc.research_page.DISTILESSENTIA3.1=La Fundición de Vació Metálico es parecida a la fundición básica, a diferencia que tiene alrededor de 85% de eficiencia en lugar de 80%.<BR>Es ligeramente mas rápida que una fundición normal, pero no tanto para superar a una fundición de thaumium.<LINE>Cuando elabores la Matriz Avanzada Alquímica, la perla primigenia no se consumirá - que debe limitarse como catalizador.
 #
-tc.research_name.IMPROVED_DISTILLATION=Improved Essentia Distillation
-tc.research_text.IMPROVED_DISTILLATION=Essentia Harvesting... Improved
-tc.research_page.IMPROVED_DISTILLATION.1=While smelters can be very fast, they could always be faster - especially the speed at which they break down the essentia slurry into usable essentia.<BR>Each Auxiliary Slurry Pump placed on the side of a smelter acts as a secondary processor, outputting refined essentia to any alembics placed above it.
-tc.research_page.IMPROVED_DISTILLATION.2=You have also discovered a way to manage the flux generated by the smelting process. By running the slurry through a secondary set of essentia filters you are able to separate out the flux and safely vent it as harmless steam.<BR>The process manages to reduce flux produced by about a third and additional vents will increase this, though there is diminishing returns. 
+tc.research_name.IMPROVED_DISTILLATION=Mejorando la cosecha de esencias
+tc.research_text.IMPROVED_DISTILLATION=Mejorando la cosecha de esencias
+tc.research_page.IMPROVED_DISTILLATION.1=Mientras que las fundiciones suelen ser rápidas, siempre podrían ser más rápidas - especialmente la velocidad de descomposición a esencias refinada.<BR>Cada Bomba de Lodos Auxiliar colocada al lado de una fundición actúa como un procesador secundario, la esencia refinada ira a cualquier alambique colocado por encima de ella.
+tc.research_page.IMPROVED_DISTILLATION.2=Usted ha descubierto una forma de controlar el Flux generado por el proceso de fundición. Mediante el uso de filtros secundarios de esencia eres capaces de separar el Flux en un vapor seguro e inofensivo.<BR>Este proceso consigue reducir un tercio el flux total, aumentar el numero de filtros disminuirá considerablemente el flux.
 #
 tc.research_name.JARLABEL=Tarro Reforzado y Etiquetas
 tc.research_text.JARLABEL=Almacenando y organizando Esencia
 tc.research_page.JARLABEL.1=La Esencia puede almacenarse en §lTarros Reforzados§r.<BR>Los Tarros Reforzados pueden colocarse en el mundo y son capaces de almacenar esencia de forma indefinida. Los encantamientos puestos en estos tarros hacen que añadir o extraer esencia sea sencillo.<BR> Los tarros colocados debajo del pitorro de un alambique se llenaran automáticamente. También pueden llenarse usando viales.<BR>Lo que es mas, son un medio de almacenamiento excelente para mermeladas y conservas.
 tc.research_page.JARLABEL.2=Usar shift + clic en un tarro y alambiques con la mano vacía los vaciaran.<BR>Tan pronto un tarro tenga algo de esencia podrás añadirle una §lEtiqueta para Tarro§r Esta etiqueta 'bloqueara' el tarro a ese tipo de esencia y no permitirá la entrada de otra diferente.<BR>Puedes quitar la etiqueta haciendo shift + clic con la mano vacía en el lado del frasco donde esta la etiqueta. Ten cuidado de no hacerlo en otro lado o vaciaras el frasco.
-tc.research_page.JARLABEL.3=Puedes colocar una etiqueta en una mesa de crafteo con un vial de esencia para asignarle un aspecto y así cuando la coloques en un frasco vació automáticamente bloqueara el frasco con ese aspecto. La esencia usada en la receta no es consumida.<BR>Colocarla en un frasco lleno hara que se cambie la etiqueta al tipo de esencia que tiene el tarro.<LINE>Una etiqueta se puede limpiar colocándola en una mesa de crafteo.
+tc.research_page.JARLABEL.3=Puedes colocar una etiqueta en una mesa de elaboración con un vial de esencia para asignarle un aspecto y así cuando la coloques en un frasco vació automáticamente bloqueara el frasco con ese aspecto. La esencia usada en la receta no es consumida.<BR>Colocarla en un frasco lleno hará que se cambie la etiqueta al tipo de esencia que tiene el tarro.<LINE>Una etiqueta se puede limpiar colocándola en una mesa de elaboración.
 #
 tc.research_name.ETHEREALBLOOM=Flor Etérea
 tc.research_text.ETHEREALBLOOM=Purificando flores
@@ -1413,119 +1414,119 @@ tc.research_page.ESSENTIACRYSTAL.1=Casi has dominado el arte de convertir objeto
 #
 # Golemancy 
 #######################
-tc.research_name.BASICGOLEMANCY=Golemancia Basica
+tc.research_name.BASICGOLEMANCY=Golemancia Básica
 tc.research_text.BASICGOLEMANCY=Controlando el movimiento
 tc.research_page.BASICGOLEMANCY.1=Usted ha estudiado el principio básico de los primitivos golems que cualquiera puede crear y los encontró deficientes. Tienen potencial, pero no es posible controlarlos.<BR>Estás seguro de que puedes hacerlo mejor.
 #
 tc.research_name.MATSTUDWOOD=Estudio de Materiales: Madera
 tc.research_text.MATSTUDWOOD=Elaboraciones avanzadas de Madera
-tc.research_page.MATSTUDWOOD.1=La golemancia pone grandes demandas en su creacion, ya que a menudo requiere componentes complejos con márgenes muy estrechos para el error. Usted tendrá que aumentar su habilidad y conocimiento de los materiales mundanos y arcanos. Su primer objetivo es la madera.<BR>La madera es una sustancia versátil a pesar de su debilidad, es ligera y fácil de trabajar. Has encontrado que la madera de los arboles magnificos es superior a todas las demas, especialmente a la golemancia.
+tc.research_page.MATSTUDWOOD.1=La golemancia pone grandes demandas en su creación, ya que a menudo requiere componentes complejos con márgenes muy estrechos para el error. Usted tendrá que aumentar su habilidad y conocimiento de los materiales mundanos y arcanos. Su primer objetivo es la madera.<BR>La madera es una sustancia versátil a pesar de su debilidad, es ligera y fácil de trabajar. Has encontrado que la madera de los arboles magníficos es superior a todas las demás, especialmente a la golemancia.
 #
 tc.research_name.MATSTUDIRON=Estudio de Materiales: Hierro
 tc.research_text.MATSTUDIRON=Elaboraciones avanzadas de Hierro
-tc.research_page.MATSTUDIRON.1=El hierro tiene muchas propiedades recomadas - es mucho más resistente que la madera y moldeable de una manera que la madera no llegaria a ser. Es más difícil trabajar con ella y es bastante pesada.
+tc.research_page.MATSTUDIRON.1=El hierro tiene muchas propiedades recomendadas - es mucho más resistente que la madera y moldeable de una manera que la madera no llegaría a ser. Es más difícil trabajar con ella y es bastante pesada.
 #
 tc.research_name.MATSTUDBRASS=Estudio de Materiales: Latón
 tc.research_text.MATSTUDBRASS=Elaboraciones avanzadas de Latón
-tc.research_page.MATSTUDBRASS.1=While brass is softer than iron, it is still quite sturdy and well suited to fine mechanical constructs. In your opinion it is the best mundane material for golemancy purposes and you would not dream of crafting intricate metals from any other material. It is quite pleasing to the eye as well. 
+tc.research_page.MATSTUDBRASS.1=Mientra que el latón es mas blando que el hierro, todavía sigue siendo bastante resistente y adecuado para las construcciones mecánicas delicadas. En su opinión, es el mejor material mundano para la golemancia y a usted no se le ocurriría elaboraciones complejas con cualquier otro material. Es muy agradable a la vista también.
 #
 tc.research_name.MATSTUDTHAUMIUM=Estudio de Materiales: Thaumium
 tc.research_text.MATSTUDTHAUMIUM=Elaboraciones avanzadas de Thaumium
-tc.research_page.MATSTUDTHAUMIUM.1=Thaumium is an arcane metal that sucks up enchantments like a proverbial sponge. It is significantly stronger than iron too. Unfortunately it is slightly heavier than iron and its strength also makes it hard to work.<BR>While it cannot compete with brass when it comes to intricate clockwork, thaumiums strength makes it a useful material to craft mechanisms that require strength over precision. 
+tc.research_page.MATSTUDTHAUMIUM.1=El thaumium es un metal arcano que absorbe encantamientos como una esponja.  Es significativamente más duro que el hierro también. Por desgracia, es un poco más pesado que el hierro y su dureza también hace que sea difícil trabajarlo.<BR>Si bien no puede competir con latón cuando se trata de complejos del mecanismos, la dureza del thaumium hace que sea un material útil para mecanismos que requieran fuerza y dureza antes que precisión.
 #
-tc.research_name.MATSTUDVOID=Material Studies: Void Metal
-tc.research_text.MATSTUDVOID=Advanced Void Metal crafting
-tc.research_page.MATSTUDVOID.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
+tc.research_name.MATSTUDVOID=Estudio de Materiales: Vació Metálico
+tc.research_text.MATSTUDVOID=Elaboraciones avanzadas de Vació Metálico
+tc.research_page.MATSTUDVOID.1=El vació metalico es relativamente ligero, pero muy suave que normalmente lo convierten en un material inadecuado para mecanismos. Por suerte sus propiedades mórficas y la capacidad de auto-reparación abre interesantes posibilidades para un thaumaturgo para pensar fuera de la caja.
 #
 tc.research_name.HUNGRYCHEST=Cofre Hambriento
 tc.research_text.HUNGRYCHEST=Un cofre que no quiere ser abierto
-tc.research_page.HUNGRYCHEST.1=El cofre hambiento es capaz de recoger objetos por sí mismo si se caen lo suficientemente cerca como para tocarlo.
+tc.research_page.HUNGRYCHEST.1=El cofre hambriento es capaz de recoger objetos por sí mismo si se caen lo suficientemente cerca como para tocarlo.
 #
 tc.research_name.ARCANEBORE=Taladro arcano
 tc.research_text.ARCANEBORE=Mineria evolucionada
-tc.research_page.ARCANEBORE.1=Has descubierto un dispositivo capaz de ampliar el alcance y la potencia de un foco de excavacion. De mayor uso es el hecho de que la maquina puede hacerlo sin tu supervision constante. Solo tienes que colocarlo en una base especial, apuntar en la direccion correcta con una varita y aplicar una señal de redstone.<BR>El taladro arcano requiere dos cosas para funcionar. El primero es un foco de excavacion colocado en la ranura mas a la izquierda de su inventario. Cualquier encantamiento aplicado al foco tambien alterara las funciones del taladro. 
-tc.research_page.ARCANEBORE.2=En segundo lugar es necesario colocar cualquier tipo de pico en la ranura de la derecha. El material del pico tendra poco efecto sobre la operacion del taladro, pero cuanto mayor sea su duracion, mas tiempo durara. Al igual que la varita, los encantamientos o habilidades especiales del pico tambien se aplicara lo que sea que mine el taladro.<BR>Un taladro arcano solo se pueden colocar por encima o por debajo de una plataforma arcana. Cualquier elemento minado sera expulsado de la plataforma en la direccion que la boquilla esta apuntando. Se expulsara a un inventario si fuera posible. Esta direccion se puede cambiar con una varita.
-tc.research_page.ARCANEBORE.3=The bore can be powered with §8Perditio§0 essentia which will greatly speed up the rate at which it mines. Essentia can be provided by pipes as normal.<BR>One point of §8Perditio§0 essentia will speed the bore for the next 20 blocks mined.<BR>If no essentia is provided the bore will use §8Perditio§0 vis to function. It is drawn from the aura and a single point of vis will only be able to mine a single block. The speed will be much slower when powered by vis.
+tc.research_page.ARCANEBORE.1=Has descubierto un dispositivo capaz de ampliar el alcance y la potencia de un foco de excavación. De mayor uso es el hecho de que la maquina puede hacerlo sin tu supervision constante. Solo tienes que colocarlo en una base especial, apuntar en la dirección correcta con una varita y aplicar una señal de redstone.<BR>El taladro arcano requiere dos cosas para funcionar. El primero es un foco de excavación colocado en la ranura mas a la izquierda de su inventario. Cualquier encantamiento aplicado al foco también alterara las funciones del taladro. 
+tc.research_page.ARCANEBORE.2=En segundo lugar es necesario colocar cualquier tipo de pico en la ranura de la derecha. El material del pico tendrá poco efecto sobre la operación del taladro, pero cuanto mayor sea su duración, mas tiempo durara. Al igual que la varita, los encantamientos o habilidades especiales del pico también se aplicara lo que sea que mine el taladro.<BR>Un taladro arcano solo se pueden colocar por encima o por debajo de una plataforma arcana. Cualquier elemento minado sera expulsado de la plataforma en la dirección que la boquilla esta apuntando. Se expulsara a un inventario si fuera posible. Esta dirección se puede cambiar con una varita.
+tc.research_page.ARCANEBORE.3=El taladro puede ser alimentado con esencia de §Perditio§0 que acelerará enormemente la velocidad de minería. La esencia puede ser proporcionada por las tuberías de forma natural.<BR>Cada punto de esencia §Perditio§0 acelerará la perforación para los próximos 20 bloques extraídos. Si no se proporciona esencia alguna el taladro utilizara vis de §Perditio§0 extraído del aura local. Cada punto de vis extraído del aura local equivaldrá a un bloque minado, también la velocidad sera mucho mas lenta.
 #
-tc.research_name.TRAVELTRUNK=Traveling Trunk
-tc.research_text.TRAVELTRUNK=Mobile Luggage
-tc.research_page.TRAVELTRUNK.1=An extension of your golemancy research has led to a useful companion for any thaumaturge on the go: The Traveling Trunk.<BR>This wooden chest will happily hop after its master, always ready to provide a convenient storage space for anything you pick up.<BR>The traveling trunk is tough and can take a significant amount of beating. It is highly resistant to fire and cannot be harmed by falling.<BR>The trunk can follow its master everywhere - even distant dimensions. Should you wish it to stay put however, there is a convenient  button located in its interface
-tc.research_page.TRAVELTRUNK.2=which will make it remain in its current position.<BR>The traveling trunk slowly heals itself over time, but you can also feed it all manner of food to speed up this process.<BR>Like normal golems, the trunk can be picked up by left-clicking with a golemancer's bell. It will drop all items in its inventory of you do so. Shift-clicking will also cause it to drop any upgrades you have applied to it with the normal loss chance.<BR>It can accept a single upgrade like normal golems, but they grant unique abilities to the trunk. See the following pages for details as you discover the relevant upgrades.
-tc.research_page.TRAVELTRUNK.UAI=§nGolem Upgrade: Air§r<BR>With this upgrade installed the traveling trunk will move faster.
-tc.research_page.TRAVELTRUNK.UEA=§nGolem Upgrade: Earth§r<BR>With this upgrade installed the traveling trunk be able to carry more items and will gain an additional row in its inventory.
-tc.research_page.TRAVELTRUNK.UFI=§nGolem Upgrade: Fire§r<BR>With this upgrade installed the traveling trunk will defend its master when he is attacked.
-tc.research_page.TRAVELTRUNK.UWA=§nGolem Upgrade: Water§r<BR>With this upgrade installed the traveling trunk cannot be opened or picked up by anyone else but its master.<BR>It also become highly resistant to all but the most devastating amounts of damage.
-tc.research_page.TRAVELTRUNK.UOR=§nGolem Upgrade: Order§r<BR>With this upgrade installed the traveling trunk will retain its items when it is picked up using a golemancer's bell. It will drop items as normal when shift-clicked is used.
-tc.research_page.TRAVELTRUNK.UEN=§nGolem Upgrade: Entropy§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
+tc.research_name.TRAVELTRUNK=Baul Viajero
+tc.research_text.TRAVELTRUNK=Equipaje Móvil
+tc.research_page.TRAVELTRUNK.1=Una extensión de tu investigación en golemancia te ha llevado a un compañero útil para cualquier taumaturgo: El baúl de viaje.<BR>Este cofre de madera seguirá felizmente a su maestro, siempre dispuesto a proporcionar un cómodo espacio de almacenamiento para cualquier cosa que necesites recoger.<BR>El baúl viajero es duro y puede recibir una cantidad considerable de golpes. Es altamente resistente al fuego y no puede ser dañado por caídas.<BR>El baúl puede seguir a su amo a todas partes - incluso a dimensiones lejanas. Si deseas que se quede
+tc.research_page.TRAVELTRUNK.2=quieto, hay un botón en su GUI que hará que permanezca en su posición actual.<BR>El baúl de viaje se cura lentamente, pero también puedes darle de comer todo tipo de alimentos para acelerar este proceso.<BR>Igual que los golems, el baul puede recogerse haciendo clic izquierdo con una campana de golemante. Al hacerlo, dejara caer todos los elementos en su inventario. Shift-clic también hará que caiga cualquier actualización que le hayas aplicado- con la posibilidad de perdida.<BR>Puede aceptar una sola actualización como los golems normales, pero otorga habilidades únicas a el baúl. Consulta las siguientes paginas para obtener mas detalles a medida que descubres las mejoras.
+tc.research_page.TRAVELTRUNK.UAI=§nActualizacion Golem: Aire§r<BR>Con esta actualizacion instalada el baúl se moverá mas rapido.
+tc.research_page.TRAVELTRUNK.UEA=§nActualizacion Golem: Tierra§r<BR>Con esta actualizacion instalada el baúl podrá transportar mas objetos y ganara una fila adicional en el inventario.
+tc.research_page.TRAVELTRUNK.UFI=§nActualizacion Golem: Fuego§r<BR>Con esta actualizacion instalada el baúl defenderá a su maestro cuando sea atacado.
+tc.research_page.TRAVELTRUNK.UWA=§nActualizacion Golem: Agua§r<BR>Con esta actualizacion instalada el baúl no puede ser abierto por nadie mas que su maestro.<BR>Se hace altamente resistente a todo excepto a devastadores cantidades de daño.
+tc.research_page.TRAVELTRUNK.UOR=§nActualizacion Golem: Orden§r<BR>Con esta actualizacion instalada el baúl mantendrá sus objetos cuando sea recogido con una campana de Golemante. Soltara items cuando hagas shift-click.
+tc.research_page.TRAVELTRUNK.UEN=§nActualizacion Golem: Entropia§r<BR>Con esta actualizacion instalada el baúl succionara objetos cercanos a su inventario.
 #
-tc.research_name.MINDCLOCKWORK=Clockwork Minds
-tc.research_text.MINDCLOCKWORK=Tick Tock
-tc.research_page.MINDCLOCKWORK.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If you are going to create intelligent magical servants then you are going to have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by Thaumaturgy. It has its limitations and very little autonomy, but it is a start.
+tc.research_name.MINDCLOCKWORK=Mentes Mecánicas
+tc.research_text.MINDCLOCKWORK=TIC TAC
+tc.research_page.MINDCLOCKWORK.1=Los golems de hierro, los golems de nieve y las creaciones similares tienen algo en comun - son impredecibles e incontrolables.<BR>Los espíritus que los animan son salvajes y siguen su propia voluntad. Esto es un problema.<BR>Si usted va a crear sirvientes mágicos inteligentes, entonces van a tener que darles una mente que está dispuesto a recibir órdenes. La solución más simple es la construcción de una Mente Mecánica animado con la Thaumaturgia. Tiene sus limitaciones y una poca autonomía, pero es un comienzo.
 #
-tc.research_name.MINDBIOTHAUMIC=Biothaumic Minds
-tc.research_text.MINDBIOTHAUMIC=I think therefore I am
-tc.research_page.MINDBIOTHAUMIC.1=As predicted the clockwork minds you have created offers very little in the way of abstract reasoning and autonomy. Attempting to create more complex clockworks has met with very little success, so you have turned to something you already know will work - human brains.<BR>Though hesitant at first, you soon overcame any trepidation you felt and delved into Biothaumaturgy - merging flesh, machines and magic into a single whole.<BR>The results are encouraging and you are now able to infuse clockwork minds with salvaged gray matter to form a mind with much greater capabilities.
+tc.research_name.MINDBIOTHAUMIC=Mentes Biothaumica
+tc.research_text.MINDBIOTHAUMIC=Pienso luego existo
+tc.research_page.MINDBIOTHAUMIC.1=Como se predijo las mentes mecánicas que has creado ofrecen muy poco pensamiento abstracto y autonomía. El intento de crear mecanismos de relojería más complejos se ha reunido con muy poco éxito, por lo que has recurrido a algo que ya sabes trabajará - cerebros humanos.<BR>Aunque al principio dudabas, pronto cualquier temor fue superado y se adentró en la Biothaumica - la fusión de carne, máquinas y magia en un todo.<BR>Los resultados son alentadores y ahora eres capaz de infundir las mentes mecánicas con la materia gris rescatada para formar una mente con mucha mayor capacidad.
 #
-tc.research_name.BASICTURRET=Automated Crossbow
-tc.research_text.BASICTURRET=Simple defenses
-tc.research_page.BASICTURRET.1=You have found a way to give a crossbow a mind of its own turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile mobs it detects within range. Unfortunately its limited mind does not allow you to fine tune its targets.<BR>It has a very limited internal inventory, but if you wish you can place it over an upward facing dispenser which will allow it to automatically reload itself from that inventory.<BR>Clicking on it with a wand will pick it up.
+tc.research_name.BASICTURRET=Torreta Automática
+tc.research_text.BASICTURRET=Defensas simples
+tc.research_page.BASICTURRET.1=Usted ha encontrado una forma de darle mente propia a una ballesta convirtiendola en una simple pero útil Torreta Automática.<BR>Cuando se coloca en el mundo  disparará automáticamente a cualquier criatura hostil detecta dentro de su alcance. Desafortunadamente su mente limitada no le permite afinar sus objetivos.<BR>Tiene un inventario interno muy limitado, pero si lo desea, puede colocarlo sobre un dispensador que mira hacia arriba lo que le permitirá volver a cargar automáticamente a partir de ese inventario.<BR>Al hacer clic en él con una varita lo recogerá.
 #
-tc.research_name.FOCUSTURRET=Autocaster
-tc.research_text.FOCUSTURRET=Automated Foci
-tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with via development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce to activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
+tc.research_name.FOCUSTURRET=Torreta Mágica
+tc.research_text.FOCUSTURRET=Defensas con focos
+tc.research_page.FOCUSTURRET.1=Con el descubrimiento de las mentes artificiales avanzadas y los avances hechos con a través de desarrollo de la Taladro Arcano recientemente ha encontrado una manera de crear una torreta automática que utiliza focos varita.<BR>Tiene un almacenamiento interno de vis, que se recargara usando el aura local, pero una maquina no es un thaumaturgo - la tasa de recarga es lenta y no puede hacer uso de mecanismos para reducir el costo de activación de los focos.<BR>La Torreta Mágica se puede colocar en cualquier superficie y es posible ajustar el objetivo de los ataques. Al hacer clic en él con una varita lo recogerá.
 #
 # Eldritch 
 #######################
-tc.research_name.ELDRITCHMINOR=Eldritch Epiphany
-tc.research_text.ELDRITCHMINOR=First steps into the unknown
-tc.research_page.ELDRITCHMINOR.1=It has suddenly become clear to you. Where others see chaos, you occasionally catch a glimpse of a pattern... a very strange and disturbing pattern. Something stirs in the darkest corners of the universe.<BR>You have tried to explain it to others, but received only strange looks in return. No matter, you will show them someday.<BR>You will show them all.
+tc.research_name.ELDRITCHMINOR=Epifanía Eldritch
+tc.research_text.ELDRITCHMINOR=Primeros pasos hacia lo desconocido
+tc.research_page.ELDRITCHMINOR.1=Se ha convertido repentinamente claro para ti. Donde otros ven caos, tu ocasionalmente echas un vistazo a un patrón ... un patrón muy extraño e inquietante. Algo se agita en los rincones más oscuros del universo.<BR>Has intentado explicarle a los demás, pero sólo recibir miradas extrañas a cambio. No importa, se lo mostrarás algún día.<BR>Se lo mostraras a todos.
 #
-tc.research_name.ELDRITCHMAJOR=Eldritch Revelation
-tc.research_text.ELDRITCHMAJOR=I have seen beyond the bounds of infinity
-tc.research_page.ELDRITCHMAJOR.1=A veil has been lifted - a door opened in my mind.<BR> When I look through I see wonders. No, not wonders. §mWhat I see is§r<BR>§oWhat I see is I see i see I sEee i§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
-tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Who wrote this?
+tc.research_name.ELDRITCHMAJOR=Revelacion Eldritch
+tc.research_text.ELDRITCHMAJOR=He visto más allá de los límites del infinito
+tc.research_page.ELDRITCHMAJOR.1=Un velo se ha levantado - se abrió una puerta en mi mente.<BR> Cuando miro yo veo maravillas. No, no maravillas. §mLo que yo veo es§r<BR>§oLo que yo veo es Yo veo yo veo Yo VEeo yo§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
+tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>¿Quién escribió esto?
 #
-tc.research_name.VOIDMETAL=Void Metal
-tc.research_text.VOIDMETAL=Strange, it should feel cold...
-tc.research_page.VOIDMETAL.1=By infusing magic into metal you had managed to create Thaumium. It was a worthy discovery, but the time has come to leave thaumium to amateurs and dabblers.<BR>A strange and half-remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic, but with the very essence where magic is drawn from: Darkness and the Void that dwells between the stars.<BR>The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but
-tc.research_page.VOIDMETAL.2=when struck it becomes as hard as thaumium and sometimes even harder. More impressively all but the most devastating damage soon repairs itself as the metal slowly flows back into place.<BR>The only downside is that it isn't as easy to enchant as thaumium, but still compares favorably to mundane materials like iron.<BR>You have discovered that care must be taken when handling the metal - being harmed by it seems to temporarily sap your strength.
+tc.research_name.VOIDMETAL=Vació Metálico
+tc.research_text.VOIDMETAL=Extraño, debería sentirse frío...
+tc.research_page.VOIDMETAL.1=Al infundir magia en el metal tu habías logrado crear Thaumium. Fue un descubrimiento digno, pero ha llegado el momento de dejar el thaumium a los amateurs y aficionados...<BR>Un sueño extraño y recordado a medias le ha dado el impulso de probar algo ... diferente. ¿Qué pasa si tu infundes metal con algo más que magia, pero con la misma esencia que la magia se extrae de: La oscuridad y el vacío que habita entre las estrellas.<BR>El metal resultante es inquietantemente resbaladiza y caliente al tacto. Es casi tan suave como el oro por lo que es fácil de trabajar, pero
+tc.research_page.VOIDMETAL.2=al ser golpeado se hace tan duro como thaumium e incluso a veces más. Lo más impresionante de todo es que el daño causado pronto se repara a sí mismo cuando el metal fluye lentamente hacia su lugar.<BR>El único inconveniente es que no es tan fácil de encantar como thaumium, pero aún se compara favorablemente con materiales mundanos como el hierro.<BR>Has descubierto que debe tenerse cuidado al manipular el metal - siendo lastimado por él parece debilitar temporalmente tu fuerza.
 #
-tc.research_name.ARMORVOIDFORTRESS=Void Thaumaturge Robes
-tc.research_text.ARMORVOIDFORTRESS=Otherworldly Style
-tc.research_page.ARMORVOIDFORTRESS.1=A truly enlightened thaumaturge realizes that he need not choose between utility and defense.<BR>By augmenting existing void armor with the proper enchantments and combining them with thaumaturge's robes he will be able to create a set of armored robes that not only offers physical protection and mental focus, but mystical protection as well.<BR>The robes will also retain all the properties of void armor while the hood will offer all the benefits of the goggles used in its crafting.<BR>This armor can be dyed.
+tc.research_name.ARMORVOIDFORTRESS=Capucha Thaumaturgico de Vacío
+tc.research_text.ARMORVOIDFORTRESS=Estilo de otro mundo
+tc.research_page.ARMORVOIDFORTRESS.1=Un taumaturgo verdaderamente iluminado da cuenta de que él no tiene por qué elegir entre la utilidad y la defensa<BR>Al mejorar la Armadura del metal del vacío con los encantamientos adecuados y combinándolos con la túnica de taumaturgo, serás capaz de crear un conjunto de túnicas blindadas que no sólo ofrece protección física y concentración mental, sino que protección mística también.<BR>Las túnicas también conservarán todas las propiedades de la Armadura de metal del vacío, mientras que la capucha ofrecerá todos los beneficios de las gafas utilizadas en la elaboración de está.<BR>Esta armadura se puede teñir.
 #
-tc.research_name.ENTEROUTER=The Outer Lands 
-tc.research_text.ENTEROUTER=We are not in Kansas anymore
-tc.research_page.ENTEROUTER.1=You are not quite sure what you were expecting when you stepped through the Oculus, but this strange structure of crumbling stone and twisted passageways was not it.<BR>Something is not quite right here - this structure was not designed for any practical purpose you can discern... unless that purpose was for it to be a deadly maze.<BR>Strange energies abound and your magic seems to act strangely in this alien environment. Even the other denizens you encounter seem out of place here.
+tc.research_name.ENTEROUTER=Las Tierras Exteriores
+tc.research_text.ENTEROUTER=Ya no estaremos en Kansas nunca más!
+tc.research_page.ENTEROUTER.1=No estás muy seguro de lo que esperabas cuando atravesaste el Oculus, pero esta extraña estructura de piedra desmoronada y retorcidos pasadizos no lo era.<BR>Algo no está bien aquí - esta estructura no fue diseñado para cualquier propósito práctico se puede discernir... a menos que el propósito era para que sea un laberinto mortal.<BR>Abundan las extrañas energías y tu magia parece actuar de forma extraña en este ambiente extraño. Incluso los otros habitantes que encuentras parecen fuera de lugar.
 #
-tc.research_name.OUTERREV=Revelations in the Outer Lands 
-tc.research_text.OUTERREV=Things are not what they seem
-tc.research_page.OUTERREV.1=Your suspicions have been confirmed. This is not the home of the race you have come to call the Eldritch. This place is something else entirely and you do not believe it exists in what you understand as being "reality" - it is as much a mental construct as a physical one, but what mind can contain this?<BR>You have been able to decipher only a small number of the symbols, but you are sure this place is a trap - a place to test visitors and weed out the weak. For what purpose you are not sure.
+tc.research_name.OUTERREV=Revelaciones en las Tierras Exteriores
+tc.research_text.OUTERREV=Las cosas no son lo que parecen
+tc.research_page.OUTERREV.1=Se han confirmado tus sospechas. Esta no es la hogar de la raza que has dado en llamar Eldritch. Este lugar es algo completamente distinto y que no creo que existe en lo que se entiende como "la realidad" - es tanto una construcción mental como física, pero la mente puede contener esto?<BR>Has sido capaz de descifrar sólo un pequeño número de los símbolos, pero está seguro que este lugar es una trampa - un lugar para poner a prueba a los visitantes y eliminar a más los débiles. ¿Con qué propósito?, no está seguro.
 #
-tc.research_name.PRIMPEARL=Primordial Pearl 
-tc.research_text.PRIMPEARL=What came before
-tc.research_page.PRIMPEARL.1=For the first time you find yourself with a puzzle that you do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what you consider normal, everyday primal aspects. You have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of
-tc.research_page.PRIMPEARL.2=magic as you have come to understand it. You are not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is time you start putting it to use.
+tc.research_name.PRIMPEARL=Perla Primordial 
+tc.research_text.PRIMPEARL=Lo que vino antes
+tc.research_page.PRIMPEARL.1=Por primera vez te encuentras con un rompecabezas que no cree que poder resolver.<BR>Este objeto contiene aspectos primarios puros, sino que poseen propiedades a diferencia de las que tienes en cuenta como aspectos primarios normales o cotidianos. tienes algunas teorías de por qué esto podría ser:<BR>En primer lugar esta "perla" podrían ser los remanentes de la materia original que fue creada en los albores de la realidad - la magia elemental que existían antes de que fuera mezclada y combina con aspectos compuestos.<BR>Alternativamente, podría ser materia primigenia de un lugar que no se ajuste a las reglas conocidas
+tc.research_page.PRIMPEARL.2=de la magia como has llegado a entenderlas. No está seguro de qué explicación sea más preocupante.<BR>De cualquier manera, la perla es un artefacto potente que contiene gran poder mágico y un potencial casi ilimitado.<BR>Es hora de empezar a ponerla en uso.
 #
-tc.research_name.PRIMALCRUSHER=Primal Crusher 
-tc.research_text.PRIMALCRUSHER=Breaking all the things
-tc.research_page.PRIMALCRUSHER.1=The theory behind infusion crafting is simple - infuse a single object with essentia and the properties of other objects. There are limits however, but it seems with the discovery of the primordial pearl these limits are becoming less and less.<BR>As an experiment you tried infusing the properties of completely different objects into the pearl with suprising success. The Primal Crusher is the first practical application of this discovery.<BR>By combining a Shovel of the Earthmover and a Pickaxe of the Core with their void metal counterparts you created a
-tc.research_page.PRIMALCRUSHER.2=tool of unrivaled destructive capabilities that has most of the features of its component pieces.<BR>The Primal Crusher can mine through earth and stone with equal ease and does so in a 3x3 area. Like the Pickaxe of the Core it occasionally mines native clusters instead of raw ore.<BR>It repairs itself over time, has high enchantability and serves as a relatively good weapon in a pinch.<BR>Unfortunately it seems purely destructive in nature and has lost the construction and detection abilities of its parent tools.
+tc.research_name.PRIMALCRUSHER=Trituradora Primigenia
+tc.research_text.PRIMALCRUSHER=Rompiendo todas las cosas
+tc.research_page.PRIMALCRUSHER.1=La teoría detrás de la infusión es simple - infusionar un único objeto con esencias y propiedades de otros objetos. Hay límites, sin embargo, pero parece que con el descubrimiento de la perla primordial estos limites son casi nulos.<BR>En un experimento que has intentado infusionar las propiedades de objetos completamente diferentes en la perla con éxito. La Trituradora Primigenia es la primera aplicación práctica de este descubrimiento.<BR>Mediante la combinación de la pala del excavador y un pico del núcleo con sus contrapartes creadas de vacío metalico
+tc.research_page.PRIMALCRUSHER.2=has creado un herramienta con capacidades destructivas sin igual, que tiene la mayoría de las características de sus componentes.<BR> La Trituradora Primigenia extrae tierra y piedra en un area de 3x3. Al igual que el pico del núcleo ocasionalmente las menas soltaran racimos.<BR>Se repara a si misma con el tiempo, tiene una alta tasa de encantamientos y sirve como una buena arma en caso de apuros.<BR>Por desgracia, parece puramente destructiva su naturaleza y ha perdido la capacidad de construcción y detección de sus herramientas principales.
 #
-tc.research_name.SANITYCHECK=Sanity Check
-tc.research_text.SANITYCHECK=Introspection for the brave
-tc.research_page.SANITYCHECK.1=Things have become busy in your mind lately. It is probably best that you have a look inside there and make sure everything is still all right.<BR>This tool will allow you to check the effects of warp on your psyche and how much it is effecting you.<BR>Of course you cannot allow a tool like this to fall into the hands of your enemies so you have taken great pains to obfuscate the information it provides. You might have gone too far though - you are having a hard time deciphering it yourself.  
+tc.research_name.SANITYCHECK=Comprobador de Cordura
+tc.research_text.SANITYCHECK=La introspección para los valientes
+tc.research_page.SANITYCHECK.1=Las cosas se han vuelto concurridas últimamente en tu mente.. Probablemente es mejor que eches un vistazo allí adentro y te asegurases de que todo está bien.<BR>Esta herramienta le permitirá comprobar los efectos de la warp en su psiquis y lo mucho que le está afectando.<BR>Por supuesto que no se puede permitir que una herramienta como esta caiga en manos de sus enemigos por lo que se han hecho grandes esfuerzos para ocultar la información que proporciona. Es posible que hayas ido demasiado lejos, aunque - estás teniendo tiempos difíciles de descifrar por ti mismo.
 #
-tc.research_name.CRIMSON=The Crimson Cult
-tc.research_text.CRIMSON=A Cautionary Tale
-tc.research_page.CRIMSON.1=Much of this book is written in a spidery and unintelligible script, but what you do understand offers some strange insights into the goals of the Crimson Cult.<BR>Their origins are shrouded in mystery, but it seems their goal is the perfection of a ritual they refer to as "Apertis Oculis" - Opening the Eye. What it does is unclear, but you doubt it is anything good.<BR>Interestingly enough, you think thaumaturgy might offer the missing pieces they have so long sought. Obviously only a madman would pursue this line of study...
+tc.research_name.CRIMSON=El Culto Crimson
+tc.research_text.CRIMSON=Una historia con moraleja
+tc.research_page.CRIMSON.1=Gran parte de este libro está escrito en la piel de una araña y la escritura es incomprensible, pero lo que logras entender te ofrece algunas ideas extrañas en los objetivos del Culto Carmesí.<BR>Sus orígenes son un misterio, pero parece que su objetivo es la perfección de un ritual al que se refieren como "Apertis Oculis" - Apertura del Ojo. Lo que hace es poco claro, pero tú la dudas de que sea algo bueno.<BR>Curiosamente, crees que la Taumaturgia podría ofrecer las piezas que faltan, que se han buscado durante tanto tiempo. Pero Obviamente sólo un loco podría seguir esta líneas de estudio ...
 #
-tc.research_name.OCULUS=Opening the Eye
-tc.research_text.OCULUS=I will show them, I will show them all!
-tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 1000 units of each should be sufficient.
-tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown! 
+tc.research_name.OCULUS=Apertura del Ojo
+tc.research_text.OCULUS=Yo les mostraré, les mostraré a todos!
+tc.research_page.OCULUS.1=Todo era tan simple - tu estás sorprendido, El Culto Carmesí nunca ha descubierto esto.<BR>Para llevar a cabo el ritual sólo hay que colocar cuatro Ojos de Eldritch en la piedra angular especialmente marcada que se encuentra en uno de los extraños altares donde se descubrió por primera vez el culto. El nodo de siniestro por encima de la piedra angular debe permanecer intacto.<BR>Una vez hecho esto se trata de una simple cuestión de la infusión de una gran cantidad de vis primordial en la piedra angular, con una varita - 100 unidades de cada uno deben ser suficientes.
+tc.research_page.OCULUS.2=Si has hecho todo bien, el ritual sera completado y el llamado "Ojo" será abierto.<BR>Por supuesto, Tu no tienes idea de lo que eso significa. Pero no importa, sólo los tontos le temen a lo desconocido!
 #
-tc.research_name.SINSTONE=Sinister Lodestone 
-tc.research_text.SINSTONE=Do you dare follow it?
-tc.research_page.SINSTONE.1=You have made an interesting discovery during your study of the Apertis Oculis ritual. The spot where the "eye" will open emits a very distinct kind of energy that is detectable even when it is still closed.<BR>By infusing a piece of flint you think you can create a simple scrying device that will light up whenever it is pointed towards such an energy signature.<BR>The range is limited, but it is a worthwhile invention since the ritual stones are often hard to find.
+tc.research_name.SINSTONE=Magnetita Siniestra
+tc.research_text.SINSTONE=¿Te atreves a seguirlo?
+tc.research_page.SINSTONE.1=Usted ha hecho un interesante descubrimiento durante su estudio del ritual "Apertis Oculis". El lugar donde el "ojo" se emite un tipo de energía muy distinto, que es detectable incluso cuando todavía está cerrado.<BR>Al in fusionar un pedernal usted piensa que puede crear un dispositivo adivinación simple que se ilumina cada vez que se apunta hacia esa energía.<BR>El alcance es limitado, pero es una invención que vale la pena ya que las piedras de rituales son a menudo difíciles de encontrar.
 #
