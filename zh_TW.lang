@@ -100,7 +100,7 @@ entity.Thaumcraft.InhabitedZombie.name=蹣跚之軀殼
 entity.Thaumcraft.TurretBasic.name=自動十字弩
 entity.Thaumcraft.TurretFocus.name=施術裝置
 entity.Thaumcraft.TurretEldritch.name=遠古施術裝置
-entity.Thaumcraft.NodeMagnet.name=節點磁石
+entity.Thaumcraft.NodeMagnet.name=節點磁鐵
 #
 champion.mod.bold=魯莽
 champion.mod.spine=尖棘
@@ -404,7 +404,7 @@ item.loot_bag.rare.name=罕見藏寶袋
 tc.lootbag=點擊以開啟或存留以備交易
 item.turret.basic.name=自動十字弩
 item.turret.focus.name=施術裝置
-item.turret.magnet.name=節點磁石
+item.turret.magnet.name=節點磁鐵
 #
 # Tools
 item.thaumonomicon.name=魔導手冊
@@ -1083,9 +1083,9 @@ tc.research_page.WORKBENCHCHARGER.1=大部分秘術使經常會有這樣的煩�
 #
 tc.research_name.NODEMAGNET=節點牽引術
 tc.research_text.NODEMAGNET=像用磁鐵一樣
-tc.research_page.NODEMAGNET.1=操縱靈氣是一回事，但如果能實現移動周圍的節點，就能夠確保當你有需求時都能擁有穩定的魔力來源。因此你開發出了節點磁石。<BR>這塊磁鐵會將32格範圍內最近的節點吸向自己。聽上去沒什麼複雜的，但實際上在強行從靈氣中撕扯出節點，這不僅需要大量各種類型的魔力，還會造成相當可觀的咒波污染。<BR>節點越大，移動速度越慢。
+tc.research_page.NODEMAGNET.1=操縱靈氣是一回事，但如果能實現移動周圍的節點，就能夠確保當你有需求時都能擁有穩定的魔力來源。因此你開發出了節點磁鐵。<BR>這塊磁鐵會將32格範圍內最近的節點吸向自己。聽上去沒什麼複雜的，但實際上在強行從靈氣中撕扯出節點，這不僅需要大量各種類型的魔力，還會造成相當可觀的咒波污染。<BR>節點越大，移動速度越慢。
 tc.research_page.NODEMAGNET.2=節點磁鐵是一種非常脆弱的設備，必須小心避免碰撞甚至翻倒。它能夠承受幾次輕敲，但稍微更嚴重的碰撞都會損壞它的精密元件。<BR>用法杖點擊它可以將其回收。
-tc.research_page.NODEMAGNET.3=§n警告！§r<BR><BR>你安置節點磁石時留意到奇怪的現象：它所發出的微弱的嗡嗡聲導致你非常焦躁不安。<BR>四周憤怒的嘟囔與嚎叫聲似乎表明並非只有你受到了噪音的影響。
+tc.research_page.NODEMAGNET.3=§n警告！§r<BR><BR>你安置節點磁鐵時留意到奇怪的現象：它所發出的微弱的嗡嗡聲導致你非常焦躁不安。<BR>四周憤怒的嘟囔與嚎叫聲似乎表明並非只有你受到了噪音的影響。
 #
 # Artifice 
 #######################
@@ -1472,7 +1472,7 @@ tc.research_page.MINDBIOTHAUMIC.1=如同你的預期，你所製造的發條之�
 #
 tc.research_name.BASICTURRET=自動十字弩
 tc.research_text.BASICTURRET=簡易防衛
-tc.research_page.BASICTURRET.1=你找到一種方法能夠賦予十字弩思維，使其變為一種簡易的自動炮台。<BR>放置好後的自動十字弩會自動朝著射程內的所有敵對生物開火。遺憾的是它有限的思維能力無法讓你為其調整攻擊目標。<BR>其內部存儲空間也非常有限，但若你願意，你可以將其放置在一個面朝上的投擲器上，它就能夠自動從投擲器中裝填彈藥了。<BR>持法杖點擊可以回收它。
+tc.research_page.BASICTURRET.1=你找到一種方法能夠賦予十字弩思維，使其變為一種簡易的自動炮台。<BR>放置好後的自動十字弩會自動朝著射程內的所有敵對生物開火。遺憾的是它有限的思維能力無法讓你為其調整攻擊目標。<BR>其內部存儲空間也非常有限，但若你願意，你可以將其放置在一個面朝上的發射器上，它就可以自動從發射器中裝填彈藥。<BR>持法杖點擊可以回收它。
 #
 tc.research_name.FOCUSTURRET=施術裝置
 tc.research_text.FOCUSTURRET=自動核心
