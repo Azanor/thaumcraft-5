@@ -260,7 +260,7 @@ tile.metal.brass.name=黄铜方块
 tile.paving_stone.barrier.name=屏障石
 tile.paving_stone.travel.name=旅行者铺路石
 tile.flesh_block.name=血肉方块
-tile.redstone_relay.name=红石中继器
+tile.redstone_relay.name=红石继能器
 #
 # Misc
 tile.hole.name=次元裂痕
