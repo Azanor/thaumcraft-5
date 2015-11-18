@@ -17,7 +17,7 @@ potion.warpward=扭曲防護
 potion.deathgaze=死亡凝視
 potion.blurred=視線飄渺
 potion.sunscorned=日之辱蔑
-potion.thaumarhia=玄奧
+potion.thaumarhia=玄症
 #
 # Warp
 ###################################
@@ -44,7 +44,7 @@ warp.text.16=你依稀可聽見周圍那幽幽的詠唱聲。
 ###################################
 entity.Thaumcraft.AuraNode.name=靈氣節點
 entity.Thaumcraft.Golem.name=傀儡
-entity.Thaumcraft.ThaumSlime.name=神秘史萊姆
+entity.Thaumcraft.ThaumSlime.name=玄秘史萊姆
 entity.Thaumcraft.Dart.name=傀儡飛鏢
 entity.Thaumcraft.FrostShard.name=霜星
 entity.Thaumcraft.ExplosiveOrb.name=爆炎珠
@@ -58,7 +58,7 @@ entity.Thaumcraft.GiantBrainyZombie.name=暴怒巨型殭屍
 entity.Thaumcraft.BrainyZombie.name=暴怒殭屍
 entity.Thaumcraft.FollowItem.name=跟隨物品
 entity.Thaumcraft.SpecialItem.name=魔力物品
-entity.Thaumcraft.FallingTaint.name=污染泥土
+entity.Thaumcraft.FallingTaint.name=污染凝塊
 entity.Thaumcraft.AspectOrb.name=要素球
 entity.Thaumcraft.TaintCrawler.name=污染爬蟲
 entity.Thaumcraft.Taintacle.name=污染觸手怪
@@ -348,7 +348,7 @@ item.nugget.lead.name=鉛粒
 item.nugget.quicksilver.name=水銀液滴
 item.nugget.thaumium.name=秘術粒
 item.nugget.void.name=虛無鋼粒
-item.nugget.brass.name=煉金黃銅錠
+item.nugget.brass.name=煉金黃銅粒
 item.cluster.iron.name=鐵礦晶簇
 item.cluster.copper.name=銅礦晶簇
 item.cluster.tin.name=錫礦晶簇
@@ -1186,7 +1186,7 @@ tc.research_page.WATERJUG.1=從甕口不斷湧出的一小股清泉讓無盡之�
 tc.research_name.LEVITATOR=奧術懸浮台
 tc.research_text.LEVITATOR=接下來該研究怎麼飛了！
 tc.research_page.LEVITATOR.1=如果不去考慮真正的飛翔，奧術懸浮台可謂是最棒的玩意之一了。<BR>放置奧術懸浮台的地方，任何物品和生物都會懸浮到離其上表面8格高處。在漂浮中潛行的生物及玩家會緩慢降下。<BR>漂浮每項物件每秒皆消耗2單位的Aer靈氣。<BR>懸浮台可向任意方向，而被橫推的生物會維持其漂浮高度。
-tc.research_page.LEVITATOR.2=裝置後的操作開關能調整其效力以及魔力的消耗量。
+tc.research_page.LEVITATOR.2=轉動裝置後的旋鈕能調整其效力以及魔力的消耗量。
 #
 tc.research_name.ARCANEEAR=奧術之耳
 tc.research_text.ARCANEEAR=噓，你有沒有聽見什麼？
@@ -1294,7 +1294,7 @@ tc.research_page.CRUCIBLE.5=§n世界鹽§r<BR><BR>世界鹽，世人稱之為�
 tc.research_name.METALLURGY=秘術錠
 tc.research_text.METALLURGY=魔導金屬
 tc.research_page.METALLURGY.1=已經證實通過秘術學原理能夠輕易處理金屬材料。你的首次相關實驗發現了秘術錠。<BR>秘術錠是向普通的金屬材料灌注天然魔力得到的產物。相比鐵，它更堅硬，也更能容載附魔能量。<BR>這種金屬廣泛用於合成更高級的魔導設備。<BR>也可以用它使用慣常的合成方法製作出相應的工具，武器和裝備。
-tc.research_page.METALLURGY.2=神秘錠固然有諸多特性，但有時候平凡的材料在特定用途上會更勝一籌。黃銅是一種堅固耐用，摩擦係數小的金屬材料，非常適合用來製造精密的機械設備。<BR>但黃銅也不可能滿足你身處的這個宇宙多變特性導致的所有複雜需求。好在你找到一種煉金方法能夠用它製作成更有用的金屬。
+tc.research_page.METALLURGY.2=秘術錠固然有諸多實用特性，但有時候平凡的材料在特定用途上會更勝一籌。黃銅是一種堅固耐用，摩擦係數小的金屬材料，非常適合用來製造精密的機械設備。<BR>但由於你所處的這個宇宙之特殊波動性導致你可能無法找到足夠的黃銅。好在你找到一種煉金方法能製作出這種有用的金屬。
 #
 tc.research_name.NITOR=閃耀之光
 tc.research_text.NITOR=永恆的花火
