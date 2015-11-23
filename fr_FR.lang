@@ -320,9 +320,9 @@ tile.pillar.pillar_eldritch.name=Pilier d'Infusion surnaturelle
 tile.infusion_matrix.name=Matrice runique
 tile.aura_totem.push.name=Totem de dispersion d'aura
 tile.aura_totem.pull.name=Totem d'attraction d'aura
-tile.aura_totem.pole_inner.name=Pole intérieur du totem
-tile.aura_totem.pole_outer.name=Pole extérieur du totem
-tile.aura_totem.pole_pure.name=Pole de stabilisation du totem
+tile.aura_totem.pole_inner.name=Pôle intérieur de totem
+tile.aura_totem.pole_outer.name=Pôle extérieur de totem
+tile.aura_totem.pole_pure.name=Pôle de stabilisation de totem
 tile.centrifuge.name=Centrifugeuse d'Essentia
 tile.crystallizer.name=Cristalliseur d'Essentia
 tile.spa.name=Spa arcanique
@@ -880,7 +880,7 @@ tc.research_name.NODES=L'aura et les nœuds
 tc.research_text.NODES=La magie est partout
 tc.research_page.NODES.1=L'aura est un champ d'énergie magique répandu à travers le monde. Son origine est incertaine. Certains croient que c'est l'accumulation de la force de vie des êtres vivants tandis que d'autres croient que c'est simplement un autre type d'énergie provenant de plusieurs autres endroits. La dernière théorie semble être la plus probable puisque l'aura est souvent trouvé autour d'un nœud d'énergie mystique concentré connu sous la forme d'un §5nœud d'aura§0.<BR>L'aura à différents niveaux d'énergie pour chaque aspect primaire. Par exemple, l'aura près de l'eau à souvent plus d'§3Aqua§0, que dans un désert où l'§cIgnis§0 seras plus prépondérant.
 tc.research_page.NODES.2=L'aura varie d'un tronçon à l'autre. Si l'aura d'une zone est épuisée, alors l'aura provenant des zones voisines avec des valeurs d'énergie plus élevées s'écoulera  à l'intérieur. Les niveaux ne vont jamais s'égaliser puisque l'aura agit plus comme un océan de colle plus épaisse que l'eau.<BR>L'aura peut aussi devenir corrompue et obtenir l'aspect §5Vitium§0 (flux). Le Flux est «épais» et tend à en receuillir plus dans une zone discrète avant de s'écouler sur les tronçons voisins. L'aura qui chute énormément en dessous de ses niveaux de base peut aussi générer du Flux.<BR>Si trop de flux est receuillie dans une zone, il peut conduire à de la §lCorruption§r. Pour plus d'information
-tc.research_page.NODES.3=sur la corruption, regardez la section adéquat dans le thaumonomicon. Les nœuds d'aura agissent plus comme un passage vers d'autres domaines mystique par lequels l'énergie magique s'infiltre. Chaque nœud est habituellement «accordé» à un §5aspect primaire§0, mais rarement, un nœud peut s'accorder sur un  §5aspect composé§0.<BR>Les nœuds ne peuvent pas être exploités directement mais ils reconstituent doucement l'aura autour d'eux.<BR>Généralement, le taux de reconstitution varie selon les phases de la Lune, la pleine Lune ayant le taux le plus élevé.<BR>La taille des nœuds est aussi directement liée à la rapidité de
+tc.research_page.NODES.3=sur la corruption, regardez la section adéquat dans le thaumonomicon. Les nœuds d'aura agissent plus comme un passage vers d'autres domaines mystique par lequels l'énergie magique s'infiltre. Chaque nœud est habituellement «accordé» à un §5aspect primaire§0, mais rarement, un nœud peut s'accorder sur un §5aspect composé§0.<BR>Les nœuds ne peuvent pas être exploités directement mais ils reconstituent doucement l'aura autour d'eux.<BR>Généralement, le taux de reconstitution varie selon les phases de la Lune, la pleine Lune ayant le taux le plus élevé.<BR>La taille des nœuds est aussi directement liée à la rapidité de
 tc.research_page.NODES.4=reconstitution de l'aura. Les nœuds d'aura sont pratiquement impossible à voir à l'œil nu. Souvent, la seule façon de déterminer leur présence est de regarder les niveaux d'aura élevés dans une zone déterminé.<BR>Les nœuds à proximités s'attirent souvent entre elles et vont se rapprocher. Quand elle sont assez proche, elle fusionne et le résultat est variable mais habituellement, il en résulte un nœud plus large contenant les caractéristique de l'un des nœud original.<BR>Il y'a beaucoup de différent types de nœuds à trouver, mais vous en savez encore très peu sur eux.
 tc.research_page.NODES.A=§l§nNœud Astral§r<BR>Ces nœuds semblent réagir à la lumière - plus la quantité de lumière est grande, plus rapidement ils rechargent l'aura.
 tc.research_page.NODES.D=§l§nNœud Sinistre§r<BR>Ces nœuds fonctionnent mieux dans l'obscurité et quand la lune est en déclin. En outre, la zone autour de ces nœuds est souvent sinitre et dangereuse comme si elles puisent dans un domaine mystique dangereux  et démoniaque.
@@ -899,7 +899,7 @@ tc.research_page.ORE.4=§l§nAmbre§r<BR><IMG>thaumcraft:textures/research/resea
 tc.research_name.PLANTS=Plantes et arbres
 tc.research_text.PLANTS=Végétation magique
 tc.research_page.PLANTS.1=§l§nArbres en bois arcanique§r<BR><IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG><BR>Ces grands et majestueux arbres se trouvent disséminés dans tout le paysage.<BR>Leur bois est capable d'absorber des quantités impréssionnantes de magie, ce qui en fait un élement populaire dans l'élaboration des dispositifs magiques.
-tc.research_page.PLANTS.2=§l§nArbres en bois d'argent§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><<BR>Ces arbres rares et magiques sont merveilleux à observer. Leurs feuilles miroitent d'énergie magique et leur bois pâle et doux est apprécié pour ses propriétés purifiantes. Les arbres de nature magique forment souvent des nœuds d'aura dans leur cœur, cette caractéristique seule fait de la culture du bois d'argent un bien inestimable.
+tc.research_page.PLANTS.2=§l§nArbres en bois d'argent§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><BR>Ces arbres rares et magiques sont merveilleux à observer. Leurs feuilles miroitent d'énergie magique et leur bois pâle et doux est apprécié pour ses propriétés purifiantes. Les arbres de nature magique forment souvent des nœuds d'aura dans leur cœur, cette caractéristique seule fait de la culture du bois d'argent un bien inestimable.
 tc.research_page.PLANTS.3=§l§nBrillefeuille§r<BR><IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG><BR>Ce qui est étrange, c'est que ces fleurs éclatantes poussent seulement à l'ombre de l'arbre en bois d'argent. Au lieu de nectar, ces fleurs produisent du vif-argent.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l§nPerlecendre§r<BR><IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG><BR>Touvée seulement dans les climats chauds, cette plante brûle d'un feu élémentaire. Elles peuvent êtres récoltées et broyées pour produire une poudre fine semblable à la poudre d'incendiaire.
 tc.research_page.PLANTS.5=§l§nChamvisgnon§r<BR><IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>Cet étrange rougeoyant champignon peut seulement être trouvé dans une forêt magique.<BR>Ils ont des propriétés hallucinogènes donc il faut être prudent et ne pas les approcher de trop près. 
@@ -939,64 +939,64 @@ tc.research_name.WARP=Warp, Flux et tout ce qui est mauvais
 tc.research_text.WARP=Tout à un prix
 tc.research_page.WARP.1=§nWarp§r<BR>Beaucoup pense que les hommes ne sont pas fait pour toucher à la magie, et rien ne leur donne plus raison que l'existance du Warp.<BR>Rechercher des magies interdites ou créer des objets d'un nature... douteuse, tend à distordre la vision de la réalité d'un thaumaturge, déformant à la fois leurs esprits et leurs corps. Cet effet est nommé Warp.<BR>Parfois le warp gagné est temporaire et disparaîtra avec le temps, mais il n'y a aucun moyen de se débarasser du warp permanent une fois gagné et un thaumaturge qui choisit d'ignorer
 tc.research_page.WARP.2=ce danger dans sa poursuite de puissance se retrouve sur une pente bien glissante.<BR>La warp se manifeste habituellement par des troubles mineurs de concentration, une douleur physique ou des hallucianations.<BR>Ces dernières sont plus que des images mentales cependant, et certaines de ces visions recèlent parfois des connaissances pratiques ou semblent terriblement réelles.
-tc.research_page.WARP.3=§nFlux§r<BR>Si le warp est la manifestation mentale de la magie qui tourne mal, alors le Flux est sa manifestation physiqye. Le flux peut se manifester de trois façons : un liquide, un gaz et une maladie physique. les deux premières manifestations sont considérées une contrariété par la plupart des thaumaturges et sont souvent le résultat d'un usage gaspilleur de la magie. ils ne sont pas particulièrement durs à nettoyés, mais entrer en contact avec va souvent déclencher la troisième manifestation : la grippe de Flux. La grippe de Flux n'est pas particulièrement dangereuse, mais un thaumaturge qui en souffre trouvera difficile de concentrer du Vis, ce qui entraine une consommation plus importante de Vis.
+tc.research_page.WARP.3=§nFlux§r<BR>Si le warp est la manifestation mentale de la magie qui tourne mal, alors le Flux est sa manifestation physiqye. Le flux peut se manifester de trois façons : un liquide, un gaz et une maladie physique. les deux premières manifestations sont considérées une contrariété par la plupart des thaumaturges et sont souvent le résultat d'un usage gaspilleur de la magie. ils ne sont pas particulièrement durs à nettoyés, mais entrer en contact avec va souvent déclencher la troisième manifestation : la grippe de Flux. La grippe de Flux n'est pas particulièrement dangereuse, mais un thaumaturge qui en souffre trouvera difficile de concentrer du Vis, ce qui entrainera une consommation plus importante.
 #
 # Thaumaturgy 
 #######################
-tc.research_name.BASICTHAUMATURGY=Basic Wand Craft
-tc.research_text.BASICTHAUMATURGY=Your first tool
-tc.research_page.BASICTHAUMATURGY.1=The casting wand is your most basic, but also your most important tool. It is what you use to craft objects, activate blocks like the crucible, and countless other tasks.<BR>The most basic wand stores a very limited amount of magical energy (called vis) that it uses to perform its tasks. To replenish the energy in a wand you must simply hold it in your hand and it will draw vis from the aura.<BR>While holding a wand you will see a indicator on the top left of the screen that shows how much vis is stored within the wand.
-tc.research_page.BASICTHAUMATURGY.2=Holding shift will display exact numbers held by the wand and any possible discounts you have to performing magical tasks.<BR>Wands are always constructed by the combination of a rod and two end-caps. As you progress with your studies, you are sure you will discover different materials that you can use to craft rods and caps to make powerful wands. Only the basic wand can be put together in a normal crafting table. All other wands require the §5Arcane Workbench§0 and will cost vis to construct.<BR>The basic wand is constructed from mundane wood and iron, both of which make poor materials for working magic.
+tc.research_name.BASICTHAUMATURGY=Baguette basique artisanale
+tc.research_text.BASICTHAUMATURGY=Votre premier outil
+tc.research_page.BASICTHAUMATURGY.1=La baguette est votre outil plus basique mais aussi le plus important. C'est ce que vous utilisez pour fabriquer des objets, activer des blocs comme le creuset et faire d'innombrables autres tâches. La baguette la plus élémentaire stocke une très petite quantité d'énergie (appelée "Vis") qui est utilisée pour accomplir des tâches. Pour reconstiter l'énergie de la baguette, il suffit simplement de la tenir dans la main. La baguette va drainer le Vis depuis l'aura.<BR> Tout en tenant la baguette, vous voyez un indicateur en haut à gauche de l'écran montrant la quantité de Vis stocké dans la baguette.
+tc.research_page.BASICTHAUMATURGY.2=Maintenir "Maj" permettra d'afficher les nombres exactes et les réductions d'énergie possibles pour les tâches magiques.<BR>Les baguettes sont toujours construites avec la combinaison d'un bâton et de deux embouts. Dans votre progression, vous découvrirez sûrement de nouveaux matériaux que vous pourrez utiliser pour fabriquer des baguettes et des embouts et faire de puissantes baguettes. Seule la baguette de base peut être fabriquée dans l'atelier classique. Toutes les autres baguettes exigent l'§5atelier arcanique§0 et coûtent du Vis pour être construites. La baguette basique est construite à partir de bois ordinaire et de fer. Ce sont deux matériaux de faible valeur pour le travail magique.
 #
-tc.research_name.NODETAPPER1=Advanced Aura Tapping
-tc.research_text.NODETAPPER1=Taking it all
-tc.research_page.NODETAPPER1.1=Usually the process of drawing vis from the aura with a wand is quite slow... but not anymore.<BR>You have discovered a more efficient way of tapping into the aura, doubling the normal draw rate. In addition you no longer need to hold the wand in your hand to do this, merely having it on your hotbar is sufficient.
+tc.research_name.NODETAPPER1=Exploitation avancé des nœuds
+tc.research_text.NODETAPPER1=Prenons tout
+tc.research_page.NODETAPPER1.1=Habituellement le processus pour drainer le Vis de l'aura avec une baguette est assez lent mais plus maintenant.<BR>vous avez découvert un moyen plus efficace pour le faire, doublant le drain de Vis. En outre, vous n'êtes plus obliger de tenir la baguette dans vos mains pour la recharger, il suffit de la placer dans votre barre d'inventaire.
 #
-tc.research_name.NODETAPPER2=Master Aura Tapping
-tc.research_text.NODETAPPER2=All your vis are belong to us
-tc.research_page.NODETAPPER2.1=You have added further refinements to the methods you use to tap the aura.<BR>You are now able to draw vis three times faster than normal. Furthermore you will recharge wands anywhere in your inventory, not just in your hand or hotbar.
+tc.research_name.NODETAPPER2=Maître en exploitation des nœuds
+tc.research_text.NODETAPPER2=Tout le Vis nous appartient
+tc.research_page.NODETAPPER2.1=Vous avez ajouté des améliorations plus avancées à la méthode que vous utilisez pour exploiter l'aura.<BR>Vous êtes maintenant capable de drainer le Vis trois fois plus vite que la normale.
 #
-tc.research_name.AURAMANIP1=Basic Aura Manipulation
-tc.research_text.AURAMANIP1=Let the magic flow
-tc.research_page.AURAMANIP1.1=You have made a few interesting discoveries regarding the aura and it is high time you start putting that knowledge to use. You have created a totem that pushes vis away from itself - the Totem of Dispersal.<BR>As the name suggests it takes vis near the totem and spreads it over a wider area.<BR>Messing with the aura is not without risk however and the totem has a small chance of converting the vis into flux instead of moving it.<BR>The totem requires that crystal shards be placed in its inventory to act as fuel and to determine what type of vis is effected.  
-tc.research_page.AURAMANIP1.2=Each totem has an inner and outer area in which it operates. By default the inner area consists of the chunk in which it is located while the outer area consists of the 8 chunks surrounding the inner area.<BR>The dispersal totem moves vis from its inner area towards the outer area.<LINE>You also know how to craft two different totem poles. These poles must be placed below a totem and each totem can have up to 5 poles located below it. These poles modify the inner and outer areas that the totem effects. 
-tc.research_page.AURAMANIP1.3=For example, a Dispersal totem with 1 inner and 2 outer poles will draw from vis from the green chunks below and push it towards the blue chunks.<IMG>thaumcraft:textures/research/research3.png:168:0:80:80:1</IMG>   
+tc.research_name.AURAMANIP1=Bases sur la manupilation de l'aura
+tc.research_text.AURAMANIP1=Laisser la magie circuler
+tc.research_page.AURAMANIP1.1=Vous avez fait quelques découvertes intéressantes concernant l'aura et il est grand temps de les mettre à l'usage. Vous avez créé un totem qui pousse le Vis loin de lui-même - le totem de dispersion.<BR> Comme le nom l'indique, il récupère le vis proche de lui et le propage au loin.<BR>Désordonné l'aura n'est cependant pas sans risques et le totem à une petite chance de convertir le Vis and Flux au lieux de le déplacer.<BR>Le totem requiert un éclat de cristal pour agir comme un carburant et déterminer quel type de Vis est affecté.
+tc.research_page.AURAMANIP1.2=Chaque totem à une surface intérieur et extérieur dans lequel il opère. Par défaut, la zone intérieur est constitué d'un tronçon dans lequel il se trouve alors que la zone extérieur en fait 8 autour de la zone intérieur.<BR>Le totem de dispersion déplace le vis de sa zone intérieur vers sa zone extérieur.<LINE>Vous savez aussi comment fabriquer deux différents pôles du totem. Ces pôles doivent être placer sous un totem pour un maximum de 5 par totem. Ces pôles modifient les zones intérieur et extérieur que le totem affecte.
+tc.research_page.AURAMANIP1.3=Par exemple, un totem de dispersion avec un pôle intérieur et 2 extérieur va drainer le Vis des trançons verts et le pousser vers les trançons bleus. (voir ci-dessous)<IMG>thaumcraft:textures/research/research3.png:168:0:80:80:1</IMG>    
 #
-tc.research_name.AURAMANIP2=Totem of Attraction
-tc.research_text.AURAMANIP2=Drawing it in
-tc.research_page.AURAMANIP2.1=The Totem of Attraction works in much the same way is the Totem of Dispersal, except that it draws vis from the outer area and moves it towards the inner area.    
+tc.research_name.AURAMANIP2=Totem d'attraction
+tc.research_text.AURAMANIP2=L'attirer à l'intérieur
+tc.research_page.AURAMANIP2.1=Le totem d'attraction fonctionne de la même façon que le totem de dispersion, à l'exception qu'il draine le Vis des zones extérieures et le déplace vers les zones intérieures.    
 #
-tc.research_name.AURAPOLESTABLE=Stabilizing Totem Pole
-tc.research_text.AURAPOLESTABLE=Smoothing the flow
-tc.research_page.AURAPOLESTABLE.1=This totem pole has a stabilizing effect on the totem it supports. It reduces the chance that flux is created during aura manipulation.
+tc.research_name.AURAPOLESTABLE=Pôle de stabilisation de totem
+tc.research_text.AURAPOLESTABLE=Lissage du flux
+tc.research_page.AURAPOLESTABLE.1=Ce pôle de totem à un effet stabilisant sur le totem qu'il soutient. Cela réduit les chances que du Flux soit créé durant la manipulation de l'aura.
 #
-tc.research_name.CAP_gold=Gold Wand Caps
-tc.research_text.CAP_gold=Capping things off with style
-tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and wands capped with this material takes no penalty when used to channel vis.
+tc.research_name.CAP_gold=Embouts en or pour baguette
+tc.research_text.CAP_gold=Les embouts avec style
+tc.research_page.CAP_gold.1=L'or est un bien meilleur focalisateur que le fer. Les baguettes terminées par ce matériau n'ont pas de pénalité lors de la canalisation de Vis.
 #
-tc.research_name.CAP_brass=Brass Wand Caps
-tc.research_text.CAP_brass=Drawing in the Vis
-tc.research_page.CAP_brass.1=Like gold, wands capped with this material takes no penalty when used to channel vis. More importantly however, is the fact that these caps can draw vis from the aura easier than normal, allowing the wands they are placed on to charge faster.
+tc.research_name.CAP_brass=Embouts de baguette en laiton
+tc.research_text.CAP_brass=Attirer le Vis
+tc.research_page.CAP_brass.1=Comme l'or, les baguettes encapsulées avec ce matériau n'ont pas de pénalité lors de la canalisation du Vis. Plus important cependant, est le fait que ces embouts drainent le vis de l'aura plus facilement que la normale, ce qui permet une charge plus rapide des baguettes sur lesquelles ils sont placés.
 #
-tc.research_name.CAP_thaumium=Thaumium Wand Caps
-tc.research_text.CAP_thaumium=Efficiency over speed
-tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.<BR>Crafting these wand caps in an arcane workbench is not sufficient - they need to be infused with additional magical energy to make them usable.
+tc.research_name.CAP_thaumium=Embouts en thaumium pour baguette 
+tc.research_text.CAP_thaumium=L'éfficacité avant la vitesse
+tc.research_page.CAP_thaumium.1=Le thaumium est connu pour avoir la capacité de stocker et d'absorber la magie, donc l'utiliser en embouts de baguette est un choix logique. Il est très efficace pour focaliser le Vis de tous types.<BR>Fabriquer ces embouts de baguette dans un atelier arcanique n'est pas suffisant, ils ont besoin d'ête infusés avec de l'énergie magique supplémentaire pour les rendre utilisables.
 #
-tc.research_name.CAP_void=Void Metal Wand Caps
-tc.research_text.CAP_void=Power from beyond
-tc.research_page.CAP_void.1=Crafting wand caps from void metal seems counterintuitive since it seems to be highly resistant to magic, but counterintuitive is where you live now.<BR>Your gamble paid off. The metal itself may be resistant to magic and channels vis no better than gold or brass, but it can draw vis from the aura much, much quicker than normal. The magic does seem §ostrange§r somehow, but it is probably just your imagination.
+tc.research_name.CAP_void=Embouts en métal du Vide
+tc.research_text.CAP_void=Pouvoir d'au-dela
+tc.research_page.CAP_void.1=Créer des embout pour baguette en métal du Vide semble contre-intuitif puisque ce métal à l'air résistant à la magie, mais le contre-intuitif est l'endroit où vous vivez désormais.<BR>Votre pari à payé. Le métal lui-même est peut être résistant à la magie et ne le canalise pas aussi bien que l'or ou le laiton, mais il le draine de l'aura beaucoup, beaucoup plus vite que la normale. La magie semble §oétrange§r par contre, mais c'est probablement juste votre imagination.
 #
-tc.research_name.ROD_greatwood=Greatwood Wand Core
-tc.research_text.ROD_greatwood=Repository of magical energy
-tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has double the vis storage potential of mundane wood, being able to store up to 250 vis of each type.
+tc.research_name.ROD_greatwood=Manche en bois arcanique
+tc.research_text.ROD_greatwood=Dépôt d'énergie magique
+tc.research_page.ROD_greatwood.1=Sculpté dans du bois arcanique, ce bâton double le stockage potentiel de Vis par rapport au bois ordinaire. Il stocke jusqu'à 250 Vis de chaque type.
 #
-tc.research_name.ROD_silverwood=Silverwood Wand Core
-tc.research_text.ROD_silverwood=Magical to the core
-tc.research_page.ROD_silverwood.1=Silverwood has proved to be an excellent repository of magical energy, and wand cores crafted from it can store up to 500 vis of each type.
+tc.research_name.ROD_silverwood=Manche en bois d'argent
+tc.research_text.ROD_silverwood=Magie dans son cœur
+tc.research_page.ROD_silverwood.1=Le bois d'argent s'avère un excellent dépôt d'énergie magique et les manches de baguette fabriqués à partir de ce bois stockent jusqu'à 500 Vis de chaque type.
 #
-tc.research_name.SCEPTRE=Crafting Scepters
-tc.research_text.SCEPTRE=Made to task
-tc.research_page.SCEPTRE.1=Crafting scepters are specialized wands made to be used to craft mystical objects and nothing else. Foci cannot be attached to them, but they have several features that still make them worthwhile using.<BR>Firstly, they have an additional 10% vis discount above and beyond what their caps would normally grant.<BR>Secondly they are able to hold 50% more vis than their cores would normally allow.<BR>Like other wands they can be crafted using most combinations of rods and caps - just a few examples are given on the next page.
+tc.research_name.SCEPTRE=Fabriquer des Sceptres
+tc.research_text.SCEPTRE=Fait pour la tâche
+tc.research_page.SCEPTRE.1=Les sceptres sont des baguettes spécialisées, faits pour être utilisé à créer d'autres objets magique et rien d'autre. Les Foci ne peuvent pas leur être attaché, mais ils ont plusieurs caractéristiques qui les rendent intéressant à utiliser.<BR>Premièrement, ils ont 10% de réduction de vis supplémentaire au dessus de ce que leur embout permet normalement.<BR>Deuxièment ils sont capable de contenir 50% de vis en plus que ce que leurs manches permettraient d'habitude.<BR>Comme les autres baguettes ils peuvent être créer en utilisant n'importe quel combinaison d'embouts et de manche - quelques exemples sont donnés sur la page suivante.
 #
 tc.research_name.PRIMALRODS=Elemental Wand Cores
 tc.research_text.PRIMALRODS=Elemental vis storage
