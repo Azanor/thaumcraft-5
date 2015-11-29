@@ -535,7 +535,7 @@ item.wand_rod.blaze_staff.name=Base de bâton embrasé
 item.wand_rod.bone_staff.name=Base de bâton en os
 item.wand_rod.primal_staff.name=Base de bâton primaire
 #
-item.focus_pouch.name=Sacoche à foci
+item.focus_pouch.name=Sacoche à Foci
 #
 item.Wand.name=%OBJ %ROD %CAP
 item.Focus.cost1=Vis par lancer
@@ -598,28 +598,28 @@ fluid.fluidDeath=Mort Liquide
 # General Focus Upgrades
 ##############################
 focus.upgrade.potency.name=Force
-focus.upgrade.potency.text=Cette amélioration augmente les dégats ou la force des pouvoirs du foci. Le montant de dégats exact varie d'un foci à l'autre, mais c'est généralement 20% par niveau.
+focus.upgrade.potency.text=Cette amélioration augmente les dégats ou la force des pouvoirs du Foci. Le montant de dégats exact varie d'un Foci à l'autre, mais c'est généralement 20% par niveau.
 focus.upgrade.frugal.name=Frugal
-focus.upgrade.frugal.text=Cette amélioration réduit le coût de vis de l'utilisation du foci de 10% par niveau.
+focus.upgrade.frugal.text=Cette amélioration réduit le coût de vis de l'utilisation du Foci de 10% par niveau.
 focus.upgrade.treasure.name=Trésor
 focus.upgrade.treasure.text=Cette amélioration agit comme les enchantements fortune ou butin. Elle augmente les chances d'avoir plus/de meilleurs butins.
 focus.upgrade.enlarge.name=Agrandit
-focus.upgrade.enlarge.text=Cette amélioration augmente la taille de la zone d'effet du foci, ou le nombre de cibles afféctées.
+focus.upgrade.enlarge.text=Cette amélioration augmente la taille de la zone d'effet du Foci, ou le nombre de cibles afféctées.
 focus.upgrade.extend.name=Rallonge
-focus.upgrade.extend.text=Cette amélioration augmente la durée de tous les effets qu'un foci peut avoir grâce à une amélioration.
+focus.upgrade.extend.text=Cette amélioration augmente la durée de tous les effets qu'un Foci peut avoir grâce à une amélioration.
 focus.upgrade.architect.name=Architect
-focus.upgrade.architect.text=Cette amélioration donne beaucoup plus de controle sur la zone d'effet de certains foci. l'air d'effet exacte qui sera affectée va etre affichée et vous pourrez changer sa taille en utilisant la touche d'activation de baguette (default G). accroupit+G permet de changer quelle dimension sera changée.
+focus.upgrade.architect.text=Cette amélioration donne beaucoup plus de controle sur la zone d'effet de certains Foci. l'air d'effet exacte qui sera affectée va etre affichée et vous pourrez changer sa taille en utilisant la touche d'activation de baguette (default G). accroupit+G permet de changer quelle dimension sera changée.
 #
 # Specific Focus Upgrades
 ##############################
 focus.upgrade.chainlightning.name=Eclair en chaîne
-focus.upgrade.chainlightning.text=Cette amélioration réduit la vitesse à laquelle le foci tire, mais les dégats sont augmentés et le projectile peut sauter sur un maximum de deux autres cibles.
+focus.upgrade.chainlightning.text=Cette amélioration réduit la vitesse à laquelle le Foci tire, mais les dégats sont augmentés et le projectile peut sauter sur un maximum de deux autres cibles.
 focus.upgrade.earthshock.name=Choc terrestre
-focus.upgrade.earthshock.text=A la place d'une boule de foudre, le foci tire a présent une balle d'énergie éléctrique en lob. Cette balle inflige des dégats de zone autour de l'endroit qu'elle touche et laisse le sol dangereusement éléctrifié pour quelque temps.
+focus.upgrade.earthshock.text=A la place d'une boule de foudre, le Foci tire a présent une balle d'énergie éléctrique en lob. Cette balle inflige des dégats de zone autour de l'endroit qu'elle touche et laisse le sol dangereusement éléctrifié pour quelque temps.
 focus.upgrade.fireball.name=Boule de feu
-focus.upgrade.fireball.text=Le foci produit à présent une boule de feu explosive que vous pouvez lancer à vos ennemis. L'amélioration du feu de l'alchimiste fait qu'elle enflammera le sol autour du point d'impact.
+focus.upgrade.fireball.text=Le Foci produit à présent une boule de feu explosive que vous pouvez lancer à vos ennemis. L'amélioration du feu de l'alchimiste fait qu'elle enflammera le sol autour du point d'impact.
 focus.upgrade.firebeam.name=Rayon de flamme
-focus.upgrade.firebeam.text=La foci produit à présent un étroit rayon de feu plutot qu'un large nuage. Il brule à travers tout ce qu'il touche infligeant des dégats massifs.
+focus.upgrade.firebeam.text=La Foci produit à présent un étroit rayon de feu plutot qu'un large nuage. Il brule à travers tout ce qu'il touche infligeant des dégats massifs.
 focus.upgrade.batbombs.name=Chauves-souris explosives
 focus.upgrade.batbombs.text=Cette amélioration va rendre les chauves-souris invoquées encore plus instables. Elles vont toujours exploser au contact d'une cible et l'explosion sera plus puissante.
 focus.upgrade.devilbats.name=Chauve-souris démoniaques
@@ -627,21 +627,21 @@ focus.upgrade.devilbats.text=Avec cette amélioration les chauves-souris invoqu�
 focus.upgrade.vampirebats.name=Chauve-souris vampires
 focus.upgrade.vampirebats.text=Cette amélioration transforme les chauves-souris en chauves-souris vampires. Non seulement elles aspireront la vie de leur cible pour régénerer la leur, mais en plus une partie de la vie volée est envoyée à leur invocateur.
 focus.upgrade.scattershot.name=Tir de barrage
-focus.upgrade.scattershot.text=A la place d'un unique fragment de glace, le foci va maintenant tirer de multiples fragments. Chaque fragments fait des dégats minimaux, maisune salve concentrée peut faire des dégats important à une cible unique. 
+focus.upgrade.scattershot.text=A la place d'un unique fragment de glace, le Foci va maintenant tirer de multiples fragments. Chaque fragments fait des dégats minimaux, maisune salve concentrée peut faire des dégats important à une cible unique. 
 focus.upgrade.iceboulder.name=Bloc de glace
-focus.upgrade.iceboulder.text=Le foci va créer un large bloc de glace. Le bloc a tendance à rebondir le rendant mortel entre des mains expertes. 
+focus.upgrade.iceboulder.text=Le Foci va créer un large bloc de glace. Le bloc a tendance à rebondir le rendant mortel entre des mains expertes. 
 focus.upgrade.alchemistsfire.name=Feu de l'alchimiste
-focus.upgrade.alchemistsfire.text=Cette amélioration améliore la puissance de l'élément feu dans le foci. Toutes cibles enflammer brulera beaucoup plus longtemps.
+focus.upgrade.alchemistsfire.text=Cette amélioration améliore la puissance de l'élément feu dans le Foci. Toutes cibles enflammer brulera beaucoup plus longtemps.
 focus.upgrade.alchemistsfrost.name=Froid de l'alchimiste
-focus.upgrade.alchemistsfrost.text=Cette amélioration améliore le puissance de l'élément froid dans le foci. Quand le foci cible ou blesse une créature, cette dernière sera gelé et ralentit considérablement.
+focus.upgrade.alchemistsfrost.text=Cette amélioration améliore le puissance de l'élément froid dans le Foci. Quand le Foci cible ou blesse une créature, cette dernière sera gelé et ralentit considérablement.
 focus.upgrade.nightshade.name=Ombrenuit
-focus.upgrade.nightshade.text=Normalement le foci de la malédictions des Pech inflige un effet debilitant parmi une peite poignée d'effets. Avec cette amélioration il les infligera tous.
+focus.upgrade.nightshade.text=Normalement le Foci de la malédictions des Pech inflige un effet debilitant parmi une peite poignée d'effets. Avec cette amélioration il les infligera tous.
 focus.upgrade.silktouch.name=Toucher de soie
 focus.upgrade.silktouch.text=Comme l'enchantement du meme nom, cette amélioration permet de récupérer les blocs tel qu'ils sont dans le monde.
 focus.upgrade.seeker.name=Chercheur
-focus.upgrade.seeker.text=Cette amélioration fait que l'orbe créer par le foci primaire cherchera la forme de vie la plus proche plutot que de vagabondera pas un peu partout. Cela les rends beaucoup plus stable, elle ne feront donc rien d'étranges à part exploser.
+focus.upgrade.seeker.text=Cette amélioration fait que l'orbe créer par le Foci primaire cherchera la forme de vie la plus proche plutot que de vagabondera pas un peu partout. Cela les rends beaucoup plus stable, elle ne feront donc rien d'étranges à part exploser.
 focus.upgrade.dowsing.name=Radiesthésie
-focus.upgrade.dowsing.text=Cette amélioration donne au foci excavation une petite change de récupérer un amas inné de métal au lieu du minerai naturel. Ces amas donnent habituellement le double de lingot lorsque ils sont fondus.
+focus.upgrade.dowsing.text=Cette amélioration donne au Foci excavation une petite change de récupérer un amas inné de métal au lieu du minerai naturel. Ces amas donnent habituellement le double de lingot lorsque ils sont fondus.
 focus.upgrade.persistant.name=Persistent
 focus.upgrade.persistant.text=Lorsque la cible décède, disparaît ou est hors de portée, le projectile va chercher une autre cible de même type à proximité.
 #
@@ -970,15 +970,15 @@ tc.research_name.AURAPOLESTABLE=Pôle de stabilisation de totem
 tc.research_text.AURAPOLESTABLE=Lissage du flux
 tc.research_page.AURAPOLESTABLE.1=Ce pôle de totem à un effet stabilisant sur le totem qu'il soutient. Cela réduit les chances que du Flux soit créé durant la manipulation de l'aura.
 #
-tc.research_name.CAP_gold=Embouts en or pour baguette
+tc.research_name.CAP_gold=Embouts en or
 tc.research_text.CAP_gold=Les embouts avec style
 tc.research_page.CAP_gold.1=L'or est un bien meilleur focalisateur que le fer. Les baguettes terminées par ce matériau n'ont pas de pénalité lors de la canalisation de Vis.
 #
-tc.research_name.CAP_brass=Embouts de baguette en laiton
+tc.research_name.CAP_brass=Embouts en laiton
 tc.research_text.CAP_brass=Attirer le Vis
 tc.research_page.CAP_brass.1=Comme l'or, les baguettes encapsulées avec ce matériau n'ont pas de pénalité lors de la canalisation du Vis. Plus important cependant, est le fait que ces embouts drainent le vis de l'aura plus facilement que la normale, ce qui permet une charge plus rapide des baguettes sur lesquelles ils sont placés.
 #
-tc.research_name.CAP_thaumium=Embouts en thaumium pour baguette 
+tc.research_name.CAP_thaumium=Embouts en thaumium
 tc.research_text.CAP_thaumium=L'éfficacité avant la vitesse
 tc.research_page.CAP_thaumium.1=Le thaumium est connu pour avoir la capacité de stocker et d'absorber la magie, donc l'utiliser en embouts de baguette est un choix logique. Il est très efficace pour focaliser le Vis de tous types.<BR>Fabriquer ces embouts de baguette dans un atelier arcanique n'est pas suffisant, ils ont besoin d'ête infusés avec de l'énergie magique supplémentaire pour les rendre utilisables.
 #
@@ -996,97 +996,97 @@ tc.research_page.ROD_silverwood.1=Le bois d'argent s'avère un excellent dépôt
 #
 tc.research_name.SCEPTRE=Fabriquer des Sceptres
 tc.research_text.SCEPTRE=Fait pour la tâche
-tc.research_page.SCEPTRE.1=Les sceptres sont des baguettes spécialisées, faits pour être utilisé à créer d'autres objets magique et rien d'autre. Les Foci ne peuvent pas leur être attaché, mais ils ont plusieurs caractéristiques qui les rendent intéressant à utiliser.<BR>Premièrement, ils ont 10% de réduction de vis supplémentaire au dessus de ce que leur embout permet normalement.<BR>Deuxièment ils sont capable de contenir 50% de vis en plus que ce que leurs manches permettraient d'habitude.<BR>Comme les autres baguettes ils peuvent être créer en utilisant n'importe quel combinaison d'embouts et de manche - quelques exemples sont donnés sur la page suivante.
+tc.research_page.SCEPTRE.1=Les sceptres sont des baguettes spécialisées, faits pour être utilisé à créer d'autres objets magique et rien d'autre. Les Foci ne peuvent pas leur être attaché, mais ils ont plusieurs caractéristiques qui les rendent intéressant à utiliser.<BR>Premièrement, ils ont 10% de réduction de vis supplémentaire au dessus de ce que leur embout permet normalement. Deuxièment ils sont capable de contenir 50% de vis en plus que ce que leurs manches permettraient d'habitude. Comme les autres baguettes ils peuvent être créer en utilisant n'importe quel combinaison d'embouts et de manche - quelques exemples sont donnés sur la page suivante.
 #
-tc.research_name.PRIMALRODS=Elemental Wand Cores
-tc.research_text.PRIMALRODS=Elemental vis storage
-tc.research_page.PRIMALRODS.1=Each of these wand cores is linked to a specific primal element which grants them additional abilities.<LINE>§l§nReed Wand Core§r<BR>A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
-tc.research_page.PRIMALRODS.2=§l§nBlazing Wand Core§r<BR>Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
-tc.research_page.PRIMALRODS.3=§l§nObsidian Wand Core§r<BR>A wand core chiseled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
-tc.research_page.PRIMALRODS.4=§l§nIcy Wand Core§r<BR>Wand cores crafted from ice can store slightly more vis than greatwood cores. What makes it superior to greatwood cores however is that if the level of §3Aqua§0 stored inside it drops below 10%, its icy nature will slowly replenish it.
-tc.research_page.PRIMALRODS.5=§l§nQuartz Wand Core§r<BR>A wand core chiseled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §7Ordo§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
-tc.research_page.PRIMALRODS.6=§l§nBone Wand Core§r<BR>A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_name.PRIMALRODS=Manches élémentaires
+tc.research_text.PRIMALRODS=Stockage de Vis élémentaire
+tc.research_page.PRIMALRODS.1=Chacuns de ces manches pour baguette est liées à un élément primaire qui leur confère des capacités supplémentaires.<LINE>§l§nManche en roseau§r<BR>Un manche de baguette fait de roseau a un potentiel de stockage légèrement supérieur au bois arcanique. Ce qui le rend bien supérieur est qu'il se remplit lentement d'§6Aer§0 lorsque son niveau est inférieur à 10%.
+tc.research_page.PRIMALRODS.2=§l§nManche embrasé§r<BR>Un manche fait à partir d'un bâton de Blaze a un potentiel de stockage légèrement supérieur au bois arcanique. Ce qui le rend bien supérieur cependant, c'est que si son niveau d'§cIgnis§0 passe en dessous de 10%, sa nature ardente va lentement la réapprovisionner. 
+tc.research_page.PRIMALRODS.3=§l§nManche en obsidienne§r<BR>Un manche ciselée à partir d'obsidienne a un potentiel de stockage légèrement supérieur au bois arcanique. Ce qui le rend bien supérieur cependant, c'est que si son niveau de §2Terra§0 passe en dessous de 10%, il va lentement se réapprovisionner.
+tc.research_page.PRIMALRODS.4=§l§nManche glacé§r<BR>Un manche fait de glace a un potentiel de stockage légèrement supérieur au bois arcanique.Ce qui le rend bien supérieur cependant, c'est que si son niveau d'§3Aqua§0 passe en dessous de 10%, sa nature glacée va lentement la réapprovisionner. 
+tc.research_page.PRIMALRODS.5=§l§nManche en quartz§r<BR>Un manche ciselée dans du quartz a un potentiel de stockage légèrement supérieur au bois arcanique.Ce qui le rend bien supérieur cependant, c'est que si son niveau d'§7Ordo§0 passe en dessous de 10%, il va lentement se réapprovisionner.
+tc.research_page.PRIMALRODS.6=§l§nManche en os§r<BR>Un manche ciselée à partir d'os a un potentiel de stockage légèrement supérieur au bois arcanique. Ce qui le rend bien supérieur cependant, c'est que si son niveau de §8Perditio§0  passe en dessous de 10%, il va lentement se réapprovisionner.
 #
-tc.research_name.PRIMALSTAVES=Elemental Staves 
-tc.research_text.PRIMALSTAVES=Elemental vis storage
-tc.research_page.PRIMALSTAVES.1=Like the elemental wand cores, these stave cores are linked to a specific primal element which grants them additional abilities and slowly replenish their vis stores if they get low enough. They can store 750 vis of each type.
+tc.research_name.PRIMALSTAVES=Bâtons élémentaires
+tc.research_text.PRIMALSTAVES=Stockage de Vis élémentaire
+tc.research_page.PRIMALSTAVES.1=Comme les manches pour baguette élémentaires, ces bâtons sont liés à un élément spécifique qui leur confère des capacités supplémentaires et reconstituent lentement leur Vis s'ils sont assez bas. Ils peuvent stocker 750 Vis de chaque type.
 #
-tc.research_name.ROD_greatwood_staff=Magic Staves
-tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
-tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for your buck. Magical staves are basically just bigger wands. They are able to store more vis.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.<BR>Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.
-tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has double the vis storage potential of a greatwood wand, being able to store up to 500 vis of each type.<BR>Note: You still need to add caps to a stave rod, just like you would for a wand.
+tc.research_name.ROD_greatwood_staff=Bâtons magique
+tc.research_text.ROD_greatwood_staff=Les bâtons de magiciens ont des zobs à l'extrémité
+tc.research_page.ROD_greatwood_staff.1=Les baguettes sont le pain quotidien d'un thaumaturge, mais parfois vous en voulez pour son argent. Les bâtons magique sont basiquement juste plus grand que les baguettes. Ils sont capable de stocker plus de vis.<BR> Comme ils sont physiquement plus grand et plus robuste qu'une baguette, ils peuvent servir d'armes en cas d'urgence.<BR>Malheuresement, cela les rend également inapproprié à la fabrication complexe et au contrôle précis requis par un atelier arcanique ou à un artisanat similaire.
+tc.research_page.ROD_greatwood_staff.2=Un bâton fait à partir de bois arcanique a le double de vis potentiellement stocké dans une baguette de bois arcanique. Il est capable de stocker jusqu'à 500 vis de chaque type.<BR>Remarque: Vous êtes toujours obliger d'ajouter des embouts au bâton, tout comme vous le feriez pour une baguette.
 #
-tc.research_name.ROD_silverwood_staff=Silverwood Staff Core
-tc.research_text.ROD_silverwood_staff=Magical to the core
-tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 1000 vis of each type.
+tc.research_name.ROD_silverwood_staff=Base de bâton en bois d'argent
+tc.research_text.ROD_silverwood_staff=Magique au centre
+tc.research_page.ROD_silverwood_staff.1=La Base du bâton fabriquée à partir de bois d'argent peut stocker jusqu'à 1000 vis de chaque type.
 #
-tc.research_name.ROD_primal_staff=Staff Core of the Primal
-tc.research_text.ROD_primal_staff=Elemental power combined
-tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish its vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturge's arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
+tc.research_name.ROD_primal_staff=Base de bâton primaire
+tc.research_text.ROD_primal_staff=Pouvoir élémentaire combiné
+tc.research_page.ROD_primal_staff.1=Cette base bat avec de l'énergie latente. Elle combine toutes les fonctionnalités de la moindre base de bâton - Elle a la capacité de stockage de vis de la base de bâton en bois d'argent et est capable de reconstituer son vis stocké comme les différentes bases de bâton primaire. Dernièrement, elle ajoute un niveau d'enchantement de force à chaque Foci utilisé avec elle. C'est vraiment un outil puissant dans n'importe quel arsenal de thaumaturge. Remarque: Vous êtes toujours obliger d'ajouter des embouts au bâton, tout comme vous le feriez pour une baguette.
 #
-tc.research_name.FOCUSFIRE=Wand Foci
-tc.research_text.FOCUSFIRE=Form meets Function
-tc.research_page.FOCUSFIRE.1=Some careful experimentation has shown you a way to expand the abilities of even the most basic wand.<BR>By combining crystalline vis shards with quartz crystals and infusing them with magic, you are able to align the crystals into a mystical matrix.<BR>If the proper types and amounts of vis is focused through this matrix, it will reshape the raw magical energies into something useful, controlled, and geared to a specific task. 
-tc.research_page.FOCUSFIRE.2=Adding a focus to your wand is a simple task - simply press F while holding the wand, and any foci you a carrying will show up in a radial menu allowing you to choose from any of the ones you are carrying with a simple click.<LINE>Your initial experiments involved the shaping of fire, and the resulting focus proved to be a simple, but useful tool.<BR>It is capable of sending forth a cone of elemental fire, burning all in its wake.
+tc.research_name.FOCUSFIRE=Les Focis
+tc.research_text.FOCUSFIRE=La forme rencontre la fonction
+tc.research_page.FOCUSFIRE.1=Certaines expérimentations rigoureuses vous ont montré un moyen d'élargir les capacités des baguettes.<BR>En combinant des cristaux de Vis avec du quartz et en les infusant avec de la magie, vous êtes capable d'aligner les cristaux en une matrice mystique.<BR>Si les bons types et les bonnes quantités de Vis sont focalisés à travers cette matrice, il s'en échappe de l'énergie magique brute utile, controlée et adaptée à une tâche spécifique.
+tc.research_page.FOCUSFIRE.2=L'ajout d'un Foci sur la baguette est simple, il suffit d'appuyer sur F lorsque vous tenez votre baguette et chaque Focis que vous portez seront affichés. Choisissez ensuite votre Foci avec votre curseur.<LINE>Vos premières expériences ont concerné le feu, et le résultat s'est avéré être un outil simple mais utile.<BR>Ce Foci est capable d'émettre un cône de feu élémentaire brûlant tout sur son passage.
 #
-tc.research_name.FOCUSFROST=Wand Focus: Frost
-tc.research_text.FOCUSFROST=Revenge is a dish best served cold
-tc.research_page.FOCUSFROST.1=This focus is capable of hurling chunks of ice.<BR>Care must be taken when aiming, as the ice chunks tend to bounce off solid objects. This can be used to your advantage however as you can bounce the shards around corners, or even hit multiple foes. 
+tc.research_name.FOCUSFROST=Foci: Glace
+tc.research_text.FOCUSFROST=La vengeance est un plat qui se mange froid
+tc.research_page.FOCUSFROST.1=Ce Foci est capable de lancer des morceaux de glace.<BR>La prudence est de mise car les morceaux de glace sont capables de rebondir sur les objets solides. Ceci peut cependant être utiliser à votre avantage, comme vous pouvez faire rebondir les morceaux sur les coins ou même toucher plusieurs ennemis.
 #
-tc.research_name.FOCUSSHOCK=Wand Focus: Shock
-tc.research_text.FOCUSSHOCK=Thunder and Lightning
-tc.research_page.FOCUSSHOCK.1=This focus is capable of focusing elemental energy into bolts of lightning that you can hurl at your enemies.
+tc.research_name.FOCUSSHOCK=Foci: Choc
+tc.research_text.FOCUSSHOCK=Tonnerre et foudre
+tc.research_page.FOCUSSHOCK.1=Ce Foci est capable de générer des éclairs à partir de l'énergie élémentaire. Pointez votre baguette sur vos ennemis et laisser la foudre se déchaîner.
 #
-tc.research_name.FOCUSEXCAVATION=Wand Focus: Excavation
-tc.research_text.FOCUSEXCAVATION=Terra Terror
-tc.research_page.FOCUSEXCAVATION.1=This focus turns your wand into a tool capable of moving vast amounts of earth and stone with little effort.<BR>Simply point it at what you want to excavate and the magic does the rest. Tougher materials take longer to mine, and anything other than earth, stone or similar materials will take much longer to mine.
+tc.research_name.FOCUSEXCAVATION=Foci: Excavation
+tc.research_text.FOCUSEXCAVATION=Terreur de la terre
+tc.research_page.FOCUSEXCAVATION.1=Ce Foci transforme votre baguette en outil capable de déplaçer de grandes quantités de terre et de roche avec peu d'effort.<BR>Pointez votre baguette sur l'endroit que vous voulez excaver et la magie fera le reste. Les matériaux plus résistants sont plus long à miner, ainsi que tout ce qui n'est pas de la roche ou de la terre.
 #
-tc.research_name.FOCUSTRADE=Wand Focus: Equal Trade
-tc.research_text.FOCUSTRADE=This for That
-tc.research_page.FOCUSTRADE.1=You can use this focus to trade dozens of blocks in the world with some you are carrying.<BR>You must first choose the block you wish to change other blocks into by sneaking and right clicking on the desired block. When you then left-click on another block it will turn into the target block. Right clicking will transform a whole swathe of blocks.<BR>You must be carrying enough target blocks, and the transformed blocks will replace them in your inventory. Only blocks with at least one face adjacent to open air or non-solid blocks will be transformed.
+tc.research_name.FOCUSTRADE=Foci: Échange équivalent
+tc.research_text.FOCUSTRADE=C'est pour ça
+tc.research_page.FOCUSTRADE.1=Vous pouvez utiliser ce Foci pour échanger des douzaines de blocs dans le monde avec des blocs de votre inventaire.<BR>Vous devez d'abord choisir le type de bloc que vous souhaitez échanger en vous accroupissant et faisant clic gauche dessus. Lorsque vous appuyez sur clic gauche sur un autre bloc, il va intervertir celui-ci avec votre précédente sélection. Le clic droit va intervertir une large zone de blocs.<BR> Les blocs à échanger sont remplacés dans votre inventaire par les blocs ciblés. Seuls les blocs adjacents à un bloc d'air ou non solide sont transformés.
 #
-tc.research_name.FOCUSHELLBAT=Wand Focus: Nine Hells
-tc.research_text.FOCUSHELLBAT=Tiny Terrors
-tc.research_page.FOCUSHELLBAT.1=Your trips onto the Nether have taught you to fear the tiny terrors known as Hellbats. Now you have discovered a way to summon the little terrors and send them after your enemies. Excellent.
+tc.research_name.FOCUSHELLBAT=Foci: Neuf enfers
+tc.research_text.FOCUSHELLBAT=Petite terreur
+tc.research_page.FOCUSHELLBAT.1=Vos excursions dans le Nether vous ont appris à avoir peur des petites terreurs connues sous le nom de chauve-souris de feu. Maintenant, vous avez découvert un moyen de les invoquer et de les envoyer sur vos ennemis, Excellent.
 #
-tc.research_name.FOCUSPORTABLEHOLE=Wand Focus: Portable Hole
-tc.research_text.FOCUSPORTABLEHOLE=Never be without an exit again
-tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extra dimensional spaces. Using this focus on a wall or other surface will create an extra dimensional passage leading to the other side. This 'hole' only remains open for a few seconds.<BR>Extra dimensional holes cannot be created through certain kinds of matter or particularly complex objects.
+tc.research_name.FOCUSPORTABLEHOLE=Foci: Trou portable
+tc.research_text.FOCUSPORTABLEHOLE=Jamais sans une nouvelle sortie
+tc.research_page.FOCUSPORTABLEHOLE.1=Vous avez reussi en utilisant du Vis à créer de l'espace extradimensionnel. Utiliser ce Foci sur un mur ou une autre surface va créer un passage extradimensionnel menant de l'autre côté.Ce "trou" reste ouvert pendant quelques secondes<BR>Les trous extradimensionnels ne peuvent pas être créer sur certains types de matériaux ou d'objets particulièrement complexes.
 #
-tc.research_name.FOCUSPRIMAL=Wand Focus: Primal
-tc.research_text.FOCUSPRIMAL=Raw Magic
-tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
+tc.research_name.FOCUSPRIMAL=Foci: Primaire
+tc.research_text.FOCUSPRIMAL=Magie brut
+tc.research_page.FOCUSPRIMAL.1=Quel folie vous a possédé pour créer cette chose? Ce Foci semble frénétiquement dangereux et seulement un aliéné va tenter de l'utiliser partout et non seulement dans les environnements les plus contrôlés.<BR> Accordée, l'orbe d'énergie primaire brut créée est assez dévastateur, mais son chemin parcourue est irrégulier, pour le meilleur erratique et au pire, malveillant.<BR>Il fait pousser plus loin l'étude cependant : L'orbe montre d'intéressantes propriétés dimensionnel et il expose des motif d'énergie que vous avez seulement vu chez les feu-follets et les noeuds d'aura.
 #
-tc.research_name.FOCUSPOUCH=Focus Pouch
-tc.research_text.FOCUSPOUCH=Convenient carry container for your foci.
-tc.research_page.FOCUSPOUCH.1=Once you have gathered a sizable collection of foci it is quite annoying to carry them all with you. This pouch solves that problem.<BR>Whenever you change the focus on your wand, it will check this pouch first and any foci that get removed will be placed inside it first. You can also right-click the pouch to place or remove foci by hand.<BR>It can also be carried in your belt bauble slot.
+tc.research_name.FOCUSPOUCH=Sac à Focis
+tc.research_text.FOCUSPOUCH=Conteneur pratique pour porter vos Focis
+tc.research_page.FOCUSPOUCH.1=Une fois une importante collections de Focis rassemblée, il est assez emcombrant de tous les transporter. Cette sacoche résout le problème.<BR>A chaque fois que vous changer le Foci de votre baguette, la sacoche sera vérifiée et les Focis rangés en priorité dedans. Vous pouvez aussi ranger manuellement les Focis en faisant un clic droit avec le sac à la main.<BR>Il peut aussi être transporté à la ceinture.
 #
-tc.research_name.FOCALMANIPULATION=Focal Manipulation 
-tc.research_text.FOCALMANIPULATION=Wand foci remade
-tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible. A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focal Manipulator and choose the upgrade you wish to apply to it. It will draw vis from the aura and you also need to provide it with experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
-tc.research_page.FOCALMANIPULATION.2=but each rank is doubles the cost.<BR>While some upgrades can be applied multiple times or at any rank, many foci have upgrades that can only be applied at certain ranks or only if certain requisite upgrades had been taken at lower ranks. Experimentation is encouraged.<BR>Upgrades are permanent - you are not aware of any method to remove unwanted upgrades so care must be taken when choosing them.  
+tc.research_name.FOCALMANIPULATION=Manipulation Focal 
+tc.research_text.FOCALMANIPULATION=Retouche de Foci
+tc.research_page.FOCALMANIPULATION.1=Les Focis de baguette sont capable d'exploit incroyables, mais ils sont peu flexibles. Un seul Foci est rarement capable d'avoir plus d'une fontion.<BR>Vous avez découvert un moyen d'améliorer les Foci basiques pour alterer la façon dont ils manipulent la magie. Vous avez juste besoin de placer le Foci dans la manipulateur focal et de choisir quelle amélioration vous voulez appliquer dessus. Il tirera le Vis de l'aura et vous devez utiliser des points d'experiences pour lancer le processus, mais après ça c'est juste une question de patience.<BR>Chaque Foci peut être améliorer cinq 
+tc.research_page.FOCALMANIPULATION.2=fois, mais chaque rang double le prix.<BR>Certaines améliorations peuvent être appliqué de multiples fois ou à chaque rangs, mais de nombreux Foci ont des améliorations qui ne peuvent être appliquée qu'à certains rangs ou seulement si certaines améliorations ont étées apposées à des rangs précédents. L'expérimentation est encouragée.<BR>Les améliorations sont permanentes - Vous ne connaissez aucun moyen de retirer une amélioration alors choissisez bien!
 #
-tc.research_name.VAMPBAT=Tier 5 Upgrade: Vampire Bats 
-tc.research_text.VAMPBAT=Vicious little bloodsuckers  
+tc.research_name.VAMPBAT=Amélioration tier 5: Chauves-souris vampires 
+tc.research_text.VAMPBAT=Vicieux petits suceurs de sang
 #
-tc.research_name.WANDPED=Recharge Pedestal
-tc.research_text.WANDPED=Automated Wand Recharging
-tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from the aura to recharge itself.<BR>Wands are not the only items that can be recharged in this device - many vis holding gadgets should be rechargeble in this.
+tc.research_name.WANDPED=Piédestal de recharge
+tc.research_text.WANDPED=Recharge de baguette automatique
+tc.research_page.WANDPED.1=Traverser la campagne pour recharger votre baguette est très bien, mais une manière automatique de le faire serait beaucoup mieux.<BR>Ce piédestal est spécialement conçu pour ça. Toute baguette placée dessus va drainer automatiquement le Vis de l'aura.<BR>Les baguettes ne sont pas les seuls objets qui peuvent être recharger dans cet appareil - Plusieurs gadgets à Vis devraient pouvoir se recharger.
 #
-tc.research_name.VISAMULET=Vis Storage
-tc.research_text.VISAMULET=Waste not, Want not
-tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>Your success has been mixed however. You can only recharge wands while holding them in your hand and even then the recharge rate is slow. 
-tc.research_page.VISAMULET.2=However the amulet is able to act as a good power source for other things like the Repair enchant or runic shielding.<BR>The amulet recharges itself slowly while worn, or it can be placed in a recharge pedestal.
+tc.research_name.VISAMULET=Stockage de Vis
+tc.research_text.VISAMULET=ne gâche rien, ne désire rien
+tc.research_page.VISAMULET.1=La plupart du temps une seule baguette est plus que suffisante pour n'importe quel thaumaturge, mais occasionnellement le Vis d'une seule baguette n'est pas suffisant. Transporter plus d'une baguette règlerais le problème, mais les expériences ont montré qu'il existait un autre moyen.<BR>En créant une amulette capable de stocker du Vis, vous serez capable de recharger votre baguette ou n'importe quel objet sur le terrain quand elle est portée.<BR>Votre succes est mitigé cependant. Vous pouvez seulement recharger un objet en le tenant dans votre main et le vitesse de charge est lente.
+tc.research_page.VISAMULET.2=Par contre l'amulette se montre parfaite source d'énergie pour d'autre chose comme l'enchantement de réparation ou le bouclier runique.<BR>L'amulette se recharge d'elle même lentement lorsque elle est portée ou elle peut être placée dans un piédestal de recharge.
 #
-tc.research_name.WORKBENCHCHARGER=Arcane Workbench Charger
-tc.research_text.WORKBENCHCHARGER=Arcane Crafting Simplified
-tc.research_page.WORKBENCHCHARGER.1=An annoyance for any thaumaturge that performs regular arcane crafting is to constantly keep his wand charged.<BR>Now that you have found an automated way to draw vis directly from the aura you are able to craft an Arcane Workbench Charger. It is designed to be placed on top of an arcane crafting table and will draw vis from the aura to recharge wands placed in the table.<BR>The only drawback is that it recharges much slower than it would from a wand recharging pedestal or doing it by hand. 
+tc.research_name.WORKBENCHCHARGER=Chargeur d'atelier arcanique
+tc.research_text.WORKBENCHCHARGER=Simplifie l'artisanat arcanique
+tc.research_page.WORKBENCHCHARGER.1=Une chose qui ennuie tous les thaumaturges qui pratiquent régulièrement l'artisanat aracanique est de constament recharger sa baguette.<BR>Maintenant que vous possédez un moyen de puiser du Vis directement depuis l'aura, vous êtes capable de créer le chargeur d'atelier arcanique. Il est conçu pour être placé sur un atelier arcanique. il va puiser du Vis depuis l'aura et recharger la baguette placé dans l'atelier.<BR>Le seul inconvénient est qu'il recharge bien moins vite qu'un piédestal de recharge ou  recharger depuis la main.
 #
-tc.research_name.NODEMAGNET=Node Attraction
-tc.research_text.NODEMAGNET=It works with magnets
-tc.research_page.NODEMAGNET.1=Manipulating the aura is one thing, but if you were able to move nodes around you could insure a steady supply of vis where and when you want it. To this end you have developed Node Magnets.<BR>The magnet focuses on the nearest node within 32 blocks and slowly draws it towards the itself. It sounds simple, but in effect the node is being forcefully ripped through the aura. This not only requires large amounts of vis of all types, but causes considerable amounts of flux.<BR>The larger a node is, the slower the it moves.
-tc.research_page.NODEMAGNET.2=The Node Magnet itself is quite fragile and care must be taken not to damage or topple it. It can survive minor knocks, but anything more will shatter the delicate components.<BR>It can be picked up by right-clicking on it with a wand.
-tc.research_page.NODEMAGNET.3=§nWarning!§r<BR><BR>The moment you place down the node magnet you notice something strange: It seems to emit an almost inaudible humming noise that still manages to set your teeth on edge.<BR>Angry grunts and howls from the surrounding area seems to indicate you are not the only one disturbed by the noise.
+tc.research_name.NODEMAGNET=Attraction de nœud
+tc.research_text.NODEMAGNET=Ça marche avec des aimants
+tc.research_page.NODEMAGNET.1=Manipuler l'aura est une chose, mais si vous étiez capable de bouger les nœuds autour de vous, vous assurerai un approvisionnement régulier de Vis où et quand vous le souhaitez. À cette fin, vous avez developpé les aimants à nœuds.<BR>L'aimant se concentre sur le nœud le plus proche dans un rayon de 32 blocs et va doucement le tirer vers lui. Cela paraît simple mais en fait, le nœud est arraché de force à travers l'aura. ça ne consomme pas seulement de grandes quantités de Vis de tous types, mais génèrent des quantités considérable de Flux.<BR>Plus grand est le nœud, plus lentement il se déplace.
+tc.research_page.NODEMAGNET.2=L'aimant à nœud est lui-même assez fragile et il faut prendre soin de ne pas l'endommager ou le renverser. Il peut survivre à des chocs mineurs mais un peu plus et ça brisera ses composants délicats.<BR>Il peut être récupéré en cliquant droit dessus avec une baguette.
+tc.research_page.NODEMAGNET.3=§nAttention!§r<BR><BR>Le moment où vous placez l'aimant à nœud, vous remarquez quelque chose d'étrange: Il semble émettre un  bourdonnement presque inaudible qui parvient toujours à vous faire grincer des dents.<BR>Des grognements colèrique et des formes de hurlements dans la région environnante semble vous indiquer que vous n'êtes pas seul dérangé par ce bruit.
 #
 # Artifice 
 #######################
