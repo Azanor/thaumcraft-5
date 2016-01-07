@@ -60,7 +60,7 @@ entity.Thaumcraft.FollowItem.name=跟隨物品
 entity.Thaumcraft.SpecialItem.name=魔力物品
 entity.Thaumcraft.FallingTaint.name=污染凝塊
 entity.Thaumcraft.AspectOrb.name=要素球
-entity.Thaumcraft.TaintCrawler.name=污染爬蟲
+entity.Thaumcraft.TaintCrawler.name=污染蠕蟲
 entity.Thaumcraft.Taintacle.name=污染觸手怪
 entity.Thaumcraft.TaintacleTiny.name=污染觸手
 entity.Thaumcraft.TaintacleGiant.name=巨型污染觸手怪
@@ -77,7 +77,7 @@ entity.Thaumcraft.TaintedCreeper.name=污染苦力怕
 entity.Thaumcraft.Pech.name=地精盜賊
 entity.Thaumcraft.Pech.1.name=地精法師
 entity.Thaumcraft.Pech.2.name=地精獵人
-entity.Thaumcraft.PrimalOrb.name=元初能量球
+entity.Thaumcraft.PrimalOrb.name=原初能量球
 entity.Thaumcraft.TravelingTrunk.name=旅之篋
 entity.trunk.guiname=的旅之篋
 entity.trunk.move=旅之篋將跟隨你行動
@@ -98,8 +98,8 @@ entity.Thaumcraft.CultistPortalLesser.name=小型緋色傳送門
 entity.Thaumcraft.EldritchCrab.name=異象魔蟹
 entity.Thaumcraft.InhabitedZombie.name=蹣跚之軀殼
 entity.Thaumcraft.TurretBasic.name=自動十字弩
-entity.Thaumcraft.TurretFocus.name=施術裝置
-entity.Thaumcraft.TurretEldritch.name=遠古施術裝置
+entity.Thaumcraft.TurretFocus.name=自動施術裝置
+entity.Thaumcraft.TurretEldritch.name=遠古自動施術裝置
 entity.Thaumcraft.NodeMagnet.name=節點磁鐵
 #
 champion.mod.bold=魯莽
@@ -162,7 +162,7 @@ tile.stone.porous.name=多孔石
 tile.arcane_stairs.name=奧術石階梯
 tile.arcane_brick_stairs.name=奧術石磚階梯
 tile.ancient_stairs.name=亙古石階梯
-tile.translucent.amber_block.name=琥珀方塊
+tile.translucent.amber_block.name=琥珀磚
 tile.translucent.amber_brick.name=琥珀磚塊
 tile.slab_wood.greatwood.name=宏偉之木台階
 tile.slab_wood.silverwood.name=銀樹台階
@@ -252,11 +252,11 @@ tile.banner.brown.name=棕色旗幟
 tile.banner.green.name=綠色旗幟
 tile.banner.red.name=紅色旗幟
 tile.banner.black.name=黑色旗幟
-tile.metal.thaumium.name=秘術方塊
-tile.metal.void.name=虛無鋼方塊
+tile.metal.thaumium.name=秘術金屬磚
+tile.metal.void.name=虛無鋼磚
 tile.metal.alchemical.name=煉金構材
 tile.metal.advanced_alchemical.name=高級煉金構材
-tile.metal.brass.name=黃銅方塊
+tile.metal.brass.name=黃銅磚
 tile.paving_stone.barrier.name=結界石
 tile.paving_stone.travel.name=旅行路磚
 tile.flesh_block.name=血肉方塊
@@ -363,7 +363,7 @@ item.morphic_resonator.name=波紋共鳴器
 item.tallow.name=魔導肉脂
 item.void_seed.name=虛空之種
 item.salis_mundus.name=世界鹽
-item.primal_charm.name=元初符咒
+item.primal_charm.name=原初符咒
 item.mirrored_glass.name=鏡面玻璃
 item.plate.brass.name=黃銅板
 item.plate.iron.name=鐵板
@@ -403,13 +403,13 @@ item.loot_bag.uncommon.name=稀有藏寶袋
 item.loot_bag.rare.name=罕見藏寶袋
 tc.lootbag=點擊以開啟或存留以備交易
 item.turret.basic.name=自動十字弩
-item.turret.focus.name=施術裝置
+item.turret.focus.name=自動施術裝置
 item.turret.magnet.name=節點磁鐵
 #
 # Tools
 item.thaumonomicon.name=魔導手冊
 item.thaumonomicon.cheat.name=封弊之魔導手冊
-item.thaumometer.name=魔導透鏡
+item.thaumometer.name=魔導觀測計
 item.sanity_checker.name=神智檢測儀
 item.resonator.name=源質音叉
 item.sinister_stone.name=凶險磁石
@@ -430,7 +430,7 @@ item.void_sword.name=虛無劍
 item.void_pick.name=虛無鎬
 item.void_hoe.name=虛無鋤
 item.crimson_blade.name=緋色之刃
-item.primal_crusher.name=元初粉碎杵
+item.primal_crusher.name=原初粉碎杵
 item.bone_bow.name=骨弓
 item.primal_arrow.air.name=風之矢
 item.primal_arrow.fire.name=火之矢
@@ -503,7 +503,7 @@ item.focus_excavation.name=法杖核心：採掘
 item.focus_hole.name=法杖核心：隨身洞穴
 item.focus_pech.name=法杖核心：地精詛咒
 item.focus_warding.name=法杖核心：守護
-item.focus_primal.name=法杖核心：元初
+item.focus_primal.name=法杖核心：原初
 item.focus_shard.name=法杖核心：魔晶彈
 item.wand_cap.iron.name=鐵杖端
 item.wand_cap.gold.name=金杖端
@@ -528,7 +528,7 @@ item.wand_rod.quartz_staff.name=石英長柄
 item.wand_rod.reed_staff.name=甘蔗長柄
 item.wand_rod.blaze_staff.name=烈焰長柄
 item.wand_rod.bone_staff.name=白骨長柄
-item.wand_rod.primal_staff.name=元初長柄
+item.wand_rod.primal_staff.name=原初長柄
 #
 item.focus_pouch.name=法杖核心腰包
 #
@@ -547,7 +547,7 @@ item.Wand.ice.rod=寒冰
 item.Wand.bone.rod=白骨
 item.Wand.reed.rod=甘蔗
 item.Wand.quartz.rod=石英
-item.Wand.primal.rod=元初
+item.Wand.primal.rod=原初
 item.Wand.iron.cap=鐵端
 item.Wand.brass.cap=黃銅端
 item.Wand.gold.cap=金端
@@ -560,7 +560,7 @@ item.Wand.void.cap=虛無
 item.tainted.slime.name=污染黏漿
 item.tainted.tendril.name=污染觸手
 item.coin.name=金幣
-item.primordial_pearl.name=元初明珠
+item.primordial_pearl.name=原初明珠
 item.knowledge_fragment.name=知識碎片
 item.knowledge_fragment.help=使用以獲取經驗
 item.eldritch_eye.name=異象之眼
@@ -574,7 +574,7 @@ item.research_notes.discovery.name=發現
 item.researchnotes.learn=右鍵點擊以學習這項發現
 item.creative_placer.obelisk.name=方尖碑設置器
 item.creative_placer.node.name=節點設置器
-item.creative_placer.caster.name=遠古施術裝置設置器
+item.creative_placer.caster.name=遠古自動施術裝置設置器
 #
 # Golem
 item.golem_bell.name=傀儡使之鈴
@@ -645,7 +645,7 @@ focus.upgrade.nightshade.text=普通的地精詛咒核心只會發生少量的�
 focus.upgrade.silktouch.name=絲綢之觸
 focus.upgrade.silktouch.text=這項升級和同名的附魔相同，能使你完整取得方塊，而非其掉落物。
 focus.upgrade.seeker.name=導引
-focus.upgrade.seeker.text=這項升級使得元初核心產生的能量球自動飄往最接近的生命體，而非漫無目的地四處遊蕩。這使它變得穩定許多也意味著它在爆炸前不會出現其他異常的舉動。
+focus.upgrade.seeker.text=這項升級使得原初核心產生的能量球自動飄往最接近的生命體，而非漫無目的地四處遊蕩。這使它變得穩定許多也意味著它在爆炸前不會出現其他異常的舉動。
 focus.upgrade.dowsing.name=礦藏
 focus.upgrade.dowsing.text=這項升即使採掘核心採掘礦物時有低機率能挖出礦物晶簇，而非一般的礦物。礦物晶簇在冶煉能獲得雙倍的產物。
 focus.upgrade.persistant.name=延續
@@ -773,13 +773,13 @@ tc.research.getprim=點擊以獲取此項研究的研究筆記
 tc.research.shortprim=你需要筆與墨以及紙張才能獲取研究筆記
 tc.research.hasnote=研究筆記已存在於物品欄內
 tc.research.popup=有關%1$s的研究筆記已放入物品欄
-tc.research.add=點擊以獲得元初要素各1點
+tc.research.add=點擊以獲得原初要素各1點
 tc.primalcharm.0=彷彿有什麼洩漏而出
 tc.primalcharm.1=你覺得似乎聽到了耳語
 tc.primalcharm.2=一陣劇烈的抖動
 tc.primalcharm.3=它的輕聲低吟十分舒緩
 tc.primalcharm.4=等等，它剛剛閃爍著七色的光芒？
-tc.primalcharm.trigger=片刻間，詭異的能量纏繞著元初符咒。它們很快便消散了，但使你受到了奇異的啟發……
+tc.primalcharm.trigger=片刻間，詭異的能量纏繞著原初符咒。它們很快便消散了，但使你受到了奇異的啟發……
 tc.break.fly=有什麼奪去了你的飛行能力。
 tc.boss.enrage=被你強力的攻擊激怒了。
 tc.levitator=範圍設定為%s格。(%d vis/秒)
@@ -789,7 +789,7 @@ tc.dioptra.3=顯示靈氣等級比例。
 tc.notowned=這並不屬於你。
 #
 # Aspects
-tc.aspect.primal=元初要素
+tc.aspect.primal=原初要素
 tc.aspect.unknown=未知要素
 tc.aspect.aer=風
 tc.aspect.terra=地
@@ -854,17 +854,17 @@ tc.research_category.ELDRITCH=異象研究
 #######################
 tc.research_name.RESEARCH=研究
 tc.research_text.RESEARCH=如何發現物品
-tc.research_page.RESEARCH.1=在開始創建秘術學的物品以及方塊前，你需要先學會如何進行研究。你需要歷經下述兩個步驟：<BR>（1）在§5研究台§0中利用你已經知曉的要素來探索實用的知識以及合成配方。<BR><BR>（2）探索世界，使用§5魔導透鏡§0勘察方塊、物品以及生物，以找到進一步研究的線索。<LINE>在你著手這兩件事之前你需要先合成出§5魔導透鏡§和研究台。
-tc.research_page.RESEARCH.2=只需要放置好一個木桌，然後將筆與墨放在台桌上便可以創建§5研究台§0。<BR>§5魔導透鏡§0和§5筆與墨§0的合成配方則如圖所示。<LINE><IMG>thaumcraft:textures/research/research1.png:0:0:255:208:.5</IMG>
+tc.research_page.RESEARCH.1=在開始創建秘術學的物品以及方塊前，你需要先學會如何進行研究。你需要歷經下述兩個步驟：<BR>（1）在§5研究台§0中利用你已經知曉的要素來探索實用的知識以及合成配方。<BR><BR>（2）探索世界，使用§5魔導觀測計§0勘察方塊、物品以及生物，以找到進一步研究的線索。<LINE>在你著手這兩件事之前你需要先合成出§5魔導觀測計§和研究台。
+tc.research_page.RESEARCH.2=只需要放置好一個木桌，然後將筆與墨放在台桌上便可以創建§5研究台§0。<BR>§5魔導觀測計§0和§5筆與墨§0的合成配方則如圖所示。<LINE><IMG>thaumcraft:textures/research/research1.png:0:0:255:208:.5</IMG>
 tc.research_page.RESEARCH.3=§l§n（1）基礎研究§r<BR>完成此步驟時你需要隨身帶著一套筆與墨以及紙張。翻開魔導手冊，你能夠查閱你已經掌握的所有知識，也能夠查看你目前能夠繼續探求哪些知識。<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
 tc.research_page.RESEARCH.4=閃爍的方形或圓形圖標表示的正是那些你可以著手進行的基礎研究。<BR>當點擊這些閃爍的圖標後，你的物品欄中的紙張和墨水會被消耗掉，同時你會獲得相應的研究筆記。<BR>接下來你便可以開始在研究台中分析這份研究筆記。你還需要將筆與墨放在研究台的§l1§r號格子中(在創建研究台時這一步應該會自動完成)，而研究筆記則應該放入§l2§r號格子中。
 tc.research_page.RESEARCH.5=§l3§r號區域顯示你當前可用作研究點的要素數量。<BR>§l5§r號區域會顯示出一張紙卷，上面排滿了外緣繪有要素圖標的六邊形格子。<IMG>thaumcraft:textures/research/research2.png:0:88:255:158:.5</IMG>
 tc.research_page.RESEARCH.6=要完成你的研究，只需連接和啟動全部要素符號。為此，你需要將要素拖拽到六邊形格子中，並使之與能合成出它的要素或是能它所能合成出的要素相連。<IMG>thaumcraft:textures/research/research3.png:0:0:150:95:.75</IMG>
-tc.research_page.RESEARCH.7=放置要素會消耗一個研究點。若發生錯誤，可以點擊要素以移除它，但這不會讓你取回付出的研究點。<BR>萬一耗盡了所有的研究點，最好丟棄當前的研究筆記，製作一個新的來重置研究點。<BR>你需要將元初要素融合來得到那些大多數研究需要用到的復合要素。稍後我們將更加深入地解釋。
+tc.research_page.RESEARCH.7=放置要素會消耗一個研究點。若發生錯誤，可以點擊要素以移除它，但這不會讓你取回付出的研究點。<BR>萬一耗盡了所有的研究點，最好丟棄當前的研究筆記，製作一個新的來重置研究點。<BR>你需要將原初要素融合來得到那些大多數研究需要用到的復合要素。稍後我們將更加深入地解釋。
 tc.research_page.RESEARCH.8=持續上述操作，直到將所有要素都被連起來。不需要將要素與其他所有要素皆彼此相連，只需要讓它們成為相連的整體即可。<BR>於是研究就會完成，研究筆記會變成發現卷軸。<LINE>注意：放置或移除六邊形中的要素均會消耗墨水，如果墨水耗盡你需要添置一個新的才能繼續研究。
 tc.research_page.RESEARCH.9=§l§n融合要素§r<BR>現在你可以開始融合更加複雜的要素了，只需將那些你希望用於融合的要素拖拽到§l4§r號區域的符文圓環之中。被選中的要素會出現在§l4§r號區域中，當已選中兩個要素後按下紫色按鈕就即可嘗試將它們融合。如若成功你應該能在右下方看到得到了什麼，它會出現在§l3§r號區域中。<BR>即使沒有實際獲得複合要素，參與融合的要素也會被消耗掉。
 tc.research_page.RESEARCH.10=§l§n衍生研究§r<BR>六邊形圖標標示的是衍生研究。如同基礎研究，你也需要點擊它們來進行研究。然而你將會直接學會這項研究而非獲得研究筆記。學習衍生研究無需在研究台中進行孜孜不倦地探索，但卻會消耗一定的經驗等級。
-tc.research_page.RESEARCH.11=§l§n（2）探索§r<BR><BR>雖然有許多研究一開始便可以著手進行，但大多數研究是秘術使坐在桌前枯坐無法掌握的知識，有些隱藏的知識則更需要揭開許多秘密後才會暴露出蛛絲馬跡。<BR>探索並勘察你遇到的所有事物便有可能找到新的研究線索。<BR>首先，你需要先做出一個§5魔導透鏡§0。將§5魔導透鏡§0對準你想要研究的物體或生物，按下右鍵便能開始掃瞄。
+tc.research_page.RESEARCH.11=§l§n（2）探索§r<BR><BR>雖然有許多研究一開始便可以著手進行，但大多數研究是秘術使坐在桌前枯坐無法掌握的知識，有些隱藏的知識則更需要揭開許多秘密後才會暴露出蛛絲馬跡。<BR>探索並勘察你遇到的所有事物便有可能找到新的研究線索。<BR>首先，你需要先做出一個§5魔導觀測計§0。將§5魔導觀測計§0對準你想要研究的物體或生物，按下右鍵便能開始掃瞄。
 tc.research_page.RESEARCH.12=掃瞄完成後你會留意到是否發現來新的線索。<BR>這些線索的確切屬性可能並不會立即揭曉。翻閱你的魔導手冊來查看是否出現了新的研究圖標(標有金色星星)，或者已有的研究中是否添加了新的知識(標有綠色加號)。<BR>通常如此發現的新研究會圖標會呈現琥珀色。
 #
 tc.research_name.KNOWFRAG=知識碎片
@@ -873,22 +873,22 @@ tc.research_page.KNOWFRAG.1=旅途漫漫，你偶然會發現一些古代遺跡�
 #
 tc.research_name.ASPECTS=魔導要素
 tc.research_text.ASPECTS=萬物構造之源
-tc.research_page.ASPECTS.1=一切事物、物件及生物均繫於被名為§5「要素」§0的魔力元素。要素描繪了物品的構成及其對魔力元素的偏向。普通的岩石可能蘊含Terra要素，而更複雜的事物，比如樹木，甚或生物則可能蘊含多種數量不等的要素。目前已經有50餘種要素被發現。<LINE>有兩類截然不同的要素：§5元初要素§0以及§5複合要素§0。
-tc.research_page.ASPECTS.2=§l元初要素§r是六種最基本的要素類型：§6Aer§0(風之要素)，§2Terra§0(地之要素)，§cIgnis§0(火之要素)，§3Aqua§0(水之要素)，§fOrdo§0(秩序要素)，§8Perditio§0(混沌要素)。<BR>它們是構成其它要素的基礎。<BR>§l複合要素§r由兩種其它要素複合而成。 相對簡單的複合要素由兩種元初要素複合而成。 但也存在一些經過多次複合，非常複雜的複合要素。<BR>舉簡單的例子來說，比如 §2Terra§0(地之要素) 與 §3Aqua§0(水之要素) 複合可以得到 Victus(生命要素) 。 
+tc.research_page.ASPECTS.1=一切事物、物件及生物均繫於被名為§5「要素」§0的魔力元素。要素描繪了物品的構成及其對魔力元素的偏向。普通的岩石可能蘊含Terra要素，而更複雜的事物，比如樹木，甚或生物則可能蘊含多種數量不等的要素。目前已經有50餘種要素被發現。<LINE>有兩類截然不同的要素：§5原初要素§0以及§5複合要素§0。
+tc.research_page.ASPECTS.2=§l原初要素§r是六種最基本的要素類型：§6Aer§0(風之要素)，§2Terra§0(地之要素)，§cIgnis§0(火之要素)，§3Aqua§0(水之要素)，§fOrdo§0(秩序要素)，§8Perditio§0(混沌要素)。<BR>它們是構成其它要素的基礎。<BR>§l複合要素§r由兩種其它要素複合而成。 相對簡單的複合要素由兩種原初要素複合而成。 但也存在一些經過多次複合，非常複雜的複合要素。<BR>舉簡單的例子來說，比如 §2Terra§0(地之要素) 與 §3Aqua§0(水之要素) 複合可以得到 Victus(生命要素) 。 
 tc.research_page.ASPECTS.3=若想要查看一個物品所具備的要素，需要在選中物品時按下潛行鍵(預設為shift)，這樣你就能看見其蘊含要素的種類和數量。<LINE>我們將能夠通過一些方法從物品中抽取要素，將其提煉成魔力，它們非常有價值：無論是用作合成的工具還是用於魔法研究。<BR>魔力通常儲存於法杖中，但它也可能以液相儲存，此時我們通常稱其為§5要素源質§0，為方便起見，本手冊中有時也統一簡稱其為源質。
 #
 tc.research_name.NODES=靈氣和節點
 tc.research_text.NODES=魔法無所不在
-tc.research_page.NODES.1=§5靈氣§0是籠罩世界的魔法能量。其源頭未明。有些人相信靈氣是活物積累的生命能量，而有些人則傾向於認為它不過是從某些地方滲出的能量。後一種觀點似乎更具可能：因為人們經常發現靈氣環繞於一種匯聚著魔法能量的§5「靈氣節點」§0周圍。<BR>靈氣中蘊含濃度不等的元初要素。例如水邊的靈氣場中通常會蘊含更多的§3Aqua§0要素；在沙漠中則§cIgnis§0要素濃度更高。
-tc.research_page.NODES.2=靈氣按區塊分佈。如果一片區域中的靈氣變得枯竭，它會嘗試從鄰近靈氣濃度更高的區域中抽取靈氣。它們的靈氣濃度永遠不會完全相等，因為靈氣與其說類似海水，倒更像粘稠的凝膠組成的海洋。<BR>靈氣如果被污染就會蘊含§5Vitium§0(咒波)要素。咒波比一般的要素更加「粘稠」，更趨向於彼此匯聚而不是流動到臨近區域去。靈氣濃度如果降低到最低限度以下也會產生咒波。<BR>如果一片區域中的咒波濃度過高，則會導致§l污染§r。想要瞭解有關污染的更多信息，請翻閱魔導手冊的相關章節。
+tc.research_page.NODES.1=§5靈氣§0是籠罩世界的魔法能量。其源頭未明。有些人相信靈氣是活物積累的生命能量，而有些人則傾向於認為它不過是從某些地方滲出的能量。後一種觀點似乎更具可能：因為人們經常發現靈氣環繞於一種匯聚著魔法能量的§5「靈氣節點」§0周圍。<BR>靈氣中蘊含濃度不等的原初要素。例如水邊的靈氣場中通常會蘊含更多的§3Aqua§0要素；在沙漠中則§cIgnis§0要素濃度更高。
+tc.research_page.NODES.2=靈氣按區塊分佈。如果一片區域中的靈氣變得枯竭，它會嘗試從鄰近靈氣濃度更高的區域中抽取靈氣。它們的靈氣濃度永遠不會完全相等，因為靈氣與其說類似海水，倒更像粘稠的凝膠組成的海洋。<BR>靈氣也會因汙染釋出§5Vitium§0要素(咒波)。咒波比一般的要素更加「粘稠」，更趨向於彼此匯聚而不是流動到臨近區域去。靈氣濃度如果降低到最低限度以下也會產生咒波。<BR>如果一片區域中的咒波濃度過高，則會導致§l污染§r。想要瞭解有關污染的更多信息，請翻閱魔導手冊的相關章節。
 tc.research_page.NODES.3=靈氣節點表現得猶如一些通往其他神秘世界的門戶，魔法能量從中滲透而出。每個節點都會同某些§5元始要素§0共鳴，但幾乎沒有節點會與§5複合要素§0共鳴。<BR>雖然沒辦法直接從節點抽取魔力，但節點卻緩慢地補充著它周圍的靈氣。<BR>一般而言，靈氣的補充速率似乎和月相有關，在滿月時速率將達到最快。<BR>另一個決定補充速率的因素則是靈氣節點的大小。
 tc.research_page.NODES.4=肉眼並不能看到靈氣節點。通常來說，只有試圖提升當地靈氣濃度的時候才會需要去確認它們的存在。<BR>相鄰的節點經常相互吸引從而變得越來越靠近。而當它們靠得足夠近的時候會相互融合，通常會變成一個更大的節點，蘊含融合前的一部分(或者所有)節點的要素。<BR>人們已經發現了許多種不同的節點，但你目前對他們還所知甚少。
 tc.research_page.NODES.A=§l§n星芒節點§r<BR>這種節點似乎會對光照有所反應。光照越盛，其補充靈氣的速率越快。
 tc.research_page.NODES.D=§l§n凶險節點§r<BR>這種節點在黑暗中或者月虧之時最為活躍。此外，這種節點所在的區域經常凶險莫測，彷彿彷彿連結到了邪惡又危險的魔境。
 tc.research_page.NODES.H=§l§n饕餮節點§r<BR>這種節點不但不會補充靈氣，還會慢慢吞噬靈氣。這種節點似乎會伴隨著吸收的靈氣而成長。<BR>有些秘術使猜測饕餮節點正是其他節點相連的另一端，但若假說屬實，那麼普通節點按說也會變大，而饕餮節點則應該比現在更加常見。幸運的是事實並非如此。
-tc.research_page.NODES.P=§l§n純淨節點§r<BR>人們總是很樂於發現純淨節點。它會緩緩減弱並清除周圍靈氣中的咒波。
-tc.research_page.NODES.T=§l§n污染節點§r<BR>這種節點受魔力而變質。它們抽取出的能量來源已經受到污染了，其補充的靈氣會不定時生成咒波。
-tc.research_page.NODES.U=§l§n不穩節點§r<BR>這種節點極其不穩定。它們抽取的要素可能會隨機變成某種元初要素。
+tc.research_page.NODES.P=§l§n純淨節點§r<BR>人們總是很樂於發現純淨節點。它會緩緩削弱並清除周圍靈氣中的咒波。
+tc.research_page.NODES.T=§l§n污染節點§r<BR>這種節點受魔力而變質。它們抽取出的能量來源受到了污染，其補充的靈氣會不定時生成咒波。
+tc.research_page.NODES.U=§l§n不穩節點§r<BR>這種節點極其不穩定。它們流出的要素可能會隨機換成其他原初要素。
 #
 tc.research_name.ORE=礦石
 tc.research_text.ORE=深度發掘
@@ -911,7 +911,7 @@ tc.research_page.CRYSTALFARMER.1=你所做的一系列發現讓你學會了如�
 #
 tc.research_name.RESEARCHER1=研究專長
 tc.research_text.RESEARCHER1=知識就是力量
-tc.research_page.RESEARCHER1.1=你越發擅長於研究。<BR>當你移除放入六邊形的要素，會有25%的幾率取回研究點。<BR>並且當鼠標懸停在其上方時你還能夠看到你需要融合成何種要素。<BR>最後，這給予你消耗知識碎片以獲得元初要素各一點的能力。
+tc.research_page.RESEARCHER1.1=你越發擅長於研究。<BR>當你移除放入六邊形的要素，會有25%的幾率取回研究點。<BR>並且當鼠標懸停在其上方時你還能夠看到你需要融合成何種要素。<BR>最後，這給予你消耗知識碎片以獲得原初要素各一點的能力。
 #
 tc.research_name.RESEARCHER2=研究精通
 tc.research_text.RESEARCHER2=力量就是知識
@@ -968,7 +968,7 @@ tc.research_page.AURAMANIP2.1=凝聚圖騰的工作方式類似驅散圖騰，�
 #
 tc.research_name.AURAPOLESTABLE=穩定圖騰柱
 tc.research_text.AURAPOLESTABLE=讓魔力流更順滑
-tc.research_page.AURAPOLESTABLE.1=這種圖騰柱能夠讓它支撐的圖騰更加穩定，以減少操縱靈氣流動時產生咒波的幾率。	
+tc.research_page.AURAPOLESTABLE.1=這種圖騰柱能夠讓它支撐的圖騰更加穩定，以減少操縱靈氣流動時產生咒波的幾率。
 #
 tc.research_name.CAP_gold=金杖端
 tc.research_text.CAP_gold=蓋上你的風格
@@ -1000,7 +1000,7 @@ tc.research_page.SCEPTRE.1=工藝權杖是一種特製法杖，它專於製造�
 #
 tc.research_name.PRIMALRODS=元素杖柄
 tc.research_text.PRIMALRODS=元素魔力儲存
-tc.research_page.PRIMALRODS.1=下列杖柄都與一種特定的元初要素相關，因此都分別具有特別的能力。<LINE>§l§n甘蔗杖柄§r<BR>使用甘蔗製成，比宏偉之木做的魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Aer§0要素魔力低於10%時，無需節點就能自動補充。
+tc.research_page.PRIMALRODS.1=下列杖柄都與一種特定的原初要素相關，因此都分別具有特別的能力。<LINE>§l§n甘蔗杖柄§r<BR>使用甘蔗製成，比宏偉之木做的魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Aer§0要素魔力低於10%時，無需節點就能自動補充。
 tc.research_page.PRIMALRODS.2=§l§n烈焰杖柄§r<BR>使用烈焰棒製成，比宏偉之木做的魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Ignis§0要素魔力低於10%時，無需節點就能自動補充。
 tc.research_page.PRIMALRODS.3=§l§n黑曜石杖柄§r<BR>使用烈焰棒製成，比宏偉之木做的魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Terra§0要素魔力低於10%時，無需節點就能自動補充。
 tc.research_page.PRIMALRODS.4=§l§n寒冰杖柄§r<BR>使用冰塊製成，比宏偉之木做的魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Aqua§0要素魔力低於10%時，無需節點就能自動補充。
@@ -1009,7 +1009,7 @@ tc.research_page.PRIMALRODS.6=§l§n白骨杖柄§r<BR>使用骨頭製成，比�
 #
 tc.research_name.PRIMALSTAVES=元素長杖
 tc.research_text.PRIMALSTAVES=元素魔力儲存
-tc.research_page.PRIMALSTAVES.1=如同元素杖柄，這些長柄同樣也與某種特定的元初要素相關。這賦予了它們特別的能力，並能夠在所儲魔力下降到一定水平時自動充能。它們能夠儲存每種魔力各750 vis。
+tc.research_page.PRIMALSTAVES.1=如同元素杖柄，這些長柄同樣也與某種特定的原初要素相關。這賦予了它們特別的能力，並能夠在所儲魔力下降到一定水平時自動充能。它們能夠儲存每種魔力各750 vis。
 #
 tc.research_name.ROD_greatwood_staff=魔法長杖
 tc.research_text.ROD_greatwood_staff=末端帶有有握把的巫師之杖
@@ -1020,9 +1020,9 @@ tc.research_name.ROD_silverwood_staff=銀樹長柄
 tc.research_text.ROD_silverwood_staff=魔力入髓
 tc.research_page.ROD_silverwood_staff.1=這種銀樹製成的魔杖能夠容納每種類型的魔力1000vis。
 #
-tc.research_name.ROD_primal_staff=元初長柄
-tc.research_text.ROD_primal_staff=融合的元初能量
-tc.research_page.ROD_primal_staff.1=這種長柄中韻動著潛伏的能量。<BR>它由所有次級的杖柄融合製成，其魔力容量等同於銀樹長柄，且能夠像各種元初要素對應的長柄那樣恢復魔力。<BR>最後，它還會使安裝的法術核心增加一級的效能。<BR>這在任何秘術使的裝備庫裡都算得上真正潛力十足的工具。<BR>註：如同短杖，這把長杖也需要安上杖端。
+tc.research_name.ROD_primal_staff=原初長柄
+tc.research_text.ROD_primal_staff=融合的原初能量
+tc.research_page.ROD_primal_staff.1=這種長柄中韻動著潛伏的能量。<BR>它由所有次級的杖柄融合製成，其魔力容量等同於銀樹長柄，且能夠像各種原初要素對應的長柄那樣恢復魔力。<BR>最後，它還會使安裝的法術核心增加一級的效能。<BR>這在任何秘術使的裝備庫裡都算得上真正潛力十足的工具。<BR>註：如同短杖，這把長杖也需要安上杖端。
 #
 tc.research_name.FOCUSFIRE=法術核心
 tc.research_text.FOCUSFIRE=形式遇上功能
@@ -1053,9 +1053,9 @@ tc.research_name.FOCUSPORTABLEHOLE=法術核心：隨身洞穴
 tc.research_text.FOCUSPORTABLEHOLE=再也不怕找不到出口
 tc.research_page.FOCUSPORTABLEHOLE.1=你已經能夠成功地使用魔力創造異次元空間。使用該核心的法杖能夠在牆壁或者其他表面打通異次元通道通往彼端。通道只能維持數秒。<BR>異次元通道在一些特殊方塊或者比較複雜的物體表面都無法創建。
 #
-tc.research_name.FOCUSPRIMAL=法術核心：元初
+tc.research_name.FOCUSPRIMAL=法術核心：原初
 tc.research_text.FOCUSPRIMAL=天然魔力
-tc.research_page.FOCUSPRIMAL.1=要瘋到什麼程度你才會去做出這種東西啊？這個核心光是看起來就極其危險，除非是在最受控的環境下，否則只有瘋子才會嘗試去使用它。<BR>誠然，它製造出的元初能量球的確所向披靡。但其飛行軌跡說好聽是全然漂忽不定，說難聽點就是透著徹頭徹尾的惡意。<BR>然而它尚需更進一步研究：這些能量球顯露出一些有趣的次元特性，且它的能量模式你僅僅在精靈以及靈氣節點那裡見到過。
+tc.research_page.FOCUSPRIMAL.1=要瘋到什麼程度你才會去做出這種東西啊？這個核心光是看起來就極其危險，除非是在最受控的環境下，否則只有瘋子才會嘗試去使用它。<BR>誠然，它製造出的原初能量球的確所向披靡。但其飛行軌跡說好聽是全然漂忽不定，說難聽點就是透著徹頭徹尾的惡意。<BR>然而它尚需更進一步研究：這些能量球顯露出一些有趣的次元特性，且它的能量模式你僅僅在精靈以及靈氣節點那裡見到過。
 #
 tc.research_name.FOCUSPOUCH=法術核心腰包
 tc.research_text.FOCUSPOUCH=法術核心的隨身袋
@@ -1091,7 +1091,7 @@ tc.research_page.NODEMAGNET.3=§n警告！§r<BR><BR>你安置節點磁鐵時留
 #######################
 tc.research_name.BASICARTIFACE=基礎奧術學
 tc.research_text.BASICARTIFACE=必需之物
-tc.research_page.BASICARTIFACE.1=§n元初符咒§r<BR><BR>元初符咒是構築許多秘術學構造的基礎材料。除去能夠匯聚和引導元初要素和源質外，它們本身並無固有的能量。<BR>坊間相傳這些符咒還有其他的能力，但那不過是些道聽途說。
+tc.research_page.BASICARTIFACE.1=§n原初符咒§r<BR><BR>原初符咒是構築許多秘術學構造的基礎材料。除去能夠匯聚和引導原初要素和源質外，它們本身並無固有的能量。<BR>坊間相傳這些符咒還有其他的能力，但那不過是些道聽途說。
 #
 tc.research_name.ARCANELAMP=奧術燈
 tc.research_text.ARCANELAMP=大型光源
@@ -1129,7 +1129,7 @@ tc.research_page.ENCHFABRIC.2=當穿戴法袍施法時你能夠更高效率地�
 #
 tc.research_name.ELEMENTALTOOLS=元素工具
 tc.research_text.ELEMENTALTOOLS=駕馭元素
-tc.research_page.ELEMENTALTOOLS.1=藉由注魔的發展，你找到了能將元初要素融入工具與武器的方法，使其具有獨特的強大功能。<LINE>§l§n奔流斧§r<BR>透過將水之碎片與秘術斧融合，你打造出這柄擁有流動特性工具。<BR>這把斧頭除了對木材和原木使用外，與普通斧頭相比無甚特殊之處。但使用時這柄斧頭會搜索與這個方塊相連最遠的同種方塊，
+tc.research_page.ELEMENTALTOOLS.1=藉由注魔的發展，你找到了能將原初要素融入工具與武器的方法，使其具有獨特的強大功能。<LINE>§l§n奔流斧§r<BR>透過將水之碎片與秘術斧融合，你打造出這柄擁有流動特性工具。<BR>這把斧頭除了對木材和原木使用外，與普通斧頭相比無甚特殊之處。但使用時這柄斧頭會搜索與這個方塊相連最遠的同種方塊，
 tc.research_page.ELEMENTALTOOLS.2=將其與你將砍下的方塊替換。<BR>換言之，當你砍了一棵樹的頂端時，樹將由上而下被砍伐。<BR>任何由這把斧頭砍下的木頭都會自動流向你。<BR>而當你持斧右鍵時，周遭所有掉落物(不僅是你砍下的木材)也都會流往你的所在處。<BR>按住shift能將此斧頭作為一般工具使用。
 tc.research_page.ELEMENTALTOOLS.3=§l§n熾心鎬§r<BR>透過以炎之碎片向秘術鎬注魔，你創造了一把散發著熔爐般灼熱光芒的鎬子。<BR>使用熾心鎬採掘礦物時有一定幾率掉落礦物晶簇而非礦石。冶煉礦物晶簇能得到雙倍的產出。<BR>持有熾心鎬右擊任意方塊表面，能夠探測並顯示附近的礦物、水源、或是岩漿。
 tc.research_page.ELEMENTALTOOLS.4=當你按住潛行則可以抑制其特效，將其作為普通鎬子使用。
@@ -1253,11 +1253,11 @@ tc.research_name.BONEBOW=骨弓
 tc.research_text.BONEBOW=以石為矢；以棍為箭……
 tc.research_page.BONEBOW.1=你發現了一種以白骨製弓，並灌注以混沌魔力的新工藝。<BR>這樣打造出的武器射擊速度遠勝普通的弓，且箭矢速度更快，威力更猛。
 #
-tc.research_name.PRIMALARROW=元初之矢
+tc.research_name.PRIMALARROW=原初之矢
 tc.research_text.PRIMALARROW=元素之牙箭矢
-tc.research_page.PRIMALARROW.1=這些箭矢每種都灌注了特定類型的元初魔力，這賦予它們一些有趣而有破壞力的特性。<BR>§n風之矢§r<BR>纏繞在箭矢上的魔力劈啪作響。它們造成的傷害與普通箭矢相同，但魔力使得它們能夠穿透任意種類的護甲。<BR>§n火之矢§r<BR>這種箭矢會造成純粹的火焰傷害並點燃它們射中的目標。
+tc.research_page.PRIMALARROW.1=這些箭矢每種都灌注了特定類型的原初魔力，這賦予它們一些有趣而有破壞力的特性。<BR>§n風之矢§r<BR>纏繞在箭矢上的魔力劈啪作響。它們造成的傷害與普通箭矢相同，但魔力使得它們能夠穿透任意種類的護甲。<BR>§n火之矢§r<BR>這種箭矢會造成純粹的火焰傷害並點燃它們射中的目標。
 tc.research_page.PRIMALARROW.2=§n水之矢§r<BR>這種箭矢造成的傷害與普通箭矢相同，但其附帶的冰霜魔力會讓你的目標寒至骨髓，從而減緩他們的移動速度。<BR>§n地之矢§r<BR>這種箭矢除去威力相比普通箭矢猛烈得多外，並無其他特殊屬性。<BR>§n秩序矢§r<BR>這種箭矢威力略遜於普通箭矢，但它能穿過護甲讓你的敵人陷入虛弱。<BR>§n混沌矢§r<BR>這種箭矢威力略遜於普通箭矢，
-tc.research_page.PRIMALARROW.3=但無論射中什麼都會造成凋靈效果。<LINE>元初之矢無法自地上撿起，且即使是無限附魔也只有1/3的幾率可以減免元初之矢的消耗。
+tc.research_page.PRIMALARROW.3=但無論射中什麼都會造成凋靈效果。<LINE>原初之矢無法自地上撿起，且即使是無限附魔也只有1/3的幾率可以減免原初之矢的消耗。
 #
 tc.research_name.RUNICARMOR=符文護盾
 tc.research_text.RUNICARMOR=護盾開啟！
@@ -1285,10 +1285,10 @@ tc.research_page.REDSTONERELAY.2=就像紅石中繼器，其輸出端會標有�
 #######################
 tc.research_name.CRUCIBLE=坩堝
 tc.research_text.CRUCIBLE=沸騰且冒著泡
-tc.research_page.CRUCIBLE.1=只需對著放置在地上的普通煉藥鍋揮舞你的法杖，你就能得到這種具有魔力的坩堝。<BR>坩堝對秘術使來說是重要的工具。它能夠讓你將常態的物品分解成其蘊含的要素並且如你所願地組合。<BR>坩堝需要放置在一個長久熱源(或是閃耀之光)的上方，並裝滿水。當水開始沸騰並冒著氣泡的時候可以向其中投入物品，這樣物品就會分解破壞成其要素源質。<BR>如果坩堝中要素組合符合特定搭配，
-tc.research_page.CRUCIBLE.2=就可以向坩堝內丟入稱為觸媒的特殊物品。觸媒將作為核心聚合要素，且轉換成全新的物品後，會從坩堝中彈出。<BR>多餘的源質會留存在坩堝中備用，但長期讓要素殘留在坩堝中無疑不是好主意。<BR>使用坩堝製作物品還會消耗坩堝中少量的水，因此你最後還是需要重新添水。<BR>坩堝中的要素會持續降解。複合要素會降解成組成它的要素之一，而元初要素會蒸發消失。
-tc.research_page.CRUCIBLE.3=這不僅僅會造成資源的浪費，蒸發和降解的源質還會造成諸多奇怪的副作用。<BR>你可以對著坩堝使用法杖清空坩堝中的要素源質製作物品，但這會讓坩堝中的源質全部流失到大氣中…… 因此你並不希望經常這樣做。
-tc.research_page.CRUCIBLE.4=下面是一些所有人皆可使用的煉金配方。<LINE>    §n均衡碎片§r<BR><BR>向普通的魔力碎片灌注其餘五種它不具有的元初要素的魔力碎片，最終得到的就是這種六大元初要素相互平衡的，能與元初能量完美共鳴的水晶碎片。<BR> 在熔爐中冶煉平衡碎片能夠得到世界鹽(參見後文)。
+tc.research_page.CRUCIBLE.1=只需對著放置在地上的普通煉藥鍋揮舞你的法杖，你就能得到這種具有魔力的坩堝。<BR>坩堝對秘術使來說是重要的工具。它能夠讓你將常態的物品分解成其蘊含的要素並且如你所願地組合。<BR>坩堝需要放置在一個長久熱源(或是閃耀之光)的上方，並裝滿水。當水開始沸騰並冒著氣泡的時候可以向其中投入物品，這樣物品就會分解破壞成其要素源質。<BR>當坩堝中的源質符合正確的配方，
+tc.research_page.CRUCIBLE.2=就可以向坩堝內投入稱為觸媒的特殊物品。觸媒將作為凝聚源質的核心，轉換成全新的物品，並從坩堝中彈出。<BR>多餘的源質會留存在坩堝中備用，但長期讓要素殘留在坩堝中不是個好主意，因為多餘的源質終將分解成咒波釋出。<BR>使用坩堝製作物品會消耗坩堝中少量的水，因此你最後還是需要重新添水。
+tc.research_page.CRUCIBLE.3=你可以藉由對著坩堝使用法杖shift右鍵來清空坩堝中的源質，但這會讓坩堝中的源質全部化為咒波釋放到大氣中…… 因此你不會希望經常這麼做。<LINE>以下是所有人皆能使用的一些基礎煉金配方。
+tc.research_page.CRUCIBLE.4=§n均衡碎片§r<BR><BR>向普通的魔力碎片灌注其餘五種它不具有的原初要素的魔力碎片，最終得到的就是這種六大原初要素相互平衡的，能與原初能量完美共鳴的水晶碎片。<BR> 在熔爐中冶煉平衡碎片能夠得到世界鹽(參見後文)。
 tc.research_page.CRUCIBLE.5=§n世界鹽§r<BR><BR>世界鹽，世人稱之為秘術使之鹽，是加熱均衡碎片使其分解得到的細粉。<BR>正如凡俗世界的鹽一樣，秘術使之鹽也能夠給所有那些普通的魔法配方或儀式增添美妙的滋味(這是個隱喻)。它是一種強力的黏合劑。能夠讓彼此間最暌離的魔力要素聚合在一起。
 #
 tc.research_name.METALLURGY=秘術錠
@@ -1330,15 +1330,15 @@ tc.research_page.PUREMETAL.1=礦物晶簇是稀有而純淨的金屬聚合體。
 #
 tc.research_name.TRANSMETAL=嬗變術
 tc.research_text.TRANSMETAL=金屬變換
-tc.research_page.TRANSMETAL.1=你找到一種將金屬粒浸泡在§5metallum§0和其他要素源質中來改變其構成的方法。
+tc.research_page.TRANSMETAL.1=你發現透過將金屬粒浸泡在§5metallum§0與其他源質中可以改變其構成。
 #
 tc.research_name.TALLOW=魔導肉脂
 tc.research_text.TALLOW=以魔力熬製脂肪
-tc.research_page.TALLOW.1=在坩堝中熬煉肉塊，你製作出一種具有多種奧術用途的魔導肉脂。<BR>這種肉脂可以用作製作蠟燭。可以在工作台中可以使用顏料為蠟燭染色。
+tc.research_page.TALLOW.1=將肉塊投入坩堝中熬煉，製作出具有多種奧術用途的魔導肉脂。<BR>這種肉脂可以用作製作肉脂蠟燭。可以在工作台中可以使用顏料為蠟燭染色。
 #
 tc.research_name.DISTILESSENTIA=源質蒸餾
 tc.research_text.DISTILESSENTIA=收穫源質
-tc.research_page.DISTILESSENTIA.1=你未來會需求使用龐大種類的數種要素-而非存在法杖內的寥寥幾種元初要素。<BR>利用基本煉金原理你已瞭解了如何分解物品將其轉化為基本的要素源質。<BR>首先你需要一台§l源質熔煉爐§r。源質熔煉爐就像普通熔爐那樣燃燒燃料獲得熱量，但並不用於煉製礦物，而是用以分解物品得到要素源質黏漿。這項程序並非完美，大約會有20%的源質會轉化為咒波而流失。
+tc.research_page.DISTILESSENTIA.1=你未來會需求使用龐大種類的數種要素-而非存在法杖內的寥寥幾種原初要素。<BR>利用基本煉金原理你已瞭解了如何分解物品將其轉化為基本的要素源質。<BR>首先你需要一台§l源質熔煉爐§r。源質熔煉爐就像普通熔爐那樣燃燒燃料獲得熱量，但並不用於煉製礦物，而是用以分解物品得到要素源質黏漿。這項程序並非完美，大約會有20%的源質會轉化為咒波而流失。
 tc.research_page.DISTILESSENTIA.2=這項製程的下一步是提取源質黏漿並以§l奧術蒸餾器§r進行蒸餾。<BR>為了達成這項目的，你必須將奧術蒸餾器安裝在熔煉爐上方。複數的蒸餾器可以安置在彼此的上方以增加儲存量，但這麼做並不能影響熔煉的速度。源質黏漿會逐漸流入蒸餾器並依個別要素分離開來。<BR>當熔煉爐使用源動之焰最為燃料時，蒸餾速度會有顯著的提升。
 tc.research_page.DISTILESSENTIA.3=要素源質能以管型瓶、封罐以及其他更複雜的裝置提取。
 tc.research_page.DISTILESSENTIA.4=§n奧術風箱§r<BR>將奧術風箱安放在冶煉爐旁將能提高產熱效率，提升分解物件的速度。
@@ -1364,8 +1364,8 @@ tc.research_page.JARLABEL.3=你可以對著空罐子使用與某種要素綁定�
 #
 tc.research_name.ETHEREALBLOOM=天域花
 tc.research_text.ETHEREALBLOOM=純潔的花朵
-tc.research_page.ETHEREALBLOOM.1=水銀花常常生長在銀樹附近的陰影之中，但是它亦有自己獨特的魔法屬性。<BR>就像銀樹，水銀花也潛藏著休眠中的淨化魔力。你已經找到一種方法喚醒這種魔力，並將其轉化為天域花。<BR>天域花，能夠十分緩慢但確定無疑地恢復這片被神秘力量(包括我們通常稱之為污染的腐毒)所污染和破壞的大地，使其重回昔日的榮光之下。雖然它並不能夠直接對抗污染，但污染的植物會很難蔓延到天域花所處的環境中，並會漸漸趨向於枯萎死亡。
-tc.research_page.ETHEREALBLOOM.2=這種花只能淨化沐浴在它榮光之下的8格範圍內的土地。
+tc.research_page.ETHEREALBLOOM.1=水銀花常常生長在銀樹附近的陰影之中，但是它亦有自己獨特的魔法屬性。<BR>就像銀樹，水銀花也潛藏著休眠中的淨化魔力。你已經找到一種方法喚醒這種魔力，並將其轉化為天域花。<BR>天域花，能夠緩慢而確實地恢復這片被神秘力量(包括我們稱之為污染的疫病)所影響、破壞的大地，使其重回昔日的榮光之下。雖然它並不能夠直接對抗污染，但很少污染植物能在天域花所處的環境中存活，進而使之逐漸凋亡。
+tc.research_page.ETHEREALBLOOM.2=這種花只能淨化沐浴在其榮光之下的8格範圍內的土地。
 #
 tc.research_name.TUBES=要素源質管道
 tc.research_text.TUBES=運輸要素源質
@@ -1376,7 +1376,7 @@ tc.research_page.TUBES.4=可以藉由魔杖點擊來斷開或接上相鄰的源�
 #
 tc.research_name.CENTRIFUGE=奧術離心機
 tc.research_text.CENTRIFUGE=分離物品
-tc.research_page.CENTRIFUGE.1=奧術離心機是一種令人驚艷的煉金設備，能夠將源質分解為更基本的前置要素。<BR>當複合要素的源質從下方流入離心機，就會被慢慢分解成組成它們的前置的複合要素或元初要素。但每消耗一點源質只能得到一點前置要素源質。<BR>分離得到的要素源質需要從離心機頂部抽走。由於管道壓力系統的特性，最好在離心機頂部連接一個§5源質緩衝器§0。
+tc.research_page.CENTRIFUGE.1=奧術離心機是一種令人驚艷的煉金設備，能夠將源質分解為更基本的前置要素。<BR>當複合要素的源質從下方流入離心機，就會被慢慢分解成組成它們的前置的複合要素或原初要素。但每消耗一點源質只能得到一點前置要素源質。<BR>分離得到的要素源質需要從離心機頂部抽走。由於管道壓力系統的特性，最好在離心機頂部連接一個§5源質緩衝器§0。
 #
 tc.research_name.JARVOID=虛空封罐
 tc.research_text.JARVOID=源質太多？不可能！
@@ -1474,9 +1474,9 @@ tc.research_name.BASICTURRET=自動十字弩
 tc.research_text.BASICTURRET=簡易防衛
 tc.research_page.BASICTURRET.1=你找到一種方法能夠賦予十字弩思維，使其變為一種簡易的自動炮台。<BR>放置好後的自動十字弩會自動朝著射程內的所有敵對生物開火。遺憾的是它有限的思維能力無法讓你為其調整攻擊目標。<BR>其內部存儲空間也非常有限，但若你願意，你可以將其放置在一個面朝上的發射器上，它就可以自動從發射器中裝填彈藥。<BR>持法杖點擊可以回收它。
 #
-tc.research_name.FOCUSTURRET=施術裝置
+tc.research_name.FOCUSTURRET=自動施術裝置
 tc.research_text.FOCUSTURRET=自動核心
-tc.research_page.FOCUSTURRET.1=基於你對進階人工思維的研究以及奧術鑽探機的開發，你找到一個方法可以製作出使用法杖核心的自動魔法炮台。<BR>它擁有一個內建的小型魔力庫存，並且能自靈氣中補充魔力。但機器畢竟並非秘術使，它充能的速度較慢，且缺乏機制來減輕發動法杖核心時的魔力消耗。<BR>施術裝置能夠放置在任何表面上，並能詳細調整其攻擊的目標。持法杖點擊可以回收它。
+tc.research_page.FOCUSTURRET.1=基於你對進階人工思維的研究以及奧術鑽探機的開發，你找到一個方法可以製作出使用法杖核心的自動魔法炮台。<BR>它擁有一個內建的小型魔力庫存，並且能自靈氣中補充魔力。但機器畢竟並非秘術使，它充能的速度較慢，且缺乏機制來減輕發動法杖核心時的魔力消耗。<BR>自動施術裝置能夠放置在任何表面上，並能詳細調整其攻擊的目標。持法杖點擊可以回收它。
 #
 # Eldritch 
 #######################
@@ -1506,27 +1506,27 @@ tc.research_name.OUTERREV=外界之啟示
 tc.research_text.OUTERREV=事情不如看上去的那麼單純
 tc.research_page.OUTERREV.1=你的質疑獲得了證實。你發現這裡根本不是你所追尋的異界。這個地方與你所知道的"現實"完全不同，你也不願相信這存在於你所理解的"現實"。比起物理上，它是更接近於精神結構的存在，但是什麼樣的精神能構容納這個？<BR>你所能解出的只有極少數的符號，但是你能肯定這是一個陷阱-一個用來測試來客，淘汰弱者的地方。但你無法確定是出於什麼目的。
 #
-tc.research_name.PRIMPEARL=元初明珠
+tc.research_name.PRIMPEARL=原初明珠
 tc.research_text.PRIMPEARL=開端之前
-tc.research_page.PRIMPEARL.1=你生平首次發現了一個你認為自己永遠無法解開的謎團。<BR>這東西包含著單純的元初要素，但卻擁有不同於你平常所知，普通的元初要素的性質。你對這個現象有幾個理論：<BR>首先，這顆"珠子"可能是在現實世界創世初期的元初物質所殘留下-初級的魔法形成之前就已混雜並合併成複合元素。<BR>或者，它可能是來自於一個具有不符合你所知的魔法規則的地方。
+tc.research_page.PRIMPEARL.1=你生平首次發現了一個你認為自己永遠無法解開的謎團。<BR>這東西包含著單純的原初要素，但卻擁有不同於你平常所知，普通的原初要素的性質。你對這個現象有幾個理論：<BR>首先，這顆"珠子"可能是在現實世界創世初期的原初物質所殘留下-初級的魔法形成之前就已混雜並合併成複合元素。<BR>或者，它可能是來自於一個具有不符合你所知的魔法規則的地方。
 tc.research_page.PRIMPEARL.2=你不知道何種解釋較令人擔憂。<BR>不論是哪種方式，這顆珠子都是一個蘊含著強大且近乎無限魔力的至寶。<BR>該是時候將它做為己用了。
 #
-tc.research_name.PRIMALCRUSHER=元初粉碎杵
+tc.research_name.PRIMALCRUSHER=原初粉碎杵
 tc.research_text.PRIMALCRUSHER=粉碎一切
-tc.research_page.PRIMALCRUSHER.1=注魔合成背後的理論相當單純，只是在一項物品中注入要素以及其他物件的性質。然而這是有極限的，但伴隨著元初明珠的發現，其限制逐漸一個個被解開。<BR>你在一個實驗中試圖將性質迥異的物件注入元初明珠時獲得了驚人的成果。而元初粉碎者就是這項發現的第一項實際應用。<BR>透過融合后土鏟、熾心鎬以及相對應的虛無鋼工具，
-tc.research_page.PRIMALCRUSHER.2=你創造出了同時具有其原型中大多數功能的破壞性工具。<BR>元初粉碎者可以挖穿泥土及石塊，作用範圍能擴展到3x3的範圍。並且能像熾心鎬般有機會挖掘出礦物晶簇。<BR>它能隨著時間緩緩自行恢復耐久，魔力親合度非常優異，甚至能在緊要關頭作為效果非凡的武器。<BR>不幸的是為了追求單純的破壞力，它失去了其原型的建設和檢測的功能。
+tc.research_page.PRIMALCRUSHER.1=注魔合成背後的理論相當單純，只是在一項物品中注入要素以及其他物件的性質。然而這是有極限的，但伴隨著原初明珠的發現，其限制逐漸一個個被解開。<BR>你在一個實驗中試圖將性質迥異的物件注入原初明珠時獲得了驚人的成果。而原初粉碎者就是這項發現的第一項實際應用。<BR>透過融合后土鏟、熾心鎬以及相對應的虛無鋼工具，
+tc.research_page.PRIMALCRUSHER.2=你創造出了同時具有其原型中大多數功能的破壞性工具。<BR>原初粉碎者可以挖穿泥土及石塊，作用範圍能擴展到3x3的範圍。並且能像熾心鎬般有機會挖掘出礦物晶簇。<BR>它能隨著時間緩緩自行恢復耐久，魔力親合度非常優異，甚至能在緊要關頭作為效果非凡的武器。<BR>不幸的是為了追求單純的破壞力，它失去了其原型的建設和檢測的功能。
 #
 tc.research_name.SANITYCHECK=神智檢測儀
 tc.research_text.SANITYCHECK=勇於內省
 tc.research_page.SANITYCHECK.1=近來你的腦海中一片紛繁。似乎你應當好好自省一番，以確保沒有哪裡不對勁。<BR>神智檢測儀能夠幫助你查看精神世界的扭曲效果以及它們會如何影響你。<BR>理所當然地，你不可能允許這些資料落入敵手，因此你煞費苦心地讓它提供的信息模糊而晦澀，不過你似乎做得過頭了-你自己理解起來都有點困難。
 #
 tc.research_name.CRIMSON=緋色崇拜
-tc.research_text.CRIMSON=一則警示的傳說
+tc.research_text.CRIMSON=一則禁忌的傳說
 tc.research_page.CRIMSON.1=書冊上的多數內容以密如蛛網，不知所云的字符寫成，但你所能讀懂的部分讓你對那些緋色邪徒的目的隱約有了奇怪的瞭解。<BR>緋色邪徒的起源仍籠罩在謎霧之中，但他們似乎正致力於完成一個他們稱之為"Apertis Oculis"「開眼」的儀式。這儀式的目的尚未明瞭，你推測那應該有些好處。<BR>但有趣的是，你認為秘術學能夠補完它們長久以來一直尋找的儀式所殘缺的部分。但很明顯開展這類研究是相當瘋狂的行為…
 #
 tc.research_name.OCULUS=開眼儀式
 tc.research_text.OCULUS=我將向他們展示一切，向他們所有人。
-tc.research_page.OCULUS.1=一切都是那麼的簡單，你對那些緋色邪徒一直沒有發現它感到驚訝。<BR>想要完成儀式，需要將4顆異象邪眼安放在你發現緋色教徒的那種祭壇的特殊頂石上。<BR>完成上述步驟後，還需要讓頂石從法杖中抽取大量的元初要素，每種大約1000點。
+tc.research_page.OCULUS.1=一切都是那麼的簡單，你對那些緋色邪徒一直沒有發現它感到驚訝。<BR>想要完成儀式，需要將4顆異象邪眼安放在你發現緋色教徒的那種祭壇的特殊頂石上。<BR>完成上述步驟後，還需要讓頂石從法杖中抽取大量的原初要素，每種大約1000點。
 tc.research_page.OCULUS.2=如果所有步驟均正確，那麼儀式將被完成，而名為"眼"之存在將會睜開。<BR>當然你並不知道那意味著什麼。不過那又何妨？只有愚者才會畏懼未知。
 #
 tc.research_name.SINSTONE=凶險磁石
