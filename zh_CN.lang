@@ -903,7 +903,7 @@ tc.research_page.PLANTS.1=§l§n宏伟之木§r<BR><IMG>thaumcraft:textures/rese
 tc.research_page.PLANTS.2=§l§n银树§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><BR>这种罕见的神奇树木算得上奇妙的景观.它的枝叶散发出蕴含着魔力能量的柔和光芒,而它那柔韧白皙的干部则因净化咒波的能力而颇具价值.<BR>这种神秘的树木的树心还经常孕育出灵气节点,这一特性让银树树苗的价值足以胜过珍宝.
 tc.research_page.PLANTS.3=§l§n水银花§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><BR>这种奇怪的发光的小花只生长在银树的树荫下.收获并打浆后能得到水银.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l§n火焰草§r<BR><IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG><BR>这些植物伴随熊熊的元素烈火生长,只分布于炎热气候的地区.采摘并研磨它们可以得到重要的炼金材料烈焰粉.
-tc.research_page.PLANTS.5=§l§n魔豆§r<BR><IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>这种奇异的荚状植物仅仅生长在魔法森林的树荫中.它们生长缓慢,收获时仅能掉落1~2个魔豆.
+tc.research_page.PLANTS.5=§l§n纤毛菇§r<BR><IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>这种奇异的荧光蘑菇仅仅生长在魔法森林的树荫中.这种蘑菇可以致幻,近距离接触时一定要小心.
 #
 tc.research_name.CRYSTALFARMER=结晶农场
 tc.research_text.CRYSTALFARMER=帮助它们成长
@@ -1209,7 +1209,7 @@ tc.research_page.PAVETRAVEL.1=你学会了如何向石英方块灌注大地要�
 tc.research_name.PAVEBARRIER=屏障石
 tc.research_text.PAVEBARRIER=御守于外
 tc.research_page.PAVEBARRIER.1=你发现一种方法能够将奥术石材转换成一种能够有效阻绝大多数生物入侵的守卫铺路石.<BR>注意这种警卫作用并不能提供百分百的防护,例如,它们并不阻止玩家进去它们圈定的区域,但它们确实能防护住大部分常见威胁.它们还会阻止傀儡穿过.<BR>使用它们时最好围成一个不间断的完整的圈,将你想守护的区域与外面的世界相对隔绝.<BR>激活的红石信号会使得该方块的特殊效果暂时失效.
-tc.research_page.PAVEBARRIER.2=屏障石上方符文的颜色能够显示其当前的状态.<BR>蓝色符文说明它以及接入红石信号处于被关闭状态.<BR>蓝色符文说明有什么东西破坏了它的结界,存在缝隙能够让东西穿过去.
+tc.research_page.PAVEBARRIER.2=屏障石上方符文的颜色能够显示其当前的状态.<BR>蓝色符文说明它以及接入红石信号处于被关闭状态.<BR>紫色符文说明有什么东西破坏了它的结界,存在缝隙能够让东西穿过去.
 #
 tc.research_name.ARMORFORTRESS=神秘要塞甲胄
 tc.research_text.ARMORFORTRESS=百害莫侵
@@ -1287,8 +1287,8 @@ tc.research_name.CRUCIBLE=坩埚
 tc.research_text.CRUCIBLE=沸腾并且冒着泡
 tc.research_page.CRUCIBLE.1=只需对着放置在地上的普通炼药锅使用你的法杖,你就能得到这种具有魔力的坩埚.<BR>坩埚对神秘使来说是重要的工具.它能够让你将常态的物品分解成其蕴含的要素并且如你所愿地组合.<BR>坩埚需要放置在一个长久热源的上方(用打火石点燃下界岩来构建)并且装满水.当水开始沸腾并冒着气泡的时候可以向其中投掷物品,这样物品就会分解破坏成基本要素.<BR>如果坩埚中要素组合符合特定搭配,
 tc.research_page.CRUCIBLE.2=你可以向坩埚内丢入催化剂这种特殊物品.催化剂将作为核心聚合要素,且转换成全新的物品后,会从坩埚中弹出.<BR>多余的源质会留存在坩埚中以备后用,但长期让要素残留在坩埚中无疑不是好主意.<BR>使用坩埚制作物品还会消耗坩埚中少量的水,因此你最终会需要重新添水.<BR>坩埚中的要素会持续降解.复合要素会降解成组成它的要素之一,而元始要素会蒸发消失.
-tc.research_page.CRUCIBLE.3=这不仅仅会造成资源的浪费,蒸发和降解的源质还会造成诸多奇怪的副作用.<BR>你可以对着坩埚使用法杖清空坩埚中的要素制作物品,但这会让坩埚中的要素全部流失到大气中…因此你并不希望经常这样做.
-tc.research_page.CRUCIBLE.4=下面是一些所有人皆可使用的炼金配方.<LINE>§n平衡碎片<BR><BR>向普通的魔力碎片灌注其余五种它不具有的元始要素的魔力碎片,最终得到的就是这种六大元始要素相互平衡的,能够与元始能量完美共鸣的水晶碎片.<BR> 在熔炉中冶炼平衡碎片能够得到世界盐(参见后文).
+tc.research_page.CRUCIBLE.3=这不仅仅会造成资源的浪费,蒸发和降解的源质还会造成诸多奇怪的副作用.<BR>你可以对着坩埚使用法杖清空坩埚中的要素制作物品,但这会让坩埚中的要素全部流失到大气中…因此你并不希望经常这样做.<LINE>下面是一些所有人皆可使用的炼金配方.
+tc.research_page.CRUCIBLE.4=§n平衡碎片<BR><BR>向普通的魔力碎片灌注其余五种它不具有的元始要素的魔力碎片,最终得到的就是这种六大元始要素相互平衡的,能够与元始能量完美共鸣的水晶碎片.<BR> 在熔炉中冶炼平衡碎片能够得到世界盐(参见后文).
 tc.research_page.CRUCIBLE.5=§n世界盐§r<BR><BR>世界盐,或其广为人知的名称神秘使之盐,是加热衡之碎片使其分解得到的细粉.<BR>正如凡俗世界的盐一样,神秘使之盐也能够给所有那些普通的魔法配方或仪轨增添美妙的滋味(这是个隐喻).它是一种强力的粘合剂,能够让彼此间最暌离的魔力要素聚合在一起.
 #
 tc.research_name.METALLURGY=神秘锭
@@ -1328,7 +1328,7 @@ tc.research_name.PUREMETAL=金属晶簇化
 tc.research_text.PUREMETAL=将金属结晶成原矿簇
 tc.research_page.PUREMETAL.1=原矿簇是稀有而最纯净的金属聚合物.你发现一种方法能提纯并聚合矿石得到原矿簇.<BR>冶炼这些原矿簇相比冶炼普通矿石能得到翻倍的金属锭.
 #
-tc.research_name.TRANSMETAL=嬗变术:炼铁术
+tc.research_name.TRANSMETAL=金属嬗变术
 tc.research_text.TRANSMETAL=物质转换
 tc.research_page.TRANSMETAL.1=你找到一种将金属粒浸泡在§5metallum§0和其他要素源质中来增加其数量的方法.
 #

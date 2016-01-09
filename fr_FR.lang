@@ -163,6 +163,7 @@ tile.stone.matrix_cost.name=Roche d'infusion de prix
 tile.stone.ancient_doorway.name=Ancien passage
 tile.stone.glyphed.name=Pierre glyphée
 tile.stone.bedrock.name=Vide étoilé
+tile.stone.porous.name=Pierre poreuse
 tile.arcane_stairs.name=Escalier en Pierre arcanique
 tile.arcane_brick_stairs.name=Escalier en Pierre taillée arcanique
 tile.ancient_stairs.name=Escalier en pierre ancienne
@@ -190,6 +191,7 @@ tile.taint_fibre.name=Corruption fibreuse
 tile.taint.crust.name=Croûte corrompue
 tile.taint.soil.name=Terre corrompue
 tile.taint.geyser.name=Geyser de corruption
+tile.taint.rock.name=Roche corrompue
 tile.taint_feature.name=Corruption Enflé
 tile.eldritch.altar.name=Autel surnaturel
 tile.eldritch.obelisk_base.name=Obélisque surnaturel
@@ -307,6 +309,7 @@ tile.smelter_thaumium.name=Fonderie à Essentia en thaumium
 tile.smelter_void.name=Fonderie à Essentia en métal du vide
 tile.alembic.alembic_normal.name=Alambic arcanique
 tile.smelter_aux.name=Pompe à bouillie auxiliaire
+tile.smelter_vent.name=Port auxiliaire d'évacuation
 tile.arcane_bore_base.name=Base de foreuse arcanique
 tile.arcane_bore.name=Foreuse arcanique
 tile.thaumatorium.name=Thaumatorium
@@ -315,11 +318,11 @@ tile.pillar.pillar_normal.name=Pilier d'Infusion
 tile.pillar.pillar_ancient.name=Pilier d'Infusion ancien
 tile.pillar.pillar_eldritch.name=Pilier d'Infusion surnaturelle
 tile.infusion_matrix.name=Matrice runique
-tile.aura_totem.push.name=Totem de la dispersion d'aura
+tile.aura_totem.push.name=Totem de dispersion d'aura
 tile.aura_totem.pull.name=Totem d'attraction d'aura
-tile.aura_totem.pole_inner.name=Pole intérieur du totem
-tile.aura_totem.pole_outer.name=Pole extérieur du totem
-tile.aura_totem.pole_pure.name=Pole de stabilisation du totem
+tile.aura_totem.pole_inner.name=Pôle intérieur de totem
+tile.aura_totem.pole_outer.name=Pôle extérieur de totem
+tile.aura_totem.pole_pure.name=Pôle de stabilisation de totem
 tile.centrifuge.name=Centrifugeuse d'Essentia
 tile.crystallizer.name=Cristalliseur d'Essentia
 tile.spa.name=Spa arcanique
@@ -331,14 +334,14 @@ tile.mirror_essentia.name=Miroir à essentia
 # Raw Materials
 item.amber.name=Ambre
 item.quicksilver.name=Vif-argent
-item.shard.air.name=Cristal d'air
-item.shard.fire.name=Cristal de feu
-item.shard.water.name=Cristal d'eau
-item.shard.earth.name=Cristal de terre
-item.shard.order.name=Cristal d'ordre
-item.shard.entropy.name=Cristal d'entropie
-item.shard.balanced.name=Cristal équilibré
-item.shard.flux.name=Cristal corrumpu
+item.shard.air.name=Éclat d'air
+item.shard.fire.name=Éclat de feu
+item.shard.water.name=Éclat d'eau
+item.shard.earth.name=Éclat de terre
+item.shard.order.name=Éclat d'ordre
+item.shard.entropy.name=Éclat d'entropie
+item.shard.balanced.name=Éclat équilibré
+item.shard.flux.name=Éclat corrumpu
 item.ingot.thaumium.name=Lingot de thaumium
 item.ingot.void.name=Lingot de métal du Vide
 item.ingot.brass.name=Lingot de laiton alchimique
@@ -496,17 +499,17 @@ item.amulet_vis.1.name=Amulette de Stockage de Vis
 item.girdle_hover.name=Ceinture Thaumostatique
 
 # Wand
-item.focus_fire.name=Foci de baguette : Feu
-item.focus_hellbat.name=Foci de baguette : Neuf enfers
-item.focus_shock.name=Foci de baguette : Choc
-item.focus_equal_trade.name=Foci de baguette : Échange égale
-item.focus_frost.name=Foci de baguette : Glace
-item.focus_excavation.name=Foci de baguette : Excavation
-item.focus_hole.name=Foci de baguette : Trou portable
-item.focus_pech.name=Foci de baguette : Malédiction Pech
-item.focus_warding.name=Foci de baguette : Protection
-item.focus_primal.name=Foci de baguette : Primal
-item.focus_shard.name=Foci de baguette : Éclat de vis
+item.focus_fire.name=Foci de baguette : Feu
+item.focus_hellbat.name=Foci de baguette : Neuf enfers
+item.focus_shock.name=Foci de baguette : Choc
+item.focus_equal_trade.name=Foci de baguette : Échange égale
+item.focus_frost.name=Foci de baguette : Glace
+item.focus_excavation.name=Foci de baguette : Excavation
+item.focus_hole.name=Foci de baguette : Trou portable
+item.focus_pech.name=Foci de baguette : Malédiction Pech
+item.focus_warding.name=Foci de baguette : Protection
+item.focus_primal.name=Foci de baguette : Primal
+item.focus_shard.name=Foci de baguette : Éclat de vis
 item.wand_cap.iron.name=Embout en fer
 item.wand_cap.gold.name=Embout en or
 item.wand_cap.brass.name=Embout en laiton
@@ -532,7 +535,7 @@ item.wand_rod.blaze_staff.name=Base de bâton embrasé
 item.wand_rod.bone_staff.name=Base de bâton en os
 item.wand_rod.primal_staff.name=Base de bâton primaire
 #
-item.focus_pouch.name=Sacoche à foci
+item.focus_pouch.name=Sacoche à Foci
 #
 item.Wand.name=%OBJ %ROD %CAP
 item.Focus.cost1=Vis par lancer
@@ -595,28 +598,28 @@ fluid.fluidDeath=Mort Liquide
 # General Focus Upgrades
 ##############################
 focus.upgrade.potency.name=Force
-focus.upgrade.potency.text=Cette amélioration augmente les dégats ou la force des pouvoirs du foci. Le montant de dégats exact varie d'un foci à l'autre, mais c'est généralement 20% par niveau.
+focus.upgrade.potency.text=Cette amélioration augmente les dégats ou la force des pouvoirs du Foci. Le montant de dégats exact varie d'un Foci à l'autre, mais c'est généralement 20% par niveau.
 focus.upgrade.frugal.name=Frugal
-focus.upgrade.frugal.text=Cette amélioration réduit le coût de vis de l'utilisation du foci de 10% par niveau.
+focus.upgrade.frugal.text=Cette amélioration réduit le coût de vis de l'utilisation du Foci de 10% par niveau.
 focus.upgrade.treasure.name=Trésor
 focus.upgrade.treasure.text=Cette amélioration agit comme les enchantements fortune ou butin. Elle augmente les chances d'avoir plus/de meilleurs butins.
 focus.upgrade.enlarge.name=Agrandit
-focus.upgrade.enlarge.text=Cette amélioration augmente la taille de la zone d'effet du foci, ou le nombre de cibles afféctées.
+focus.upgrade.enlarge.text=Cette amélioration augmente la taille de la zone d'effet du Foci, ou le nombre de cibles afféctées.
 focus.upgrade.extend.name=Rallonge
-focus.upgrade.extend.text=Cette amélioration augmente la durée de tous les effets qu'un foci peut avoir grâce à une amélioration.
+focus.upgrade.extend.text=Cette amélioration augmente la durée de tous les effets qu'un Foci peut avoir grâce à une amélioration.
 focus.upgrade.architect.name=Architect
-focus.upgrade.architect.text=Cette amélioration donne beaucoup plus de controle sur la zone d'effet de certains foci. l'air d'effet exacte qui sera affectée va etre affichée et vous pourrez changer sa taille en utilisant la touche d'activation de baguette (default G). accroupit+G permet de changer quelle dimension sera changée.
+focus.upgrade.architect.text=Cette amélioration donne beaucoup plus de controle sur la zone d'effet de certains Foci. l'air d'effet exacte qui sera affectée va etre affichée et vous pourrez changer sa taille en utilisant la touche d'activation de baguette (default G). accroupit+G permet de changer quelle dimension sera changée.
 #
 # Specific Focus Upgrades
 ##############################
 focus.upgrade.chainlightning.name=Eclair en chaîne
-focus.upgrade.chainlightning.text=Cette amélioration réduit la vitesse à laquelle le foci tire, mais les dégats sont augmentés et le projectile peut sauter sur un maximum de deux autres cibles.
+focus.upgrade.chainlightning.text=Cette amélioration réduit la vitesse à laquelle le Foci tire, mais les dégats sont augmentés et le projectile peut sauter sur un maximum de deux autres cibles.
 focus.upgrade.earthshock.name=Choc terrestre
-focus.upgrade.earthshock.text=A la place d'une boule de foudre, le foci tire a présent une balle d'énergie éléctrique en lob. Cette balle inflige des dégats de zone autour de l'endroit qu'elle touche et laisse le sol dangereusement éléctrifié pour quelque temps.
+focus.upgrade.earthshock.text=A la place d'une boule de foudre, le Foci tire a présent une balle d'énergie éléctrique en lob. Cette balle inflige des dégats de zone autour de l'endroit qu'elle touche et laisse le sol dangereusement éléctrifié pour quelque temps.
 focus.upgrade.fireball.name=Boule de feu
-focus.upgrade.fireball.text=Le foci produit à présent une boule de feu explosive que vous pouvez lancer à vos ennemis. L'amélioration du feu de l'alchimiste fait qu'elle enflammera le sol autour du point d'impact.
+focus.upgrade.fireball.text=Le Foci produit à présent une boule de feu explosive que vous pouvez lancer à vos ennemis. L'amélioration du feu de l'alchimiste fait qu'elle enflammera le sol autour du point d'impact.
 focus.upgrade.firebeam.name=Rayon de flamme
-focus.upgrade.firebeam.text=La foci produit à présent un étroit rayon de feu plutot qu'un large nuage. Il brule à travers tout ce qu'il touche infligeant des dégats massifs.
+focus.upgrade.firebeam.text=La Foci produit à présent un étroit rayon de feu plutot qu'un large nuage. Il brule à travers tout ce qu'il touche infligeant des dégats massifs.
 focus.upgrade.batbombs.name=Chauves-souris explosives
 focus.upgrade.batbombs.text=Cette amélioration va rendre les chauves-souris invoquées encore plus instables. Elles vont toujours exploser au contact d'une cible et l'explosion sera plus puissante.
 focus.upgrade.devilbats.name=Chauve-souris démoniaques
@@ -624,21 +627,21 @@ focus.upgrade.devilbats.text=Avec cette amélioration les chauves-souris invoqu�
 focus.upgrade.vampirebats.name=Chauve-souris vampires
 focus.upgrade.vampirebats.text=Cette amélioration transforme les chauves-souris en chauves-souris vampires. Non seulement elles aspireront la vie de leur cible pour régénerer la leur, mais en plus une partie de la vie volée est envoyée à leur invocateur.
 focus.upgrade.scattershot.name=Tir de barrage
-focus.upgrade.scattershot.text=A la place d'un unique fragment de glace, le foci va maintenant tirer de multiples fragments. Chaque fragments fait des dégats minimaux, maisune salve concentrée peut faire des dégats important à une cible unique. 
+focus.upgrade.scattershot.text=A la place d'un unique fragment de glace, le Foci va maintenant tirer de multiples fragments. Chaque fragments fait des dégats minimaux, maisune salve concentrée peut faire des dégats important à une cible unique. 
 focus.upgrade.iceboulder.name=Bloc de glace
-focus.upgrade.iceboulder.text=Le foci va créer un large bloc de glace. Le bloc a tendance à rebondir le rendant mortel entre des mains expertes. 
+focus.upgrade.iceboulder.text=Le Foci va créer un large bloc de glace. Le bloc a tendance à rebondir le rendant mortel entre des mains expertes. 
 focus.upgrade.alchemistsfire.name=Feu de l'alchimiste
-focus.upgrade.alchemistsfire.text=Cette amélioration améliore la puissance de l'élément feu dans le foci. Toutes cibles enflammer brulera beaucoup plus longtemps.
+focus.upgrade.alchemistsfire.text=Cette amélioration améliore la puissance de l'élément feu dans le Foci. Toutes cibles enflammer brulera beaucoup plus longtemps.
 focus.upgrade.alchemistsfrost.name=Froid de l'alchimiste
-focus.upgrade.alchemistsfrost.text=Cette amélioration améliore le puissance de l'élément froid dans le foci. Quand le foci cible ou blesse une créature, cette dernière sera gelé et ralentit considérablement.
+focus.upgrade.alchemistsfrost.text=Cette amélioration améliore le puissance de l'élément froid dans le Foci. Quand le Foci cible ou blesse une créature, cette dernière sera gelé et ralentit considérablement.
 focus.upgrade.nightshade.name=Ombrenuit
-focus.upgrade.nightshade.text=Normalement le foci de la malédictions des Pech inflige un effet debilitant parmi une peite poignée d'effets. Avec cette amélioration il les infligera tous.
+focus.upgrade.nightshade.text=Normalement le Foci de la malédictions des Pech inflige un effet debilitant parmi une peite poignée d'effets. Avec cette amélioration il les infligera tous.
 focus.upgrade.silktouch.name=Toucher de soie
 focus.upgrade.silktouch.text=Comme l'enchantement du meme nom, cette amélioration permet de récupérer les blocs tel qu'ils sont dans le monde.
 focus.upgrade.seeker.name=Chercheur
-focus.upgrade.seeker.text=Cette amélioration fait que l'orbe créer par le foci primaire cherchera la forme de vie la plus proche plutot que de vagabondera pas un peu partout. Cela les rends beaucoup plus stable, elle ne feront donc rien d'étranges à part exploser.
+focus.upgrade.seeker.text=Cette amélioration fait que l'orbe créer par le Foci primaire cherchera la forme de vie la plus proche plutot que de vagabondera pas un peu partout. Cela les rends beaucoup plus stable, elle ne feront donc rien d'étranges à part exploser.
 focus.upgrade.dowsing.name=Radiesthésie
-focus.upgrade.dowsing.text=Cette amélioration donne au foci excavation une petite change de récupérer un amas inné de métal au lieu du minerai naturel. Ces amas donnent habituellement le double de lingot lorsque ils sont fondus.
+focus.upgrade.dowsing.text=Cette amélioration donne au Foci excavation une petite change de récupérer un amas inné de métal au lieu du minerai naturel. Ces amas donnent habituellement le double de lingot lorsque ils sont fondus.
 focus.upgrade.persistant.name=Persistent
 focus.upgrade.persistant.text=Lorsque la cible décède, disparaît ou est hors de portée, le projectile va chercher une autre cible de même type à proximité.
 #
@@ -662,6 +665,13 @@ button.turretfocus.2=Viser monstres
 button.turretfocus.3=Viser joueurs
 button.turretfocus.4=Viser amis
 turretfocus.range=Portée de %t blocs
+button.category.0=Priorité
+button.category.1=Filtre
+button.category.2=Zone
+button.category.3=Options
+button.caption.x=Est / Ouest
+button.caption.y=Haut / Bas
+button.caption.z=Nord / Sud
 #
 tile.researchtable.noink.0=Vous n'avez plus d'encre!
 tile.researchtable.noink.1=Remplissez vos outils de scribe.
@@ -713,8 +723,8 @@ tc.jaressentia=Détient %s d'Essentia
 tc.jarname=Bocal :
 tc.markedloc=Emplacements marqués
 tc.addclue=§aVous avez découvert quelque chose qui peut aidez vos recherches futures§0
-tc.addpage=§aVous avez découvert quelque chose de nouveau à propos %1$s§0
-tc.addaspect=§aVous avez découvert quelque chose à propos %1$s§0
+tc.addpage=§aVous avez découvert quelque chose de nouveau sur %1$s§0
+tc.addaspect=§aVous avez découvert quelque chose sur %1$s§0
 tc.addwarp=§5Vous avez gagné du Warp permanent!§0
 tc.addwarptemp=§5Vous avez gagné du Warp temporaire!§0
 tc.addwarpsticky=§5Vous avez gagné du Warp!§0
@@ -816,7 +826,7 @@ tc.research_category.BASICS=Information basique
 tc.research_category.THAUMATURGY=Thaumaturgie
 tc.research_category.ALCHEMY=Alchimie
 tc.research_category.ARTIFICE=Artifice
-tc.research_category.GOLEMANCY=Golemancie
+tc.research_category.GOLEMANCY=Golémancie
 tc.research_category.ELDRITCH=Surnaturel
 
 
@@ -839,241 +849,244 @@ tc.research_category.ELDRITCH=Surnaturel
 #                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
 #
 # Basic Research
-tc.research_name.RESEARCH=Research
-tc.research_text.RESEARCH=How you discover things
-tc.research_page.RESEARCH.1=Before you can build most thaumaturgical items and blocks, you first need to discover how to do so. This can be done in two ways:<BR>(1) Using the aspects you know and discovering practical knowledge and recipes with the §5Research Table§0.<BR><BR>(2) Exploring the world and examining blocks, items and creatures with a §5Thaumometer§0 in order to gain clues to further research<LINE>Before you can do either of these you will have to craft a §5Thaumometer§0 and a research table.
-tc.research_page.RESEARCH.2=To craft a §5Research Table§0 simply place a wooden table in the world and click on it with scribing tools.<BR>The recipes for the §5Thaumometer§0 and §5Scribing Tools§0 will be shown later.<LINE><IMG>thaumcraft:textures/research/research1.png:0:0:255:208:.5</IMG>
-tc.research_page.RESEARCH.3=§l§n(1) Primary Research§r<BR>You need to be carrying a set of scribing tools and paper for this step. If you open your Thaumonomicon you will see all the knowledge you already have and also all the knowledge that you are now able to pursue.<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
-tc.research_page.RESEARCH.4=Flashing square or round icons represent primary researches you can pursue.<BR>When you click on one of these flashing icons paper and ink will be consumed from your inventory and you will gain a research note.<BR>You can now take this research note to the table to start researching it by placing scribing tools in slot §l1§r (which should happen automatically when you create the table) and the research note in slot §l2§r.
-tc.research_page.RESEARCH.5=Section §l3§r will show a number of primal aspects that you have available to you to complete the research.<BR>Section §l5§r will now display a sheet of paper covered in hexagonal tiles with aspect icons around the outer edge.<IMG>thaumcraft:textures/research/research2.png:0:88:255:158:.5</IMG>
-tc.research_page.RESEARCH.6=To complete your research you simply need to connect and activate all the aspects. You do this by dragging an aspect to a hex adjacent to it that is either composed of the target aspect, or can be combined with another aspect to form the target aspect.<IMG>thaumcraft:textures/research/research3.png:0:0:150:95:.75</IMG>
-tc.research_page.RESEARCH.7=Placing an aspect consumes one research point. If you make a mistake you can click on the aspect to remove it, but you will not regain the research point.<BR>Should you ever run out of research points it is best to discard the note and create a new one to get a fresh pool of research points.<BR>To get the compound aspects required to complete most researches you will need to combine them from their primals. This will be explained a bit later.
-tc.research_page.RESEARCH.8=You continue doing this until you have formed a pattern connecting all the starting aspects. The outer aspects need not be connected to all the others, they simply need to form a connected whole.<BR>Once this is done the research will complete and the research note will turn into a discovery.<LINE>NOTE: Placing and removing aspects from the hex grid consumes ink from your scribing tools. If it runs out you will not be able to proceed until you refill it.
-tc.research_page.RESEARCH.9=§l§nCombining Aspects§r<BR>Simply click on those aspects you wish to combine or drag them into the runic circles in area §l4§r. The selected aspects will appear in area §l4§r and when you have two selected pressing the purple button will attempt to combine them. If successful you should see what was gained in the bottom right and it should appear in area §l3§r.<BR>The component aspects are consumed even if the combination did not result in valid compound aspect.
-tc.research_page.RESEARCH.10=§l§nSecondary Research§r<BR>Hexagonal icons indicate Secondary research. Much like primary research you just need to click on them. However instead of gaining a research note, you will simply learn the research directly. Secondary research does not require you to perform the research at the table, but they do cost experience levels to learn.
-tc.research_page.RESEARCH.11=§l§n(2) Exploration§r<BR><BR>While many researches are available from the start, some require knowledge that cannot be learned at a table while others are hidden completely until the some mystery is uncovered.<BR>You do this by exploration and examining objects in the world.<BR>The first thing you will need to do is construct a §5Thaumometer§0. By pointing the §5Thaumometer§0 at objects or creatures and pressing the right mouse button you will scan them. 
-tc.research_page.RESEARCH.12=Once complete you will be notified if you have discovered a clue.<BR>The exact nature of the clue might not be immediately apparent. Check your Thaumonomicon to see if any new research icons have been revealed (indicated by a gold star), or if new knowledge had been added to existing research (shown by a green plus).<BR>Usually new research discovered in this fashion will have amber icons.
+tc.research_name.RESEARCH=Recherche
+tc.research_text.RESEARCH=Comment faire des découvertes ?
+tc.research_page.RESEARCH.1=Avant de pouvoir construire des objets et des blocs thaumaturgiques, vous devez découvrir comment les faire. Il y'a deux moyens:<BR>(1) Utiliser les aspects connus et découvrir des connaissances et des plans pratiques avec la §5table de recherche§0.<BR><BR>(2) Explorer le monde et examiner les blocs, les objets et les créatures avec un §5thaumomètre§0 afin d'obtenir des indices sur de nouvelles recherches<LINE>Avant que vous puissiez faire l'une de ces choses, vous devez fabriquer
+tc.research_page.RESEARCH.2=un §5thaumomètre§0 et une table de recherche. Pour fabriquer une §5table de recherche§0, placez simplement une table en bois et cliquez dessus avec des §5outils de scribe§0.<BR>Les plans pour le §5thaumomètre§0 et les §5outils de scribe§0 seront vus plus tard.<LINE><IMG>thaumcraft:textures/research/research1.png:0:0:255:208:.5</IMG>
+tc.research_page.RESEARCH.3=§l§n(1)Recherche primaire§r<BR>Vous devez porter du papier et des outils de scribes pour cette étape. Si vous ouvrez votre thaumonomicon, vous allez voir toutes les connaissances que vous possedez et celles que vous ếtes capable de poursuivre.
+<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
+tc.research_page.RESEARCH.4=Les icônes carré ou ronde clignotantes représentent les recherches primaires que vous pouvez poursuivre.<BR>Lorsque vous cliquer sur l'un d'entre elles, du papier et de l'encre seras consommés dans votre inventaire et vous possederez une note de recherche.<BR>Vous pouvez poser celle-ci sur la table pour commençer la recherche avec des outils de scribes dans la case §l1§r (Qui devrait se placer automatiquement lorsque vous créez la table) et la note de recherche  dans la case §l2§r.
+tc.research_page.RESEARCH.5=La section §l3§r doit montrer le nombre d'aspects primaire que avez à votre disposition pour compléter la recherche.<BR>La section §l5§r  va maintenant montrer une feuille de papier couvert de carreaux hexagonaux avec des icones d'aspect à leur bord.<IMG>thaumcraft:textures/research/research2.png:0:88:255:158:.5</IMG>
+tc.research_page.RESEARCH.6=Pour compléter votre recherche, vous avez simplement besoin de connecter et d'activer tout les aspects. Vous faites cela en glissant un aspect sur le carreaux adjacent à celui-ci tout en tenant compte que l'aspect choisit soit un composant de l'aspect cible ou bien le résultat de la combinaison avec l'aspect ciblé.<IMG>thaumcraft:textures/research/research3.png:0:0:150:95:.75</IMG>
+tc.research_page.RESEARCH.7=Placer un aspect consomme un point de recherche. Si vous faites une erreur, vous pouvez cliquer sur l'aspect pour le retirer, mais vous ne récuperez pas le point de recherche.<BR>Si vous n'avez plus de points de recherche, le mieux est de jeter la note et d'en créer une nouvelle pour  recommençer.<BR>Pour obtenir des aspects composé recquis pour compléter la plupart des recherches, vous aurez besoin de les combiner à partir de leur forme primaire. Cela seras expliquer un peu plus tard.
+tc.research_page.RESEARCH.8=Vous continuez à le faire jusqu'à former un modèle reliant tous les aspects de départ. Les aspects en bordures ont besoin d'être connecté les uns les autres, ils ont simplement besoin de former un tout cohérent.<BR>Une fois fait, la recherche sera complète et la note de recherche se transformera en découverte.<LINE>NOTE: Le placement et l'effacement d'aspects sur la grille de carreaux consommes de l'encre provenant des outils de scribe. Si elle vient à manquer, vous ne serez plus en mesure de continuer jusqu'à ce que vous le remplissiez.
+tc.research_page.RESEARCH.9=§l§nCombinaison d'aspects§r<BR>Cliquer simplement sur les aspects que vous souhaitez combiner ou glissez les dans les cercles runique dans la zone §l4§r. Les aspects sélectionnés doivent apparaître dans la zone §l4§r et dès que deux aspects sont sélectionnés, appuyez sur le bouton violet pour essayer de les combiner. En cas de succès, vous devriez voir ce que vous avez gagné en bas à droite et il doit apparaître dans la case §l3§r.<BR>Les aspects sont consommés même si la combinaison n'as pas donné de résultat.
+tc.research_page.RESEARCH.10=§l§nRecherche secondaire§r<BR>Les icônes hexagonales indiquent des recherches secondaires. Tout comme la Recherche primaire, vous avez juste besoin de cliquez sur elles. Cependant, au lieu de gagner une note de recherche, vous gagnez directement la recherche. La recherche secondaire ne require pas que vous l'éffectuer sur la table, mais coûte des niveau d'expérience pour l'apprendre.
+tc.research_page.RESEARCH.11=§l§n(2) L'exploration§r<BR><BR>Alors que de nombreuses recherches sont disponibles dès le départ, certaines requièrent des connaissances qui ne peuvent pas être appris sur la table ainsi que d'autres qui sont complétement cachées jusqu'à qu'un mystère soit découvert.<BR>Vous le faites par l'exploration et en éxaminant les objets dans le monde.<BR>La première chose que vous devez construire est un §5thaumomètre§0. En pointant le §5thaumomètre§0 sur les objets et créatures, en pressant le clique droit, vous allez les scanner.
+tc.research_page.RESEARCH.12=Une fois terminé, vous allez être notifier si vous avez découvert un indice.<BR>L'exact nature de l'indice ne seras pas immédiatement apparent. Vérifiez votre thaumonomicon pour voir si une icône de recherche a été révélée (indiqué par une étoile jaune), ou si une nouvelle découverte à été ajouter aux recherches existantes (indiqué par un signe vert).<BR>Habituellement, une nouvelle découverte de cette façon auras une icone ambré.
+
 #
-tc.research_name.KNOWFRAG=Knowledge Fragments
-tc.research_text.KNOWFRAG=Fragments of lost lore
-tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of ancient and lost knowledge.<BR>When used they will grant you a small amount of experience.<BR>They might have other uses as well...
+tc.research_name.KNOWFRAG=Fragments de connaissances
+tc.research_text.KNOWFRAG=Fragments d'anciennes légendes
+tc.research_page.KNOWFRAG.1=Lors de vos voyages, vous pouvez trouver des fragments d'anciennes connaissances perdues.<BR>Lorsqu'il sont utilisés, ils vous donnent une petité quantité d'expérience.<BR>Ils peuvent aussi avoir d'autres applications...
 #
-tc.research_name.ASPECTS=Aspects of Magic
-tc.research_text.ASPECTS=The building blocks of magic
-tc.research_page.ASPECTS.1=Every item, object or creature is bound by varying mystical elements known as §5aspects§0. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Terra while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 40 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
-tc.research_page.ASPECTS.2=§lPrimal Aspects§r are the most basic types of aspects and there are only 6 of them: §6Aer§0 (air), §2Terra§0 (earth), §cIgnis§0 (fire), §3Aqua§0 (Water), §7Ordo§0 (order), §8Perditio§0 (entropy).<BR>These form the basic building blocks of all other aspects.<BR>§lCompound Aspects§r are built from two other aspects. The simplest compound aspects are made from two primal aspects, but it is possible to have incredibly complex compound aspects made from successive layers of simpler aspects.<BR>The simplest example of such a compound aspect, is the aspect of Victus (life), which is a combination of §2Terra§0 and §3Aqua§0. 
-tc.research_page.ASPECTS.3=To view what aspects an item possesses, simply hover your cursor over the item and press sneak (shift), and you will see what aspects that item has and what amounts of each.<LINE>Aspects that have somehow been separated from their object and purified is known as §5Vis§0 and is very valuable: both as a crafting ingredient and as a subject for magical research.<BR>Vis is most often bound into wands, but it is also possible to store it as a magical liquid. Vis stored as a liquid is known as §5Essentia§0.
+tc.research_name.ASPECTS=Aspects de la magie
+tc.research_text.ASPECTS=Les éléments constitutifs de la magie
+tc.research_page.ASPECTS.1=Chaque bloc, objet et créature est lié à des éléments mystiques variés connus en tant qu'§5aspects§0. Les aspects décrivent la composition des éléments magiques de l'objet, les tendances à l'égard de celles-ci. La roche peut posséder un aspect de "Terra" tandis que des objets comme les arbres et les créatures peuvent être constitués de plusieurs aspects en différentes quantités. Il y a près de 40 aspects connus avec de nouvelles découvertes constamment.<LINE>Il existe deux grands types d'aspect : §5Primaire§0 et §5Composé§0.
+tc.research_page.ASPECTS.2=Les §lAspects Primaires§r sont les plus basiques et il en existe six : §6Aer§0 (L'Air), §2Terra§0 (La Terre), §cIgnis§0 (Le Feu), §3Aqua§0 (L'Eau), §fOrdo§0 (L'Ordre), §8Perditio§0 (L'Entropie).<BR>Ces formes basiques sont la base de tous les autres aspects. Les aspects composés les plus simples sont fait à partir de deux aspects primaires, mais il est possible d'obtenir un aspect composé extrêmement complexe à partir d'une succession de couche d'aspects plus simples.<BR>Le plus simple exemple d'un aspect composé est celui de "Victus" (La Vie) qui est le résultat de la combinaison de "Terra" et de "Aqua".
+tc.research_page.ASPECTS.3=Pour voir les différents aspects qu'un objet possède, il suffit simplement de passer votre curseur sur l'objet et d'appuyer sur "s'accroupir" ("Maj"), et ainsi vous verrez quels aspects l'objet possède et en quelles quantités. <LINE>Les aspects qui ont été en quelque sorte séparés de leur objet et purifiés sont connu en tant que "§5Vis§0" et sont très précieux : aussi bien comme ingrédient d'artisanat que pour une recherche magique. Le §5Vis§0 est le plus souvent stocké dans une baguette mais il est possible de le stocker en tant que liquide magique. Le §5Vis§0 stocké de cette manière s'appelle de l'§5Essentia§0.
 #
-tc.research_name.NODES=Auras and Nodes
-tc.research_text.NODES=Magic is everywhere
-tc.research_page.NODES.1=The §5Aura§0 is a field of magical energy prevalent throughout the world. Its origin is unclear. Some believe it is the accumulated life force of living beings, while others believe it to merely be another type of energy seeping in from some other place. The last theory seems to be most likely, as the aura is often found surrounding a node of concentrated mystical energy known as an §5Aura Node§0.<BR>The aura has varying levels of energy for each primal. For example, auras near water often has more §3Aqua§0, while those in a desert would have more §cIgnis§0.
-tc.research_page.NODES.2=The aura varies from chunk to chunk based on this. If the aura in an area becomes depleted then aura will flow in from neighboring areas that have higher energy values. The levels will never quite equalize as the aura acts more like an ocean of thick glue than water.<BR>The aura can also become tainted and gain the §5Vitium§0 (flux) aspect. Flux is 'thicker' and tends gather more in discrete areas before flowing to neighboring chunks. Auras that fall too far below their base levels can also generate Flux.<BR>If too much flux gathers in an area it can lead to §lTaint§r. For more information on taint see the relevant section in your Thaumonomicon.
-tc.research_page.NODES.3=Aura nodes act like a doorway to some other mystical realm through which magical energy seeps. Each node is usually 'tuned' to a §5Primal Aspect§0, but rarely a node may be tuned to a §5Compound Aspect§0.<BR>Nodes cannot be tapped directly, but do slowly replenish the aura around them.<BR>Generally the rate of replenishment seems to vary with the phases of the moon with the full moon having the highest rates.<BR>The size of the node is also directly related to how quickly it will replenish the aura.
-tc.research_page.NODES.4=Aura nodes are virtually impossible to see with the naked eye. Often the only way to determine their presence is to look for elevated aura levels in a localized area.<BR>Nearby nodes often attract each other and will move closer together. When they get close enough they will merge with varying results, but usually resulting in a larger node containing features of one or both the original nodes.<BR>There are many different kinds of nodes to be found, but as yet you know very little about them.
-tc.research_page.NODES.A=§l§nAstral Nodes§r<BR>These nodes seems to react to light - the greater the amount of light, the faster they recharge the aura.  
-tc.research_page.NODES.D=§l§nSinister Nodes§r<BR>These nodes operate best in darkness and when the moon is waning. Furthermore the area around such nodes is often quite sinister and dangerous as if they are tapping into some evil and dangerous mystical realm.
-tc.research_page.NODES.H=§l§nHungry Nodes§r<BR>Instead of recharging the aura, these nodes slowly drain it instead. These nodes seem to increase in size and strength the more aura they consume.<BR>Many thaumaturges speculate that what you call a hungry node may merely be a node seen from the other side, but if that was true then and normal nodes would also grow in size and hungry nodes would be far more common. Fortunately, they are not.
-tc.research_page.NODES.P=§l§nPure Nodes§r<BR>Pure nodes are always a welcome find. They slowly remove any flux from the surrounding aura.
-tc.research_page.NODES.T=§l§nTainted Nodes§r<BR>These nodes are mystically tainted. The energy they tap into has been fouled and will occasionally create flux in the aura they are replenishing.
-tc.research_page.NODES.U=§l§nUnstable Nodes§r<BR>These nodes are highly unstable and the type of aspect they replenish will occasionally change to some other random primal.
+tc.research_name.NODES=L'aura et les nœuds
+tc.research_text.NODES=La magie est partout
+tc.research_page.NODES.1=L'aura est un champ d'énergie magique répandu à travers le monde. Son origine est incertaine. Certains croient que c'est l'accumulation de la force de vie des êtres vivants tandis que d'autres croient que c'est simplement un autre type d'énergie provenant de plusieurs autres endroits. La dernière théorie semble être la plus probable puisque l'aura est souvent trouvé autour d'un nœud d'énergie mystique concentré connu sous la forme d'un §5nœud d'aura§0.<BR>L'aura à différents niveaux d'énergie pour chaque aspect primaire. Par exemple, l'aura près de l'eau à souvent plus d'§3Aqua§0, que dans un désert où l'§cIgnis§0 seras plus prépondérant.
+tc.research_page.NODES.2=L'aura varie d'un tronçon à l'autre. Si l'aura d'une zone est épuisée, alors l'aura provenant des zones voisines avec des valeurs d'énergie plus élevées s'écoulera  à l'intérieur. Les niveaux ne vont jamais s'égaliser puisque l'aura agit plus comme un océan de colle plus épaisse que l'eau.<BR>L'aura peut aussi devenir corrompue et obtenir l'aspect §5Vitium§0 (flux). Le Flux est «épais» et tend à en receuillir plus dans une zone discrète avant de s'écouler sur les tronçons voisins. L'aura qui chute énormément en dessous de ses niveaux de base peut aussi générer du Flux.<BR>Si trop de flux est receuillie dans une zone, il peut conduire à de la §lCorruption§r. Pour plus d'information
+tc.research_page.NODES.3=sur la corruption, regardez la section adéquat dans le thaumonomicon. Les nœuds d'aura agissent plus comme un passage vers d'autres domaines mystique par lequels l'énergie magique s'infiltre. Chaque nœud est habituellement «accordé» à un §5aspect primaire§0, mais rarement, un nœud peut s'accorder sur un §5aspect composé§0.<BR>Les nœuds ne peuvent pas être exploités directement mais ils reconstituent doucement l'aura autour d'eux.<BR>Généralement, le taux de reconstitution varie selon les phases de la Lune, la pleine Lune ayant le taux le plus élevé.<BR>La taille des nœuds est aussi directement liée à la rapidité de
+tc.research_page.NODES.4=reconstitution de l'aura. Les nœuds d'aura sont pratiquement impossible à voir à l'œil nu. Souvent, la seule façon de déterminer leur présence est de regarder les niveaux d'aura élevés dans une zone déterminé.<BR>Les nœuds à proximités s'attirent souvent entre elles et vont se rapprocher. Quand elle sont assez proche, elle fusionne et le résultat est variable mais habituellement, il en résulte un nœud plus large contenant les caractéristique de l'un des nœud original.<BR>Il y'a beaucoup de différent types de nœuds à trouver, mais vous en savez encore très peu sur eux.
+tc.research_page.NODES.A=§l§nNœud Astral§r<BR>Ces nœuds semblent réagir à la lumière - plus la quantité de lumière est grande, plus rapidement ils rechargent l'aura.
+tc.research_page.NODES.D=§l§nNœud Sinistre§r<BR>Ces nœuds fonctionnent mieux dans l'obscurité et quand la lune est en déclin. En outre, la zone autour de ces nœuds est souvent sinitre et dangereuse comme si elles puisent dans un domaine mystique dangereux  et démoniaque.
+tc.research_page.NODES.H=§l§nNœud affamé§r<BR>Au lieu de recharger l'aura, ces nœuds la draine lentement. Ces nœuds semblent gagner en taille et en force en fonction de l'aura consomée.<BR> Beaucoup de thaumaturges spéculent  sur ce que vous appelez un nœud affamé, ce qui pourrait simplement être un nœud vu de l'autre côté. Mais si cela était vrai alors les nœud normaux devraient grossir et les nœuds affamés seraient de loin plus commun. Heureusement, ils ne le sont pas.
+tc.research_page.NODES.P=§l§nNœud pure§r<BR>Les nœuds pures sont toujous un plaisir à découvrir. Ils retirent lentement tout flux dans la zone qui les entourent.
+tc.research_page.NODES.T=§l§nNœud corrompu§r<BR>Ces nœuds sont mystiquement corrompus. L'énergie qu'ils puissent a été encrassée et va occasionnellement créer du flux dans l'aura qu'ils réapprovisionnent
+tc.research_page.NODES.U=§l§nNœud instable§r<BR>Ces nœuds sont hautement instable et le type d'aspect qu'ils reconstituent va occasionnellement changer aléatoirement pour un autre type d'aspect primaire.
 #
-tc.research_name.ORE=Ores
-tc.research_text.ORE=Dig deep
-tc.research_page.ORE.1=§l§nVis Crystals§r<BR><IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG><BR>On occasion there is so much primal energy in an aura that it will settle into rock from which vis infused crystals will grow. As long as they are fed vis they will continue to grow and even spread.<BR>Once the aura dips low enough the 
-tc.research_page.ORE.2=energy once again dissipates out of the crystals, replenishing the aura and causing the crystals to crumble. In effect, they are natural, or in this case, supernatural vis batteries. They will never crumble away completely and at least a small remnant of the crystal will remain.<BR>These crystals can be harvested for elemental shards that have many uses in Thaumaturgy.<BR><IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG><BR>You know of no way to only harvest some of the crystals. It is a matter of all or none.
-tc.research_page.ORE.3=§l§nCinnabar§r<BR><IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG><BR>This reddish ore is found deep underground and when smelted produces quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.ORE.4=§l§nAmber§r<BR><IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG><BR>This ore is found near the surface and when mined drops chunks of amber.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
+tc.research_name.ORE=Minerais
+tc.research_text.ORE=Creusez profondément
+tc.research_page.ORE.1=§l§nCristaux de Vis§r<BR><IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG><BR>Dans certaines circonstances, il y a tellement d'énergie primaire dans l'aura qu'il s'installe dans la roche sous forme de cristaux qui vont croître. Tant qu'ils sont nourris par le Vis, ils continueront à grossir et même à se propager.<BR>Une fois l'aura assez creux, 
+tc.research_page.ORE.2=l'énergie se dissipera des cristaux qui s'éffriteront pour reconstiter l'aura. En effet, ils sont de naturels, ou dans ce cas, de supernaturels batteries de Vis. Ils ne s'éffriteront jamais complétement et au moins un petit montant de cristaux resteront.<BR>Ces cristaux peuvent être récoltés en tant qu' éclat élémentaires qui ont de nombreuses utilisation en thaumaturgie.<BR><IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG><BR>Vous ne connaissez aucun moyen de récolter qu'une partie des cristaux, C'est tout ou rien.
+tc.research_page.ORE.3=§l§nCinabre§r<BR><IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG><BR>Ce minerai rougeâtre se trouve profondément sous terre et peut-être fondu en vif-argent.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.4=§l§nAmbre§r<BR><IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG><BR>Ce minerai se trouve près de la surface et fournit des morceaux d'ambre.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
-tc.research_name.PLANTS=Plants & Trees
-tc.research_text.PLANTS=Magical vegetation
-tc.research_page.PLANTS.1=§l§nGreatwood Trees§r<BR><IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG><BR>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
-tc.research_page.PLANTS.2=§l§nSilverwood Trees§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><BR>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that aura nodes often form within their hearts - this feature alone makes a silverwood sapling a prize beyond measure.
-tc.research_page.PLANTS.3=§l§nShimmerleaf§r<BR><IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG><BR>The strange, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.PLANTS.4=§l§nCinderpearl§r<BR><IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG><BR>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
-tc.research_page.PLANTS.5=§l§nVishroom§r<BR><IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>This strange, glowing mushroom can only be found growing in magical forests.<BR>They have hallucinogenic properties so one must be careful not to approach too closely. 
+tc.research_name.PLANTS=Plantes et arbres
+tc.research_text.PLANTS=Végétation magique
+tc.research_page.PLANTS.1=§l§nArbres en bois arcanique§r<BR><IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG><BR>Ces grands et majestueux arbres se trouvent disséminés dans tout le paysage.<BR>Leur bois est capable d'absorber des quantités impréssionnantes de magie, ce qui en fait un élement populaire dans l'élaboration des dispositifs magiques.
+tc.research_page.PLANTS.2=§l§nArbres en bois d'argent§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><BR>Ces arbres rares et magiques sont merveilleux à observer. Leurs feuilles miroitent d'énergie magique et leur bois pâle et doux est apprécié pour ses propriétés purifiantes. Les arbres de nature magique forment souvent des nœuds d'aura dans leur cœur, cette caractéristique seule fait de la culture du bois d'argent un bien inestimable.
+tc.research_page.PLANTS.3=§l§nBrillefeuille§r<BR><IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG><BR>Ce qui est étrange, c'est que ces fleurs éclatantes poussent seulement à l'ombre de l'arbre en bois d'argent. Au lieu de nectar, ces fleurs produisent du vif-argent.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.4=§l§nPerlecendre§r<BR><IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG><BR>Touvée seulement dans les climats chauds, cette plante brûle d'un feu élémentaire. Elles peuvent êtres récoltées et broyées pour produire une poudre fine semblable à la poudre d'incendiaire.
+tc.research_page.PLANTS.5=§l§nChamvisgnon§r<BR><IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>Cet étrange rougeoyant champignon peut seulement être trouvé dans une forêt magique.<BR>Ils ont des propriétés hallucinogènes donc il faut être prudent et ne pas les approcher de trop près. 
 #
-tc.research_name.CRYSTALFARMER=Crystal Farmer
-tc.research_text.CRYSTALFARMER=Helping them grow
-tc.research_page.CRYSTALFARMER.1=You have made a couple of discoveries that have given you the ability to turn vis shards into 'plantable' vis crystals on stone.<BR>What is more, you can now pluck a single shard from a crystal growth without having to break it - simply right click on it with your wand.
+tc.research_name.CRYSTALFARMER=Agriculteur de cristaux
+tc.research_text.CRYSTALFARMER=Les aider à pousser
+tc.research_page.CRYSTALFARMER.1=Vous avez fait quelques découvertes qui vont ont donné la possibilité de transformer un éclat de vis en cristal de vis « plantable » dans la roche.<BR>Qui plus est, vous pouvez maintenant arracher un éclat d'une croissance cristalline sans avoir à la détruire - Il suffit simplement de faire un clique droit avec votre baguette dans la main.
 #
-tc.research_name.RESEARCHER1=Research Expertise
-tc.research_text.RESEARCHER1=Knowledge is Power
-tc.research_page.RESEARCHER1.1=You have become more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 25% chance that you will regain the research point.<BR>You are also able to see what aspects you need to combine to create an aspect you are hovering over.<BR>Lastly it gives you the ability to consume a knowledge fragment to add one point to each primal. 
+tc.research_name.RESEARCHER1=Expertise en recherche
+tc.research_text.RESEARCHER1=La connaissance est le pouvoir
+tc.research_page.RESEARCHER1.1=Vous êtes devenu plus efficace pour effectuer les recherches.<BR> Chaque fois que vous supprimez un aspect que vous avec placé sur les carreaux, il y' a 25% de chance que vous récupériez le point de recherche.<BR>Vous êtes aussi capable de voir quels aspects sont à combiner pour créer l'aspect que vous survolez avec la souris.<BR>Enfin, il vous est possible de consommer un fragment de connaissance pour ajouter un point à chaque aspect primaire.
+
 #
-tc.research_name.RESEARCHER2=Research Mastery
-tc.research_text.RESEARCHER2=Power is Knowledge
-tc.research_page.RESEARCHER2.1=You have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.<BR>Lastly you are able to combine aspects in the research table by shift-clicking on the aspect you wish to create. If you have enough of the component aspects they will automatically combine to create the clicked aspect.
+tc.research_name.RESEARCHER2=Maître en recherche
+tc.research_text.RESEARCHER2=Le pouvoir est la connaissance
+tc.research_page.RESEARCHER2.1=Vous êtes devenu encore plus efficace pour effectuer des recherches.<BR> Chaque fois que vous supprimez un aspect que vous avez placé sur un carreau, vous avez 50% de chance de récupérer votre point de recherche.<BR> En outre, il y'a 10% de chance que placer un aspect ne coûtera pas de point de recherche.<BR> Dernièrement, vous êtes capables de combiner les aspects de la table de recherche en faisant MAJ+clique sur l'aspect que vous voulez créer. Si vous avez assez d'aspects composés, ils seronts automatiquement combiné pour créez l'aspect cliqué.
 #
-tc.research_name.RESTABLE=Research Table
-tc.research_text.RESTABLE=To gather knowledge
-tc.research_page.RESTABLE.1=The Research table is created by clicking on a wooden table with a set of Scribing tools.<BR>The research table is the most important tool for any thaumaturge. It is used to unlock all the hidden secrets of the universe and discover new ways of harnessing magic. 
+tc.research_name.RESTABLE=Table de recherche
+tc.research_text.RESTABLE=Pour recueillir la connaissance
+tc.research_page.RESTABLE.1=La table de recherche est créée en cliquant sur une table en bois avec des outils de scribes.<BR>La table de recherche est le plus important matériel pour un thaumaturge. Elle est utilisée pour débloquer les secrets de l'univers et découvrir de nouvelles façons d'exploiter la magie. 
 #
 tc.research_name.THAUMONOMICON=Thaumonomicon
-tc.research_text.THAUMONOMICON=A Repository of Knowledge
-tc.research_page.THAUMONOMICON.1=To craft the Thaumonomicon, you must simply use your wand on a bookshelf placed in the world.<BR>The Thaumonomicon is a reference book of all things thaumaturgical. It lists all the discoveries you have made so far and gives you a general impression of how many there are still to be made.<BR>Whenever you successfully research something and use the scroll, it will automatically be added to this book. You can then browse through the discoveries and click on them to be shown more detailed information regarding them as well as any crafting recipes associated with those discoveries. 
+tc.research_text.THAUMONOMICON=Un référentiel de connaissances
+tc.research_page.THAUMONOMICON.1=Pour fabriquer un Thaumonomicon, vous devez simplement utiliser votre baguette sur une bibliothèque que vous avez placée.<BR>Le Thaumonomicon est l'ouvrage de référence pour toutes les choses thaumaturgiques. Il liste toutes les découvertes que vous avez faites et vous donne une vision générale de ce qu'il reste à faire. Chaque fois que vous découvrez quelque chose et utilisez un parchemin, la découverte sera automatiquement ajoutée au livre. Vous pouvez ensuite parcourir vos découvertes et cliquer dessus pour avoir de meilleurs précisions et voir les fabrications qui leur sont associées.
 #
-tc.research_name.ENCHANT=Enchantments
-tc.research_text.ENCHANT=New Enchantments
-tc.research_page.ENCHANT.1=Thaumcraft adds several unique enchantments.<BR>§nHaste§r<BR>This enchantment can be applied to footwear of all types and increases the wearers land speed. The higher the enchantment level, the greater the speed bonus granted.<BR>§nRepair§r<BR>This enchantment slowly repairs the durability of items by drawing vis from wands in your inventory. The vis cost is determined by the value of the item.
-tc.research_page.ENCHANT.2=The higher the level of the enchantment, the quicker this takes place. This enchantment can only be applied to items made with Thaumcraft, and even then not all of them.
+tc.research_name.ENCHANT=Enchantements
+tc.research_text.ENCHANT=Nouveaux enchantements
+tc.research_page.ENCHANT.1=Thaumcraft ajoute plusieurs enchantements unique.<BR>§nHâte§r<BR>Cet enchantemant peut être appliqué aux chaussures de tous types et augmente la vitesse de déplacement du porteur. Le bonus en vitesse est en fonction du niveau de l'enchantement.<BR>§nRéparation§r<BR>Cet enchantement répare lentement l'objet en drainant le Vis d'une baguette dans votre inventaire. Le prix en vis est déterminer par la valeur de l'objet.
+tc.research_page.ENCHANT.2=Plus le niveau de l'enchantement est haut, plus vite cela à lieu. Cet enchantement peut seulement s'applique à des objets fair avec Thaumcraft, et encore pas tous.
 #
-tc.research_name.PECH=The Pech
-tc.research_text.PECH=Strange Creatures
-tc.research_page.PECH.1=These strange humanoids can be found wherever the veil between worlds is at its thinnest. They seem drawn to the magical energies that abound in such places.<BR>Don't let their small stature fool you. They have incredible strength and can carry many times their own bodyweight.<BR>Pech are normally not aggressive, but when riled up they will band together and hunt down their attacker. Under normal conditions they avoid people at all costs.<BR>Pechs are notoriously avaricious, and will loot anything not nailed
-tc.research_page.PECH.2=down, though they prefer precious things. It is said that if you feed this desire for material wealth it could be possible to befriend one. Once befriended they often carry wondrous objects that they might be willing to part with.<BR>It should be noted that such 'friendships' seldom last long.<BR><IMG>thaumcraft:textures/research/research5.png:128:136:112:120:.75</IMG>
+tc.research_name.PECH=Les pechs
+tc.research_text.PECH=Étranges créatures
+tc.research_page.PECH.1=Ces étranges humanoïdes peuvent être trouvés partout où le voile entre les mondes est mince. Ils semblent être attirés par les énergies magiques qui abondent certains endroits. Ne laissez pas leur petite taille vous tromper. Ils ont une incroyable force et peuvent transporter plusieurs fois leurs propres poids.<BR>Les pechs ne sont normalement pas agressifs mais quand ils sont agacés, ils s'unissent et traquent leur agresseurs. Dans des conditions normales, ils évitent les gens à tout prix.<BR>Les pechs sont notoirement avides et emportent tout ce qui n'est pas
+tc.research_page.PECH.2=cloué au sol, mais ils préfèrent les choses précieuses. Il est dit que si vous nourrissez leurs désirs de richesse matérielle, il pourrait être possible de se lier d'amitié avec eux. Une fois lié d'amitié, ils rapportent de merveilleux objets dont ils seraient disposés à se séparer.<BR>Il doit être noté que cette "amitié" durent rarement longtemps.<BR><IMG>thaumcraft:textures/research/research5.png:128:136:112:120:.75</IMG>
 #
-tc.research_name.WARP=Warp, Flux and all things bad
-tc.research_text.WARP=Everything has a price
-tc.research_page.WARP.1=§nWarp§r<BR>Many believe man was not meant to meddle with magic, and nothing gives more credence to this than the existence of Warp.<BR>Researching forbidden magics or crafting objects of a questionable nature tends to distort a thaumaturge's view of reality, twisting both their minds and their bodies. This effect is called Warp.<BR>While some warp gained is temporary and will fade over time, there is no known way to get rid of permanent Warp once it is gained and a thaumaturge who chooses to ignore the dangers in the pursuit of power
-tc.research_page.WARP.2=often finds himself on a slippery slope.<BR>Warp usually manifests as minor lapses in concentration, physical pain or hallucinations.<BR>These are more than merely mental though, as the visions sometimes impart useful knowledge or seeming hallucinations prove to be frighteningly real.
-tc.research_page.WARP.3=§nFlux§r<BR>If Warp is the mental manifestation of magic gone wrong, then Flux is its physical manifestation.<BR>Flux can manifest in three ways: a liquid, a gas and a physical malady. The first two manifestations are considered annoyances by most thaumaturges and is often the result of wasteful use of magic. It is not particularly hard to clean up, but coming into contact with it often causes the third manifestation: Flux Flu<BR>Flux Flu is not particularly dangerous, but while a thaumaturge is suffering from it he finds it difficult to focus vis which often leads to increased vis usage to get something done.
+tc.research_name.WARP=Warp, Flux et tout ce qui est mauvais
+tc.research_text.WARP=Tout à un prix
+tc.research_page.WARP.1=§nWarp§r<BR>Beaucoup pense que les hommes ne sont pas fait pour toucher à la magie, et rien ne leur donne plus raison que l'existance du Warp.<BR>Rechercher des magies interdites ou créer des objets d'un nature... douteuse, tend à distordre la vision de la réalité d'un thaumaturge, déformant à la fois leurs esprits et leurs corps. Cet effet est nommé Warp.<BR>Parfois le warp gagné est temporaire et disparaîtra avec le temps, mais il n'y a aucun moyen de se débarasser du warp permanent une fois gagné et un thaumaturge qui choisit d'ignorer
+tc.research_page.WARP.2=ce danger dans sa poursuite de puissance se retrouve sur une pente bien glissante.<BR>La warp se manifeste habituellement par des troubles mineurs de concentration, une douleur physique ou des hallucianations.<BR>Ces dernières sont plus que des images mentales cependant, et certaines de ces visions recèlent parfois des connaissances pratiques ou semblent terriblement réelles.
+tc.research_page.WARP.3=§nFlux§r<BR>Si le warp est la manifestation mentale de la magie qui tourne mal, alors le Flux est sa manifestation physiqye. Le flux peut se manifester de trois façons : un liquide, un gaz et une maladie physique. les deux premières manifestations sont considérées une contrariété par la plupart des thaumaturges et sont souvent le résultat d'un usage gaspilleur de la magie. ils ne sont pas particulièrement durs à nettoyés, mais entrer en contact avec va souvent déclencher la troisième manifestation : la grippe de Flux. La grippe de Flux n'est pas particulièrement dangereuse, mais un thaumaturge qui en souffre trouvera difficile de concentrer du Vis, ce qui entrainera une consommation plus importante.
 #
 # Thaumaturgy 
 #######################
-tc.research_name.BASICTHAUMATURGY=Basic Wand Craft
-tc.research_text.BASICTHAUMATURGY=Your first tool
-tc.research_page.BASICTHAUMATURGY.1=The casting wand is your most basic, but also your most important tool. It is what you use to craft objects, activate blocks like the crucible, and countless other tasks.<BR>The most basic wand stores a very limited amount of magical energy (called vis) that it uses to perform its tasks. To replenish the energy in a wand you must simply hold it in your hand and it will draw vis from the aura.<BR>While holding a wand you will see a indicator on the top left of the screen that shows how much vis is stored within the wand.
-tc.research_page.BASICTHAUMATURGY.2=Holding shift will display exact numbers held by the wand and any possible discounts you have to performing magical tasks.<BR>Wands are always constructed by the combination of a rod and two end-caps. As you progress with your studies, you are sure you will discover different materials that you can use to craft rods and caps to make powerful wands. Only the basic wand can be put together in a normal crafting table. All other wands require the §5Arcane Workbench§0 and will cost vis to construct.<BR>The basic wand is constructed from mundane wood and iron, both of which make poor materials for working magic.
+tc.research_name.BASICTHAUMATURGY=Baguette basique artisanale
+tc.research_text.BASICTHAUMATURGY=Votre premier outil
+tc.research_page.BASICTHAUMATURGY.1=La baguette est votre outil plus basique mais aussi le plus important. C'est ce que vous utilisez pour fabriquer des objets, activer des blocs comme le creuset et faire d'innombrables autres tâches. La baguette la plus élémentaire stocke une très petite quantité d'énergie (appelée "Vis") qui est utilisée pour accomplir des tâches. Pour reconstiter l'énergie de la baguette, il suffit simplement de la tenir dans la main. La baguette va drainer le Vis depuis l'aura.<BR> Tout en tenant la baguette, vous voyez un indicateur en haut à gauche de l'écran montrant la quantité de Vis stocké dans la baguette.
+tc.research_page.BASICTHAUMATURGY.2=Maintenir "Maj" permettra d'afficher les nombres exactes et les réductions d'énergie possibles pour les tâches magiques.<BR>Les baguettes sont toujours construites avec la combinaison d'un bâton et de deux embouts. Dans votre progression, vous découvrirez sûrement de nouveaux matériaux que vous pourrez utiliser pour fabriquer des baguettes et des embouts et faire de puissantes baguettes. Seule la baguette de base peut être fabriquée dans l'atelier classique. Toutes les autres baguettes exigent l'§5atelier arcanique§0 et coûtent du Vis pour être construites. La baguette basique est construite à partir de bois ordinaire et de fer. Ce sont deux matériaux de faible valeur pour le travail magique.
 #
-tc.research_name.NODETAPPER1=Advanced Aura Tapping
-tc.research_text.NODETAPPER1=Taking it all
-tc.research_page.NODETAPPER1.1=Usually the process of drawing vis from the aura with a wand is quite slow... but not anymore.<BR>You have discovered a more efficient way of tapping into the aura, doubling the normal draw rate. In addition you no longer need to hold the wand in your hand to do this, merely having it on your hotbar is sufficient.
+tc.research_name.NODETAPPER1=Exploitation avancé des nœuds
+tc.research_text.NODETAPPER1=Prenons tout
+tc.research_page.NODETAPPER1.1=Habituellement le processus pour drainer le Vis de l'aura avec une baguette est assez lent mais plus maintenant.<BR>vous avez découvert un moyen plus efficace pour le faire, doublant le drain de Vis. En outre, vous n'êtes plus obliger de tenir la baguette dans vos mains pour la recharger, il suffit de la placer dans votre barre d'inventaire.
 #
-tc.research_name.NODETAPPER2=Master Aura Tapping
-tc.research_text.NODETAPPER2=All your vis are belong to us
-tc.research_page.NODETAPPER2.1=You have added further refinements to the methods you use to tap the aura.<BR>You are now able to draw vis three times faster than normal. Furthermore you will recharge wands anywhere in your inventory, not just in your hand or hotbar.
+tc.research_name.NODETAPPER2=Maître en exploitation des nœuds
+tc.research_text.NODETAPPER2=Tout le Vis nous appartient
+tc.research_page.NODETAPPER2.1=Vous avez ajouté des améliorations plus avancées à la méthode que vous utilisez pour exploiter l'aura.<BR>Vous êtes maintenant capable de drainer le Vis trois fois plus vite que la normale.
 #
-tc.research_name.AURAMANIP1=Basic Aura Manipulation
-tc.research_text.AURAMANIP1=Let the magic flow
-tc.research_page.AURAMANIP1.1=You have made a few interesting discoveries regarding the aura and it is high time you start putting that knowledge to use. You have created a totem that pushes vis away from itself - the Totem of Dispersal.<BR>As the name suggests it takes vis near the totem and spreads it over a wider area.<BR>Messing with the aura is not without risk however and the totem has a small chance of converting the vis into flux instead of moving it.<BR>The totem requires that crystal shards be placed in its inventory to act as fuel and to determine what type of vis is effected.  
-tc.research_page.AURAMANIP1.2=Each totem has an inner and outer area in which it operates. By default the inner area consists of the chunk in which it is located while the outer area consists of the 8 chunks surrounding the inner area.<BR>The dispersal totem moves vis from its inner area towards the outer area.<LINE>You also know how to craft two different totem poles. These poles must be placed below a totem and each totem can have up to 5 poles located below it. These poles modify the inner and outer areas that the totem effects. 
-tc.research_page.AURAMANIP1.3=For example, a Dispersal totem with 1 inner and 2 outer poles will draw from vis from the green chunks below and push it towards the blue chunks.<IMG>thaumcraft:textures/research/research3.png:168:0:80:80:1</IMG>   
+tc.research_name.AURAMANIP1=Bases sur la manupilation de l'aura
+tc.research_text.AURAMANIP1=Laisser la magie circuler
+tc.research_page.AURAMANIP1.1=Vous avez fait quelques découvertes intéressantes concernant l'aura et il est grand temps de les mettre à l'usage. Vous avez créé un totem qui pousse le Vis loin de lui-même - le totem de dispersion.<BR> Comme le nom l'indique, il récupère le vis proche de lui et le propage au loin.<BR>Désordonné l'aura n'est cependant pas sans risques et le totem à une petite chance de convertir le Vis and Flux au lieux de le déplacer.<BR>Le totem requiert un éclat de cristal pour agir comme un carburant et déterminer quel type de Vis est affecté.
+tc.research_page.AURAMANIP1.2=Chaque totem à une surface intérieur et extérieur dans lequel il opère. Par défaut, la zone intérieur est constitué d'un tronçon dans lequel il se trouve alors que la zone extérieur en fait 8 autour de la zone intérieur.<BR>Le totem de dispersion déplace le vis de sa zone intérieur vers sa zone extérieur.<LINE>Vous savez aussi comment fabriquer deux différents pôles du totem. Ces pôles doivent être placer sous un totem pour un maximum de 5 par totem. Ces pôles modifient les zones intérieur et extérieur que le totem affecte.
+tc.research_page.AURAMANIP1.3=Par exemple, un totem de dispersion avec un pôle intérieur et 2 extérieur va drainer le Vis des trançons verts et le pousser vers les trançons bleus. (voir ci-dessous)<IMG>thaumcraft:textures/research/research3.png:168:0:80:80:1</IMG>    
 #
-tc.research_name.AURAMANIP2=Totem of Attraction
-tc.research_text.AURAMANIP2=Drawing it in
-tc.research_page.AURAMANIP2.1=The Totem of Attraction works in much the same way is the Totem of Dispersal, except that it draws vis from the outer area and moves it towards the inner area.    
+tc.research_name.AURAMANIP2=Totem d'attraction
+tc.research_text.AURAMANIP2=L'attirer à l'intérieur
+tc.research_page.AURAMANIP2.1=Le totem d'attraction fonctionne de la même façon que le totem de dispersion, à l'exception qu'il draine le Vis des zones extérieures et le déplace vers les zones intérieures.    
 #
-tc.research_name.AURAPOLESTABLE=Stabilizing Totem Pole
-tc.research_text.AURAPOLESTABLE=Smoothing the flow
-tc.research_page.AURAPOLESTABLE.1=This totem pole has a stabilizing effect on the totem it supports. It reduces the chance that flux is created during aura manipulation.
+tc.research_name.AURAPOLESTABLE=Pôle de stabilisation de totem
+tc.research_text.AURAPOLESTABLE=Lissage du flux
+tc.research_page.AURAPOLESTABLE.1=Ce pôle de totem à un effet stabilisant sur le totem qu'il soutient. Cela réduit les chances que du Flux soit créé durant la manipulation de l'aura.
 #
-tc.research_name.CAP_gold=Gold Wand Caps
-tc.research_text.CAP_gold=Capping things off with style
-tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and wands capped with this material takes no penalty when used to channel vis.
+tc.research_name.CAP_gold=Embouts en or
+tc.research_text.CAP_gold=Les embouts avec style
+tc.research_page.CAP_gold.1=L'or est un bien meilleur focalisateur que le fer. Les baguettes terminées par ce matériau n'ont pas de pénalité lors de la canalisation de Vis.
 #
-tc.research_name.CAP_brass=Brass Wand Caps
-tc.research_text.CAP_brass=Drawing in the Vis
-tc.research_page.CAP_brass.1=Like gold, wands capped with this material takes no penalty when used to channel vis. More importantly however, is the fact that these caps can draw vis from the aura easier than normal, allowing the wands they are placed on to charge faster.
+tc.research_name.CAP_brass=Embouts en laiton
+tc.research_text.CAP_brass=Attirer le Vis
+tc.research_page.CAP_brass.1=Comme l'or, les baguettes encapsulées avec ce matériau n'ont pas de pénalité lors de la canalisation du Vis. Plus important cependant, est le fait que ces embouts drainent le vis de l'aura plus facilement que la normale, ce qui permet une charge plus rapide des baguettes sur lesquelles ils sont placés.
 #
-tc.research_name.CAP_thaumium=Thaumium Wand Caps
-tc.research_text.CAP_thaumium=Efficiency over speed
-tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.<BR>Crafting these wand caps in an arcane workbench is not sufficient - they need to be infused with additional magical energy to make them usable.
+tc.research_name.CAP_thaumium=Embouts en thaumium
+tc.research_text.CAP_thaumium=L'éfficacité avant la vitesse
+tc.research_page.CAP_thaumium.1=Le thaumium est connu pour avoir la capacité de stocker et d'absorber la magie, donc l'utiliser en embouts de baguette est un choix logique. Il est très efficace pour focaliser le Vis de tous types.<BR>Fabriquer ces embouts de baguette dans un atelier arcanique n'est pas suffisant, ils ont besoin d'ête infusés avec de l'énergie magique supplémentaire pour les rendre utilisables.
 #
-tc.research_name.CAP_void=Void Metal Wand Caps
-tc.research_text.CAP_void=Power from beyond
-tc.research_page.CAP_void.1=Crafting wand caps from void metal seems counterintuitive since it seems to be highly resistant to magic, but counterintuitive is where you live now.<BR>Your gamble paid off. The metal itself may be resistant to magic and channels vis no better than gold or brass, but it can draw vis from the aura much, much quicker than normal. The magic does seem §ostrange§r somehow, but it is probably just your imagination.
+tc.research_name.CAP_void=Embouts en métal du Vide
+tc.research_text.CAP_void=Pouvoir d'au-dela
+tc.research_page.CAP_void.1=Créer des embout pour baguette en métal du Vide semble contre-intuitif puisque ce métal à l'air résistant à la magie, mais le contre-intuitif est l'endroit où vous vivez désormais.<BR>Votre pari à payé. Le métal lui-même est peut être résistant à la magie et ne le canalise pas aussi bien que l'or ou le laiton, mais il le draine de l'aura beaucoup, beaucoup plus vite que la normale. La magie semble §oétrange§r par contre, mais c'est probablement juste votre imagination.
 #
-tc.research_name.ROD_greatwood=Greatwood Wand Core
-tc.research_text.ROD_greatwood=Repository of magical energy
-tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has double the vis storage potential of mundane wood, being able to store up to 250 vis of each type.
+tc.research_name.ROD_greatwood=Manche en bois arcanique
+tc.research_text.ROD_greatwood=Dépôt d'énergie magique
+tc.research_page.ROD_greatwood.1=Sculpté dans du bois arcanique, ce bâton double le stockage potentiel de Vis par rapport au bois ordinaire. Il stocke jusqu'à 250 Vis de chaque type.
 #
-tc.research_name.ROD_silverwood=Silverwood Wand Core
-tc.research_text.ROD_silverwood=Magical to the core
-tc.research_page.ROD_silverwood.1=Silverwood has proved to be an excellent repository of magical energy, and wand cores crafted from it can store up to 500 vis of each type.
+tc.research_name.ROD_silverwood=Manche en bois d'argent
+tc.research_text.ROD_silverwood=Magie dans son cœur
+tc.research_page.ROD_silverwood.1=Le bois d'argent s'avère un excellent dépôt d'énergie magique et les manches de baguette fabriqués à partir de ce bois stockent jusqu'à 500 Vis de chaque type.
 #
-tc.research_name.SCEPTRE=Crafting Scepters
-tc.research_text.SCEPTRE=Made to task
-tc.research_page.SCEPTRE.1=Crafting scepters are specialized wands made to be used to craft mystical objects and nothing else. Foci cannot be attached to them, but they have several features that still make them worthwhile using.<BR>Firstly, they have an additional 10% vis discount above and beyond what their caps would normally grant.<BR>Secondly they are able to hold 50% more vis than their cores would normally allow.<BR>Like other wands they can be crafted using most combinations of rods and caps - just a few examples are given on the next page.
+tc.research_name.SCEPTRE=Fabriquer des Sceptres
+tc.research_text.SCEPTRE=Fait pour la tâche
+tc.research_page.SCEPTRE.1=Les sceptres sont des baguettes spécialisées, faits pour être utilisé à créer d'autres objets magique et rien d'autre. Les Foci ne peuvent pas leur être attaché, mais ils ont plusieurs caractéristiques qui les rendent intéressant à utiliser.<BR>Premièrement, ils ont 10% de réduction de vis supplémentaire au dessus de ce que leur embout permet normalement. Deuxièment ils sont capable de contenir 50% de vis en plus que ce que leurs manches permettraient d'habitude. Comme les autres baguettes ils peuvent être créer en utilisant n'importe quel combinaison d'embouts et de manche - quelques exemples sont donnés sur la page suivante.
 #
-tc.research_name.PRIMALRODS=Elemental Wand Cores
-tc.research_text.PRIMALRODS=Elemental vis storage
-tc.research_page.PRIMALRODS.1=Each of these wand cores is linked to a specific primal element which grants them additional abilities.<LINE>§l§nReed Wand Core§r<BR>A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
-tc.research_page.PRIMALRODS.2=§l§nBlazing Wand Core§r<BR>Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
-tc.research_page.PRIMALRODS.3=§l§nObsidian Wand Core§r<BR>A wand core chiseled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
-tc.research_page.PRIMALRODS.4=§l§nIcy Wand Core§r<BR>Wand cores crafted from ice can store slightly more vis than greatwood cores. What makes it superior to greatwood cores however is that if the level of §3Aqua§0 stored inside it drops below 10%, its icy nature will slowly replenish it.
-tc.research_page.PRIMALRODS.5=§l§nQuartz Wand Core§r<BR>A wand core chiseled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §7Ordo§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
-tc.research_page.PRIMALRODS.6=§l§nBone Wand Core§r<BR>A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_name.PRIMALRODS=Manches élémentaires
+tc.research_text.PRIMALRODS=Stockage de Vis élémentaire
+tc.research_page.PRIMALRODS.1=Chacuns de ces manches pour baguette est liées à un élément primaire qui leur confère des capacités supplémentaires.<LINE>§l§nManche en roseau§r<BR>Un manche de baguette fait de roseau a un potentiel de stockage légèrement supérieur au bois arcanique. Ce qui le rend bien supérieur est qu'il se remplit lentement d'§6Aer§0 lorsque son niveau est inférieur à 10%.
+tc.research_page.PRIMALRODS.2=§l§nManche embrasé§r<BR>Un manche fait à partir d'un bâton de Blaze a un potentiel de stockage légèrement supérieur au bois arcanique. Ce qui le rend bien supérieur cependant, c'est que si son niveau d'§cIgnis§0 passe en dessous de 10%, sa nature ardente va lentement la réapprovisionner. 
+tc.research_page.PRIMALRODS.3=§l§nManche en obsidienne§r<BR>Un manche ciselée à partir d'obsidienne a un potentiel de stockage légèrement supérieur au bois arcanique. Ce qui le rend bien supérieur cependant, c'est que si son niveau de §2Terra§0 passe en dessous de 10%, il va lentement se réapprovisionner.
+tc.research_page.PRIMALRODS.4=§l§nManche glacé§r<BR>Un manche fait de glace a un potentiel de stockage légèrement supérieur au bois arcanique.Ce qui le rend bien supérieur cependant, c'est que si son niveau d'§3Aqua§0 passe en dessous de 10%, sa nature glacée va lentement la réapprovisionner. 
+tc.research_page.PRIMALRODS.5=§l§nManche en quartz§r<BR>Un manche ciselée dans du quartz a un potentiel de stockage légèrement supérieur au bois arcanique.Ce qui le rend bien supérieur cependant, c'est que si son niveau d'§7Ordo§0 passe en dessous de 10%, il va lentement se réapprovisionner.
+tc.research_page.PRIMALRODS.6=§l§nManche en os§r<BR>Un manche ciselée à partir d'os a un potentiel de stockage légèrement supérieur au bois arcanique. Ce qui le rend bien supérieur cependant, c'est que si son niveau de §8Perditio§0  passe en dessous de 10%, il va lentement se réapprovisionner.
 #
-tc.research_name.PRIMALSTAVES=Elemental Staves 
-tc.research_text.PRIMALSTAVES=Elemental vis storage
-tc.research_page.PRIMALSTAVES.1=Like the elemental wand cores, these stave cores are linked to a specific primal element which grants them additional abilities and slowly replenish their vis stores if they get low enough. They can store 750 vis of each type.
+tc.research_name.PRIMALSTAVES=Bâtons élémentaires
+tc.research_text.PRIMALSTAVES=Stockage de Vis élémentaire
+tc.research_page.PRIMALSTAVES.1=Comme les manches pour baguette élémentaires, ces bâtons sont liés à un élément spécifique qui leur confère des capacités supplémentaires et reconstituent lentement leur Vis s'ils sont assez bas. Ils peuvent stocker 750 Vis de chaque type.
 #
-tc.research_name.ROD_greatwood_staff=Magic Staves
-tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
-tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for your buck. Magical staves are basically just bigger wands. They are able to store more vis.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.<BR>Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.
-tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has double the vis storage potential of a greatwood wand, being able to store up to 500 vis of each type.<BR>Note: You still need to add caps to a stave rod, just like you would for a wand.
+tc.research_name.ROD_greatwood_staff=Bâtons magique
+tc.research_text.ROD_greatwood_staff=Les bâtons de magiciens ont des zobs à l'extrémité
+tc.research_page.ROD_greatwood_staff.1=Les baguettes sont le pain quotidien d'un thaumaturge, mais parfois vous en voulez pour son argent. Les bâtons magique sont basiquement juste plus grand que les baguettes. Ils sont capable de stocker plus de vis.<BR> Comme ils sont physiquement plus grand et plus robuste qu'une baguette, ils peuvent servir d'armes en cas d'urgence.<BR>Malheuresement, cela les rend également inapproprié à la fabrication complexe et au contrôle précis requis par un atelier arcanique ou à un artisanat similaire.
+tc.research_page.ROD_greatwood_staff.2=Un bâton fait à partir de bois arcanique a le double de vis potentiellement stocké dans une baguette de bois arcanique. Il est capable de stocker jusqu'à 500 vis de chaque type.<BR>Remarque: Vous êtes toujours obliger d'ajouter des embouts au bâton, tout comme vous le feriez pour une baguette.
 #
-tc.research_name.ROD_silverwood_staff=Silverwood Staff Core
-tc.research_text.ROD_silverwood_staff=Magical to the core
-tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 1000 vis of each type.
+tc.research_name.ROD_silverwood_staff=Base de bâton en bois d'argent
+tc.research_text.ROD_silverwood_staff=Magique au centre
+tc.research_page.ROD_silverwood_staff.1=La Base du bâton fabriquée à partir de bois d'argent peut stocker jusqu'à 1000 vis de chaque type.
 #
-tc.research_name.ROD_primal_staff=Staff Core of the Primal
-tc.research_text.ROD_primal_staff=Elemental power combined
-tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish its vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturge's arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
+tc.research_name.ROD_primal_staff=Base de bâton primaire
+tc.research_text.ROD_primal_staff=Pouvoir élémentaire combiné
+tc.research_page.ROD_primal_staff.1=Cette base bat avec de l'énergie latente. Elle combine toutes les fonctionnalités de la moindre base de bâton - Elle a la capacité de stockage de vis de la base de bâton en bois d'argent et est capable de reconstituer son vis stocké comme les différentes bases de bâton primaire. Dernièrement, elle ajoute un niveau d'enchantement de force à chaque Foci utilisé avec elle. C'est vraiment un outil puissant dans n'importe quel arsenal de thaumaturge. Remarque: Vous êtes toujours obliger d'ajouter des embouts au bâton, tout comme vous le feriez pour une baguette.
 #
-tc.research_name.FOCUSFIRE=Wand Foci
-tc.research_text.FOCUSFIRE=Form meets Function
-tc.research_page.FOCUSFIRE.1=Some careful experimentation has shown you a way to expand the abilities of even the most basic wand.<BR>By combining crystalline vis shards with quartz crystals and infusing them with magic, you are able to align the crystals into a mystical matrix.<BR>If the proper types and amounts of vis is focused through this matrix, it will reshape the raw magical energies into something useful, controlled, and geared to a specific task. 
-tc.research_page.FOCUSFIRE.2=Adding a focus to your wand is a simple task - simply press F while holding the wand, and any foci you a carrying will show up in a radial menu allowing you to choose from any of the ones you are carrying with a simple click.<LINE>Your initial experiments involved the shaping of fire, and the resulting focus proved to be a simple, but useful tool.<BR>It is capable of sending forth a cone of elemental fire, burning all in its wake.
+tc.research_name.FOCUSFIRE=Les Focis
+tc.research_text.FOCUSFIRE=La forme rencontre la fonction
+tc.research_page.FOCUSFIRE.1=Certaines expérimentations rigoureuses vous ont montré un moyen d'élargir les capacités des baguettes.<BR>En combinant des cristaux de Vis avec du quartz et en les infusant avec de la magie, vous êtes capable d'aligner les cristaux en une matrice mystique.<BR>Si les bons types et les bonnes quantités de Vis sont focalisés à travers cette matrice, il s'en échappe de l'énergie magique brute utile, controlée et adaptée à une tâche spécifique.
+tc.research_page.FOCUSFIRE.2=L'ajout d'un Foci sur la baguette est simple, il suffit d'appuyer sur F lorsque vous tenez votre baguette et chaque Focis que vous portez seront affichés. Choisissez ensuite votre Foci avec votre curseur.<LINE>Vos premières expériences ont concerné le feu, et le résultat s'est avéré être un outil simple mais utile.<BR>Ce Foci est capable d'émettre un cône de feu élémentaire brûlant tout sur son passage.
 #
-tc.research_name.FOCUSFROST=Wand Focus: Frost
-tc.research_text.FOCUSFROST=Revenge is a dish best served cold
-tc.research_page.FOCUSFROST.1=This focus is capable of hurling chunks of ice.<BR>Care must be taken when aiming, as the ice chunks tend to bounce off solid objects. This can be used to your advantage however as you can bounce the shards around corners, or even hit multiple foes. 
+tc.research_name.FOCUSFROST=Foci: Glace
+tc.research_text.FOCUSFROST=La vengeance est un plat qui se mange froid
+tc.research_page.FOCUSFROST.1=Ce Foci est capable de lancer des morceaux de glace.<BR>La prudence est de mise car les morceaux de glace sont capables de rebondir sur les objets solides. Ceci peut cependant être utiliser à votre avantage, comme vous pouvez faire rebondir les morceaux sur les coins ou même toucher plusieurs ennemis.
 #
-tc.research_name.FOCUSSHOCK=Wand Focus: Shock
-tc.research_text.FOCUSSHOCK=Thunder and Lightning
-tc.research_page.FOCUSSHOCK.1=This focus is capable of focusing elemental energy into bolts of lightning that you can hurl at your enemies.
+tc.research_name.FOCUSSHOCK=Foci: Choc
+tc.research_text.FOCUSSHOCK=Tonnerre et foudre
+tc.research_page.FOCUSSHOCK.1=Ce Foci est capable de générer des éclairs à partir de l'énergie élémentaire. Pointez votre baguette sur vos ennemis et laisser la foudre se déchaîner.
 #
-tc.research_name.FOCUSEXCAVATION=Wand Focus: Excavation
-tc.research_text.FOCUSEXCAVATION=Terra Terror
-tc.research_page.FOCUSEXCAVATION.1=This focus turns your wand into a tool capable of moving vast amounts of earth and stone with little effort.<BR>Simply point it at what you want to excavate and the magic does the rest. Tougher materials take longer to mine, and anything other than earth, stone or similar materials will take much longer to mine.
+tc.research_name.FOCUSEXCAVATION=Foci: Excavation
+tc.research_text.FOCUSEXCAVATION=Terreur de la terre
+tc.research_page.FOCUSEXCAVATION.1=Ce Foci transforme votre baguette en outil capable de déplaçer de grandes quantités de terre et de roche avec peu d'effort.<BR>Pointez votre baguette sur l'endroit que vous voulez excaver et la magie fera le reste. Les matériaux plus résistants sont plus long à miner, ainsi que tout ce qui n'est pas de la roche ou de la terre.
 #
-tc.research_name.FOCUSTRADE=Wand Focus: Equal Trade
-tc.research_text.FOCUSTRADE=This for That
-tc.research_page.FOCUSTRADE.1=You can use this focus to trade dozens of blocks in the world with some you are carrying.<BR>You must first choose the block you wish to change other blocks into by sneaking and right clicking on the desired block. When you then left-click on another block it will turn into the target block. Right clicking will transform a whole swathe of blocks.<BR>You must be carrying enough target blocks, and the transformed blocks will replace them in your inventory. Only blocks with at least one face adjacent to open air or non-solid blocks will be transformed.
+tc.research_name.FOCUSTRADE=Foci: Échange équivalent
+tc.research_text.FOCUSTRADE=C'est pour ça
+tc.research_page.FOCUSTRADE.1=Vous pouvez utiliser ce Foci pour échanger des douzaines de blocs dans le monde avec des blocs de votre inventaire.<BR>Vous devez d'abord choisir le type de bloc que vous souhaitez échanger en vous accroupissant et faisant clic gauche dessus. Lorsque vous appuyez sur clic gauche sur un autre bloc, il va intervertir celui-ci avec votre précédente sélection. Le clic droit va intervertir une large zone de blocs.<BR> Les blocs à échanger sont remplacés dans votre inventaire par les blocs ciblés. Seuls les blocs adjacents à un bloc d'air ou non solide sont transformés.
 #
-tc.research_name.FOCUSHELLBAT=Wand Focus: Nine Hells
-tc.research_text.FOCUSHELLBAT=Tiny Terrors
-tc.research_page.FOCUSHELLBAT.1=Your trips onto the Nether have taught you to fear the tiny terrors known as Hellbats. Now you have discovered a way to summon the little terrors and send them after your enemies. Excellent.
+tc.research_name.FOCUSHELLBAT=Foci: Neuf enfers
+tc.research_text.FOCUSHELLBAT=Petite terreur
+tc.research_page.FOCUSHELLBAT.1=Vos excursions dans le Nether vous ont appris à avoir peur des petites terreurs connues sous le nom de chauve-souris de feu. Maintenant, vous avez découvert un moyen de les invoquer et de les envoyer sur vos ennemis, Excellent.
 #
-tc.research_name.FOCUSPORTABLEHOLE=Wand Focus: Portable Hole
-tc.research_text.FOCUSPORTABLEHOLE=Never be without an exit again
-tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extra dimensional spaces. Using this focus on a wall or other surface will create an extra dimensional passage leading to the other side. This 'hole' only remains open for a few seconds.<BR>Extra dimensional holes cannot be created through certain kinds of matter or particularly complex objects.
+tc.research_name.FOCUSPORTABLEHOLE=Foci: Trou portable
+tc.research_text.FOCUSPORTABLEHOLE=Jamais sans une nouvelle sortie
+tc.research_page.FOCUSPORTABLEHOLE.1=Vous avez reussi en utilisant du Vis à créer de l'espace extradimensionnel. Utiliser ce Foci sur un mur ou une autre surface va créer un passage extradimensionnel menant de l'autre côté.Ce "trou" reste ouvert pendant quelques secondes<BR>Les trous extradimensionnels ne peuvent pas être créer sur certains types de matériaux ou d'objets particulièrement complexes.
 #
-tc.research_name.FOCUSPRIMAL=Wand Focus: Primal
-tc.research_text.FOCUSPRIMAL=Raw Magic
-tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
+tc.research_name.FOCUSPRIMAL=Foci: Primaire
+tc.research_text.FOCUSPRIMAL=Magie brut
+tc.research_page.FOCUSPRIMAL.1=Quel folie vous a possédé pour créer cette chose? Ce Foci semble frénétiquement dangereux et seulement un aliéné va tenter de l'utiliser partout et non seulement dans les environnements les plus contrôlés.<BR> Accordée, l'orbe d'énergie primaire brut créée est assez dévastateur, mais son chemin parcourue est irrégulier, pour le meilleur erratique et au pire, malveillant.<BR>Il fait pousser plus loin l'étude cependant : L'orbe montre d'intéressantes propriétés dimensionnel et il expose des motif d'énergie que vous avez seulement vu chez les feu-follets et les noeuds d'aura.
 #
-tc.research_name.FOCUSPOUCH=Focus Pouch
-tc.research_text.FOCUSPOUCH=Convenient carry container for your foci.
-tc.research_page.FOCUSPOUCH.1=Once you have gathered a sizable collection of foci it is quite annoying to carry them all with you. This pouch solves that problem.<BR>Whenever you change the focus on your wand, it will check this pouch first and any foci that get removed will be placed inside it first. You can also right-click the pouch to place or remove foci by hand.<BR>It can also be carried in your belt bauble slot.
+tc.research_name.FOCUSPOUCH=Sac à Focis
+tc.research_text.FOCUSPOUCH=Conteneur pratique pour porter vos Focis
+tc.research_page.FOCUSPOUCH.1=Une fois une importante collections de Focis rassemblée, il est assez emcombrant de tous les transporter. Cette sacoche résout le problème.<BR>A chaque fois que vous changer le Foci de votre baguette, la sacoche sera vérifiée et les Focis rangés en priorité dedans. Vous pouvez aussi ranger manuellement les Focis en faisant un clic droit avec le sac à la main.<BR>Il peut aussi être transporté à la ceinture.
 #
-tc.research_name.FOCALMANIPULATION=Focal Manipulation 
-tc.research_text.FOCALMANIPULATION=Wand foci remade
-tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible. A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focal Manipulator and choose the upgrade you wish to apply to it. It will draw vis from the aura and you also need to provide it with experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
-tc.research_page.FOCALMANIPULATION.2=but each rank is doubles the cost.<BR>While some upgrades can be applied multiple times or at any rank, many foci have upgrades that can only be applied at certain ranks or only if certain requisite upgrades had been taken at lower ranks. Experimentation is encouraged.<BR>Upgrades are permanent - you are not aware of any method to remove unwanted upgrades so care must be taken when choosing them.  
+tc.research_name.FOCALMANIPULATION=Manipulation Focal 
+tc.research_text.FOCALMANIPULATION=Retouche de Foci
+tc.research_page.FOCALMANIPULATION.1=Les Focis de baguette sont capable d'exploit incroyables, mais ils sont peu flexibles. Un seul Foci est rarement capable d'avoir plus d'une fontion.<BR>Vous avez découvert un moyen d'améliorer les Foci basiques pour alterer la façon dont ils manipulent la magie. Vous avez juste besoin de placer le Foci dans la manipulateur focal et de choisir quelle amélioration vous voulez appliquer dessus. Il tirera le Vis de l'aura et vous devez utiliser des points d'experiences pour lancer le processus, mais après ça c'est juste une question de patience.<BR>Chaque Foci peut être améliorer cinq 
+tc.research_page.FOCALMANIPULATION.2=fois, mais chaque rang double le prix.<BR>Certaines améliorations peuvent être appliqué de multiples fois ou à chaque rangs, mais de nombreux Foci ont des améliorations qui ne peuvent être appliquée qu'à certains rangs ou seulement si certaines améliorations ont étées apposées à des rangs précédents. L'expérimentation est encouragée.<BR>Les améliorations sont permanentes - Vous ne connaissez aucun moyen de retirer une amélioration alors choissisez bien!
 #
-tc.research_name.VAMPBAT=Tier 5 Upgrade: Vampire Bats 
-tc.research_text.VAMPBAT=Vicious little bloodsuckers  
+tc.research_name.VAMPBAT=Amélioration tier 5: Chauves-souris vampires 
+tc.research_text.VAMPBAT=Vicieux petits suceurs de sang
 #
-tc.research_name.WANDPED=Recharge Pedestal
-tc.research_text.WANDPED=Automated Wand Recharging
-tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from the aura to recharge itself.<BR>Wands are not the only items that can be recharged in this device - many vis holding gadgets should be rechargeble in this.
+tc.research_name.WANDPED=Piédestal de recharge
+tc.research_text.WANDPED=Recharge de baguette automatique
+tc.research_page.WANDPED.1=Traverser la campagne pour recharger votre baguette est très bien, mais une manière automatique de le faire serait beaucoup mieux.<BR>Ce piédestal est spécialement conçu pour ça. Toute baguette placée dessus va drainer automatiquement le Vis de l'aura.<BR>Les baguettes ne sont pas les seuls objets qui peuvent être recharger dans cet appareil - Plusieurs gadgets à Vis devraient pouvoir se recharger.
 #
-tc.research_name.VISAMULET=Vis Storage
-tc.research_text.VISAMULET=Waste not, Want not
-tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>Your success has been mixed however. You can only recharge wands while holding them in your hand and even then the recharge rate is slow. 
-tc.research_page.VISAMULET.2=However the amulet is able to act as a good power source for other things like the Repair enchant or runic shielding.<BR>The amulet recharges itself slowly while worn, or it can be placed in a recharge pedestal.
+tc.research_name.VISAMULET=Stockage de Vis
+tc.research_text.VISAMULET=ne gâche rien, ne désire rien
+tc.research_page.VISAMULET.1=La plupart du temps une seule baguette est plus que suffisante pour n'importe quel thaumaturge, mais occasionnellement le Vis d'une seule baguette n'est pas suffisant. Transporter plus d'une baguette règlerais le problème, mais les expériences ont montré qu'il existait un autre moyen.<BR>En créant une amulette capable de stocker du Vis, vous serez capable de recharger votre baguette ou n'importe quel objet sur le terrain quand elle est portée.<BR>Votre succes est mitigé cependant. Vous pouvez seulement recharger un objet en le tenant dans votre main et le vitesse de charge est lente.
+tc.research_page.VISAMULET.2=Par contre l'amulette se montre parfaite source d'énergie pour d'autre chose comme l'enchantement de réparation ou le bouclier runique.<BR>L'amulette se recharge d'elle même lentement lorsque elle est portée ou elle peut être placée dans un piédestal de recharge.
 #
-tc.research_name.WORKBENCHCHARGER=Arcane Workbench Charger
-tc.research_text.WORKBENCHCHARGER=Arcane Crafting Simplified
-tc.research_page.WORKBENCHCHARGER.1=An annoyance for any thaumaturge that performs regular arcane crafting is to constantly keep his wand charged.<BR>Now that you have found an automated way to draw vis directly from the aura you are able to craft an Arcane Workbench Charger. It is designed to be placed on top of an arcane crafting table and will draw vis from the aura to recharge wands placed in the table.<BR>The only drawback is that it recharges much slower than it would from a wand recharging pedestal or doing it by hand. 
+tc.research_name.WORKBENCHCHARGER=Chargeur d'atelier arcanique
+tc.research_text.WORKBENCHCHARGER=Simplifie l'artisanat arcanique
+tc.research_page.WORKBENCHCHARGER.1=Une chose qui ennuie tous les thaumaturges qui pratiquent régulièrement l'artisanat aracanique est de constament recharger sa baguette.<BR>Maintenant que vous possédez un moyen de puiser du Vis directement depuis l'aura, vous êtes capable de créer le chargeur d'atelier arcanique. Il est conçu pour être placé sur un atelier arcanique. il va puiser du Vis depuis l'aura et recharger la baguette placé dans l'atelier.<BR>Le seul inconvénient est qu'il recharge bien moins vite qu'un piédestal de recharge ou  recharger depuis la main.
 #
-tc.research_name.NODEMAGNET=Node Attraction
-tc.research_text.NODEMAGNET=It works with magnets
-tc.research_page.NODEMAGNET.1=Manipulating the aura is one thing, but if you were able to move nodes around you could insure a steady supply of vis where and when you want it. To this end you have developed Node Magnets.<BR>The magnet focuses on the nearest node within 32 blocks and slowly draws it towards the itself. It sounds simple, but in effect the node is being forcefully ripped through the aura. This not only requires large amounts of vis of all types, but causes considerable amounts of flux.<BR>The larger a node is, the slower the it moves.
-tc.research_page.NODEMAGNET.2=The Node Magnet itself is quite fragile and care must be taken not to damage or topple it. It can survive minor knocks, but anything more will shatter the delicate components.<BR>It can be picked up by right-clicking on it with a wand.
-tc.research_page.NODEMAGNET.3=§nWarning!§r<BR><BR>The moment you place down the node magnet you notice something strange: It seems to emit an almost inaudible humming noise that still manages to set your teeth on edge.<BR>Angry grunts and howls from the surrounding area seems to indicate you are not the only one disturbed by the noise.
+tc.research_name.NODEMAGNET=Attraction de nœud
+tc.research_text.NODEMAGNET=Ça marche avec des aimants
+tc.research_page.NODEMAGNET.1=Manipuler l'aura est une chose, mais si vous étiez capable de bouger les nœuds autour de vous, vous assurerai un approvisionnement régulier de Vis où et quand vous le souhaitez. À cette fin, vous avez developpé les aimants à nœuds.<BR>L'aimant se concentre sur le nœud le plus proche dans un rayon de 32 blocs et va doucement le tirer vers lui. Cela paraît simple mais en fait, le nœud est arraché de force à travers l'aura. ça ne consomme pas seulement de grandes quantités de Vis de tous types, mais génèrent des quantités considérable de Flux.<BR>Plus grand est le nœud, plus lentement il se déplace.
+tc.research_page.NODEMAGNET.2=L'aimant à nœud est lui-même assez fragile et il faut prendre soin de ne pas l'endommager ou le renverser. Il peut survivre à des chocs mineurs mais un peu plus et ça brisera ses composants délicats.<BR>Il peut être récupéré en cliquant droit dessus avec une baguette.
+tc.research_page.NODEMAGNET.3=§nAttention!§r<BR><BR>Le moment où vous placez l'aimant à nœud, vous remarquez quelque chose d'étrange: Il semble émettre un  bourdonnement presque inaudible qui parvient toujours à vous faire grincer des dents.<BR>Des grognements colèrique et des formes de hurlements dans la région environnante semble vous indiquer que vous n'êtes pas seul dérangé par ce bruit.
 #
 # Artifice 
 #######################
