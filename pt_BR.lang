@@ -657,7 +657,7 @@ tc.research_name.FOCUSFROST=Focus de Varinha: Gelo
 tc.research_text.FOCUSFROST=Vingança é um prato melhor servido frio
 tc.research_page.FOCUSFROST.1=Este focus é capaz de projetar pedras de gelo.<BR>Cuidado deve ser tomado na mira, já que o gelo é capaz de destruir objetos frageis.
 #
-tc.research_name.FOCUSSHOCK=Focus de Varinha: Choeque
+tc.research_name.FOCUSSHOCK=Focus de Varinha: Choque
 tc.research_text.FOCUSSHOCK=Trovão e Raio
 tc.research_page.FOCUSSHOCK.1=Este focus é capaz de canalizar a energia elemental da eletricidade em raios que você pode lançar em seus inimigos.
 #
