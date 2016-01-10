@@ -1063,7 +1063,7 @@ tc.research_page.FOCUSPRIMAL.1=Quel folie vous a possédé pour créer cette cho
 #
 tc.research_name.FOCUSGRAPPLE=Foci: Grappin
 tc.research_text.FOCUSGRAPPLE=Woosh!
-tc.research_page.FOCUSGRAPPLE.1=Les focis par leur nature même, ne peuvent généralement créer que des effets instantanés, les rendant aptes à faciliter le voyage en créant des effets tels que vol par exemple. Vous n'êtes pas du genre à reculer devant un défi, et cela vous conduira à la découverte du foci grappin.<BR>Ce foci lance une attache d'énergie élémentaire qui se fixe aux blocs et puis il vous tire vers ce bloc. Ceci le rend utile pour traverser les trous ou les hauteurs, ou tout simplement pour se déplacer rapidement. Appuyer sur la touche pour vous accroupir pour vous détacher de l'attache.<BR>L'amélioration "Force" augmente la portée du grappin.
+tc.research_page.FOCUSGRAPPLE.1=Les focis par leur nature même, ne peuvent généralement créer que des effets instantanés, ce qui les rends inappropriés pour faciliter le voyage ou pour créér des effets tels que vol. Cependant, vous n'êtes pas du genre à reculer devant un défi, et cela vous conduira à la découverte du foci grappin.<BR>Ce foci lance une attache d'énergie élémentaire qui se fixe aux blocs et puis il vous tire vers ce bloc. Ceci le rend utile pour traverser les trous ou les hauteurs, ou tout simplement pour se déplacer rapidement. Appuyer sur la touche pour vous accroupir pour vous détacher de l'attache.<BR>L'amélioration "Force" augmente la portée du grappin.
 #
 tc.research_name.FOCUSPOUCH=Sac à Focis
 tc.research_text.FOCUSPOUCH=Conteneur pratique pour porter vos Focis
