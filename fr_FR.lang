@@ -956,6 +956,10 @@ tc.research_name.NODETAPPER2=Maître en exploitation des nœuds
 tc.research_text.NODETAPPER2=Tout le Vis nous appartient
 tc.research_page.NODETAPPER2.1=Vous avez ajouté des améliorations plus avancées à la méthode que vous utilisez pour exploiter l'aura.<BR>Vous êtes maintenant capable de drainer le Vis trois fois plus vite que la normale.
 #
+tc.research_name.AURAPRESERVE=Préservation de l'aura
+tc.research_text.AURAPRESERVE=Gardez-le en sureté
+tc.research_page.AURAPRESERVE.1=Vous êtes maintenant capable d'arrêter instantanément le drain de Vis avec votre baguette ou avec d'autres appareils lorque le niveau de Vis dans l'aura est trop bas. Cela devrait aider à éviter l'accumulation de Flux.<BR>Ceci ne concerne que les outils et les dispositifs que vous porter sur vous et que vous transporter dans votre inventaire.
+#
 tc.research_name.AURAMANIP1=Bases sur la manupilation de l'aura
 tc.research_text.AURAMANIP1=Laisser la magie circuler
 tc.research_page.AURAMANIP1.1=Vous avez fait quelques découvertes intéressantes concernant l'aura et il est grand temps de les mettre à l'usage. Vous avez créé un totem qui pousse le Vis loin de lui-même - le totem de dispersion.<BR> Comme le nom l'indique, il récupère le vis proche de lui et le propage au loin.<BR>Désordonné l'aura n'est cependant pas sans risques et le totem à une petite chance de convertir le Vis and Flux au lieux de le déplacer.<BR>Le totem requiert un éclat de cristal pour agir comme un carburant et déterminer quel type de Vis est affecté.
@@ -1057,6 +1061,10 @@ tc.research_name.FOCUSPRIMAL=Foci: Primaire
 tc.research_text.FOCUSPRIMAL=Magie brut
 tc.research_page.FOCUSPRIMAL.1=Quel folie vous a possédé pour créer cette chose? Ce Foci semble frénétiquement dangereux et seulement un aliéné va tenter de l'utiliser partout et non seulement dans les environnements les plus contrôlés.<BR> Accordée, l'orbe d'énergie primaire brut créée est assez dévastateur, mais son chemin parcourue est irrégulier, pour le meilleur erratique et au pire, malveillant.<BR>Il fait pousser plus loin l'étude cependant : L'orbe montre d'intéressantes propriétés dimensionnel et il expose des motif d'énergie que vous avez seulement vu chez les feu-follets et les noeuds d'aura.
 #
+tc.research_name.FOCUSGRAPPLE=Foci: Grappin
+tc.research_text.FOCUSGRAPPLE=Woosh!
+tc.research_page.FOCUSGRAPPLE.1=Les focis par leur nature même, ne peuvent généralement créer que des effets instantanés, les rendant aptes à faciliter le voyage en créant des effets tels que vol par exemple. Vous n'êtes pas du genre à reculer devant un défi, et cela vous conduira à la découverte du foci grappin.<BR>Ce foci lance une attache d'énergie élémentaire qui se fixe aux blocs et puis il vous tire vers ce bloc. Ceci le rend utile pour traverser les trous ou les hauteurs, ou tout simplement pour se déplacer rapidement. Appuyer sur la touche pour vous accroupir pour vous détacher de l'attache.<BR>L'amélioration "Force" augmente la portée du grappin.
+#
 tc.research_name.FOCUSPOUCH=Sac à Focis
 tc.research_text.FOCUSPOUCH=Conteneur pratique pour porter vos Focis
 tc.research_page.FOCUSPOUCH.1=Une fois une importante collections de Focis rassemblée, il est assez emcombrant de tous les transporter. Cette sacoche résout le problème.<BR>A chaque fois que vous changer le Foci de votre baguette, la sacoche sera vérifiée et les Focis rangés en priorité dedans. Vous pouvez aussi ranger manuellement les Focis en faisant un clic droit avec le sac à la main.<BR>Il peut aussi être transporté à la ceinture.
@@ -1088,6 +1096,10 @@ tc.research_page.NODEMAGNET.1=Manipuler l'aura est une chose, mais si vous étie
 tc.research_page.NODEMAGNET.2=L'aimant à nœud est lui-même assez fragile et il faut prendre soin de ne pas l'endommager ou le renverser. Il peut survivre à des chocs mineurs mais un peu plus et ça brisera ses composants délicats.<BR>Il peut être récupéré en cliquant droit dessus avec une baguette.
 tc.research_page.NODEMAGNET.3=§nAttention!§r<BR><BR>Le moment où vous placez l'aimant à nœud, vous remarquez quelque chose d'étrange: Il semble émettre un  bourdonnement presque inaudible qui parvient toujours à vous faire grincer des dents.<BR>Des grognements colèrique et des formes de hurlements dans la région environnante semble vous indiquer que vous n'êtes pas seul dérangé par ce bruit.
 #
+tc.research_name.NODESTABLE=Stabiliseur de nœud
+tc.research_text.NODESTABLE=Garder les choses en ligne
+tc.research_page.NODESTABLE.1=Les nœuds d'aura ont tendance à se déplacer et fusionner juste au moment où vous ne voulez pas. Ce dispositif résout ce problème.<BR>Il suffit de le placer en dessous d'un noeud et il deviendra piégé dans une bulle mystique et il sera maintenu en place. Le nœud ne sera pas attiré vers d'autres noeuds et ni les autres nœuds attirés par lui.
+#
 # Artifice 
 #######################
 tc.research_name.BASICARTIFACE=Basic Artifacing
@@ -1099,7 +1111,7 @@ tc.research_text.ARCANELAMP=Large Source of Light
 tc.research_page.ARCANELAMP.1=This mystical lamp can be attached to walls, floors or ceilings and will provide strong and steady light.<BR>Additional sources of light may also appear up to 16 blocks away wherever light levels fall below accepted 'safe' levels. Remember: Only YOU can prevent zombie outbreaks.<BR>These secondary sources of light will disappear soon after the lamp has been removed.<BR>The lamp can be turned off by applying a redstone signal.
 tc.research_page.ARCANELAMP.2=§nArcane Bore§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
 #
-tc.research_name.THAUMOMETER=Thaumometer
+tc.research_name.THAUMOMETER=Thaumomètre
 tc.research_text.THAUMOMETER=Measuring Magic
 tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to click on things to scan them. Things that can be scanned for new information will be surrounded by golden questionmarks while you hold the thaumometer<BR>Secondly They display the current aura in the chunk you are located. Pressing 'F' while holding it allows you to change what aspect of the aura it displays. 
 #
