@@ -200,8 +200,8 @@ tile.eldritch.teleporter.name=異象傳送們
 tile.eldritch.crabspawner.name=凝結開口
 #
 # Doodads
-tile.table_stone.name=石桌
-tile.table_wood.name=木桌
+tile.table_stone.name=石台桌
+tile.table_wood.name=木台桌
 tile.candle.white.name=白色肉脂蠟燭
 tile.candle.orange.name=橙色肉脂蠟燭
 tile.candle.magenta.name=洋紅色肉脂蠟燭
@@ -274,10 +274,10 @@ tile.purifying_fluid.name=淨化之泉
 tile.liquid_death.name=化骨亡水
 tile.placeholder.furnace_brick.name=煉獄熔爐
 tile.placeholder.furnace_obsidian.name=煉獄熔爐
-tile.placeholder.gb_anvil.name=傀儡令
-tile.placeholder.gb_table.name=傀儡令
-tile.placeholder.gb_bars.name=傀儡令
-tile.placeholder.gb_cauldron.name=傀儡令
+tile.placeholder.gb_anvil.name=傀儡壓製裝置
+tile.placeholder.gb_table.name=傀儡壓製裝置
+tile.placeholder.gb_bars.name=傀儡壓製裝置
+tile.placeholder.gb_cauldron.name=傀儡壓製裝置
 tile.barrier.name=守護之光
 #
 # Machines
@@ -318,7 +318,7 @@ tile.brain_box.name=助記方陣
 tile.pillar.pillar_normal.name=注魔樁
 tile.pillar.pillar_ancient.name=亙古注魔樁
 tile.pillar.pillar_eldritch.name=異象注魔樁
-tile.infusion_matrix.name=符文方陣
+tile.infusion_matrix.name=符文矩陣
 tile.aura_totem.push.name=驅散圖騰
 tile.aura_totem.pull.name=凝聚圖騰
 tile.aura_totem.pole_inner.name=內側圖騰柱
@@ -329,10 +329,10 @@ tile.crystallizer.name=源質結晶器
 tile.spa.name=奧術浴
 tile.mirror.name=魔鏡
 tile.mirror_essentia.name=源質之鏡
-tile.golem_builder.name=傀儡令
+tile.golem_builder.name=傀儡壓製裝置
 tile.node_stabilizer.name=節點穩定器
-tile.essentia_input.name=Filling Essentia Transfuser
-tile.essentia_output.name=Emptying Essentia Transfuser
+tile.essentia_input.name=填充源質傳輸器
+tile.essentia_output.name=抽取源質傳輸器
 #
 # Items
 ###################################
@@ -516,7 +516,7 @@ item.focus_pech.name=法杖核心：地精詛咒
 item.focus_warding.name=法杖核心：守護
 item.focus_primal.name=法杖核心：原初
 item.focus_shard.name=法杖核心：魔晶彈
-item.focus_grapple.name=法杖核心：夾鉗
+item.focus_grapple.name=法杖核心：抓勾
 item.wand_cap.iron.name=鐵杖端
 item.wand_cap.gold.name=金杖端
 item.wand_cap.brass.name=黃銅杖端
@@ -708,7 +708,7 @@ golem.addon.hauler=承載架
 golem.addon.text.hauler=允許傀儡多帶一組物品。
 #
 golem.follow=我來了，主人。
-golem.stay=我將在此停駐，主人。
+golem.stay=我將在此待命，主人。
 #
 # Fluids
 ##############################
@@ -766,8 +766,8 @@ focus.upgrade.dowsing.name=礦藏
 focus.upgrade.dowsing.text=這項升即使採掘核心採掘礦物時有低機率能挖出礦物晶簇，而非一般的礦物。礦物晶簇在冶煉能獲得雙倍的產物。
 focus.upgrade.persistant.name=延續
 focus.upgrade.persistant.text=當法杖核心的目標死亡、消失或是離開法術範圍，追蹤彈會在附近搜索另一個相同類型的目標。
-focus.upgrade.sticky.name=Sticky
-focus.upgrade.sticky.text=The grapple does not automatically detach when you get close enough - you must manually detach from it. 
+focus.upgrade.sticky.name=黏著
+focus.upgrade.sticky.text=這個抓勾核心在你靠近目標時不會自動解除，你必須主動放開。
 #
 # GUI
 ###################
@@ -784,10 +784,10 @@ recipe.type.construct=秘術立體結構
 wandtable.text1=魔力消耗
 wandtable.text2=經驗消耗
 wandtable.text3=開始升級
-button.turretfocus.1=以動物為目標
-button.turretfocus.2=以生物為目標
-button.turretfocus.3=以玩家為目標
-button.turretfocus.4=以友善生物為目標
+button.turretfocus.1=指定動物
+button.turretfocus.2=指定敵人
+button.turretfocus.3=指定玩家
+button.turretfocus.4=友善模式
 turretfocus.range=範圍%t格
 button.category.0=優先/鎖定
 button.category.1=篩選
@@ -799,29 +799,29 @@ button.caption.y=上/下
 button.caption.z=北/南
 button.bl=黑名單
 button.wl=白名單
-button.caption.required=Required
-button.caption.forbidden=Forbidden
-golem.prop.replant=Replant crops
-golem.prop.cycle=Cycle whitelist
-golem.prop.meta=Use metadata
-golem.prop.nbt=Use NBT data
-golem.prop.ore=Use Ore Dictionary
-golem.prop.mod=Use Mod
-golem.prop.mob=Target Mobs 
-golem.prop.animal=Target Animals
-golem.prop.player=Target Players
-golem.prop.left=Left click
-golem.prop.empty=Click empty air
-golem.prop.emptyhand=Can use empty hand
-golem.prop.sneak=Simulate sneaky click
-golem.prop.single=Single item only
-golem.prop.provision=Request provisioning
-golem.prop.provision.wl=Request provisioning from whitelist
-golem.rank=Rank
-golem.prop.priority=Task Priority
-golem.prop.owner=You own this seal
-golem.prop.lock=Only golems owned by seal owner can perform these tasks
-golem.prop.unlock=All golems can perform these tasks
+button.caption.required=需求特性
+button.caption.forbidden=受限特性
+golem.prop.replant=再種植
+golem.prop.cycle=白名單循環
+golem.prop.meta=使用元數據
+golem.prop.nbt=使用NBT數據
+golem.prop.ore=使用礦物辭典
+golem.prop.mod=使用模組
+golem.prop.mob=指定敵人
+golem.prop.animal=指定動物
+golem.prop.player=指定玩家
+golem.prop.left=左鍵
+golem.prop.empty=點擊空氣
+golem.prop.emptyhand=可使用空手
+golem.prop.sneak=模擬潛行點擊
+golem.prop.single=限定單項物件
+golem.prop.provision=供應需求
+golem.prop.provision.wl=從白名單中進行供應
+golem.rank=等級
+golem.prop.priority=任務優先度
+golem.prop.owner=這個印記屬於你
+golem.prop.lock=擁有者與該印記相同的傀儡才能執行這些工作
+golem.prop.unlock=所有傀儡皆能執行這項工作
 #
 tile.researchtable.noink.0=墨水已耗盡！
 tile.researchtable.noink.1=請補充新的筆與墨。
@@ -1039,7 +1039,7 @@ tc.research_text.ORE=深度發掘
 tc.research_page.ORE.1=§l§n魔力結晶§r<BR><IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG><BR>當靈氣場內的魔力能量過高，有時魔力會滲入岩石，進而在那裡長出魔力結晶。只要靈氣充盈它們就會繼續生長甚至擴散。<BR>一旦環境中的靈氣濃度下降至一定水平，魔力結晶又會釋放出能量來補充靈氣，直到魔力結晶碎裂。
 tc.research_page.ORE.2=事實上，魔力結晶是非常自然的事物，但就靈氣枯竭的情況而言，它們能夠作為神奇的魔力電池發揮作用。它們不會因為補充靈氣而徹底潰散消失，至少會殘留一小塊結晶。<BR>採集這些結晶能夠得到在秘術學上應用廣泛的元素碎片。<BR><IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG><BR>你並不知道如何才能只採集一部分結晶。只能全採下來，或是全部保留。<BR>生成於污染地區的結晶容易受到污染變質。
 tc.research_page.ORE.3=§l§n硃砂§r<BR><IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG><BR>這種泛紅的礦石分佈於地底深處，能夠冶煉成水銀。<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.ORE.4=§l§n琥珀§r<BR><IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG><BR>這種礦石分佈於地表附近，採掘時會掉落琥珀塊。<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.4=§l§n琥珀§r<BR><IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG><BR>這種礦石分佈於地表附近，採掘時會掉落琥珀。<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
 tc.research_name.PLANTS=植物＆樹木
 tc.research_text.PLANTS=魔法植被
@@ -1102,7 +1102,7 @@ tc.research_page.NODETAPPER2.1=你已經掌握了更加精細的魔力抽取技�
 #
 tc.research_name.AURAPRESERVE=靈氣維護者
 tc.research_text.AURAPRESERVE=保持安全
-tc.research_page.AURAPRESERVE.1=You are now able to instinctively stop wands and other carried devices from draining vis if the local aura drops too low. This should help prevent the buildup of flux.<BR>This only applies to tools and devices that you wear or carry.
+tc.research_page.AURAPRESERVE.1=你現在能夠在周圍靈氣過低時直覺地停下法杖及其他穿戴裝備的靈氣抽取。這能夠避免咒波的產生。<BR>這只適用於你自己身上的裝備。
 #
 tc.research_name.AURAMANIP1=基礎靈氣操作
 tc.research_text.AURAMANIP1=讓魔力流動起來
@@ -1149,11 +1149,11 @@ tc.research_page.SCEPTRE.1=工藝權杖是一種特製法杖，它專於製造�
 tc.research_name.PRIMALRODS=元素杖柄
 tc.research_text.PRIMALRODS=元素魔力儲存
 tc.research_page.PRIMALRODS.1=下列杖柄都與一種特定的原初要素相關，因此都分別具有特別的能力。<LINE>§l§n甘蔗杖柄§r<BR>使用甘蔗製成，比宏偉之木做的魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Aer§0要素魔力低於10%時，無需節點就能自動補充。
-tc.research_page.PRIMALRODS.2=§l§n烈焰杖柄§r<BR>使用烈焰棒製成，比宏偉之木做的魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Ignis§0要素魔力低於50%時，無需吸收靈氣就能自動補充。
-tc.research_page.PRIMALRODS.3=§l§n黑曜石杖柄§r<BR>使用烈焰棒製成，比宏偉之木做的魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Terra§0要素魔力低於50%時，無需吸收靈氣就能自動補充。
-tc.research_page.PRIMALRODS.4=§l§n寒冰杖柄§r<BR>使用冰塊製成，比宏偉之木做的魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Aqua§0要素魔力低於50%時，無需吸收靈氣就能自動補充。
-tc.research_page.PRIMALRODS.5=§l§n石英杖柄§r<BR>使用石英製成，比宏偉之木做的魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Ordo§0要素魔力低於50%時，無需吸收靈氣就能自動補充。
-tc.research_page.PRIMALRODS.6=§l§n白骨杖柄§r<BR>使用骨頭製成，比宏偉之木做的魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Perditio§0要素魔力低於50%時，無需吸收靈氣就能自動補充。
+tc.research_page.PRIMALRODS.2=§l§n烈焰杖柄§r<BR>以烈焰棒製成，比宏偉之木杖柄魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Ignis§0要素魔力低於50%時，無需吸收靈氣就能自動補充。
+tc.research_page.PRIMALRODS.3=§l§n黑曜石杖柄§r<BR>以黑曜石製成，比宏偉之木杖柄魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Terra§0要素魔力低於50%時，無需吸收靈氣就能自動補充。
+tc.research_page.PRIMALRODS.4=§l§n寒冰杖柄§r<BR>以冰塊製成，比宏偉之木杖柄魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Aqua§0要素魔力低於50%時，無需吸收靈氣就能自動補充。
+tc.research_page.PRIMALRODS.5=§l§n石英杖柄§r<BR>以石英製成，比宏偉之木杖柄魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Ordo§0要素魔力低於50%時，無需吸收靈氣就能自動補充。
+tc.research_page.PRIMALRODS.6=§l§n白骨杖柄§r<BR>以白骨製成，比宏偉之木杖柄魔力容量稍高。使它比宏偉之木杖芯卓越的地方在於當它存儲的§6Perditio§0要素魔力低於50%時，無需吸收靈氣就能自動補充。
 #
 tc.research_name.PRIMALSTAVES=元素長杖
 tc.research_text.PRIMALSTAVES=元素魔力儲存
@@ -1161,7 +1161,7 @@ tc.research_page.PRIMALSTAVES.1=如同元素杖柄，這些長柄同樣也與某
 #
 tc.research_name.ROD_greatwood_staff=魔法長杖
 tc.research_text.ROD_greatwood_staff=末端帶有有握把的巫師之杖
-tc.research_page.ROD_greatwood_staff.1=法杖是秘術使的必備行頭，但有時候你總會期望能用上更酷炫的款式。魔法長杖基本上只是一種更大號的法杖。.<BR>A staff made from greatwood has 150% the vis storage potential of a greatwood wand, being able to store up to 375 vis of each type. They also grant an additional 10% vis discount to foci。<BR>由於相較於短杖它們造得個頭更大也更堅固，應急情況也能作為武器。
+tc.research_page.ROD_greatwood_staff.1=法杖是秘術使的必備行頭，但有時候你總會期望能用上更酷炫的款式。魔法長杖基本上只是一種更大號的法杖。.<BR>以宏偉之木製成的長杖擁有宏偉之木法杖的150%魔力容量，每種魔力各375 vis。並在使用法杖核心時獲得額外10%的魔力減免。<BR>由於相較於短杖它們造得個頭更大也更堅固，應急情況也能作為武器。
 tc.research_page.ROD_greatwood_staff.2=不幸的是，這也使得它無法用於進行複雜工藝，且缺乏奧術工作台等製作平台所需的精細控制能力。<BR>註：如同短杖，這把長杖也需要安上杖端。
 #
 tc.research_name.ROD_silverwood_staff=銀樹長柄
@@ -1205,9 +1205,9 @@ tc.research_name.FOCUSPRIMAL=法術核心：原初
 tc.research_text.FOCUSPRIMAL=天然魔力
 tc.research_page.FOCUSPRIMAL.1=要瘋到什麼程度你才會去做出這種東西啊？這個核心光是看起來就極其危險，除非是在最受控的環境下，否則只有瘋子才會嘗試去使用它。<BR>誠然，它製造出的原初能量球的確所向披靡。但其飛行軌跡說好聽是全然漂忽不定，說難聽點就是透著徹頭徹尾的惡意。<BR>然而它尚需更進一步研究：這些能量球顯露出一些有趣的次元特性，且它的能量模式你僅僅在精靈以及靈氣節點那裡見到過。
 #
-tc.research_name.FOCUSGRAPPLE=Wand Focus: Grappler
+tc.research_name.FOCUSGRAPPLE=法術核心：抓勾
 tc.research_text.FOCUSGRAPPLE=Woosh!
-tc.research_page.FOCUSGRAPPLE.1=Foci by their very nature can usually only create instantaneous effects, making them unsuitable for easing travel or by creating effects like flight. You are not one to shy aways from a challenge however, and this lead you to the discovery of the Grappler Focus.<BR>This focus launches a tether of elemental energy that attaches to blocks and then pulls you towards that block. This makes it useful for traversing gaps or heights, or just getting around quickly. Pressing the sneak key will detach you from the tether.<BR>Potency increases the range of the grapple. 
+tc.research_page.FOCUSGRAPPLE.1=法杖核心通常只能放出短暫的效果，這使其無法用於使舒緩旅途或是製造飛行效果。但是這無法使你迴避冒現，因此你研究出了這個方法：抓勾核心。<BR>這顆核心展開元素能量繫繩勾住方塊，並將你拉向該目標。這使你便於跨越各種地形，或是單純進行快速的移動。按下潛行鍵以直接斷開連結。<BR>效能附魔能延伸其施放長度。
 #
 tc.research_name.FOCUSPOUCH=法術核心腰包
 tc.research_text.FOCUSPOUCH=法術核心的隨身袋
@@ -1240,8 +1240,8 @@ tc.research_page.NODEMAGNET.2=節點磁鐵是一種非常脆弱的設備，必�
 tc.research_page.NODEMAGNET.3=§n警告！§r<BR><BR>你安置節點磁鐵時留意到奇怪的現象：它所發出的微弱的嗡嗡聲導致你非常焦躁不安。<BR>四周憤怒的嘟囔與嚎叫聲似乎表明並非只有你受到了噪音的影響。
 #
 tc.research_name.NODESTABLE=節點穩定器
-tc.research_text.NODESTABLE=Keeping things in line
-tc.research_page.NODESTABLE.1=Aura nodes have a tendancy to move around and merge just when you don't want it. This device solves that problem.<BR>Simply place it below a node and it will become trapped in a mystical bubble and held in place. The node will not be attracted to other nodes, nor will other nodes be attracted to it.
+tc.research_text.NODESTABLE=保持規矩
+tc.research_page.NODESTABLE.1=靈氣節點有著在你不希望時飄動並合併的傾向。這項裝置解決了這個麻煩。<BR>只要將它置於節點之下，節點就會受困於它產生的魔法泡之中。節點將不再被拉走，也不會再吸引其他節點。
 #
 # Artifice 
 #######################
@@ -1310,8 +1310,8 @@ tc.research_page.ARCANESTONE.1=奧術石材是多種複雜的神秘構造的建�
 #
 tc.research_name.INFUSION=注魔
 tc.research_text.INFUSION=魔導聚變
-tc.research_page.INFUSION.1=奧術合成以及煉金術也就只能做到這個程度而已了。更好的東西需要你創建更強力的魔導設備。<BR>注魔合成能夠向單件物品中灌注魔力以及來自其他物品的特性。比方說，你能夠將風之要素以及羽毛灌注入普通石頭來得到一種非常輕盈的石材。 <BR>秘術學中通常難有輕鬆而又簡單的事物。建造注魔台前你需要做如下準備：符文方陣，奧術基座，以及足夠數量的要素源質。
-tc.research_page.INFUSION.2=當你將符文方陣正確地放置在一個名為注魔祭壇的神秘構造上後，便能夠開始進行注魔合成。<BR>符文方陣下方，坐落於正中的基座是你用於放置被注魔物品的地方。你還需要環繞祭壇放置一些基座來放置被灌注的材料。最後你還需要在附近放置一些盛放了源質的封罐或者其他儲存魔力的容器。<BR>當一切就緒，你需要使用法杖點擊符文方陣來開始注魔過程。<BR>在這個過程的第一階段，將會從附近吸取要素源質。 
+tc.research_page.INFUSION.1=奧術合成以及煉金術也就只能做到這個程度而已了。更好的東西需要你創建更強力的魔導設備。<BR>注魔合成能夠向單件物品中灌注魔力以及來自其他物品的特性。比方說，你能夠將風之要素以及羽毛灌注入普通石頭來得到一種非常輕盈的石材。 <BR>秘術學中通常難有輕鬆而又簡單的事物。建造注魔台前你需要做如下準備：符文矩陣，奧術基座，以及足夠數量的要素源質。
+tc.research_page.INFUSION.2=當你將符文矩陣正確地放置在一個名為注魔祭壇的神秘構造上後，便能夠開始進行注魔合成。<BR>符文矩陣下方，坐落於正中的基座是你用於放置被注魔物品的地方。你還需要環繞祭壇放置一些基座來放置被灌注的材料。最後你還需要在附近放置一些盛放了源質的封罐或者其他儲存魔力的容器。<BR>當一切就緒，你需要使用法杖點擊符文矩陣來開始注魔過程。<BR>在這個過程的第一階段，將會從附近吸取要素源質。 
 tc.research_page.INFUSION.3=若沒有足夠的源質供應，注魔過程會中斷-後文將會對這種你不希望發生的情況做進一步的闡釋。<BR>當所有需求的源質被灌入目標物品後，才能開始吸收被灌注的其他物品的要素。僅當這些都完成後注魔才能順利完成。<LINE>注魔合成並非毫無風險。其完整的過程實質上是把龐雜的魔法能量強制集中到單獨的物品中，在這種情況下往往會發生一些不可預知的事情：<BR>
 tc.research_page.INFUSION.4=比較常見的意外包括注魔過載被基座中斷掉，產生咒波等，但也可能遭遇一些聞所未聞的災難事件。<BR>由於源質缺乏，物品掉落等未解決的問題導致而的注魔時間延遲越久，就越發有可能發生糟糕的事情。<BR>可以有多種途徑來減少這些意外的影響。首先你應該盡可能對稱地佈置注魔祭壇，一定要確保你放置的基座對側有以祭壇為原點對稱的基座與之平衡。當放置被灌注材料時，也需要盡可能保證放置位置對稱與平衡。
 tc.research_page.INFUSION.5=最後你可以環繞祭壇對稱放置一些具有魔導性質的物品(比如蠟燭、頭骨、水晶等)，它們也能夠減少注魔過程的風險。<IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
@@ -1402,7 +1402,7 @@ tc.research_page.LAMPFERTILITY.1=沐浴在此燈柔和的粉色光芒之中的�
 #
 tc.research_name.MIRRORESSENTIA=源質之鏡
 tc.research_text.MIRRORESSENTIA=隨處可用的源質
-tc.research_page.MIRRORESSENTIA.1=魔導手鏡對長途運輸物品可謂實用，但相同的原理能否應用於源質系統呢？你覺得你已經研究出實現它的方法了。<BR>源質之鏡，顧名思義，可以像魔導手鏡傳輸物品那樣傳輸源質。然而也有幾條重要的使用限制：<BR>你無法用管道將源質導入鏡中，源質之鏡只能從源頭抽取源質，運輸到類似注魔方陣這樣的設備去。
+tc.research_page.MIRRORESSENTIA.1=魔導手鏡對長途運輸物品可謂實用，但相同的原理能否應用於源質系統呢？你覺得你已經研究出實現它的方法了。<BR>源質之鏡，顧名思義，可以像魔導手鏡傳輸物品那樣傳輸源質。然而也有幾條重要的使用限制：<BR>你無法用管道將源質導入鏡中，源質之鏡只能從源頭抽取源質，運輸到類似注魔矩陣這樣的設備去。
 tc.research_page.MIRRORESSENTIA.2=意即鏡子允許這些設備通過鏡子從源頭抽取源質。<BR>如同魔鏡，源質之鏡也會對當地的靈氣平衡造成很大壓力，並且有可能產生咒波。
 #
 tc.research_name.BONEBOW=骨弓
@@ -1450,7 +1450,7 @@ tc.research_page.CRUCIBLE.5=§n世界鹽§r<BR><BR>世界鹽，世人稱之為�
 tc.research_name.METALLURGY=秘術錠
 tc.research_text.METALLURGY=魔導金屬
 tc.research_page.METALLURGY.1=已經證實通過秘術學原理能夠輕易處理金屬材料。你的首次相關實驗發現了秘術錠。<BR>秘術錠是向普通的金屬材料灌注天然魔力得到的產物。相比鐵，它更堅硬，也更能容載附魔能量。<BR>這種金屬廣泛用於合成更高級的魔導設備。<BR>也可以用它使用慣常的合成方法製作出相應的工具，武器和裝備。
-tc.research_page.METALLURGY.2=秘術錠固然有諸多實用特性，但有時候平凡的材料在特定用途上會更勝一籌。黃銅是一種堅固耐用，摩擦係數小的金屬材料，非常適合用來製造精密的機械設備。<BR>但由於你所處的這個宇宙之特殊波動性導致你可能無法找到足夠的黃銅。好在你找到一種煉金方法能製作出這種有用的金屬。
+tc.research_page.METALLURGY.2=秘術錠固然有諸多實用特性，但有時候平凡的材料在特定用途上會更勝一籌。黃銅是一種堅固耐用，摩擦係數小的金屬材料，非常適合用來製造精密的機械設備。<BR>但由於你所處的這個宇宙之特殊波動性導致你可能無法得到足夠的黃銅。好在你找到一種煉金方法能製作出這種有用的金屬。
 #
 tc.research_name.NITOR=閃耀之光
 tc.research_text.NITOR=永恆的花火
@@ -1468,9 +1468,9 @@ tc.research_name.BOTTLETAINT=污染瓶
 tc.research_text.BOTTLETAINT=你要這東西做什麼？
 tc.research_page.BOTTLETAINT.1=清除污染是一回事，但有沒有考慮要擴散它呢？<BR>只需濃縮污染要素並收集在瓶子裡，並將它扔在你希望創造污染的地方，一切就完成了。但是你究竟是為了什麼？
 #
-tc.research_name.TAINTSHARD=Taint Shard 
-tc.research_text.TAINTSHARD=Corrupting shards
-tc.research_page.TAINTSHARD.1=Tainted vis shards are usually (and fortunately) quite hard to come by. Still, they have their uses and you have found a way to create them via alchemy.<BR>The process is not particularly efficient as the amount of vitium required to everwhelm a healthy vis shard is much greater than the resulting tainted shard actually contains.  
+tc.research_name.TAINTSHARD=污染碎片
+tc.research_text.TAINTSHARD=腐化碎片
+tc.research_page.TAINTSHARD.1=被污染的碎片(幸好)通常不易取得。儘管如此它依舊有其用途，而你發現透過煉金術能得到它。<BR>但這製程效率不怎麼好，注入健康結晶的污染要素遠多於生成的污染結晶。
 #
 tc.research_name.ALCHEMICALDUPLICATION=煉金複製
 tc.research_text.ALCHEMICALDUPLICATION=好東西不可能擁有太多
@@ -1540,7 +1540,7 @@ tc.research_page.CENTRIFUGE.1=奧術離心機是一種令人驚艷的煉金設�
 #
 tc.research_name.JARVOID=虛空封罐
 tc.research_text.JARVOID=源質太多？不可能！
-tc.research_page.JARVOID.1=虛空封罐用起來如同普通的封罐，但是有一個重要的不同之處：即使它們裝滿了也能夠繼續接收要素源質，但多餘的要素源質會化為咒波排出。這讓你總會有這種源質可用，而不至於糾結多做出來的那些。<BR>就如同普通的罐子，虛空罐也可以貼上標籤。但它們在源質管道系統中的優先級低於其他貼了標籤的封罐(介於未貼標籤的罐子和貼了標籤的罐子之間)。<BR>A word of warning: occasionally the venting process causes flux, but this is fortunately rare. 
+tc.research_page.JARVOID.1=虛空封罐用起來如同普通的封罐，但是有一個重要的不同之處：即使它們裝滿了也能夠繼續接收要素源質，但多餘的要素源質會直接排出。這讓你總會有這種源質可用，而不至於糾結多做出來的那些。<BR>就如同普通的罐子，虛空罐也可以貼上標籤。但它們在源質管道系統中的優先級低於其他貼了標籤的封罐(介於未貼標籤的罐子和貼了標籤的罐子之間)。<BR>注意：排出源質可能會產生咒波，幸運的是這種現象不常發生。
 #
 tc.research_name.TUBEFILTER=高階源質管道
 tc.research_text.TUBEFILTER=你需要什麼，要用在何處
@@ -1575,10 +1575,10 @@ tc.research_name.ESSENTIACRYSTAL=源質結晶器
 tc.research_text.ESSENTIACRYSTAL=要結實的貨幣，還是要流動的資產？
 tc.research_page.ESSENTIACRYSTAL.1=你差不多已經掌握了如何將凝聚的物體轉換為液態的源質，所以反過來也並非多麻煩的事。<BR>源質結晶器從管道系統中抽取源質並緩慢地將其凝聚成稱為源之晶的小碎片。源之晶易於管理運輸，且非常穩定。<BR>結晶器會將凝聚的水晶彈出來或者裝入旁邊的容器，通入紅石信號可以關閉這功能。<BR>它會自動從靈氣中提取Terra魔力來運作。
 #
-tc.research_name.ESSENTIATRANSPORT=Essentia Transfusion
-tc.research_text.ESSENTIATRANSPORT=Aerial Essentia
-tc.research_page.ESSENTIATRANSPORT.1=During the infusion crafting process essentia is drawn directly from jars and floats through the air to the infusion matrix. The magic of the matrix keeps it stable enough for the infusion process, but normally the essentia is still changed in such a way that it becomes unusable for anything else. You have discovered a way to transport essentia in a similar manner without it becoming unstable.<BR>You have drawn up plans for two devices. The Filling Essentia Transfuser can take essentia directly from a pipe network or other essentia source and transport it to jars within 16 blocks of the direction it is facing.  
-tc.research_page.ESSENTIATRANSPORT.2=The Emptying Essentia Transfuser does the opposite - drawing essentia from jars within range and placing it within tubes or devices requiring essentia of a specific type. 
+tc.research_name.ESSENTIATRANSPORT=源質傳輸
+tc.research_text.ESSENTIATRANSPORT=空之源質
+tc.research_page.ESSENTIATRANSPORT.1=進行注魔合成時源質會從罐子中被抽出，並在空中飄向注魔矩陣。矩陣的魔力使得漂浮的源質在注魔時鐘能夠維持穩定，但是正常而言在這種狀態下的源質會變質而無法作為他用。你找到一種類似的輸送方法，但不會導致源質失去穩定性。<BR>你計畫使用兩個裝置。填充源質傳輸器能自管道網路或是其他源質裝置將源質注入面對的16格內的罐子中。
+tc.research_page.ESSENTIATRANSPORT.2=抽取源質傳輸器則相反——抽取範圍內罐中的源質並送入需要特定源質的管道或是裝置中。
 #
 #
 # Golemancy 
@@ -1599,7 +1599,7 @@ tc.research_name.MATSTUDBRASS=材料專題：黃銅
 tc.research_text.MATSTUDBRASS=進階黃銅加工
 tc.research_page.MATSTUDBRASS.1=黃銅比鐵稍微柔軟，但作為精密機械元件而言依舊相當結實。在你看來簡直是傀儡學研究能找到的最佳凡俗材料，你完全想像不出還能找到更適合用來加工精緻金屬的材質。而且外觀也非常賞心悅目。
 #
-tc.research_name.MATSTUDTHAUMIUM=材料專題：秘術錠
+tc.research_name.MATSTUDTHAUMIUM=材料專題：秘術金屬
 tc.research_text.MATSTUDTHAUMIUM=進階秘術金屬加工
 tc.research_page.MATSTUDTHAUMIUM.1=秘術錠是一種如海綿般吸滿了魔力的奧術金屬。它的強度明顯高於鐵。但不幸它比鐵稍重，而且其強度也使加工變得更加困難。<BR>因此這種材料無法像黃銅般製成精密的發條裝置，秘術金屬的強度使它適合用在那些與精密度相比更需要高強度的結構上。
 #
@@ -1607,9 +1607,9 @@ tc.research_name.MATSTUDVOID=材料專題：虛無鋼
 tc.research_text.MATSTUDVOID=進階虛無鋼加工
 tc.research_page.MATSTUDVOID.1=虛無鋼相對輕盈且柔軟，正常而言不會用於機械。但其變化性以及自我修復的特點卻讓樂於跳脫思考框架秘術使想到許多種有趣的可能。
 #
-tc.research_name.MATSTUDCLAY=Material Studies: Clay
-tc.research_text.MATSTUDCLAY=Advanced Clay crafting
-tc.research_page.MATSTUDCLAY.1=Clay is not particularly strong, light or durable, but it is easy to work, highly resistant to fire and lighter than iron. Basically, the perfect choice for a thaumaturge on a budget.
+tc.research_name.MATSTUDCLAY=材料專題：黏土
+tc.research_text.MATSTUDCLAY=進階黏土加工
+tc.research_page.MATSTUDCLAY.1=黏土的強度不高、重量不特別輕、也不特別耐用，但是它非常易於加工、抗火性強、比起鐵相對輕盈。基本上對於秘術使而言算是個相當經濟的選擇。
 #
 tc.research_name.HUNGRYCHEST=饕餮之箱
 tc.research_text.HUNGRYCHEST=無需等待你開啟
@@ -1617,7 +1617,7 @@ tc.research_page.HUNGRYCHEST.1=饕餮之箱能自動拾取接觸到它的物品�
 #
 tc.research_name.ARCANEBORE=奧術鑽掘機
 tc.research_text.ARCANEBORE=採礦業的進化
-tc.research_page.ARCANEBORE.1=你已經發現一種擁有採掘核心能力，且具有更大的工作範圍的奧術設備，不僅如此，這台機器還可以無人監控地自動運行。只需要將它安裝在特別的基座上，先以法杖將其方向調校正確後，再用紅石信號啟動即可。<BR>奧術鑽掘機需要兩件東西才能正常工作。首先你需要將採掘核心放在物品欄左側格子中，法杖核心的附魔效果也會被加成到鑽掘機上。
+tc.research_page.ARCANEBORE.1=你已經發現一種擁有採掘核心的能力，且具有更大的工作範圍的奧術設備，不僅如此，這台機器還可以無人監控地自動運行。只需要將它安裝在特別的基座上，先以法杖將其方向調校正確後，再用紅石信號啟動即可。<BR>奧術鑽掘機需要兩件東西才能正常工作。首先你需要將採掘核心放在物品欄左側格子中，法杖核心的附魔效果也會被加成到鑽掘機上。
 tc.research_page.ARCANEBORE.2=再來，你需要在右邊格子裡放置一個任意類型的鎬子。鎬的材料對鑽掘機運行效果影響很小，但其耐久直接決定鑽掘機的運轉時間。此外，就如同核心，鎬子上的附魔效果也能夠被加成到鑽掘機上。<BR>奧術鑽掘機只能安裝在奧術鑽探基座的上方或下方。挖掘到的物品都會從鑽探基座的噴嘴所朝方向彈出。<BR>若有箱子則會自動放入其物品欄。你可以用法杖改變奧術鑽掘機的方向。
 tc.research_page.ARCANEBORE.3=倘若向鑽掘機供應§8Perditio§0源質將大大提升其鑽探效率。可以如平常一樣使用管道供應源質。一點§8Perditio§0源質能夠讓鑽掘機以更快的速度挖掘接下來的20個方塊。若是沒有§8Perditio§0源質供應，它將從周圍靈氣抽取能量，每單位挖掘一格。相較於直接供應源質慢了許多。
 #
@@ -1634,33 +1634,33 @@ tc.research_page.TRAVELTRUNK.UEN=§n傀儡升級：混沌§r<BR>安裝該升級�
 #
 tc.research_name.MINDCLOCKWORK=發條之心
 tc.research_text.MINDCLOCKWORK=賦予生命
-tc.research_page.MINDCLOCKWORK.1=鐵傀儡,雪傀儡或者其他能放一塊比較的類似造物都有一個共通之處:它們的行為都不受控制,難以預測.<BR>驅使他們行動的是狂野的具有自由意志的靈魂.這正是問題所在.<BR>如果你打算製造一些智能的魔力僕人,你就得考慮賦予他們能夠接受命令的思維.最簡單的解決方案是製造出一個使用神秘學驅動的發條裝置.它只具有極其有限的自主思維,不過這才僅僅是開始而已嘛.
-tc.research_page.MINDCLOCKWORK.2=Of course, now that you have a mind it is time to put it to use.<BR>You have designed a special press that will allow you to craft simple golems. It includes an anvil and forge to make assembling the parts easier.<LINE>To assemble as golem you simply access the Golem Press and select the components you wish to craft the golem from. For now your selection is fairly limited, but you are sure you will develop more.
-tc.research_page.MINDCLOCKWORK.3=Each golem is made up from up to 5 components: The base material, a type of head, arms, legs and an optional addon module. Simply select which of these you want to use and a list of crafting components will be displayed on the right. You need to have the listed components in your inventory before you can start the crafting process.<BR>Listed in the middle of the interface you will see the traits, hearts, armor and damage the golem will possess.<BR>Lastly you will need to supply Machina essentia to the press. Several ports are provided below the main press mechanism for this purpose.
-tc.research_page.MINDCLOCKWORK.4=You can now place the golem wherever you wish, but it will not do much unless you also place down a §5Golem Control Seal§0. To learn more about them see the reseach category that will have unlocked.<BR>When they have no tasks to perform, golems will return to the spot they were originally placed. You can pick up a golem by right clicking on it with a wand.
+tc.research_page.MINDCLOCKWORK.1=鐵巨人、雪人或者其他類似的創造物都有一個共通之處——它們的行為都不受控制且難以預料。<BR>驅動他們的是野性、具有自由意志的靈魂，而這正是問題所在。<BR>如果你打算製造一些智能的魔法僕從，你就得考慮賦予他們能夠接受命令的思維。最簡單的解決方案是製造出一個使用秘術學驅動的發條裝置。它具有極其有限的自主思維，不過這僅僅是開始而已。
+tc.research_page.MINDCLOCKWORK.2=當然，現在你覺得該是將它實用化時候了。<BR>你設計出一個特別的壓製裝置以用來合成簡單的傀儡，這包含了一座鐵砧與熔爐以便於組裝各部件。<LINE>組裝傀儡只需要在傀儡壓製裝置的介面中選擇你想要的用於傀儡的部件。目前的選擇相當有限，但你相信未來能開發出更多部件。
+tc.research_page.MINDCLOCKWORK.3=每個傀儡多達五項選擇：基材、頭部種類、手臂、腳以及可選用的額外模塊。只要選好這些你想做成的部件，你所需要的材料就會列在右邊的顯示欄上。你身上必須攜帶列出的材料才能繼續進行製造程序。<BR>中間的列表顯示傀儡將擁有的特性、生命值、裝甲以及攻擊力。<BR>最後你必須對壓製機提供Machina要素源質。壓製裝置的數個開口就是為了這個用途。
+tc.research_page.MINDCLOCKWORK.4=你能在任意處放置你的傀儡，但是若未放置§5傀儡控制印記§0，傀儡幾乎什麼事都不會做。欲瞭解更多，請參閱你所解鎖的相關研究。<BR>傀儡在沒有工作時會回到它被安置的位置。你可以用法杖右擊來回收傀儡。
 #
-tc.research_name.GOLEMDIRECT=Golem Mastery
-tc.research_text.GOLEMDIRECT=Taking a direct hand in things
-tc.research_page.GOLEMDIRECT.1=Having golems mindlessly following seals is not your only goal. You want them to mindlessly follow you as well.<BR>You can now right click on a golem with the §5Golemancer's Bell§0 to have it follow you. While following you it will no longer obey seals and combat capable golems will defend you in combat.<BR>Clicking on the golem again will once again return it to normal functioning and its home location will be set to its current location. 
+tc.research_name.GOLEMDIRECT=傀儡專精
+tc.research_text.GOLEMDIRECT=親手指示
+tc.research_page.GOLEMDIRECT.1=讓傀儡盲目的遵從印記並非你唯一的目的。你希望他們可以盲目的遵從你<BR>你能以§5傀儡使之鈴§0右擊他們來命令他們跟隨你。當他們跟隨你時不會受印記影響，有戰鬥力的傀儡還會幫助你對抗敵人。<BR>點擊傀儡能使之再次回到通常狀態，而它的待命位置也將設定在當下的座標。 
 #
-tc.research_name.CONTROLSEALS=Golem Control Seals
-tc.research_text.CONTROLSEALS=Giving them purpose
-tc.research_page.CONTROLSEALS.1=Golems cannot do anything they are not told to do. For this purpose you have created Control Seals. You can place these circular clay seals against almost any surface you wish. Once you do they will become become ethereal and intangible, but you will still be able to see them as long as you hold a golem, another seal or §5Golemancer's Bell§0.<BR>The bell will be an important tool as you will use it to fine tune the settings and parameters of the command seals.<BR>Since seals are ethereal you can place down another block in the same spot as you placed a seal. 
-tc.research_page.CONTROLSEALS.2=Several seals can also occupy the same block space as long as the are located on different faces. This should allow you to keep things quite compact.<BR>You can retrieve a seal by shift and right-clicking on it with the bell.<LINE>Clicking on a seal with the bell will allow you to tweak its parameters. The exact parameters will vary from seal to seal, but most seals will allow you to give them a priority between -5 and +5 (default 0). Tasks created by higher priority seals will be performed first. You will also be able to see a list of required traits
-tc.research_page.CONTROLSEALS.3=that a golem will need to have in order to perform tasks created by that seal.<BR>For example, another seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0. 
+tc.research_name.CONTROLSEALS=傀儡控制印記
+tc.research_text.CONTROLSEALS=給予目的
+tc.research_page.CONTROLSEALS.1=若沒有收到指示，傀儡無法進行任何工作。為此，你做了一顆控制印記。你可以將這塊黏土印記貼在任何表面之上。隨後它將變得飄渺而無形，但當你持有傀儡、其他印記或是§5傀儡使之鈴§0時依然能看見它。<BR>這個鈴鐺在你進行印記的調整和設定時將是個重要的工具。<BR>因為印記是無形的，所以你能在相同位置放置任何其他方塊。
+tc.research_page.CONTROLSEALS.2=也可以將數個印記放置在同一方格的不同面上，這樣能幫助你節省空間。<BR>你可以透過用鈴鐺shift右擊來取回傀儡印記。<LINE>以鈴鐺右擊印記能微調其參數。每個印記的確切參數有所不同，但大多數的印記能將優先度在-5~5之間調整(預設為0)。由高優先度的印記建立的任務會被優先執行。
+tc.research_page.CONTROLSEALS.3=你還能看到該印記執行任務所需的傀儡特性列表。<BR>舉例來說有的印記可能要求傀儡具有§5靈巧§0特性；或是限制傀儡不能帶有§5笨拙§0特性。<BR>若需要實際例子，可參考§5收集印記§0項目。
 #
 tc.research_name.MINDBIOTHAUMIC=秘術生體之心
 tc.research_text.MINDBIOTHAUMIC=我思故我在
-tc.research_page.MINDBIOTHAUMIC.1=如同你的預期，你所製造的發條之心在抽像推理和自主行動的表現乏善可陳。即使嘗試製造更複雜的發條裝置卻成效不彰，於是你轉而研究已確定具有這些能力的東西：人腦。<BR>雖然剛開始你還很猶豫，但很快便克服了恐懼，並開始深入研究秘術生體學：將血肉、機械與魔法融為一體。<BR>研究結果激勵人心，你很快就學會了如何對發條之心注入殘存灰質，從而製造出更多功能的人工思維。
-tc.research_page.MINDBIOTHAUMIC.2=Another advantage if this mind is that it will allow a golem to learn. As it completes tasks it will gain experience and rank up. Higher ranks grants a golem additional health, speed and damage.<BR>Golems start at rank 0 and can improve up to rank 10.<BR>Golems will retain their rank if picked up.
+tc.research_page.MINDBIOTHAUMIC.1=如同你的預期，你所製造的發條之心在抽像推理和自主行動的表現乏善可陳。即使嘗試製造更複雜的發條裝置卻成效不彰，於是你轉而研究已確定具有這些能力的東西：人腦。<BR>雖然剛開始你還很猶豫，但很快便克服了恐懼，並開始深入研究秘術生體學——將血肉、機械與魔法融為一體。<BR>研究結果激勵人心，你很快就學會了如何對發條之心注入殘存灰質，從而製造出更多功能的人工思維。
+tc.research_page.MINDBIOTHAUMIC.2=其另一項優勢是使傀儡獲得學習能力。當達成任務時它會獲得經驗值並升級。更高的等級使傀儡獲得額外生命值、速度及攻擊力。<BR>傀儡初始等級為0，最高達到10。<BR>以法杖取回傀儡不影響其等級。
 #
 tc.research_name.BASICTURRET=自動十字弩
 tc.research_text.BASICTURRET=簡易防衛
 tc.research_page.BASICTURRET.1=你找到一種方法能夠賦予十字弩思維，使其變為一種簡易的自動炮台。<BR>放置好後的自動十字弩會自動朝著射程內的所有敵對生物開火。遺憾的是它有限的思維能力無法讓你為其調整攻擊目標。<BR>其內部存儲空間也非常有限，但若你願意，你可以將其放置在一個面朝上的發射器上，它就可以自動從發射器中裝填彈藥。<BR>持法杖點擊可以回收它。
 #
-tc.research_name.ADVANCEDTURRET=Advanced Automated Crossbow
-tc.research_text.ADVANCEDTURRET=Not so simple defenses
-tc.research_page.ADVANCEDTURRET.1=The Advanced Automated Crossbow works much like its basic couterpart, with a few significant exceptions.<BR>The addition of iron plating makes it much sturdier, and a more complicated loading mechanism gives it a greater rate of fire.<BR>Lastly it is possible to specify the type of targets it can attack.
+tc.research_name.ADVANCEDTURRET=進階自動十字弩
+tc.research_text.ADVANCEDTURRET=不簡易防衛
+tc.research_page.ADVANCEDTURRET.1=進階自動十字弩與其簡易版本運作方法相似，但有幾的顯著的不同點。<BR>額外的鐵板使它更加堅固，更複雜的裝載機構使它擁有更強大的火力。<BR>最後，你能指定它的攻擊目標類型。
 #
 tc.research_name.FOCUSTURRET=自動施術裝置
 tc.research_text.FOCUSTURRET=自動核心
