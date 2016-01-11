@@ -4,6 +4,7 @@
 #Change traduction ? :  Greatwood <=> Bois arcanique ; Ancient <=> ancien ; warp <=> distordre ;  
 #Old translation  => TC4 download   => /asset/lang/
 
+#
 # Enchantments
 ###################################
 enchantment.haste=Hâte
@@ -50,7 +51,8 @@ warp.text.16=Le faible bruit du chant peut être entendu à proximité.
 entity.Thaumcraft.AuraNode.name=Nœud d'Aura
 entity.Thaumcraft.Golem.name=Golem
 entity.Thaumcraft.ThaumSlime.name=Slime thaumique
-entity.Thaumcraft.Dart.name=Dard de golem
+entity.Thaumcraft.GolemDart.name=Dard de golem
+entity.Thaumcraft.PrimalArrow.name=Flèche énergétique
 entity.Thaumcraft.FrostShard.name=Fragment gelé
 entity.Thaumcraft.ExplosiveOrb.name=Boule de feu explosive
 entity.Thaumcraft.ShockOrb.name=Orbe éléctrique
@@ -103,6 +105,7 @@ entity.Thaumcraft.CultistPortalLesser.name=Grand portail cramoisi
 entity.Thaumcraft.EldritchCrab.name=Crabe surnaturel
 entity.Thaumcraft.InhabitedZombie.name=Enveloppe rampante
 entity.Thaumcraft.TurretBasic.name=Arbalète automatique
+entity.Thaumcraft.TurretAdvanced.name=Arbalète automatique avancée
 entity.Thaumcraft.TurretFocus.name=Lanceur automatique
 entity.Thaumcraft.TurretEldritch.name=Ancien lanceur automatique
 entity.Thaumcraft.NodeMagnet.name=Aimant de nœud
@@ -277,6 +280,10 @@ tile.purifying_fluid.name=Fluide purifiant
 tile.liquid_death.name=Mort liquide
 tile.placeholder.furnace_brick.name=Four infernal
 tile.placeholder.furnace_obsidian.name=Four infernal
+tile.placeholder.gb_anvil.name=Presse à Golem
+tile.placeholder.gb_table.name=Presse à Golem
+tile.placeholder.gb_bars.name=Presse à Golem
+tile.placeholder.gb_cauldron.name=Presse à Golem
 tile.barrier.name=Aura de défense
 #
 # Machines
@@ -328,6 +335,10 @@ tile.crystallizer.name=Cristalliseur d'Essentia
 tile.spa.name=Spa arcanique
 tile.mirror.name=Miroir magique
 tile.mirror_essentia.name=Miroir à essentia
+tile.golem_builder.name=Presse à golem
+tile.node_stabilizer.name=Stabiliseur de nœud
+tile.essentia_input.name=Remplissage du transfuseur d'Essentia
+tile.essentia_output.name=Vidage du transfuseur d'Essentia
 #
 # Items
 ###################################
@@ -510,6 +521,7 @@ item.focus_pech.name=Foci de baguette : Malédiction Pech
 item.focus_warding.name=Foci de baguette : Protection
 item.focus_primal.name=Foci de baguette : Primal
 item.focus_shard.name=Foci de baguette : Éclat de vis
+item.focus_grapple.name=Foci de baguette : Grappin
 item.wand_cap.iron.name=Embout en fer
 item.wand_cap.gold.name=Embout en or
 item.wand_cap.brass.name=Embout en laiton
@@ -581,12 +593,128 @@ item.creative_placer.obelisk.name=Placeur d'obélisque
 item.creative_placer.node.name=Placeur de nœud
 item.creative_placer.caster.name=Placeur de lanceur automatique ancien
 #
+# Golem
+item.module.vision.name=Module de vision
+item.module.aggression.name=Module d'agression
+item.golem_bell.name=Cloche de golemencien
+item.golem.name=Golem
+item.seal.blank.name=Sceau vide
+item.seal.pickup.name=Sceau de contrôle : Collecte
+item.seal.pickup_advanced.name=Sceau de contrôle avancé : Collecte
+item.seal.fill.name=Sceau de contrôle : Stockage
+item.seal.fill_advanced.name=Sceau de contrôle avancé : Stockage
+item.seal.empty.name=Sceau de contrôle : Vide
+item.seal.empty_advanced.name=Sceau de contrôle avancé : Vide
+item.seal.harvest.name=Sceau de contrôle : Récolte
+item.seal.butcher.name=Sceau de contrôle : Boucher
+item.seal.guard.name=Sceau de contrôle : Garde
+item.seal.guard_advanced.name=Sceau de contrôle avancé : Garde
+item.seal.lumber.name=Sceau de contrôle : Bûcheron
+item.seal.breaker.name=Sceau de contrôle : Casseur de blocs
+item.seal.use.name=Sceau de contrôle : Utilisation
+item.seal.provider.name=Sceau de contrôle : Fournir
+#
 # Text
 item.runic.charge=Bouclier runique
 item.warping=Warping
 item.capacity.text=Capacité
 item.chargebonus.text=Charge
-
+#
+# Golems 
+########################
+# Traits
+golem.trait.deft=Deft
+golem.trait.text.deft=This golem has a great deal of manual dexterity and can perform tasks requiring precision and a delicate touch. Counters and countered by Clumsy.
+golem.trait.clumsy=Clumsy
+golem.trait.text.clumsy=This golem has almost no manual dexterity and cannot perform tasks requiring more than the most basic kind of interaction. Counters and countered by Deft.
+golem.trait.smart=Smart
+golem.trait.text.smart=This golem is nearly sentient with greater reasoning and decision making capabilities.
+golem.trait.wheeled=Wheeled
+golem.trait.text.wheeled=The golem propels itself using wheels. This gives it greater speed, but it is unable to jump or navigate steep slopes.
+golem.trait.light=Light Frame
+golem.trait.text.light=The golem is lighter than average which gives it increased speed and agility. Counters and countered by Heavy.
+golem.trait.heavy=Heavy Frame
+golem.trait.text.heavy=The golem is heavier than average which reduces its speed and agility. Counters and countered by Light.
+golem.trait.fragile=Fragile
+golem.trait.text.fragile=The golem is contructed from delicate components or weak materials which reduces its life total and armor rating. Counters and countered by Armored.
+golem.trait.armored=Armored
+golem.trait.text.armored=The golem is reinforced with additional material which increases its armor rating. Counters and countered by Fragile.
+golem.trait.repair=Improved Self Repair
+golem.trait.text.repair=The golem repairs any damage suffered at more than double the normal rate.
+golem.trait.fighter=Fighter
+golem.trait.text.fighter=The golem is capable of taking hostile action against other entities.
+golem.trait.flyer=Flyer
+golem.trait.text.flyer=The golem is capable of flight, giving it greater mobility at the cost of speed.
+golem.trait.climber=Climber
+golem.trait.text.climber=Sheer cliffs to not deter this golem. It can easily scale them to get to its destination.
+golem.trait.scout=Scout
+golem.trait.text.scout=The golem has a greater visual range and can operate in a much greater area (32 blocks range from home location instead of 16).
+golem.trait.fireproof=Fireproof
+golem.trait.text.fireproof=The golem is immune to fire damage.
+golem.trait.brutal=Brutal
+golem.trait.text.brutal=This golem inflicts greater melee damage in combat.
+golem.trait.breaker=Breaker
+golem.trait.text.breaker=This golem is capable of destroying most blocks with ease.
+golem.trait.hauler=Hauler
+golem.trait.text.hauler=Allows the golem to carry two stack of items instead of one.
+golem.trait.ranged=Ranged
+golem.trait.text.ranged=The golem can attack targets at range. 
+#
+# Props 
+golem.material.wood=Greatwood
+golem.material.text.wood=The golem is crafted from greatwood. It is light and agile, but not particularly sturdy.
+golem.material.iron=Iron
+golem.material.text.iron=The golem is crafted from iron. It is sturdy and fireproof, but heavy.
+golem.material.brass=Brass
+golem.material.text.brass=The golem is crafted from brass. It is not as sturdy as iron nor as resistant to fire. Normally brass is heavier than iron, but it allows for superior construction methods which results in a much lighter frame.
+golem.material.clay=Clay
+golem.material.text.clay=The golem is crafted from baked clay. It is not a particularly sturdy material, but the resulting golem is fireproof and relatively light.
+golem.material.thaumium=Thaumium
+golem.material.text.thaumium=The golem is crafted from thaumium. It shares many characteristics with iron, though it is sturdier and more resistant to damage.
+golem.material.void=Void Metal
+golem.material.text.void=The golem is crafted from void metal. Slightly softer than iron, this metal makes up for it by being lighter and able to repair itself.
+#
+golem.head.basic=Clockwork head
+golem.head.text.basic=The default golem head. No particular strengths or weaknesses.
+golem.head.smart=Smart head
+golem.head.text.smart=This head contains an advanced biothaumic brain, giving the golem greater capabilities and the ability to learn. 
+golem.head.smart_armored=Armored smart head
+golem.head.text.smart_armored=The smart head enhanced with additional armor and padding.
+golem.head.scout=Perceptive head
+golem.head.text.scout=The basic clockwork head enchanced with improved biothaumic eyes. 
+golem.head.smart_scout=Biothaumic head
+golem.head.text.smart_scout=Using both biothaumic eyes and brain, this head is the pinnacle of the biothaumic art. 
+#
+golem.arm.basic=Basic arms
+golem.arm.text.basic=The default golem arms and hands. No particular strengths or weaknesses.
+golem.arm.fine=Fine manipulators
+golem.arm.text.fine=These arms end in delicate and dexterous hands. 
+golem.arm.claws=Claw arms
+golem.arm.text.claws=These arms end in a terrifying pair of razor sharp metal pincers. Comes with a built-in aggression module.
+golem.arm.breakers=Breaker arms
+golem.arm.text.breakers=These arms end in a pair of pneumatic, diamond tipped grinders. 
+golem.arm.darts=Dart launchers
+golem.arm.text.darts=These arms end in a pair of pneumatic dart launchers. The darts are magically created as they are needed. Comes with a built-in aggression module.
+#
+golem.leg.walker=Basic legs
+golem.leg.text.walker=A pair of simple legs. No particular strengths or weaknesses.
+golem.leg.roller=Uni-wheel 
+golem.leg.text.roller=A single wheel. Quite fast, but incapable of jumping or going up steep hills.
+golem.leg.climber=Climbing legs
+golem.leg.text.climber=A pair of simple legs enhanced with crampons and other devices allowing for vertical ascent.
+golem.leg.flyer=Levitation module
+golem.leg.text.flyer=A modified arcane levitator granting the golem the power of flight. Reduces speed by a third.
+#
+golem.addon.armored=Armor plating
+golem.addon.text.armored=Grants the golem increased durability.
+golem.addon.fighter=Aggression module
+golem.addon.text.fighter=Allows the golem to engage in combat.
+golem.addon.hauler=Carry Frame
+golem.addon.text.hauler=Allows the golem to carry two stack of items instead of one.
+#
+golem.follow=I'm coming Master
+golem.stay=I will stay here Master
+#
 #
 # Fluids
 ##############################
@@ -644,6 +772,8 @@ focus.upgrade.dowsing.name=Radiesthésie
 focus.upgrade.dowsing.text=Cette amélioration donne au Foci excavation une petite change de récupérer un amas inné de métal au lieu du minerai naturel. Ces amas donnent habituellement le double de lingot lorsque ils sont fondus.
 focus.upgrade.persistant.name=Persistent
 focus.upgrade.persistant.text=Lorsque la cible décède, disparaît ou est hors de portée, le projectile va chercher une autre cible de même type à proximité.
+focus.upgrade.sticky.name=Collant
+focus.upgrade.sticky.text=Le grappin ne se détache pas automatiquement quand vous êtes assez proche - vous devez le détacher manuellement.
 #
 # GUI
 ###################
@@ -669,9 +799,35 @@ button.category.0=Priorité
 button.category.1=Filtre
 button.category.2=Zone
 button.category.3=Options
+button.category.4=Conditions
 button.caption.x=Est / Ouest
 button.caption.y=Haut / Bas
 button.caption.z=Nord / Sud
+button.bl=Liste noire
+button.wl=Liste blanche
+button.caption.required=Requis
+button.caption.forbidden=Interdit
+golem.prop.replant=Replant crops
+golem.prop.cycle=Cycle whitelist
+golem.prop.meta=Use metadata
+golem.prop.nbt=Use NBT data
+golem.prop.ore=Use Ore Dictionary
+golem.prop.mod=Use Mod
+golem.prop.mob=Target Mobs 
+golem.prop.animal=Target Animals
+golem.prop.player=Target Players
+golem.prop.left=Left click
+golem.prop.empty=Click empty air
+golem.prop.emptyhand=Can use empty hand
+golem.prop.sneak=Simulate sneaky click
+golem.prop.single=Single item only
+golem.prop.provision=Request provisioning
+golem.prop.provision.wl=Request provisioning from whitelist
+golem.rank=Rank
+golem.prop.priority=Task Priority
+golem.prop.owner=You own this seal
+golem.prop.lock=Only golems owned by seal owner can perform these tasks
+golem.prop.unlock=All golems can perform these tasks
 #
 tile.researchtable.noink.0=Vous n'avez plus d'encre!
 tile.researchtable.noink.1=Remplissez vos outils de scribe.
@@ -720,7 +876,7 @@ tc.key11=la plaque de pression arcanique à
 tc.wandnocharge=La baguette n'a pas assez de charge pour exécuter l'action.
 tc.wandcharge=Cette baguette détient actuellement %s de Vis
 tc.jaressentia=Détient %s d'Essentia
-tc.jarname=Bocal :
+tc.jarname=Bocal :
 tc.markedloc=Emplacements marqués
 tc.addclue=§aVous avez découvert quelque chose qui peut aidez vos recherches futures§0
 tc.addpage=§aVous avez découvert quelque chose de nouveau sur %1$s§0
@@ -738,7 +894,7 @@ tc.forbidden.level.3=Modéré
 tc.forbidden.level.4=Dangereux
 tc.forbidden.level.5=Tabou
 tc.unknownobject=Rien ne peut être appris de ça.
-tc.markerchange=Définit la couleur du marqueur à : %n
+tc.markerchange=Définit la couleur du marqueur à : %n
 tc.markerchangeany=Définit à n'importe quelle couleur.
 tc.researchmissing=Recherche nécessaire manquante !
 tc.discount=Réduction
@@ -828,11 +984,7 @@ tc.research_category.ALCHEMY=Alchimie
 tc.research_category.ARTIFICE=Artifice
 tc.research_category.GOLEMANCY=Golémancie
 tc.research_category.ELDRITCH=Surnaturel
-
-
-#################################################################################################################### 
-#########################################Thaumonomicon############################################################## 
-####################################################################################################################   
+#
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
 # <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
@@ -849,12 +1001,12 @@ tc.research_category.ELDRITCH=Surnaturel
 #                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
 #
 # Basic Research
+#######################
 tc.research_name.RESEARCH=Recherche
 tc.research_text.RESEARCH=Comment faire des découvertes ?
 tc.research_page.RESEARCH.1=Avant de pouvoir construire des objets et des blocs thaumaturgiques, vous devez découvrir comment les faire. Il y'a deux moyens:<BR>(1) Utiliser les aspects connus et découvrir des connaissances et des plans pratiques avec la §5table de recherche§0.<BR><BR>(2) Explorer le monde et examiner les blocs, les objets et les créatures avec un §5thaumomètre§0 afin d'obtenir des indices sur de nouvelles recherches<LINE>Avant que vous puissiez faire l'une de ces choses, vous devez fabriquer
 tc.research_page.RESEARCH.2=un §5thaumomètre§0 et une table de recherche. Pour fabriquer une §5table de recherche§0, placez simplement une table en bois et cliquez dessus avec des §5outils de scribe§0.<BR>Les plans pour le §5thaumomètre§0 et les §5outils de scribe§0 seront vus plus tard.<LINE><IMG>thaumcraft:textures/research/research1.png:0:0:255:208:.5</IMG>
-tc.research_page.RESEARCH.3=§l§n(1)Recherche primaire§r<BR>Vous devez porter du papier et des outils de scribes pour cette étape. Si vous ouvrez votre thaumonomicon, vous allez voir toutes les connaissances que vous possedez et celles que vous ếtes capable de poursuivre.
-<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
+tc.research_page.RESEARCH.3=§l§n(1)Recherche primaire§r<BR>Vous devez porter du papier et des outils de scribes pour cette étape. Si vous ouvrez votre thaumonomicon, vous allez voir toutes les connaissances que vous possedez et celles que vous ếtes capable de poursuivre.<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
 tc.research_page.RESEARCH.4=Les icônes carré ou ronde clignotantes représentent les recherches primaires que vous pouvez poursuivre.<BR>Lorsque vous cliquer sur l'un d'entre elles, du papier et de l'encre seras consommés dans votre inventaire et vous possederez une note de recherche.<BR>Vous pouvez poser celle-ci sur la table pour commençer la recherche avec des outils de scribes dans la case §l1§r (Qui devrait se placer automatiquement lorsque vous créez la table) et la note de recherche  dans la case §l2§r.
 tc.research_page.RESEARCH.5=La section §l3§r doit montrer le nombre d'aspects primaire que avez à votre disposition pour compléter la recherche.<BR>La section §l5§r  va maintenant montrer une feuille de papier couvert de carreaux hexagonaux avec des icones d'aspect à leur bord.<IMG>thaumcraft:textures/research/research2.png:0:88:255:158:.5</IMG>
 tc.research_page.RESEARCH.6=Pour compléter votre recherche, vous avez simplement besoin de connecter et d'activer tout les aspects. Vous faites cela en glissant un aspect sur le carreaux adjacent à celui-ci tout en tenant compte que l'aspect choisit soit un composant de l'aspect cible ou bien le résultat de la combinaison avec l'aspect ciblé.<IMG>thaumcraft:textures/research/research3.png:0:0:150:95:.75</IMG>
@@ -864,7 +1016,6 @@ tc.research_page.RESEARCH.9=§l§nCombinaison d'aspects§r<BR>Cliquer simplement
 tc.research_page.RESEARCH.10=§l§nRecherche secondaire§r<BR>Les icônes hexagonales indiquent des recherches secondaires. Tout comme la Recherche primaire, vous avez juste besoin de cliquez sur elles. Cependant, au lieu de gagner une note de recherche, vous gagnez directement la recherche. La recherche secondaire ne require pas que vous l'éffectuer sur la table, mais coûte des niveau d'expérience pour l'apprendre.
 tc.research_page.RESEARCH.11=§l§n(2) L'exploration§r<BR><BR>Alors que de nombreuses recherches sont disponibles dès le départ, certaines requièrent des connaissances qui ne peuvent pas être appris sur la table ainsi que d'autres qui sont complétement cachées jusqu'à qu'un mystère soit découvert.<BR>Vous le faites par l'exploration et en éxaminant les objets dans le monde.<BR>La première chose que vous devez construire est un §5thaumomètre§0. En pointant le §5thaumomètre§0 sur les objets et créatures, en pressant le clique droit, vous allez les scanner.
 tc.research_page.RESEARCH.12=Une fois terminé, vous allez être notifier si vous avez découvert un indice.<BR>L'exact nature de l'indice ne seras pas immédiatement apparent. Vérifiez votre thaumonomicon pour voir si une icône de recherche a été révélée (indiqué par une étoile jaune), ou si une nouvelle découverte à été ajouter aux recherches existantes (indiqué par un signe vert).<BR>Habituellement, une nouvelle découverte de cette façon auras une icone ambré.
-
 #
 tc.research_name.KNOWFRAG=Fragments de connaissances
 tc.research_text.KNOWFRAG=Fragments d'anciennes légendes
@@ -911,7 +1062,6 @@ tc.research_page.CRYSTALFARMER.1=Vous avez fait quelques découvertes qui vont o
 tc.research_name.RESEARCHER1=Expertise en recherche
 tc.research_text.RESEARCHER1=La connaissance est le pouvoir
 tc.research_page.RESEARCHER1.1=Vous êtes devenu plus efficace pour effectuer les recherches.<BR> Chaque fois que vous supprimez un aspect que vous avec placé sur les carreaux, il y' a 25% de chance que vous récupériez le point de recherche.<BR>Vous êtes aussi capable de voir quels aspects sont à combiner pour créer l'aspect que vous survolez avec la souris.<BR>Enfin, il vous est possible de consommer un fragment de connaissance pour ajouter un point à chaque aspect primaire.
-
 #
 tc.research_name.RESEARCHER2=Maître en recherche
 tc.research_text.RESEARCHER2=Le pouvoir est la connaissance
@@ -1084,7 +1234,6 @@ tc.research_page.WANDPED.1=Traverser la campagne pour recharger votre baguette e
 tc.research_name.VISAMULET=Stockage de Vis
 tc.research_text.VISAMULET=ne gâche rien, ne désire rien
 tc.research_page.VISAMULET.1=La plupart du temps une seule baguette est plus que suffisante pour n'importe quel thaumaturge, mais occasionnellement le Vis d'une seule baguette n'est pas suffisant. Transporter plus d'une baguette règlerais le problème, mais les expériences ont montré qu'il existait un autre moyen.<BR>En créant une amulette capable de stocker du Vis, vous serez capable de recharger votre baguette ou n'importe quel objet sur le terrain quand elle est portée.<BR>Votre succes est mitigé cependant. Vous pouvez seulement recharger un objet en le tenant dans votre main et le vitesse de charge est lente.
-tc.research_page.VISAMULET.2=Par contre l'amulette se montre parfaite source d'énergie pour d'autre chose comme l'enchantement de réparation ou le bouclier runique.<BR>L'amulette se recharge d'elle même lentement lorsque elle est portée ou elle peut être placée dans un piédestal de recharge.
 #
 tc.research_name.WORKBENCHCHARGER=Chargeur d'atelier arcanique
 tc.research_text.WORKBENCHCHARGER=Simplifie l'artisanat arcanique
@@ -1111,9 +1260,9 @@ tc.research_text.ARCANELAMP=Large Source of Light
 tc.research_page.ARCANELAMP.1=This mystical lamp can be attached to walls, floors or ceilings and will provide strong and steady light.<BR>Additional sources of light may also appear up to 16 blocks away wherever light levels fall below accepted 'safe' levels. Remember: Only YOU can prevent zombie outbreaks.<BR>These secondary sources of light will disappear soon after the lamp has been removed.<BR>The lamp can be turned off by applying a redstone signal.
 tc.research_page.ARCANELAMP.2=§nArcane Bore§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
 #
-tc.research_name.THAUMOMETER=Thaumomètre
+tc.research_name.THAUMOMETER=Thaumometer
 tc.research_text.THAUMOMETER=Measuring Magic
-tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to click on things to scan them. Things that can be scanned for new information will be surrounded by golden questionmarks while you hold the thaumometer<BR>Secondly They display the current aura in the chunk you are located. Pressing 'F' while holding it allows you to change what aspect of the aura it displays. 
+tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to click on things to scan them. Things that can be scanned for new information will be surrounded by golden questionmarks while you hold the thaumometer<BR>Secondly they display the current and base aura in the chunk you are located. Pressing 'F' while holding it allows you to change what aspect of the aura it displays. 
 #
 tc.research_name.GOGGLES=Goggles of Revealing
 tc.research_text.GOGGLES=Seeing the Unseen
@@ -1159,7 +1308,7 @@ tc.research_page.INFERNALFURNACE.2=It should also be noted that the occasional b
 tc.research_name.BELLOWS=Arcane Bellows
 tc.research_text.BELLOWS=Stoking the flames
 tc.research_page.BELLOWS.1=The Arcane Bellows performs much the same function as its mundane counterpart, the only difference is that it happily pumps away by itself sending forth a stream of never-ending air.<BR>Attaching it to an Infernal Furnace has shown some interesting results. The elemental infused air not only stokes the flames increasing its smelting speed, but causes them to burn much purer, resulting in a reduction of flux generated and increasing the chance of creating bonus nuggets and other materials when smelting.
-tc.research_page.BELLOWS.2=They can also be attached to normal or essentia smelteries to increase their speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>Bellows can be deactivated by applying a redstone signal.<BR>You are confident more uses will reveal themselves eventually. 
+tc.research_page.BELLOWS.2=They can also be attached to furnances or essentia smelteries to increase their speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>Bellows can be deactivated by applying a redstone signal.<BR>You are confident more uses will reveal themselves eventually. 
 #
 tc.research_name.ARCANESTONE=Arcane Stone
 tc.research_text.ARCANESTONE=Magically strengthened building material
@@ -1172,8 +1321,8 @@ tc.research_page.INFUSION.2=Once you have your Runic Matrix properly placed into
 tc.research_page.INFUSION.3=from nearby sources. Crafting will stall of there is insufficient essentia available - something that you do not want as will be explained on following pages.<BR>Once all the required essentia has been infused into the target object, the other objects will have their essential essence drained. Only when this is done will the crafting process complete.<LINE>Infusion crafting is not without risks. The entire process involves forcing vast energies into a single object. Unpredictable things tend to happen.<BR>Usually one of the fusion objects get
 tc.research_page.INFUSION.4=knocked off a pedestal, or flux gets generated, but more catastrophic events are not unheard of.<BR>The longer crafting continues due to unresolved problems like lack of vis or dropped items, the greater the chance of something bad happening.<BR>These effects can be reduced by various means. Firstly you wish to keep the entire fusion structure as symmetrical as possible - take careful note of where you place pedestals and make sure they are balanced with other pedestals on the opposite side of the altar. When placing fusion items into them you may wish to keep them balanced as well. Lastly you can place occult paraphernalia around the  
 tc.research_page.INFUSION.5=altar in symmetrical formations (things like candles, skulls, crystals, etc.). These will have the effect of reducing instability.<IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
-tc.research_page.INFUSION.ANCIENT=§nAncient Stone§r<BR>The strange, ancient stone you have found has some interesting mystical properties. You believe that when used to craft the pillars for an infusion altar that it will help reduce the amount of essentia required during infusion crafting and speed up the crafting process by a small amount. It will however increase instability slightly.<BR>Should you find pedestals crafted from the same material each one will also help reduce essentia costs. Unfortunately you have been unable to craft such pedestals yourself.
-tc.research_page.INFUSION.ELDRITCH=§nEldritch Stone§r<BR>The dark, eldritch stone you have discovered has some strange properties. When used to craft the infusion altar pillars it will help reduce instability and speed up the crafting process by a moderate amount. It will unfortunately increase crafting cost slightly.<BR>Should you happen accross any pedestals made from the same material it will have much the same effect. Caution should be taken to carefully balance them however as unbalanced eldritch pedestals will massively increase your instability. Unfortunately you have been unable to craft such pedestals yourself.
+tc.research_page.INFUSION.ANCIENT=§nAncient Stone§r<BR>The strange, ancient stone you have found has some interesting mystical properties. You believe that when used to craft the pillars for an infusion altar that it will help reduce the amount of essentia required during infusion crafting and speed up the crafting process by a small amount. It will however increase instability slightly.<BR>Should you find pedestals crafted from the same material each one will also help reduce essentia costs.
+tc.research_page.INFUSION.ELDRITCH=§nEldritch Stone§r<BR>The dark, eldritch stone you have discovered has some strange properties. When used to craft the infusion altar pillars it will help reduce instability and speed up the crafting process by a moderate amount. It will unfortunately increase crafting cost slightly.<BR>Should you happen accross any pedestals made from the same material it will have much the same effect. Caution should be taken to carefully balance them however as unbalanced eldritch pedestals will massively increase your instability.
 #
 tc.research_name.INFUSIONBOOST=Infusion Boosting
 tc.research_text.INFUSIONBOOST=Upgraded mystical fusion
@@ -1198,8 +1347,8 @@ tc.research_page.WATERJUG.1=A small fountain of pure water always flows from the
 #
 tc.research_name.LEVITATOR=Arcane Levitator
 tc.research_text.LEVITATOR=Next best thing to flying
-tc.research_page.LEVITATOR.1=While not true flight, the Arcane Levitator is the next best thing.<BR>When placed the levitator lifts any item or creature above it up to 8 blocks into the air. A sneaking creature or player will be slowly lowered.<BR>While levitating something it consumes 2 aer CV per second from the aura.<BR>The levitator can be placed in any orientation, and when placed horizontally will push creatures along while keeping them aloft.
-tc.research_page.LEVITATOR.2=A toggle on the back of the device allows you to alter the range at which it operates, but also changes the amount of CV it uses.  
+tc.research_page.LEVITATOR.1=While not true flight, the Arcane Levitator is the next best thing.<BR>When placed the levitator lifts any item or creature above it up to 8 blocks into the air. A sneaking creature or player will be slowly lowered.<BR>While levitating something it consumes 1 aer vis per second from the aura.<BR>The levitator can be placed in any orientation, and when placed horizontally will push creatures along while keeping them aloft.
+tc.research_page.LEVITATOR.2=A toggle on the back of the device allows you to alter the range at which it operates, but also changes the amount of vis it uses.  
 #
 tc.research_name.ARCANEEAR=Arcane Ear
 tc.research_text.ARCANEEAR=Shhh, do you hear something?
@@ -1275,7 +1424,7 @@ tc.research_page.PRIMALARROW.3=but inflicts a withering effect on whatever it hi
 tc.research_name.RUNICARMOR=Runic Shielding
 tc.research_text.RUNICARMOR=Shields up!
 tc.research_page.RUNICARMOR.1=Your research into protective magics have led you to discover Runic Shielding. This is not armor in the traditional sense, but a collection of charms, rings and similar protective baubles worn with your everyday clothes.<BR>These devices create a barrier of magical energy that wards out most types of damage. The shielding has a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal.
-tc.research_page.RUNICARMOR.2=The pool replenishes over time and requires §2Terra§0 and §eAer§0 vis to replenish its charge which it draws from the aura.<BR>The armor offers no protection from damage suffered due to drowning, starvation or similar environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
+tc.research_page.RUNICARMOR.2=The pool replenishes over time and requires §2Terra§0 and §eAer§0 vis to replenish its charge which it draws from the aura.<BR>The armor offers no protection from damage suffered due to certain environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
 #
 tc.research_name.RUNICAUGMENTATION=Runic Shielding Augmentation
 tc.research_text.RUNICAUGMENTATION=Shields to maximum!
@@ -1299,15 +1448,15 @@ tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters 
 tc.research_name.CRUCIBLE=Basic Alchemy
 tc.research_text.CRUCIBLE=Bubble and Boil
 tc.research_page.CRUCIBLE.1=To craft the Crucible, you must simply use your wand on a cauldron placed in the world.<BR>The crucible is an important tool for any thaumaturge. It allows him to render physical objects into their component Essentia and recombine it again as he wishes.<BR>The crucible needs to be placed over a source of constant heat and filled with water. Once the water starts boiling you simply throw any items you wish into the crucible and they will be broken down into their component Essentia.<BR>If you know the proper formula and the mix of essentia within the    
-tc.research_page.CRUCIBLE.2=crucible is correct, you can then drop a special item into the crucible known as a Catalyst. The catalyst draws the essentia into itself and transforms into a whole new item that the crucible then ejects.<BR>Any leftover Essentia remains within the crucible for further use, but it is not a good idea to leave essentia within a crucible for too long.<BR>Crafting also uses some of the water within the crucible and you will eventually need to refill it.<BR>Essentia within the crucible is constantly degrading. Compound essentia degrades into one of its component aspects, and Primal essentia simply evaporates.  
-tc.research_page.CRUCIBLE.3=Beyond the waste of resources, evaporating and degrading essentia can cause many strange side-effects.<BR>You can empty a crucible by shift right-clicking on it with a wand. All the essentia is dumped into the atmosphere... not something you would want to do too often.
-tc.research_page.CRUCIBLE.4=There are some basic alchemical recipes that anyone can perform. See the following pages for their recipes.<LINE>§nBalanced Vis Shards§r<BR><BR>These are normal vis shards that have been alchemically infused with the five primal elements they do not already possess. This results in a shard of crystal that is perfectly resonating with primal energy.<BR>Smelting a balanced vis shard in a furnace creates Salis Mundus (see following pages).
+tc.research_page.CRUCIBLE.2=crucible is correct, you can then drop a special item into the crucible known as a Catalyst. The catalyst draws the essentia into itself and transforms into a whole new item that the crucible then ejects.<BR>Any leftover Essentia remains within the crucible for further use, but it is not a good idea to leave essentia within a crucible for too long as it will eventually degrade into Flux.<BR>Crafting also uses some of the water within the crucible and you will eventually need to refill it.  
+tc.research_page.CRUCIBLE.3=You can empty a crucible by shift right-clicking on it with a wand. All the essentia is dumped into the atmosphere as flux... not something you would want to do too often.<LINE>There are some basic alchemical recipes that anyone can perform. See the following pages for their recipes.
+tc.research_page.CRUCIBLE.4=§nBalanced Vis Shards§r<BR><BR>These are normal vis shards that have been alchemically infused with the five primal elements they do not already possess. This results in a shard of crystal that is perfectly resonating with primal energy.<BR>Smelting a balanced vis shard in a furnace creates Salis Mundus (see following pages).
 tc.research_page.CRUCIBLE.5=§nSalis Mundus§r<BR><BR>Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by exposing a balanced vis shard to high enough heat that it shatters into a fine powder.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavor (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.
 #
 tc.research_name.METALLURGY=Magical Metallurgy
 tc.research_text.METALLURGY=Where metals meet magic
-tc.research_page.METALLURGY.1=Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armor in a crafting table using the normal recipes.
-tc.research_page.METALLURGY.2=While thaumium has many useful features, sometimes mundane metals are better suited to certain tasks. Brass is a sturdy, low friction metal perfectly suited to craft intricate mechanical devices.<BR>Unfortunately it is not always possible to get hold of it due to the morphic properties of the universe you may find yourself in. Fortunately you have found an alchemical method of crafting this useful metal.
+tc.research_page.METALLURGY.1=Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to the discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armor in a crafting table using the normal recipes.
+tc.research_page.METALLURGY.2=§nAlchemical Brass§r<BR>While thaumium has many useful features, sometimes mundane metals are better suited to certain tasks. Brass is a sturdy, low friction metal perfectly suited to craft intricate mechanical devices.<BR>Unfortunately it is not always possible to get hold of it due to the morphic properties of the universe you may find yourself in. Fortunately you have found an alchemical method of crafting this useful metal.
 #
 tc.research_name.NITOR=Nitor
 tc.research_text.NITOR=Mystical Flame
@@ -1324,6 +1473,10 @@ tc.research_page.PHIAL.1=Glass phials are capable of holding all manner of liqui
 tc.research_name.BOTTLETAINT=Bottled Taint 
 tc.research_text.BOTTLETAINT=Why would you want this?
 tc.research_page.BOTTLETAINT.1=Cleaning Taint is one thing, but ever considered spreading it?<BR>By concentrating and collecting the essence of taint into a bottle it is simply a matter of dropping it somewhere to create a patch of taint. It is up to you to decide why you would want to do this. 
+#
+tc.research_name.TAINTSHARD=Taint Shard 
+tc.research_text.TAINTSHARD=Corrupting shards
+tc.research_page.TAINTSHARD.1=Tainted vis shards are usually (and fortunately) quite hard to come by. Still, they have their uses and you have found a way to create them via alchemy.<BR>The process is not particularly efficient as the amount of vitium required to everwhelm a healthy vis shard is much greater than the resulting tainted shard actually contains.  
 #
 tc.research_name.ALCHEMICALDUPLICATION=Alchemical Duplication
 tc.research_text.ALCHEMICALDUPLICATION=You can never have too much of a good thing.
@@ -1362,11 +1515,12 @@ tc.research_page.DISTILESSENTIA2.1=The Thaumium Smeltery works much like the bas
 #
 tc.research_name.DISTILESSENTIA3=Void Metal Essentia Smeltery
 tc.research_text.DISTILESSENTIA3=Harvesting essentia
-tc.research_page.DISTILESSENTIA3.1=The Void Metal Smeltery works much like the basic smeltery, but it has roughly 95% efficiency instead of 80%.<BR>It breaks down essentia slurry slightly quicker than the basic smeltery, but not nearly as fast as the thaumium smeltery.<LINE>When crafting the Advanced Alchemical Construct the primordial pearl is not consumed - it is merely required as a catalyst.
+tc.research_page.DISTILESSENTIA3.1=The Void Metal Smeltery works much like the basic smeltery, but it has roughly 95% efficiency instead of 80%.<BR>It breaks down essentia slurry slightly quicker than the basic smeltery, but not nearly as fast as the thaumium smeltery.
 #
 tc.research_name.IMPROVED_DISTILLATION=Improved Essentia Distillation
 tc.research_text.IMPROVED_DISTILLATION=Essentia Harvesting... Improved
 tc.research_page.IMPROVED_DISTILLATION.1=While smelters can be very fast, they could always be faster - especially the speed at which they break down the essentia slurry into usable essentia.<BR>Each Auxiliary Slurry Pump placed on the side of a smelter acts as a secondary processor, outputting refined essentia to any alembics placed above it.
+tc.research_page.IMPROVED_DISTILLATION.2=You have also discovered a way to manage the flux generated by the smelting process. By running the slurry through a secondary set of essentia filters you are able to separate out the flux and safely vent it as harmless steam.<BR>The process manages to reduce flux produced by about a third and additional vents will increase this, though there is diminishing returns. 
 #
 tc.research_name.JARLABEL=Warded Jars and Labels
 tc.research_text.JARLABEL=Storing and organizing essentia
@@ -1388,11 +1542,11 @@ tc.research_page.TUBES.4=Tubes can be connected and disconnected from their neig
 #
 tc.research_name.CENTRIFUGE=Alchemical Centrifuge
 tc.research_text.CENTRIFUGE=Taking things apart
-tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wondrous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system, it would be best to connect a §5Essentia Buffer§0 to the top of the centrifuge (see next page).
+tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wondrous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system, it would be best to connect a §5Essentia Buffer§0 to the top of the centrifuge.
 #
 tc.research_name.JARVOID=Void Jar
 tc.research_text.JARVOID=Too much essentia? Impossible!
-tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply vented as flux. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
+tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply vented. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).<BR>A word of warning: occasionally the venting process causes flux, but this is fortunately rare.
 #
 tc.research_name.TUBEFILTER=Advanced Essentia Tubes
 tc.research_text.TUBEFILTER=What you want, where you want it
@@ -1427,6 +1581,12 @@ tc.research_name.ESSENTIACRYSTAL=Essentia Crystallization
 tc.research_text.ESSENTIACRYSTAL=Hard currency or liquid assets?
 tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystallizer draws in liquid essentia from a pipe network and converts it into small shards of crystalline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystallizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>It draws terra vis from the aura to power itself.
 #
+tc.research_name.ESSENTIATRANSPORT=Essentia Transfusion
+tc.research_text.ESSENTIATRANSPORT=Aerial Essentia
+tc.research_page.ESSENTIATRANSPORT.1=During the infusion crafting process essentia is drawn directly from jars and floats through the air to the infusion matrix. The magic of the matrix keeps it stable enough for the infusion process, but normally the essentia is still changed in such a way that it becomes unusable for anything else. You have discovered a way to transport essentia in a similar manner without it becoming unstable.<BR>You have drawn up plans for two devices. The Filling Essentia Transfuser can take essentia directly from a pipe network or other essentia source and transport it to jars within 16 blocks of the direction it is facing.  
+tc.research_page.ESSENTIATRANSPORT.2=The Emptying Essentia Transfuser does the opposite - drawing essentia from jars within range and placing it within tubes or devices requiring essentia of a specific type. 
+#
+#
 # Golemancy 
 #######################
 tc.research_name.BASICGOLEMANCY=Basic Golemancy
@@ -1453,6 +1613,10 @@ tc.research_name.MATSTUDVOID=Material Studies: Void Metal
 tc.research_text.MATSTUDVOID=Advanced Void Metal crafting
 tc.research_page.MATSTUDVOID.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
 #
+tc.research_name.MATSTUDCLAY=Material Studies: Clay
+tc.research_text.MATSTUDCLAY=Advanced Clay crafting
+tc.research_page.MATSTUDCLAY.1=Clay is not particularly strong, light or durable, but it is easy to work, highly resistant to fire and lighter than iron. Basically, the perfect choice for a thaumaturge on a budget.
+#
 tc.research_name.HUNGRYCHEST=Hungry Chest
 tc.research_text.HUNGRYCHEST=A chest that doesn't wait to be opened
 tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
@@ -1475,20 +1639,104 @@ tc.research_page.TRAVELTRUNK.UOR=§nGolem Upgrade: Order§r<BR>With this upgrade
 tc.research_page.TRAVELTRUNK.UEN=§nGolem Upgrade: Entropy§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
 #
 tc.research_name.MINDCLOCKWORK=Clockwork Minds
-tc.research_text.MINDCLOCKWORK=Tick Tock
+tc.research_text.MINDCLOCKWORK=Giving them life
 tc.research_page.MINDCLOCKWORK.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If you are going to create intelligent magical servants then you are going to have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by Thaumaturgy. It has its limitations and very little autonomy, but it is a start.
+tc.research_page.MINDCLOCKWORK.2=Of course, now that you have a mind it is time to put it to use.<BR>You have designed a special press that will allow you to craft simple golems. It includes an anvil and forge to make assembling the parts easier.<LINE>To assemble as golem you simply access the Golem Press and select the components you wish to craft the golem from. For now your selection is fairly limited, but you are sure you will develop more.
+tc.research_page.MINDCLOCKWORK.3=Each golem is made up from up to 5 components: The base material, a type of head, arms, legs and an optional addon module. Simply select which of these you want to use and a list of crafting components will be displayed on the right. You need to have the listed components in your inventory before you can start the crafting process.<BR>Listed in the middle of the interface you will see the traits, hearts, armor and damage the golem will possess.<BR>Lastly you will need to supply Machina essentia to the press. Several ports are provided below the main press mechanism for this purpose.
+tc.research_page.MINDCLOCKWORK.4=You can now place the golem wherever you wish, but it will not do much unless you also place down a §5Golem Control Seal§0. To learn more about them see the reseach category that will have unlocked.<BR>When they have no tasks to perform, golems will return to the spot they were originally placed. You can pick up a golem by right clicking on it with a wand.
+#
+tc.research_name.GOLEMDIRECT=Golem Mastery
+tc.research_text.GOLEMDIRECT=Taking a direct hand in things
+tc.research_page.GOLEMDIRECT.1=Having golems mindlessly following seals is not your only goal. You want them to mindlessly follow you as well.<BR>You can now right click on a golem with the §5Golemancer's Bell§0 to have it follow you. While following you it will no longer obey seals and combat capable golems will defend you in combat.<BR>Clicking on the golem again will once again return it to normal functioning and its home location will be set to its current location. 
+#
+tc.research_name.CONTROLSEALS=Golem Control Seals
+tc.research_text.CONTROLSEALS=Giving them purpose
+tc.research_page.CONTROLSEALS.1=Golems cannot do anything they are not told to do. For this purpose you have created Control Seals. You can place these circular clay seals against almost any surface you wish. Once you do they will become become ethereal and intangible, but you will still be able to see them as long as you hold a golem, another seal or §5Golemancer's Bell§0.<BR>The bell will be an important tool as you will use it to fine tune the settings and parameters of the command seals.<BR>Since seals are ethereal you can place down another block in the same spot as you placed a seal. 
+tc.research_page.CONTROLSEALS.2=Several seals can also occupy the same block space as long as the are located on different faces. This should allow you to keep things quite compact.<BR>You can retrieve a seal by shift and right-clicking on it with the bell.<LINE>Clicking on a seal with the bell will allow you to tweak its parameters. The exact parameters will vary from seal to seal, but most seals will allow you to give them a priority between -5 and +5 (default 0). Tasks created by higher priority seals will be performed first. You will also be able to see a list of required traits
+tc.research_page.CONTROLSEALS.3=that a golem will need to have in order to perform tasks created by that seal.<BR>For example, another seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0. 
 #
 tc.research_name.MINDBIOTHAUMIC=Biothaumic Minds
 tc.research_text.MINDBIOTHAUMIC=I think therefore I am
 tc.research_page.MINDBIOTHAUMIC.1=As predicted the clockwork minds you have created offers very little in the way of abstract reasoning and autonomy. Attempting to create more complex clockworks has met with very little success, so you have turned to something you already know will work - human brains.<BR>Though hesitant at first, you soon overcame any trepidation you felt and delved into Biothaumaturgy - merging flesh, machines and magic into a single whole.<BR>The results are encouraging and you are now able to infuse clockwork minds with salvaged gray matter to form a mind with much greater capabilities.
+tc.research_page.MINDBIOTHAUMIC.2=Another advantage if this mind is that it will allow a golem to learn. As it completes tasks it will gain experience and rank up. Higher ranks grants a golem additional health, speed and damage.<BR>Golems start at rank 0 and can improve up to rank 10.<BR>Golems will retain their rank if picked up.
 #
 tc.research_name.BASICTURRET=Automated Crossbow
 tc.research_text.BASICTURRET=Simple defenses
 tc.research_page.BASICTURRET.1=You have found a way to give a crossbow a mind of its own turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile mobs it detects within range. Unfortunately its limited mind does not allow you to fine tune its targets.<BR>It has a very limited internal inventory, but if you wish you can place it over an upward facing dispenser which will allow it to automatically reload itself from that inventory.<BR>Clicking on it with a wand will pick it up.
 #
+tc.research_name.ADVANCEDTURRET=Advanced Automated Crossbow
+tc.research_text.ADVANCEDTURRET=Not so simple defenses
+tc.research_page.ADVANCEDTURRET.1=The Advanced Automated Crossbow works much like its basic couterpart, with a few significant exceptions.<BR>The addition of iron plating makes it much sturdier, and a more complicated loading mechanism gives it a greater rate of fire.<BR>Lastly it is possible to specify the type of targets it can attack.
+#
 tc.research_name.FOCUSTURRET=Autocaster
 tc.research_text.FOCUSTURRET=Automated Foci
-tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with via development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce to activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
+tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with the development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce the activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
+#
+tc.research_name.SEALCOLLECT=Control Seal: Collect
+tc.research_text.SEALCOLLECT=Picking up what you are putting down
+tc.research_page.SEALCOLLECT.1=This seal will constantly check an area you define for dropped items. If items are found it will instruct any nearby golems to pick up those items.<BR>You can define the exact dimensions of the area as well as filter out certain items using a white- or blacklist.
+tc.research_page.SEALCOLLECT.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.  
+#
+tc.research_name.SEALSTORE=Control Seal: Store
+tc.research_text.SEALSTORE=Putting away your mess
+tc.research_page.SEALSTORE.1=This seal needs to be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.
+tc.research_page.SEALSTORE.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.
+#
+tc.research_name.SEALEMPTY=Control Seal: Empty
+tc.research_text.SEALEMPTY=Making a whole new mess
+tc.research_page.SEALEMPTY.1=This seal is effectively the opposite of the Store seal. It will empty items from the inventory it is attached to. Any nearby golems will simply take the items and hold. You will need to use other seals to give them instructions as to what they need to do with the items they have taken.<BR>You can filter a specific item to remove or to exclude from removal.  
+tc.research_page.SEALEMPTY.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.<BR>You can also have the seal only check for a single item in the filter at a time in the order they are listed.
+#
+tc.research_name.SEALPROVIDE=Control Seal: Provide
+tc.research_text.SEALPROVIDE=Getting what is needed
+tc.research_page.SEALPROVIDE.1=This seal is similar to the Empty seal, except it will only remove an item from the inventory if there is a specific need for it.<BR>Certain seals may request provisioning. If they require specific items for their tasks a secondary task will be created telling a nearby golem to retrieve those items from any inventories marked with a Provide seal.<BR>This task will use the requesting seals priority and the golem needs to meet the requirements for both the Provider seal and the requesting seal.
+tc.research_page.SEALPROVIDE.2=The filter on the Provide seal is merely used to compare what items may be taken from the container. The filters (if any) on the requesting seal will determine the exact item taken.
+#
+tc.research_name.SEALHARVEST=Control Seal: Harvest
+tc.research_text.SEALHARVEST=Green mechanical thumbs
+tc.research_page.SEALHARVEST.1=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. 
+#
+tc.research_name.SEALGUARD=Control Seal: Guard
+tc.research_text.SEALGUARD=Protect and Serve
+tc.research_page.SEALGUARD.1=When placed this seal will protect and area from intrusion. Any hostile creatures it detects will be targeted by nearby combat-capable golems and attacked.<BR>If the golem has the §5Deft§0 property, any creatures slain will drop experience orbs.<BR>§9This research also unlocks additional golem parts§0. 
+tc.research_page.SEALGUARD.2=You can now create an advanced version of the seal that will give you greater control over which creatures your golems will target.
+#
+tc.research_name.SEALBUTCHER=Control Seal: Butcher
+tc.research_text.SEALBUTCHER=Gory to the armpits
+tc.research_page.SEALBUTCHER.1=While §5Guard§0 seals can be used to kill animals, they are not very selective.<BR>The butcher seals works much like a §5Guard§0 seal, except it only targets adult animals. Furthermore it will always make sure that at least a breeding pair of animals remain alive. 
+#
+tc.research_name.SEALBREAK=Control Seal: Block Breaker
+tc.research_text.SEALBREAK=*Tap* *Tap* *Tap*
+tc.research_page.SEALBREAK.1=This seal commands golems to break any blocks they find in the area.<BR>The hardness of a block does determine how quickly it can be broken.<BR>You can filter what type of blocks are to be broken (or ignored).<BR>It should be noted that due to factors like golem mobility, limited area and speed this seal probably will not make a very effective mining tool, though it could be used as such in a pinch. 
+#
+tc.research_name.SEALLUMBER=Control Seal: Lumberjack
+tc.research_text.SEALLUMBER=And I'm ok
+tc.research_page.SEALLUMBER.1=A refinement of the §5Block Breaker§0 seal, the Lumberjack seal will only target wooden logs, but instead of breaking the log the golem is hitting, it will instead break the furthest connected log.<BR>This means that it is highly effective when used to harvest trees as it will effectively chop them from the top down.
+#
+tc.research_name.SEALUSE=Control Seal: Use
+tc.research_text.SEALUSE=Clicky click
+tc.research_page.SEALUSE.1=This seal allows a golem to act like a player and left or right click on the block that you have marked.<BR>It can also click with any items it happens to be holding or specific items you have filtered.<BR>The seal will remain even if the block you placed it on is removed, allowing the seal to target empty air if you wish.<BR>If a whitelist items is specified you can also request it to be provisioned.
+#
+tc.research_name.GOLEMVISION=Golem Biothaumic Eyes
+tc.research_text.GOLEMVISION=Improved visual range 
+tc.research_page.GOLEMVISION.1=By merging flesh and arcane construct you have crafted a set of highly acute eyes.<BR>Any golem equipped with such a set of peepers will be able to operate at twice the normal range (32 blocks).<BR>§9This research unlocks additional golem parts§0. 
+#
+tc.research_name.GOLEMCLIMBER=Golem Mobility: Climbing
+tc.research_text.GOLEMCLIMBER=There aint no mountains high enough
+tc.research_page.GOLEMCLIMBER.1=By equipping a golem with crampons, hooks and various other tools, it will be able to scale sheer walls and other obstacles.<BR>§9This research unlocks additional golem parts§0.
+#
+tc.research_name.GOLEMFLYER=Golem Mobility: Flight
+tc.research_text.GOLEMFLYER=Up, Up and Away!
+tc.research_page.GOLEMFLYER.1=By basically chopping off a golems legs and glueing an Arcane levitator in their place you have managed to get a golem to fly. This grants it good (if slightly erratic) mobility, though it does move slower.<BR>§9This research unlocks additional golem parts§0.
+#
+tc.research_name.GOLEMBREAKER=Golem Manipulation: Block Breaking  
+tc.research_text.GOLEMBREAKER=Smash and grab
+tc.research_page.GOLEMBREAKER.1=By replacing a golems arms with a set of powerful, diamond tipped pneumatic grinders it will be able to break through all be the hardest material.<BR>§9This research unlocks additional golem parts§0.
+#
+tc.research_name.GOLEMCOMBATADV=Improved Golem Combat
+tc.research_text.GOLEMCOMBATADV=Better Faster Stronger
+tc.research_page.GOLEMCOMBATADV.1=You can now craft specialized golem weaponry and armor to make them much more effective in combat.<BR>§9This research unlocks additional golem parts§0.
+#
 #
 # Eldritch 
 #######################
