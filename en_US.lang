@@ -166,6 +166,7 @@ tile.arcane_brick_stairs.name=Arcane Brick Stairs
 tile.ancient_stairs.name=Ancient Stone Stairs
 tile.translucent.amber_block.name=Amber Block
 tile.translucent.amber_brick.name=Amber Bricks
+tile.translucent.empty.name=Empty space
 tile.slab_wood.greatwood.name=Greatwood Slab
 tile.slab_wood.silverwood.name=Silverwood Slab
 tile.slab_stone.arcane.name=Arcane Stone Slab
@@ -1585,7 +1586,7 @@ tc.research_page.ESSENTIATRANSPORT.2=The Emptying Essentia Transfuser does the o
 #######################
 tc.research_name.BASICGOLEMANCY=Basic Golemancy
 tc.research_text.BASICGOLEMANCY=Motion Controlled
-tc.research_page.BASICGOLEMANCY.1=You have studied the basic, primitive golems anyone can create and found them lacking. They have potentional, but it is not possible to control them.<BR>You are sure you can do better.
+tc.research_page.BASICGOLEMANCY.1=You have studied the basic, primitive golems anyone can create and found them lacking. They have potential, but it is not possible to control them.<BR>You are sure you can do better.
 #
 tc.research_name.MATSTUDWOOD=Material Studies: Wood
 tc.research_text.MATSTUDWOOD=Advanced Wood crafting
@@ -1780,7 +1781,7 @@ tc.research_page.CRIMSON.1=Much of this book is written in a spidery and unintel
 #
 tc.research_name.OCULUS=Opening the Eye
 tc.research_text.OCULUS=I will show them, I will show them all!
-tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 1000 units of each should be sufficient.
+tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 500 units of each should be sufficient.
 tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown! 
 #
 tc.research_name.SINSTONE=Sinister Lodestone 
