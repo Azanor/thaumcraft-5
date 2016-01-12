@@ -166,6 +166,7 @@ tile.arcane_brick_stairs.name=奧術石磚階梯
 tile.ancient_stairs.name=亙古石階梯
 tile.translucent.amber_block.name=琥珀磚
 tile.translucent.amber_brick.name=琥珀磚塊
+tile.translucent.empty.name=空間
 tile.slab_wood.greatwood.name=宏偉之木台階
 tile.slab_wood.silverwood.name=銀樹台階
 tile.slab_stone.arcane.name=奧術台階
@@ -1687,7 +1688,7 @@ tc.research_page.SEALPROVIDE.1=類似空置印記，但是它只會在需要時�
 tc.research_page.SEALPROVIDE.2=提供印記的篩選僅指定哪些項目能被取出，提出需求的印記才能指定具體的目標項目。
 #
 tc.research_name.SEALHARVEST=控制印記：收穫
-tc.research_text.SEALHARVEST=綠色機械讚
+tc.research_text.SEALHARVEST=機械園丁
 tc.research_page.SEALHARVEST.1=這個印記會掃描指定範圍內有無可收穫的作物，發現後將指派傀儡進行收割。<BR>若有需要，印記也會嘗試在有種子(或其他類似物)時重種作物。
 #
 tc.research_name.SEALGUARD=控制印記：守衛
@@ -1780,7 +1781,7 @@ tc.research_page.CRIMSON.1=書冊上的多數內容以密如蛛網，不知所�
 #
 tc.research_name.OCULUS=開眼儀式
 tc.research_text.OCULUS=我將向他們展示一切，向他們所有人。
-tc.research_page.OCULUS.1=一切都是那麼的簡單，你對那些緋色邪徒一直沒有發現它感到驚訝。<BR>想要完成儀式，需要將4顆異象邪眼安放在你發現緋色教徒的那種祭壇的特殊頂石上。<BR>完成上述步驟後，還需要讓頂石從法杖中抽取大量的原初要素，每種大約1000點。
+tc.research_page.OCULUS.1=一切都是那麼的簡單，你對那些緋色邪徒一直沒有發現它感到驚訝。<BR>想要完成儀式，需要將4顆異象邪眼安放在你發現緋色教徒的那種祭壇的特殊頂石上。<BR>完成上述步驟後，還需要讓頂石從法杖中抽取大量的原初要素，每種大約500單位。
 tc.research_page.OCULUS.2=如果所有步驟均正確，那麼儀式將被完成，而名為"眼"之存在將會睜開。<BR>當然你並不知道那意味著什麼。不過那又何妨？只有愚者才會畏懼未知。
 #
 tc.research_name.SINSTONE=凶險磁石
