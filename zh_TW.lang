@@ -166,6 +166,7 @@ tile.arcane_brick_stairs.name=奧術石磚階梯
 tile.ancient_stairs.name=亙古石階梯
 tile.translucent.amber_block.name=琥珀磚
 tile.translucent.amber_brick.name=琥珀磚塊
+tile.translucent.empty.name=空間
 tile.slab_wood.greatwood.name=宏偉之木台階
 tile.slab_wood.silverwood.name=銀樹台階
 tile.slab_stone.arcane.name=奧術台階
@@ -582,7 +583,7 @@ item.crimson_rites.text.1=點擊以研究。
 item.runed_tablet.name=符文石板
 item.runed_tablet.text=這似乎是某大型物體的一部分
 item.research_notes.name=研究筆記
-item.research_notes.discovery.name=發現
+item.research_notes.discovery.name=發現卷軸
 item.researchnotes.learn=右鍵點擊以學習這項發現
 item.creative_placer.obelisk.name=方尖碑設置器
 item.creative_placer.node.name=節點設置器
@@ -998,33 +999,33 @@ tc.research_category.ELDRITCH=異象研究
 #######################
 tc.research_name.RESEARCH=研究
 tc.research_text.RESEARCH=如何發現物品
-tc.research_page.RESEARCH.1=在開始創建秘術學的物品以及方塊前，你需要先學會如何進行研究。你需要歷經下述兩個步驟：<BR>（1）在§5研究台§0中利用你已經知曉的要素來探索實用的知識以及合成配方。<BR><BR>（2）探索世界，使用§5魔導觀測計§0勘察方塊、物品以及生物，以找到進一步研究的線索。<LINE>在你著手這兩件事之前你需要先合成出§5魔導觀測計§和研究台。
+tc.research_page.RESEARCH.1=在開始創建秘術學的物品以及方塊前，你需要先學會如何進行研究。你需要歷經下述兩個步驟：<BR>(一)研究：在§5研究台§0中利用你已經知曉的要素來探索實用的知識以及合成配方。<BR><BR>(二)探索：使用§5魔導觀測計§0勘察方塊、物品以及生物，以找到進一步研究的線索。<LINE>在你著手這兩件事之前你需要先合成出§5魔導觀測計§0和研究台。
 tc.research_page.RESEARCH.2=只需要放置好一個木桌，然後將筆與墨放在台桌上便可以創建§5研究台§0。<BR>§5魔導觀測計§0和§5筆與墨§0的合成配方則如圖所示。<LINE><IMG>thaumcraft:textures/research/research1.png:0:0:255:208:.5</IMG>
-tc.research_page.RESEARCH.3=§l§n（1）基礎研究§r<BR>完成此步驟時你需要隨身帶著一套筆與墨以及紙張。翻開魔導手冊，你能夠查閱你已經掌握的所有知識，也能夠查看你目前能夠繼續探求哪些知識。<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
+tc.research_page.RESEARCH.3=§l(一)§n基礎研究§r<BR>完成此步驟時你需要隨身帶著一套筆與墨以及紙張。翻開魔導手冊，你能夠查閱你已經掌握的所有知識，也能夠查看你目前能夠繼續探求哪些知識。<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
 tc.research_page.RESEARCH.4=閃爍的方形或圓形圖標表示的正是那些你可以著手進行的基礎研究。<BR>當點擊這些閃爍的圖標後，你的物品欄中的紙張和墨水會被消耗掉，同時你會獲得相應的研究筆記。<BR>接下來你便可以開始在研究台中分析這份研究筆記。你還需要將筆與墨放在研究台的§l1§r號格子中(在創建研究台時這一步應該會自動完成)，而研究筆記則應該放入§l2§r號格子中。
 tc.research_page.RESEARCH.5=§l3§r號區域顯示你當前可用作研究點的要素數量。<BR>§l5§r號區域會顯示出一張紙卷，上面排滿了外緣繪有要素圖標的六邊形格子。<IMG>thaumcraft:textures/research/research2.png:0:88:255:158:.5</IMG>
 tc.research_page.RESEARCH.6=要完成你的研究，只需連接和啟動全部要素符號。為此，你需要將要素拖拽到六邊形格子中，並使之與能合成出它的要素或是能它所能合成出的要素相連。<IMG>thaumcraft:textures/research/research3.png:0:0:150:95:.75</IMG>
 tc.research_page.RESEARCH.7=放置要素會消耗一個研究點。若發生錯誤，可以點擊要素以移除它，但這不會讓你取回付出的研究點。<BR>萬一耗盡了所有的研究點，最好丟棄當前的研究筆記，製作一個新的來重置研究點。<BR>你需要將原初要素融合來得到那些大多數研究需要用到的復合要素。稍後我們將更加深入地解釋。
-tc.research_page.RESEARCH.8=持續上述操作，直到將所有要素都被連起來。不需要將要素與其他所有要素皆彼此相連，只需要讓它們成為相連的整體即可。<BR>於是研究就會完成，研究筆記會變成發現卷軸。<LINE>注意：放置或移除六邊形中的要素均會消耗墨水，如果墨水耗盡你需要添置一個新的才能繼續研究。
+tc.research_page.RESEARCH.8=持續上述操作，直到將所有要素都被連起來。不需要將要素與其他所有要素皆彼此相連，只需要讓它們成為相連的整體即可。<BR>連好後研究就會完成，研究筆記會變成發現卷軸。<LINE>注意：放置或移除六邊形中的要素均會消耗墨水，如果墨水耗盡你必須換上一組新的筆墨才能繼續研究。
 tc.research_page.RESEARCH.9=§l§n融合要素§r<BR>現在你可以開始融合更加複雜的要素了，只需將那些你希望用於融合的要素拖拽到§l4§r號區域的符文圓環之中。被選中的要素會出現在§l4§r號區域中，當已選中兩個要素後按下紫色按鈕就即可嘗試將它們融合。如若成功你應該能在右下方看到得到了什麼，它會出現在§l3§r號區域中。<BR>即使沒有實際獲得複合要素，參與融合的要素也會被消耗掉。
 tc.research_page.RESEARCH.10=§l§n衍生研究§r<BR>六邊形圖標標示的是衍生研究。如同基礎研究，你也需要點擊它們來進行研究。然而你將會直接學會這項研究而非獲得研究筆記。學習衍生研究無需在研究台中進行孜孜不倦地探索，但卻會消耗一定的經驗等級。
-tc.research_page.RESEARCH.11=§l§n（2）探索§r<BR><BR>雖然有許多研究一開始便可以著手進行，但大多數研究是秘術使坐在桌前枯坐無法掌握的知識，有些隱藏的知識則更需要揭開許多秘密後才會暴露出蛛絲馬跡。<BR>探索並勘察你遇到的所有事物便有可能找到新的研究線索。<BR>首先，你需要先做出一個§5魔導觀測計§0。將§5魔導觀測計§0對準你想要研究的物體或生物，按下右鍵便能開始掃瞄。
-tc.research_page.RESEARCH.12=掃瞄完成後你會留意到是否發現來新的線索。<BR>這些線索的確切屬性可能並不會立即揭曉。翻閱你的魔導手冊來查看是否出現了新的研究圖標(標有金色星星)，或者已有的研究中是否添加了新的知識(標有綠色加號)。<BR>通常如此發現的新研究會圖標會呈現琥珀色。
+tc.research_page.RESEARCH.11=§l(二)§n探索§r<BR><BR>雖然有許多研究一開始便可以著手進行，但大多數研究是秘術使坐在桌前枯坐無法掌握的知識，有些隱藏的知識則更需要揭開許多秘密後才會暴露出蛛絲馬跡。<BR>探索並勘察你遇到的所有事物便有可能找到新的研究線索。<BR>首先，你需要先做出一個§5魔導觀測計§0。將§5魔導觀測計§0對準你想要研究的物體或生物，按下右鍵便能開始掃瞄。
+tc.research_page.RESEARCH.12=掃瞄完成後你會留意到是否發現了新的線索。<BR>這些線索的確切性質可能不會立即揭曉。翻閱你的魔導手冊來查看是否出現了新的研究圖標(標有金色星星)，或是現有的研究中是否添加了新的知識(標有綠色加號)。<BR>通常如此發現的新研究會圖標會呈現琥珀色。
 #
 tc.research_name.KNOWFRAG=知識碎片
 tc.research_text.KNOWFRAG=遺落的卷章碎片
-tc.research_page.KNOWFRAG.1=旅途漫漫，你偶然會發現一些古代遺跡及失落的知識。<BR>使用它們能夠獲得少量的經驗。<BR>或許它們還別有用途…
+tc.research_page.KNOWFRAG.1=在你漫長的旅途中偶爾會發現一些古代遺留下、世人所遺忘的知識。<BR>使用它們能夠獲得少量的經驗。<BR>或許它們還別有用途…
 #
 tc.research_name.ASPECTS=魔導要素
 tc.research_text.ASPECTS=萬物構造之源
 tc.research_page.ASPECTS.1=一切事物、物件及生物均繫於被名為§5「要素」§0的魔力元素。要素描繪了物品的構成及其對魔力元素的偏向。普通的岩石可能蘊含Terra要素，而更複雜的事物，比如樹木，甚或生物則可能蘊含多種數量不等的要素。目前已經有50餘種要素被發現。<LINE>有兩類截然不同的要素：§5原初要素§0以及§5複合要素§0。
 tc.research_page.ASPECTS.2=§l原初要素§r是六種最基本的要素類型：§6Aer§0(風之要素)，§2Terra§0(地之要素)，§cIgnis§0(火之要素)，§3Aqua§0(水之要素)，§fOrdo§0(秩序要素)，§8Perditio§0(混沌要素)。<BR>它們是構成其它要素的基礎。<BR>§l複合要素§r由兩種其它要素複合而成。 相對簡單的複合要素由兩種原初要素複合而成。 但也存在一些經過多次複合，非常複雜的複合要素。<BR>舉簡單的例子來說，比如 §2Terra§0(地之要素) 與 §3Aqua§0(水之要素) 複合可以得到 Victus(生命要素) 。 
-tc.research_page.ASPECTS.3=若想要查看一個物品所具備的要素，需要在選中物品時按下潛行鍵(預設為shift)，這樣你就能看見其蘊含要素的種類和數量。<LINE>我們將能夠通過一些方法從物品中抽取要素，將其提煉成魔力，它們非常有價值：無論是用作合成的工具還是用於魔法研究。<BR>魔力通常儲存於法杖中，但它也可能以液相儲存，此時我們通常稱其為§5要素源質§0，為方便起見，本手冊中有時也統一簡稱其為源質。
+tc.research_page.ASPECTS.3=若想要查看一個物品所具備的要素，需要在選中物品時按下潛行鍵(預設為shift)，這樣你就能看見其蘊含要素的種類和數量。<LINE>我們將能夠通過一些方法從物品中抽取要素，將其提煉成魔力，它們非常有價值：無論是用作合成的工具還是用於魔法研究。<BR>魔力通常儲存於法杖中，但它也可能以液相儲存，此時我們通常稱其為§5要素源質§0，為方便起見，本手冊中有時會將其統稱為源質。
 #
 tc.research_name.NODES=靈氣和節點
 tc.research_text.NODES=魔法無所不在
-tc.research_page.NODES.1=§5靈氣§0是籠罩世界的魔法能量。其源頭未明。有些人相信靈氣是活物積累的生命能量，而有些人則傾向於認為它不過是從某些地方滲出的能量。後一種觀點似乎更具可能：因為人們經常發現靈氣環繞於一種匯聚著魔法能量的§5「靈氣節點」§0周圍。<BR>靈氣中蘊含濃度不等的原初要素。例如水邊的靈氣場中通常會蘊含更多的§3Aqua§0要素；在沙漠中則§cIgnis§0要素濃度更高。
-tc.research_page.NODES.2=靈氣按區塊分佈。如果一片區域中的靈氣變得枯竭，它會嘗試從鄰近靈氣濃度更高的區域中抽取靈氣。它們的靈氣濃度永遠不會完全相等，因為靈氣與其說類似海水，倒更像粘稠的凝膠組成的海洋。<BR>靈氣也會因汙染釋出§5Vitium§0要素(咒波)。咒波比一般的要素更加「粘稠」，更趨向於彼此匯聚而不是流動到臨近區域去。靈氣濃度如果降低到最低限度以下也會產生咒波。<BR>如果一片區域中的咒波濃度過高，則會導致§l污染§r。想要瞭解有關污染的更多信息，請翻閱魔導手冊的相關章節。
+tc.research_page.NODES.1=§5靈氣§0是籠罩世界的魔法能量。其源頭未明。有些人相信靈氣是活物積累的生命能量，而有些人則傾向於認為它只是從某處所滲透出的能量。後者似乎更具說服力——因為人們發現靈氣經常環繞於一種匯聚著魔法能量的§5「靈氣節點」§0周圍。<BR>靈氣中蘊含濃度不等的原初要素。例如水邊的靈氣場中通常會蘊含更多的§3Aqua§0要素；在沙漠中則是§cIgnis§0要素濃度豐富。
+tc.research_page.NODES.2=靈氣按區塊分佈。如果一片區域中的靈氣變得枯竭，它會嘗試從鄰近靈氣濃度更高的區域中抽取靈氣。它們的靈氣濃度永遠不會完全相等，因為靈氣與其說象海水，不如說更像是粘稠的凝膠所組成的海洋。<BR>靈氣會因汙染產生§5Vitium§0要素(咒波)。咒波比一般的要素更加「粘稠」，比起流往臨近區域，它更傾向於彼此匯聚。靈氣濃度如果降低到一定限度以下也會產生咒波。<BR>如果一片區域中的咒波濃度過高，則會導致§l污染§r。想要瞭解有關污染的更多信息，請翻閱魔導手冊的相關章節。
 tc.research_page.NODES.3=靈氣節點表現得猶如一些通往其他神秘世界的門戶，魔法能量從中滲透而出。每個節點都會同某些§5元始要素§0共鳴，但幾乎沒有節點會與§5複合要素§0共鳴。<BR>雖然沒辦法直接從節點抽取魔力，但節點卻緩慢地補充著它周圍的靈氣。<BR>一般而言，靈氣的補充速率似乎和月相有關，在滿月時速率將達到最快。<BR>另一個決定補充速率的因素則是靈氣節點的大小。
 tc.research_page.NODES.4=肉眼並不能看到靈氣節點。通常來說，只有試圖提升當地靈氣濃度的時候才會需要去確認它們的存在。<BR>相鄰的節點經常相互吸引從而變得越來越靠近。而當它們靠得足夠近的時候會相互融合，通常會變成一個更大的節點，蘊含融合前的一部分(或者所有)節點的要素。<BR>人們已經發現了許多種不同的節點，但你目前對他們還所知甚少。
 tc.research_page.NODES.A=§l§n星芒節點§r<BR>這種節點似乎會對光照有所反應。光照越盛，其補充靈氣的速率越快。
@@ -1051,7 +1052,7 @@ tc.research_page.PLANTS.5=§l§n蘊靈菇§r<BR><IMG>thaumcraft:textures/researc
 #
 tc.research_name.CRYSTALFARMER=結晶農場
 tc.research_text.CRYSTALFARMER=幫助它們成長
-tc.research_page.CRYSTALFARMER.1=你所做的一系列發現讓你學會了如何把魔力碎片變成可以種植在岩石上的魔力結晶。<BR>不僅如此，你還學會了如何在不弄碎整塊結晶的前提下採集一片結晶-只要拿著法杖對著它右擊即可。
+tc.research_page.CRYSTALFARMER.1=你所做的一系列發現讓你學會了如何把魔力碎片變成可以種植在岩石上的魔力結晶。<BR>不僅如此，你還學會了如何在不弄碎整塊結晶的前提下採集一片結晶——只要拿著法杖對著它右擊即可。
 #
 tc.research_name.RESEARCHER1=研究專長
 tc.research_text.RESEARCHER1=知識就是力量
@@ -1209,6 +1210,11 @@ tc.research_name.FOCUSGRAPPLE=法術核心：抓勾
 tc.research_text.FOCUSGRAPPLE=Woosh!
 tc.research_page.FOCUSGRAPPLE.1=法杖核心通常只能放出短暫的效果，這使其無法用於使舒緩旅途或是製造飛行效果。但是這無法使你迴避冒現，因此你研究出了這個方法：抓勾核心。<BR>這顆核心展開元素能量繫繩勾住方塊，並將你拉向該目標。這使你便於跨越各種地形，或是單純進行快速的移動。按下潛行鍵以直接斷開連結。<BR>效能附魔能延伸其施放長度。
 #
+tc.research_name.FOCUSBUILDER=法術核心：建築
+tc.research_text.FOCUSBUILDER=9x9倍快
+tc.research_page.FOCUSBUILDER.1=這顆核心效果與更替核心相似，但是它可以直接放置方塊，而非替換掉原本的方塊。<BR>必須先利用潛行右擊來指定你想使用的方塊。<BR>目標可以指定在你面前64隔遠處，可以看到一個輪廓，顯示出你在右擊後方塊將填上的範圍。如同更替核心，你的物品欄必須存有足夠的建材方塊。
+tc.research_page.FOCUSBUILDER.2=方塊放置是從指定面垂直向你的方向延伸，其長度取決於你的位置，一次最長可達到16格。升級這顆核心能讓你一次放置更多方塊。<BR>其延伸路徑上的其他方塊將被更替，並存入你的物品欄。
+#
 tc.research_name.FOCUSPOUCH=法術核心腰包
 tc.research_text.FOCUSPOUCH=法術核心的隨身袋
 tc.research_page.FOCUSPOUCH.1=當你已經收集了一定數量的核心後如何方便得攜帶它們就成了惱人的問題，核心腰包就能有效解決該問題。<BR>當你試圖切換法術核心時，會首先檢查腰包裡的核心類型，且卸除的核心也會優先放置在腰包內。你也可以右鍵腰包來放置或者取出核心。<BR>腰包可以裝備在腰帶的裝備格上。
@@ -1291,12 +1297,12 @@ tc.research_page.ELEMENTALTOOLS.3=§l§n熾心鎬§r<BR>透過以炎之碎片向
 tc.research_page.ELEMENTALTOOLS.4=當你按住潛行則可以抑制其特效，將其作為普通鎬子使用。
 tc.research_page.ELEMENTALTOOLS.5=§l§n風雷劍§r<BR>你將狂風的力量融入了秘術劍。<BR>當你對敵人揮出這把劍，劍刃將發出一到弧狀斬擊，將扇形範圍內的其他目標一併捲入。<BR>右鍵格擋的時候則會召喚出一道纏繞你自身的旋風，將你的敵人以及任何實體目標吹開。<BR>格擋時持有者也會緩慢升騰至空中。
 tc.research_page.ELEMENTALTOOLS.6=§l§n后土鏟§r<BR>融合地之碎片與秘術鏟，你製作出這支能力拔群的挖掘工具。<BR>以其挖掘時能一次剷除3x3方塊的範圍。<BR>如果你右擊某方塊時，它會試圖放置3x3的相同方塊。當然你的物品欄中必須有足夠的同種方塊。<BR>它的挖掘和放置方向取決於你所挖或點擊的面。<BR>按住SHIFT可以看到方塊將如何被安置在世界中，
-tc.research_page.ELEMENTALTOOLS.7=你可以按"G"鍵來改變方塊放置的方向。可以是水平，垂直，或是你所面對的方向。 <BR>當你按住潛行時挖掘可以抑制其特殊效果，將其作為普通鏟子使用。
+tc.research_page.ELEMENTALTOOLS.7=你可以按「G」鍵來改變方塊放置的方向。可以是水平，垂直，或是你所面對的方向。 <BR>當你按住潛行時挖掘可以抑制其特殊效果，將其作為普通鏟子使用。
 tc.research_page.ELEMENTALTOOLS.8=§l§n句芒鋤§r<BR>透過融合秩序與混沌碎片以及秘術鋤，你創造出了一把全能的農具。<BR>使用它可以一次開墾3x3的田地而非一格。 <BR>手持句芒鎬對作物或者其他植物右鍵，將發揮如同使用骨粉的效果，儘管這種功能會更快消耗其耐久。即使對一些普通骨粉不能催化的植物句芒鋤也可能能夠進行催發。<BR>當你按住潛行則可以抑制其特效，將其作為普通鋤頭使用。
 #
 tc.research_name.INFERNALFURNACE=煉獄熔爐
 tc.research_text.INFERNALFURNACE=夠熱嗎？
-tc.research_page.INFERNALFURNACE.1=利用天然§cIgnis§0要素的神奇力量，你使用地獄磚以及黑曜石構築了這個高效且不需要任何燃料的熔爐。實際上，它是如此的高效，有時甚至會額外地以顆粒或錠狀的形式產出所燒的礦物。<BR>無須燃料的煉獄熔爐冶煉速度非常緩慢，除非靈氣場中供應充足的§cIgnis§0魔力。
+tc.research_page.INFERNALFURNACE.1=利用天然§cIgnis§0要素的神奇力量，你使用地獄磚以及黑曜石構築了這個高效且不需要任何燃料的熔爐。實際上，它是如此的高效，有時甚至會額外地以顆粒或錠狀的形式產出所燒的礦物。<BR>無須燃料的煉獄熔爐冶煉速度非常緩慢，除非靈氣場中供應充足的§cIgnis§0魔力。其熔融的核心頂部視同容器，故能以漏斗之類的裝置將物品送入熔爐。
 tc.research_page.INFERNALFURNACE.2=你應該還要注意的是煉獄熔爐偶爾會向環境中洩漏出一些咒波。<BR>將你希望燒的物品從上面投入，它會從正前方吐出產物。有時候你會想，要是你的箱子能夠自己接住這個熔爐吐出來的東西就好了。
 #
 tc.research_name.BELLOWS=奧術風箱
@@ -1312,7 +1318,7 @@ tc.research_name.INFUSION=注魔
 tc.research_text.INFUSION=魔導聚變
 tc.research_page.INFUSION.1=奧術合成以及煉金術也就只能做到這個程度而已了。更好的東西需要你創建更強力的魔導設備。<BR>注魔合成能夠向單件物品中灌注魔力以及來自其他物品的特性。比方說，你能夠將風之要素以及羽毛灌注入普通石頭來得到一種非常輕盈的石材。 <BR>秘術學中通常難有輕鬆而又簡單的事物。建造注魔台前你需要做如下準備：符文矩陣，奧術基座，以及足夠數量的要素源質。
 tc.research_page.INFUSION.2=當你將符文矩陣正確地放置在一個名為注魔祭壇的神秘構造上後，便能夠開始進行注魔合成。<BR>符文矩陣下方，坐落於正中的基座是你用於放置被注魔物品的地方。你還需要環繞祭壇放置一些基座來放置被灌注的材料。最後你還需要在附近放置一些盛放了源質的封罐或者其他儲存魔力的容器。<BR>當一切就緒，你需要使用法杖點擊符文矩陣來開始注魔過程。<BR>在這個過程的第一階段，將會從附近吸取要素源質。 
-tc.research_page.INFUSION.3=若沒有足夠的源質供應，注魔過程會中斷-後文將會對這種你不希望發生的情況做進一步的闡釋。<BR>當所有需求的源質被灌入目標物品後，才能開始吸收被灌注的其他物品的要素。僅當這些都完成後注魔才能順利完成。<LINE>注魔合成並非毫無風險。其完整的過程實質上是把龐雜的魔法能量強制集中到單獨的物品中，在這種情況下往往會發生一些不可預知的事情：<BR>
+tc.research_page.INFUSION.3=若沒有足夠的源質供應，注魔過程會中斷——後文將會對這種你不希望發生的情況做進一步的闡釋。<BR>當所有需求的源質被灌入目標物品後，才能開始吸收被灌注的其他物品的要素。僅當這些都完成後注魔才能順利完成。<LINE>注魔合成並非毫無風險。其完整的過程實質上是把龐雜的魔法能量強制集中到單獨的物品中，在這種情況下往往會發生一些不可預知的事情：<BR>
 tc.research_page.INFUSION.4=比較常見的意外包括注魔過載被基座中斷掉，產生咒波等，但也可能遭遇一些聞所未聞的災難事件。<BR>由於源質缺乏，物品掉落等未解決的問題導致而的注魔時間延遲越久，就越發有可能發生糟糕的事情。<BR>可以有多種途徑來減少這些意外的影響。首先你應該盡可能對稱地佈置注魔祭壇，一定要確保你放置的基座對側有以祭壇為原點對稱的基座與之平衡。當放置被灌注材料時，也需要盡可能保證放置位置對稱與平衡。
 tc.research_page.INFUSION.5=最後你可以環繞祭壇對稱放置一些具有魔導性質的物品(比如蠟燭、頭骨、水晶等)，它們也能夠減少注魔過程的風險。<IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
 tc.research_page.INFUSION.ANCIENT=§n亙古之石§r<BR>你發現的這種詭異古老的石頭擁有一些有趣的魔法特性。利用它建造的注魔樁能夠減少注魔合成所需的源質，並且略微加快合成的速度。但它也會稍微提高注魔過程的不穩定性。<BR>你發現以這種材料製成的基座也能夠減少源質的消耗。
@@ -1328,7 +1334,7 @@ tc.research_page.JARBRAIN.1=你找到了能把殭屍的大腦復活，用以達�
 #
 tc.research_name.HOVERHARNESS=奧術韁繩
 tc.research_text.HOVERHARNESS=那是一隻鳥？
-tc.research_page.HOVERHARNESS.1=終於，你揭開了飛行的秘密。你創造出一種通過使用奧術能量將自身錨定在神秘力場中，因此幫助你擺脫重力的韁繩。你認為量子和夸克在某種程度上也參與了這個過程。<BR>韁繩需要的魔力直接提取自周的靈氣。每單位的Aer和Ignis提供飛行1秒所需的能量。韁繩內的緩衝容量能在失去靈氣供應時維持10秒的飛行能力。<BR>當穿著奧術韁繩時按下"H"以開啟或關閉其功能。
+tc.research_page.HOVERHARNESS.1=終於，你揭開了飛行的秘密。你創造出一種通過使用奧術能量將自身錨定在神秘力場中，因此幫助你擺脫重力的韁繩。你認為量子和夸克在某種程度上也參與了這個過程。<BR>韁繩需要的魔力直接提取自周的靈氣。每單位的Aer和Ignis提供飛行1秒所需的能量。韁繩內的緩衝容量能在失去靈氣供應時維持10秒的飛行能力。<BR>當穿著奧術韁繩時按下「H」以開啟或關閉其功能。
 tc.research_page.HOVERHARNESS.2=急迫附魔能夠加快奧術韁繩的飛行速度。<BR>使用奧術韁繩飛行並不會影響你破壞方塊的速度。
 #
 tc.research_name.HOVERGIRDLE=奧術腰帶
@@ -1413,7 +1419,7 @@ tc.research_name.PRIMALARROW=原初之矢
 tc.research_text.PRIMALARROW=元素之牙箭矢
 tc.research_page.PRIMALARROW.1=這些箭矢每種都灌注了特定類型的原初魔力，這賦予它們一些有趣而有破壞力的特性。<BR>§n風之矢§r<BR>纏繞在箭矢上的魔力劈啪作響。它們造成的傷害與普通箭矢相同，但魔力使得它們能夠穿透任意種類的護甲。<BR>§n火之矢§r<BR>這種箭矢會造成純粹的火焰傷害並點燃它們射中的目標。
 tc.research_page.PRIMALARROW.2=§n水之矢§r<BR>這種箭矢造成的傷害與普通箭矢相同，但其附帶的冰霜魔力會讓你的目標寒至骨髓，從而減緩他們的移動速度。<BR>§n地之矢§r<BR>這種箭矢除去威力相比普通箭矢猛烈得多外，並無其他特殊屬性。<BR>§n秩序矢§r<BR>這種箭矢威力略遜於普通箭矢，但它能穿過護甲讓你的敵人陷入虛弱。<BR>§n混沌矢§r<BR>這種箭矢威力略遜於普通箭矢，
-tc.research_page.PRIMALARROW.3=但無論射中什麼都會造成凋靈效果。<LINE>原初之矢無法自地上撿起，且即使是無限附魔也只有1/3的幾率可以減免原初之矢的消耗。
+tc.research_page.PRIMALARROW.3=但無論射中什麼都能造成凋靈效果。<LINE>原初之矢無法自地上撿起，且即使有無限附魔也只有1/3的幾率可以免於消耗原初之矢。
 #
 tc.research_name.RUNICARMOR=符文護盾
 tc.research_text.RUNICARMOR=護盾開啟！
@@ -1498,7 +1504,7 @@ tc.research_page.TALLOW.1=將肉塊投入坩堝中熬煉，製作出具有多種
 #
 tc.research_name.DISTILESSENTIA=源質蒸餾
 tc.research_text.DISTILESSENTIA=收穫源質
-tc.research_page.DISTILESSENTIA.1=你未來會需求使用龐大種類的數種要素-而非存在法杖內的寥寥幾種原初要素。<BR>利用基本煉金原理你已瞭解了如何分解物品將其轉化為基本的要素源質。<BR>首先你需要一台§l源質熔煉爐§r。源質熔煉爐就像普通熔爐那樣燃燒燃料獲得熱量，但並不用於煉製礦物，而是用以分解物品得到要素源質黏漿。這項程序並非完美，大約會有20%的源質會轉化為咒波而流失。
+tc.research_page.DISTILESSENTIA.1=你未來會需求使用龐大種類的數種要素——而非存在法杖內的寥寥幾種原初要素。<BR>利用基本煉金原理你已瞭解了如何分解物品將其轉化為基本的要素源質。<BR>首先你需要一台§l源質熔煉爐§r。源質熔煉爐就像普通熔爐那樣燃燒燃料獲得熱量，但並不用於煉製礦物，而是用以分解物品得到要素源質黏漿。這項程序並非完美，大約會有20%的源質會轉化為咒波而流失。
 tc.research_page.DISTILESSENTIA.2=這項製程的下一步是提取源質黏漿並以§l奧術蒸餾器§r進行蒸餾。<BR>為了達成這項目的，你必須將奧術蒸餾器安裝在熔煉爐上方。複數的蒸餾器可以安置在彼此的上方以增加儲存量，但這麼做並不能影響熔煉的速度。源質黏漿會逐漸流入蒸餾器並依個別要素分離開來。<BR>當熔煉爐使用源動之焰最為燃料時，蒸餾速度會有顯著的提升。
 tc.research_page.DISTILESSENTIA.3=要素源質能以管型瓶、封罐以及其他更複雜的裝置提取。
 tc.research_page.DISTILESSENTIA.4=§n奧術風箱§r<BR>將奧術風箱安放在冶煉爐旁將能提高產熱效率，提升分解物件的速度。
@@ -1529,7 +1535,7 @@ tc.research_page.ETHEREALBLOOM.2=這種花只能淨化沐浴在其榮光之下�
 #
 tc.research_name.TUBES=要素源質管道
 tc.research_text.TUBES=運輸要素源質
-tc.research_page.TUBES.1=你已發現了好些運輸要素源質的方法，但都被證明難以與大規模的煉金操作相適應-現在這問題解決了。<BR>你已破解了製作穩定及相對密封的管道的關鍵所在。儘管普通的化學物質可以用玻璃管道運輸，但某些類型的要素源質卻可能溶解掉或者直接穿透玻璃。在玻璃管道上裹上鐵皮並用水銀處理，讓即使最不穩定的源質也能安全通過。黃金的管道配件裝飾得管道系統極其美觀。
+tc.research_page.TUBES.1=你已發現了好些運輸要素源質的方法，但都被證明難以與大規模的煉金操作相適應——現在這問題解決了。<BR>你已破解了製作穩定及相對密封的管道的關鍵所在。儘管普通的化學物質可以用玻璃管道運輸，但某些類型的要素源質卻可能溶解掉或者直接穿透玻璃。在玻璃管道上裹上鐵皮並用水銀處理，讓即使最不穩定的源質也能安全通過。黃金的管道配件裝飾得管道系統極其美觀。
 tc.research_page.TUBES.2=管道可以與各種類型的奧術設備相連，儘管一般你主要用它連接封罐和蒸餾器。<BR>要素源質會主動流向任意可以容納它的容器，例如封罐。<BR>裝有不同源質的封罐只會吸引那些同類要素源質。但管道一次只能吸入並運輸一種類型的源質，吸力最高的會優先處理。若無法恰當使用閥門很容易導致管道系統堵塞，所以閥門的使用尤其關鍵。
 tc.research_page.TUBES.3=當你看到氣體被從一個管道被排出，這意味著不同的吸力會干擾彼此。顏色告訴了你其吸入源質類型的線索。<LINE>要素閥門如同普通管道，但可以通過手動或者紅石信號控制其開閉。關閉閥門後通過它的源質流會被阻斷。<LINE>要素音叉是為管道系統排障的方便工具。你可以使用它查看管道或其他使用源質的設備中當前容納著何種源質以及它們的吸力強弱。
 tc.research_page.TUBES.4=可以藉由魔杖點擊來斷開或接上相鄰的源質管道。<BR>也能用魔杖點擊中央部份來像調節閥門一樣旋轉它。
@@ -1593,7 +1599,7 @@ tc.research_page.MATSTUDWOOD.1=由於傀儡學需要的精密部件不容許任�
 #
 tc.research_name.MATSTUDIRON=材料專題：鐵
 tc.research_text.MATSTUDIRON=進階鐵材加工
-tc.research_page.MATSTUDIRON.1=鐵擁有許多值得推薦的特性-它比木材更加結實且具備木材所沒有的延展性。然而鐵的加工難度更大且相當沉重。
+tc.research_page.MATSTUDIRON.1=鐵擁有許多值得推薦的特性——它比木材更加結實且具備木材所沒有的延展性。然而鐵的加工難度更大且相當沉重。
 #
 tc.research_name.MATSTUDBRASS=材料專題：黃銅
 tc.research_text.MATSTUDBRASS=進階黃銅加工
@@ -1687,7 +1693,7 @@ tc.research_page.SEALPROVIDE.1=類似空置印記，但是它只會在需要時�
 tc.research_page.SEALPROVIDE.2=提供印記的篩選僅指定哪些項目能被取出，提出需求的印記才能指定具體的目標項目。
 #
 tc.research_name.SEALHARVEST=控制印記：收穫
-tc.research_text.SEALHARVEST=綠色機械讚
+tc.research_text.SEALHARVEST=機械園丁
 tc.research_page.SEALHARVEST.1=這個印記會掃描指定範圍內有無可收穫的作物，發現後將指派傀儡進行收割。<BR>若有需要，印記也會嘗試在有種子(或其他類似物)時重種作物。
 #
 tc.research_name.SEALGUARD=控制印記：守衛
@@ -1700,7 +1706,7 @@ tc.research_text.SEALBUTCHER=染血的雙臂
 tc.research_page.SEALBUTCHER.1=即使§5守衛§0印記能殺死動物，但缺乏選擇性。<BR>屠夫印記與§5守衛§0印記類似，但是它只會標定成年動物。此外它還能留下至少一對活口以用來繁殖。
 #
 tc.research_name.SEALBREAK=控制印記：破壞者
-tc.research_text.SEALBREAK=*Tap* *Tap* *Tap*
+tc.research_text.SEALBREAK=敲敲敲
 tc.research_page.SEALBREAK.1=這個印記指示傀儡破壞範圍內的任何方塊。<BR>破壞方塊所需的時間取決於其硬度。<BR>你可以指定傀儡破壞或忽略特定的方塊。<BR>值得注意的是由於傀儡的機動性、速度以及有限的活動範圍，使得這顆核心僅能作為臨時用途，而無法成為一個有效率的挖礦工具。
 #
 tc.research_name.SEALLUMBER=控制印記：樵夫
@@ -1708,7 +1714,7 @@ tc.research_text.SEALLUMBER=And I'm ok
 tc.research_page.SEALLUMBER.1=特化的§5破壞者§0印記，樵夫印記只會標定原木，會從與傀儡敲擊的原木相連的最遠處開始開始破壞，而非直接砍下眼前的原木。<BR>這意味著能夠有效地從地面由上往下砍樹。
 #
 tc.research_name.SEALUSE=控制印記：使用
-tc.research_text.SEALUSE=Clicky click
+tc.research_text.SEALUSE=喀嗒點擊
 tc.research_page.SEALUSE.1=這個印記讓傀儡能像玩家一樣使用左右鍵來點擊你所標記的方塊。<BR>也能使用其手上的物品或是你所指定的物件來進行點擊。<BR>當你移除了其所貼附的方塊後，該印記也能維持原狀，使印記如你所願的標記在半空中。<BR>你可以使用白名單來要求傀儡取用特定物品。
 #
 tc.research_name.GOLEMVISION=傀儡秘術生體之眼
@@ -1716,7 +1722,7 @@ tc.research_text.GOLEMVISION=提高視野
 tc.research_page.GOLEMVISION.1=你融合血肉與奧術機關創造出了一對敏銳的雙眼。<BR>配備這雙眼睛的傀儡能獲得雙倍的視力範圍(32格遠)。<BR>§9此研究解鎖了額外的傀儡部件。§0
 #
 tc.research_name.GOLEMCLIMBER=傀儡機動性：攀爬
-tc.research_text.GOLEMCLIMBER=There aint no mountains high enough
+tc.research_text.GOLEMCLIMBER=熱情比山高
 tc.research_page.GOLEMCLIMBER.1=透過裝配攀爪、吊鉤及其他裝備，可以讓傀儡獲得越過高牆以及其他障礙物的能力。<BR>§9此研究解鎖了額外的傀儡部件。§0
 #
 tc.research_name.GOLEMFLYER=傀儡機動性：飛行
@@ -1724,11 +1730,11 @@ tc.research_text.GOLEMFLYER=Up, Up and Away!
 tc.research_page.GOLEMFLYER.1=基本上透過砍掉傀儡的雙腿並換上奧術懸浮裝置就能讓你的傀儡獲得飛行能力。換來優異(但不穩定)機動性的代價是其緩慢的移動速度。<BR>§9此研究解鎖了額外的傀儡部件。§0
 #
 tc.research_name.GOLEMBREAKER=傀儡操作：方塊破壞 
-tc.research_text.GOLEMBREAKER=Smash & grab
+tc.research_text.GOLEMBREAKER=粉碎與掠奪
 tc.research_page.GOLEMBREAKER.1=透過將傀儡的手腕換為強大的鑽石刀片氣動砂輪機，使傀儡能夠破壞任何的堅硬材質。<BR>§9此研究解鎖了額外的傀儡部件。§0
 #
 tc.research_name.GOLEMCOMBATADV=強化傀儡戰力
-tc.research_text.GOLEMCOMBATADV=Better Faster Stronger
+tc.research_text.GOLEMCOMBATADV=更強，更壯！
 tc.research_page.GOLEMCOMBATADV.1=你現在能透過製造特製的傀儡武器及裝甲來使傀儡更加驍勇善戰。<BR>§9此研究解鎖了額外的傀儡部件。§0
 #
 #
@@ -1740,13 +1746,13 @@ tc.research_page.ELDRITCHMINOR.1=一切忽然變的如此清晰。在他人眼�
 #
 tc.research_name.ELDRITCHMAJOR=異象啟示錄
 tc.research_text.ELDRITCHMAJOR=我已經看穿了那無垠的邊界
-tc.research_page.ELDRITCHMAJOR.1=面紗已經被揭開-吾心中有道門已經被開啟。<BR>當我望穿吾所迷惘處。不，那並非迷惘§m我所看見的§r<BR>§o吾之所見 吾 見 吾見靓 五口目 ㄨ§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
-tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>這是誰畫的阿！？
+tc.research_page.ELDRITCHMAJOR.1=面紗已經被揭開——吾心中那道門已經被開啟。<BR>當我望穿吾所迷惘處。不，那並非迷惘§m我所看見的§r<BR>§o吾之所見 吾 見 吾見靓 五口目 ㄨ§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
+tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>這是誰畫的阿!?
 #
 tc.research_name.VOIDMETAL=虛無鋼
-tc.research_text.VOIDMETAL=怪了，這摸起來應該是涼...
-tc.research_page.VOIDMETAL.1=透過向金屬灌入魔力，你曾製造出秘術錠，還算是了不得的發現吧，不過今後就把它們留給那些業餘的愛好人士吧。<BR>那依稀能回想起的內容彷彿夢境又如記憶般，讓你產生了去嘗試一些更加不同之事物的...衝動。假如你向金屬灌入的並非魔力，而是產生那些魔力的源泉，那些存在於群星之間的黑暗和虛空，又會如何呢？<BR>合成出來的金屬是如此令人不安的光滑、溫暖。猶如黃金般柔軟易於加工，
-tc.research_page.VOIDMETAL.2=但一旦受到衝擊，便會變得有如秘術錠一般堅硬，甚至猶有過之。更加令人印象深刻的是，即使是毀滅性的損壞，它也能夠很快地自動復原，金屬會自動流向它原本所在的位置。<BR>唯一的劣勢是它不再像秘術錠那樣易於附魔，但即使如此附魔性能也不比鐵這樣的世俗材料遜色。<BR>使用這種金屬時你發現有一點必須加以關注-被它傷害到似乎會暫時性地剝奪你的體力。
+tc.research_text.VOIDMETAL=怪了，這摸起來應該是涼…
+tc.research_page.VOIDMETAL.1=透過向金屬灌入魔力，你曾製造出秘術錠，還算是了不得的發現吧，不過今後就把它們留給那些業餘的愛好人士吧。<BR>那依稀能回想起的內容彷彿夢境又如記憶般，讓你產生了去嘗試一些更加不同之事物的…衝動。假如你向金屬灌入的並非魔力，而是產生那些魔力的源泉，那些存在於群星之間的黑暗和虛空，又會如何呢？<BR>合成出來的金屬是如此令人不安的光滑、溫暖。猶如黃金般柔軟易於加工，
+tc.research_page.VOIDMETAL.2=但一旦受到衝擊，便會變得有如秘術錠一般堅硬，甚至猶有過之。更加令人印象深刻的是，即使是毀滅性的損壞，它也能夠很快地自動復原，金屬會自動流向它原本所在的位置。<BR>唯一的劣勢是它不再像秘術錠那樣易於附魔，但即使如此附魔性能也不比鐵這樣的世俗材料遜色。<BR>使用這種金屬時你發現有一點必須加以關注——被它傷到時似乎會暫時性地剝奪你的體力。
 #
 tc.research_name.ARMORVOIDFORTRESS=虛無祕術使長袍
 tc.research_text.ARMORVOIDFORTRESS=異界風格
@@ -1754,15 +1760,15 @@ tc.research_page.ARMORVOIDFORTRESS.1=一個真正開悟的祕術使理解了如�
 #
 tc.research_name.ENTEROUTER=世界之外
 tc.research_text.ENTEROUTER=這裡不再是堪薩斯州
-tc.research_page.ENTEROUTER.1=你不大確定跨入圓環時究竟期待著什麼，但是絕對不是這種由破碎的石塊構成的詭異結構和扭曲的通道。<BR>這地方非常的不對勁-你無法看出這結構有任何的實際用途… 除非它的目的就是作為一個致命的迷宮。<BR>怪異的能量經常自四周產生，你的魔法在這個異境中狀態也顯得相當怪異。任何你在世上見識過的各種訪客都與此地顯得格格不入。
+tc.research_page.ENTEROUTER.1=你不大確定跨入圓環時究竟期待著什麼，但是絕對不是這種由破碎的石塊構成的詭異結構和扭曲的通道。<BR>這地方非常的不對勁——你無法看出這結構有任何的實際用途… 除非它的目的就是作為一個致命的迷宮。<BR>怪異的能量經常自四周產生，你的魔法在這個異境中狀態也顯得相當怪異。任何你在世上見識過的各種訪客都與此地顯得格格不入。
 #
 tc.research_name.OUTERREV=外界之啟示
 tc.research_text.OUTERREV=事情不如看上去的那麼單純
-tc.research_page.OUTERREV.1=你的質疑獲得了證實。你發現這裡根本不是你所追尋的異界。這個地方與你所知道的"現實"完全不同，你也不願相信這存在於你所理解的"現實"。比起物理上，它是更接近於精神結構的存在，但是什麼樣的精神能構容納這個？<BR>你所能解出的只有極少數的符號，但是你能肯定這是一個陷阱-一個用來測試來客，淘汰弱者的地方。但你無法確定是出於什麼目的。
+tc.research_page.OUTERREV.1=你的質疑獲得了證實。你發現這裡根本不是你所追尋的異界。這個地方與你所知的「現實」完全不同，你也不願相信這存在於你所理解的「現實」。比起物理上，它是更接近於精神結構的存在，但是什麼樣的精神能構容納這個？<BR>你所能解出的只有極少數的符號，但是你能肯定這是一個陷阱——用來測試來客，淘汰弱者的地方。但你無法確定是出於什麼目的。
 #
 tc.research_name.PRIMPEARL=原初明珠
 tc.research_text.PRIMPEARL=開端之前
-tc.research_page.PRIMPEARL.1=你生平首次發現了一個你認為自己永遠無法解開的謎團。<BR>這東西包含著單純的原初要素，但卻擁有不同於你平常所知，普通的原初要素的性質。你對這個現象有幾個理論：<BR>首先，這顆"珠子"可能是在現實世界創世初期的原初物質所殘留下-初級的魔法形成之前就已混雜並合併成複合元素。<BR>或者，它可能是來自於一個具有不符合你所知的魔法規則的地方。
+tc.research_page.PRIMPEARL.1=你生平首次發現了一個你認為自己永遠無法解開的謎團。<BR>這東西包含著單純的原初要素，但卻擁有不同於你平常所知，普通的原初要素的性質。你對這個現象有幾個理論：<BR>首先，這顆「珠子」可能是在現實世界創世初期的原初物質所殘留下——初級的魔法形成之前就已混雜並合併成複合元素。<BR>或者，它可能是來自於一個具有不符合你所知的魔法規則的地方。
 tc.research_page.PRIMPEARL.2=你不知道何種解釋較令人擔憂。<BR>不論是哪種方式，這顆珠子都是一個蘊含著強大且近乎無限魔力的至寶。<BR>該是時候將它做為己用了。
 #
 tc.research_name.PRIMALCRUSHER=原初粉碎杵
@@ -1772,18 +1778,18 @@ tc.research_page.PRIMALCRUSHER.2=你創造出了同時具有其原型中大多�
 #
 tc.research_name.SANITYCHECK=神智檢測儀
 tc.research_text.SANITYCHECK=勇於內省
-tc.research_page.SANITYCHECK.1=近來你的腦海中一片紛繁。似乎你應當好好自省一番，以確保沒有哪裡不對勁。<BR>神智檢測儀能夠幫助你查看精神世界的扭曲效果以及它們會如何影響你。<BR>理所當然地，你不可能允許這些資料落入敵手，因此你煞費苦心地讓它提供的信息模糊而晦澀，不過你似乎做得過頭了-你自己理解起來都有點困難。
+tc.research_page.SANITYCHECK.1=近來你的腦海中一片紛繁。似乎你應當好好自省一番，以確保沒有哪裡不對勁。<BR>神智檢測儀能夠幫助你查看精神世界的扭曲效果以及它們會如何影響你。<BR>理所當然地，你不可能允許這些資料落入敵手，因此你煞費苦心地讓它提供的信息模糊而晦澀，不過你似乎做得過頭了——你自己理解起來都有點困難。
 #
 tc.research_name.CRIMSON=緋色崇拜
 tc.research_text.CRIMSON=一則禁忌的傳說
-tc.research_page.CRIMSON.1=書冊上的多數內容以密如蛛網，不知所云的字符寫成，但你所能讀懂的部分讓你對那些緋色邪徒的目的隱約有了奇怪的瞭解。<BR>緋色邪徒的起源仍籠罩在謎霧之中，但他們似乎正致力於完成一個他們稱之為"Apertis Oculis"「開眼」的儀式。這儀式的目的尚未明瞭，你推測那應該有些好處。<BR>但有趣的是，你認為秘術學能夠補完它們長久以來一直尋找的儀式所殘缺的部分。但很明顯開展這類研究是相當瘋狂的行為…
+tc.research_page.CRIMSON.1=書冊上的多數內容以密如蛛網，不知所云的字符寫成，但你所能讀懂的部分讓你對那些緋色邪徒的目的隱約有了奇怪的瞭解。<BR>緋色邪徒的起源仍籠罩在謎霧之中，但他們似乎正致力於完成一個他們稱之為 "Apertis Oculis" 「開眼」的儀式。這儀式的目的尚未明瞭，你推測那應該有些好處。<BR>但有趣的是，你認為秘術學能夠補完它們長久以來一直尋找的儀式所殘缺的部分。但很明顯開展這類研究是相當瘋狂的行為…
 #
 tc.research_name.OCULUS=開眼儀式
 tc.research_text.OCULUS=我將向他們展示一切，向他們所有人。
-tc.research_page.OCULUS.1=一切都是那麼的簡單，你對那些緋色邪徒一直沒有發現它感到驚訝。<BR>想要完成儀式，需要將4顆異象邪眼安放在你發現緋色教徒的那種祭壇的特殊頂石上。<BR>完成上述步驟後，還需要讓頂石從法杖中抽取大量的原初要素，每種大約1000點。
-tc.research_page.OCULUS.2=如果所有步驟均正確，那麼儀式將被完成，而名為"眼"之存在將會睜開。<BR>當然你並不知道那意味著什麼。不過那又何妨？只有愚者才會畏懼未知。
+tc.research_page.OCULUS.1=一切都是那麼的簡單，你對那些緋色邪徒一直沒有發現它感到驚訝。<BR>想要完成儀式，需要將4顆異象邪眼安放在你發現緋色教徒的那種祭壇的特殊頂石上。<BR>完成上述步驟後，還需要讓頂石從法杖中抽取大量的原初要素，每種大約500單位。
+tc.research_page.OCULUS.2=如果所有步驟均正確，那麼儀式將被完成，而名為「眼」之存在將會睜開。<BR>當然你並不知道那意味著什麼。不過那又何妨？只有愚者才會畏懼未知。
 #
 tc.research_name.SINSTONE=凶險磁石
 tc.research_text.SINSTONE=你有跟隨它的勇氣嗎？
-tc.research_page.SINSTONE.1=你在研究Apertis Oculis時得到一個有趣的發現。「眼」的所在之處會放出一種特殊的能量，即使它處於關閉的狀態。<BR>透過在一片燧石上注魔，你認為你做出的這項簡單占卜設備，能在面向這種能量時為你指明。<BR>其偵測範圍有限，但卻是一項有價值的發明，因為祭壇往往難以被注意到。
+tc.research_page.SINSTONE.1=你在研究 Apertis Oculis 時得到一個有趣的發現。<BR>「眼」的所在之處會放出一種特殊的能量，即使它處於關閉的狀態。<BR>你認為在一片燧石上透過注魔所做出的簡單占卜設備，能在你面向這種能量時為你指明。<BR>其偵測範圍有限，但卻是一項有價值的發明，因為祭壇往往出現在難以被注意到的地方。
 #
