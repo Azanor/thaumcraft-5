@@ -166,6 +166,7 @@ tile.arcane_brick_stairs.name=神秘のレンガ階段
 tile.ancient_stairs.name=いにしえの石階段
 tile.translucent.amber_block.name=琥珀ブロック
 tile.translucent.amber_brick.name=琥珀レンガ
+tile.translucent.empty.name=(空間)
 tile.slab_wood.greatwood.name=グレートウッドのハーフブロック
 tile.slab_wood.silverwood.name=シルバーウッドのハーフブロック
 tile.slab_stone.arcane.name=神秘の石ハーフブロック
@@ -517,6 +518,7 @@ item.focus_warding.name=保護の杖星
 item.focus_primal.name=根源の杖星
 item.focus_shard.name=魔力片の杖星
 item.focus_grapple.name=フックショットの杖星
+item.focus_builder.name=建築家の杖星
 item.wand_cap.iron.name=鉄の石突
 item.wand_cap.gold.name=金の石突
 item.wand_cap.brass.name=真鍮の石突
@@ -1209,6 +1211,11 @@ tc.research_name.FOCUSGRAPPLE=フックショットの杖星
 tc.research_text.FOCUSGRAPPLE=ビューン！
 tc.research_page.FOCUSGRAPPLE.1=杖星はその性質のため瞬間的な効果しか作り出せず、移動を容易にしたり飛行に似た効果を作り出すには不適であった。しかしあなたは挑戦から逃げるような者ではなく、その挑戦はこのフックショットの杖星の発見へと導いた。<BR>この杖星は元素の力の稲妻をブロックへと放ち、術者をそのブロックへ向けて引っ張る。これは峡谷や高所での移動に便利であり、また単に短距離を素早く移動するのにも使える。スニークキーを押すことで稲妻を取り外せる。「潜在能力」は有効距離を増幅する。
 #
+tc.research_name.FOCUSBUILDER=建築家の杖星
+tc.research_text.FOCUSBUILDER=九九を速く
+tc.research_page.FOCUSBUILDER.1=この杖星は等価交換の杖星と多少似ており、ブロックを置換する代わりに単純にブロックを設置する。<BR>最初に設置したいブロックをスニーク右クリックして、そのブロックを登録しなければならない。<BR>これは64ブロック先のブロックまでターゲットできる。ブロックが置かれるべき空間にはアウトラインが表示され、右クリックすることでそれを設置する。等価交換の杖星と同様に設置すべきブロックは自分のインベントリに持っていなければならない。
+tc.research_page.FOCUSBUILDER.2=ブロックは対象の面から術者自身のいる座標軸までの延長線上に、一度に最大で16ブロックまで設置される。杖星をアップグレードすればより多くのブロックを一度に置けるようになる。<BR>設置されるライン上に他のブロックが存在していたなら、それは置換され術者のインベントリに置かれる。
+#
 tc.research_name.FOCUSPOUCH=杖星ポーチ
 tc.research_text.FOCUSPOUCH=あなたの杖星に便利な携帯容器
 tc.research_page.FOCUSPOUCH.1=多くの杖星をコレクションしていると、それらを持ち運ぶのは非常に煩わしい。このポーチはそんな問題を解決する。<BR>杖の杖星を切り替える時は常に最初にこのポーチがチェックされ、また取り除かれる杖星は優先的にポーチに入れられる。またポーチを右クリックすると手動での杖星の出し入れもできる。<BR>またBaublesのベルトスロットに置いて運ぶこともできる。
@@ -1782,7 +1789,7 @@ tc.research_page.CRIMSON.1=この本の大部分はか細く理解不能な文�
 #
 tc.research_name.OCULUS=開眼
 tc.research_text.OCULUS=全てを、全てを見せよう！
-tc.research_page.OCULUS.1=それはまるで簡単だった―紅の狂信者たちがこれを発見できなかったことは驚きである。<BR>儀式を行うには単純に4つのエルドリッチの眼を、初めて教団を見つけた場所にあった奇妙な祭壇にある特別に印された要石にはめ込む必要がある。<BR>そうしたら大量の根源のvis――各1000単位程あれば足りるだろう――を杖で要石に注入するだけである。
+tc.research_page.OCULUS.1=それはまるで簡単だった―紅の狂信者たちがこれを発見できなかったことは驚きである。<BR>儀式を行うには単純に4つのエルドリッチの眼を、初めて教団を見つけた場所にあった奇妙な祭壇にある特別に印された要石にはめ込む必要がある。<BR>そうしたら大量の根源のvis――各500単位程あれば足りるだろう――を杖で要石に注入するだけである。
 tc.research_page.OCULUS.2=全てを正しく行えば儀式は完了しいわゆる「眼」が開かれることになる。<BR>もちろん、あなたはそれが何を意味するのか見当もつかない。問題ない、未知を恐れるのは愚者のみだ！
 #
 tc.research_name.SINSTONE=邪悪な磁石
