@@ -566,12 +566,12 @@ item.Wand.bone.rod=en os
 item.Wand.reed.rod=en roseau
 item.Wand.quartz.rod=en quartz
 item.Wand.primal.rod=Primal
-item.Wand.iron.cap=couvert de fer
-item.Wand.brass.cap=surmonter de laiton
+item.Wand.iron.cap=couverte de fer
+item.Wand.brass.cap=surmontée de laiton
 item.Wand.gold.cap=réunis d'or
-item.Wand.copper.cap=couvert de cuivre
-item.Wand.silver.cap=surmonter d'argent
-item.Wand.thaumium.cap=surmonter de thaumium
+item.Wand.copper.cap=couverte de cuivre
+item.Wand.silver.cap=surmontée d'argent
+item.Wand.thaumium.cap=surmontée de thaumium
 item.Wand.void.cap=à l'aspect du Vide
 #
 # Misc
@@ -644,9 +644,9 @@ item.seal.use.name=Control Seal: Use
 item.seal.provider.name=Control Seal: Provide
 #
 # Text
-item.runic.charge=Runic shield
-item.warping=Warping
-item.capacity.text=Capacity
+item.runic.charge=Bouclier runique
+item.warping=Warper
+item.capacity.text=Capacité
 item.chargebonus.text=Charge
 #
 # Golems 
@@ -1265,7 +1265,7 @@ tc.research_text.WANDPED=Recharge de baguette automatique
 tc.research_page.WANDPED.1=Traverser la campagne pour recharger votre baguette est très bien, mais une manière automatique de le faire serait beaucoup mieux.<BR>Ce piédestal est spécialement conçu pour ça. Toute baguette placée dessus va drainer automatiquement le Vis de l'aura.<BR>Les baguettes ne sont pas les seuls objets qui peuvent être recharger dans cet appareil - Plusieurs gadgets à Vis devraient pouvoir se recharger.
 #
 tc.research_name.VISAMULET=Stockage de Vis
-tc.research_text.VISAMULET=ne gâche rien, ne désire rien
+tc.research_text.VISAMULET=Ne gâche rien, ne désire rien
 tc.research_page.VISAMULET.1=La plupart du temps une seule baguette est plus que suffisante pour n'importe quel thaumaturge, mais occasionnellement le Vis d'une seule baguette n'est pas suffisant. Transporter plus d'une baguette règlerais le problème, mais les expériences ont montré qu'il existait un autre moyen.<BR>En créant une amulette capable de stocker du Vis, vous serez capable de recharger votre baguette ou n'importe quel objet sur le terrain quand elle est portée.<BR>Votre succes est mitigé cependant. Vous pouvez seulement recharger un objet en le tenant dans votre main et le vitesse de charge est lente.
 tc.research_page.VISAMULET.2=Par contre l'amulette se montre parfaite source d'énergie pour d'autre chose comme l'enchantement de réparation ou le bouclier runique.<BR>L'amulette se recharge d'elle même lentement lorsque elle est portée ou elle peut être placée dans un piédestal de recharge.<BR>It will not drain the aura once it falls below 10%.
 #
