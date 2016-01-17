@@ -494,10 +494,10 @@ item.traveller_boots.name=Bottes du voyageur
 
 # Baubles
 item.amulet_runic.0.name=Amulette de blindage runique
-item.amulet_runic.1.name=Amulette de blindage d'urgence
+item.amulet_runic.1.name=Amulette de bouclier d'urgence
 item.ring_runic.0.name=Anneau de protection
 item.ring_runic.1.name=Anneau de blindage runique
-item.ring_runic.2.name=Anneau chargé de blindage
+item.ring_runic.2.name=Anneau de protection chargé
 item.ring_runic.3.name=Anneau revitalisant de blindage
 item.girdle_runic.0.name=Ceinture de blindage runique
 item.girdle_runic.1.name=Ceinture de blindage cinétique
@@ -1389,94 +1389,94 @@ tc.research_name.ARCANEEAR=Oreille arcanique
 tc.research_text.ARCANEEAR=Shhh, entendez-vous quelque chose ?
 tc.research_page.ARCANEEAR.1=L'oreille arcanique est un appareil capable de détecter le son émis par les blocs musicaux proches. Quand elle reconnait une note spécifique, elle émet un court signal de redstone.<BR>L'oreille arcanique doit être réglée à l'identique des blocs musicaux à écouter : ton de la note et matière sur laquelle elles sont posées. Les oreilles arcaniques peuvent être placées sur n'importe quelle surface.
 #
-tc.research_name.MIRROR=Mirror Magic
-tc.research_text.MIRROR=Through the looking glass
-tc.research_page.MIRROR.1=You are now able to enchant a pair of magical mirrors that act as doorways to the void between the worlds. Anything shoved (or piped) through one mirror will pass through this realm and emerge from the other mirror - even across dimensional boundaries.<BR>Unfortunately this realm is extremely hostile to mortal creatures like yourself so using these mirrors to transport living creatures is not yet possible.<BR>To link a pair of these magical mirrors you simply need to place one of them in a desired location. You then right-click with a second
-tc.research_page.MIRROR.2=mirror on the one you placed, and the pair will become linked. You may then place the second wherever you wish and items thrown into one will be ejected out the other.<BR>Mirrors can only be linked in pairs, so while both are placed in the world and able to transmit items you cannot link them to another mirror. When you pick up a mirror it will remember the last partner it was linked with, allowing you to easily move it without having to relink it. While one of the paired mirrors is picked up, you may easily relink either of them.
-tc.research_page.MIRROR.3=Transporting items through mirrors places stress on the magical aura. Every now and again this causes Flux to be generated. The more items you transport, the more flux is generated..
+tc.research_name.MIRROR=Miroir magique
+tc.research_text.MIRROR=À travers le miroir
+tc.research_page.MIRROR.1=Vous êtes maintenant capable d'enchanter une paire de miroirs magiques. Ils agissent alors comme des portes sur le vide entre les mondes. Tout ce qui traverse un miroir voyage dans ce royaume et ressort de l'autre côté, franchissant même les frontières des dimensions.<BR>Malheureusement, cet endroit est extrêmement hostile aux créatures mortelles donc il est impossible de transporter des créatures vivantes à travers ces miroirs. Pour lier une paire de miroirs magiques, vous devez simplement en placer un à l'endroit désiré puis faire ensuite un clic droit dessus avec le second
+tc.research_page.MIRROR.2=miroir en main. Vous pouvez ensuite placer le second miroir où vous voulez et les objets qui traversent l'un sont éjectés par l'autre.<BR>Les miroirs ne peuvent être liés que par paires, donc deux miroirs jumelés ne peuvent pas être liés à d'autres miroirs supplémentaires. Lorsque vous récupérez un seul miroir, il reste lié, vous permettant de le déplacer facilement sans devoir le relier à nouveau. Cependant, si vous récupérez les deux miroirs d'une paire, ils seront déliés.
+tc.research_page.MIRROR.3=Transporter des objets à travers les miroirs "stress" l'aura magique. De temps en temps, cela génère du Flux. Plus d'objet sont tranportés, plus de Flux est généré...
 #
-tc.research_name.MIRRORHAND=Magical Hand Mirror
-tc.research_text.MIRRORHAND=Personal reflection
-tc.research_page.MIRRORHAND.1=This magical hand mirror functions much the same way as other magical mirrors. You simply push items through the glass and they will pop out at the linked mirror.<BR>Simple right-click while holding the linked hand mirror and you will be able to place any items in your inventory into the looking glass to have them transported.<BR>The hand mirror can be linked to a mirror that is already paired with another.<BR>It should be noted that the hand mirror can only send items, not receive them.
+tc.research_name.MIRRORHAND=Miroir à main magique
+tc.research_text.MIRRORHAND=Réflexion personnelle
+tc.research_page.MIRRORHAND.1=Ce miroir à main magique fonctionne de la même manière que les autres miroirs magiques. Il suffit de pousser les objets à travers le verre et ils sortent du miroir lié.<BR>Faites un clic droit en tenant votre miroir à main pour le lier. Vous pouvez alors placer n'importe quel objet de votre inventaire dans le miroir pour le transporter.<BR>Les miroirs à main peuvent être liés à des miroirs déjà jumelés.<BR>Il convient de noter que le miroir à main peut seulement envoyer les objets, pas les recevoir.
 #
-tc.research_name.PAVETRAVEL=Paving Stone of Travel
-tc.research_text.PAVETRAVEL=Easing your journey
-tc.research_page.PAVETRAVEL.1=By altering the magical structure of arcane stone you are able to create a paving stone that adds new bounce to the step of anyone walking across it.<BR>Anything walking across it will have greater speed and agility for a couple of seconds.
+tc.research_name.PAVETRAVEL=Dalle de voyage
+tc.research_text.PAVETRAVEL=Alléger votre voyage
+tc.research_page.PAVETRAVEL.1=Par la modification de la structure magique de la pierre arcanique, vous êtes capable de créer des dalles de pierres qui ajoutent du rebond au pas de quiconque qui marcherait dessus.<BR>Tous ceux qui marchent dessus gagnent une plus grande vitesse et une meilleure agilité pendant quelques secondes.
 #
-tc.research_name.PAVEBARRIER=Barrier Stone
-tc.research_text.PAVEBARRIER=Keeping things out
-tc.research_page.PAVEBARRIER.1=You have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the areas you wish to protect and the outside world.<BR>An active redstone signal will disable this block.
-tc.research_page.PAVEBARRIER.2=The color of the runes above the stone indicates its current status.<BR>Purple runes show that it is currently preventing something from passing through.<BR>Blue runes indicates it has been deactivated with a redstone signal.<BR>Red runes shows that something is preventing it from fully warding an area and a gap exists where something might be able to pass through.
+tc.research_name.PAVEBARRIER=Dalle de protection
+tc.research_text.PAVEBARRIER=Garder les choses en dehors
+tc.research_page.PAVEBARRIER.1=Vous avez découvert une façon de transformer la pierre arcanique en sceau mystique qui empêche la plupart des créatures de les traverser. Il convient de noter que ces sceaux ne sont pas efficaces à 100% et ne peuvent pas empêcher d'autres joueurs d'entrer dans la zone mais elles gardent à distance la plupart des menaces. Elles empêchent aussi les golems de les traverser.<BR>Pour de meilleurs résultats, vous avez besoin d'une ligne ininterrompue entre la zone que vous voulez protéger et le monde extérieur.<BR>Un signal de redstone désactive ce bloc.
+tc.research_page.PAVEBARRIER.2=La couleur des runes au dessus de la dalle indique son statut.<BR>Des runes violettes indiquent qu'elle empêche actuellement quelque chose de passer.<BR>Des runes bleues indiquent qu'elle à été désactivée par un signal de redstone.<BR>Des runes rouges montrent que quelque chose l'empêche de complétement protéger une zone et qu'il existe une lacune dans laquelle quelque chose pourrait être capable de passer.
 #
-tc.research_name.ARMORFORTRESS=Thaumium Fortress Armor
-tc.research_text.ARMORFORTRESS=Nothing is getting in
-tc.research_page.ARMORFORTRESS.1=Thaumium armor has many things to recommend it, but its basic construction leaves it inferior to diamond armor. By improving the construction process and complexity you have found a way to create armor of exceptional craftsmanship, durability and strength.<BR>Each individual piece of Thaumium Fortress armor has the same protective properties as diamond armor, but has greater durability and offers additional protection against magic and fire.<BR>The biggest benefit however is that the individual armor pieces is designed and constructed to be worn together: Each additional
-tc.research_page.ARMORFORTRESS.2=piece of this armor worn increases the overall protection offered by all other pieces and improves its visual appeal.<BR>As with most objects constructed from thaumium, the armor is easy to enchant.
+tc.research_name.ARMORFORTRESS=Armure de la forterresse en Thaumium
+tc.research_text.ARMORFORTRESS=Rien ne passera
+tc.research_page.ARMORFORTRESS.1=L'armure de Thaumium est recommandé par bien des aspects, mais sa construction basique la laisse inférieure à l'armure de diamant. En améliorant le processus de création et sa complexité vous avez trouvé un moyen de créer une armure exceptionnelle, aussi résistante que durable.<BR>Individuellement chaque pieces de l'armure de la forteresse a les même propriétés protectives que l'armure de diamant, mais à une plus grande durabilité et offre une meilleur protection au feu et à la magie.<BR>Le plus gros bénéfice est que les pièces de l'armure sont conçues et construites pour être portées ensemble: Chaque pièce
+tc.research_page.ARMORFORTRESS.2=supplémentaire porté de cette armure augmente la protection totale offerte par les autres pièces et améliore son apparence.<BR>Bien sur comme tous les objets construits en thaumium, Cette armure est facile à enchanter.
 #
-tc.research_name.HELMGOGGLES=Helm of Revealing
-tc.research_text.HELMGOGGLES=Thaumium Fortress Helm Upgrade
-tc.research_page.HELMGOGGLES.1=Usually a thaumaturge needs to choose between protection and utility when out and about. Not anymore!<BR>This modifies a Thaumium Fortress Helm to give you all the functionality of Goggles of Revealing. It does however not give the vis discount the goggles usually do.<BR>A helm can have this upgrade along with faceplates. 
+tc.research_name.HELMGOGGLES=Heaume de révélation
+tc.research_text.HELMGOGGLES=Amélioration pour le heaume de la forteresse
+tc.research_page.HELMGOGGLES.1=Habituellement, un thaumaturge doit choisir entre la protection et le coté pratique quand il est de sortie. Plus maintenant!<BR>Vous pouvez modifié un heaume de la forteresse en thaumium pour lui donner toutes les fonctionnalités des lunettes de révélation. Malheuresement la réduction de Vis qu'offrait les lunettes est perdue dans le processus.<BR>Un heaume peut avoir cette amélioration et un masque. 
 #
-tc.research_name.MASKGRINNINGDEVIL=Grinning Devil Faceplate
-tc.research_text.MASKGRINNINGDEVIL=Thaumium Fortress Helm Upgrade
-tc.research_page.MASKGRINNINGDEVIL.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When worn, this mask has an interesting damping effect on those suffering from Warp event. While it does not reduce the number of events, it does reduce their severity somewhat.<BR>It seems laughing in the face of danger does have its rewards. 
+tc.research_name.MASKGRINNINGDEVIL=Masque de Diable souriant
+tc.research_text.MASKGRINNINGDEVIL=Amélioration pour le heaume de la forteresse
+tc.research_page.MASKGRINNINGDEVIL.1=Ce masque est conçu pour être ajouté à un heaume de la forteresse.<BR>Si porté, ce masque à un effet tempérant sur ceux qui souffre d'un effet du warp. même si il ne réduit pas le nombre d'effets, il réduit leur sévérité d'une façon ou d'une autre.<BR>Il semble que rire façe au danger à ses récompenses. 
 #
-tc.research_name.MASKANGRYGHOST=Angry Ghost Faceplate
-tc.research_text.MASKANGRYGHOST=Thaumium Fortress Helm Upgrade
-tc.research_page.MASKANGRYGHOST.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you are struck in combat while wearing this grim mask the creature striking you has a chance to suffer a Withering effect.<BR>Serves them right.
+tc.research_name.MASKANGRYGHOST=Masque du famtôme enragé
+tc.research_text.MASKANGRYGHOST=Amélioration pour le heaume de la forteresse
+tc.research_page.MASKANGRYGHOST.1=Ce masque est conçu pour être ajouté à un heaume de la forteresse.<BR>Quand vous êtes frappé au combat en portant ce sinsitre masque la créature qui vous attaque à une chance de souffrir d'un effet de wither.<BR>Bien fait pour eux!
 #
-tc.research_name.MASKSIPPINGFIEND=Sipping Fiend Faceplate
-tc.research_text.MASKSIPPINGFIEND=Thaumium Fortress Helm Upgrade
-tc.research_page.MASKSIPPINGFIEND.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you strike a creature in combat while wearing this mask, you sometimes steal a small portion of their life force to strengthen your own.<BR>The fact that you do this by supping on their blood doesn't seem to bother you nearly as much as it should. You wonder if you should be worried about that.
+tc.research_name.MASKSIPPINGFIEND=Masque de démon sirotant
+tc.research_text.MASKSIPPINGFIEND=Amélioration pour le heaume de la forteresse
+tc.research_page.MASKSIPPINGFIEND.1=Ce masque est conçu pour être ajouté à un heaume de la forteresse.<BR>Quand vous frappez une creature au combat pendant que vous portez ce masque, vous volerez parfois un petite portion de leur force vitale pour renforcer la votre.<BR>Le fait que vous le faites en buvant leur sang ne semble pas vous gener autant que cela le devrait. Peut être que cela devrait vous inquiéter?
 #
-tc.research_name.BANNERS=Banners 
-tc.research_text.BANNERS=Caution: For decorative purposes only
-tc.research_page.BANNERS.1=Sometimes a thaumaturge doesn't need to create something that shakes the very foundations of reality - sometimes he just wants something pleasing to the eye.<BR>You have developed a simple enchantment that allows you to apply thaumaturgical symbols to banners. You do so by simply clicking with a phial of essentia on a banner you crafted and the symbol will be emblazoned on it. Shift-clicking on the banner will remove the symbol.
+tc.research_name.BANNERS=Bannières
+tc.research_text.BANNERS=Attention: Pour la décoration uniquement
+tc.research_page.BANNERS.1=Parfois un thaumaturge n'a pas besoin de créer quelque chose qui fait trembler les fondations même de la réalité - Parfois il veut juste quelque chose de jolie.<BR>Vous avez developpé un enchantement simple qui vous permet d'appliquer des symboles thaumaturgiques au bannières. Vous faites ceci simplement en cliquant avec une fiole d'essantia sur une bannière que cous avez créer et le symbole sera imprimé dessus. Shift-clic sur la bannière enleve le symbole.
 #
-tc.research_name.LAMPGROWTH=Lamp of Growth
-tc.research_text.LAMPGROWTH=Encouraging things to grow
-tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp by attaching it directly to an essentia piping system.<BR>The lamp can be turned off by applying a redstone signal.
+tc.research_name.LAMPGROWTH=Lampe de croissance
+tc.research_text.LAMPGROWTH=Encourager les choses à croître
+tc.research_page.LAMPGROWTH.1=Contrairement à la lampe arcanique à partir de quoi elle est faite, la lampe de croissance ne distribue pas beaucoup de lumière, à moins de l'alimenter en Essentia Herba. Si cela est fait, toutes les plantes qui poussent dans sa lumière croissent beaucoup plus rapidement que la normale.<BR>L'Essentia peut être amenée à la lampe en l'attachant directement à un système de tuyauterie.<BR>La lampe peut être éteinte avec un signal redstone.
 #
-tc.research_name.LAMPFERTILITY=Lamp of Fertility
-tc.research_text.LAMPFERTILITY=Casting a romantic light on things
-tc.research_page.LAMPFERTILITY.1=Any living creatures bathed in the gentle pink glow of this lamp is immediately placed in a much more romantic mood. If they are able they will seek others of their kind to mate.<BR>This lamp will have no effect if there is 8 or more of a particular species already present.<BR>It requires Victus essentia to function which can be fed to the lamp by attaching it directly to an essentia piping system.<BR>The lamp can be turned off by applying a redstone signal.
+tc.research_name.LAMPFERTILITY=Lampe de la fertilité
+tc.research_text.LAMPFERTILITY=Lançons une lumière romantique sur les choses
+tc.research_page.LAMPFERTILITY.1=Chaque créature vivante baigné dans la douce lueur rose de cette lampe va immédiatement se placé dans une ambiance beaucoup plus romantique. Si ils en sont capablent, ils chercheront d'autres de leur genre pour s'accoupler.<BR>Cette lampe n'as pas d'effet si il y a 8 ou plus créatures d'une espece particulière présente.<BR>Elle nécessite l'essentia "Victus" pour fonctionner qui peut être amené à la lampe en l'attachant directement à un système de tuyauterie.<BR>La lampe peut être éteinte avec un signal redstone.
 #
-tc.research_name.MIRRORESSENTIA=Essentia Mirrors
-tc.research_text.MIRRORESSENTIA=Essentia where you need it
-tc.research_page.MIRRORESSENTIA.1=Magical mirrors are very useful for transporting items over long distances, but what if that same principle can be applied to essentia? You think you have discovered a way to do just that.<BR>Essentia mirrors, like their name implies, can transport essentia in the same way that magic mirrors transport items. There are a few important limitations however.<BR>You cannot pipe essentia directly into the mirrors - they are only able to transport essentia that has been drawn from a source towards something like an Infusion Matrix.    
-tc.research_page.MIRRORESSENTIA.2=In effect the mirrors allow these things to draw essentia from sources via the mirror.<BR>Like item mirrors, these mirrors cause great stress to the magical aura and will generate flux. 
+tc.research_name.MIRRORESSENTIA=Miroirs à essentia
+tc.research_text.MIRRORESSENTIA=L'essentia où vous en avez besoin
+tc.research_page.MIRRORESSENTIA.1=Les miroirs magique sont vraiment utiles aux transports d'objets sur de longues distances, mais si ce même principe peut être appliqué à l'essentia? Vous pensez avoir découvert un moyen de faire exactement ça.<BR>Les miroirs à essentia, comme leur nom l'indique, peuvent transporter de la même manière que les miroirs magique transportant les objets. Il y a quelques importantes limitations cependant.<BR>Vous ne pouvez pas diriger l'essentia directement dans les miroirs - ils sont seulement capablent de transporter l'essentia qui a été drainé par une source   
+tc.research_page.MIRRORESSENTIA.2=devant eux comme une matrice à infusion ou un four infernal. En effet, les mirroirs permettent à ces choses de drainer l'essentia provenant de sources via le miroir.<BR>Comme les miroirs, celles-ci génèrent un grand "stress" à l'Aura et va générer du Flux.
 #
-tc.research_name.BONEBOW=Bone Bow
-tc.research_text.BONEBOW=Sticks and stones...
-tc.research_page.BONEBOW.1=You have discovered a way of crafting a bow from bone and infusing it with entropic energy.<BR>The resulting weapon is capable of firing much faster than a normal bow and arrows launched from it travels faster and hit harder.
+tc.research_name.BONEBOW=Arc en os
+tc.research_text.BONEBOW=Bâtons et pierres...
+tc.research_page.BONEBOW.1=Vous avez découvert une façon de fabriquer un arc à partir d'os et en lui insufflant de l'énergie entropique.<BR> L'arme qui en résulte est capable de tirer beaucoup plus vite qu'un arc normal et les flèches lancées se déplacent plus vite et frappe plus fort.
 #
-tc.research_name.PRIMALARROW=Primal Arrows
-tc.research_text.PRIMALARROW=Arrows with an elemental bite
-tc.research_page.PRIMALARROW.1=These arrows are each infused with a specific type of primal energy which gives them interesting and destructive properties<BR>§nAir Arrow§r<BR>These arrows crackle with energy. They inflict similar damage to normal arrows, but the magical energy bypasses any kind of armor protection.<BR>§nFire Arrow§r<BR>These arrows inflict pure fire damage and set their targets alight.
-tc.research_page.PRIMALARROW.2=§nWater Arrow§r<BR>These arrows inflict normal damage, but chills your target to the bone, reducing their movement speed.<BR>§nEarth Arrow§r<BR>These arrows have no special property beyond packing a lot more punch than normal arrows.<BR>§nOrder Arrow§r<BR>This arrow does a little less damage than normal, but it bypasses armor and leaves your enemy weakened.<BR>§nEntropy Arrow§r<BR>This arrow does slightly less damage than normal, 
-tc.research_page.PRIMALARROW.3=but inflicts a withering effect on whatever it hits.<LINE>Primal arrows cannot be picked up from the ground and the Infinity enchantment has only a 1 in 3 chance of preventing a primal arrow from being consumed.
+tc.research_name.PRIMALARROW=Flèches primaires
+tc.research_text.PRIMALARROW=Des flèches avec une piqûre élémentale
+tc.research_page.PRIMALARROW.1=Ces flèches sont infusées avec un type spécifique d'énergie primaire qui leur donne d'intéressants et destructives propriétés<BR>§nFlèches d'Air§r<BR>Ces flèches crépitent d'énergie. Elles infligent des dommages similaires à ceux de flèches normales, mias leur énergie magique passe à travers n'importe quel type de protection.<BR>§nFlèches de Feu§r<BR>Ces flèches infligent de purs dommages de feu et enflamment leurs cibles.
+tc.research_page.PRIMALARROW.2=§nFlèches d'Eau§r<BR>Ces flèches infligent des dommages normaux, mais glacent leurs cibles jusqu'aux os, réduisant leurs vitesse de déplacement.<BR>§nFlèches de Terre§r<BR>Ces flèches n'ont pas de propiétés spéciale en dehors de repousser leurs cibles bien plus qu'une flèche classique.<BR>§nFlèches d'Ordre§r<BR>Cette flèche fait un peu moins de dommage que la flèche classique, mais elle passe à traves les armures et laisse la cible affaiblit.<BR>§nFlèches d'Entropie§r<BR>Cette flèche fait un peu moins de dommage que la flèche classique, 
+tc.research_page.PRIMALARROW.3=mais elle inflige l'effet wither à sa cible.<LINE>Les flèches primaires ne peuvent pas être récupérées une fois tirées et l'enchantement Infinité n'a qu'une chance sur trois d'empêcher qu'une flèches ne soit consummée.
 #
-tc.research_name.RUNICARMOR=Runic Shielding
-tc.research_text.RUNICARMOR=Shields up!
-tc.research_page.RUNICARMOR.1=Your research into protective magics have led you to discover Runic Shielding. This is not armor in the traditional sense, but a collection of charms, rings and similar protective baubles worn with your everyday clothes.<BR>These devices create a barrier of magical energy that wards out most types of damage. The shielding has a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal.
-tc.research_page.RUNICARMOR.2=The pool replenishes over time and requires §2Terra§0 and §eAer§0 vis to replenish its charge which it draws from the aura.<BR>The armor offers no protection from damage suffered due to certain environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
+tc.research_name.RUNICARMOR=Armure runique
+tc.research_text.RUNICARMOR=Bouclier charché !
+tc.research_page.RUNICARMOR.1=Vos recherches en protection magique vous ont conduit à la découverte de l'armure runique. Le nom est trompeur bien qu'elle n'est pas une armure dans le sens traditionnel du terme, mais une collection de charmes, sceaux et d'appareils de protection similaire portés avec vos vêtements de tous les jours. Ces appareils créent une barrière d'énergie magique qui écartent la plupart des types de dommages. L'armure a une barre de point de vie à partir duquel les dommages sont soustraits en premier, protégeant le porteur de toutes les blessures. Une fois la barre épuisée, l'utilisateur commençe a prendre des dommages normalement.
+tc.research_page.RUNICARMOR.2=La barre se regénérent au fil du temps, et nécessite du Vis §2Terra§0 et §eAer§0 pour reconstituer sa charge qu'il tire de l'Aura.<BR>L'armure n'offre aucune protection provenant de certains risques environnementaux.<BR> En raison de la nature de l'armure, elle ne peut pas être enchanté par des moyens normaux, mais vous êtes sûr qu' il a un moyen d'améliorer son efficacité - il vous suffit de les découvrir.
 #
-tc.research_name.RUNICAUGMENTATION=Runic Shielding Augmentation
-tc.research_text.RUNICAUGMENTATION=Shields to maximum!
-tc.research_page.RUNICAUGMENTATION.1=Rings, amulets and girdles with runic shielding is all good and well, but surely you can apply this protective enchantment to other things?<BR>Of course you can! By utilizing the magic of Thaumaturgy(c) (patent pending), you are able to add runic shielding to most magically stable pieces of armor.<BR>'Magically stable' items are those crafted from thaumium, enchanted fabric or similarly magical materials.<BR>Only a single charge of runic shielding is added to the item, but you can enchant an item multiple times. This is expensive and
-tc.research_page.RUNICAUGMENTATION.2=the amount of ingredients and essentia required will increase with each level. The Salis Mundus required will equal the level of shielding you want, and the essentia cost will increase exponentially.<BR>You can enchant existing runic items like Rings of Shielding as well, however the cost is calculated based on their existing runic charge making it an exceptionally expensive process.
+tc.research_name.RUNICAUGMENTATION=Armure runique améliorée
+tc.research_text.RUNICAUGMENTATION=Boucliers au maximum!
+tc.research_page.RUNICAUGMENTATION.1=Anneaux, amulettes et ceintures avec un bouclier runique c'est bien, mais il doit bien y avoir un moyen d'appliquer cet enchantement à d'autres objets?<BR>Bien sur qu'il y en a un! En utilisant la magie de la Thaumaturgie(c) (en attente de brevet), vous êtes capable d'integrer un bouclier runique à la plupart des armures magiquement stables.<BR>Les objets 'magiquement stables' sont ceux crées à partir de thaumium, de tissu enchanté ou d'autre materiaux magiques.<BR>Une seule charge de bouclier runique est ajouté à l'objet, mais vous pouvez l'enchanter plusieurs fois. Cette pratique est chère et
+tc.research_page.RUNICAUGMENTATION.2=la quantité d'ingrédients et d'essence demandé augmente avec chaque niveau. Le Salis Mundus requis sera égal au niveau de protection que vous désirez, et le coût d'Essentia augmente exponentiellement.<BR>Vous pouvez aussi enchanter des objets runiques existant comme un anneau de protection, mais le coût est calculer par rapport à leur charge runique rendant le processus exceptionnellement chère.
 #
-tc.research_name.RUNICSPECIAL=Specialized Runic Baubles
-tc.research_text.RUNICSPECIAL=Charge for the Charge Ring!
-tc.research_page.RUNICSPECIAL.1=§nCharged Ring of Shielding§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but increases the recharge time of runic shielding by 25%.<BR>You can wear more than one of these rings, effectively halving the normal recharge time.
-tc.research_page.RUNICSPECIAL.2=§nRevitalizing Ring of Shielding§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but when your runic shielding is breached it will release a pulse of regenerative energy that will last for a few seconds.<BR>This effect cannot trigger more than once every 20 seconds.
-tc.research_page.RUNICSPECIAL.3=§nKinetic Girdle of Shielding§r<BR>This is a specialized version of the Girdle of Shielding.<BR>It has slightly less charge than the girdle it is based on, but when your shielding is breached a detonation of kinetic energy will be released damaging and shoving back anything nearby.<BR>This effect cannot trigger more than once every 20 seconds.
-tc.research_page.RUNICSPECIAL.4= §nAmulet of Emergency Shielding§r<BR>This is a specialized version of the Amulet of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once a minute.
+tc.research_name.RUNICSPECIAL=Babioles runique spécialisé
+tc.research_text.RUNICSPECIAL=Charge pour l'anneau de charge!
+tc.research_page.RUNICSPECIAL.1=§nAnneau de protection chargé§r<BR>C'est une version spécialisée de l'anneau de protection.<BR>Il a un peu moins de charge que l'anneau sur lequel il est basé, mais le temps de recharge du bouclier runique est diminué de 25%.<BR>Vous pouvez porter plus d'un de ces anneaux, cela réduit de moitié le temps de recharge normal du bouclier.
+tc.research_page.RUNICSPECIAL.2=§nAnneau de blindage revitalisant§r<BR>C'est une version spécialisée de l'anneau de protection.<BR>Il a un peu moins de charge que l'anneau sur lequel il est basé, mais quand votre bouclier runique est brisé, il va relacher une vague d'énergie régénérative qui va durer quelques secondes.<BR>Cet effet ne peut s'activer plus d'une fois toutes les 20 secondes.
+tc.research_page.RUNICSPECIAL.3=§nCeinture de blindage cinétique§r<BR>C'est une version spécialisée de la ceinture de protection.<BR>Elle a un peu moins de charge que la ceinture sur laquelle elle est basée, mais quad votre bouclier est brisé, une détonation d'énergie cinétique blessante va être relaché et va repousser tous ce qui est prêt de vous.<BR>Cet effet ne peut s'activer plus d'une fois toutes les 20 secondes.
+tc.research_page.RUNICSPECIAL.4= §nAmulette de bouclier d'urgengce§r<BR>C'est une version spécialisée de l'amulette de protection.<BR>Elle a un peu moins de charge que l'amulette sur laquelle elle est basée, mais quand votre bouclier est brisé elle ajoute instantanément 8 charges supplémentaire au bouclier.<BR>Cet effet ne peut pas s'activer plus d'une fois toutes les minutes.
 #
-tc.research_name.REDSTONERELAY=Redstone Relay
-tc.research_text.REDSTONERELAY=Magical Redstone Interaction
-tc.research_page.REDSTONERELAY.1=You have always been curious about the seemingly negative reaction between mystical devices and redstone signals. You have studied the matter and while it is a well-known phenomenon that redstone inhibits magic, you have discovered that in specific circumstances the opposite can be true as well.<BR>One practical application of this is the Redstone Relay. By sending a redstone signal through a magical substance like vis crystals you can inhibit it as much or as little as you want.
-tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay to activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.
+tc.research_name.REDSTONERELAY=Relai redstone
+tc.research_text.REDSTONERELAY=Intéraction de redstone magique
+tc.research_page.REDSTONERELAY.1=Vous avez toujours été curieux de la réaction négative apparente entre les dispositifs mystiques et les signaux redstone. Vous avez étudié la question et si le phénomène bien connu que la redstone inhibe la magie, vous avez découvert que dans des circonstances particulières, l'inverse peut être aussi vrai.<BR>Une application pratique de cela est le relais redstone. En envoyant un signal redstone à travers une substance magique comme les cristaux de Vis, vous pouvez l'inhiber autant que peu à votre souhait.
+tc.research_page.REDSTONERELAY.2=Les relais sont placés un peu comme les répéteurs redstone avec leur côté sortie marqué par une torche.<BR>Contrairement aux répéteurs, les relais ont deux bascules. Celui à l'arrière détermine le signal minimum d'entré recquis pour submerger cet effet inhibitant et permettre le relais de s'activer.<BR>La bascule avant (à côté de la torche) détermine la force du signal redstone que le relais va émettre une fois actif.
 #
 # Alchemy 
 #######################
