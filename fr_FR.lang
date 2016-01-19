@@ -1242,7 +1242,7 @@ tc.research_page.FOCUSPORTABLEHOLE.1=Vous avez reussi en utilisant du Vis à cr�
 #
 tc.research_name.FOCUSPRIMAL=Foci: Primaire
 tc.research_text.FOCUSPRIMAL=Magie brut
-tc.research_page.FOCUSPRIMAL.1=Quel folie vous a possédé pour créer cette chose? Ce Foci semble frénétiquement dangereux et seulement un aliéné va tenter de l'utiliser partout et non seulement dans les environnements les plus contrôlés.<BR> Accordée, l'orbe d'énergie primaire brut créée est assez dévastateur, mais son chemin parcourue est irrégulier, pour le meilleur erratique et au pire, malveillant.<BR>Il fait pousser plus loin l'étude cependant : L'orbe montre d'intéressantes propriétés dimensionnel et il expose des motif d'énergie que vous avez seulement vu chez les feu-follets et les noeuds d'aura.
+tc.research_page.FOCUSPRIMAL.1=Quel folie vous a possédé pour créer cette chose? Ce Foci semble frénétiquement dangereux et seulement un aliéné va tenter de l'utiliser partout et non seulement dans les environnements les plus contrôlés.<BR> Accordée, l'orbe d'énergie primaire brut créée est assez dévastateur, mais son chemin parcourue est irrégulier, pour le meilleur erratique et au pire, malveillant. Il fait pousser plus loin l'étude cependant : L'orbe montre d'intéressantes propriétés dimensionnel et il expose des motif d'énergie que vous avez seulement vu chez les feu-follets et les noeuds d'aura.
 #
 tc.research_name.FOCUSGRAPPLE=Foci: Grappin
 tc.research_text.FOCUSGRAPPLE=Woosh!
@@ -1774,56 +1774,59 @@ tc.research_page.GOLEMCOMBATADV.1=You can now craft specialized golem weaponry a
 #
 # Eldritch 
 #######################
-tc.research_name.ELDRITCHMINOR=Eldritch Epiphany
-tc.research_text.ELDRITCHMINOR=First steps into the unknown
-tc.research_page.ELDRITCHMINOR.1=It has suddenly become clear to you. Where others see chaos, you occasionally catch a glimpse of a pattern... a very strange and disturbing pattern. Something stirs in the darkest corners of the universe.<BR>You have tried to explain it to others, but received only strange looks in return. No matter, you will show them someday.<BR>You will show them all.
+tc.research_name.ELDRITCHMINOR=L'éphiphanie Eldritch
+tc.research_text.ELDRITCHMINOR=Premiers pas dans l'inconnu
+tc.research_page.ELDRITCHMINOR.1=C'est soudainement devenu clair pour vous. Là où d'autres voient le chaos, vous entrevoyez occasionnellement un aperçu d'un motif ... un motif très étrange et inquiétant. Quelque chose bouge dans les coins les plus sombres de l'univers.<BR>Vous avez essayé de l'expliquer à d'autres, mais vous avez seulement reçu des regards étranges en retour. Peu importe, vous leur montrerez un jour.<BR>Vous pourrez tout leur montrer.
 #
-tc.research_name.ELDRITCHMAJOR=Eldritch Revelation
-tc.research_text.ELDRITCHMAJOR=I have seen beyond the bounds of infinity
-tc.research_page.ELDRITCHMAJOR.1=A veil has been lifted - a door opened in my mind.<BR> When I look through I see wonders. No, not wonders. §mWhat I see is§r<BR>§oWhat I see is I see i see I sEee i§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
-tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Who wrote this?
+tc.research_name.ELDRITCHMAJOR=La révélation Eldritch
+tc.research_text.ELDRITCHMAJOR=Je l'ai vu au-delà des limites de l'infini
+tc.research_page.ELDRITCHMAJOR.1=Un voile a été levé - une porte ouverte dans mon esprit. Lorsque je regarde à travers, je vois des merveilles. Non, pas des merveilles. §mCe que je vois est§r§oCe que je vois est ce que je vois Je vois je vOiis§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
+tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Qui a écrit cela ?
 #
-tc.research_name.VOIDMETAL=Void Metal
-tc.research_text.VOIDMETAL=Strange, it should feel cold...
-tc.research_page.VOIDMETAL.1=By infusing magic into metal you had managed to create Thaumium. It was a worthy discovery, but the time has come to leave thaumium to amateurs and dabblers.<BR>A strange and half-remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic, but with the very essence where magic is drawn from: Darkness and the Void that dwells between the stars.<BR>The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but
-tc.research_page.VOIDMETAL.2=when struck it becomes as hard as thaumium and sometimes even harder. More impressively all but the most devastating damage soon repairs itself as the metal slowly flows back into place.<BR>The only downside is that it isn't as easy to enchant as thaumium, but still compares favorably to mundane materials like iron.<BR>You have discovered that care must be taken when handling the metal - being harmed by it seems to temporarily sap your strength.
+tc.research_name.VOIDMETAL=Métal du vide
+tc.research_text.VOIDMETAL=Etrange, il devrait se sentir froid ...
+tc.research_page.VOIDMETAL.1=En insufflant la magie dans le métal, vous aviez réussi à créer Thaumium. Ce fut une découverte digne, mais le temps est venu de laisser le Thaumium aux amateurs et aux barboteurs.<BR>Un rêve étrange et la moitié d'un souvenir vous ont donné l'envie d'essayer quelque chose de ... différent. Et si vous infuser un métal avec plus que juste de la magie, mais avec l'essence même où la magie est tirée : l'obscurité et le vide qui habitent entre les étoiles.<BR>Le métal obtenu est d'un lisse inquiétant et chaud au toucher. Il est presque aussi doux que de l'or, ce qui le rend facile à travailler,
+tc.research_page.VOIDMETAL.2=mais lorsqu'il a été frappé il devient dur comme du thaumium et parfois encore plus dur. Plus impressionnant encore, les dommages les plus dévastateurs réparent le métal car le métal coule lentement pour se remettre en place.<BR>Le seul inconvénient est qu'il n'est pas aussi facile de l'enchanter comme du thaumium, mais il est toujours plus favorable par rapport aux matériaux ordinaires comme le fer.<BR>Vous avez découvert que des soins doivent être pris lors de la manipulation du métal - sinon il risque de vous affaiblir temporairement.
+
 #
-tc.research_name.ARMORVOIDFORTRESS=Void Thaumaturge Robes
-tc.research_text.ARMORVOIDFORTRESS=Otherworldly Style
-tc.research_page.ARMORVOIDFORTRESS.1=A truly enlightened thaumaturge realizes that he need not choose between utility and defense.<BR>By augmenting existing void armor with the proper enchantments and combining them with thaumaturge's robes he will be able to create a set of armored robes that not only offers physical protection and mental focus, but mystical protection as well.<BR>The robes will also retain all the properties of void armor while the hood will offer all the benefits of the goggles used in its crafting.<BR>This armor can be dyed.
+tc.research_name.ARMORVOIDFORTRESS=Robes du thaumaturge du vide
+tc.research_text.ARMORVOIDFORTRESS=Style d'un autre monde
+tc.research_page.ARMORVOIDFORTRESS.1=Un thaumaturge vraiment éclairé se rend compte qu'il n'a pas à choisir entre l'utilité et de la défense. En amélirant l'armure du vide existante avec des enchantements appropriées et en les combinant avec les robes de thaumaturge, il sera en mesure de créer un ensemble de robes blindées qui offre non seulement une protection physique et un concentration mentale, mais une protection mystique quand même.<BR>Les robes seront également capables de conserver toutes les propriétés de l'armure du vide tandis que la capuche offrira tous les avantages des lunettes utilisées dans sa fabrication. Cette armure peut être teinte.
 #
-tc.research_name.ENTEROUTER=The Outer Lands 
-tc.research_text.ENTEROUTER=We are not in Kansas anymore
-tc.research_page.ENTEROUTER.1=You are not quite sure what you were expecting when you stepped through the Oculus, but this strange structure of crumbling stone and twisted passageways was not it.<BR>Something is not quite right here - this structure was not designed for any practical purpose you can discern... unless that purpose was for it to be a deadly maze.<BR>Strange energies abound and your magic seems to act strangely in this alien environment. Even the other denizens you encounter seem out of place here.
+tc.research_name.ENTEROUTER=Les Terres Extérieures
+tc.research_text.ENTEROUTER=Nous ne sommes pas plus au Kansas
+tc.research_page.ENTEROUTER.1=Vous n'êtes pas sûr de ce que vous attendiez quand vous entrez par l'Oculus, mais cette étrange structure de pierre en ruine et de passages tordus n'étaient pas.<BR>Quelque chose ne va pas ici - cette structure n'a pas été conçu à des fins pratiques que vous pouvez discerner ... à moins que son but était d'être un labyrinthe mortel.<BR>Des énergies étranges abondent et votre magie semble agir étrangement dans cet environnement étranger. Même les autres habitants que vous rencontrez semblent hors de propos ici.
 #
-tc.research_name.OUTERREV=Revelations in the Outer Lands 
-tc.research_text.OUTERREV=Things are not what they seem
-tc.research_page.OUTERREV.1=Your suspicions have been confirmed. This is not the home of the race you have come to call the Eldritch. This place is something else entirely and you do not believe it exists in what you understand as being "reality" - it is as much a mental construct as a physical one, but what mind can contain this?<BR>You have been able to decipher only a small number of the symbols, but you are sure this place is a trap - a place to test visitors and weed out the weak. For what purpose you are not sure.
+tc.research_name.OUTERREV=Révélations dans les Terres Extérieures
+tc.research_text.OUTERREV=Les choses ne sont pas ce qu'elles semblent être
+tc.research_page.OUTERREV.1=Vos soupçons ont été confirmés. Il ne s'agit pas de la maison de la race, que vous êtes venu à appeler Eldritch. Cet endroit est tout autre chose et vous ne croyez pas qu'il existe dans ce que vous comprenez comme étant la "réalité" - c'est autant une construction mentale que physique, mais est-ce que l'esprit peut le contenir ?<BR>Vous avez pu déchiffrer seul un petit nombre des symboles, mais vous êtes sûr que ce lieu est un piège - un endroit pour tester les visiteurs et éliminer les faibles. Pour quelle raison vous n'êtes pas sûr.
 #
-tc.research_name.PRIMPEARL=Primordial Pearl 
-tc.research_text.PRIMPEARL=What came before
-tc.research_page.PRIMPEARL.1=For the first time you find yourself with a puzzle that you do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what you consider normal, everyday primal aspects. You have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of
-tc.research_page.PRIMPEARL.2=magic as you have come to understand it. You are not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is time you start putting it to use.
+tc.research_name.PRIMPEARL=Perle primordiale 
+tc.research_text.PRIMPEARL=Ce qui est venu avant
+tc.research_page.PRIMPEARL.1=Pour la première fois vous vous retrouvez avec un casse-tête que vous pensez impossible à résoudre.<BR>Cet objet contient des aspects primaires pures, mais ils possèdent des propriétés contraires à ce que vous considérez comme les aspects normaux, les aspects de tout les jours. Vous avez quelques théories de qu'est-ce que ce pourrait être :<BR>Aux premiers abords, cette "perle" pourrait être les restes de matière première qui ont été créés à l'aube de la réalité - la magie élémentaire qui existait avant qu'elle ne se mêle et fusionne avec des aspects composés.
+tc.research_page.PRIMPEARL.2=Autrement, ce pourrait être de la matière première à partir d'un endroit qui ne se conforme pas aux règles connues de la magie et que vous êtes venus la comprendre. Vous n'êtes pas sûr quelle explication est la plus préoccupante.<BR>Soit, la perle est un artefact puissant contenant une grande puissance magique et un potentiel quasi illimité.<BR>Il est temps de commencer à la mettre à profit.
 #
-tc.research_name.PRIMALCRUSHER=Primal Crusher 
-tc.research_text.PRIMALCRUSHER=Breaking all the things
-tc.research_page.PRIMALCRUSHER.1=The theory behind infusion crafting is simple - infuse a single object with essentia and the properties of other objects. There are limits however, but it seems with the discovery of the primordial pearl these limits are becoming less and less.<BR>As an experiment you tried infusing the properties of completely different objects into the pearl with suprising success. The Primal Crusher is the first practical application of this discovery.<BR>By combining a Shovel of the Earthmover and a Pickaxe of the Core with their void metal counterparts you created a
-tc.research_page.PRIMALCRUSHER.2=tool of unrivaled destructive capabilities that has most of the features of its component pieces.<BR>The Primal Crusher can mine through earth and stone with equal ease and does so in a 3x3 area. Like the Pickaxe of the Core it occasionally mines native clusters instead of raw ore.<BR>It repairs itself over time, has high enchantability and serves as a relatively good weapon in a pinch.<BR>Unfortunately it seems purely destructive in nature and has lost the construction and detection abilities of its parent tools.
+tc.research_name.PRIMALCRUSHER=Broyeur primal
+tc.research_text.PRIMALCRUSHER=Briser toutes les choses
+tc.research_page.PRIMALCRUSHER.1=La théorie derrière l'infusion est simple - infuser un seul objet avec de l'Essentia et les propriétés des autres objets. Il y a cependant des limites, mais il semble, avec la découverte de la perle primordiale que ces limites sont de moins en moins préoccupantes.<BR>En tant qu'expérience vous avez essayé d'infuser les propriétés d'objets complètement différents dans la perle avec un franc succès. Le broyeur primal est la première application pratique de cette découverte.<BR>En combinant une pelle du terraformeur et une pioche du Noyau avec leurs homologues du vides
+tc.research_page.PRIMALCRUSHER.2=métalliques vous avez créé un outil avec des capacités destructrices inégalées qui possède la plupart des caractéristiques de ses pièces constitutives.<BR>Le broyeur primal peut miner à travers la terre et la pierre avec la même facilité et il le fait dans une zone de 3x3. Comme la pioche du noyau, de temps en temps il mine des amas innés au lieu de minerai brut.<BR>Il se répare lui-même au fil du temps, il a une haute enchantabilité et sert relativement bien comme arme.<BR>Malheureusement, il semble purement destructeur dans sa nature et il a perdu les capacités de construction et de détection de ses outils parents.
+
 #
-tc.research_name.SANITYCHECK=Sanity Check
-tc.research_text.SANITYCHECK=Introspection for the brave
-tc.research_page.SANITYCHECK.1=Things have become busy in your mind lately. It is probably best that you have a look inside there and make sure everything is still all right.<BR>This tool will allow you to check the effects of warp on your psyche and how much it is effecting you.<BR>Of course you cannot allow a tool like this to fall into the hands of your enemies so you have taken great pains to obfuscate the information it provides. You might have gone too far though - you are having a hard time deciphering it yourself.  
+tc.research_name.SANITYCHECK=Verification mentale
+tc.research_text.SANITYCHECK=Introspection pour les braves
+tc.research_page.SANITYCHECK.1=Les choses sont devenues bien remplies dans votre esprit ces derniers temps. Le meilleur est probablement que vous ayez un regard à l'intérieur et de vous assurez que tout va bien.<BR>Cet outil vous permettra de vérifier les effets de warp sur votre psychisme et combien il vous affecte.<BR>Bien sûr, vous ne pouvez pas permettre à un outil comme celui-ci de tomber entre les mains de vos ennemis dont vous avez pris grand soin de masquer les informations qu'il fournit. Si vous êtes peut-être allé trop loin - vous aurez de la difficulté à vous déchiffrer.
 #
-tc.research_name.CRIMSON=The Crimson Cult
-tc.research_text.CRIMSON=A Cautionary Tale
-tc.research_page.CRIMSON.1=Much of this book is written in a spidery and unintelligible script, but what you do understand offers some strange insights into the goals of the Crimson Cult.<BR>Their origins are shrouded in mystery, but it seems their goal is the perfection of a ritual they refer to as "Apertis Oculis" - Opening the Eye. What it does is unclear, but you doubt it is anything good.<BR>Interestingly enough, you think thaumaturgy might offer the missing pieces they have so long sought. Obviously only a madman would pursue this line of study...
+tc.research_name.CRIMSON=Le cultre Crimson
+tc.research_text.CRIMSON=Un récit édifiant
+tc.research_page.CRIMSON.1=Une grande partie de ce livre est patte de mouche et c'est un script inintelligible, mais ce que vous comprenez propose quelques idées étranges comme les objectifs du culte Crimson.<BR>Leurs origines sont entourées de mystère, mais il semble que leur objectif est la perfection d'un rituel qu'ils appellent "Apertis Oculis" - l'ouverture de l'Œil. Ce qu'il fait n'est pas clair, mais on se doute que ce n'est pas quelque chose de bon. Curieusement, vous pensez que la thaumaturgie pourrait offrir les pièces manquantes qu'ils ont si longtemps cherché. Évidemment seulement un fou serait capable de poursuivre cette voie ...
+
 #
-tc.research_name.OCULUS=Opening the Eye
-tc.research_text.OCULUS=I will show them, I will show them all!
-tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 500	 units of each should be sufficient.
-tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown! 
+tc.research_name.OCULUS=Ouverture de l'Œil
+tc.research_text.OCULUS=Je vais leur montrer, je vais leur montrer tout !
+tc.research_page.OCULUS.1=Tout était si simple - vous êtes étonné de voir que les adorateurs de Crimson ne l'ont jamais découvert<BR>Pour accomplir le rituel, il vous suffit de placer quatre yeux surnaturels sur la clé de voûte spécialement marqué que vous avez trouvé dans l'un des autels étranges où vous avez découvert ce culte.<BR>Une fois cela fait, il suffit d'insuffler une grande quantité de vis dans la clé de voûte avec baguette - 500	 unités de chaque aspect devrait être suffisant.
+tc.research_page.OCULUS.2=Si vous avez tout fait correctement, le rituel doit être complet et le soi-disant "Œil" sera ouvert.<BR>Bien sûr, vous avez aucune idée de ce que cela signifie. Peu importe, seul les fous craignent l'inconnu !
 #
-tc.research_name.SINSTONE=Sinister Lodestone 
-tc.research_text.SINSTONE=Do you dare follow it?
-tc.research_page.SINSTONE.1=You have made an interesting discovery during your study of the Apertis Oculis ritual. The spot where the "eye" will open emits a very distinct kind of energy that is detectable even when it is still closed.<BR>By infusing a piece of flint you think you can create a simple scrying device that will light up whenever it is pointed towards such an energy signature.<BR>The range is limited, but it is a worthwhile invention since the ritual stones are often hard to find.
+tc.research_name.SINSTONE=Magnétite sinistre 
+tc.research_text.SINSTONE=Oserez-vous la suivre ?
+tc.research_page.SINSTONE.1=Vous avez fait une découverte intéressante pendant votre étude du rituel "Apertis Oculis". L'endroit où l'"oeil" ouvrira émet un genre très distinct d'énergie qui est détectable, même quand il est encore fermé.<BR>En insufflant un morceau de silex vous pensez que vous pouvez créer un dispositif simple de divination qui illuminera chaque fois qu'il est pointé vers une telle signature énergétique.<BR>La portée est limitée, mais c'est une invention utile puisque les pierres rituelles sont souvent difficiles à trouver.
 #
