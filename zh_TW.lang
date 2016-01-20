@@ -518,6 +518,7 @@ item.focus_warding.name=法杖核心：守護
 item.focus_primal.name=法杖核心：原初
 item.focus_shard.name=法杖核心：魔晶彈
 item.focus_grapple.name=法杖核心：抓勾
+item.focus_builder.name=法杖核心：建築
 item.wand_cap.iron.name=鐵杖端
 item.wand_cap.gold.name=金杖端
 item.wand_cap.brass.name=黃銅杖端
@@ -588,6 +589,7 @@ item.researchnotes.learn=右鍵點擊以學習這項發現
 item.creative_placer.obelisk.name=方尖碑設置器
 item.creative_placer.node.name=節點設置器
 item.creative_placer.caster.name=遠古自動施術裝置設置器
+item.creative_flux_sponge.name=咒波海綿
 #
 # Golem
 item.module.vision.name=視覺組件
@@ -807,7 +809,7 @@ golem.prop.cycle=白名單循環
 golem.prop.meta=使用元數據
 golem.prop.nbt=使用NBT數據
 golem.prop.ore=使用礦物辭典
-golem.prop.mod=使用模組
+golem.prop.mod=使用相同模組
 golem.prop.mob=指定敵人
 golem.prop.animal=指定動物
 golem.prop.player=指定玩家
@@ -925,13 +927,15 @@ tc.primalcharm.2=一陣劇烈的抖動
 tc.primalcharm.3=它的輕聲低吟十分舒緩
 tc.primalcharm.4=等等，它剛剛閃爍著七色的光芒？
 tc.primalcharm.trigger=片刻間，詭異的能量纏繞著原初符咒。它們很快便消散了，但使你受到了奇異的啟發……
-tc.break.fly=有什麼奪去了你的飛行能力。
+tc.break.fly=有一股力量奪去了你的飛行能力。
 tc.boss.enrage=被你強力的攻擊激怒了。
 tc.levitator=範圍設定為%s格。(%d vis/每分鐘)
 tc.dioptra.1=顯示%s的靈氣等級。
 tc.dioptra.2=顯示最高靈氣等級。
 tc.dioptra.3=顯示靈氣等級比例。
 tc.notowned=這並不屬於你。
+tc.fluxevent.1=周圍的靈氣忽然受到曲折而扭曲，使你的思緒一片混亂。
+tc.fluxevent.2=周圍的靈氣忽然失去穩定，阻礙了你施行法術的能力。
 #
 # Aspects
 tc.aspect.primal=原初要素
@@ -1679,7 +1683,7 @@ tc.research_page.SEALCOLLECT.2=你還能做出一個進階版本的印記，能�
 #
 tc.research_name.SEALSTORE=控制印記：儲存
 tc.research_text.SEALSTORE=免於混亂
-tc.research_page.SEALSTORE.1=這個印記必須貼在容器側面。它會將容器指定為周圍傀儡手上物品的放置目的。只要容器還有空間，傀儡就會將手中的物品投入。<BR>你可使用黑、白名單來過濾接受項目。
+tc.research_page.SEALSTORE.1=這個印記可以貼在容器上。它會將容器指定為周圍傀儡手上物品的放置目的。只要容器還有空間，傀儡就會將手中的物品投入。<BR>你可使用黑、白名單來過濾接受項目。<BR>若貼在非容器方塊上，傀儡會直將物品棄置在該處。
 tc.research_page.SEALSTORE.2=你還能做出一個進階版本的印記，能一次過濾更多的項目以方便你篩選物件，但是傀儡必須夠聰明才有辦法理解這個印記建立的任務。<BR>你可以選擇讓印記在篩選時忽略物件的NBT或損傷值，使用礦物辭典，或是篩選出同一個模組的物件。
 #
 tc.research_name.SEALEMPTY=控制印記：空置
@@ -1697,7 +1701,7 @@ tc.research_text.SEALHARVEST=機械園丁
 tc.research_page.SEALHARVEST.1=這個印記會掃描指定範圍內有無可收穫的作物，發現後將指派傀儡進行收割。<BR>若有需要，印記也會嘗試在有種子(或其他類似物)時重種作物。
 #
 tc.research_name.SEALGUARD=控制印記：守衛
-tc.research_text.SEALGUARD=保護並支援
+tc.research_text.SEALGUARD=我為人人
 tc.research_page.SEALGUARD.1=使用此印記能從外界威脅中保護指定區域。偵測到的敵性生物將被附近具有戰鬥力的傀儡標記為攻擊目標。<BR>若傀儡具有§5靈巧§0特質，被殺掉的生物將掉落經驗球。<BR>§9此研究解鎖了額外的傀儡部件。§0 
 tc.research_page.SEALGUARD.2=你做出了一個進階版的印記，能夠指定傀儡的攻擊目標。
 #
@@ -1710,7 +1714,7 @@ tc.research_text.SEALBREAK=敲敲敲
 tc.research_page.SEALBREAK.1=這個印記指示傀儡破壞範圍內的任何方塊。<BR>破壞方塊所需的時間取決於其硬度。<BR>你可以指定傀儡破壞或忽略特定的方塊。<BR>值得注意的是由於傀儡的機動性、速度以及有限的活動範圍，使得這顆核心僅能作為臨時用途，而無法成為一個有效率的挖礦工具。
 #
 tc.research_name.SEALLUMBER=控制印記：樵夫
-tc.research_text.SEALLUMBER=And I'm ok
+tc.research_text.SEALLUMBER=你掉的是哪把斧頭？
 tc.research_page.SEALLUMBER.1=特化的§5破壞者§0印記，樵夫印記只會標定原木，會從與傀儡敲擊的原木相連的最遠處開始開始破壞，而非直接砍下眼前的原木。<BR>這意味著能夠有效地從地面由上往下砍樹。
 #
 tc.research_name.SEALUSE=控制印記：使用
@@ -1726,7 +1730,7 @@ tc.research_text.GOLEMCLIMBER=熱情比山高
 tc.research_page.GOLEMCLIMBER.1=透過裝配攀爪、吊鉤及其他裝備，可以讓傀儡獲得越過高牆以及其他障礙物的能力。<BR>§9此研究解鎖了額外的傀儡部件。§0
 #
 tc.research_name.GOLEMFLYER=傀儡機動性：飛行
-tc.research_text.GOLEMFLYER=Up, Up and Away!
+tc.research_text.GOLEMFLYER=直上青天！
 tc.research_page.GOLEMFLYER.1=基本上透過砍掉傀儡的雙腿並換上奧術懸浮裝置就能讓你的傀儡獲得飛行能力。換來優異(但不穩定)機動性的代價是其緩慢的移動速度。<BR>§9此研究解鎖了額外的傀儡部件。§0
 #
 tc.research_name.GOLEMBREAKER=傀儡操作：方塊破壞 
@@ -1747,7 +1751,7 @@ tc.research_page.ELDRITCHMINOR.1=一切忽然變的如此清晰。在他人眼�
 tc.research_name.ELDRITCHMAJOR=異象啟示錄
 tc.research_text.ELDRITCHMAJOR=我已經看穿了那無垠的邊界
 tc.research_page.ELDRITCHMAJOR.1=面紗已經被揭開——吾心中那道門已經被開啟。<BR>當我望穿吾所迷惘處。不，那並非迷惘§m我所看見的§r<BR>§o吾之所見 吾 見 吾見靓 五口目 ㄨ§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
-tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>這是誰畫的阿!?
+tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>這是什麼人畫的!?
 #
 tc.research_name.VOIDMETAL=虛無鋼
 tc.research_text.VOIDMETAL=怪了，這摸起來應該是涼…
