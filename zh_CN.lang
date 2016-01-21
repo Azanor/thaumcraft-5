@@ -518,6 +518,7 @@ item.focus_warding.name=法杖核心:守护
 item.focus_primal.name=法杖核心:元始
 item.focus_shard.name=法杖核心:魔力碎片
 item.focus_grapple.name=法杖核心:锚钩
+item.focus_builder.name=法杖核心:建筑
 item.wand_cap.iron.name=铁杖端
 item.wand_cap.gold.name=金杖端
 item.wand_cap.brass.name=黄铜杖端
@@ -588,6 +589,7 @@ item.researchnotes.learn=右键点击来学习该发现
 item.creative_placer.obelisk.name=方尖碑敷设器
 item.creative_placer.node.name=节点敷设器
 item.creative_placer.caster.name=荒古施法器敷设器
+item.creative_flux_sponge.name=污染清理海绵
 #
 # Golem
 item.module.vision.name=神秘生物学之眼
@@ -807,7 +809,7 @@ golem.prop.cycle=按白名单循环
 golem.prop.meta=忽略meta数据
 golem.prop.nbt=忽略NBT数据
 golem.prop.ore=使用矿物辞典
-golem.prop.mod=匹配模组
+golem.prop.mod=匹配相同模组
 golem.prop.mob=以生物为目标 
 golem.prop.animal=以动物为目标
 golem.prop.player=以玩家为目标
@@ -932,6 +934,8 @@ tc.dioptra.1=显示灵气场中%s的浓度.
 tc.dioptra.2=显示最高的灵气浓度.
 tc.dioptra.3=显示灵气浓度比例.
 tc.notowned=它并不属于你.
+tc.fluxevent.1=扭曲而诡异的灵气场打乱了你的思绪.
+tc.fluxevent.2=不再稳定的灵气场侵蚀着你的魔力.
 #
 # Aspects
 tc.aspect.primal=元始要素
@@ -1137,37 +1141,37 @@ tc.research_page.CAP_void.1=用虚空金属合成的杖端因其魔力抗性显�
 #
 tc.research_name.ROD_greatwood=宏伟之木杖柄
 tc.research_text.ROD_greatwood=魔力存储库
-tc.research_page.ROD_greatwood.1=宏伟之木的原木雕刻而成,能存储二倍于普通木材的魔力,也就是说每种魔力都能存储500vis.
+tc.research_page.ROD_greatwood.1=宏伟之木的原木雕刻而成,能存储二倍于普通木材的魔力,也就是说每种魔力都能存储250vis.
 #
 tc.research_name.ROD_silverwood=银树杖柄
 tc.research_text.ROD_silverwood=神秘核心
-tc.research_page.ROD_silverwood.1=银树被证明是极其优良的魔力存储材料,每种魔力能存储1000vis.
+tc.research_page.ROD_silverwood.1=银树被证明是极其优良的魔力存储材料,每种魔力能存储500vis.
 #
 tc.research_name.SCEPTRE=工艺权杖
 tc.research_text.SCEPTRE=以制造为己任
-tc.research_page.SCEPTRE.1=工艺权杖是一种特制法杖,它专业制造魔力物品三十年,而别无旁顾.虽无法安装法杖核心,但其若干特性仍使得它非常值得使用.<BR>首先,这种法杖额外会提供5%的魔力减免,这比其杖端能提供的还要多.<BR>其次,在其杖柄通常所提供的容量的基础上,这种法杖还能够多存储50%的魔力.<BR>类似其他法杖,工艺权杖也可以通过杖端杖柄的绝大部分组合方式制出 - 下面几页仅仅给出部分例子.
+tc.research_page.SCEPTRE.1=工艺权杖是一种特制法杖,它专业制造魔力物品三十年,而别无旁顾.虽无法安装法杖核心,但其若干特性仍使得它非常值得使用.<BR>首先,这种法杖会额外提供10%的魔力减免,这比其杖端能提供的还要多.<BR>其次,在其杖柄通常所提供的容量的基础上,这种法杖还能够多存储50%的魔力.<BR>类似其他法杖,工艺权杖也可以通过杖端杖柄的绝大部分组合方式制出 - 下面几页仅仅给出部分例子.
 #
-tc.research_name.PRIMALRODS=元素杖芯
-tc.research_text.PRIMALRODS=元素魔力存储
-tc.research_page.PRIMALRODS.1=下列杖芯都与一种特定的元始要素相关,因此都分别具有特别的能力.<LINE>§l§n甘蔗杖芯§r<BR>使用甘蔗制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Aer§0要素魔力低于10%时,无需节点就能自动补充.
-tc.research_page.PRIMALRODS.2=§l§n烈焰杖芯§r<BR>使用烈焰棒制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Ignis§0要素魔力低于10%时,无需节点就能自动补充.
-tc.research_page.PRIMALRODS.3=§l§n黑曜石杖芯§r<BR>使用烈焰棒制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Terra§0要素魔力低于10%时,无需节点就能自动补充.
-tc.research_page.PRIMALRODS.4=§l§n寒冰杖芯§r<BR>使用冰块制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Aqua§0要素魔力低于10%时,无需节点就能自动补充.
-tc.research_page.PRIMALRODS.5=§l§n石英杖芯§r<BR>使用石英制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Ordo§0要素魔力低于10%时,无需节点就能自动补充.
-tc.research_page.PRIMALRODS.6=§l§n白骨杖芯§r<BR>使用骨头制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Perditio§0要素魔力低于10%时,无需节点就能自动补充.
+tc.research_name.PRIMALRODS=元素杖柄
+tc.research_text.PRIMALRODS=元素魔力法杖
+tc.research_page.PRIMALRODS.1=下列杖柄都与一种特定的元始要素相关,因此都分别具有特别的能力.<LINE>§l§n甘蔗杖柄§r<BR>使用甘蔗制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Aer§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
+tc.research_page.PRIMALRODS.2=§l§n烈焰杖柄§r<BR>使用烈焰棒制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Ignis§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
+tc.research_page.PRIMALRODS.3=§l§n黑曜石杖柄§r<BR>使用烈焰棒制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Terra§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
+tc.research_page.PRIMALRODS.4=§l§n寒冰杖柄§r<BR>使用冰块制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Aqua§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
+tc.research_page.PRIMALRODS.5=§l§n石英杖柄§r<BR>使用石英制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Ordo§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
+tc.research_page.PRIMALRODS.6=§l§n白骨杖柄§r<BR>使用骨头制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Perditio§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
 #
-tc.research_name.PRIMALSTAVES=元素手杖 
+tc.research_name.PRIMALSTAVES=元素杖芯
 tc.research_text.PRIMALSTAVES=元素魔力手杖
-tc.research_page.PRIMALSTAVES.1=类似元素杖芯,这些手杖同样也与某种特定的元始要素相关.这赋予了它们特别的能力,并且能够在所储魔力下降到一定水平时自动充能.它们能够储存每种魔力各1750vis.
+tc.research_page.PRIMALSTAVES.1=类似元素杖柄,这些杖芯同样也与某种特定的元始要素相关.这赋予了它们特别的能力,并且能够在所储魔力下降到一定水平时自动充能.它们能够储存每种魔力各500vis.
 #
 tc.research_name.ROD_greatwood_staff=魔法手杖
 tc.research_text.ROD_greatwood_staff=末端带把手的巫师之杖
-tc.research_page.ROD_greatwood_staff.1=法杖是神秘使的必备行头,但有时候你总会期望能用上更酷炫的款式.魔法手杖基本上只是一种更大号的法杖.它们能存储更多魔力.<BR>由于相比法杖它们造得个头更大也更坚固,应急情况也能用作武器.<BR>不幸的是,这也使得它并不适宜用作复杂工艺,且缺乏奥术工作台或类似制作平台所需的精细控制能力.
-tc.research_page.ROD_greatwood_staff.2=宏伟之木制成的手杖存储魔力是同等材料的法杖的2倍,能够存储每种魔力达1250vis.
+tc.research_page.ROD_greatwood_staff.1=法杖是神秘使的必备行头,但有时候你总会期望能用上更酷炫的款式.魔法手杖基本上只是一种更大号的法杖.它们能存储更多魔力.<BR>宏伟之木制成的手杖存储魔力是同等材料的法杖的1.5倍,能够存储每种魔力达375vis.并且在使用法杖核心施法时,它会额外提供10%的魔力减免.<BR>由于相比法杖它们造得个头更大也更坚固,应急情况也能用作武器.
+tc.research_page.ROD_greatwood_staff.2=不幸的是,这也使得它并不适宜用作复杂工艺,且缺乏奥术工作台或类似制作平台所需的精细控制能力.<BR>你仍需如同制作法杖一样给它安装两个杖端.
 #
 tc.research_name.ROD_silverwood_staff=银树杖芯
 tc.research_text.ROD_silverwood_staff=魔力入髓
-tc.research_page.ROD_silverwood_staff.1=这种银树制成的魔杖能够容纳每种类型的魔力2500vis.
+tc.research_page.ROD_silverwood_staff.1=这种银树制成的手杖能够容纳每种类型的魔力750vis.
 #
 tc.research_name.ROD_primal_staff=元始杖芯
 tc.research_text.ROD_primal_staff=融合的元素能量
@@ -1679,7 +1683,7 @@ tc.research_page.SEALCOLLECT.2=你现在可以制作出该印记的高级版本�
 #
 tc.research_name.SEALSTORE=操控印记:填充
 tc.research_text.SEALSTORE=井井有条
-tc.research_page.SEALSTORE.1=你需要把这个印记放置在容器的任意面来进行使用.它将为附近持有物品的傀儡指定一个可用的目的地.只要该容器可以容纳傀儡手持的物品,傀儡就会把物品放到这个容器中.<BR>你可以通过黑/白名单来设置该容器可接受的物品类型.
+tc.research_page.SEALSTORE.1=你可以把这个印记贴在容器的任意面来使用.它将为附近持有物品的傀儡指定一个可用的目的地.只要该容器可以容纳傀儡手持的物品,傀儡就会把物品放到这个容器中.<BR>你可以通过黑/白名单来设置该容器可接受的物品类型.<BR>如果该印记的放置位置不是容器,傀儡会把手中的物品丢在该印记所在的位置.
 tc.research_page.SEALSTORE.2=你现在可以制作出该印记的升级版本以设定更完善的过滤内容及扩充标记栏.因此,傀儡需要足够聪明来执行该印记的指令.<BR>你可以设定该印记在匹配过滤时忽略NBT数据或是物品损害值,抑或者是自动匹配矿物辞典.此外,该印记同样支持按照设定物品所属的模组来标记该模组的所有物品
 #
 tc.research_name.SEALEMPTY=操控印记:空置
