@@ -523,6 +523,7 @@ item.focus_warding.name=Foci de baguette : Protection
 item.focus_primal.name=Foci de baguette : Primal
 item.focus_shard.name=Foci de baguette : Éclat de vis
 item.focus_grapple.name=Foci de baguette : Grappin
+item.focus_builder.name=Foci de baguette : Constructeur
 item.wand_cap.iron.name=Embout en fer
 item.wand_cap.gold.name=Embout en or
 item.wand_cap.brass.name=Embout en laiton
@@ -593,6 +594,7 @@ item.researchnotes.learn=Clique droit pour apprendre cette découverte
 item.creative_placer.obelisk.name=Placeur d'obélisque
 item.creative_placer.node.name=Placeur de nœud
 item.creative_placer.caster.name=Placeur de lanceur automatique ancien
+item.creative_flux_sponge.name=Éponge à Flux
 #
 #Golem
 item.module.vision.name=Vision Module
@@ -1247,6 +1249,11 @@ tc.research_page.FOCUSPRIMAL.1=Quel folie vous a possédé pour créer cette cho
 tc.research_name.FOCUSGRAPPLE=Foci: Grappin
 tc.research_text.FOCUSGRAPPLE=Woosh!
 tc.research_page.FOCUSGRAPPLE.1=Les focis par leur nature même, ne peuvent généralement créer que des effets instantanés, ce qui les rends inappropriés pour faciliter le voyage ou pour créér des effets tels que vol. Cependant, vous n'êtes pas du genre à reculer devant un défi, et cela vous conduira à la découverte du foci grappin. Ce foci lance une attache d'énergie élémentaire qui se fixe aux blocs et puis il vous tire vers ce bloc. Ceci le rend utile pour traverser les trous ou les hauteurs, ou tout simplement pour se déplacer rapidement. Appuyer sur la touche pour vous accroupir pour vous détacher de l'attache. L'amélioration "Force" augmente la portée du grappin.
+#
+tc.research_name.FOCUSBUILDER=Wand Focus: Builder
+tc.research_text.FOCUSBUILDER=Faster 9x9's
+tc.research_page.FOCUSBUILDER.1=This focus is somewhat similar to the focus of Equal Trade, but instead of replacing blocks, this one can simply place them.<BR>You must first choose the block you wish to place by sneaking and right clicking on the desired block.<BR>You can target a block face up to 64 blocks away. An outline will show where the blocks will be placed and right clicking will place them. Like with the focus of equal trade you must actually have those blocks available in your inventory.
+tc.research_page.FOCUSBUILDER.2=The blocks will always be placed in a line extending from the selected face up to a location level with your own, to a maximum of 16 blocks at a time. Upgrading the focus will allow you to place more blocks at a time.<BR>If the placed line of blocks intersects an existing block, it will be replaced and placed in your inventory.
 #
 tc.research_name.FOCUSPOUCH=Sac à Focis
 tc.research_text.FOCUSPOUCH=Conteneur pratique pour porter vos Focis
