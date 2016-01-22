@@ -589,6 +589,7 @@ item.researchnotes.learn=右クリックで研究成果について学ぶ
 item.creative_placer.obelisk.name=オベリスク設置
 item.creative_placer.node.name=オーラ節設置
 item.creative_placer.caster.name=いにしえの自動詠唱器設置
+item.creative_flux_sponge.name=フラックス・スポンジ
 #
 # Golem
 item.module.vision.name=視界モジュール
@@ -808,7 +809,7 @@ golem.prop.cycle=循環型ホワイトリスト
 golem.prop.meta=メタデータを使用する
 golem.prop.nbt=NBTデータを使用する
 golem.prop.ore=鉱石辞書を使用する
-golem.prop.mod=MODを使用する
+golem.prop.mod=同じMOD区分を使用する
 golem.prop.mob=モブを対象
 golem.prop.animal=動物を対象
 golem.prop.player=プレイヤーを対象
@@ -933,6 +934,8 @@ tc.dioptra.1=オーラ中の%sの量を表示。
 tc.dioptra.2=最も高いオーラ量を表示。
 tc.dioptra.3=オーラ量の比率を表示。
 tc.notowned=これはあなたのものではない。
+tc.fluxevent.1=付近のオーラが急に捻れて歪み、あなたの思考を掻き乱していった。
+tc.fluxevent.2=局所的にオーラが一瞬不安定になり、あなたの魔法の能力を阻害する。  
 #
 # Aspects
 tc.aspect.primal=根源相
@@ -1305,7 +1308,7 @@ tc.research_page.ELEMENTALTOOLS.8=§l§n成長のクワ§r<BR>秩序と無秩序
 tc.research_name.INFERNALFURNACE=地獄のかまど
 tc.research_text.INFERNALFURNACE=熱さは充分？
 tc.research_page.INFERNALFURNACE.1=黒曜石とネザーレンガでできたかまどに生の§cIgnis§0を利用して、高効率で燃料いらずのかまどを創りだした。効率的というのは、時折ナゲットといった形でボーナスの素材を生成するということだ。<BR>これは基本的には燃料不要だが、オーラから§cIgnis§0のvisを安定供給しないかぎり、精錬速度はとても遅い。
-tc.research_page.INFERNALFURNACE.2=また注意すべき点として、時折少量のフラックスが周辺に排出されることがある。<BR>精錬したいアイテムはかまどの上部からドロップして投入し、正面から吐き出される。
+tc.research_page.INFERNALFURNACE.2=また注意すべき点として、時折少量のフラックスが周辺に排出されることがある。<BR>精錬したいアイテムはかまどの上部からドロップして投入し、正面から吐き出される。かまどの燃え盛る核の上部はインベントリを持つかのように振舞い、ホッパーやそれに類するものを用いて直接アイテムを搬入することができる。
 #
 tc.research_name.BELLOWS=神秘のふいご
 tc.research_text.BELLOWS=火を焚く
@@ -1682,8 +1685,8 @@ tc.research_page.SEALCOLLECT.2=またより多くのアイテムを一度にフ�
 #
 tc.research_name.SEALSTORE=制御の印章: 搬入
 tc.research_text.SEALSTORE=散らかしたら片付け
-tc.research_page.SEALSTORE.1=この印章はコンテナの側面に設置しなければならない。近くのゴーレムが何かアイテムを持っていればそれをコンテナへ搬入するように命令を与える。コンテナがそのアイテムを受け入れられる限り、ゴーレムはアイテムを運び続ける。<BR>ホワイトないしブラックリストを用いて特定のアイテムだけを選別できる。
-tc.research_page.SEALSTORE.2=またより多くのアイテムを一度にフィルターし且つアイテムをどうフィルターするかを指示することで、ゴーレムによりスマートに作業を行わせられる上位の印章も作成できる。<BR>この印章はフィルタリングの際にNBTやダメージ値を無視させたり、鉱石辞書を使わせたり、また同じMODのアイテムだけを選別させるようなフィルタリングができる。
+tc.research_page.SEALSTORE.1=この印章はコンテナの側面に設置できる。近くのゴーレムが何かアイテムを持っていればそれをコンテナへ搬入するように命令を与える。コンテナがそのアイテムを受け入れられる限り、ゴーレムはアイテムを運び続ける。<BR>ホワイトないしブラックリストを用いて特定のアイテムだけを選別できる。
+tc.research_page.SEALSTORE.2=またより多くのアイテムを一度にフィルターし且つアイテムをどうフィルターするかを指示することで、ゴーレムによりスマートに作業を行わせられる上位の印章も作成できる。<BR>この印章はフィルタリングの際にNBTやダメージ値を無視させたり、鉱石辞書を使わせたり、また同じMODのアイテムだけを選別させるようなフィルタリングができる。<BR>コンテナでないブロックに対して設置した場合、ゴーレムは単純にアイテムをその地点へドロップする。
 #
 tc.research_name.SEALEMPTY=制御の印章: 搬出
 tc.research_text.SEALEMPTY=全く新しく散らかす
