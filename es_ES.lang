@@ -128,11 +128,11 @@ champion.mod.vampiric=Vampirezco
 champion.mod.infested=Infestado
 #
 tc.boss.crimson=La apertura de un portal rubí anuncia la llegada del Culto Crimson. ¡Debes cerrar el portal rápidamente!
-tc.boss.golem=Un centinela solitario se encuentra congelado en esta habitación, pero como la energía ha empezado a crepitar a través de su antiguas paredes, sabes que este ser no continuara en ese estado por mucho tiempo.
+tc.boss.golem=Un centinela solitario se encuentra congelado en esta habitación, pero como la energía ha empezado a crepitar a través de estas antiguas paredes, sabes que este ser no continuara en ese estado por mucho tiempo.
 tc.boss.warden=Burbujea energía oscura en un pedestal distante. Algo está por llegar...
 tc.boss.taint=Se escucha un crujido orgánico que proviene de abajo. Un sonido de algo que no está bien... de algo que no deja de crecer...
 #
-# Blocks-
+# Blocks
 ###################################
 # World
 tile.ore_amber.name=Mena de Ámbar
@@ -339,6 +339,10 @@ tile.crystallizer.name=Cristalizador de Esencias
 tile.spa.name=Spa Arcano
 tile.mirror.name=Espejo Mágico
 tile.mirror_essentia.name=Espejo de Esencia
+tile.golem_builder.name=Prensa Golem
+tile.node_stabilizer.name=Estabilizador de Nodos
+tile.essentia_input.name=Transufusor de Llenado de Esencia
+tile.essentia_output.name=Transufusor de Desague de Esencia
 #
 # Items
 ###################################
@@ -351,7 +355,7 @@ item.shard.water.name=Fragmento de Agua
 item.shard.earth.name=Fragmento de Tierra
 item.shard.order.name=Fragmento de Orden
 item.shard.entropy.name=Fragmento de Entropía
-item.shard.balanced.name=Fragmento de Conocimiento
+item.shard.balanced.name=Fragmento Balanceado
 item.shard.flux.name=Fragmento Contaminado
 item.ingot.thaumium.name=Lingote de Thaumium
 item.ingot.void.name=Lingote de Vacío Metálico
@@ -365,6 +369,7 @@ item.nugget.quicksilver.name=Gota de Mercurio
 item.nugget.thaumium.name=Pepita de Thaumium
 item.nugget.void.name=Pepita de Vacío Metálico
 item.nugget.brass.name=Pepita de Latón Alquímico
+item.cluster.iron.name=Racimo de Hierro Natural
 item.cluster.copper.name=Racimo de Cobre Natural
 item.cluster.tin.name=Racimo de Estaño Natural
 item.cluster.silver.name=Racimo de Plata Natural
@@ -374,7 +379,7 @@ item.cluster.gold.name=Racimo de Oro Natural
 #
 # Resources
 item.filter.name=Filtro de Esencia
-item.morphic_resonator.name=Resonador Morfico
+item.morphic_resonator.name=Resonador Mórfico
 item.tallow.name=Sebo Mágico
 item.void_seed.name=Semilla de Vacío
 item.salis_mundus.name=Salis Mundus
@@ -416,8 +421,9 @@ item.sanity_soap.name=Jabón Desinfectante
 item.loot_bag.common.name=Tesoro Común
 item.loot_bag.uncommon.name=Tesoro Poco Común
 item.loot_bag.rare.name=Tesoro Raro
-tc.lootbag=Haga clic para abrir o guardar para comerciar
+tc.lootbag=Haz clic para abrir o guardalo para comerciar después con él.
 item.turret.basic.name=Torreta Automática
+item.turret.advanced.name=Torreta Automática Avanzada
 item.turret.focus.name=Torreta Mágica
 item.turret.magnet.name=Imán de Nodos
 #
@@ -458,11 +464,11 @@ item.hand_mirror.name=Espejo de Mano Mágico
 # Armor
 item.goggles.name=Gafas de la Revelación
 item.fortress_helm.name=Yelmo Blindado de Thaumium
-item.fortress_helm.mask.0=Mueca del diablo
-item.fortress_helm.mask.1=Fantasma enojado
+item.fortress_helm.mask.0=Mueca del Diablo
+item.fortress_helm.mask.1=Fantasma Enojado
 item.fortress_helm.mask.2=Diablo Sonriente
 item.fortress_chest.name=Coraza Blindada de Thaumium
-item.fortress_legs.name=Grebas Blindada de Thaumium
+item.fortress_legs.name=Grebas Blindadas de Thaumium
 item.thaumium_helm.name=Casco de Thaumium
 item.thaumium_chest.name=Peto de Thaumium
 item.thaumium_legs.name=Grebas de Thaumium
@@ -474,9 +480,9 @@ item.void_helm.name=Casco de Vacío Metálico
 item.void_chest.name=Peto de Vacío Metálico
 item.void_legs.name=Grebas de Vacío Metálico
 item.void_boots.name=Botas de Vacío Metálico
-item.void_robe_helm.name=Capucha Thaumaturgico de Vacío
+item.void_robe_helm.name=Capucha Thaumaturgica de Vacío
 item.void_robe_chest.name=Ropa Thaumaturgica de Vacío
-item.void_robe_legs.name=Grebas Thaumaturgica de Vacío
+item.void_robe_legs.name=Grebas Thaumaturgicas de Vacío
 item.crimson_boots.name=Botas del Culto Crimson
 item.crimson_robe_helm.name=Casco del Culto Crimson
 item.crimson_robe_chest.name=Peto del Culto Crimson
@@ -506,7 +512,7 @@ item.baubles.3.name=Anillo de Aprendiz de %TYPE
 item.amulet_vis.text=Recarga lentamente las varitas sujetadas
 item.amulet_vis.0.name=Piedra de Vis
 item.amulet_vis.1.name=Amuleto de Almacenamiento de Vis
-item.girdle_hover.name=Cinturón Thumostático
+item.girdle_hover.name=Cinturón Thaumostático
 
 # Wand
 item.focus_fire.name=Foco de varita: Fuego
@@ -520,6 +526,8 @@ item.focus_pech.name=Foco de varita: La Maldición Pech
 item.focus_warding.name=Foco de varita: Protección
 item.focus_primal.name=Foco de varita: Primigenio
 item.focus_shard.name=Foco de varita: Fragmento de Vis
+item.focus_grapple.name=Wand Focus: Látigo
+item.focus_builder.name=Wand Focus: Constructor
 item.wand_cap.iron.name=Cubierta de Hierro
 item.wand_cap.gold.name=Cubierta de Oro
 item.wand_cap.brass.name=Cubierta de Latón Alquímico
@@ -531,8 +539,8 @@ item.wand_rod.greatwood.name=Núcleo de Madera Magnífica
 item.wand_rod.silverwood.name=Núcleo de Madera Plateada 
 item.wand_rod.obsidian.name=Núcleo de Obsidiana
 item.wand_rod.ice.name=Núcleo de Hielo
-item.wand_rod.quartz.name=Núcleo de Cuarzo 
-item.wand_rod.reed.name=Núcleo de Caña 
+item.wand_rod.quartz.name=Núcleo de Cuarzo
+item.wand_rod.reed.name=Núcleo de Caña
 item.wand_rod.blaze.name=Núcleo de Fuego 
 item.wand_rod.bone.name=Núcleo de Hueso 
 item.wand_rod.greatwood_staff.name=Núcleo de Madera Magnífica para Bastón
@@ -552,7 +560,7 @@ item.Focus.cost1=Vis por cada lanzamiento
 item.Focus.cost2=Vis por tick
 item.Wand.wand.obj=Varita
 item.Wand.sceptre.obj=Cetro
-item.Wand.staff.obj=Baston
+item.Wand.staff.obj=Bastón
 item.Wand.wood.rod=de Madera
 item.Wand.greatwood.rod=de Árbol Magnífico
 item.Wand.silverwood.rod=de Árbol Plateado
@@ -568,7 +576,7 @@ item.Wand.gold.cap=Cubierta de Oro
 item.Wand.copper.cap=Cubierta de Cobre
 item.Wand.silver.cap=Cubierta de Plata
 item.Wand.thaumium.cap=Cubierta de Thaumium
-item.Wand.void.cap=Aspecto Vació
+item.Wand.void.cap=Aspecto Vacío
 #
 # Misc
 item.tainted.slime.name=Goo Contaminado
