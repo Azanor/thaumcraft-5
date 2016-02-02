@@ -1676,7 +1676,7 @@ tc.research_name.FOCUSTURRET=Autocaster
 tc.research_text.FOCUSTURRET=Automated Foci
 tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with the development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce the activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
 #
-tc.research_name.SEALCOLLECT=Control Seal: Collect
+tc.research_name.SEALCOLLECT=Control Seal: Collect 
 tc.research_text.SEALCOLLECT=Picking up what you are putting down
 tc.research_page.SEALCOLLECT.1=This seal will constantly check an area you define for dropped items. If items are found it will instruct any nearby golems to pick up those items.<BR>You can define the exact dimensions of the area as well as filter out certain items using a white- or blacklist.
 tc.research_page.SEALCOLLECT.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.  
