@@ -17,7 +17,7 @@ potion.warpward=扭曲防護
 potion.deathgaze=死亡凝視
 potion.blurred=視線飄渺
 potion.sunscorned=日之辱蔑
-potion.thaumarhia=玄症
+potion.thaumarhia=玄癔
 #
 # Warp
 ###################################
@@ -167,12 +167,12 @@ tile.ancient_stairs.name=亙古石階梯
 tile.translucent.amber_block.name=琥珀磚
 tile.translucent.amber_brick.name=琥珀磚塊
 tile.translucent.empty.name=空間
-tile.slab_wood.greatwood.name=宏偉之木台階
-tile.slab_wood.silverwood.name=銀樹台階
-tile.slab_stone.arcane.name=奧術台階
-tile.slab_stone.arcane_brick.name=奧術石磚台階
-tile.slab_stone.ancient.name=亙古石台階
-tile.slab_stone.eldritch.name=異象石台階
+tile.slab_wood.greatwood.name=宏偉之木半磚
+tile.slab_wood.silverwood.name=銀樹半磚
+tile.slab_stone.arcane.name=奧術半磚
+tile.slab_stone.arcane_brick.name=奧術石磚半磚
+tile.slab_stone.ancient.name=亙古石半磚
+tile.slab_stone.eldritch.name=異象石半磚
 tile.shimmerleaf.name=水銀花
 tile.cinderpearl.name=火焰草
 tile.vishroom.name=蘊靈菇
@@ -517,7 +517,7 @@ item.focus_pech.name=法杖核心：地精詛咒
 item.focus_warding.name=法杖核心：守護
 item.focus_primal.name=法杖核心：原初
 item.focus_shard.name=法杖核心：魔晶彈
-item.focus_grapple.name=法杖核心：抓勾
+item.focus_grapple.name=法杖核心：鉤索
 item.focus_builder.name=法杖核心：建築
 item.wand_cap.iron.name=鐵杖端
 item.wand_cap.gold.name=金杖端
@@ -622,22 +622,22 @@ item.chargebonus.text=充能
 ########################
 # Traits
 golem.trait.deft=靈巧
-golem.trait.text.deft=這種傀儡擁有相當的手工技巧，擅長操作需要高準確度的工作。與笨拙相衝突。
+golem.trait.text.deft=這種傀儡擁有相當的手工技巧，擅長操作需要高準確度的工作。其反面為笨拙。
 golem.trait.clumsy=笨拙
-golem.trait.text.clumsy=這個傀儡對手工完全不行，一次只能進行單項作業。與靈巧相衝突。
+golem.trait.text.clumsy=這個傀儡對手工完全不行，一次只能進行單項作業。其反面為靈巧。
 golem.trait.smart=聰穎
 golem.trait.text.smart=這個傀儡對於周遭的感覺靈敏，擁有優秀的推測與判斷能力。
 golem.trait.wheeled=輪式
-golem.trait.text.wheeled=這個傀儡以輪子行駛。雖然速度優秀，但無法跳躍或是跨越陡峭的地面。
-golem.trait.light=輕盈結構
-golem.trait.text.light=這個傀儡重量輕於平均值，擁有較佳的速度與敏捷度。與沉重相衝突。
-golem.trait.heavy=沉重結構
-golem.trait.text.heavy=這個傀儡重量重於平均值，速度較緩慢，敏捷度也比較差。與輕盈相衝突。
+golem.trait.text.wheeled=這個傀儡以單輪行駛。雖然速度優秀，但無法跳躍或是跨越陡峭的地面。
+golem.trait.light=輕型
+golem.trait.text.light=這個傀儡重量輕於平均值，擁有較佳的速度與敏捷度。其反面為沉重。
+golem.trait.heavy=重型
+golem.trait.text.heavy=這個傀儡重量重於平均值，速度較緩慢，敏捷度也比較差。其反面為輕盈。
 golem.trait.fragile=脆弱
-golem.trait.text.fragile=這個傀儡使用了精密元件或脆弱的材料，降低了其生命值與裝甲值。與裝甲相衝突。
+golem.trait.text.fragile=這個傀儡使用了精密元件或脆弱的材料，降低了其生命值與裝甲值。其反面為裝甲。
 golem.trait.armored=裝甲
-golem.trait.text.armored=這個傀儡使用的外加結構增強了其裝甲值。與脆弱相衝突。
-golem.trait.repair=強化自我修復
+golem.trait.text.armored=這個傀儡使用的外加結構增強了其裝甲值。其反面為脆弱。
+golem.trait.repair=修復強化
 golem.trait.text.repair=這個傀儡的自我修復能力是一般傀儡的兩倍。
 golem.trait.fighter=鬥士
 golem.trait.text.fighter=這個傀儡具有對其他實體的攻擊能力。
@@ -701,7 +701,7 @@ golem.leg.text.roller=一顆單輪。相當迅速，但無法跳躍或往高處�
 golem.leg.climber=爬行足
 golem.leg.text.climber=以攀爪及其他裝置強化的雙足，能垂直爬行。
 golem.leg.flyer=懸浮組件
-golem.leg.text.flyer=改造的奧術懸浮裝置賦予傀儡漂浮能力，但降低了其速度。
+golem.leg.text.flyer=改造的奧術懸浮裝置賦予傀儡漂浮能力，但降低了1/3的速度。
 #
 golem.addon.armored=裝甲
 golem.addon.text.armored=強化傀儡耐久強度。
@@ -710,7 +710,7 @@ golem.addon.text.fighter=允許傀儡進行攻擊。
 golem.addon.hauler=承載架
 golem.addon.text.hauler=允許傀儡多帶一組物品。
 #
-golem.follow=我來了，主人。
+golem.follow=我將與您隨行，主人。
 golem.stay=我將在此待命，主人。
 #
 # Fluids
@@ -770,7 +770,7 @@ focus.upgrade.dowsing.text=這項升即使採掘核心採掘礦物時有低機�
 focus.upgrade.persistant.name=延續
 focus.upgrade.persistant.text=當法杖核心的目標死亡、消失或是離開法術範圍，追蹤彈會在附近搜索另一個相同類型的目標。
 focus.upgrade.sticky.name=黏著
-focus.upgrade.sticky.text=這個抓勾核心在你靠近目標時不會自動解除，你必須主動放開。
+focus.upgrade.sticky.text=這個鉤索核心在你靠近目標時不會自動解除，你必須主動放開。
 #
 # GUI
 ###################
@@ -822,14 +822,33 @@ golem.prop.provision=供應需求
 golem.prop.provision.wl=從白名單中進行供應
 golem.rank=等級
 golem.prop.priority=任務優先度
+golem.prop.color=指定%s傀儡 
+golem.prop.colorall=所有傀儡
 golem.prop.owner=這個印記屬於你
-golem.prop.lock=擁有者與該印記相同的傀儡才能執行這些工作
+golem.prop.lock=指定與該印記相同擁有者的傀儡執行工作
 golem.prop.unlock=所有傀儡皆能執行這項工作
 #
 tile.researchtable.noink.0=墨水已耗盡！
 tile.researchtable.noink.1=請補充新的筆與墨。
 text.spa.mix.true=混和溶液浴
 text.spa.mix.false=單純流體浴
+#
+color.white=白色
+color.orange=橘色
+color.magenta=洋紅色
+color.light_blue=淺藍色
+color.yellow=黃色
+color.lime=淺綠色
+color.pink=粉紅色
+color.gray=灰色
+color.silver=淺灰色
+color.cyan=青色
+color.purple=紫色  
+color.blue=藍色
+color.brown=棕色
+color.green=綠色
+color.red=紅色
+color.black=黑色
 #
 # Other
 ###################
@@ -1210,9 +1229,9 @@ tc.research_name.FOCUSPRIMAL=法術核心：原初
 tc.research_text.FOCUSPRIMAL=天然魔力
 tc.research_page.FOCUSPRIMAL.1=要瘋到什麼程度你才會去做出這種東西啊？這個核心光是看起來就極其危險，除非是在最受控的環境下，否則只有瘋子才會嘗試去使用它。<BR>誠然，它製造出的原初能量球的確所向披靡。但其飛行軌跡說好聽是全然漂忽不定，說難聽點就是透著徹頭徹尾的惡意。<BR>然而它尚需更進一步研究：這些能量球顯露出一些有趣的次元特性，且它的能量模式你僅僅在精靈以及靈氣節點那裡見到過。
 #
-tc.research_name.FOCUSGRAPPLE=法術核心：抓勾
+tc.research_name.FOCUSGRAPPLE=法術核心：鉤索
 tc.research_text.FOCUSGRAPPLE=Woosh!
-tc.research_page.FOCUSGRAPPLE.1=法杖核心通常只能放出短暫的效果，這使其無法用於使舒緩旅途或是製造飛行效果。但是這無法使你迴避冒現，因此你研究出了這個方法：抓勾核心。<BR>這顆核心展開元素能量繫繩勾住方塊，並將你拉向該目標。這使你便於跨越各種地形，或是單純進行快速的移動。按下潛行鍵以直接斷開連結。<BR>效能附魔能延伸其施放長度。
+tc.research_page.FOCUSGRAPPLE.1=法杖核心通常只能放出短暫的效果，這導致它無法用於緩解漫長旅途或是製造飛行效果。但是這無法阻撓你進行挑戰，為此你研究出了這個方法：鉤索核心。<BR>這顆核心展開元素能量繫繩勾住方塊，並將你拉向該目標。這能幫助你跨越各種地形，或是單純進行快速的移動。途中按下潛行鍵可以直接斷開連結。<BR>效能附魔能延伸其施放長度。
 #
 tc.research_name.FOCUSBUILDER=法術核心：建築
 tc.research_text.FOCUSBUILDER=9x9倍快
@@ -1647,7 +1666,7 @@ tc.research_text.MINDCLOCKWORK=賦予生命
 tc.research_page.MINDCLOCKWORK.1=鐵巨人、雪人或者其他類似的創造物都有一個共通之處——它們的行為都不受控制且難以預料。<BR>驅動他們的是野性、具有自由意志的靈魂，而這正是問題所在。<BR>如果你打算製造一些智能的魔法僕從，你就得考慮賦予他們能夠接受命令的思維。最簡單的解決方案是製造出一個使用秘術學驅動的發條裝置。它具有極其有限的自主思維，不過這僅僅是開始而已。
 tc.research_page.MINDCLOCKWORK.2=當然，現在你覺得該是將它實用化時候了。<BR>你設計出一個特別的壓製裝置以用來合成簡單的傀儡，這包含了一座鐵砧與熔爐以便於組裝各部件。<LINE>組裝傀儡只需要在傀儡壓製裝置的介面中選擇你想要的用於傀儡的部件。目前的選擇相當有限，但你相信未來能開發出更多部件。
 tc.research_page.MINDCLOCKWORK.3=每個傀儡多達五項選擇：基材、頭部種類、手臂、腳以及可選用的額外模塊。只要選好這些你想做成的部件，你所需要的材料就會列在右邊的顯示欄上。你身上必須攜帶列出的材料才能繼續進行製造程序。<BR>中間的列表顯示傀儡將擁有的特性、生命值、裝甲以及攻擊力。<BR>最後你必須對壓製機提供Machina要素源質。壓製裝置的數個開口就是為了這個用途。
-tc.research_page.MINDCLOCKWORK.4=你能在任意處放置你的傀儡，但是若未放置§5傀儡控制印記§0，傀儡幾乎什麼事都不會做。欲瞭解更多，請參閱你所解鎖的相關研究。<BR>傀儡在沒有工作時會回到它被安置的位置。你可以用法杖右擊來回收傀儡。
+tc.research_page.MINDCLOCKWORK.4=你能在任意處放置你的傀儡，但是若未放置§5傀儡控制印記§0，傀儡幾乎什麼事都不會做。欲瞭解更多，請參閱你所解鎖的相關研究。<BR>傀儡在沒有工作時會回到它被安置的位置。你可以用法杖右擊來回收傀儡。<BR>你也可以對傀儡使用染料來染色，用來讓印記限定執行工作的傀儡。收起傀儡會清除傀儡身上的顏色。
 #
 tc.research_name.GOLEMDIRECT=傀儡專精
 tc.research_text.GOLEMDIRECT=親手指示
@@ -1657,7 +1676,8 @@ tc.research_name.CONTROLSEALS=傀儡控制印記
 tc.research_text.CONTROLSEALS=給予目的
 tc.research_page.CONTROLSEALS.1=若沒有收到指示，傀儡無法進行任何工作。為此，你做了一顆控制印記。你可以將這塊黏土印記貼在任何表面之上。隨後它將變得飄渺而無形，但當你持有傀儡、其他印記或是§5傀儡使之鈴§0時依然能看見它。<BR>這個鈴鐺在你進行印記的調整和設定時將是個重要的工具。<BR>因為印記是無形的，所以你能在相同位置放置任何其他方塊。
 tc.research_page.CONTROLSEALS.2=也可以將數個印記放置在同一方格的不同面上，這樣能幫助你節省空間。<BR>你可以透過用鈴鐺shift右擊來取回傀儡印記。<LINE>以鈴鐺右擊印記能微調其參數。每個印記的確切參數有所不同，但大多數的印記能將優先度在-5~5之間調整(預設為0)。由高優先度的印記建立的任務會被優先執行。
-tc.research_page.CONTROLSEALS.3=你還能看到該印記執行任務所需的傀儡特性列表。<BR>舉例來說有的印記可能要求傀儡具有§5靈巧§0特性；或是限制傀儡不能帶有§5笨拙§0特性。<BR>若需要實際例子，可參考§5收集印記§0項目。
+tc.research_page.CONTROLSEALS.3=你還能看到該印記執行任務所需的傀儡特性列表。<BR>舉例來說有的印記可能要求傀儡具有§5靈巧§0特性；或是限制傀儡不能帶有§5笨拙§0特性。<BR>若需要實際例子，可參考§5收集印記§0項目。<LINE>  
+tc.research_page.CONTROLSEALS.4=另外，你可以對印記指定顏色。指定顏色後印記只會指派無色傀儡和同色傀儡。而未指定的印記則會對任何傀儡發出命令(不論染色與否)。<BR>顏色設定選項的位置與優先度設定相同。<BR>對傀儡使用染料以指定顏色。 收回傀儡會清除其顏色。
 #
 tc.research_name.MINDBIOTHAUMIC=秘術生體之心
 tc.research_text.MINDBIOTHAUMIC=我思故我在
