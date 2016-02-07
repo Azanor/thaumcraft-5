@@ -341,8 +341,8 @@ tile.mirror.name=Espejo Mágico
 tile.mirror_essentia.name=Espejo de Esencia
 tile.golem_builder.name=Prensa Golem
 tile.node_stabilizer.name=Estabilizador de Nodos
-tile.essentia_input.name=Transufusor de Llenado de Esencia
-tile.essentia_output.name=Transufusor de Desague de Esencia
+tile.essentia_input.name=Tranfusor de Llenado de Esencia
+tile.essentia_output.name=Tranfusor de Desague de Esencia
 #
 # Items
 ###################################
