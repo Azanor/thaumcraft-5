@@ -18,7 +18,7 @@ enchantment.special.sapgreat=Alta Absorción
 #Potions
 ###################################
 potion.fluxtaint=Contaminación Flux
-potion.soulshatter=Rompe Almas
+potion.soulshatter=Quebranta Almas
 potion.visexhaust=Gripe Flux
 potion.infvisexhaust=Virus Flux
 potion.unhunger=Hambre Anormal
@@ -53,7 +53,7 @@ warp.text.16=Se escucha un débil canto.
 ###################################
 entity.Thaumcraft.AuraNode.name=Nodo de Aura
 entity.Thaumcraft.Golem.name=Golem
-entity.Thaumcraft.ThaumSlime.name=Slime Thaumico
+entity.Thaumcraft.ThaumSlime.name=Slime Thaúmico
 entity.Thaumcraft.GolemDart.name=Dardo de Golem
 entity.Thaumcraft.PrimalArrow.name=Flecha Primigenia
 entity.Thaumcraft.FrostShard.name=Piedra de Hielo
@@ -93,11 +93,11 @@ entity.trunk.guiname='s Baúl
 entity.trunk.move=El baúl te seguirá a partir de ahora
 entity.trunk.stay=El baúl se quedará donde está
 entity.Thaumcraft.MindSpider.name=Araña Mental
-entity.Thaumcraft.EldritchGuardian.name=Guardian Eldritch 
+entity.Thaumcraft.EldritchGuardian.name=Guardian Eldritch
 entity.Thaumcraft.EldritchWarden.name=Jefe Eldritch
 entity.Thaumcraft.EldritchWarden.name.custom=%s el %d
 entity.Thaumcraft.EldritchGolem.name=Golem Eldritch
-entity.Thaumcraft.EldritchGolem.name.custom=Golem Eldritch %s 
+entity.Thaumcraft.EldritchGolem.name.custom=Golem Eldritch %s
 entity.Thaumcraft.EldritchOrb.name=Orbe Eldritch
 entity.Thaumcraft.CultistKnight.name=Caballero del Culto Crimson
 entity.Thaumcraft.CultistCleric.name=Clérigo del Culto Crimson
@@ -200,9 +200,9 @@ tile.taint.soil.name=Suelo Contaminado
 tile.taint.geyser.name=Géiser Contaminado
 tile.taint.rock.name=Piedra Contaminada
 tile.taint_feature.name=Contaminación Inflamada
-tile.eldritch.altar.name=Altar Eldritch 
+tile.eldritch.altar.name=Altar Eldritch
 tile.eldritch.obelisk_base.name=Obelisco Eldritch
-tile.eldritch.obelisk_body.name=Obelisco Eldritch 
+tile.eldritch.obelisk_body.name=Obelisco Eldritch
 tile.eldritch.cap.name=Piedra Angular Eldritch
 tile.eldritch.lock.name=Antiguo Mecanismo de Cerrado
 tile.eldritch.door.name=Puerta Antigua
@@ -299,7 +299,7 @@ tile.crucible.name=Crisol
 tile.arcane_ear.name=Oído Arcano
 tile.levitator.name=Levitador Arcano
 tile.bellows.name=Fuelle Arcano
-tile.dioptra.name=Dioptra Thaumico 
+tile.dioptra.name=Dioptra Thaúmico
 tile.water_jug.name=Tarro de Agua
 tile.recharge_pedestal.name=Pedestal Recarga Varitas
 tile.hungry_chest.name=Cofre Hambriento
@@ -331,7 +331,7 @@ tile.pillar.pillar_eldritch.name=Pilar de Infusión Eldritch
 tile.infusion_matrix.name=Matriz Rúnica
 tile.aura_totem.push.name=Tótem de Dispersión Aural
 tile.aura_totem.pull.name=Tótem de Atracción Aural
-tile.aura_totem.pole_inner.name=Polo Interior para Tótem 
+tile.aura_totem.pole_inner.name=Polo Interior para Tótem
 tile.aura_totem.pole_outer.name=Polo Exterior para Tótem
 tile.aura_totem.pole_pure.name=Estabilizador de Tótem
 tile.centrifuge.name=Centrifugador Alquímico
@@ -374,8 +374,8 @@ item.cluster.copper.name=Racimo de Cobre Natural
 item.cluster.tin.name=Racimo de Estaño Natural
 item.cluster.silver.name=Racimo de Plata Natural
 item.cluster.lead.name=Racimo de Plomo Natural
-item.cluster.cinnabar.name=Racimo de Mercurio Natural  
-item.cluster.gold.name=Racimo de Oro Natural 
+item.cluster.cinnabar.name=Racimo de Mercurio Natural
+item.cluster.gold.name=Racimo de Oro Natural
 #
 # Resources
 item.filter.name=Filtro de Esencia
@@ -401,7 +401,7 @@ item.phial.filled.name=Vial de Esencia
 item.label.blank.name=Etiqueta
 item.label.filled.name=Etiqueta Marcada
 item.mind.clockwork.name=Mente Mecánica
-item.mind.biothaumic.name=Mente Biothaumica
+item.mind.biothaumic.name=Mente Biothaúmica
 #
 # Consumables
 item.alumentum.name=Alumentum
@@ -434,7 +434,7 @@ item.thaumometer.name=Taumómetro
 item.sanity_checker.name=Comprobador de Cordura
 item.resonator.name=Resonador de Esencia
 item.sinister_stone.name=Magnetita Siniestra
-item.scribing_tools.name=Herramientas de escritura
+item.scribing_tools.name=Herramientas de Escritura
 item.thaumium_shovel.name=Pala de Thaumium
 item.thaumium_axe.name=Hacha de Thaumium
 item.thaumium_sword.name=Espada de Thaumium
@@ -518,7 +518,7 @@ item.girdle_hover.name=Cinturón Thaumostático
 item.focus_fire.name=Foco de varita: Fuego
 item.focus_hellbat.name=Foco de varita: Nueve Infiernos
 item.focus_shock.name=Foco de varita: Conmoción
-item.focus_equal_trade.name=Foco de varita: Comercio Justo 
+item.focus_equal_trade.name=Foco de varita: Comercio Justo
 item.focus_frost.name=Foco de varita: Hielo
 item.focus_excavation.name=Foco de varita: Excavación
 item.focus_hole.name=Foco de varita: Agujero Portátil
@@ -536,18 +536,18 @@ item.wand_cap.thaumium_inert.name=Cubierta Inerte de Thaumium
 item.wand_cap.void.name=Cubierta Cargada de Vacío Metálico
 item.wand_cap.void_inert.name=Cubierta Inerte de Vacío Metálico
 item.wand_rod.greatwood.name=Núcleo de Madera Magnífica
-item.wand_rod.silverwood.name=Núcleo de Madera Plateada 
+item.wand_rod.silverwood.name=Núcleo de Madera Plateada
 item.wand_rod.obsidian.name=Núcleo de Obsidiana
 item.wand_rod.ice.name=Núcleo de Hielo
 item.wand_rod.quartz.name=Núcleo de Cuarzo
 item.wand_rod.reed.name=Núcleo de Caña
-item.wand_rod.blaze.name=Núcleo de Fuego 
-item.wand_rod.bone.name=Núcleo de Hueso 
+item.wand_rod.blaze.name=Núcleo de Fuego
+item.wand_rod.bone.name=Núcleo de Hueso
 item.wand_rod.greatwood_staff.name=Núcleo de Madera Magnífica para Bastón
 item.wand_rod.silverwood_staff.name=Núcleo de Madera Plateada para Bastón
 item.wand_rod.obsidian_staff.name=Núcleo de Obsidiana para Bastón
-item.wand_rod.ice_staff.name=Núcleo de Hielo para Bastón 
-item.wand_rod.quartz_staff.name=Núcleo de Cuarzo para Bastón 
+item.wand_rod.ice_staff.name=Núcleo de Hielo para Bastón
+item.wand_rod.quartz_staff.name=Núcleo de Cuarzo para Bastón
 item.wand_rod.reed_staff.name=Núcleo de Caña para Bastón
 item.wand_rod.blaze_staff.name=Núcleo de Fuego para Bastón
 item.wand_rod.bone_staff.name=Núcleo de Hueso para Bastón
@@ -602,7 +602,7 @@ item.creative_flux_sponge.name=Esponja de Flux
 #
 # Golem
 item.module.vision.name=Módulo de Visión
-item.module.aggression.name=Módulo de Agressión
+item.module.aggression.name=Módulo de Agresión
 item.golem_bell.name=Campana de golemante
 item.golem.name=Golem
 item.seal.blank.name=Sello en Blanco
@@ -617,7 +617,7 @@ item.seal.butcher.name=Sello de Control: Carnicero
 item.seal.guard.name=Sello de Control: Centinela
 item.seal.guard_advanced.name=Sello de Control Avanzado: Centinela
 item.seal.lumber.name=Sello de Control: Leñador
-item.seal.breaker.name=Sello de Control: Rompe Bloques
+item.seal.breaker.name=Sello de Control: Taladrador
 item.seal.use.name=Sello de Control: Usar
 item.seal.provider.name=Sello de Control: Abastecer
 #
@@ -627,10 +627,105 @@ item.warping=Warping
 item.capacity.text=Capacidad
 item.chargebonus.text=Cargar
 #
+# Golems 
+########################
+# Traits
+golem.trait.deft=Hábil
+golem.trait.text.deft=Este golem posee una gran destreza manual y puede realizar tareas que requieren precisión y un delicado toque. Esta característica se contrarresta con la de "Torpe".
+golem.trait.clumsy=Torpe
+golem.trait.text.clumsy=Este golem casi no posee ninguna destreza manual y no puede realizar tareas que no superen las interacciones básicas. Esta característica se contrarresta con la de "Hábil".
+golem.trait.smart=Astuto
+golem.trait.text.smart=Este golem llega a ser casi consiente de sí mismo, esto gracias a un gran racionamiento y también a una gran capacidad para tomar decisiones.
+golem.trait.wheeled=Ruedas
+golem.trait.text.wheeled=Este golem se impulsa a sí mismo usando ruedas. Esto le da una gran velocidad, pero evita que pueda saltar o recorrer pendientes pronunciadas.
+golem.trait.light=Armazón Ligero
+golem.trait.text.light=Este golem es más ligero que el promedio lo cual incrementa su velocidad y agilidad. Esta característica se contrarresta con la de "Armazón Pesado".
+golem.trait.heavy=Armazón Pesado
+golem.trait.text.heavy=Este golem es más pesado que el promedio lo cual reduce su velocidad y agilidad. Esta característica se contrarresta con la de "Armazón Ligero".
+golem.trait.fragile=Quebradizo
+golem.trait.text.fragile=Este golem se construyó con componentes delicados y débiles que reducen su expectativa de vida y el índice de su armadura. Esta característica se contrarresta con la de "Acorazado".
+golem.trait.armored=Acorazado
+golem.trait.text.armored=Este golem ha sido reforzado con materiales adicionales que incrementan el índice de su armadura. Esta característica se contrarresta con la de "Quebradizo".
+golem.trait.repair=Auto Reparación Mejorada
+golem.trait.text.repair=Este golem se repara de cualquier daño que haya sufrido al doble de la velocidad normal.
+golem.trait.fighter=Guerrero
+golem.trait.text.fighter=Este golem es capaz de tomar acciones hostiles en contra de otras entidades.
+golem.trait.flyer=Volador
+golem.trait.text.flyer=Este golem es capaz de volar, dándole una gran movilidad aunque a costa de la velocidad.
+golem.trait.climber=Alpinista
+golem.trait.text.climber=Los acantilados escarpados no disuaden a este golem. Puede escarlar facilmente para llegar a su destino.
+golem.trait.scout=Explorador
+golem.trait.text.scout=Este golem tiene un alcance visual mayor y puede operar en un área mucho mayor también (32 bloques de rango desde la ubicación original y no 16 como siempre).
+golem.trait.fireproof=Ininflamable
+golem.trait.text.fireproof=Este golem es inmune al fuego.
+golem.trait.brutal=Brutal
+golem.trait.text.brutal=Este golem inflige un daño mayor cuerpo a cuerpo al combatir.
+golem.trait.breaker=Taladrador
+golem.trait.text.breaker=Este golem es capaz de destruir la mayor parte de los bloques facilmente.
+golem.trait.hauler=Transportista
+golem.trait.text.hauler=Permite al golem transportar dos stacks de objetos y no solo uno.
+golem.trait.ranged=A Distancia
+golem.trait.text.ranged=El golem puede atacar objetivos a distancia.
+#
+# Props 
+golem.material.wood=Madera de Árbol Magnífico
+golem.material.text.wood=Este golem fue creado con madera de árbol magnífico. Es ligero y ágil, pero no es particularmente resistente.
+golem.material.iron=Hierro
+golem.material.text.iron=Este golem fue creado con hierro. Es resistente e ininflamable, pero también es más pesado.
+golem.material.brass=Latón
+golem.material.text.brass=Este golem fue creado con latón. No es tan resistente como el hierro y tampoco resiste mucho al fuego. El latón es incluso más pesado que el hierro, pero aun así permite métodos de construcción superiores lo cual puede resultar en un armazón más ligero.
+golem.material.clay=Arcilla
+golem.material.text.clay=Este golem fue creado con arcilla endurecida. Este no es un material particularmente resistente, pero puede llegar a resultar en un golem ininflamable y relativamente ligero.
+golem.material.thaumium=Thaumium
+golem.material.text.thaumium=Este golem fue creado con thaumium. Comparte muchas de las características al de hierro, aunque es más robusto y resistente al daño.
+golem.material.void=Vacío Metálico
+golem.material.text.void=Este golem fue creado con vacío metálico. Este es ligeramente más tenue que el hierro, pero lo compensa siendo más ligero y con la capacidad de repararse a sí mismo.
+#
+golem.head.basic=Cabeza Mecánica
+golem.head.text.basic=La cabeza que lleva un golem por defecto. No es particularmente fuerte o débil.
+golem.head.smart=Cabeza pensante
+golem.head.text.smart=Esta cabeza contiene un avanzado cerebro biothaúmico que otorga al golem grandes capacidades y la habilidad de aprender. 
+golem.head.smart_armored=Cabeza pensante acorazada
+golem.head.text.smart_armored=Cabeza pensante reforzada con armadura adicional y un acolchado.
+golem.head.scout=Cabeza perceptiva
+golem.head.text.scout=Cabeza mecánica básica mejorada con unos ojos biothaúmicos perfeccionados.
+golem.head.smart_scout=Cabeza biothaúmica
+golem.head.text.smart_scout=Juntando los ojos biothaúmicos con un cerebro, esta cabeza ha llegado al pináculo de el arte biothaúmico.
+#
+golem.arm.basic=Brazos básicos
+golem.arm.text.basic=Los brazos y manos que lleva un golem por defecto. No son particularmente fuertes o debiles.
+golem.arm.fine=Manipuladores habiles
+golem.arm.text.fine=Estos brazos terminan en unas manos delicadas y diestras.
+golem.arm.claws=Garras
+golem.arm.text.claws=Estos brazos terminan en un par de aterradoras pinzas de metal muy afiladas. Vienen con un módulo de agresión incorporado.
+golem.arm.breakers=Amoladores
+golem.arm.text.breakers=Estos brazos terminan en un par de amoladores neumáticos de diamante.
+golem.arm.darts=Lanza dardos
+golem.arm.text.darts=Estos brazos terminan en un par de lanzadores de dardos neumáticos. Los dardos son creados mágicamente a medida que se necesitan. Viene con un módulo de agresión incorporado.
+#
+golem.leg.walker=Piernas básicas
+golem.leg.text.walker=Un par de simples piernas. No son particularmente fuertes o debiles.
+golem.leg.roller=Uni-rueda
+golem.leg.text.roller=Una sola rueda. Bastante rapida, pero incapaz de saltar o de subir por cuestas empinadas.
+golem.leg.climber=Piernas de escalada
+golem.leg.text.climber=Un par de simples piernas mejoradas con crampones y otros aparatos que permiten ascender colinas empinadas.
+golem.leg.flyer=Módulo de levitación
+golem.leg.text.flyer=Un levitador arcano modificado concede al golem el poder de volar. Esto reduce la velocidad que posee en un tercio.
+#
+golem.addon.armored=Blindaje
+golem.addon.text.armored=Concede al golem un incremento en la durabilidad.
+golem.addon.fighter=Módulo de Agresión
+golem.addon.text.fighter=Permite al golem entrar en combate.
+golem.addon.hauler=Montura de Acarreo
+golem.addon.text.hauler=Permite al golem llevar dos stacks de objetos y no solo uno.
+#
+golem.follow=Estoy siguiendote Maestro
+golem.stay=Me quedare aquí Maestro
+#
 # Fluids
 ##############################
-fluid.fluxGoo=Goo Cambiante
-fluid.fluxGas=Gas Cambiante
+fluid.fluxGoo=Goo Contaminado
+fluid.fluxGas=Gas de Flux
 fluid.purifying_fluid=Purificación Liquida
 fluid.liquid_death=Muerte Liquida
 #
