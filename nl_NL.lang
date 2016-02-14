@@ -101,7 +101,7 @@ entity.Thaumcraft.InhabitedZombie.name=Shambling Huskv
 entity.Thaumcraft.TurretBasic.name=Geautomatiseerde Kruisboog
 entity.Thaumcraft.TurretAdvanced.name=Gevorderde Geautomatiseerde Kruisboog
 entity.Thaumcraft.TurretFocus.name=Autospreuker #todo
-entity.Thaumcraft.TurretEldritch.name=Alooude Autospreuker #todo
+entity.Thaumcraft.TurretEldritch.name=Aloude Autospreuker #todo
 entity.Thaumcraft.NodeMagnet.name=Knoopmagneet
 #
 champion.mod.bold=Brutale
@@ -208,11 +208,11 @@ tile.candle.orange.name=Oranje Talgkaars
 tile.candle.magenta.name=Magenta Talgkaars
 tile.candle.light_blue.name=Lichtblauwe Talgkaars
 tile.candle.yellow.name=Gele Talgkaars
-tile.candle.lime.name=Limoen Talgkaars #todo
+tile.candle.lime.name=Limoenkleurige Talgkaars
 tile.candle.pink.name=Roze Talgkaars
 tile.candle.gray.name=Grijze Talgkaars
 tile.candle.silver.name=Lichtgrijze Talgkaars
-tile.candle.cyan.name=Cyaan Talgkaars #todo
+tile.candle.cyan.name=Cyaankleurige Talgkaars
 tile.candle.purple.name=Paarse Talgkaars
 tile.candle.blue.name=Blauwe Talgkaars
 tile.candle.brown.name=Bruine Talgkaars
@@ -227,28 +227,28 @@ tile.nitor.orange.name=Oranje Nitor
 tile.nitor.magenta.name=Magenta Nitor
 tile.nitor.light_blue.name=Lichtblauwe Nitor
 tile.nitor.yellow.name=Gele Nitor
-tile.nitor.lime.name=Limoen Nitor #todo
+tile.nitor.lime.name=Limoenkleurige Nitor
 tile.nitor.pink.name=Roze Nitor
 tile.nitor.gray.name=Grijze Nitor
 tile.nitor.silver.name=Lichtgrijze Nitor
-tile.nitor.cyan.name=Cyaan Nitor #todo
+tile.nitor.cyan.name=Cyaankleurige Nitor
 tile.nitor.purple.name=Paarse Nitor
 tile.nitor.blue.name=Blauwe Nitor
 tile.nitor.brown.name=Bruine Nitor
 tile.nitor.green.name=Groene Nitor
 tile.nitor.red.name=Rode Nitor
 tile.nitor.black.name=Zwarte Nitor
-tile.banner.cultist.name=Banier van de Karmozijnen Cultus 
+tile.banner.cultist.name=Banier van de Karmozijnen Cultus
 tile.banner.white.name=Witte Banier
 tile.banner.orange.name=Oranje Banier
 tile.banner.magenta.name=Magenta Banier
 tile.banner.light_blue.name=Lichtblauwe Banier
 tile.banner.yellow.name=Gele Banier
-tile.banner.lime.name=Limoen Banier #todo
+tile.banner.lime.name=Limoenkleurige Banier
 tile.banner.pink.name=Roze Banier
 tile.banner.gray.name=Grijze Banier
 tile.banner.silver.name=Lichtgrijze Banier
-tile.banner.cyan.name=Cyaan Banier #todo
+tile.banner.cyan.name=Cyaankleurige Banier
 tile.banner.purple.name=Paarse Banier
 tile.banner.blue.name=Blauwe Banier
 tile.banner.brown.name=Bruine Banier
@@ -1764,56 +1764,56 @@ tc.research_page.GOLEMCOMBATADV.1=You can now craft specialized golem weaponry a
 #
 # Eldritch 
 #######################
-tc.research_name.ELDRITCHMINOR=Eldritch Epiphany
-tc.research_text.ELDRITCHMINOR=First steps into the unknown
-tc.research_page.ELDRITCHMINOR.1=It has suddenly become clear to you. Where others see chaos, you occasionally catch a glimpse of a pattern... a very strange and disturbing pattern. Something stirs in the darkest corners of the universe.<BR>You have tried to explain it to others, but received only strange looks in return. No matter, you will show them someday.<BR>You will show them all.
+tc.research_name.ELDRITCHMINOR=Akelig Visioen
+tc.research_text.ELDRITCHMINOR=Eerste stappen in het onbekende
+tc.research_page.ELDRITCHMINOR.1=Het is opeens duidelijk geworden. Waar anderen chaos zien, vangt u af en toe een glimp op van een patroon... een ehel vreemd en verontrustend patroon. Er roert zich iets in de donkerste uithoeken van het universum.<BR>U heeft geprobeerd het uit te leggen aan anderen, maar oogstte slechts vreemde blikken. Het geeft niet, u zult het ze wel laten zien op een dag.<BR>Ze zullen het allemaal zien.
 #
-tc.research_name.ELDRITCHMAJOR=Eldritch Revelation
+tc.research_name.ELDRITCHMAJOR=Akelige Openbaring
 tc.research_text.ELDRITCHMAJOR=I have seen beyond the bounds of infinity
-tc.research_page.ELDRITCHMAJOR.1=A veil has been lifted - a door opened in my mind.<BR> When I look through I see wonders. No, not wonders. §mWhat I see is§r<BR>§oWhat I see is I see i see I sEee i§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
-tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Who wrote this?
+tc.research_page.ELDRITCHMAJOR.1=Een sluier is opgelicht - een deur is geopend in mijn geest.<BR> Wanneer ik naar binnen kijk zie ik wonderen. Nee, niet wonderen §mWat ik zie is§r<BR>§oWat ik zie is ik zie ik zie ik zIe ik§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
+tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Wie heeft dit geschreven?
 #
-tc.research_name.VOIDMETAL=Void Metal
-tc.research_text.VOIDMETAL=Strange, it should feel cold...
+tc.research_name.VOIDMETAL=Leegtemetaal
+tc.research_text.VOIDMETAL=Vreemd, het zou koud moeten aanvoelen...
 tc.research_page.VOIDMETAL.1=By infusing magic into metal you had managed to create Thaumium. It was a worthy discovery, but the time has come to leave thaumium to amateurs and dabblers.<BR>A strange and half-remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic, but with the very essence where magic is drawn from: Darkness and the Void that dwells between the stars.<BR>The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but
 tc.research_page.VOIDMETAL.2=when struck it becomes as hard as thaumium and sometimes even harder. More impressively all but the most devastating damage soon repairs itself as the metal slowly flows back into place.<BR>The only downside is that it isn't as easy to enchant as thaumium, but still compares favorably to mundane materials like iron.<BR>You have discovered that care must be taken when handling the metal - being harmed by it seems to temporarily sap your strength.
 #
-tc.research_name.ARMORVOIDFORTRESS=Void Thaumaturge Robes
-tc.research_text.ARMORVOIDFORTRESS=Otherworldly Style
+tc.research_name.ARMORVOIDFORTRESS=Leegte-Thaumaturgengewaad
+tc.research_text.ARMORVOIDFORTRESS=Stijl van een andere wereld
 tc.research_page.ARMORVOIDFORTRESS.1=A truly enlightened thaumaturge realizes that he need not choose between utility and defense.<BR>By augmenting existing void armor with the proper enchantments and combining them with thaumaturge's robes he will be able to create a set of armored robes that not only offers physical protection and mental focus, but mystical protection as well.<BR>The robes will also retain all the properties of void armor while the hood will offer all the benefits of the goggles used in its crafting.<BR>This armor can be dyed.
 #
-tc.research_name.ENTEROUTER=The Outer Lands 
-tc.research_text.ENTEROUTER=We are not in Kansas anymore
+tc.research_name.ENTEROUTER=De Buitenste Landen
+tc.research_text.ENTEROUTER=We zijn niet meer in Limburg
 tc.research_page.ENTEROUTER.1=You are not quite sure what you were expecting when you stepped through the Oculus, but this strange structure of crumbling stone and twisted passageways was not it.<BR>Something is not quite right here - this structure was not designed for any practical purpose you can discern... unless that purpose was for it to be a deadly maze.<BR>Strange energies abound and your magic seems to act strangely in this alien environment. Even the other denizens you encounter seem out of place here.
 #
-tc.research_name.OUTERREV=Revelations in the Outer Lands 
-tc.research_text.OUTERREV=Things are not what they seem
+tc.research_name.OUTERREV=Openbaringen in de Buitenste Landen
+tc.research_text.OUTERREV=Niets is wat het lijkt
 tc.research_page.OUTERREV.1=Your suspicions have been confirmed. This is not the home of the race you have come to call the Eldritch. This place is something else entirely and you do not believe it exists in what you understand as being "reality" - it is as much a mental construct as a physical one, but what mind can contain this?<BR>You have been able to decipher only a small number of the symbols, but you are sure this place is a trap - a place to test visitors and weed out the weak. For what purpose you are not sure.
 #
-tc.research_name.PRIMPEARL=Primordial Pearl 
-tc.research_text.PRIMPEARL=What came before
+tc.research_name.PRIMPEARL=Oerparel
+tc.research_text.PRIMPEARL=Wat eerder kwam
 tc.research_page.PRIMPEARL.1=For the first time you find yourself with a puzzle that you do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what you consider normal, everyday primal aspects. You have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of
 tc.research_page.PRIMPEARL.2=magic as you have come to understand it. You are not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is time you start putting it to use.
 #
-tc.research_name.PRIMALCRUSHER=Primal Crusher 
-tc.research_text.PRIMALCRUSHER=Breaking all the things
+tc.research_name.PRIMALCRUSHER=Oerverpletteraar
+tc.research_text.PRIMALCRUSHER=Alles kan kapot
 tc.research_page.PRIMALCRUSHER.1=The theory behind infusion crafting is simple - infuse a single object with essentia and the properties of other objects. There are limits however, but it seems with the discovery of the primordial pearl these limits are becoming less and less.<BR>As an experiment you tried infusing the properties of completely different objects into the pearl with suprising success. The Primal Crusher is the first practical application of this discovery.<BR>By combining a Shovel of the Earthmover and a Pickaxe of the Core with their void metal counterparts you created a
 tc.research_page.PRIMALCRUSHER.2=tool of unrivaled destructive capabilities that has most of the features of its component pieces.<BR>The Primal Crusher can mine through earth and stone with equal ease and does so in a 3x3 area. Like the Pickaxe of the Core it occasionally mines native clusters instead of raw ore.<BR>It repairs itself over time, has high enchantability and serves as a relatively good weapon in a pinch.<BR>Unfortunately it seems purely destructive in nature and has lost the construction and detection abilities of its parent tools.
 #
 tc.research_name.SANITYCHECK=Geestelijke gezondheidscheck
-tc.research_text.SANITYCHECK=Introspection for the brave
-tc.research_page.SANITYCHECK.1=Things have become busy in your mind lately. It is probably best that you have a look inside there and make sure everything is still all right.<BR>This tool will allow you to check the effects of warp on your psyche and how much it is effecting you.<BR>Of course you cannot allow a tool like this to fall into the hands of your enemies so you have taken great pains to obfuscate the information it provides. You might have gone too far though - you are having a hard time deciphering it yourself.  
+tc.research_text.SANITYCHECK=Zelfrefelctie voor de dapperen
+tc.research_page.SANITYCHECK.1=Het is de laatste tijd erg druk in uw hoofd. Het is misschien beter als u een blik op uw gedachten werpt om te zien of het nog wel goed gaat.<BR>DIt gereedschap stelt u in staat om de effecten van warp op uw geest te controleren en te zien in hoeverre deze u beïnvloeden.<BR>Natuurlijk mag dit gereedschap niet in de handen van uw vijanden vallen, dus u heeft heel veel moeite genomen om de informatie die het verschaft te verhullen. Misschien iets te veel - u heeft er nu zelf moeite mee om het instrument te ontcijferen.
 #
 tc.research_name.CRIMSON=De Karmozijnen Cultus
-tc.research_text.CRIMSON=A Cautionary Tale
-tc.research_page.CRIMSON.1=Much of this book is written in a spidery and unintelligible script, but what you do understand offers some strange insights into the goals of the Crimson Cult.<BR>Their origins are shrouded in mystery, but it seems their goal is the perfection of a ritual they refer to as "Apertis Oculis" - Opening the Eye. What it does is unclear, but you doubt it is anything good.<BR>Interestingly enough, you think thaumaturgy might offer the missing pieces they have so long sought. Obviously only a madman would pursue this line of study...
+tc.research_text.CRIMSON=Een Waarschuwend verhaal
+tc.research_page.CRIMSON.1=Veel van dit boek is geschreven in een spinachtig en onbegrijpelijk schrift, maar wat u wel begrijpt biedt een aantal vreemde inzichten in de doelen van de Karmozijnen Cultus.<BR>Hun oorsprong is gehuld in mysterie, maar het lijkt er op dat hun doel de perfectie van een ritueel is waarnaar ze verwijzen met "Apertis Oculis" - Het openen van het Oog. Wat dit doet is onduidelijk, maar u betwijfelt of het iets goeds is.<BR>Het is echter interessant dat u denkt dat thaumaturgie een aantal van de missende elementen waarnaar zij zo lang hebben gezocht, biedt. Natuurlijk zou alleen een krankzinnige zich met zo'n soort studie bezig houden.
 #
-tc.research_name.OCULUS=Opening the Eye
-tc.research_text.OCULUS=I will show them, I will show them all!
-tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 500 units of each should be sufficient.
-tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown! 
+tc.research_name.OCULUS=Het oog openen
+tc.research_text.OCULUS=Ik zal het ze laten zien. Ze zullen het allemaal zien!
+tc.research_page.OCULUS.1=Het was allemaal zo simpel - u staat er versteld van dat de Karmozijnen Cultisten dit nooit ontdekt hebben.<BR>Om het ritueel uit te voeren, moet men simpelweg vier Akelige Ogen op de speciaal gemarkeerde sluitsteen plaatsen, die gevonden kan worden in het midden van één van de vreemde altaren waar u de Cultus voor het eerst ontdekt heeft.<BR>Zodra u dit gedaan heeft is het een simpele kwestie van een grote hoeveelheid primale vis in de sluitsteen infuseren door middel van een staf - 500 van elk zou voldoende moeten zijn.
+tc.research_page.OCULUS.2=Als u alles correct hebt gedaan, zou het ritueel nu compleet moeten zijn en het zogenaamde "Oog" zou zijn geopend.<BR>Natuurlijk heeft u geen idee wat dat betekent, maar dat maakt niet uit. Alleen dwazen vrezen het onbekende!
 #
-tc.research_name.SINSTONE=Sinister Lodestone 
-tc.research_text.SINSTONE=Do you dare follow it?
-tc.research_page.SINSTONE.1=You have made an interesting discovery during your study of the Apertis Oculis ritual. The spot where the "eye" will open emits a very distinct kind of energy that is detectable even when it is still closed.<BR>By infusing a piece of flint you think you can create a simple scrying device that will light up whenever it is pointed towards such an energy signature.<BR>The range is limited, but it is a worthwhile invention since the ritual stones are often hard to find.
+tc.research_name.SINSTONE=Sinistere Magneetsteen
+tc.research_text.SINSTONE=Durft u de roep te volgen?
+tc.research_page.SINSTONE.1=U heeft een interessante ontdekking gedaan tijdens uw studie van het Apertis Oculis ritueel. De plek waar het "oog" zal openen, zendt een heel unieke soort energie uit die zelfs detecteerbaar is als het nog geloten is.<BR>U denkt dat u, door een stuk flint the infuseren, een simpel voortspelmechanisme kunt creëren, dat licht geeft als het in de richting van zo'n energie "signatuur" wijst.<BR>Het bereik is gelimiteerd, maar het apparaat is de moeite waard, omdat de ritueel stenen vaak zo moeilijk te vinden zijn.
 #
