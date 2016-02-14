@@ -3,8 +3,8 @@
 ###################################
 enchantment.haste=Spoed
 enchantment.repair=Reparatie
-enchantment.special.sapless=Lesser Sapping todo
-enchantment.special.sapgreat=Greater Sapping todo
+enchantment.special.sapless=Mindere Sapping #todo
+enchantment.special.sapgreat=Meerdere Sapping #todo
 #
 #Potions
 ###################################
@@ -13,7 +13,7 @@ potion.soulshatter=Zielsversplintering
 potion.visexhaust=Stroomgriep
 potion.infvisexhaust=Stroomfaag
 potion.unhunger=Onnatuurlijk Honger
-potion.warpward=Dwaalgeest Bescherming
+potion.warpward=Warp Bescherming #todo translate the word warp everywhere
 potion.deathgaze=Dodelijke Blik
 potion.blurred=Wazig Zicht
 potion.sunscorned=Zonsverachting
@@ -100,17 +100,17 @@ entity.Thaumcraft.EldritchCrab.name=Akelige Krab
 entity.Thaumcraft.InhabitedZombie.name=Shambling Huskv
 entity.Thaumcraft.TurretBasic.name=Geautomatiseerde Kruisboog
 entity.Thaumcraft.TurretAdvanced.name=Gevorderde Geautomatiseerde Kruisboog
-entity.Thaumcraft.TurretFocus.name=Autocaster todo
-entity.Thaumcraft.TurretEldritch.name=Ancient Autocaster todo
+entity.Thaumcraft.TurretFocus.name=Autospreuker #todo
+entity.Thaumcraft.TurretEldritch.name=Alooude Autospreuker #todo
 entity.Thaumcraft.NodeMagnet.name=Knoopmagneet
 #
 champion.mod.bold=Brutale
-champion.mod.spine=Spined todo
+champion.mod.spine=Ruggengraat
 champion.mod.armor=Bepantserde
 champion.mod.mighty=Machtige
 champion.mod.grim=Grimmige
 champion.mod.warded=Beschermde
-champion.mod.warp=Geestverdwaalde
+champion.mod.warp=Gewarpte
 champion.mod.undying=Onstervende
 champion.mod.fiery=Vurige
 champion.mod.sickly=Ziekelijke
@@ -178,7 +178,7 @@ tile.cinderpearl.name=Sintelparel
 tile.vishroom.name=Vispaddo
 tile.bloom.name=Etherische Bloem
 tile.flux_goo.name=Stroomsmurrie
-tile.taint_dust.name=Degraded Taint Dust todo
+tile.taint_dust.name=Afgetakelde Smetstof
 tile.loot_urn.common.name=Gewone Urn
 tile.loot_urn.uncommon.name=Ongewone Urn
 tile.loot_urn.rare.name=Zeldzame Urn
@@ -614,7 +614,7 @@ item.seal.provider.name=Controle Zegel: Bezorger
 #
 # Text
 item.runic.charge=Runisch Schild
-item.warping=Geestdwalend
+item.warping=Warpend
 item.capacity.text=Capaciteit
 item.chargebonus.text=Lading
 #
@@ -897,12 +897,12 @@ tc.markedloc=gemarkeerde locaties
 tc.addclue=§aU hebt een hint ontdekt die u kan helpen bij verder onderzoek!§0
 tc.addpage=§aU heeft iets nieuws over %1$s ontdekt!§0
 tc.addaspect=§aU heeft wat praktische kennis over %1$s opgedaan.§0
-tc.addwarp=§5Uw geest is permanent verwrongen!§0
-tc.addwarptemp=§5Uw geest is tijdelijk verwrongen!§0
-tc.addwarpsticky=§5Uw geest is verwrongen!§0
-tc.removewarp=Uw geest is permanent minder verwrongen!§0
-tc.removewarpsticky=§5Uw geest is minder verwrongen!§0
-tc.removewarptemp=§5Uw geest is tijdelijk minder verwrongen!§0
+tc.addwarp=§5U heeft permanente warp verworven!§0
+tc.addwarptemp=§5U heeft tijdelijke warp verworven!§0
+tc.addwarpsticky=§5U heeft warp verworven!§0
+tc.removewarp=U heeft permanente warp verloren!§0
+tc.removewarpsticky=§5U heeft warp verloren!§0
+tc.removewarptemp=§5U heeft tijdelijke warp verloren!§0
 tc.forbidden=§l§5Verboden kennis (%n)§0
 tc.forbidden.level.1=Vrij Ongevaarlijk
 tc.forbidden.level.2=Gering
@@ -1103,8 +1103,8 @@ tc.research_text.PECH=Strange Creatures
 tc.research_page.PECH.1=These strange humanoids can be found wherever the veil between worlds is at its thinnest. They seem drawn to the magical energies that abound in such places.<BR>Don't let their small stature fool you. They have incredible strength and can carry many times their own bodyweight.<BR>Pech are normally not aggressive, but when riled up they will band together and hunt down their attacker. Under normal conditions they avoid people at all costs.<BR>Pechs are notoriously avaricious, and will loot anything not nailed
 tc.research_page.PECH.2=down, though they prefer precious things. It is said that if you feed this desire for material wealth it could be possible to befriend one. Once befriended they often carry wondrous objects that they might be willing to part with.<BR>It should be noted that such 'friendships' seldom last long.<BR><IMG>thaumcraft:textures/research/research5.png:128:136:112:120:.75</IMG>
 #
-tc.research_name.WARP=Warp, Flux and all things bad
-tc.research_text.WARP=Everything has a price
+tc.research_name.WARP=Warp, Stroom an alle kwalijke zaken
+tc.research_text.WARP=Alles heeft een prijs
 tc.research_page.WARP.1=§nWarp§r<BR>Many believe man was not meant to meddle with magic, and nothing gives more credence to this than the existence of Warp.<BR>Researching forbidden magics or crafting objects of a questionable nature tends to distort a thaumaturge's view of reality, twisting both their minds and their bodies. This effect is called Warp.<BR>While some warp gained is temporary and will fade over time, there is no known way to get rid of permanent Warp once it is gained and a thaumaturge who chooses to ignore the dangers in the pursuit of power
 tc.research_page.WARP.2=often finds himself on a slippery slope.<BR>Warp usually manifests as minor lapses in concentration, physical pain or hallucinations.<BR>These are more than merely mental though, as the visions sometimes impart useful knowledge or seeming hallucinations prove to be frighteningly real.
 tc.research_page.WARP.3=§nFlux§r<BR>If Warp is the mental manifestation of magic gone wrong, then Flux is its physical manifestation.<BR>Flux can manifest in three ways: a liquid, a gas and a physical malady. The first two manifestations are considered annoyances by most thaumaturges and is often the result of wasteful use of magic. It is not particularly hard to clean up, but coming into contact with it often causes the third manifestation: Flux Flu<BR>Flux Flu is not particularly dangerous, but while a thaumaturge is suffering from it he finds it difficult to focus vis which often leads to increased vis usage to get something done.
