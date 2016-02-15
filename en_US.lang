@@ -1194,7 +1194,7 @@ tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can 
 #
 tc.research_name.ROD_primal_staff=Staff Core of the Primal
 tc.research_text.ROD_primal_staff=Elemental power combined
-tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish its vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturge's arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
+tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features of the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish its vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturge's arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
 #
 tc.research_name.FOCUSFIRE=Wand Foci
 tc.research_text.FOCUSFIRE=Form meets Function
