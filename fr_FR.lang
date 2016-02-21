@@ -91,14 +91,14 @@ entity.trunk.stay=La malle reste où elle est
 entity.Thaumcraft.MindSpider.name=Araignée de l'esprit
 entity.Thaumcraft.EldritchGuardian.name=Gardien surnaturel
 entity.Thaumcraft.EldritchWarden.name=Chef surnaturel
-entity.Thaumcraft.EldritchWarden.name.custom=%s  %d
+entity.Thaumcraft.EldritchWarden.name.custom=%s, %d
 entity.Thaumcraft.EldritchGolem.name=Construction surnaturelle
-entity.Thaumcraft.EldritchGolem.name.custom=%s Construction surnaturelle
+entity.Thaumcraft.EldritchGolem.name.custom=Construction surnaturelle %s
 entity.Thaumcraft.EldritchOrb.name=Orbe surnaturelle
 entity.Thaumcraft.CultistKnight.name=Chevalier cramoisi
 entity.Thaumcraft.CultistCleric.name=Clerc cramoisi
 entity.Thaumcraft.CultistLeader.name=Préteur cramoisi
-entity.Thaumcraft.CultistLeader.name.custom=Préteur %s Le %d
+entity.Thaumcraft.CultistLeader.name.custom=Préteur %s, %d
 entity.Thaumcraft.CultistPortalGreater.name=Petit portail cramoisi
 entity.Thaumcraft.CultistPortalLesser.name=Grand portail cramoisi
 entity.Thaumcraft.EldritchCrab.name=Crabe surnaturel
@@ -302,7 +302,7 @@ tile.hungry_chest.name=Coffre affamé
 tile.lamp_arcane.name=Lampe arcanique
 tile.lamp_growth.name=Lampe de croissance
 tile.lamp_fertility.name=Lampe de la fertilité
-tile.jar.jar_normal.name=Bocal conjuré
+tile.jar.jar_normal.name=Bocal renforcé
 tile.jar.jar_void.name=Bocal du Vide
 tile.jar.jar_brain.name=Cerveau en bocal
 tile.tube.tube_normal.name=Tube à Essentia
@@ -590,7 +590,7 @@ item.runed_tablet.name=Tablette runique
 item.runed_tablet.text=On dirait que ça fait parti de quelque chose de plus grand.
 item.research_notes.name=Notes de recherches
 item.research_notes.discovery.name=Découverte
-item.researchnotes.learn=Clique droit pour apprendre cette découverte
+item.researchnotes.learn=Clic droit pour apprendre cette découverte
 item.creative_placer.obelisk.name=Placeur d'obélisque
 item.creative_placer.node.name=Placeur de nœud
 item.creative_placer.caster.name=Placeur de lanceur automatique ancien
@@ -602,7 +602,7 @@ item.module.aggression.name=Module d'Agression
 item.golem_bell.name=Cloche de Golemancien
 item.golem.name=Golem
 item.seal.blank.name=Sceau Vierge
-item.seal.pickup.name=Sceau de Contrôle: Collecte
+item.seal.pickup.name=Sceau de contrôle: Collecte
 item.seal.pickup_advanced.name=Sceau de Contrôle avancé: Collecte
 item.seal.fill.name=Sceau de Contrôle: Rangement
 item.seal.fill_advanced.name=Sceau de Contrôle avancé: Rangement
@@ -610,36 +610,8 @@ item.seal.empty.name=Sceau de Contrôle: Vide
 item.seal.empty_advanced.name=Sceau de Contrôle avancé: Vide
 item.seal.harvest.name=Sceau de Contrôle: Récolte
 item.seal.butcher.name=Sceau de Contrôle: Boucher
-item.seal.guard.name=Sceau de Contrôle: Guarde
-item.seal.guard_advanced.name=Sceau de Contrôle avancé: Guarde
-item.seal.lumber.name=Sceau de Contrôle: Bûcheron
-item.seal.breaker.name=Sceau de Contrôle: Briseur de blocs
-item.seal.use.name=Sceau de Contrôle: Utilisation
-item.seal.provider.name=Sceau de Contrôle: Approvisionnement
-#
-# Text
-item.runic.charge=Bouclier runique
-item.warping=Warping
-item.capacity.text=Capacité
-item.chargebonus.text=Charge
-#
-# Golems
-##############################
-item.module.vision.name=Module de Vision
-item.module.aggression.name=Module d'Agression
-item.golem_bell.name=Cloche de Golemancien
-item.golem.name=Golem
-item.seal.blank.name=Sceau Vierge
-item.seal.pickup.name=Sceau de Contrôle: Collecte
-item.seal.pickup_advanced.name=Sceau de Contrôle avancé: Collecte
-item.seal.fill.name=Sceau de Contrôle: Rangement
-item.seal.fill_advanced.name=Sceau de Contrôle avancé: Rangement
-item.seal.empty.name=Sceau de Contrôle: Vide
-item.seal.empty_advanced.name=Sceau de Contrôle avancé: Vide
-item.seal.harvest.name=Sceau de Contrôle: Récolte
-item.seal.butcher.name=Sceau de Contrôle: Boucher
-item.seal.guard.name=Sceau de Contrôle: Guarde
-item.seal.guard_advanced.name=Sceau de Contrôle avancé: Guarde
+item.seal.guard.name=Sceau de Contrôle: Protège
+item.seal.guard_advanced.name=Sceau de Contrôle avancé: Protège
 item.seal.lumber.name=Sceau de Contrôle: Bûcheron
 item.seal.breaker.name=Sceau de Contrôle: Briseur de blocs
 item.seal.use.name=Sceau de Contrôle: Utilisation
@@ -833,36 +805,55 @@ button.category.4=Conditions
 button.caption.x=Est / Ouest
 button.caption.y=Haut / Bas
 button.caption.z=Nord / Sud
-button.bl=Blacklist
-button.wl=Whitelist
-button.caption.required=Required
-button.caption.forbidden=Forbidden
-golem.prop.replant=Replant crops
-golem.prop.cycle=Cycle whitelist
-golem.prop.meta=Use metadata
-golem.prop.nbt=Use NBT data
-golem.prop.ore=Use Ore Dictionary
-golem.prop.mod=Use Mod
-golem.prop.mob=Target Mobs
-golem.prop.animal=Target Animals
-golem.prop.player=Target Players
-golem.prop.left=Left click
-golem.prop.empty=Click empty air
-golem.prop.emptyhand=Can use empty hand
-golem.prop.sneak=Simulate sneaky click
-golem.prop.single=Single item only
-golem.prop.provision=Request provisioning
-golem.prop.provision.wl=Request provisioning from whitelist
-golem.rank=Rank
-golem.prop.priority=Task Priority
-golem.prop.owner=You own this seal
-golem.prop.lock=Only golems owned by seal owner can perform these tasks
-golem.prop.unlock=All golems can perform these tasks
+button.bl=Liste Noir
+button.wl=Liste Blanche
+button.caption.required=Requis
+button.caption.forbidden=Interdit
+golem.prop.replant=Replanter cultures
+golem.prop.cycle=Liste Blanche de cycle
+golem.prop.meta=Utiliser les métadonnées
+golem.prop.nbt=Utiliser les données NBT
+golem.prop.ore=Utiliser le dictionnaire de minerai
+golem.prop.mod=Utiliser les mods
+golem.prop.mob=Cibles Monstres
+golem.prop.animal=Cible Animaux
+golem.prop.player=Cible Joueurs
+golem.prop.left=Clic gauche
+golem.prop.empty=Clic dans le vide
+golem.prop.emptyhand=Peux utiliser une main vide
+golem.prop.sneak=Simule un clic accroupi
+golem.prop.single=Un objet uniquement
+golem.prop.provision=Demande d'approvisionnement
+golem.prop.provision.wl=Demande d'approvisionnement en provenance de la liste blanche
+golem.rank=Rang
+golem.prop.priority=Tâche prioritaire
+golem.prop.color=Configurer pour les golems %s
+golem.prop.colorall=Tous les golems
+golem.prop.owner=Vous possédez ce sceau
+golem.prop.lock=Seulement les golems appartenant au propriétaire du sceau peuvent effectuer ces tâches
+golem.prop.unlock=Tous les golems peuvent effectuer ces tâches
 #
 tile.researchtable.noink.0=Vous n'avez plus d'encre!
 tile.researchtable.noink.1=Remplissez vos outils de scribe.
 text.spa.mix.true=Mélanger avec ingrédients
 text.spa.mix.false=Utiliser juste le liquide
+#
+color.white=Blanc
+color.orange=Orange
+color.magenta=Magenta
+color.light_blue=Bleu clair
+color.yellow=Jaune
+color.lime=Citron-vert
+color.pink=Rose
+color.gray=Gris
+color.silver=Gris clair
+color.cyan=Cyan
+color.purple=Violet
+color.blue=Bleu
+color.brown=Marron
+color.green=Vert
+color.red=Rouge
+color.black=Noir
 #
 # Other
 ###################
@@ -949,11 +940,11 @@ tc.research.newpage=§aNouvelle page ajoutée§0
 tc.research.newresearch=§6Nouvelle recherche découverte§0
 tc.research.purchase=Cliquer pour acheter cette recherche avec %1$s de niveau(x) d'expérience.
 tc.research.short=Vous avez besoin de %1$s de niveau(x) d'expérience pour acheter cela.
-tc.research.getprim=Cliquez pour avoir la note de recherche de cette découverte.
+tc.research.getprim=Cliquer pour avoir la note de recherche de cette découverte.
 tc.research.shortprim=Vous avez besoin d'outils de scribe et de papier pour obtenir la note de recherche
 tc.research.hasnote=Vous avez déjà la note de recherche dans votre inventaire
 tc.research.popup=Note de recherche ajoutée dans votre inventaire pour %1$s
-tc.research.add=Cliquez pour consommer le fragment et ajouter 1 aspect primaire de chaque.
+tc.research.add=Cliquer pour consommer le fragment et ajouter 1 aspect primaire de chaque.
 tc.primalcharm.0=Ça semble avoir une fuite
 tc.primalcharm.1=Vous pensez entendre chuchoter
 tc.primalcharm.2=Ça vibre violemment
@@ -1047,7 +1038,7 @@ tc.research_page.RESEARCH.7=Placer un aspect consomme un point de recherche. Si 
 tc.research_page.RESEARCH.8=Vous continuez à le faire jusqu'à former un modèle reliant tous les aspects de départ. Les aspects en bordures ont besoin d'être connecté les uns les autres, ils ont simplement besoin de former un tout cohérent.<BR>Une fois fait, la recherche sera complète et la note de recherche se transformera en découverte.<LINE>NOTE: Le placement et l'effacement d'aspects sur la grille de carreaux consommes de l'encre provenant des outils de scribe. Si elle vient à manquer, vous ne serez plus en mesure de continuer jusqu'à ce que vous le remplissiez.
 tc.research_page.RESEARCH.9=§l§nCombinaison d'aspects§r<BR>Cliquer simplement sur les aspects que vous souhaitez combiner ou glissez les dans les cercles runique dans la zone §l4§r. Les aspects sélectionnés doivent apparaître dans la zone §l4§r et dès que deux aspects sont sélectionnés, appuyez sur le bouton violet pour essayer de les combiner. En cas de succès, vous devriez voir ce que vous avez gagné en bas à droite et il doit apparaître dans la case §l3§r.<BR>Les aspects sont consommés même si la combinaison n'as pas donné de résultat.
 tc.research_page.RESEARCH.10=§l§nRecherche secondaire§r<BR>Les icônes hexagonales indiquent des recherches secondaires. Tout comme la Recherche primaire, vous avez juste besoin de cliquez sur elles. Cependant, au lieu de gagner une note de recherche, vous gagnez directement la recherche. La recherche secondaire ne require pas que vous l'éffectuer sur la table, mais coûte des niveau d'expérience pour l'apprendre.
-tc.research_page.RESEARCH.11=§l§n(2) L'exploration§r<BR><BR>Alors que de nombreuses recherches sont disponibles dès le départ, certaines requièrent des connaissances qui ne peuvent pas être appris sur la table ainsi que d'autres qui sont complétement cachées jusqu'à qu'un mystère soit découvert.<BR>Vous le faites par l'exploration et en éxaminant les objets dans le monde.<BR>La première chose que vous devez construire est un §5thaumomètre§0. En pointant le §5thaumomètre§0 sur les objets et créatures, en pressant le clique droit, vous allez les scanner.
+tc.research_page.RESEARCH.11=§l§n(2) L'exploration§r<BR><BR>Alors que de nombreuses recherches sont disponibles dès le départ, certaines requièrent des connaissances qui ne peuvent pas être appris sur la table ainsi que d'autres qui sont complétement cachées jusqu'à qu'un mystère soit découvert.<BR>Vous le faites par l'exploration et en éxaminant les objets dans le monde.<BR>La première chose que vous devez construire est un §5thaumomètre§0. En pointant le §5thaumomètre§0 sur les objets et créatures, en pressant le clic droit, vous allez les scanner.
 tc.research_page.RESEARCH.12=Une fois terminé, vous allez être notifier si vous avez découvert un indice.<BR>L'exact nature de l'indice ne seras pas immédiatement apparent. Vérifiez votre thaumonomicon pour voir si une icône de recherche a été révélée (indiqué par une étoile jaune), ou si une nouvelle découverte à été ajouter aux recherches existantes (indiqué par un signe vert).<BR>Habituellement, une nouvelle découverte de cette façon auras une icone ambré.
 
 #
@@ -1091,7 +1082,7 @@ tc.research_page.PLANTS.5=§l§nChamvisgnon§r<BR><IMG>thaumcraft:textures/resea
 #
 tc.research_name.CRYSTALFARMER=Agriculteur de cristaux
 tc.research_text.CRYSTALFARMER=Les aider à pousser
-tc.research_page.CRYSTALFARMER.1=Vous avez fait quelques découvertes qui vont ont donné la possibilité de transformer un éclat de vis en cristal de vis « plantable » dans la roche.<BR>Qui plus est, vous pouvez maintenant arracher un éclat d'une croissance cristalline sans avoir à la détruire - Il suffit simplement de faire un clique droit avec votre baguette dans la main.
+tc.research_page.CRYSTALFARMER.1=Vous avez fait quelques découvertes qui vont ont donné la possibilité de transformer un éclat de vis en cristal de vis « plantable » dans la roche.<BR>Qui plus est, vous pouvez maintenant arracher un éclat d'une croissance cristalline sans avoir à la détruire - Il suffit simplement de faire un clic droit avec votre baguette dans la main.
 #
 tc.research_name.RESEARCHER1=Expertise en recherche
 tc.research_text.RESEARCHER1=La connaissance est le pouvoir
@@ -1100,7 +1091,7 @@ tc.research_page.RESEARCHER1.1=Vous êtes devenu plus efficace pour effectuer le
 #
 tc.research_name.RESEARCHER2=Maître en recherche
 tc.research_text.RESEARCHER2=Le pouvoir est la connaissance
-tc.research_page.RESEARCHER2.1=Vous êtes devenu encore plus efficace pour effectuer des recherches.<BR> Chaque fois que vous supprimez un aspect que vous avez placé sur un carreau, vous avez 50% de chance de récupérer votre point de recherche.<BR> En outre, il y'a 10% de chance que placer un aspect ne coûtera pas de point de recherche.<BR> Dernièrement, vous êtes capables de combiner les aspects de la table de recherche en faisant MAJ+clique sur l'aspect que vous voulez créer. Si vous avez assez d'aspects composés, ils seronts automatiquement combiné pour créez l'aspect cliqué.
+tc.research_page.RESEARCHER2.1=Vous êtes devenu encore plus efficace pour effectuer des recherches.<BR> Chaque fois que vous supprimez un aspect que vous avez placé sur un carreau, vous avez 50% de chance de récupérer votre point de recherche.<BR> En outre, il y'a 10% de chance que placer un aspect ne coûtera pas de point de recherche.<BR> Dernièrement, vous êtes capables de combiner les aspects de la table de recherche en faisant MAJ+clic sur l'aspect que vous voulez créer. Si vous avez assez d'aspects composés, ils seronts automatiquement combiné pour créez l'aspect cliqué.
 #
 tc.research_name.RESTABLE=Table de recherche
 tc.research_text.RESTABLE=Pour recueillir la connaissance
@@ -1232,7 +1223,7 @@ tc.research_page.FOCUSEXCAVATION.1=Ce Foci transforme votre baguette en outil ca
 #
 tc.research_name.FOCUSTRADE=Foci: Échange équivalent
 tc.research_text.FOCUSTRADE=C'est pour ça
-tc.research_page.FOCUSTRADE.1=Vous pouvez utiliser ce Foci pour échanger des douzaines de blocs dans le monde avec des blocs de votre inventaire.<BR>Vous devez d'abord choisir le type de bloc que vous souhaitez échanger en vous accroupissant et faisant clic gauche dessus. Lorsque vous appuyez sur clic gauche sur un autre bloc, il va intervertir celui-ci avec votre précédente sélection. Le clic droit va intervertir une large zone de blocs.<BR> Les blocs à échanger sont remplacés dans votre inventaire par les blocs ciblés. Seuls les blocs adjacents à un bloc d'air ou non solide sont transformés.
+tc.research_page.FOCUSTRADE.1=Vous pouvez utiliser ce Foci pour échanger des douzaines de blocs dans le monde avec des blocs de votre inventaire.<BR>Vous devez d'abord choisir le type de bloc que vous souhaitez échanger en faisant un clic accroupi. Lorsque vous appuyez sur clic gauche sur un autre bloc, il va intervertir celui-ci avec votre précédente sélection. Le clic droit va intervertir une large zone de blocs.<BR> Les blocs à échanger sont remplacés dans votre inventaire par les blocs ciblés. Seuls les blocs adjacents à un bloc d'air ou non solide sont transformés.
 #
 tc.research_name.FOCUSHELLBAT=Foci: Neuf enfers
 tc.research_text.FOCUSHELLBAT=Petite terreur
@@ -1244,16 +1235,16 @@ tc.research_page.FOCUSPORTABLEHOLE.1=Vous avez reussi en utilisant du Vis à cr�
 #
 tc.research_name.FOCUSPRIMAL=Foci: Primaire
 tc.research_text.FOCUSPRIMAL=Magie brut
-tc.research_page.FOCUSPRIMAL.1=Quel folie vous a possédé pour créer cette chose? Ce Foci semble frénétiquement dangereux et seulement un aliéné va tenter de l'utiliser partout et non seulement dans les environnements les plus contrôlés.<BR> Accordée, l'orbe d'énergie primaire brut créée est assez dévastateur, mais son chemin parcourue est irrégulier, pour le meilleur erratique et au pire, malveillant. Il fait pousser plus loin l'étude cependant : L'orbe montre d'intéressantes propriétés dimensionnel et il expose des motif d'énergie que vous avez seulement vu chez les feu-follets et les noeuds d'aura.
+tc.research_page.FOCUSPRIMAL.1=Quel folie vous a possédé pour créer cette chose? Ce Foci semble frénétiquement dangereux et seulement un aliéné va tenter de l'utiliser partout et non seulement dans les environnements les plus contrôlés.<BR> Accordée, l'orbe d'énergie primaire brut créée est assez dévastateur, mais son chemin parcourue est irrégulier, pour le meilleur erratique et au pire, malveillant.<BR>Il fait pousser plus loin l'étude cependant : L'orbe montre d'intéressantes propriétés dimensionnel et il expose des motif d'énergie que vous avez seulement vu chez les feu-follets et les noeuds d'aura.
 #
 tc.research_name.FOCUSGRAPPLE=Foci: Grappin
 tc.research_text.FOCUSGRAPPLE=Woosh!
 tc.research_page.FOCUSGRAPPLE.1=Les focis par leur nature même, ne peuvent généralement créer que des effets instantanés, ce qui les rends inappropriés pour faciliter le voyage ou pour créér des effets tels que vol. Cependant, vous n'êtes pas du genre à reculer devant un défi, et cela vous conduira à la découverte du foci grappin. Ce foci lance une attache d'énergie élémentaire qui se fixe aux blocs et puis il vous tire vers ce bloc. Ceci le rend utile pour traverser les trous ou les hauteurs, ou tout simplement pour se déplacer rapidement. Appuyer sur la touche pour vous accroupir pour vous détacher de l'attache. L'amélioration "Force" augmente la portée du grappin.
 #
-tc.research_name.FOCUSBUILDER=Wand Focus: Builder
-tc.research_text.FOCUSBUILDER=Faster 9x9's
-tc.research_page.FOCUSBUILDER.1=This focus is somewhat similar to the focus of Equal Trade, but instead of replacing blocks, this one can simply place them.<BR>You must first choose the block you wish to place by sneaking and right clicking on the desired block.<BR>You can target a block face up to 64 blocks away. An outline will show where the blocks will be placed and right clicking will place them. Like with the focus of equal trade you must actually have those blocks available in your inventory.
-tc.research_page.FOCUSBUILDER.2=The blocks will always be placed in a line extending from the selected face up to a location level with your own, to a maximum of 16 blocks at a time. Upgrading the focus will allow you to place more blocks at a time.<BR>If the placed line of blocks intersects an existing block, it will be replaced and placed in your inventory.
++tc.research_name.FOCUSBUILDER=Foci: Constructeur
+tc.research_text.FOCUSBUILDER=Le 9x9 plus rapide
+tc.research_page.FOCUSBUILDER.1=Ce Foci à quelque chose de semblable au Foci "Échange équivalent", mais au lieu de remplacer les blocs, celui-ci peux simplement les poser.<BR>Vous devez premièrement choisir le bloc que vous souhaitez placer en faisant un clic accroupi sur le bloc désiré.<BR>Vous pouvez cibler une face d'un bloc jusqu'a 64 bloc de distance. Une esquisse va apparaître où seront placer les blocs si vous faites un clic droit pour les placer. Comme avec le foci "Échange équivalent", vous devez avoir ces blocs disponibles dans votre inventaire.
+tc.research_page.FOCUSBUILDER.2=Les blocs seront toujours placés dans une ligne allant de la face sélectionnée jusqu'à votre location, avec un maximum de 16 blocs à la fois. Améliorer le Foci vous permerttra de placer plus de blocs à la fois.<BR>Si la ligne placé de blocs croise un bloc existant, il sera remplacé et placé dans votre inventaire.
 #
 tc.research_name.FOCUSPOUCH=Sac à Focis
 tc.research_text.FOCUSPOUCH=Conteneur pratique pour porter vos Focis
@@ -1497,7 +1488,7 @@ tc.research_page.CRUCIBLE.5=§nSalis Mundus§r<BR><BR>Salis Mundus, ou sel de Th
 
 #
 tc.research_name.METALLURGY=Métallurgie magique
-tc.research_text.METALLURGY=Lorsqu'un métal rencontre la magie
+tc.research_text.METALLURGY=Lorsque le métal rencontre la magie
 tc.research_page.METALLURGY.1=Les métaux se sont avérés être très facile à manipuler via les principes thaumaturgique. Vos premières expériences ont conduit à la découverte du thaumium.<BR>Le thaumium est le résultat de l'infusion de métaux de base avec de l"énergie magique brute. Le résultat est un métal plus dur que le fer avec la capacité d'accepter les enchantements au-delà de ce qui est normalement capable de faire.<BR>Un métal tel que cela a de nombreuses applications dans l'élaboration de dispositifs de thaumaturge plus avancés.<BR>Il peut également être utilisé pour
 tc.research_page.METALLURGY.2=faire des outils, armes et armures dans une table d'artisanat en utilisant les recettes normales.<BR>§nLaiton alchmique§r<BR>Alors que le thaumium possède de nombreuses fonctionnalités utiles, parfois les métaux banals sont mieux adaptés à certaines tâches. Le laiton est un métal robuste, à faible frottement parfaitement adapté pour fabriquer des dispositifs mécaniques complexes.<BR>Malheureusement, il n'est pas toujours possible de mettre la main sur lui en raison des propriétés morphiques de l'univers que vous pouvez retrouver dans ce dernier. Heureusement, vous avez trouvé une méthode alchimique pour fabriquer ce métal utile.
 #
@@ -1515,7 +1506,7 @@ tc.research_page.PHIAL.1=Les fioles en verre sont capables de contenir toutes so
 #
 tc.research_name.BOTTLETAINT=Bouteille de corruption
 tc.research_text.BOTTLETAINT=Pourquoi voudriez-vous cela ?
-tc.research_page.BOTTLETAINT.1=Nettoyer la corruption est une chose, mais vous n'avez jamais envisagé de le diffuser ?<BR>En concentrant et en collectant de l'essence de corruption dans une bouteille, il suffit tout simplement de la jeter quelque part pour créer de la corruption. Il est à vous de décider pourquoi vous voulez le faire.
+tc.research_page.BOTTLETAINT.1=Nettoyer la corruption est une chose, mais vous n'avez jamais envisagé de la diffuser ?<BR>En concentrant et en collectant de l'essence de corruption dans une bouteille, il suffit tout simplement de la jeter quelque part pour créer de la corruption. C'est à vous de décider pourquoi vous voulez le faire.
 #
 tc.research_name.TAINTSHARD=Éclat corrompu
 tc.research_text.TAINTSHARD=La corruption des éclats
@@ -1548,7 +1539,7 @@ tc.research_page.TALLOW.1=Par le traitement et le chauffage de la chair dans un 
 tc.research_name.DISTILESSENTIA=Distillation d'Essentia
 tc.research_text.DISTILESSENTIA=Récolte d'Essentia
 tc.research_page.DISTILESSENTIA.1=Dans l'avenir, vous aurez certainement besoin d'avoir un accès rapide à de multiples types d'aspects différents - pas seulement des aspects primaires tirés de votre baguette.<BR>En utilisant des principes alchimiques de base, vous avez mis au point un moyen de briser des objets et de les convertir en Essentia.<BR>La première étape de ce processus nécessite une §lfonderie à Essentia§r. La fonderie fonctionne un peu comme un four normal en brûlant du charbon pour produire de la chaleur, mais au lieu de la fusion du minerai en métal, il décompose des
-tc.research_page.DISTILESSENTIA.2=objets en une bouillie brute d'Essentia non transformée. Ce processus n'est pas très efficace et une petite quantité d'Essentia est convertie en flux à peu près 20% du temps.<BR>La prochaine étape dans le processus est de prendre la bouillie d'Essentia et de la distiller à l'aide d'un §lAlambic Arcanique§r.<BR>Pour qu'il fonctionne, l'alambic arcanique doit être placer au-dessus d'une fonderie arcanique. Plusieurs alambics peuvent être placés l'un dessus de l'autre pour augmenter le stockage, mais cela n'a pas d'influence sur la vitesse de traitement. La bouillie d'Essentia va lentement être aspiré dans l'alambic et chaque aspect d'Essentia va être
+tc.research_page.DISTILESSENTIA.2=objets en une bouillie brute d'Essentia non transformée. Ce processus n'est pas très efficace et une petite quantité d'Essentia est convertie en flux à peu près 20% du temps.<BR>La prochaine étape dans le processus est de prendre la bouillie d'Essentia et de la distiller à l'aide d'un §lAlambic Arcanique§r.<BR>Pour qu'il fonctionne, l'alambic arcanique doit être placer au-dessus d'une fonderie arcanique. Plusieurs alambics peuvent être placés l'un dessus de l'autre pour augmenter le stockage, mais cela n'a pas d'influence sur la vitesse de traitement. La bouillie d'Essentia va lentement être aspiré dans l'alambic et chaque aspect d'Essentia va être 
 tc.research_page.DISTILESSENTIA.3=séparé. Si la fonderie est alimenté par de l'alumentum, ce processus de distillation est beaucoup plus rapide. L'Essentia peut ensuite être extrait à partir d'un alambic en utilisant des flacons, des bocaux ou des moyens plus complexes.
 tc.research_page.DISTILESSENTIA.4=§nSoufflet arcanique§r<BR>Les soufflets arcaniques placés sur le côté d'une fonderie augmenteront considérablement la chaleur qu'il génère, permettant de décomposer les objets en Essentia beaucoup plus rapidement.
 #
@@ -1565,21 +1556,21 @@ tc.research_text.IMPROVED_DISTILLATION=Récolte d'Essentia... améliorée
 tc.research_page.IMPROVED_DISTILLATION.1=Alors que les fonderies peuvent être très rapide, elles pourraient toujours être plus rapide - en particulier la vitesse à laquelle elles décomposent la bouillie d'Essentia en Essentia utilisable.<BR>Chaque pompe à bouillie auxiliaire placée sur les côtés d'une fonderie agit comme un processeur secondaire, pour fournir de l'Essentia raffiné aux alambics placés au-dessus.
 tc.research_page.IMPROVED_DISTILLATION.2=Vous avez également découvert une façon de gérer le flux généré par le processus de fusion. En envoyant la bouillie à travers un ensemble secondaire de filtres d'Essentia vous êtes en mesure de séparer le flux et en toute sécurité l'évacuer comme de la vapeur inoffensive.<BR>Ce processus parvient à réduire le flux produit d'environ un tiers et des ports supplémentaires vont augmenter l'efficacité, bien qu'il y est des rendements décroissants.
 #
-tc.research_name.JARLABEL=Bocal conjuré et étiquette
+tc.research_name.JARLABEL=Bocal renforcé et étiquette
 tc.research_text.JARLABEL=Stocker et organiser l'Essentia
-tc.research_page.JARLABEL.1=L'Essentia peut être stocké dans des §lbocaux conjurés§r.<BR>Les bocaux conjurés peuvent être placés dans le monde et sont capables de stocker l'Essentia quasiment indéfiniment. L'enchantement placé sur les bocaux permet également d'ajouter ou d'extraire l'Essentia.<BR>Les bocaux peuvent être remplis à partir d'un alambic en cliquant avec le bocal directement sur l'alambic. Ils peuvent également être remplis et vidés en utilisant des fioles.<BR>C'est ce qui fait d'eux un excellent support de stockage pour les confitures et les conserves.
+tc.research_page.JARLABEL.1=L'Essentia peut être stocké dans des §lbocaux renforcés§r.<BR>Les bocaux renforcés peuvent être placés dans le monde et sont capables de stocker l'Essentia quasiment indéfiniment. L'enchantement placé sur les bocaux permet également d'ajouter ou d'extraire l'Essentia.<BR>Les bocaux peuvent être remplis à partir d'un alambic en cliquant avec le bocal directement sur l'alambic. Ils peuvent également être remplis et vidés en utilisant des fioles.<BR>C'est ce qui fait d'eux un excellent support de stockage pour les confitures et les conserves.
 tc.research_page.JARLABEL.2=Faire shift-clic sur les bocaux et les alambics avec une main vide va les vider.<BR>Tant qu'un bocal contient de l'Essentia, vous pouvez lui attacher une §létiquette§r.<BR>Cette étiquette 'bloque' le pot pour ce type d'Essentia et il ne sera pas en mesure d'accepter un autre type d'Essentia.<BR>Vous pouvez supprimer une étiquette en faisant shift-clic avec une main vide sur le côté du bocal contenant l'étiquette. Prenez soin de ne pas déplacer clic sur un autre côté, sinon il va vider le bocal.
 tc.research_page.JARLABEL.3=Vous pouvez placer une étiquette dans un atelier avec une fiole d'Essentia pour lui attribuer un aspect et lorsqu'elle est placée sur un bocal vide, elle verrouille automatiquement le bocal sur cet aspect. L'Essentia utilisé dans la recette n'est pas consommé.<BR>En la plaçant sur un bocal rempli, elle va changer l'étiquette du type d'Essentia.<LINE>Une étiquette peut être vierge à nouveau en la plaçant simplement par elle-même dans une grille d'artisanat.
 #
 tc.research_name.ETHEREALBLOOM=Fleur éthérée
 tc.research_text.ETHEREALBLOOM=Purification de fleur
-tc.research_page.ETHEREALBLOOM.1=La brillefeuille est souvent éclipsé par son voisin l'arbre mystique en bois d'argent, mais elle a des propriétés magiques en elle-même.<BR>Comme l'arbre en bois d'agent, les brillefeuilles ont des propriétés purifiantes qui sommeillent en elles. Vous avez trouvé un moyen de réveiller ces propriétés et de la transformer en une fleur éthérée <BR>Les fleurs éthérées restaurent lentement, mais sûrement, la terre corrompue par des moyens mystiques grâce à leurs gloires d'antan - cela inclut un fléau connu sous le nom de Flux. Bien qu'elle ne peuvent pas lutter contre le Flux directement, peu de plantes contaminées peuvent
+tc.research_page.ETHEREALBLOOM.1=La brillefeuille est souvent éclipsé par son voisin l'arbre mystique en bois d'argent, mais elle a des propriétés magiques en elle-même.<BR>Comme l'arbre en bois d'agent, les brillefeuilles ont des propriétés purifiantes qui sommeillent en elles. Vous avez trouvé un moyen de réveiller ces propriétés et de la transformer en une fleur éthérée <BR>Les fleurs éthérées restaurent lentement, mais sûrement, la terre corrompue par des moyens mystiques grâce à leurs gloires d'antan - cela inclut un fléau connu sous le nom de Flux. Bien qu'elle ne peuvent pas lutter contre le Flux directement, peu de plantes contaminées peuvent 
 tc.research_page.ETHEREALBLOOM.2=survivre longtemps en dehors de leur environnement d'origne et elles ont tendance à dépérir.<BR>Cette fleur purifie seulement la terre baignant dans sa lumière, c'est-à-dire dans un rayon d'environ 8 blocs.
 #
 tc.research_name.TUBES=Tubes à Essentia
 tc.research_text.TUBES=Transport de l'Essentia
 tc.research_page.TUBES.1=Vous avez découvert plusieurs façons de transporter l'Essentia, mais aucun d'entre eux ne se sont révélées utiles pour les opérations alchimiques à grande échelle - jusqu'à présent.<BR>Vous avez déverrouillé la clé pour créer un tube stable et relativement sans fuite. Bien que les produits chimiques banals peuvent être transportés dans du verre, certains types d'Essentia le dissolvent ou se contentent de passer à travers lui. En enveloppant le verre avec du fer et en le traitant avec un goutte de vif-argent, vous avez réussi à le protéger, même des types les plus instables d'Essentia. Les raccords en or permettent de finir le système de
-tc.research_page.TUBES.2=tuyauterie et de le rendre visuellement attrayant.<BR>Les tubes peuvent être connectés à toutes sortes de dispositifs alchimiques, bien que les bocaux conjurés et les alambics sont leurs principales cibles.<BR>L'Essentia circule à travers les tubes à chaque fois que quelque chose est connecté à ceux qui peuvent l'accepter, comme des bocaux conjurés.<BR>Les bocaux contenant différents types d'Essentia ne pourront puiser que leur type d'Essentia vers eux. Cependant, les tubes ne peuvent puiser et transporter qu'un seul type d'Essentia à la fois - la force d'attraction la plus élevée aura la
+tc.research_page.TUBES.2=tuyauterie et de le rendre visuellement attrayant.<BR>Les tubes peuvent être connectés à toutes sortes de dispositifs alchimiques, bien que les bocaux renforcés et les alambics sont leurs principales cibles.<BR>L'Essentia circule à travers les tubes à chaque fois que quelque chose est connecté à ceux qui peuvent l'accepter, comme des bocaux renforcé.<BR>Les bocaux contenant différents types d'Essentia ne pourront puiser que leur type d'Essentia vers eux. Cependant, les tubes ne peuvent puiser et transporter qu'un seul type d'Essentia à la fois - la force d'attraction la plus élevée aura la
 tc.research_page.TUBES.3=priorité. Sans une bonne utilisation des vannes, il est assez facile pour un réseau de tubes de devenir encrassé. L'utilisation de vannes est essentiel.<BR>Quand vous voyez des gaz s'évacuer depuis un tube, cela signifie que différentes sortes d'aspiration interfèrent les unes avec les autres. La couleur donne un indice du type d'aspiration.<LINE>La vanne à Essentia agit un peu comme une tube normal, sauf qu'elle peut être désactivée à la main ou via un signal de Redstone. Lorsque cela est fait l'écoulement d'Essentia à travers elle sera coupée.
 tc.research_page.TUBES.4=Le résonateur d'Essentia est à portée de main pour le dépannage de votre réseau de tube. Vous pouvez l'utiliser sur un tube ou sur un autre dispositif utilisant l'Essentia pour voir ce qu'il contient actuellement comme Essentia et l'aspiration qui est appliquée. Les tubes peuvent être connectés et déconnectés de leurs voisins en cliquant sur une partie du tube avec une baguette.<BR>La baguette peut également être utilisée en cliquant sur la partie centrale pour faire tourner certains tubes comme la vanne.
 #
@@ -1589,7 +1580,7 @@ tc.research_page.CENTRIFUGE.1=La centrifugeuse alchimique est une invention merv
 #
 tc.research_name.JARVOID=Bocal du Vide
 tc.research_text.JARVOID=Trop d'Essentia ? Impossible !
-tc.research_page.JARVOID.1=Les bocaux du vide fonctionnent à peu près comme des bocaux conjurés normaux avec une différence importante - même lorsqu'ils sont plein, ils sont encore en mesure d'accepter de l'Essentia, mais l'excès d'Essentia est tout simplement évacué. Cela vous permet d'avoir toujours de l'Essentia de ce type disponible, mais se débarrasser de tout cet excès peut être du gachis.<BR>Comme les bocaux normaux, les bocaux du vide peuvent accepter des étiquettes, mais leur aspiration avec une étiquette est inférieure à celle d'un bocal normal étiqueté (environ deux fois moins entre un bocal étiqueté et un sans étiquette).
+tc.research_page.JARVOID.1=Les bocaux du vide fonctionnent à peu près comme des bocaux renforcé normaux avec une différence importante - même lorsqu'ils sont plein, ils sont encore en mesure d'accepter de l'Essentia, mais l'excès d'Essentia est tout simplement évacué. Cela vous permet d'avoir toujours de l'Essentia de ce type disponible, mais se débarrasser de tout cet excès peut être du gachis.<BR>Comme les bocaux normaux, les bocaux du vide peuvent accepter des étiquettes, mais leur aspiration avec une étiquette est inférieure à celle d'un bocal normal étiqueté (environ deux fois moins entre un bocal étiqueté et un sans étiquette).
 #
 tc.research_name.TUBEFILTER=Tubes à Essentia avancés
 tc.research_text.TUBEFILTER=Ce que vous voulez, où vous voulez
@@ -1685,7 +1676,7 @@ tc.research_text.MINDCLOCKWORK=Donnez leur la vie
 tc.research_page.MINDCLOCKWORK.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If you are going to create intelligent magical servants then you are going to have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by Thaumaturgy. It has its limitations and very little autonomy, but it is a start.
 tc.research_page.MINDCLOCKWORK.2=Of course, now that you have a mind it is time to put it to use.<BR>You have designed a special press that will allow you to craft simple golems. It includes an anvil and forge to make assembling the parts easier.<LINE>To assemble as golem you simply access the Golem Press and select the components you wish to craft the golem from. For now your selection is fairly limited, but you are sure you will develop more.
 tc.research_page.MINDCLOCKWORK.3=Each golem is made up from up to 5 components: The base material, a type of head, arms, legs and an optional addon module. Simply select which of these you want to use and a list of crafting components will be displayed on the right. You need to have the listed components in your inventory before you can start the crafting process.<BR>Listed in the middle of the interface you will see the traits, hearts, armor and damage the golem will possess.<BR>Lastly you will need to supply Machina essentia to the press. Several ports are provided below the main press mechanism for this purpose.
-tc.research_page.MINDCLOCKWORK.4=You can now place the golem wherever you wish, but it will not do much unless you also place down a §5Golem Control Seal§0. To learn more about them see the reseach category that will have unlocked.<BR>When they have no tasks to perform, golems will return to the spot they were originally placed. You can pick up a golem by right clicking on it with a wand.
+tc.research_page.MINDCLOCKWORK.4=You can now place the golem wherever you wish, but it will not do much unless you also place down a §5Golem Control Seal§0. To learn more about them see the reseach category that will have unlocked.<BR>When they have no tasks to perform, golems will return to the spot they were originally placed. You can pick up a golem by right clicking on it with a wand.<BR>It is also possible to assign a color to a golem by clicking on it with dye. This is useful for limiting it specific seals. Picking up the golem will clear the color assigned to it.
 #
 tc.research_name.GOLEMDIRECT=Golem Mastery
 tc.research_text.GOLEMDIRECT=Taking a direct hand in things
@@ -1693,9 +1684,10 @@ tc.research_page.GOLEMDIRECT.1=Having golems mindlessly following seals is not y
 #
 tc.research_name.CONTROLSEALS=Golem Control Seals
 tc.research_text.CONTROLSEALS=Giving them purpose
-tc.research_page.CONTROLSEALS.1=Golems cannot do anything they are not told to do. For this purpose you have created Control Seals. You can place these circular clay seals against almost any surface you wish. Once you do they will become become ethereal and intangible, but you will still be able to see them as long as you hold a golem, another seal or §5Golemancer's Bell§0.<BR>The bell will be an important tool as you will use it to fine tune the settings and parameters of the command seals.<BR>Since seals are ethereal you can place down another block in the same spot as you placed a seal.
+tc.research_page.CONTROLSEALS.1=Golems cannot do anything they are not told to do. For this purpose you have created Control Seals. You can place these circular clay seals against almost any surface you wish. Once you do they will become become ethereal and intangible, but you will still be able to see them as long as you hold a golem, another seal or §5Golemancer's Bell§0.<BR>The bell will be an important tool as you will use it to fine tune the settings and parameters of the command seals.<BR>Since seals are ethereal you can place down another block in the same spot as you placed a seal. 
 tc.research_page.CONTROLSEALS.2=Several seals can also occupy the same block space as long as the are located on different faces. This should allow you to keep things quite compact.<BR>You can retrieve a seal by shift and right-clicking on it with the bell.<LINE>Clicking on a seal with the bell will allow you to tweak its parameters. The exact parameters will vary from seal to seal, but most seals will allow you to give them a priority between -5 and +5 (default 0). Tasks created by higher priority seals will be performed first. You will also be able to see a list of required traits
-tc.research_page.CONTROLSEALS.3=that a golem will need to have in order to perform tasks created by that seal.<BR>For example, another seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0.
+tc.research_page.CONTROLSEALS.3=that a golem will need to have in order to perform tasks created by that seal.<BR>For example, another seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0.<LINE>
+tc.research_page.CONTROLSEALS.4=It is also possible to assign a color to a seal. If you do so tasks from that seal will only be performed by uncolored golems or golems with the same color. Uncolored seals will assign tasks to all golems (colored and uncolored alike).<BR>You set seal colors in the same location where you set priorities.<BR>You assign a golem a color by using a dye on it. The color will be cleared if the golem is picked up.
 #
 tc.research_name.MINDBIOTHAUMIC=Biothaumic Minds
 tc.research_text.MINDBIOTHAUMIC=I think therefore I am
@@ -1794,7 +1786,6 @@ tc.research_name.VOIDMETAL=Métal du vide
 tc.research_text.VOIDMETAL=Etrange, il devrait se sentir froid ...
 tc.research_page.VOIDMETAL.1=En insufflant la magie dans le métal, vous aviez réussi à créer Thaumium. Ce fut une découverte digne, mais le temps est venu de laisser le Thaumium aux amateurs et aux barboteurs.<BR>Un rêve étrange et la moitié d'un souvenir vous ont donné l'envie d'essayer quelque chose de ... différent. Et si vous infuser un métal avec plus que juste de la magie, mais avec l'essence même où la magie est tirée : l'obscurité et le vide qui habitent entre les étoiles.<BR>Le métal obtenu est d'un lisse inquiétant et chaud au toucher. Il est presque aussi doux que de l'or, ce qui le rend facile à travailler,
 tc.research_page.VOIDMETAL.2=mais lorsqu'il a été frappé il devient dur comme du thaumium et parfois encore plus dur. Plus impressionnant encore, les dommages les plus dévastateurs réparent le métal car le métal coule lentement pour se remettre en place.<BR>Le seul inconvénient est qu'il n'est pas aussi facile de l'enchanter comme du thaumium, mais il est toujours plus favorable par rapport aux matériaux ordinaires comme le fer.<BR>Vous avez découvert que des soins doivent être pris lors de la manipulation du métal - sinon il risque de vous affaiblir temporairement.
-
 #
 tc.research_name.ARMORVOIDFORTRESS=Robes du thaumaturge du vide
 tc.research_text.ARMORVOIDFORTRESS=Style d'un autre monde
