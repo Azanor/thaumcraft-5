@@ -827,6 +827,8 @@ golem.prop.colorall=Alle golems
 golem.prop.owner=U bezit dit zegel
 golem.prop.lock=Alleen golems in bezit van de zegel eigenaar kunnen deze taak uitvoeren
 golem.prop.unlock=Alle golems kunnen deze taken uitvoeren
+golem.prop.redon=Redstone gevoelig
+golem.prop.redoff=Negeert Redstonesignalen
 #
 tile.researchtable.noink.0=U heeft geen inkt meer!
 tile.researchtable.noink.1=Hervul uw schrijfgerij.
@@ -874,6 +876,7 @@ tc.handmirrorlinkedto=Gelinkt met
 tc.handmirrorlinked=Link Gemaakt.
 tc.handmirrorerror=Doelspiegel is kapot of verplaatst, de link is verbroken.
 tc.researcherror=U bezit de nodige kennis om dit te begrijpen.
+tc.researchexists=U bezit deze kennis reeds.
 tc.discoveryerror=Om dit te begrijpen moet u %1$s bestuderen.
 tc.discoveryunknown=Onbekende Theorie
 tc.discoveryprogress=% compleet
@@ -1186,15 +1189,15 @@ tc.research_page.PRIMALSTAVES.1=Like the elemental wand cores, these stave cores
 tc.research_name.ROD_greatwood_staff=Magic Staves
 tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
 tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for your buck. Magical staves are basically just bigger wands.<BR>A staff made from greatwood has 150% the vis storage potential of a greatwood wand, being able to store up to 375 vis of each type. They also grant an additional 10% vis discount to foci.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.
-tc.research_page.ROD_greatwood_staff.2=Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.<BR>Note: You still need to add caps to a stave rod, just like you would for a wand.
+tc.research_page.ROD_greatwood_staff.2=Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.<BR>NB: U moet nog steeds kappen toevoegen aan een stafkern, net als u zou doen bij een normale toverstok.
 #
 tc.research_name.ROD_silverwood_staff=Silverwood Staff Core
 tc.research_text.ROD_silverwood_staff=Magical to the core
 tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 750 vis of each type.
 #
-tc.research_name.ROD_primal_staff=Staff Core of the Primal
-tc.research_text.ROD_primal_staff=Elemental power combined
-tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish its vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturge's arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
+tc.research_name.ROD_primal_staff=Stafkern van de Eersten
+tc.research_text.ROD_primal_staff=Elementair vermogen gecombineerd
+tc.research_page.ROD_primal_staff.1=Deze kern pulseert van de verborgen energie.<BR>Het combineert alle kenmerken van de mindere stafkernen - het heeft de vis-opslagcapaciteit van de zilverhouten kern en is in staat zijn vis-opslagen bij te vullen zoals de verschillende fundamentele stafkernen.<BR>Tenslotte voegt het één krachtniveau toe aan elke focus zolang die er mee wordt gebruikt.<BR>Dit is waarachtig een machtig gereedschap in het arsenaal van elke thaumaturg.<BR>NB: U moet nog steeds kappen toevoegen aan een stafkern, net als u zou doen bij een toverstok.
 #
 tc.research_name.FOCUSFIRE=Wand Foci
 tc.research_text.FOCUSFIRE=Form meets Function
@@ -1676,7 +1679,7 @@ tc.research_name.CONTROLSEALS=Golem Control Seals
 tc.research_text.CONTROLSEALS=Giving them purpose
 tc.research_page.CONTROLSEALS.1=Golems cannot do anything they are not told to do. For this purpose you have created Control Seals. You can place these circular clay seals against almost any surface you wish. Once you do they will become become ethereal and intangible, but you will still be able to see them as long as you hold a golem, another seal or §5Golemancer's Bell§0.<BR>The bell will be an important tool as you will use it to fine tune the settings and parameters of the command seals.<BR>Since seals are ethereal you can place down another block in the same spot as you placed a seal. 
 tc.research_page.CONTROLSEALS.2=Several seals can also occupy the same block space as long as the are located on different faces. This should allow you to keep things quite compact.<BR>You can retrieve a seal by shift and right-clicking on it with the bell.<LINE>Clicking on a seal with the bell will allow you to tweak its parameters. The exact parameters will vary from seal to seal, but most seals will allow you to give them a priority between -5 and +5 (default 0). Tasks created by higher priority seals will be performed first. You will also be able to see a list of required traits
-tc.research_page.CONTROLSEALS.3=that a golem will need to have in order to perform tasks created by that seal.<BR>For example, another seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0.<LINE>
+tc.research_page.CONTROLSEALS.3=that a golem will need to have in order to perform tasks created by that seal.<BR>For example, another seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0.<LINE>Seals can be set to become inactive when they recieve a redstone signal. All queued or in progress tasks from that seal will also be removed.
 tc.research_page.CONTROLSEALS.4=It is also possible to assign a color to a seal. If you do so tasks from that seal will only be performed by uncolored golems or golems with the same color. Uncolored seals will assign tasks to all golems (colored and uncolored alike).<BR>You set seal colors in the same location where you set priorities.<BR>You assign a golem a color by using a dye on it. The color will be cleared if the golem is picked up.
 #
 tc.research_name.MINDBIOTHAUMIC=Biothaumic Minds
@@ -1703,8 +1706,9 @@ tc.research_page.SEALCOLLECT.2=You can now also craft an advanced version of the
 #
 tc.research_name.SEALSTORE=Control Seal: Store
 tc.research_text.SEALSTORE=Putting away your mess
-tc.research_page.SEALSTORE.1=This seal can be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.<BR>If placed against a non-container block the golem will simply drop items at that location.
-tc.research_page.SEALSTORE.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.
+tc.research_page.SEALSTORE.1=This seal can be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.<BR>>For the white list you can alse specify a specific number of items that must be placed in the inventory. By default this number is infinite (marked with a gold star).
+tc.research_page.SEALSTORE.2=If placed against a non-container block the golem will simply drop items at that location.<BR>Like with inventories you can also specify a specific number of items with the white list. Any items located in the world within a 1 block radius of the seal will be counted.
+tc.research_page.SEALSTORE.3=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.<BR>If you specified item counts in the white list, then all items that match the filter with these settings will be counted.
 #
 tc.research_name.SEALEMPTY=Control Seal: Empty
 tc.research_text.SEALEMPTY=Making a whole new mess
@@ -1718,7 +1722,7 @@ tc.research_page.SEALPROVIDE.2=The filter on the Provide seal is merely used to 
 #
 tc.research_name.SEALHARVEST=Control Seal: Harvest
 tc.research_text.SEALHARVEST=Green mechanical thumbs
-tc.research_page.SEALHARVEST.1=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. 
+tc.research_page.SEALHARVEST.1=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. If the seed was previously planted on farmland, the golem will also try to till the soil if it has turned into dirt.
 #
 tc.research_name.SEALGUARD=Control Seal: Guard
 tc.research_text.SEALGUARD=Protect and Serve
