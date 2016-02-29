@@ -100,8 +100,8 @@ entity.Thaumcraft.EldritchCrab.name=Akelige Krab
 entity.Thaumcraft.InhabitedZombie.name=Shambling Huskv
 entity.Thaumcraft.TurretBasic.name=Geautomatiseerde Kruisboog
 entity.Thaumcraft.TurretAdvanced.name=Gevorderde Geautomatiseerde Kruisboog
-entity.Thaumcraft.TurretFocus.name=Autospreuker #todo
-entity.Thaumcraft.TurretEldritch.name=Aloude Autospreuker #todo
+entity.Thaumcraft.TurretFocus.name=Autobezweerder
+entity.Thaumcraft.TurretEldritch.name=Aloude Autobezweerder
 entity.Thaumcraft.NodeMagnet.name=Knoopmagneet
 #
 champion.mod.bold=Brutale
@@ -415,7 +415,7 @@ item.loot_bag.rare.name=Zeldzame Schat
 tc.lootbag=Klik om te openen of bewaar om te verhandelen
 item.turret.basic.name=Geautomatiseerde Kruisboog
 item.turret.advanced.name=Gevorderde Geautomatiseerde Kruisboog
-item.turret.focus.name=Autospreuker
+item.turret.focus.name=Autobezweerder
 item.turret.magnet.name=Knoop Magneet
 #
 # Tools
@@ -588,7 +588,7 @@ item.research_notes.discovery.name=Ontdekking
 item.researchnotes.learn=Rechts-klik om deze ontdekking te leren
 item.creative_placer.obelisk.name=Obelisk Plaatser
 item.creative_placer.node.name=Knoop Plaatser
-item.creative_placer.caster.name=Aloude Autospreuker Plaatser #todo
+item.creative_placer.caster.name=Aloude Autobezweerder Plaatser
 item.creative_flux_sponge.name=Stroomspons
 #
 # Golem
@@ -1025,7 +1025,7 @@ tc.research_category.ELDRITCH=Akelig
 #######################
 tc.research_name.RESEARCH=Onderzoek
 tc.research_text.RESEARCH=Hoe u dingen ontdekt
-tc.research_page.RESEARCH.1=Voordat u de meeste thaumaturgische voorwerpen en blokken kunt bouwen, moet u eerst ontdekken hoe dit moet. Dit kan op twee manier gedaan worden:<BR>(1)Het gebruiken van de aspecten die u kent en het ontdekken van praktische kennis en recepten met de §5Onderzoekstafel§0.<BR><BR>(2) Het verkennen van de wereld en het onderzoeken van blokken, voorwerpen en wezens met een §5Thaumometer§0 om aanwijzingen te krijgen voor verder onderzoek.<LINE> Voordat u een van deze dingen kunt doen, moet u een §5Thaumomter§0 en een Onderzoeks tafel vervaardigen.
+tc.research_page.RESEARCH.1=Voordat u de meeste thaumaturgische voorwerpen en blokken kunt bouwen, moet u eerst ontdekken hoe dit moet. Dit kan op twee manier gedaan worden:<BR>(1)Het gebruiken van de aspecten die u kent en het ontdekken van praktische kennis en recepten met de §5Onderzoekstafel§0.<BR><BR>(2) Het verkennen van de wereld en het onderzoeken van blokken, voorwerpen en wezens met een §5Thaumometer§0 om aanwijzingen te krijgen voor verder onderzoek.<LINE> Voordat u een van deze dingen kunt doen, moet u een §5Thaumometer§0 en een Onderzoekstafel vervaardigen.
 tc.research_page.RESEARCH.2=To craft a §5Research Table§0 simply place a wooden table in the world and click on it with scribing tools.<BR>The recipes for the §5Thaumometer§0 and §5Scribing Tools§0 will be shown later.<LINE><IMG>thaumcraft:textures/research/research1.png:0:0:255:208:.5</IMG>
 tc.research_page.RESEARCH.3=§l§n(1) Primary Research§r<BR>You need to be carrying a set of scribing tools and paper for this step. If you open your Thaumonomicon you will see all the knowledge you already have and also all the knowledge that you are now able to pursue.<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
 tc.research_page.RESEARCH.4=Flashing square or round icons represent primary researches you can pursue.<BR>When you click on one of these flashing icons paper and ink will be consumed from your inventory and you will gain a research note.<BR>You can now take this research note to the table to start researching it by placing scribing tools in slot §l1§r (which should happen automatically when you create the table) and the research note in slot §l2§r.
@@ -1695,7 +1695,7 @@ tc.research_name.ADVANCEDTURRET=Advanced Automated Crossbow
 tc.research_text.ADVANCEDTURRET=Not so simple defenses
 tc.research_page.ADVANCEDTURRET.1=The Advanced Automated Crossbow works much like its basic couterpart, with a few significant exceptions.<BR>The addition of iron plating makes it much sturdier, and a more complicated loading mechanism gives it a greater rate of fire.<BR>Lastly it is possible to specify the type of targets it can attack.
 #
-tc.research_name.FOCUSTURRET=Autospreuker
+tc.research_name.FOCUSTURRET=Autobezweerder
 tc.research_text.FOCUSTURRET=Automated Foci
 tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with the development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce the activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
 #
@@ -1721,49 +1721,49 @@ tc.research_page.SEALPROVIDE.1=This seal is similar to the Empty seal, except it
 tc.research_page.SEALPROVIDE.2=The filter on the Provide seal is merely used to compare what items may be taken from the container. The filters (if any) on the requesting seal will determine the exact item taken.
 #
 tc.research_name.SEALHARVEST=Controle Zegel: Oogster
-tc.research_text.SEALHARVEST=Green mechanical thumbs
+tc.research_text.SEALHARVEST=Groene mechanische vingers #originele verwijzing: combinatie van uitdrukking "green thumbs" en "mechanical"
 tc.research_page.SEALHARVEST.1=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. If the seed was previously planted on farmland, the golem will also try to till the soil if it has turned into dirt.
 #
 tc.research_name.SEALGUARD=Controle Zegel: Bewaker
-tc.research_text.SEALGUARD=Protect and Serve
+tc.research_text.SEALGUARD=Meer blauw op straat #originele verwijzing: Motto van het Los Angeles Police Department
 tc.research_page.SEALGUARD.1=When placed this seal will protect and area from intrusion. Any hostile creatures it detects will be targeted by nearby combat-capable golems and attacked.<BR>If the golem has the §5Deft§0 property, any creatures slain will drop experience orbs.<BR>§9This research also unlocks additional golem parts§0. 
 tc.research_page.SEALGUARD.2=You can now create an advanced version of the seal that will give you greater control over which creatures your golems will target.
 #
 tc.research_name.SEALBUTCHER=Controle Zegel: Slager
-tc.research_text.SEALBUTCHER=Gory to the armpits
+tc.research_text.SEALBUTCHER=Voor stralende oksels! #originele verwijzing: onbekend
 tc.research_page.SEALBUTCHER.1=While §5Guard§0 seals can be used to kill animals, they are not very selective.<BR>The butcher seals works much like a §5Guard§0 seal, except it only targets adult animals. Furthermore it will always make sure that at least a breeding pair of animals remain alive. 
 #
 tc.research_name.SEALBREAK=Controle Zegel: Blokbreker
-tc.research_text.SEALBREAK=*Tap* *Tap* *Tap*
+tc.research_text.SEALBREAK=*Tap* *Tap* *Tap* #originele verwijzing: onbekend
 tc.research_page.SEALBREAK.1=This seal commands golems to break any blocks they find in the area.<BR>The hardness of a block does determine how quickly it can be broken.<BR>You can filter what type of blocks are to be broken (or ignored).<BR>It should be noted that due to factors like golem mobility, limited area and speed this seal probably will not make a very effective mining tool, though it could be used as such in a pinch. 
 #
 tc.research_name.SEALLUMBER=Controle Zegel: Houthakker
-tc.research_text.SEALLUMBER=And I'm ok
+tc.research_text.SEALLUMBER=Alles aan mootjes #originele verwijzing: The Lumberjack Song ~ Monty Python
 tc.research_page.SEALLUMBER.1=A refinement of the §5Blokbreker§0 seal, the Lumberjack seal will only target wooden logs, but instead of breaking the log the golem is hitting, it will instead break the furthest connected log.<BR>This means that it is highly effective when used to harvest trees as it will effectively chop them from the top down.
 #
 tc.research_name.SEALUSE=Controle Zegel: Gebruiker
-tc.research_text.SEALUSE=Clicky click
-tc.research_page.SEALUSE.1=This seal allows a golem to act like a player and left or right click on the block that you have marked.<BR>It can also click with any items it happens to be holding or specific items you have filtered.<BR>The seal will remain even if the block you placed it on is removed, allowing the seal to target empty air if you wish.<BR>If a whitelist items is specified you can also request it to be provisioned.
+tc.research_text.SEALUSE=Klikkerdeklik #originele verwijzing: onbekend
+tc.research_page.SEALUSE.1=Dit zegel staat een golem to om als een speler te fungeren en link of rechts the klikken op het blok dat u heeft gemarkeerd.<BR>Hij kan ook klikken met alle voorwerpen die hij vasthoudt of alleen met voorwerpen die u gefilterd hebt.<BR>Het zegel zal geplaatst blijven als het blok waar u het op heeft geplaatst, verwijderd wordt, wat er voor zorgt dat het zegel een leeg lucht blok kan selecteren als u dat wilt.<BR>Als een whitelist van voorwerpen is aangegeven, kunt u er ook bevoorrading voor opvragen.
 #
 tc.research_name.GOLEMVISION=Golem Biothaumische Ogen
-tc.research_text.GOLEMVISION=Vergroot zichtsveld
-tc.research_page.GOLEMVISION.1=Door vlees en een Occulte Constructie samen te voegen heeft u een stel scherpzinnige ogen vervaardigd.<BR>Elke golem die zo'n stel gluurders draagt zal in staat zijn om in tweemaal zijn normale bereik (32 blokken) te werken.<BR>§9Dit onderzoek untgrendelt extra golem onderdelen§0.
+tc.research_text.GOLEMVISION=Vergroot zichtsveld #originele verwijzing: onbekend
+tc.research_page.GOLEMVISION.1=Door vlees en een Occulte Constructie samen te voegen heeft u een stel scherpzinnige ogen vervaardigd.<BR>Elke golem die zo'n stel gluurders draagt zal in staat zijn om in tweemaal zijn normale bereik (32 blokken) te werken.<BR>§9Dit onderzoek ontgrendelt extra golem onderdelen§0.
 #
 tc.research_name.GOLEMCLIMBER=Golem Mobiliteit: Klimmend
-tc.research_text.GOLEMCLIMBER=Er is geen berg te hoog
-tc.research_page.GOLEMCLIMBER.1=Door een golem uit te rusten met stijgijzers, haken en verschillende andere gereedschappen, zal het in staat zijn om steile wanden te beklimmen en andere obstakels te overkomen.<BR>§9Dit onderzoek untgrendelt extra golem onderdelen§0.
+tc.research_text.GOLEMCLIMBER=Er is geen berg te hoog #originele verwijzing: Ain't no mountain high enough ~ Marvin Gaye
+tc.research_page.GOLEMCLIMBER.1=Door een golem uit te rusten met stijgijzers, haken en verschillende andere gereedschappen, zal het in staat zijn om steile wanden te beklimmen en andere obstakels te overkomen.<BR>§9Dit onderzoek ontgrendelt extra golem onderdelen§0.
 #
 tc.research_name.GOLEMFLYER=Golem Mobiliteit: Vliegend
-tc.research_text.GOLEMFLYER=En ik vlieg, vlieg, vlieg als een vogel...
-tc.research_page.GOLEMFLYER.1=Door simpelweg de benen van een golem af te hakken en er een Occulte Levitator voor in de plaats te lijmen, bent u er in geslaagd een golem aan het vliegen te krijgen. Dit verleent het goede (zij het grillige) mobiliteit, hoewel het minder snel beweegt.<BR>§9Dit onderzoek untgrendelt extra golem onderdelen§0.
+tc.research_text.GOLEMFLYER=En ik vlieg, vlieg, vlieg als een vogel... #originele verwijzing: Up up and away ~ 5th dimension
+tc.research_page.GOLEMFLYER.1=Door simpelweg de benen van een golem af te hakken en er een Occulte Levitator voor in de plaats te lijmen, bent u er in geslaagd een golem aan het vliegen te krijgen. Dit verleent het goede (zij het grillige) mobiliteit, hoewel het minder snel beweegt.<BR>§9Dit onderzoek ontgrendelt extra golem onderdelen§0.
 #
 tc.research_name.GOLEMBREAKER=Golem Manipulatie: Blok Brekend
-tc.research_text.GOLEMBREAKER=Vermorzel en verzamel
-tc.research_page.GOLEMBREAKER.1=Door de armen van een golem te vervangen door krachtige pneumatische slijptollen met een diamanten top, stelt u hem in staat om door alles behalve de hardste materialen heen te breken.<BR>§9Dit onderzoek untgrendelt extra golem onderdelen§0.
+tc.research_text.GOLEMBREAKER=Vermorzel en verzamel #originele verwijzing: onbekend
+tc.research_page.GOLEMBREAKER.1=Door de armen van een golem te vervangen door krachtige pneumatische slijptollen met een diamanten top, stelt u hem in staat om door alles behalve de hardste materialen heen te breken.<BR>§9Dit onderzoek ontgrendelt extra golem onderdelen§0.
 #
 tc.research_name.GOLEMCOMBATADV=Verbeterde Golem Vechtkunst
-tc.research_text.GOLEMCOMBATADV=Better Faster Stronger #Niet vertaald vanwege Daft Punk verwijzing
-tc.research_page.GOLEMCOMBATADV.1=U kunt nu gespecialiseerde golem bewapening en bepantsering vervaardigen om hen veel effectiever te maken in het gevecht.<BR>§9Dit onderzoek untgrendelt extra golem onderdelen§0.
+tc.research_text.GOLEMCOMBATADV=Better Faster Stronger #originele verwijzing: Harder Better Faster ~ Daft Punk
+tc.research_page.GOLEMCOMBATADV.1=U kunt nu gespecialiseerde golem bewapening en bepantsering vervaardigen om hen veel effectiever te maken in het gevecht.<BR>§9Dit onderzoek ontgrendelt extra golem onderdelen§0.
 #
 #
 # Eldritch 
