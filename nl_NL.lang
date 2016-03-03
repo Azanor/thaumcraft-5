@@ -1730,16 +1730,16 @@ tc.research_page.SEALGUARD.1=When placed this seal will protect and area from in
 tc.research_page.SEALGUARD.2=You can now create an advanced version of the seal that will give you greater control over which creatures your golems will target.
 #
 tc.research_name.SEALBUTCHER=Controle Zegel: Slager
-tc.research_text.SEALBUTCHER=Voor stralende oksels! #originele verwijzing: onbekend
-tc.research_page.SEALBUTCHER.1=While §5Guard§0 seals can be used to kill animals, they are not very selective.<BR>The butcher seals works much like a §5Guard§0 seal, except it only targets adult animals. Furthermore it will always make sure that at least a breeding pair of animals remain alive. 
+tc.research_text.SEALBUTCHER=Kips, het meest veelzijdige stukje vlees. Kips! #originele verwijzing: onbekend
+tc.research_page.SEALBUTCHER.1=Hoewel §5Bewaker§0 zegels gebruikt kunnen worden om dieren te slachten, zijn deze niet erg selectief.<BR>Het Slager zegel werkt voor een groot deel zoals een §5Bewaker§0 zegel, maar het slacht alleen volwassen dieren. Daarnaast zal het er altijd voor waken dat er minstens één kweekkoppel van elke diersoort in leven blijft.
 #
 tc.research_name.SEALBREAK=Controle Zegel: Blokbreker
-tc.research_text.SEALBREAK=*Tap* *Tap* *Tap* #originele verwijzing: onbekend
-tc.research_page.SEALBREAK.1=This seal commands golems to break any blocks they find in the area.<BR>The hardness of a block does determine how quickly it can be broken.<BR>You can filter what type of blocks are to be broken (or ignored).<BR>It should be noted that due to factors like golem mobility, limited area and speed this seal probably will not make a very effective mining tool, though it could be used as such in a pinch. 
+tc.research_text.SEALBREAK=*Tik* *Tak* *Tok* #originele verwijzing: onbekend
+tc.research_page.SEALBREAK.1=Dit zegel commandeert golems om alle blokken in de omgeving te breken.<BR>De hardheid van een block bepaalt hoe snel het gebroken kan worden.<BR>U kunt filteren welke bloktypes gebroken (of genegeerd) moeten worden.<BR>Het moet gezegd worden dat, door factoren zoals gelimiteerde golem-mobiliteit, -bereik en -snelheid, golems door dit zegel niet opeens tot effectieve mijnbouwers worden getransformeerd, alhoewel het hier op een kleine schaal wel voor gebruikt kan worden.
 #
 tc.research_name.SEALLUMBER=Controle Zegel: Houthakker
 tc.research_text.SEALLUMBER=Alles aan mootjes #originele verwijzing: The Lumberjack Song ~ Monty Python
-tc.research_page.SEALLUMBER.1=A refinement of the §5Blokbreker§0 seal, the Lumberjack seal will only target wooden logs, but instead of breaking the log the golem is hitting, it will instead break the furthest connected log.<BR>This means that it is highly effective when used to harvest trees as it will effectively chop them from the top down.
+tc.research_page.SEALLUMBER.1=Een verfijning van het §5Blokbreker§0 zegel, het Houthakker zegel richt zich slechts op houten stammen, maar in plaat van het breken van het block waar de golem op in hakt, breekt het de meest verre verbonden stam.<BR>Dit betekent dat het hoogst effectief is wanneer het gebruikt wordt om bomen om te hakken, omdat deze bomen van boven naar beneden aan mootjes gehakt worden.
 #
 tc.research_name.SEALUSE=Controle Zegel: Gebruiker
 tc.research_text.SEALUSE=Klikkerdeklik #originele verwijzing: onbekend
