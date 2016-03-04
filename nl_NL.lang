@@ -6,6 +6,16 @@ enchantment.repair=Reparatie
 enchantment.special.sapless=Mindere Sapping #todo
 enchantment.special.sapgreat=Meerdere Sapping #todo
 #
+# Infusion Enchantments
+###################################
+enchantment.infusion.COLLECTOR=Verzamelaar
+enchantment.infusion.DESTRUCTIVE=Destructief
+enchantment.infusion.BURROWING=Gravend
+enchantment.infusion.SOUNDING=Klinkend
+enchantment.infusion.REFINING=Verfijnend
+enchantment.infusion.ARCING=Buigend
+enchantment.infusion.ESSENCE=Essentie Oogster
+#
 #Potions
 ###################################
 potion.fluxtaint=Stroomsmet
@@ -199,6 +209,7 @@ tile.eldritch.lock.name=Aloud Sluitmechanisme
 tile.eldritch.door.name=Aloude Deuropening
 tile.eldritch.teleporter.name=Akelig Portaal
 tile.eldritch.crabspawner.name=Met Korsten Bedekte Opening
+tile.grass_ambient.name=Omgevingsgrasblok
 #
 # Doodads
 tile.table_stone.name=Stenen Tafel
@@ -500,10 +511,16 @@ item.baubles.0.name=Suf Amulet
 item.baubles.1.name=Suffe Ring
 item.baubles.2.name=Suffe Riem
 item.baubles.3.name=Leerlingenring van %TYPE
+item.baubles.9.name=Zonderling Amulet
+item.baubles.10.name=Zonderlinge Ring
+item.baubles.11.name=Zonderling Riem
 item.amulet_vis.text=Laadt langzaam toverstokken op in uw hotbar
 item.amulet_vis.0.name=Vissteen
 item.amulet_vis.1.name=Amulet van Visopslag
 item.girdle_hover.name=Thaumostatische Gordel
+item.ring_verdant.name=Groene Hartband
+item.verdant.life.text=Levengever
+item.verdant.sustain.text=Behouder
 
 # Wand
 item.focus_fire.name=Staffocus: Vuur
@@ -590,6 +607,7 @@ item.creative_placer.obelisk.name=Obelisk Plaatser
 item.creative_placer.node.name=Knoop Plaatser
 item.creative_placer.caster.name=Aloude Autobezweerder Plaatser
 item.creative_flux_sponge.name=Stroomspons
+item.jar_brace.name=Messing Dekselgesp
 #
 # Golem
 item.module.vision.name=Zichtmodule
@@ -657,6 +675,8 @@ golem.trait.hauler=Opper
 golem.trait.text.hauler=De golem kan twee stapels voorwerpen meenemen in plaats van één.
 golem.trait.ranged=Schutter
 golem.trait.text.ranged=De golem kan doelen van afstand aanvallen.
+golem.trait.blastproof=Explosieweerstand
+golem.trait.text.blastproof=De golem is erg goed beschermd tegen explosie schade.
 #
 # Props 
 golem.material.wood=Groothout
@@ -782,7 +802,6 @@ recipe.type.workbenchshapeless=Werkbank (Vormeloos)
 recipe.type.arcane=Occulte Werkbank
 recipe.type.crucible=Smeltkroes
 recipe.type.infusion=Occulte Infusie
-recipe.type.infusionenchantment=Infusiebetoveringen
 recipe.type.construct=Mystieke Constructie
 wandtable.text1=Vis Kosten
 wandtable.text2=Ervaring Kosten
@@ -920,6 +939,7 @@ tc.discount=besparing
 tc.visdiscount=Visbesparing
 tc.vis.cost=vis kosten
 tc.vis.costavg=gemiddelde vis kosten
+tc.charge=Vis lading:
 tc.inst=Instabiliteit:
 tc.inst.0=§1Negeerbaar§0
 tc.inst.1=§9Minimaal§0
@@ -1257,9 +1277,9 @@ tc.research_name.WANDPED=Recharge Pedestal
 tc.research_text.WANDPED=Automated Wand Recharging
 tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from the aura to recharge itself.<BR>Wands are not the only items that can be recharged in this device - many vis holding gadgets should be rechargeble in this.<BR>It will not drain the aura once it falls below 10%.
 #
-tc.research_name.VISAMULET=Vis Storage
+tc.research_name.VISAMULET=Portable Vis Recharging
 tc.research_text.VISAMULET=Waste not, Want not
-tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>The amulet will only recharge wands or items located in your hotbar. The amulet can also be placed in a recharge pedestal.
+tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand or item would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of channeling vis from the aura, you will be able to recharge wands and other items in the field.<BR>The amulet will only recharge wands or items located in your hotbar, baubles or armor slots (in that order). It will only recharge items that can normally be recharged in a recharge pedestal.
 #
 tc.research_name.WORKBENCHCHARGER=Arcane Workbench Charger
 tc.research_text.WORKBENCHCHARGER=Arcane Crafting Simplified
@@ -1360,7 +1380,7 @@ tc.research_page.JARBRAIN.1=You have discovered a way to reanimate a zombie brai
 #
 tc.research_name.HOVERHARNESS=Thaumostatic Harness
 tc.research_text.HOVERHARNESS=Is it a bird?
-tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>The harness is powered by vis it draws directly from the local aura. Single unit of Aer and Ignis vis provides enough power for 1 second of flight. The harness has an internal buffer that stores enough vis for 10 seconds of flight if the local aura is depleted.<BR>Pressing 'H' while wearing the harness activates or deactivates it.
+tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>The harness is powered by vis so it will need to be charged. A single unit of Aer and Ignis vis provides enough power for 1 second of flight. The harness has an internal buffer that stores enough vis for 5 minutes of flight.<BR>Pressing 'H' while wearing the harness activates or deactivates it.
 tc.research_page.HOVERHARNESS.2=It can be enchanted with the Haste enchant to increase the speed at which you move while flying.<BR>The harness will not reduce your block breaking speed while you are flying with it.
 #
 tc.research_name.HOVERGIRDLE=Thaumostatic Girdle
@@ -1469,6 +1489,27 @@ tc.research_text.REDSTONERELAY=Magical Redstone Interaction
 tc.research_page.REDSTONERELAY.1=You have always been curious about the seemingly negative reaction between mystical devices and redstone signals. You have studied the matter and while it is a well-known phenomenon that redstone inhibits magic, you have discovered that in specific circumstances the opposite can be true as well.<BR>One practical application of this is the Redstone Relay. By sending a redstone signal through a magical substance like vis crystals you can inhibit it as much or as little as you want.
 tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay to activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.
 #
+tc.research_name.INFUSIONENCHANTMENT=Infusion Enchantment
+tc.research_text.INFUSIONENCHANTMENT=Thaumaturgical Enchantment
+tc.research_page.INFUSIONENCHANTMENT.1=The elemental tools have proven quite useful, but the method you used to enchant them is inflexible... till now. You have discovered a way to apply many of the same abilities to nearly any tool or weapon, not just thaumium tools.<BR>Some enchantments can be applied multiple times to the same item, but each rank has an increased essentia cost when crafted.<BR>Each different infusion enchantment on the item also increases the cost by 33% and has an increased chance of giving it the Warping property.
+tc.research_page.INFUSIONENCHANTMENT.2=Certain infusion enchantments can only be applied to specific tools or weapons. This will be listed under each individual entry that follows.<BR>Tools with infusion enchantments can still be enchanted with the normal enchanting table and visa versa.<BR>Like with the elemental tools, sneaking while using an infusion enchanted tool will suppress its abilities.
+tc.research_page.INFUSIONENCHANTMENT.COLLECTOR=§nCollector§r<BR>Whenever this tool harvests an item it will automatically float towards you.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe, shovel, weapon
+tc.research_page.INFUSIONENCHANTMENT.BURROWING=§nBurrowing§r<BR>When you try to harvest a tree or ore the furthest block will be harvested, instead of the one you are trying to break.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe
+tc.research_page.INFUSIONENCHANTMENT.REFINING=§nRefining§r<BR>Whenever you harvest ore there is a chance of gaining a native cluster instead. Increasing the rank of the enchant will improve the chance.<BR>§lRanks§r: 1-4<BR>§lTarget§r: pickaxe
+tc.research_page.INFUSIONENCHANTMENT.SOUNDING=§nSounding§r<BR>You can right click on a block with this tool to send out a sounding pulse. This pulse will reveal any ores hidden nearby. Using this ability will cause some damage to the tool.<BR>§lRanks§r: 1-4<BR>§lTarget§r: pickaxe
+tc.research_page.INFUSIONENCHANTMENT.DESTRUCTIVE=§nDestructive§r<BR>When you harvest a block the 8 blocks surrounding it will also be harvested if they are normally harvestable by the tool. Each additional block harvested causes durability loss as if you had harvested them by hand.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe, shovel
+tc.research_page.INFUSIONENCHANTMENT.ARCING=§nArcing§r<BR>When you strike an enemy with a weapon enchanted with this, an arc of biting wind will hit an additional target nearby for half your weapons damage. Additional ranks will increase the number of additional targets and the range.<BR>§lRanks§r: 1-4<BR>§lTarget§r: weapon
+tc.research_page.INFUSIONENCHANTMENT.ESSENCE=§nEssence Harvester§r<BR>When you you kill a creature with a weapon enchanted with this it has a chance of dropping some of its essence in crystal form. Increasing the rank of this enchantment increases the chance of crystals dropping and may also increase the number dropped.<BR>§lRanks§r: 1-5<BR>§lTarget§r: weapon
+#
+tc.research_name.VERDANTHEART=Verdant Heart Band
+tc.research_text.VERDANTHEART=Curing what ails you
+tc.research_page.VERDANTHEART.1=This mystical ring pulses with healing energy that will wash all poisons or similar afflictions from your body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly. 
+#
+tc.research_name.VERDANTHEARTLIFE=Lifegiver & Sustainer
+tc.research_text.VERDANTHEARTLIFE=Balm for the body
+tc.research_page.VERDANTHEARTLIFE.1=There are two specialized enchantments you can apply to the Verdant Heart Band. Unfortunately these enchantments are mutually exclusive - you cannot apply both at the same time.<LINE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Band to regenerate the health of whomever wears it. 
+tc.research_page.VERDANTHEARTLIFE.2=§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Band to slowly feed and sustain whomever wears it. This includes providing breathable air.<LINE>Triple meat treats are crafted by combining sugar with three different kinds of meat nuggets. This is not only a crafting component, but a tasty and healthy treat.
+#
 # Alchemy 
 #######################
 tc.research_name.CRUCIBLE=Basic Alchemy
@@ -1553,6 +1594,7 @@ tc.research_text.JARLABEL=Storing and organizing essentia
 tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantment placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars can be filled from an alembic by clicking with the jar directly on the alembic. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.
 tc.research_page.JARLABEL.2=Shift clicking on jars and alembics with an empty hand will empty them.<BR>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.
 tc.research_page.JARLABEL.3=You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<LINE>A label can be made blank again by simply placing it by itself in a crafting grid.
+tc.research_page.JARLABEL.4=You can also craft brass lid braces. When used on a jar, they will prevent essentia being drawn from or placed into the jar by anything other than tubes.<BR>Picking up the jar will remove the brace and return it as an item.
 #
 tc.research_name.ETHEREALBLOOM=Ethereal Bloom
 tc.research_text.ETHEREALBLOOM=Purifying Flower
