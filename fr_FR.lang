@@ -832,6 +832,8 @@ golem.prop.colorall=Tous les golems
 golem.prop.owner=Vous possédez ce sceau
 golem.prop.lock=Seulement les golems appartenant au propriétaire du sceau peuvent effectuer ces tâches
 golem.prop.unlock=Tous les golems peuvent effectuer ces tâches
+golem.prop.redon=Sensible à la Redstone
+golem.prop.redoff=Ignore les signaux Redstone
 #
 tile.researchtable.noink.0=Vous n'avez plus d'encre!
 tile.researchtable.noink.1=Remplissez vos outils de scribe.
@@ -879,6 +881,7 @@ tc.handmirrorlinkedto=Lié à...
 tc.handmirrorlinked=Lien établi.
 tc.handmirrorerror=Le miroir de destination est manquant ou mal placé. Lien brisé.
 tc.researcherror=Vous n'avez pas toutes les connaissances requise pour comprendre ça.
+tc.researchexists=Vous possédez déjà cette connaissance.
 tc.discoveryerror=Pour comprendre ça vous devez étudier %1$s.
 tc.discoveryunknown=Théorie inconnue
 tc.discoveryprogress=% complète
@@ -1686,7 +1689,7 @@ tc.research_name.CONTROLSEALS=Golem Control Seals
 tc.research_text.CONTROLSEALS=Giving them purpose
 tc.research_page.CONTROLSEALS.1=Golems cannot do anything they are not told to do. For this purpose you have created Control Seals. You can place these circular clay seals against almost any surface you wish. Once you do they will become become ethereal and intangible, but you will still be able to see them as long as you hold a golem, another seal or §5Golemancer's Bell§0.<BR>The bell will be an important tool as you will use it to fine tune the settings and parameters of the command seals.<BR>Since seals are ethereal you can place down another block in the same spot as you placed a seal. 
 tc.research_page.CONTROLSEALS.2=Several seals can also occupy the same block space as long as the are located on different faces. This should allow you to keep things quite compact.<BR>You can retrieve a seal by shift and right-clicking on it with the bell.<LINE>Clicking on a seal with the bell will allow you to tweak its parameters. The exact parameters will vary from seal to seal, but most seals will allow you to give them a priority between -5 and +5 (default 0). Tasks created by higher priority seals will be performed first. You will also be able to see a list of required traits
-tc.research_page.CONTROLSEALS.3=that a golem will need to have in order to perform tasks created by that seal.<BR>For example, another seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0.<LINE>
+tc.research_page.CONTROLSEALS.3=that a golem will need to have in order to perform tasks created by that seal.<BR>For example, another seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0.<LINE>Seals can be set to become inactive when they recieve a redstone signal. All queued or in progress tasks from that seal will also be removed.
 tc.research_page.CONTROLSEALS.4=It is also possible to assign a color to a seal. If you do so tasks from that seal will only be performed by uncolored golems or golems with the same color. Uncolored seals will assign tasks to all golems (colored and uncolored alike).<BR>You set seal colors in the same location where you set priorities.<BR>You assign a golem a color by using a dye on it. The color will be cleared if the golem is picked up.
 #
 tc.research_name.MINDBIOTHAUMIC=Biothaumic Minds
@@ -1713,8 +1716,9 @@ tc.research_page.SEALCOLLECT.2=You can now also craft an advanced version of the
 #
 tc.research_name.SEALSTORE=Control Seal: Store
 tc.research_text.SEALSTORE=Putting away your mess
-tc.research_page.SEALSTORE.1=This seal needs to be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.
-tc.research_page.SEALSTORE.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.
+tc.research_page.SEALSTORE.1=This seal can be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.<BR>For the white list you can alse specify a specific number of items that must be placed in the inventory. By default this number is infinite (marked with a gold star).
+tc.research_page.SEALSTORE.2=If placed against a non-container block the golem will simply drop items at that location.<BR>Like with inventories you can also specify a specific number of items with the white list. Any items located in the world within a 1 block radius of the seal will be counted.
+tc.research_page.SEALSTORE.3=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.<BR>If you specified item counts in the white list, then all items that match the filter with these settings will be counted.
 #
 tc.research_name.SEALEMPTY=Control Seal: Empty
 tc.research_text.SEALEMPTY=Making a whole new mess
@@ -1728,7 +1732,7 @@ tc.research_page.SEALPROVIDE.2=The filter on the Provide seal is merely used to 
 #
 tc.research_name.SEALHARVEST=Control Seal: Harvest
 tc.research_text.SEALHARVEST=Green mechanical thumbs
-tc.research_page.SEALHARVEST.1=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available.
+tc.research_page.SEALHARVEST.1=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. If the seed was previously planted on farmland, the golem will also try to till the soil if it has turned into dirt.
 #
 tc.research_name.SEALGUARD=Control Seal: Guard
 tc.research_text.SEALGUARD=Protect and Serve
