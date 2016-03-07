@@ -1657,63 +1657,63 @@ tc.research_page.ESSENTIATRANSPORT.2=The Emptying Essentia Transfuser does the o
 #
 # Golemancy 
 #######################
-tc.research_name.BASICGOLEMANCY=Basic Golemancy
-tc.research_text.BASICGOLEMANCY=Motion Controlled
-tc.research_page.BASICGOLEMANCY.1=You have studied the basic, primitive golems anyone can create and found them lacking. They have potential, but it is not possible to control them.<BR>You are sure you can do better.
+tc.research_name.BASICGOLEMANCY=Basis Golemmeesterschap
+tc.research_text.BASICGOLEMANCY=Beweging Gecontroleerd
+tc.research_page.BASICGOLEMANCY.1=U heeft de standaard, primitieve golems bestudeerd die iedereen kan maken en u vindt dat ze tekort komen. Ze hebben toepassingsmogelijkheden, maar het is onmogelijk om ze te besturen.<BR>U weet zeker dat u dit beter kunt.
 #
-tc.research_name.MATSTUDWOOD=Material Studies: Wood
-tc.research_text.MATSTUDWOOD=Advanced Wood crafting
-tc.research_page.MATSTUDWOOD.1=Golemancy places great demands on your craftsmanship as it often requires intricate components with very narrow margins for error. You will need to increase your skill and knowledge of both mundane and arcane materials. Your first target is wood.<BR>Wood is a versatile substance and despite its weakness, it is light and easy to work. You have found Greatwood to be a superior wood particularly well suited to golemancy. 
+tc.research_name.MATSTUDWOOD=Materiaal Studie: Hout
+tc.research_text.MATSTUDWOOD=Geavanceerde Hout Vervaardiging
+tc.research_page.MATSTUDWOOD.1=Golemmeesterschap stelt hoge eisen aan uw handvaardigheid, omdat het vaak precieze onderdelen nodig heeft met erg kleine foutenmarges. U zult uw vaardigheid en kennis van zowel wereldse als occulte materialen moeten vergroten. Uw eerste doel is hout.<BR>Hout is een veelzijdige substantie en ondanks zijn zwakheid is het licht en makkelijk om te bewerken. U heeft ontdekt dat Groothout superieur is tot ander hout en uitzonderlijk geschikt voor golemmeesterschap.
 #
-tc.research_name.MATSTUDIRON=Material Studies: Iron
-tc.research_text.MATSTUDIRON=Advanced Iron crafting
-tc.research_page.MATSTUDIRON.1=Iron has many properties to recommend it - it is much sturdier than wood and malleable in a way that wood can never be. It is harder to work with however and quite heavy.
+tc.research_name.MATSTUDIRON=Materiaal Studie: Ijzer
+tc.research_text.MATSTUDIRON=Geavanceerde Ijzer Vervaardiging
+tc.research_page.MATSTUDIRON.1=Vanwege veel eigenschappen is ijzer aan te raden - het is veel stevige dan hout en vervormbaar op manieren die u met hout nooit voor elkaar krijgt. Het is alleen wel moeilijker te bewerken dan hout en ook erg zwaar.
 #
-tc.research_name.MATSTUDBRASS=Material Studies: Brass
-tc.research_text.MATSTUDBRASS=Advanced Brass crafting
-tc.research_page.MATSTUDBRASS.1=While brass is softer than iron, it is still quite sturdy and well suited to fine mechanical constructs. In your opinion it is the best mundane material for golemancy purposes and you would not dream of crafting intricate metals from any other material. It is quite pleasing to the eye as well. 
+tc.research_name.MATSTUDBRASS=Materiaal Studie: Messing
+tc.research_text.MATSTUDBRASS=Geavanceerde Messing Vervaardiging
+tc.research_page.MATSTUDBRASS.1=Hoewel messing zachter is dan ijzer, is het nog steeds best stevig en geschikt voor fijne mechanische onderdelen. Naar uw mening is het het beste wereldse materiaal voor golem doeleinden en u moet er niet aan denken om ingewikkelde werktuigen te vervaardigen uit enig ander materiaal. Het ziet er ook nog mooi uit.
 #
-tc.research_name.MATSTUDTHAUMIUM=Material Studies: Thaumium
-tc.research_text.MATSTUDTHAUMIUM=Advanced Thaumium crafting
-tc.research_page.MATSTUDTHAUMIUM.1=Thaumium is an arcane metal that sucks up enchantments like a proverbial sponge. It is significantly stronger than iron too. Unfortunately it is slightly heavier than iron and its strength also makes it hard to work.<BR>While it cannot compete with brass when it comes to intricate clockwork, thaumiums strength makes it a useful material to craft mechanisms that require strength over precision. 
+tc.research_name.MATSTUDTHAUMIUM=Materiaal Studie: Thaumium
+tc.research_text.MATSTUDTHAUMIUM=Geavanceerde Thaumium Vervaardiging
+tc.research_page.MATSTUDTHAUMIUM.1=Thaumium is een occult metaal dat betovering opzuigt als een spreekwoordelijke spons. Het is ook significant sterker dan ijzer. Jammer genoeg is het iets zwaarder dan ijzer en de sterkte maakt het ook moeilijker om te bewerken.<BR>Hoewel het geen competitie is voor messing als het om ingewikkelde uurwerken gaat, maakt de sterkte van thaumium het bruikbaar voor de vervaardiging van werktuigen die sterkte meer nodig hebben dan precisie.
 #
-tc.research_name.MATSTUDVOID=Material Studies: Void Metal
-tc.research_text.MATSTUDVOID=Advanced Void Metal crafting
-tc.research_page.MATSTUDVOID.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
+tc.research_name.MATSTUDVOID=Materiaal Studie: Leegtemetaal
+tc.research_text.MATSTUDVOID=Geavanceerde Leegtemetaal Vervaardiging
+tc.research_page.MATSTUDVOID.1=Leegtemetaal is relatief licht, maar best zacht, wat er normaal voor zou zorgen dat het ongeschikt zou zijn voor mechanismen, Gelukkig geven de morfische eigenschappen en het vermogen om zichzelf te repareren van dit materiaal de gelegenheid voor interessante mogelijkheden voor een thaumaturg die bereid is om "out of the box" te denken.
 #
-tc.research_name.MATSTUDCLAY=Material Studies: Clay
-tc.research_text.MATSTUDCLAY=Advanced Clay crafting
-tc.research_page.MATSTUDCLAY.1=Clay is not particularly strong, light or durable, but it is easy to work, highly resistant to fire and lighter than iron. Basically, the perfect choice for a thaumaturge on a budget.
+tc.research_name.MATSTUDCLAY=Materiaal Studie: Klei
+tc.research_text.MATSTUDCLAY=Geavanceerde Klei Vervaardiging
+tc.research_page.MATSTUDCLAY.1=Klei is niet erg sterk, licht of duurzaam, maar het is heel makkelijk te vervormen, erg vuurvast en lichter dan ijzer. Oftewel, de perfecte keuze voor de thaumaturg die zuinig aan moet doen.
 #
-tc.research_name.HUNGRYCHEST=Hungry Chest
-tc.research_text.HUNGRYCHEST=A chest that doesn't wait to be opened
-tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
+tc.research_name.HUNGRYCHEST=Hongerige Kist
+tc.research_text.HUNGRYCHEST=Een kist die niet open gemaakt wil worden
+tc.research_page.HUNGRYCHEST.1=De hongerige kist kan voorwerpen oppakken die dicht genoeg bij de kist op de grond liggen.
 #
-tc.research_name.ARCANEBORE=Arcane Bore
-tc.research_text.ARCANEBORE=Mining evolved
-tc.research_page.ARCANEBORE.1=You have discovered a device capable of extending the range and power of an Excavation focus. Of even greater use is the fact that the machine can do so without your constant supervision. You merely need to place it on a specially constructed base, point it in the right direction with a wand and apply a redstone signal.<BR>The arcane bore requires two things to function. The first is an excavation focus placed in its leftmost inventory slot. Any enchantments applied to the focus will also alter the functions of the bore. 
-tc.research_page.ARCANEBORE.2=Secondly you need to place any kind of pickaxe into the rightmost slot. The material of the pickaxe will have little effect on the operation of the bore, but the greater its durability, the longer it will last. Like the wand, any enchantments or special abilities of the pickaxe will also be applied to whatever the bore mines.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing.<BR>It will eject into an inventory if possible. This direction can be changed with a wand.
-tc.research_page.ARCANEBORE.3=The bore can be powered with §8Perditio§0 essentia which will greatly speed up the rate at which it mines. Essentia can be provided by pipes as normal.<BR>One point of §8Perditio§0 essentia will speed the bore for the next 20 blocks mined.<BR>If no essentia is provided the bore will use §8Perditio§0 vis to function. It is drawn from the aura and a single point of vis will only be able to mine a single block. The speed will be much slower when powered by vis.
+tc.research_name.ARCANEBORE=Occulte Boor
+tc.research_text.ARCANEBORE=Gevorderde mijnbouw
+tc.research_page.ARCANEBORE.1=U heeft een machine ontdekt die in staat is om het bereik en de kracht van een Uigravingsfocus te vergroten. Wat nog bruikbaarder is, is het feit dat de machine dit kan doen zonder constant toezicht. U hoeft het slechts te plaatsen op een specifiek geconstrueerde basis, te richten in de goede richting met een toverstok en te activeren met een redstone signaal.<BR>De occulte boor heeft twee dingen nodig om te functioneren. Het eerste is een uitgravingsfocus in zijn meest linkse inventarisvak. Alle betoveringen die op dit focus toegepast zijn, zullen de functies van de boor ook beïnvloeden.
+tc.research_page.ARCANEBORE.2=Ten tweede moet u een soort pikhouweel in het meest rechtse vak plaatsen. Het materiaal van het pikhouweel heeft weinig effect op de werking van de boor, maar hoe duurzamer het pikhouweel is, hoe langer het meegaat. Net zoals de bij het focus, worden alle betoveringen of speciale krachten van het pikhouweel ook toegepast op alles wat de Boor uitgraaft.<BR>Een occulte boor kan alleen geplaatst worden bovenop of onder een occulte boor basis. Alle voorwerpen die opgegraven zijn worden uit de basis "gespuugd" in de richting van de tuit.<BR>De tuit laat de voorwerpen in een kist (of ander opslagmedium) vallen als dat mogelijk is. De richting van de tuit kan veranderd worden met een toverstok.
+tc.research_page.ARCANEBORE.3=De boor kan door §8Perditio§0 essentia aangedreven worden waardoor hij veel sneller graaft. Essentia kan aangvoerd worden door pijpen zoals normaal.<BR>Eén §8Perditio§0 essentia geeft de boor extra snelheid voor de volgende twintig blokken.<BR>Als er geen essentia wordt toegevoerd zal de boor §8Perditio§0 vis gebruiken om te functioneren. Deze vis wordt aan de aura ontrokken en een één vis laat het slechts één blok uitgraven. De snelheid is veel langzamer als er vis gebruikt wordt.
 #
-tc.research_name.TRAVELTRUNK=Traveling Trunk
-tc.research_text.TRAVELTRUNK=Mobile Luggage
-tc.research_page.TRAVELTRUNK.1=An extension of your golemancy research has led to a useful companion for any thaumaturge on the go: The Traveling Trunk.<BR>This wooden chest will happily hop after its master, always ready to provide a convenient storage space for anything you pick up.<BR>The traveling trunk is tough and can take a significant amount of beating. It is highly resistant to fire and cannot be harmed by falling.<BR>The trunk can follow its master everywhere - even distant dimensions. Should you wish it to stay put however, there is a convenient  button located in its interface
-tc.research_page.TRAVELTRUNK.2=which will make it remain in its current position.<BR>The traveling trunk slowly heals itself over time, but you can also feed it all manner of food to speed up this process.<BR>Like normal golems, the trunk can be picked up by left-clicking with a golemmeestersbel. It will drop all items in its inventory of you do so. Shift-clicking will also cause it to drop any upgrades you have applied to it with the normal loss chance.<BR>It can accept a single upgrade like normal golems, but they grant unique abilities to the trunk. See the following pages for details as you discover the relevant upgrades.
-tc.research_page.TRAVELTRUNK.UAI=§nGolem Upgrade: Air§r<BR>With this upgrade installed the traveling trunk will move faster.
-tc.research_page.TRAVELTRUNK.UEA=§nGolem Upgrade: Earth§r<BR>With this upgrade installed the traveling trunk be able to carry more items and will gain an additional row in its inventory.
-tc.research_page.TRAVELTRUNK.UFI=§nGolem Upgrade: Fire§r<BR>With this upgrade installed the traveling trunk will defend its master when he is attacked.
-tc.research_page.TRAVELTRUNK.UWA=§nGolem Upgrade: Water§r<BR>With this upgrade installed the traveling trunk cannot be opened or picked up by anyone else but its master.<BR>It also become highly resistant to all but the most devastating amounts of damage.
-tc.research_page.TRAVELTRUNK.UOR=§nGolem Upgrade: Order§r<BR>With this upgrade installed the traveling trunk will retain its items when it is picked up using a golemancer's bell. It will drop items as normal when shift-clicked is used.
-tc.research_page.TRAVELTRUNK.UEN=§nGolem Upgrade: Entropy§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
+tc.research_name.TRAVELTRUNK=Reiskist
+tc.research_text.TRAVELTRUNK=Baggage op pootjes
+tc.research_page.TRAVELTRUNK.1=Een uitbreiding van uw onderzoek naar golems heeft geleid tot een bruikbare reisgenoot voor elke thaumaturg: De Reiskist.<BR>Deze houten kist trippelt vrolijk achter zijn meester aan, altijd gereed om een handige opslagruimte te leveren voor alles wat u oppakt.<BR>De reiskist is erg stevig en kan veel klappen verduren. Hij is bestand tegen vuur en kan niet beschadigen door te vallen.<BR>De kist kan zijn meester overal volgen - zelfs naar verre dimensies. Als u echter wilt dat hij blijft staan waar hij is, dan is er een handige knop voor in zijn inventaris scherm,
+tc.research_page.TRAVELTRUNK.2=die er voor zegt dat hij op zijn huidige positie zal blijven.<BR>De reiskist herstelt zichzelf langzaam, maar u kunt hem ook allerhande voedingsmiddelen voeren om dit proces te versnellen.<BR>Net als normale golems, kan de kist opgepakt worden door er op te links-klikken met een golemmeestersbel. Hij zal alle voorwerpen die hij draagt in uw inventaris laten vallen als u dit doet. SHIFT-klikken zorgt er ook voor dat alle opwaarderingen die er aan gegeven zijn op de grond gegooid worden met de normale verlies kans.<BR>De reiskist kan een enkele opwaardering accepteren net als normale golems, maar deze geven unieke vaardigheden aan de kist. Op de volgende pagina's ziet u details al naar gelang u deze opwaarderingen ontdekt.
+tc.research_page.TRAVELTRUNK.UAI=§nGolem Opwaardering: Lucht§r<BR>De reiskist beweegt sneller als u deze opwaardering installeert.
+tc.research_page.TRAVELTRUNK.UEA=§nGolem Opwaardering: Aarde§r<BR>De reiskist kan meer voorwerpen dragen en krijgt een extra rij in zijn inventaris als u deze opwaardering installeert.
+tc.research_page.TRAVELTRUNK.UFI=§nGolem Opwaardering: Vuur§r<BR>De reiskist verdedigt zijn meester als u deze opwaardering installeert.
+tc.research_page.TRAVELTRUNK.UWA=§nGolem Opwaardering: Water§r<BR>De reiskist kan niet geopend of opgepakt worden door iemand anders dan zijn meester als u deze opwaardering installeert. <BR>Hij wordt ook bijna immuun voor schade.
+tc.research_page.TRAVELTRUNK.UOR=§nGolem Opwaardering: Orde§r<BR>De reiskist behoudt zijn inhoud als hij wordt opgepakt als u deze opwaardering installeert. Als u SHIFT-klik gebruikt, zal hij wel zoals normaal zijn inhoud lossen.
+tc.research_page.TRAVELTRUNK.UEN=§nGolem Opwaardering: Entropie§r<BR>De reiskist zuigt automatisch alle dichtbijzijnde voorwerpen op waar hij ruimte voor heeft als u deze opwaardering installeert.
 #
-tc.research_name.MINDCLOCKWORK=Clockwork Minds
-tc.research_text.MINDCLOCKWORK=Giving them life
-tc.research_page.MINDCLOCKWORK.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If you are going to create intelligent magical servants then you are going to have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by Thaumaturgy. It has its limitations and very little autonomy, but it is a start.
-tc.research_page.MINDCLOCKWORK.2=Of course, now that you have a mind it is time to put it to use.<BR>You have designed a special press that will allow you to craft simple golems. It includes an anvil and forge to make assembling the parts easier.<LINE>To assemble as golem you simply access the Golem Press and select the components you wish to craft the golem from. For now your selection is fairly limited, but you are sure you will develop more.
-tc.research_page.MINDCLOCKWORK.3=Each golem is made up from up to 5 components: The base material, a type of head, arms, legs and an optional addon module. Simply select which of these you want to use and a list of crafting components will be displayed on the right. You need to have the listed components in your inventory before you can start the crafting process.<BR>Listed in the middle of the interface you will see the traits, hearts, armor and damage the golem will possess.<BR>Lastly you will need to supply Machina essentia to the press. Several ports are provided below the main press mechanism for this purpose.
-tc.research_page.MINDCLOCKWORK.4=You can now place the golem wherever you wish, but it will not do much unless you also place down a §5Golem Control Seal§0. To learn more about them see the reseach category that will have unlocked.<BR>When they have no tasks to perform, golems will return to the spot they were originally placed. You can pick up a golem by right clicking on it with a wand.<BR>It is also possible to assign a color to a golem by clicking on it with dye. This is useful for limiting it specific seals. Picking up the golem will clear the color assigned to it.
+tc.research_name.MINDCLOCKWORK=Uurwerk Verstand
+tc.research_text.MINDCLOCKWORK=Ze leven schenken
+tc.research_page.MINDCLOCKWORK.1=Ijzeren golems, sneeuw golems en andere wezens die iedereen in elkaar kan zetten hebben allemaal één gemeenschappelijke eigenschap - ze zijn onvoorspelbaar en onstuurbaar.<BR>De geesten die hen tot leven doen komen hebben hun eigen wil. Dat is een probleem.<BR>Als u intelligente magisch onderdanen gaat creëren, dan zult u ze een verstand moeten geven dat gewillig is om orders op te volgen. De simpelste oplossing is een uurwerksamenstelling die versneld wordt door thaumaturgie. Het heeft een aantal limitaties en vrij weinig zelfstandigheid, maar het is een begin.
+tc.research_page.MINDCLOCKWORK.2=Natuurlijk is het, nu u een brein heeft, tijd om dit toe te passen.<BR>U heeft een speciale pers ontwerpen die u in staat stelt om simpele golems te vervaardigen. Het bestaat uit een aambeeld en smidse om het samenstellen van de onderdelen gemakkelijker te maken.<LINE>Om een golem samen te stellen verschaft u zich simpelweg toegang tot de Golem Pers en selecteert u de onderdelen die u wenst te gebruiken voor het vervaardigen van de golem. Nu is uw selectie nog vrij gelimiteerd, maar u weet zeker dat u nog meer zult ontwikkelen.
+tc.research_page.MINDCLOCKWORK.3=Elke golem is samengesteld uit maximaal vijf onderdelen: Het basis materiaal, een type hoofd, armen, benen en een optionele "addon" module. Als u simpleweg selecteert welke van deze onderdelen u wilt gebruiken, zal er een lijst met de benodigde ingredienten worden weergegeven aan de rechter kant. U moet de voorwerpen in deze lijst in uw inventaris hebben voordat u het vervaardigingsproces kunt beginnen.<BR>In het midden van het scherm ziet u een lijst met de eigenschappen, het leven, de bepantsering en schade van de te maken golem.<BR>Tenslotte heeft de pers Machina essentia nodig om te werken. Voor de toevoer hiervan zijn verschillende poorten te vinden onder het centrale persmechanisme.
+tc.research_page.MINDCLOCKWORK.4=U kunt de golem nu plaatsen waar u maar wilt, maar het zal niet veel doen tenzij u ook een §5Golem Controle Zegel§0 plaatst. Bekijk om meer te leren over de zegels de onderzoekscategorie die nu untgrendeld is.<BR>Als golems geen taken te vervullen hebben, keren golems terug naar de plaats waar ze origineel geplaatst zijn. U kunt een golem oppakken door op hem te rechts klikken met een toverstok.<BR>Het is ook mogelijk om een kleur aan een golem toe te kennen door op hem te klikken met verf. Dit is handig voor het limiteren tot specifieke zegels. Het oppakken van de golem verwijdert de kleur die aan hem toegekend is.
 #
-tc.research_name.GOLEMDIRECT=Golem Meesterschap
+tc.research_name.GOLEMDIRECT=Gevorderd Golem Meesterschap
 tc.research_text.GOLEMDIRECT=Een vinger in de pap hebben
 tc.research_page.GOLEMDIRECT.1=Dat golems als zombies de bevelen van zegels opvolgen is niet uw enige doel. U wilt dat ze ook u als zombies volgen.<BR>U kunt nu rechts klikken op een golem met de §5Golemmeestersbel§0 om hem u te laten volgen. Terwijl hij u volgt, volgt de golem niet langer de bevelen van zegels op en golems die kunnen vechten zullen u verdedigen in het gevecht.<BR>Nogmaals op de golem klikken zorgt er voor dat de golem zich weer zoals normaal gaat gedragen en zijn nieuwe thuislocatie wordt de locatie waar hij zich op dat moment bevindt.
 #
