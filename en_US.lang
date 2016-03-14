@@ -6,6 +6,16 @@ enchantment.repair=Repair
 enchantment.special.sapless=Lesser Sapping
 enchantment.special.sapgreat=Greater Sapping
 #
+# Infusion Enchantments
+###################################
+enchantment.infusion.COLLECTOR=Collector
+enchantment.infusion.DESTRUCTIVE=Destructive
+enchantment.infusion.BURROWING=Burrowing
+enchantment.infusion.SOUNDING=Sounding
+enchantment.infusion.REFINING=Refining
+enchantment.infusion.ARCING=Arcing
+enchantment.infusion.ESSENCE=Essence Harvester
+#
 # Potions
 ###################################
 potion.fluxtaint=Taint Poison
@@ -145,8 +155,8 @@ tile.sapling.greatwood.name=Greatwood Sapling
 tile.sapling.silverwood.name=Silverwood Sapling
 tile.plank.greatwood.name=Greatwood Planks
 tile.plank.silverwood.name=Silverwood Planks
-tile.greatwood_stairs.name=Greatwood stairs
-tile.silverwood_stairs.name=Silverwood Stairs
+tile.greatwood_stairs.name=Greatwood Stairs
+tile.silverwood_stairs.name=Silverwood stairs
 tile.stone.arcane.name=Arcane Stone
 tile.stone.arcane_brick.name=Arcane Stone Brick
 tile.stone.ancient.name=Ancient Stone
@@ -166,6 +176,7 @@ tile.arcane_brick_stairs.name=Arcane Brick Stairs
 tile.ancient_stairs.name=Ancient Stone Stairs
 tile.translucent.amber_block.name=Amber Block
 tile.translucent.amber_brick.name=Amber Bricks
+tile.translucent.empty.name=Empty space
 tile.slab_wood.greatwood.name=Greatwood Slab
 tile.slab_wood.silverwood.name=Silverwood Slab
 tile.slab_stone.arcane.name=Arcane Stone Slab
@@ -198,6 +209,7 @@ tile.eldritch.lock.name=Ancient Locking Mechanism
 tile.eldritch.door.name=Ancient Doorway
 tile.eldritch.teleporter.name=Eldritch Portal
 tile.eldritch.crabspawner.name=Crusted Opening
+tile.grass_ambient.name=Ambient Grass Block
 #
 # Doodads
 tile.table_stone.name=Stone Table
@@ -499,10 +511,16 @@ item.baubles.0.name=Mundane Amulet
 item.baubles.1.name=Mundane Ring
 item.baubles.2.name=Mundane Belt
 item.baubles.3.name=Apprentices Ring of %TYPE
+item.baubles.9.name=Fancy Amulet
+item.baubles.10.name=Fancy Ring
+item.baubles.11.name=Fancy Belt
 item.amulet_vis.text=Recharges wands in hotbar
 item.amulet_vis.0.name=Vis Stone
 item.amulet_vis.1.name=Amulet of Vis Storage
 item.girdle_hover.name=Thaumostatic Girdle
+item.ring_verdant.name=Verdant Heart Band
+item.verdant.life.text=Lifegiver
+item.verdant.sustain.text=Sustainer
 
 # Wand
 item.focus_fire.name=Wand Focus: Fire
@@ -517,6 +535,7 @@ item.focus_warding.name=Wand Focus: Warding
 item.focus_primal.name=Wand Focus: Primal
 item.focus_shard.name=Wand Focus: Vis Shard
 item.focus_grapple.name=Wand Focus: Grappler
+item.focus_builder.name=Wand Focus: Builder
 item.wand_cap.iron.name=Iron Cap
 item.wand_cap.gold.name=Gold Cap
 item.wand_cap.brass.name=Brass Cap
@@ -587,6 +606,8 @@ item.researchnotes.learn=Right click to learn this discovery
 item.creative_placer.obelisk.name=Obelisk Placer
 item.creative_placer.node.name=Node Placer
 item.creative_placer.caster.name=Ancient Autocaster Placer
+item.creative_flux_sponge.name=Flux Sponge
+item.jar_brace.name=Brass Lid Brace
 #
 # Golem
 item.module.vision.name=Vision Module
@@ -654,6 +675,8 @@ golem.trait.hauler=Hauler
 golem.trait.text.hauler=Allows the golem to carry two stack of items instead of one.
 golem.trait.ranged=Ranged
 golem.trait.text.ranged=The golem can attack targets at range. 
+golem.trait.blastproof=Blastproof
+golem.trait.text.blastproof=The golem is highly resistant to explosion damage.
 #
 # Props 
 golem.material.wood=Greatwood
@@ -779,7 +802,6 @@ recipe.type.workbenchshapeless=Workbench (Shapeless)
 recipe.type.arcane=Arcane Workbench
 recipe.type.crucible=Crucible
 recipe.type.infusion=Arcane Infusion
-recipe.type.infusionenchantment=Infusion Enchantment
 recipe.type.construct=Mystical Construct
 wandtable.text1=Vis Cost
 wandtable.text2=Experience Cost
@@ -806,7 +828,7 @@ golem.prop.cycle=Cycle whitelist
 golem.prop.meta=Use metadata
 golem.prop.nbt=Use NBT data
 golem.prop.ore=Use Ore Dictionary
-golem.prop.mod=Use Mod
+golem.prop.mod=Use from same mod
 golem.prop.mob=Target Mobs 
 golem.prop.animal=Target Animals
 golem.prop.player=Target Players
@@ -819,14 +841,35 @@ golem.prop.provision=Request provisioning
 golem.prop.provision.wl=Request provisioning from whitelist
 golem.rank=Rank
 golem.prop.priority=Task Priority
+golem.prop.color=Set for %s golems
+golem.prop.colorall=All golems
 golem.prop.owner=You own this seal
 golem.prop.lock=Only golems owned by seal owner can perform these tasks
 golem.prop.unlock=All golems can perform these tasks
+golem.prop.redon=Redstone sensitive
+golem.prop.redoff=Ignores Redstone signals
 #
 tile.researchtable.noink.0=You have run out of ink!
 tile.researchtable.noink.1=Refill your scribing tools.
 text.spa.mix.true=Mix with ingredient
 text.spa.mix.false=Use just the fluid
+#
+color.white=White
+color.orange=Orange
+color.magenta=Magenta
+color.light_blue=Light Blue
+color.yellow=Yellow
+color.lime=Lime
+color.pink=Pink
+color.gray=Gray
+color.silver=Light Gray
+color.cyan=Cyan
+color.purple=Purple
+color.blue=Blue
+color.brown=Brown
+color.green=Green
+color.red=Red
+color.black=Black
 #
 # Other
 ###################
@@ -852,6 +895,7 @@ tc.handmirrorlinkedto=Linked to
 tc.handmirrorlinked=Link established.
 tc.handmirrorerror=Destination mirror is missing or misplaced. Link broken.
 tc.researcherror=You lack the required knowledge to understand this.
+tc.researchexists=You already possess this knowledge.
 tc.discoveryerror=To understand this you need to study %1$s.
 tc.discoveryunknown=Unknown theory
 tc.discoveryprogress=% complete
@@ -895,6 +939,7 @@ tc.discount=discount
 tc.visdiscount=Vis discount
 tc.vis.cost=vis cost
 tc.vis.costavg=avg vis cost
+tc.charge=Vis charge:
 tc.inst=Instability: 
 tc.inst.0=§1Negligible§0
 tc.inst.1=§9Minor§0
@@ -931,6 +976,8 @@ tc.dioptra.1=Showing %s levels in the aura.
 tc.dioptra.2=Showing highest aura levels.
 tc.dioptra.3=Showing aura level ratios.
 tc.notowned=This does not belong to you.
+tc.fluxevent.1=The nearby aura suddenly twists and warps, leaving your thoughts in a shambles.
+tc.fluxevent.2=The local aura momentarily becomes unstable, hampering your magical ability.
 #
 # Aspects
 tc.aspect.primal=Primal Aspect
@@ -1170,7 +1217,7 @@ tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can 
 #
 tc.research_name.ROD_primal_staff=Staff Core of the Primal
 tc.research_text.ROD_primal_staff=Elemental power combined
-tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish its vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturge's arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
+tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features of the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish its vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturge's arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
 #
 tc.research_name.FOCUSFIRE=Wand Foci
 tc.research_text.FOCUSFIRE=Form meets Function
@@ -1209,6 +1256,11 @@ tc.research_name.FOCUSGRAPPLE=Wand Focus: Grappler
 tc.research_text.FOCUSGRAPPLE=Woosh!
 tc.research_page.FOCUSGRAPPLE.1=Foci by their very nature can usually only create instantaneous effects, making them unsuitable for easing travel or by creating effects like flight. You are not one to shy aways from a challenge however, and this lead you to the discovery of the Grappler Focus.<BR>This focus launches a tether of elemental energy that attaches to blocks and then pulls you towards that block. This makes it useful for traversing gaps or heights, or just getting around quickly. Pressing the sneak key will detach you from the tether.<BR>Potency increases the range of the grapple. 
 #
+tc.research_name.FOCUSBUILDER=Wand Focus: Builder
+tc.research_text.FOCUSBUILDER=Faster 9x9's
+tc.research_page.FOCUSBUILDER.1=This focus is somewhat similar to the focus of Equal Trade, but instead of replacing blocks, this one can simply place them.<BR>You must first choose the block you wish to place by sneaking and right clicking on the desired block.<BR>You can target a block face up to 64 blocks away. An outline will show where the blocks will be placed and right clicking will place them. Like with the focus of equal trade you must actually have those blocks available in your inventory.
+tc.research_page.FOCUSBUILDER.2=The blocks will always be placed in a line extending from the selected face up to a location level with your own, to a maximum of 16 blocks at a time. Upgrading the focus will allow you to place more blocks at a time.<BR>If the placed line of blocks intersects an existing block, it will be replaced and placed in your inventory.
+#
 tc.research_name.FOCUSPOUCH=Focus Pouch
 tc.research_text.FOCUSPOUCH=Convenient carry container for your foci.
 tc.research_page.FOCUSPOUCH.1=Once you have gathered a sizable collection of foci it is quite annoying to carry them all with you. This pouch solves that problem.<BR>Whenever you change the focus on your wand, it will check this pouch first and any foci that get removed will be placed inside it first. You can also right-click the pouch to place or remove foci by hand.<BR>It can also be carried in your belt bauble slot.
@@ -1225,9 +1277,9 @@ tc.research_name.WANDPED=Recharge Pedestal
 tc.research_text.WANDPED=Automated Wand Recharging
 tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from the aura to recharge itself.<BR>Wands are not the only items that can be recharged in this device - many vis holding gadgets should be rechargeble in this.<BR>It will not drain the aura once it falls below 10%.
 #
-tc.research_name.VISAMULET=Vis Storage
+tc.research_name.VISAMULET=Portable Vis Recharging
 tc.research_text.VISAMULET=Waste not, Want not
-tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>The amulet will only recharge wands or items located in your hotbar. The amulet can also be placed in a recharge pedestal.
+tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand or item would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of channeling vis from the aura, you will be able to recharge wands and other items in the field.<BR>The amulet will only recharge wands or items located in your hotbar, baubles or armor slots (in that order). It will only recharge items that can normally be recharged in a recharge pedestal.
 #
 tc.research_name.WORKBENCHCHARGER=Arcane Workbench Charger
 tc.research_text.WORKBENCHCHARGER=Arcane Crafting Simplified
@@ -1280,7 +1332,7 @@ tc.research_page.ARCTABLE.1=To create an Arcane Workbench simply right-click wit
 #
 tc.research_name.ENCHFABRIC=Enchanted Fabric
 tc.research_text.ENCHFABRIC=Silky and Stylish
-tc.research_page.ENCHFABRIC.1=By combining spider silk and wool and infusing it with primal vis, you can creat a silky length of magical cloth that has numerous uses.<BR>You also have patterns to create cloth robes from the magical fabric. These robes have similar protective properties to leather armor, but they are much more durable than mundane materials could ever be.<BR>They also hold mystical enchantments very well and can hold powerful magic much better than even expensive armor.  
+tc.research_page.ENCHFABRIC.1=By combining spider silk and wool and infusing it with primal vis, you can create a silky length of magical cloth that has numerous uses.<BR>You also have patterns to create cloth robes from the magical fabric. These robes have similar protective properties to leather armor, but they are much more durable than mundane materials could ever be.<BR>They also hold mystical enchantments very well and can hold powerful magic much better than even expensive armor.  
 tc.research_page.ENCHFABRIC.2=The various pieces of this outfit grant a small discount to the amount of vis drained from casting wands when you use them.<BR>You can dye the armor like you would leather armor.
 #
 tc.research_name.ELEMENTALTOOLS=Elemental Tools
@@ -1297,7 +1349,7 @@ tc.research_page.ELEMENTALTOOLS.8=§l§nHoe of Growth§r<BR>By merging the magic
 tc.research_name.INFERNALFURNACE=Infernal Furnace
 tc.research_text.INFERNALFURNACE=Hot enough?
 tc.research_page.INFERNALFURNACE.1=By harnessing raw §cIgnis§0 within a furnace crafted from obsidian and netherbrick you have created a highly efficient and fuel free furnace. So efficient in fact, that occasionally it will produce bonus materials in the form of nuggets or other items.<BR>While this is essentially free, it is also very slow unless the furnace gets a steady supply of §cIgnis§0 vis from the aura. 
-tc.research_page.INFERNALFURNACE.2=It should also be noted that the occasional bit of Flux escapes into the environment.<BR>Items you wish to smelt needs to be dropped into the top of the furnace and will be spit out the front.
+tc.research_page.INFERNALFURNACE.2=It should also be noted that the occasional bit of Flux escapes into the environment.<BR>Items you wish to smelt needs to be dropped into the top of the furnace and will be spit out the front. The top of the molten heart of the furnace counts as an inventory so you can put items directly into it using a hopper or similar tools.
 #
 tc.research_name.BELLOWS=Arcane Bellows
 tc.research_text.BELLOWS=Stoking the flames
@@ -1328,7 +1380,7 @@ tc.research_page.JARBRAIN.1=You have discovered a way to reanimate a zombie brai
 #
 tc.research_name.HOVERHARNESS=Thaumostatic Harness
 tc.research_text.HOVERHARNESS=Is it a bird?
-tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>The harness is powered by vis it draws directly from the local aura. Single unit of Aer and Ignis vis provides enough power for 1 second of flight. The harness has an internal buffer that stores enough vis for 10 seconds of flight if the local aura is depleted.<BR>Pressing 'H' while wearing the harness activates or deactivates it.
+tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>The harness is powered by vis so it will need to be charged. A single unit of Aer and Ignis vis provides enough power for 1 second of flight. The harness has an internal buffer that stores enough vis for 5 minutes of flight.<BR>Pressing 'H' while wearing the harness activates or deactivates it.
 tc.research_page.HOVERHARNESS.2=It can be enchanted with the Haste enchant to increase the speed at which you move while flying.<BR>The harness will not reduce your block breaking speed while you are flying with it.
 #
 tc.research_name.HOVERGIRDLE=Thaumostatic Girdle
@@ -1437,6 +1489,27 @@ tc.research_text.REDSTONERELAY=Magical Redstone Interaction
 tc.research_page.REDSTONERELAY.1=You have always been curious about the seemingly negative reaction between mystical devices and redstone signals. You have studied the matter and while it is a well-known phenomenon that redstone inhibits magic, you have discovered that in specific circumstances the opposite can be true as well.<BR>One practical application of this is the Redstone Relay. By sending a redstone signal through a magical substance like vis crystals you can inhibit it as much or as little as you want.
 tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay to activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.
 #
+tc.research_name.INFUSIONENCHANTMENT=Infusion Enchantment
+tc.research_text.INFUSIONENCHANTMENT=Thaumaturgical Enchantment
+tc.research_page.INFUSIONENCHANTMENT.1=The elemental tools have proven quite useful, but the method you used to enchant them is inflexible... till now. You have discovered a way to apply many of the same abilities to nearly any tool or weapon, not just thaumium tools.<BR>Some enchantments can be applied multiple times to the same item, but each rank has an increased essentia cost when crafted.<BR>Each different infusion enchantment on the item also increases the cost by 33% and has an increased chance of giving it the Warping property.
+tc.research_page.INFUSIONENCHANTMENT.2=Certain infusion enchantments can only be applied to specific tools or weapons. This will be listed under each individual entry that follows.<BR>Tools with infusion enchantments can still be enchanted with the normal enchanting table and visa versa.<BR>Like with the elemental tools, sneaking while using an infusion enchanted tool will suppress its abilities.
+tc.research_page.INFUSIONENCHANTMENT.COLLECTOR=§nCollector§r<BR>Whenever this tool harvests an item it will automatically float towards you.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe, shovel, weapon
+tc.research_page.INFUSIONENCHANTMENT.BURROWING=§nBurrowing§r<BR>When you try to harvest a tree or ore the furthest block will be harvested, instead of the one you are trying to break.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe
+tc.research_page.INFUSIONENCHANTMENT.REFINING=§nRefining§r<BR>Whenever you harvest ore there is a chance of gaining a native cluster instead. Increasing the rank of the enchant will improve the chance.<BR>§lRanks§r: 1-4<BR>§lTarget§r: pickaxe
+tc.research_page.INFUSIONENCHANTMENT.SOUNDING=§nSounding§r<BR>You can right click on a block with this tool to send out a sounding pulse. This pulse will reveal any ores hidden nearby. Using this ability will cause some damage to the tool.<BR>§lRanks§r: 1-4<BR>§lTarget§r: pickaxe
+tc.research_page.INFUSIONENCHANTMENT.DESTRUCTIVE=§nDestructive§r<BR>When you harvest a block the 8 blocks surrounding it will also be harvested if they are normally harvestable by the tool. Each additional block harvested causes durability loss as if you had harvested them by hand.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe, shovel
+tc.research_page.INFUSIONENCHANTMENT.ARCING=§nArcing§r<BR>When you strike an enemy with a weapon enchanted with this, an arc of biting wind will hit an additional target nearby for half your weapons damage. Additional ranks will increase the number of additional targets and the range.<BR>§lRanks§r: 1-4<BR>§lTarget§r: weapon
+tc.research_page.INFUSIONENCHANTMENT.ESSENCE=§nEssence Harvester§r<BR>When you you kill a creature with a weapon enchanted with this it has a chance of dropping some of its essence in crystal form. Increasing the rank of this enchantment increases the chance of crystals dropping and may also increase the number dropped.<BR>§lRanks§r: 1-5<BR>§lTarget§r: weapon
+#
+tc.research_name.VERDANTHEART=Verdant Heart Band
+tc.research_text.VERDANTHEART=Curing what ails you
+tc.research_page.VERDANTHEART.1=This mystical ring pulses with healing energy that will wash all poisons or similar afflictions from your body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly. 
+#
+tc.research_name.VERDANTHEARTLIFE=Lifegiver & Sustainer
+tc.research_text.VERDANTHEARTLIFE=Balm for the body
+tc.research_page.VERDANTHEARTLIFE.1=There are two specialized enchantments you can apply to the Verdant Heart Band. Unfortunately these enchantments are mutually exclusive - you cannot apply both at the same time.<LINE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Band to regenerate the health of whomever wears it. 
+tc.research_page.VERDANTHEARTLIFE.2=§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Band to slowly feed and sustain whomever wears it. This includes providing breathable air.<LINE>Triple meat treats are crafted by combining sugar with three different kinds of meat nuggets. This is not only a crafting component, but a tasty and healthy treat.
+#
 # Alchemy 
 #######################
 tc.research_name.CRUCIBLE=Basic Alchemy
@@ -1521,6 +1594,7 @@ tc.research_text.JARLABEL=Storing and organizing essentia
 tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantment placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars can be filled from an alembic by clicking with the jar directly on the alembic. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.
 tc.research_page.JARLABEL.2=Shift clicking on jars and alembics with an empty hand will empty them.<BR>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.
 tc.research_page.JARLABEL.3=You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<LINE>A label can be made blank again by simply placing it by itself in a crafting grid.
+tc.research_page.JARLABEL.4=You can also craft brass lid braces. When used on a jar, they will prevent essentia being drawn from or placed into the jar by anything other than tubes.<BR>Picking up the jar will remove the brace and return it as an item.
 #
 tc.research_name.ETHEREALBLOOM=Ethereal Bloom
 tc.research_text.ETHEREALBLOOM=Purifying Flower
@@ -1544,7 +1618,7 @@ tc.research_page.JARVOID.1=Void jars function much the same as normal warded jar
 #
 tc.research_name.TUBEFILTER=Advanced Essentia Tubes
 tc.research_text.TUBEFILTER=What you want, where you want it
-tc.research_page.TUBEFILTER.1=§nFiltered essentia tubes§r work like normal tubes, except it is possible to mark them with labels, phails or other items that clearly identify a single type of essentia. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the filter.
+tc.research_page.TUBEFILTER.1=§nFiltered essentia tubes§r work like normal tubes, except it is possible to mark them with labels, phials or other items that clearly identify a single type of essentia. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the filter.
 tc.research_page.TUBEFILTER.2=§nRestricted essentia tubes§r work like normal tubes, except they halve the any suction passing through them.<LINE>§nDirectional essentia tubes§r only accept suction from one direction. The blue markings indicate the direction from which suction will be accepted.
 tc.research_page.TUBEFILTER.3=The essentia buffer allows you to store a limited amount of essentia - 8 points total, though it can be made up of any combination of essentia types. Like a jar it has suction, though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides, meaning that it is invaluable for getting essentia out of devices like the centrifuges that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 32.
 tc.research_page.TUBEFILTER.4=Additionally you can toggle individual connections on and off as with a normal tube, but if you shift click a connection, it will choke the suction back to 1 (blue band) or 0 (red band) on that side.<BR>This allows for some interesting possibilities when routing essentia.
@@ -1585,7 +1659,7 @@ tc.research_page.ESSENTIATRANSPORT.2=The Emptying Essentia Transfuser does the o
 #######################
 tc.research_name.BASICGOLEMANCY=Basic Golemancy
 tc.research_text.BASICGOLEMANCY=Motion Controlled
-tc.research_page.BASICGOLEMANCY.1=You have studied the basic, primitive golems anyone can create and found them lacking. They have potentional, but it is not possible to control them.<BR>You are sure you can do better.
+tc.research_page.BASICGOLEMANCY.1=You have studied the basic, primitive golems anyone can create and found them lacking. They have potential, but it is not possible to control them.<BR>You are sure you can do better.
 #
 tc.research_name.MATSTUDWOOD=Material Studies: Wood
 tc.research_text.MATSTUDWOOD=Advanced Wood crafting
@@ -1637,7 +1711,7 @@ tc.research_text.MINDCLOCKWORK=Giving them life
 tc.research_page.MINDCLOCKWORK.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If you are going to create intelligent magical servants then you are going to have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by Thaumaturgy. It has its limitations and very little autonomy, but it is a start.
 tc.research_page.MINDCLOCKWORK.2=Of course, now that you have a mind it is time to put it to use.<BR>You have designed a special press that will allow you to craft simple golems. It includes an anvil and forge to make assembling the parts easier.<LINE>To assemble as golem you simply access the Golem Press and select the components you wish to craft the golem from. For now your selection is fairly limited, but you are sure you will develop more.
 tc.research_page.MINDCLOCKWORK.3=Each golem is made up from up to 5 components: The base material, a type of head, arms, legs and an optional addon module. Simply select which of these you want to use and a list of crafting components will be displayed on the right. You need to have the listed components in your inventory before you can start the crafting process.<BR>Listed in the middle of the interface you will see the traits, hearts, armor and damage the golem will possess.<BR>Lastly you will need to supply Machina essentia to the press. Several ports are provided below the main press mechanism for this purpose.
-tc.research_page.MINDCLOCKWORK.4=You can now place the golem wherever you wish, but it will not do much unless you also place down a §5Golem Control Seal§0. To learn more about them see the reseach category that will have unlocked.<BR>When they have no tasks to perform, golems will return to the spot they were originally placed. You can pick up a golem by right clicking on it with a wand.
+tc.research_page.MINDCLOCKWORK.4=You can now place the golem wherever you wish, but it will not do much unless you also place down a §5Golem Control Seal§0. To learn more about them see the reseach category that will have unlocked.<BR>When they have no tasks to perform, golems will return to the spot they were originally placed. You can pick up a golem by right clicking on it with a wand.<BR>It is also possible to assign a color to a golem by clicking on it with dye. This is useful for limiting it specific seals. Picking up the golem will clear the color assigned to it.
 #
 tc.research_name.GOLEMDIRECT=Golem Mastery
 tc.research_text.GOLEMDIRECT=Taking a direct hand in things
@@ -1647,7 +1721,8 @@ tc.research_name.CONTROLSEALS=Golem Control Seals
 tc.research_text.CONTROLSEALS=Giving them purpose
 tc.research_page.CONTROLSEALS.1=Golems cannot do anything they are not told to do. For this purpose you have created Control Seals. You can place these circular clay seals against almost any surface you wish. Once you do they will become become ethereal and intangible, but you will still be able to see them as long as you hold a golem, another seal or §5Golemancer's Bell§0.<BR>The bell will be an important tool as you will use it to fine tune the settings and parameters of the command seals.<BR>Since seals are ethereal you can place down another block in the same spot as you placed a seal. 
 tc.research_page.CONTROLSEALS.2=Several seals can also occupy the same block space as long as the are located on different faces. This should allow you to keep things quite compact.<BR>You can retrieve a seal by shift and right-clicking on it with the bell.<LINE>Clicking on a seal with the bell will allow you to tweak its parameters. The exact parameters will vary from seal to seal, but most seals will allow you to give them a priority between -5 and +5 (default 0). Tasks created by higher priority seals will be performed first. You will also be able to see a list of required traits
-tc.research_page.CONTROLSEALS.3=that a golem will need to have in order to perform tasks created by that seal.<BR>For example, another seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0. 
+tc.research_page.CONTROLSEALS.3=that a golem will need to have in order to perform tasks created by that seal.<BR>For example, another seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0.<LINE>Seals can be set to become inactive when they recieve a redstone signal. All queued or in progress tasks from that seal will also be removed. 
+tc.research_page.CONTROLSEALS.4=It is also possible to assign a color to a seal. If you do so tasks from that seal will only be performed by uncolored golems or golems with the same color. Uncolored seals will assign tasks to all golems (colored and uncolored alike).<BR>You set seal colors in the same location where you set priorities.<BR>You assign a golem a color by using a dye on it. The color will be cleared if the golem is picked up.
 #
 tc.research_name.MINDBIOTHAUMIC=Biothaumic Minds
 tc.research_text.MINDBIOTHAUMIC=I think therefore I am
@@ -1666,20 +1741,21 @@ tc.research_name.FOCUSTURRET=Autocaster
 tc.research_text.FOCUSTURRET=Automated Foci
 tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with the development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce the activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
 #
-tc.research_name.SEALCOLLECT=Control Seal: Collect
+tc.research_name.SEALCOLLECT=Control Seal: Collect 
 tc.research_text.SEALCOLLECT=Picking up what you are putting down
 tc.research_page.SEALCOLLECT.1=This seal will constantly check an area you define for dropped items. If items are found it will instruct any nearby golems to pick up those items.<BR>You can define the exact dimensions of the area as well as filter out certain items using a white- or blacklist.
 tc.research_page.SEALCOLLECT.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.  
 #
 tc.research_name.SEALSTORE=Control Seal: Store
 tc.research_text.SEALSTORE=Putting away your mess
-tc.research_page.SEALSTORE.1=This seal needs to be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.
-tc.research_page.SEALSTORE.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.
+tc.research_page.SEALSTORE.1=This seal can be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.<BR>For the white list you can alse specify a specific number of items that must be placed in the inventory. By default this number is infinite (marked with a gold star). 
+tc.research_page.SEALSTORE.2=If placed against a non-container block the golem will simply drop items at that location.<BR>Like with inventories you can also specify a specific number of items with the white list. Any items located in the world within a 1 block radius of the seal will be counted.
+tc.research_page.SEALSTORE.3=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.<BR>If you specified item counts in the white list, then all items that match the filter with these settings will be counted.
 #
 tc.research_name.SEALEMPTY=Control Seal: Empty
 tc.research_text.SEALEMPTY=Making a whole new mess
 tc.research_page.SEALEMPTY.1=This seal is effectively the opposite of the Store seal. It will empty items from the inventory it is attached to. Any nearby golems will simply take the items and hold. You will need to use other seals to give them instructions as to what they need to do with the items they have taken.<BR>You can filter a specific item to remove or to exclude from removal.  
-tc.research_page.SEALEMPTY.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.<BR>You can also have the seal only check for a single item in the filter at a time in the order they are listed.
+tc.research_page.SEALEMPTY.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.<BR>You can also have the seal only check for a single item in the filter at a time in the order they are listed. 
 #
 tc.research_name.SEALPROVIDE=Control Seal: Provide
 tc.research_text.SEALPROVIDE=Getting what is needed
@@ -1688,7 +1764,7 @@ tc.research_page.SEALPROVIDE.2=The filter on the Provide seal is merely used to 
 #
 tc.research_name.SEALHARVEST=Control Seal: Harvest
 tc.research_text.SEALHARVEST=Green mechanical thumbs
-tc.research_page.SEALHARVEST.1=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. 
+tc.research_page.SEALHARVEST.1=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. If the seed was previously planted on farmland, the golem will also try to till the soil if it has turned into dirt.
 #
 tc.research_name.SEALGUARD=Control Seal: Guard
 tc.research_text.SEALGUARD=Protect and Serve
@@ -1780,7 +1856,7 @@ tc.research_page.CRIMSON.1=Much of this book is written in a spidery and unintel
 #
 tc.research_name.OCULUS=Opening the Eye
 tc.research_text.OCULUS=I will show them, I will show them all!
-tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 1000 units of each should be sufficient.
+tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 500 units of each should be sufficient.
 tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown! 
 #
 tc.research_name.SINSTONE=Sinister Lodestone 

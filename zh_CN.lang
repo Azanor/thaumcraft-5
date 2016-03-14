@@ -17,7 +17,7 @@ potion.warpward=扭曲守护
 potion.deathgaze=死亡凝视
 potion.blurred=视瞻昏渺
 potion.sunscorned=日之辱蔑
-potion.thaumarhia=奥妙
+potion.thaumarhia=玄癔
 #
 # Warp
 ###################################
@@ -45,7 +45,8 @@ warp.text.16=那微弱的咏唱声在附近依稀可闻.
 entity.Thaumcraft.AuraNode.name=灵气节点
 entity.Thaumcraft.Golem.name=傀儡
 entity.Thaumcraft.ThaumSlime.name=神秘史莱姆
-entity.Thaumcraft.Dart.name=傀儡飞镖
+entity.Thaumcraft.GolemDart.name=傀儡飞镖
+entity.Thaumcraft.PrimalArrow.name=元始之矢
 entity.Thaumcraft.FrostShard.name=霜星
 entity.Thaumcraft.ExplosiveOrb.name=爆炎
 entity.Thaumcraft.ShockOrb.name=电球
@@ -98,6 +99,7 @@ entity.Thaumcraft.CultistPortalLesser.name=小型血腥门户
 entity.Thaumcraft.EldritchCrab.name=邪术爪牙
 entity.Thaumcraft.InhabitedZombie.name=行尸走肉
 entity.Thaumcraft.TurretBasic.name=自动十字弩
+entity.Thaumcraft.TurretAdvanced.name=高级自动弩
 entity.Thaumcraft.TurretFocus.name=施法器
 entity.Thaumcraft.TurretEldritch.name=荒古施法器
 entity.Thaumcraft.NodeMagnet.name=节点磁铁
@@ -164,6 +166,7 @@ tile.arcane_brick_stairs.name=奥术石砖楼梯
 tile.ancient_stairs.name=荒古楼梯
 tile.translucent.amber_block.name=琥珀方块
 tile.translucent.amber_brick.name=琥珀砖块
+tile.translucent.empty.name=隙间
 tile.slab_wood.greatwood.name=宏伟之木台阶
 tile.slab_wood.silverwood.name=银树台阶
 tile.slab_stone.arcane.name=奥术台阶
@@ -272,6 +275,10 @@ tile.purifying_fluid.name=净化之水
 tile.liquid_death.name=死亡之水
 tile.placeholder.furnace_brick.name=炼狱熔炉
 tile.placeholder.furnace_obsidian.name=炼狱熔炉
+tile.placeholder.gb_anvil.name=傀儡工坊
+tile.placeholder.gb_table.name=傀儡工坊
+tile.placeholder.gb_bars.name=傀儡工坊
+tile.placeholder.gb_cauldron.name=傀儡工坊
 tile.barrier.name=守护之光
 #
 # Machines
@@ -283,7 +290,7 @@ tile.crucible.name=坩埚
 tile.arcane_ear.name=奥术之耳
 tile.levitator.name=奥术悬浮台
 tile.bellows.name=奥术风箱
-tile.dioptra.name=神秘屈光仪 
+tile.dioptra.name=神秘屈光仪
 tile.water_jug.name=无尽之瓮
 tile.recharge_pedestal.name=充能基座
 tile.hungry_chest.name=饕餮箱子
@@ -323,6 +330,10 @@ tile.crystallizer.name=源质结晶器
 tile.spa.name=奥术浴场
 tile.mirror.name=魔镜
 tile.mirror_essentia.name=源质之镜
+tile.golem_builder.name=傀儡塑形装置
+tile.node_stabilizer.name=节点稳定器
+tile.essentia_input.name=源质析出装置
+tile.essentia_output.name=源质注入装置
 #
 # Items
 ###################################
@@ -401,14 +412,15 @@ item.sanity_soap.name=祛邪肥皂
 item.loot_bag.common.name=寻常藏宝袋
 item.loot_bag.uncommon.name=稀有藏宝袋
 item.loot_bag.rare.name=罕见藏宝袋
-tc.lootbag=点击以开启或存留以备交易
+tc.lootbag=右击以开启或存留以备交易
 item.turret.basic.name=自动十字弩
+item.turret.advanced.name=高级自动弩
 item.turret.focus.name=施法器
 item.turret.magnet.name=节点磁铁
 #
 # Tools
 item.thaumonomicon.name=魔导手册
-item.thaumonomicon.cheat.name=封弊者之魔导手册
+item.thaumonomicon.cheat.name=作弊者之魔导手册
 item.thaumometer.name=魔导透镜
 item.sanity_checker.name=神智检测仪
 item.resonator.name=源质谐振器
@@ -469,8 +481,8 @@ item.crimson_robe_legs.name=血腥邪徒护腿
 item.crimson_plate_helm.name=血腥邪徒头盔
 item.crimson_plate_chest.name=血腥邪徒胸甲
 item.crimson_plate_legs.name=血腥邪徒护胫
-item.crimson_praetor_helm.name=血腥主教头盔       
-item.crimson_praetor_chest.name=血腥主教胸甲      
+item.crimson_praetor_helm.name=血腥主教头盔
+item.crimson_praetor_chest.name=血腥主教胸甲
 item.crimson_praetor_legs.name=血腥主教护胫
 item.thaumostatic_harness.name=奥法缰绳
 item.traveller_boots.name=旅行者之靴
@@ -505,6 +517,8 @@ item.focus_pech.name=法杖核心:岩精之诅咒
 item.focus_warding.name=法杖核心:守护
 item.focus_primal.name=法杖核心:元始
 item.focus_shard.name=法杖核心:魔力碎片
+item.focus_grapple.name=法杖核心:锚钩
+item.focus_builder.name=法杖核心:建筑
 item.wand_cap.iron.name=铁杖端
 item.wand_cap.gold.name=金杖端
 item.wand_cap.brass.name=黄铜杖端
@@ -562,37 +576,142 @@ item.tainted.tendril.name=腐化触手
 item.coin.name=金币
 item.primordial_pearl.name=元始珍珠
 item.knowledge_fragment.name=知识碎片
-item.knowledge_fragment.help=用来获取经验
+item.knowledge_fragment.help=右键使用以获取经验
 item.eldritch_eye.name=邪术之眼
 item.crimson_rites.name=血腥仪式
 item.crimson_rites.text.0=书上涂满了诡异的符文.
 item.crimson_rites.text.1=点击以研究.
 item.runed_tablet.name=符文石板
-item.runed_tablet.text=看来它似乎是某个大玩意儿的一部分.
+item.runed_tablet.text=看来它似乎是某个大型装置儿的一部分.
 item.research_notes.name=研究笔记
 item.research_notes.discovery.name=发现
 item.researchnotes.learn=右键点击来学习该发现
 item.creative_placer.obelisk.name=方尖碑敷设器
 item.creative_placer.node.name=节点敷设器
 item.creative_placer.caster.name=荒古施法器敷设器
+item.creative_flux_sponge.name=污染清理海绵
 #
 # Golem
+item.module.vision.name=神秘生物学之眼
+item.module.aggression.name=攻击组件
 item.golem_bell.name=傀儡使铃铛
 item.golem.name=傀儡
 item.seal.blank.name=空白印记
 item.seal.pickup.name=操控印记:聚集
+item.seal.pickup_advanced.name=高级操控印记:聚集
 item.seal.fill.name=操控印记:填充
 item.seal.fill_advanced.name=高级操控印记:填充
 item.seal.empty.name=操控印记:空置
 item.seal.empty_advanced.name=高级操控印记:空置
-
+item.seal.harvest.name=操控印记:收获
+item.seal.butcher.name=操控印记:屠宰
+item.seal.guard.name=操控印记:守卫
+item.seal.guard_advanced.name=高级操控印记:守卫
+item.seal.lumber.name=操控印记:砍伐
+item.seal.breaker.name=操控印记:挖掘
+item.seal.use.name=操控印记:使用
+item.seal.provider.name=操控印记:供给
 #
 # Text
 item.runic.charge=符文护盾
 item.warping=扭曲
 item.capacity.text=容量
 item.chargebonus.text=充能
-
+#
+# Golems
+########################
+# Traits
+golem.trait.deft=灵巧
+golem.trait.text.deft=这种傀儡具有高度灵活的双手,可以胜任高精度要求的工作.该属性与笨拙相互抵消.
+golem.trait.clumsy=笨拙
+golem.trait.text.clumsy=这种傀儡手部灵活度低,只能完成最基础的工作.该属性与灵巧相互抵消.
+golem.trait.smart=智慧
+golem.trait.text.smart=这种傀儡似乎更擅长推理决断,具有智慧.
+golem.trait.wheeled=轮式结构
+golem.trait.text.wheeled=这种傀儡采用轮式结构提高了移动速度,但是无法跳跃或走上陡坡.
+golem.trait.light=轻盈
+golem.trait.text.light=轻盈的结构使得这种傀儡更加迅速与灵活.该属性与笨重相互抵消.
+golem.trait.heavy=笨重
+golem.trait.text.heavy=笨重的结构降低了傀儡的速度与灵活性.该属性与轻盈相互抵消.
+golem.trait.fragile=脆弱
+golem.trait.text.fragile=这种傀儡采用了精密仪器或是低强度材料,生命上限与护甲值降低.该属性与装甲相互抵消.
+golem.trait.armored=装甲
+golem.trait.text.armored=这种傀儡使用了额外材料进行加固,具有更高的护甲值.该属性与脆弱相互抵消.
+golem.trait.repair=自愈
+golem.trait.text.repair=这种傀儡的自愈能力是普通傀儡的两倍.
+golem.trait.fighter=战斗
+golem.trait.text.fighter=这种傀儡具有攻击生物的能力.
+golem.trait.flyer=飞行
+golem.trait.text.flyer=这种傀儡具有飞行能力,以速度为代价换取了更高的机动性.
+golem.trait.climber=攀爬
+golem.trait.text.climber=这种傀儡具有攀爬悬崖的能力.
+golem.trait.scout=侦查
+golem.trait.text.scout=这种傀儡具有优秀的视野,工作范围更大.(视野为32格,而非通常的16格)
+golem.trait.fireproof=抗火
+golem.trait.text.fireproof=这种傀儡不受火焰伤害.
+golem.trait.brutal=蛮力
+golem.trait.text.brutal=这种傀儡具有更高的近战伤害.
+golem.trait.breaker=破坏
+golem.trait.text.breaker=这种傀儡可以轻松地破坏大部分方块.
+golem.trait.hauler=负重
+golem.trait.text.hauler=使傀儡可以携带2组物品,而不是通常的1组.
+golem.trait.ranged=远程攻击
+golem.trait.text.ranged=这种傀儡具有远程攻击能力.
+#
+# Props
+golem.material.wood=宏伟之木傀儡
+golem.material.text.wood=由宏伟之木制成,轻而强度不足.
+golem.material.iron=铁质傀儡
+golem.material.text.iron=由铁制成,坚固却笨拙.
+golem.material.brass=黄铜傀儡
+golem.material.text.brass=由黄铜制成,不及铁坚固,但和铁一样耐火.虽然比铁重,但可以使用更好的加工方法制成更轻的框架.
+golem.material.clay=粘土傀儡
+golem.material.text.clay=由硬化粘土制成,虽然不坚固,但抗火而且轻巧.
+golem.material.thaumium=神秘傀儡
+golem.material.text.thaumium=由神秘锭制成,和铁相似，却更加坚固、耐损耗.
+golem.material.void=虚空傀儡
+golem.material.text.void=由虚空金属制成,比铁稍软,更轻并且可以自愈.
+#
+golem.head.basic=发条头部
+golem.head.text.basic=默认的傀儡头部.没有特殊之处.
+golem.head.smart=智慧头部
+golem.head.text.smart=智慧头部赋予傀儡学习以提升性能的能力,内含一个神秘生物学之心,
+golem.head.smart_armored=装甲智慧头部
+golem.head.text.smart_armored=使用了额外的金属板及羊毛进行加固的智慧头部.
+golem.head.scout=感知头部
+golem.head.text.scout=使用神秘生物学之眼进行强化的傀儡头部.
+golem.head.smart_scout=神秘生物学头部
+golem.head.text.smart_scout=同时使用了神秘生物学之心及神秘生物学之眼进行强化的头部,此乃神秘生物学研究集大成之作.
+#
+golem.arm.basic=基础臂部
+golem.arm.text.basic=默认的傀儡臂部,没有特殊之处.
+golem.arm.fine=精巧机械臂
+golem.arm.text.fine=末端装有高度精密的机械臂.
+golem.arm.claws=钳型机械臂
+golem.arm.text.claws=末端装有锋利而可怕的金属钳,内置攻击组件.
+golem.arm.breakers=粉碎机械臂
+golem.arm.text.breakers=末端装有气动钻石砂轮.
+golem.arm.darts=飞镖发射臂
+golem.arm.text.darts=末端装有气动飞镖发射器.会自动凝结魔力形成飞镖用以发射.内置攻击组件.
+#
+golem.leg.walker=基础腿部
+golem.leg.text.walker=默认的傀儡腿部,没有特殊之处.
+golem.leg.roller=万向轮
+golem.leg.text.roller=一个简单万向轮,速度非常快,但是无法跳跃或走上斜坡.
+golem.leg.climber=登山足部
+golem.leg.text.climber=由燧石制作的攀爪强化的傀儡腿部.使傀儡可以行走在垂直的表面上.
+golem.leg.flyer=悬浮组件
+golem.leg.text.flyer=改进后的奥术悬浮台赋予傀儡飞行的能力.但降低了傀儡三分之一的速度.
+#
+golem.addon.armored=装甲加固
+golem.addon.text.armored=提升傀儡护甲值.
+golem.addon.fighter=攻击组件
+golem.addon.text.fighter=允许傀儡进行战斗.
+golem.addon.hauler=置物架
+golem.addon.text.hauler=允许傀儡携带2组物品,而非通常那样只有1组.
+#
+golem.follow=吾主,我将追随您.
+golem.stay=我将在此待命,吾主.
 #
 # Fluids
 ##############################
@@ -650,6 +769,8 @@ focus.upgrade.dowsing.name=勘探
 focus.upgrade.dowsing.text=这种升级赋予采掘核心小几率挖出原矿簇而非普通矿石的能力.这些原矿簇在冶炼时通常都能得到双倍的金属锭.
 focus.upgrade.persistant.name=持续
 focus.upgrade.persistant.text=当锁定的目标死亡,消失或者离开作用范围后,释放出的魔弹会在附近继续寻找下一个同类目标.
+focus.upgrade.sticky.name=粘附
+focus.upgrade.sticky.text=当你到达目的地后,释放出的抓钩仍然保持和你保持链接,你可以手动断开之间的链接.
 #
 # GUI
 ###################
@@ -675,18 +796,63 @@ button.category.0=优先级
 button.category.1=过滤器
 button.category.2=区域
 button.category.3=选项
+button.category.4=需求
 button.caption.x=东/西
 button.caption.y=上/下
 button.caption.z=北/南
+button.bl=黑名单
+button.wl=白名单
+button.caption.required=需求属性
+button.caption.forbidden=受限属性
+golem.prop.replant=补种作物
+golem.prop.cycle=按白名单循环
+golem.prop.meta=忽略meta数据
+golem.prop.nbt=忽略NBT数据
+golem.prop.ore=使用矿物辞典
+golem.prop.mod=匹配相同模组
+golem.prop.mob=以生物为目标
+golem.prop.animal=以动物为目标
+golem.prop.player=以玩家为目标
+golem.prop.left=左键点击
+golem.prop.empty=点击空气方块
+golem.prop.emptyhand=允许空手点击
+golem.prop.sneak=模拟潜行状态点击
+golem.prop.single=仅允许提供一个物品
+golem.prop.provision=请求物品供应
+golem.prop.provision.wl=根据白名单请求物品供应
+golem.rank=等级
+golem.prop.priority=任务优先级
+golem.prop.color=%s傀儡
+golem.prop.colorall=所有傀儡
+golem.prop.owner=这个印记属于你
+golem.prop.lock=仅允许印记所有者持有的傀儡执行这项任务
+golem.prop.unlock=所有的傀儡都可以执行这项任务
 #
 tile.researchtable.noink.0=墨水已耗尽!
 tile.researchtable.noink.1=请补充新的笔与墨!
 text.spa.mix.true=药浴
 text.spa.mix.false=仅以该流体洗浴
 #
+color.white=白色
+color.orange=橙色
+color.magenta=品红色
+color.light_blue=浅蓝色
+color.yellow=黄色
+color.lime=柠檬色
+color.pink=粉色
+color.gray=灰色
+color.silver=浅灰色
+color.cyan=青色
+color.purple=紫色
+color.blue=蓝色
+color.brown=棕色
+color.green=绿色
+color.red=红色
+color.black=黑色
+#
 # Other
 ###################
-itemGroup.thaumcraft=神秘时代4
+itemGroup.thaumcraft=神秘时代5
 #
 nodetype.0=标准
 nodetype.1=凶险
@@ -739,7 +905,7 @@ tc.removewarpsticky=§5你身上的扭曲被祛除了!§0
 tc.removewarptemp=§5你身上的临时扭曲被祛除了!§0
 tc.forbidden=§l§5禁忌知识(%n)§0
 tc.forbidden.level.1=近乎无害
-tc.forbidden.level.2=略有风险 
+tc.forbidden.level.2=略有风险
 tc.forbidden.level.3=稍有危险
 tc.forbidden.level.4=危险
 tc.forbidden.level.5=禁忌
@@ -751,7 +917,7 @@ tc.discount=减免
 tc.visdiscount=魔力减免
 tc.vis.cost=魔力消耗
 tc.vis.costavg=平均魔力消耗
-tc.inst=风险: 
+tc.inst=风险:
 tc.inst.0=§1微乎其微§0
 tc.inst.1=§9微量§0
 tc.inst.2=§5适量§0
@@ -761,7 +927,7 @@ tc.inst.5=§4危险§0
 tc.adv=高级
 tc.thaumometer=按下'$s'以改变显示内容
 tc.resonator1=§9包含%1$s%2$s源质§0
-tc.resonator2=§5吸力%1$s%2$s§0 
+tc.resonator2=§5吸力%1$s%2$s§0
 tc.resonator3=未绑定类型
 tc.search=搜索
 tc.search.more=...发现太多结果,请优化你的搜索.
@@ -787,6 +953,8 @@ tc.dioptra.1=显示灵气场中%s的浓度.
 tc.dioptra.2=显示最高的灵气浓度.
 tc.dioptra.3=显示灵气浓度比例.
 tc.notowned=它并不属于你.
+tc.fluxevent.1=扭曲而诡异的灵气场打乱了你的思绪.
+tc.fluxevent.2=不再稳定的灵气场侵蚀着你的魔力.
 #
 # Aspects
 tc.aspect.primal=元始要素
@@ -826,7 +994,7 @@ tc.aspect.desiderium=愿望,意愿,渴望,需求
 tc.aspect.machina=机械,机构
 tc.aspect.vinculum=陷阱,监禁
 tc.aspect.permutatio=贸易,交换
-#  
+#
 # Research categories
 tc.research_category.BASICS=基本信息
 tc.research_category.THAUMATURGY=神秘学
@@ -834,7 +1002,7 @@ tc.research_category.ALCHEMY=炼金术
 tc.research_category.ARTIFICE=炼化学
 tc.research_category.GOLEMANCY=傀儡学
 tc.research_category.ELDRITCH=邪术学
-#  
+#
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
 # <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
@@ -845,8 +1013,8 @@ tc.research_category.ELDRITCH=邪术学
 #                    - y location of sub-image in png
 #                    - x size of sub-image (255 if full x size of png must be used)
 #                    - y size of sub-image (255 if full y size of png must be used)
-#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)   
-#               Examples: 
+#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)
+#               Examples:
 #                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
 #                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
 #
@@ -856,7 +1024,7 @@ tc.research_name.RESEARCH=研究
 tc.research_text.RESEARCH=如何发现物品
 tc.research_page.RESEARCH.1=在开始创建神秘学的物品及方块前,你需要先研究如何创建它们.你需要历经下述两个步骤:<BR>(1)在§5研究台§0中利用你已经知晓的要素来探索实用的知识以及合成配方.<BR><BR>(2)探索世界,使用§5魔导透镜§0勘察方块,物品以及生物,以找到进一步研究的线索.<LINE>在你着手这两件事之前你需要先合成出§5魔导透镜§和研究台.
 tc.research_page.RESEARCH.2=只需要放置好一个木桌,然后将笔与墨放在台桌上便可以创建§5研究台§0.<BR>§5魔导透镜§0和§5笔与墨§0的合成配方则如图所示.<LINE><IMG>thaumcraft:textures/research/research1.png:0:0:255:208:.5</IMG>
-tc.research_page.RESEARCH.3=§l§n(1)基础研究§r<BR>完成此步骤时你需要随身带着一套笔与墨以及纸张.翻开魔导手册,你能够查阅你已经掌握的所有知识,也能够查看你目前能够继续探求哪些知识.<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
+tc.research_page.RESEARCH.3=§l§n(1)基础研究§r<BR>完成此步骤时你需要随身带着一套笔与墨以及纸张.翻开魔导手册,你能够查阅你已经掌握的所有知识,也能够查看你目前能够继续探求哪些知识.<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG>
 tc.research_page.RESEARCH.4=闪烁的方形或圆形图标表示的正是那些你可以着手进行的基础研究.<BR>当点击这些闪烁的图标后,你的物品栏中的纸张和墨水会被消耗掉,同时你会获得相应的研究笔记.<BR>接下来你便可以开始在研究台中分析这份研究笔记.你还需要将笔与墨放在研究台的§l1§r号格子中(在创建研究台时这一步应该会自动完成),而研究笔记则应该放入§l2§r号格子中.
 tc.research_page.RESEARCH.5=§l3§r号区域显示你当前可用作研究点的元始要素数量.<BR>§l5§r号区域会显示出一张纸卷,上面排满了外缘绘有要素图标的六边形格子.<IMG>thaumcraft:textures/research/research2.png:0:88:255:158:.5</IMG>
 tc.research_page.RESEARCH.6=要完成你的研究,只需链接和激活全部要素.为此,你需要将要素拖拽到六边形格子中,并使其要么与能融合成它的要素相连,要么与其能与其他要素融合成的要素相连.<IMG>thaumcraft:textures/research/research3.png:0:0:150:95:.75</IMG>
@@ -941,7 +1109,7 @@ tc.research_page.WARP.1= §n扭曲§r<BR>许多人认为人类不应当涉足魔
 tc.research_page.WARP.2=扭曲通常表现为心神恍惚,肉体疼痛或者出现幻觉.<BR>这些症状并不仅仅只是精神疾患,有时候视野中会涌现出有用的知识,而幻觉看上去骇人地真实.
 tc.research_page.WARP.3=§n咒波§r<BR>倘若说扭曲是魔力紊乱在精神上的表现,那么咒波就是其物理上的表现.<BR>咒波能够以三种形式表现出来:液态,气态,以及身体疾患的状态.前两种是令大多数神秘使都烦恼过的问题,它们通常是魔力滥用的后果,并不特别难以清除,但它们常常会导致第三种形式出现: 以身体疾患为表现的咒流.<BR>咒流并不特别危险,但一旦神秘使染上这种疾病,聚集魔力就会变得更加困难,导致他不得不得在同样的操作中耗费更多魔力.
 #
-# Thaumaturgy 
+# Thaumaturgy
 #######################
 tc.research_name.BASICTHAUMATURGY=基础法杖工艺
 tc.research_text.BASICTHAUMATURGY=你的第一柄工具
@@ -955,6 +1123,10 @@ tc.research_page.NODETAPPER1.1=通常从灵气中吸取魔力都相当缓慢…�
 tc.research_name.NODETAPPER2=大师灵气引流术
 tc.research_text.NODETAPPER2=你的魔力都属于我们了
 tc.research_page.NODETAPPER2.1=你已经掌握了更加精细的魔力抽取技术.<BR>现在你能够三倍于标准速度吸取魔力.此外,即使没有手持或者放在快捷栏中,只要在物品栏内的法杖就能够被充能.
+#
+tc.research_name.AURAPRESERVE=灵气防护术
+tc.research_text.AURAPRESERVE=安全措施
+tc.research_page.AURAPRESERVE.1=你已经可以在当地灵气储量过低时本能地停止法杖及其他携带设备对当地灵气的抽取,这可以有效地把腐化扼杀在摇篮中.<BR>这只会作用于你携带的工具和设备.
 #
 tc.research_name.AURAMANIP1=基础灵气操纵学
 tc.research_text.AURAMANIP1=让魔力流动起来
@@ -988,37 +1160,37 @@ tc.research_page.CAP_void.1=用虚空金属合成的杖端因其魔力抗性显�
 #
 tc.research_name.ROD_greatwood=宏伟之木杖柄
 tc.research_text.ROD_greatwood=魔力存储库
-tc.research_page.ROD_greatwood.1=宏伟之木的原木雕刻而成,能存储二倍于普通木材的魔力,也就是说每种魔力都能存储500vis.
+tc.research_page.ROD_greatwood.1=宏伟之木的原木雕刻而成,能存储二倍于普通木材的魔力,也就是说每种魔力都能存储250vis.
 #
 tc.research_name.ROD_silverwood=银树杖柄
 tc.research_text.ROD_silverwood=神秘核心
-tc.research_page.ROD_silverwood.1=银树被证明是极其优良的魔力存储材料,每种魔力能存储1000vis.
+tc.research_page.ROD_silverwood.1=银树被证明是极其优良的魔力存储材料,每种魔力能存储500vis.
 #
 tc.research_name.SCEPTRE=工艺权杖
 tc.research_text.SCEPTRE=以制造为己任
-tc.research_page.SCEPTRE.1=工艺权杖是一种特制法杖,它专业制造魔力物品三十年,而别无旁顾.虽无法安装法杖核心,但其若干特性仍使得它非常值得使用.<BR>首先,这种法杖额外会提供5%的魔力减免,这比其杖端能提供的还要多.<BR>其次,在其杖柄通常所提供的容量的基础上,这种法杖还能够多存储50%的魔力.<BR>类似其他法杖,工艺权杖也可以通过杖端杖柄的绝大部分组合方式制出 - 下面几页仅仅给出部分例子.
+tc.research_page.SCEPTRE.1=工艺权杖是一种特制法杖,它专业制造魔力物品三十年,而别无旁顾.虽无法安装法杖核心,但其若干特性仍使得它非常值得使用.<BR>首先,这种法杖会额外提供10%的魔力减免,这比其杖端能提供的还要多.<BR>其次,在其杖柄通常所提供的容量的基础上,这种法杖还能够多存储50%的魔力.<BR>类似其他法杖,工艺权杖也可以通过杖端杖柄的绝大部分组合方式制出 - 下面几页仅仅给出部分例子.
 #
-tc.research_name.PRIMALRODS=元素杖芯
-tc.research_text.PRIMALRODS=元素魔力存储
-tc.research_page.PRIMALRODS.1=下列杖芯都与一种特定的元始要素相关,因此都分别具有特别的能力.<LINE>§l§n甘蔗杖芯§r<BR>使用甘蔗制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Aer§0要素魔力低于10%时,无需节点就能自动补充.
-tc.research_page.PRIMALRODS.2=§l§n烈焰杖芯§r<BR>使用烈焰棒制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Ignis§0要素魔力低于10%时,无需节点就能自动补充.
-tc.research_page.PRIMALRODS.3=§l§n黑曜石杖芯§r<BR>使用烈焰棒制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Terra§0要素魔力低于10%时,无需节点就能自动补充.
-tc.research_page.PRIMALRODS.4=§l§n寒冰杖芯§r<BR>使用冰块制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Aqua§0要素魔力低于10%时,无需节点就能自动补充.
-tc.research_page.PRIMALRODS.5=§l§n石英杖芯§r<BR>使用石英制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Ordo§0要素魔力低于10%时,无需节点就能自动补充.
-tc.research_page.PRIMALRODS.6=§l§n白骨杖芯§r<BR>使用骨头制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Perditio§0要素魔力低于10%时,无需节点就能自动补充.
+tc.research_name.PRIMALRODS=元素杖柄
+tc.research_text.PRIMALRODS=元素魔力法杖
+tc.research_page.PRIMALRODS.1=下列杖柄都与一种特定的元始要素相关,因此都分别具有特别的能力.<LINE>§l§n甘蔗杖柄§r<BR>使用甘蔗制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Aer§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
+tc.research_page.PRIMALRODS.2=§l§n烈焰杖柄§r<BR>使用烈焰棒制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Ignis§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
+tc.research_page.PRIMALRODS.3=§l§n黑曜石杖柄§r<BR>使用烈焰棒制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Terra§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
+tc.research_page.PRIMALRODS.4=§l§n寒冰杖柄§r<BR>使用冰块制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Aqua§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
+tc.research_page.PRIMALRODS.5=§l§n石英杖柄§r<BR>使用石英制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Ordo§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
+tc.research_page.PRIMALRODS.6=§l§n白骨杖柄§r<BR>使用骨头制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Perditio§0要素魔力低于50%时,无需消耗周围灵气就能自动恢复魔力.
 #
-tc.research_name.PRIMALSTAVES=元素手杖 
+tc.research_name.PRIMALSTAVES=元素杖芯
 tc.research_text.PRIMALSTAVES=元素魔力手杖
-tc.research_page.PRIMALSTAVES.1=类似元素杖芯,这些手杖同样也与某种特定的元始要素相关.这赋予了它们特别的能力,并且能够在所储魔力下降到一定水平时自动充能.它们能够储存每种魔力各1750vis.
+tc.research_page.PRIMALSTAVES.1=类似元素杖柄,这些杖芯同样也与某种特定的元始要素相关.这赋予了它们特别的能力,并且能够在所储魔力下降到一定水平时自动充能.它们能够储存每种魔力各500vis.
 #
 tc.research_name.ROD_greatwood_staff=魔法手杖
 tc.research_text.ROD_greatwood_staff=末端带把手的巫师之杖
-tc.research_page.ROD_greatwood_staff.1=法杖是神秘使的必备行头,但有时候你总会期望能用上更酷炫的款式.魔法手杖基本上只是一种更大号的法杖.它们能存储更多魔力.<BR>由于相比法杖它们造得个头更大也更坚固,应急情况也能用作武器.<BR>不幸的是,这也使得它并不适宜用作复杂工艺,且缺乏奥术工作台或类似制作平台所需的精细控制能力.
-tc.research_page.ROD_greatwood_staff.2=宏伟之木制成的手杖存储魔力是同等材料的法杖的2倍,能够存储每种魔力达1250vis.
+tc.research_page.ROD_greatwood_staff.1=法杖是神秘使的必备行头,但有时候你总会期望能用上更酷炫的款式.魔法手杖基本上只是一种更大号的法杖.它们能存储更多魔力.<BR>宏伟之木制成的手杖存储魔力是同等材料的法杖的1.5倍,能够存储每种魔力达375vis.并且在使用法杖核心施法时,它会额外提供10%的魔力减免.<BR>由于相比法杖它们造得个头更大也更坚固,应急情况也能用作武器.
+tc.research_page.ROD_greatwood_staff.2=不幸的是,这也使得它并不适宜用作复杂工艺,且缺乏奥术工作台或类似制作平台所需的精细控制能力.<BR>你仍需如同制作法杖一样给它安装两个杖端.
 #
 tc.research_name.ROD_silverwood_staff=银树杖芯
 tc.research_text.ROD_silverwood_staff=魔力入髓
-tc.research_page.ROD_silverwood_staff.1=这种银树制成的魔杖能够容纳每种类型的魔力2500vis.
+tc.research_page.ROD_silverwood_staff.1=这种银树制成的手杖能够容纳每种类型的魔力750vis.
 #
 tc.research_name.ROD_primal_staff=元始杖芯
 tc.research_text.ROD_primal_staff=融合的元素能量
@@ -1057,13 +1229,22 @@ tc.research_name.FOCUSPRIMAL=法杖核心:元始
 tc.research_text.FOCUSPRIMAL=天然魔力
 tc.research_page.FOCUSPRIMAL.1=要疯到什么程度你才会去做出这个玩意儿啊？这个核心看起来就极其危险,除非是在最受控的环境下,否则只有疯子才会尝试去使用它.<BR>诚然,它制造出的元始能量球的确所向披靡.但其飞行轨迹最好的时候是全然漂忽不定,最糟的时候则透着彻头彻尾的恶意.<BR>然而它尚需更进一步研究:这些能量球显露出一些有趣的次元特性,且它的能量模式你仅仅在小精灵和灵气及节点那里见到过.
 #
+tc.research_name.FOCUSGRAPPLE=法杖核心:锚钩
+tc.research_text.FOCUSGRAPPLE=嗖!
+tc.research_page.FOCUSGRAPPLE.1=法杖核心天生只能放出短暂的法术,这使其无法创造出类似于飞行的效果来舒缓旅途的疲惫.然而你并不是那些羞于面对挑战的普通神秘使,这促使你研究出了锚钩核心.<BR>它朝着方块发射一个由元始能量组成的绑着绳索的锚钩,并将你牵引至那个方块.这使你可以方便地穿越各种崎岖地形.按下潜行键来取消你与绳索之间的链接<BR>潜能附魔将给锚钩提供更大的有效范围.
+#
+tc.research_name.FOCUSBUILDER=法杖核心:建筑
+tc.research_text.FOCUSBUILDER=拔地而起
+tc.research_page.FOCUSBUILDER.1=有些类似于更替核心,不过建筑核心可以凭空放置方块,而不更换他们.<BR>首先你需要按住潜行键右击你用以建造的方块,然后直接右击你需要搭建的位置即可.<BR>选择搭建的位置必须在64格以内.建造前,会显示出结构的预览.右击以确定建造.类似更替核心,请确保你的包裹内有足够的方块.
+tc.research_page.FOCUSBUILDER.2=方块总是被放置在指定点与你之间.潜能升级可以提升每次放置的方块数量(最高16),<BR>如果工作范围内有其他方块,那么在建造时这些方块会被更替.
+#
 tc.research_name.FOCUSPOUCH=法杖核心手袋
 tc.research_text.FOCUSPOUCH=法杖核心的便携口袋
 tc.research_page.FOCUSPOUCH.1=当你已经收集了一定数量的核心后如何方便得携带它们就成了恼人的问题,核心手袋就能有效解决该问题.<BR>当你试图切换法杖核心时,会首先检查手袋里的核心类型,且卸除的核心也会优先放置在手袋内.你也可以右键打开手袋来放置或者取出核心.
 #
 tc.research_name.FOCALMANIPULATION=核心镶饰台
 tc.research_text.FOCALMANIPULATION=重制法杖核心
-tc.research_page.FOCALMANIPULATION.1=法杖核心功能惊艳,但灵活性不足.一种法杖核心罕有超过一种的功能.<BR>你发现一种升级核心的技术,能够调整核心操作魔力的方式.只需将法杖核心放入核心镶饰台并选择你所需的升级项目即可.为了让升级过程开始,这台设备需要从灵气中抽取一些魔力,并且还会耗费掉你的一些经验值,不过这之后你唯一需要做的就只是等待了.<BR>每种核心最多能升级五次. 
+tc.research_page.FOCALMANIPULATION.1=法杖核心功能惊艳,但灵活性不足.一种法杖核心罕有超过一种的功能.<BR>你发现一种升级核心的技术,能够调整核心操作魔力的方式.只需将法杖核心放入核心镶饰台并选择你所需的升级项目即可.为了让升级过程开始,这台设备需要从灵气中抽取一些魔力,并且还会耗费掉你的一些经验值,不过这之后你唯一需要做的就只是等待了.<BR>每种核心最多能升级五次.
 tc.research_page.FOCALMANIPULATION.2=每次升级都会显著提高升级的消耗.<BR>有些升级可以进行多次,无需考虑顺序.而有些升级则要求按照特定序列进行,其中有些会要求已经进行过前置的升级.因此最好多加实验.<BR>升级是永久性的 - 你还未曾想到移除升级的方法,因此选择时切记走心.
 #
 tc.research_name.VAMPBAT=五阶升级:嗜血魔蝠
@@ -1087,7 +1268,11 @@ tc.research_page.NODEMAGNET.1=操纵灵气是一回事,移动节点又是另外�
 tc.research_page.NODEMAGNET.2=节点磁铁是一种非常脆弱的设备,磕不得碰不得.它能够承受几次轻微的撞击,但稍微更严重的磕碰都会让它碎得四分五裂.<BR>用法杖点击它可以将其回收.
 tc.research_page.NODEMAGNET.3=§n警告!§r<BR><BR>你放下节点磁铁时留意到奇怪的现象:它似乎发出了近乎微不可闻的嗡嗡声,至今仍令你紧张不安.<BR>四周愤怒的嘟囔与嚎叫声似乎表明并非只有你受到了噪音的影响.
 #
-# Artifice 
+tc.research_name.NODESTABLE=节点稳定器
+tc.research_text.NODESTABLE=不以规矩 不能成方圆
+tc.research_page.NODESTABLE.1=灵气节点有着相互吸引并合二为一的倾向,然而你并不希望发生这种事.这个设备完美地解决了这个问题.<BR>只需把它简单地放置在灵气节点下方,然后灵气节点就会受困于它产生的魔法气泡中.灵气节点将不会再被其他节点所吸引,也不会吸引其他的节点.
+#
+# Artifice
 #######################
 tc.research_name.BASICARTIFACE=基础炼化学
 tc.research_text.BASICARTIFACE=必需之物
@@ -1124,7 +1309,7 @@ tc.research_page.ARCTABLE.1=对着放置好的台桌使用法杖(右键)就能�
 #
 tc.research_name.ENCHFABRIC=魔力布匹
 tc.research_text.ENCHFABRIC=丝般柔滑
-tc.research_page.ENCHFABRIC.1=你曾用羊毛和蜘蛛丝制成过简单结实的布匹.现在你确信能够用它融合魔力,做成一种更加惊艳的魔力布匹.<BR>你还发现了用魔力布匹编织神秘使法袍的方法.法袍防御效果类似皮革套装,但耐久是它的数倍.<BR>而且它们是优良的魔法亲和材料,能够进行神秘的附魔.相比一些甚至相对更昂贵的材料,它能够容纳更多的魔力. 
+tc.research_page.ENCHFABRIC.1=你曾用羊毛和蜘蛛丝制成过简单结实的布匹.现在你确信能够用它融合魔力,做成一种更加惊艳的魔力布匹.<BR>你还发现了用魔力布匹编织神秘使法袍的方法.法袍防御效果类似皮革套装,但耐久是它的数倍.<BR>而且它们是优良的魔法亲和材料,能够进行神秘的附魔.相比一些甚至相对更昂贵的材料,它能够容纳更多的魔力.
 tc.research_page.ENCHFABRIC.2=当穿戴法袍施法时你能够更高效地使用数种法术.<BR>类似皮革套装,你可以对法袍进行染色.
 #
 tc.research_name.ELEMENTALTOOLS=元素工具
@@ -1281,7 +1466,7 @@ tc.research_text.REDSTONERELAY=魔力红石交互
 tc.research_page.REDSTONERELAY.1=你总是会好奇魔力设备和红石信号为什么会表现出那样的负面反应.你已经做出了很多的研究工作,尽管红石信号对魔力的抑制作用广为人知,你还是找到了在特定情况下反转这一现象的方法.<BR>这项成果的一个实际应用便是这种红石继能器.通过它向魔力结晶这样的魔法物质发送强度不同的红石信号能够就按你所需的抑制它们的活动.
 tc.research_page.REDSTONERELAY.2=继能器能够像红石中继器那样使用,它的输出端会标有一个红石火把.<BR>相比中继器只有一个输入端口,红石继能器有两个控制端口.它最靠后的端口用来控制消除魔力抑制效果,激活继能器所需的最小红石信号.<BR>而正面的输入端(与红石火把相邻位置)则决定红石继能器输出的红石信号强度.
 #
-# Alchemy 
+# Alchemy
 #######################
 tc.research_name.CRUCIBLE=坩埚
 tc.research_text.CRUCIBLE=沸腾并且冒着泡
@@ -1311,6 +1496,10 @@ tc.research_page.PHIAL.1=玻璃安瓿能够盛放各种形式的液体或者其�
 tc.research_name.BOTTLETAINT=腐化瓶
 tc.research_text.BOTTLETAINT=为什么你会想要这个?
 tc.research_page.BOTTLETAINT.1=清除腐化自然是一回事,可若想传播它呢?<BR>将腐化源质浓缩并收集到瓶中,将其抛出就能将那里变成一小片腐化之地.至于你意欲何为就是你自己的事了.
+#
+tc.research_name.TAINTSHARD=腐化碎片
+tc.research_text.TAINTSHARD=腐化的碎片
+tc.research_page.TAINTSHARD.1=通常腐化碎片难以获得.尽管如此,它们仍然有着特殊的用途,你发现了一个通过炼金术制造腐化碎片的方法.<BR>这个过程并不高效,注入正常碎片的污染要素源质远远大于腐化碎片实际所含的污染要素.
 #
 tc.research_name.ALCHEMICALDUPLICATION=炼金复制
 tc.research_text.ALCHEMICALDUPLICATION=好东西不可能拥有太多
@@ -1400,22 +1589,28 @@ tc.research_text.BATHSALTS=缓解精神压力
 tc.research_page.BATHSALTS.1=扭曲即使对那些最谨慎的神秘使来说都很危险.那些身染数种扭曲的神秘使更是不胜其烦.而净化浴盐有助于解决他们的问题.<BR>只需要将这些盐分溶解在水中,就能将水变为银光闪闪的净化之水,用它进行沐浴,能够舒缓日间的疲惫,暂时祛除扭曲的效果.需要注意的是,神秘使所患扭曲疾病愈甚,沐浴净化之水所产生的保护效果持续时间就愈短暂.<BR>这些浴盐难以保存,如若随意放置极容易溶解.
 #
 tc.research_name.LIQUIDDEATH=死亡之水
-tc.research_text.LIQUIDDEATH=仅限外敷
+tc.research_text.LIQUIDDEATH=仅限外用
 tc.research_page.LIQUIDDEATH.1=这种液体是一直极其危险的试剂,销肉融骨,甚至能融化更坚固的物质.没有任何生命或者表现为生命的东西能够与之共存.<BR>除去非常明显的应用外,这种邪恶的物质还拥有一种奇妙的特性: 被消融的生物种蕴含的源质会以可采集的水晶的形式留存下来.<BR>至于这些水晶究竟有何妙用就有待读者自己大开脑洞了.
 #
 tc.research_name.ARCANESPA=奥术浴场
 tc.research_text.ARCANESPA=时髦的休闲方式
-tc.research_page.ARCANESPA.1=手动将浴盐洒进水里略显琐碎无聊,好在神秘使能够通过一点点魔法手段轻松地解决这个问题.<BR>你已制造出一台便捷的设备,能够自动混合水和浴盐,并将它们泵出到设备上方的空间.泵出的流体将填满机器正上方5X5大小的区域.<BR>另外,你发现它也能用于将任意其他流体泵出.你可以使用自动化设备装填它,或者拿着合适的容器右击方块.通入红石信号能够关闭它. 
+tc.research_page.ARCANESPA.1=手动将浴盐洒进水里略显琐碎无聊,好在神秘使能够通过一点点魔法手段轻松地解决这个问题.<BR>你已制造出一台便捷的设备,能够自动混合水和浴盐,并将它们泵出到设备上方的空间.泵出的流体将填满机器正上方5X5大小的区域.<BR>另外,你发现它也能用于将任意其他流体泵出.你可以使用自动化设备装填它,或者拿着合适的容器右击方块.通入红石信号能够关闭它.
 #
 tc.research_name.SANESOAP=祛邪肥皂
 tc.research_text.SANESOAP=摆脱那些肮脏的念头吧
 tc.research_page.SANESOAP.1=净化肉体固然容易,但一旦陷入扭曲之苦,就同样需要洗涤心灵的妙法.<BR>这块肥皂能够清洗肉体上的污垢,但它真正特别之处在于还能对你的精神世界产生效果.它能够祛除所有暂时性的扭曲,并有小几率能够祛除非永久性的扭曲.<BR>浸泡净化之水或处于扭曲守护状态时使用这块肥皂能够增加它生效的几率.
 #
-tc.research_name.ESSENTIACRYSTAL=源质结晶器 
+tc.research_name.ESSENTIACRYSTAL=源质结晶器
 tc.research_text.ESSENTIACRYSTAL=要硬通货,还是要流动资产?
 tc.research_page.ESSENTIACRYSTAL.1=你差不多已经掌握了如何将凝聚的物质转换为液态的源质,所以反过来也并不是多麻烦的事儿.<BR>源质结晶器从管道系统中抽取源质并将其凝聚成要素源质结晶的小碎片.源质结晶易于管理运输,也非常稳定.<BR>结晶器会将凝聚的结晶弹射出来或者装入旁边的容器,通入红石信号可以关闭这一功能.<BR>它会从灵气中吸取terra魔力来为自己供能.
 #
-# Golemancy 
+tc.research_name.ESSENTIATRANSPORT=源质运输
+tc.research_text.ESSENTIATRANSPORT=无线源质运输
+tc.research_page.ESSENTIATRANSPORT.1=进行注魔合成时源质会从罐子中被抽出,并在空中飘向注魔矩阵.矩阵的魔力使得漂浮的源质在注魔时能维持稳定.但是通常来说,这种情况下的源质会由于变质而无法发挥作用.你苦思冥想,并且最终找到了解决方法.<BR>你设计出了如下两个装置. 源质析出装置可以从其所依附的管道系统或者其他可以存放源质的容器中抽取源质,并将抽取的源质输送至位于16格范围内的要素罐子中.
+tc.research_page.ESSENTIATRANSPORT.2=源质注入装置则正好相反-从附近的要素罐子内抽取要素源质并输送至其所依附的管道系统或具有源质需求设备中.
+#
+#
+# Golemancy
 #######################
 tc.research_name.BASICGOLEMANCY=基础傀儡学
 tc.research_text.BASICGOLEMANCY=受控运动
@@ -1441,6 +1636,10 @@ tc.research_name.MATSTUDVOID=材料研究:虚空金属
 tc.research_text.MATSTUDVOID=高级虚空金属加工
 tc.research_page.MATSTUDVOID.1=虚空金属相对来说比较轻,但却相当软,通常来说并不合适用来制作机构.但它能够变形修复自身的特点却让神秘使打破那些条条框框想到许多种有趣的可能.
 #
+tc.research_name.MATSTUDCLAY=材料研究:粘土
+tc.research_text.MATSTUDCLAY=高级粘土加工
+tc.research_page.MATSTUDCLAY.1=粘土并没有较高的强度,所以算不上是经久耐用.不过由于它易于加工,抗火性能良好并且比铁轻,基本上对于神秘使来说,这是个相当经济实惠的选择.
+#
 tc.research_name.HUNGRYCHEST=饕餮箱子
 tc.research_text.HUNGRYCHEST=无需每次都打开
 tc.research_page.HUNGRYCHEST.1=只要物品落在附近,饕餮箱子便能自动拾取这些物品.
@@ -1465,20 +1664,105 @@ tc.research_page.TRAVELTRUNK.UEN=§n傀儡升级:混沌§r<BR>安装该升级后
 tc.research_name.MINDCLOCKWORK=发条之心
 tc.research_text.MINDCLOCKWORK=滴答滴答
 tc.research_page.MINDCLOCKWORK.1=铁傀儡,雪傀儡或者其他能放一块比较的类似造物都有一个共通之处:它们的行为都不受控制,难以预测.<BR>驱使他们行动的是狂野的具有自由意志的灵魂.这正是问题所在.<BR>如果你打算制造一些智能的魔力仆人,你就得考虑赋予他们能够接受命令的思维.最简单的解决方案是制造出一个使用神秘学驱动的发条装置.它只具有极其有限的自主思维,不过这才仅仅是开始而已嘛.
+tc.research_page.MINDCLOCKWORK.2=当然,现在你开始考虑如何把它们付诸实际.<BR>你设计了一个傀儡塑形装置来压制出傀儡的基础部件.此外,这个装置还自带铁砧和熔炉方便你就地组装压制好的部件<LINE>你只需要在傀儡塑形装置的界面中选择傀儡各部件的类型,并提供所需的材料和源质,傀儡工坊会自动为你组装出成品.虽然现在可供选择的傀儡部件并不多,但你相信未来可以开发出更多的部件.
+tc.research_page.MINDCLOCKWORK.3=每个傀儡由五个部分组成:基础材料,头部类型,手臂结构,腿部功能,以及一个可选的额外组件.只需在界面中选定所需部件,耗材列表便会在右边显示.你必须确保你包裹内有上述全部材料,然后才能进行傀儡制作.<BR>界面中间的列表会显示出傀儡的各项属性及特性.<BR>最后你还需要给傀儡工坊提供一些Machina要素源质.傀儡工坊的压制装置下方开口可以用来导入源质.
+tc.research_page.MINDCLOCKWORK.4=你现在可以放置傀儡,但是如果在傀儡的视野范围内没有放置的§5傀儡控制印记§0,傀儡将几乎不做任何事.欲知详情,请参阅你最近解锁的研究.<BR>当他们无所事事,傀儡会回到他们被放置的位置.你可以通过手持法杖右击来收回傀儡.<BR>你也可以通过手持染料右击来给傀儡染色.这会对限制傀儡执行指定印记十分有帮助.
+#
+tc.research_name.GOLEMDIRECT=傀儡操纵术
+tc.research_text.GOLEMDIRECT=借刀杀人
+tc.research_page.GOLEMDIRECT.1=让傀儡绝对服从印记并不是你唯一的目的.你希望他们同样服从地追随你.<BR>你现在可以通过手持§5傀儡使铃铛§0右击傀儡使它们跟随你.当傀儡跟随你时不会受到操控印记的影响,具有战斗能力的傀儡还会帮助你对抗敌人.<BR>再次手持傀儡使铃铛右击傀儡以切换至正常状态,傀儡的当前坐标会成为其新的待命位置.
+#
+tc.research_name.CONTROLSEALS=傀儡操控印记
+tc.research_text.CONTROLSEALS=意欲何为
+tc.research_page.CONTROLSEALS.1=傀儡无法在没有收到指示的情况下进行任何工作.为此,你制作出了傀儡操控印记.你可以将这枚印记贴在任何表面上.一旦你这样做了,粘帖完成的傀儡印记会变得缥缈无形.不过,当你手持任意种类的傀儡,操控印记或是§5傀儡使铃铛§0时,之前粘帖的操控印记会被一并显示出来.<BR>傀儡使铃铛是用于印记设定内容调整的重要工具.<BR>由于印记是虚无缥缈的,你可以在相同的位置放置任何其他方块.
+tc.research_page.CONTROLSEALS.2=可以将不同印记放置在同一方块的不同表面.这有助于你节省空间.<BR>手持傀儡使铃铛按住潜行键右击即可取下印记.<LINE>手持傀儡使铃铛直接右击印记可以修改印记的相关设置.不同类型印记的设置内容有所不同,不过绝大多数印记支持在-5到+5之间调整其优先级(默认是0).由高优先级印记发出的指令会被傀儡优先执行.
+tc.research_page.CONTROLSEALS.3=你还能看到该印记对于执行其指令的傀儡的特性要求.<BR>F例如,部分印记要求傀儡具有§5灵巧§0特性,并且要求傀儡不能带有§5笨拙§0特性.<BR>具体例子请参见§5操控印记:聚集§0.<LINE>
+tc.research_page.CONTROLSEALS.4=你也能为印记指定颜色.指定颜色后,印记的任务将会只被无色或者同色的傀儡执行.没有颜色的印记会把任务指派给所有傀儡(不论染色与否).<BR>设定颜色的地方和设定优先级的地方相同.<BR>通过对傀儡使用染料来指定其颜色.收回傀儡会清除其颜色.
 #
 tc.research_name.MINDBIOTHAUMIC=神秘生物学之心
 tc.research_text.MINDBIOTHAUMIC=我思故我在
 tc.research_page.MINDBIOTHAUMIC.1=如你预期一样,你所制造的发条之心在抽象推理和自主思维方面的表现乏善可陈. 然而尝试制造更复杂的发条装置的努力却一直收效甚微,于是你转而研究起一种你早已知道具有这些能力的东西:人脑.<BR>尽管起初你尚有犹疑,但很快便克服了恐惧,开始深入研究神秘生物学的奥秘-一门研究如何将血肉,机器和魔法融为一体的学科.<BR>研究结果鼓舞人心,你很快就学会了如何将发条之心融入残存灰质从而制造出更强能力的人工思维.
+tc.research_page.MINDBIOTHAUMIC.2=另一个优点是,这个装置使傀儡获得了学习能力.傀儡会在完成任务时获取相应的经验并升级.提升等级以赋予傀儡更高的生命,速度与攻击力..<BR>傀儡初始等级为0级,最高可升级至10级<BR>使用法杖取回傀儡不会影响它的等级数据.
 #
 tc.research_name.BASICTURRET=自动十字弩
 tc.research_text.BASICTURRET=简易防备
 tc.research_page.BASICTURRET.1=你找到一种方法能够赋予十字弩思维,使其变为一种简易的自动炮台.<BR>放置好后的自动十字弩会自动朝着射程内的所有敌对生物开火.不幸的是它有限的思维能力不允许你为其精细地设置攻击目标.<BR>它内部存储空间也非常有限,但如果有更高的需求可以将其放置在一个面朝上的发射器上,这样它就能够自动从发射器中装填弹药了.<BR>拿着法杖点击它可以将其回收.
 #
+tc.research_name.ADVANCEDTURRET=高级自动弩
+tc.research_text.ADVANCEDTURRET=重装防卫
+tc.research_page.ADVANCEDTURRET.1=高级自动弩与其简易版本的工作方式类似,不过略微有些不同.<BR>额外的铁板为其提供了额外的生命值,更复杂的机械结构使其火力更猛.<BR>此外,你还可以指定它的攻击目标类型.
+#
 tc.research_name.FOCUSTURRET=施法器
 tc.research_text.FOCUSTURRET=自动核心
 tc.research_page.FOCUSTURRET.1=你对高级人工思维的研究配合最近在奥术钻探机开发过程中的进行的高级实践终于结出了硕果:你研究出了能够使用法杖核心的自动魔法炮台.<BR>它拥有一个较小的内部魔力缓存,并且能够从灵气中补充魔力.但机器毕竟并非神秘使,它充能的速度较慢,并且缺乏机制来优化激活法杖核心时的魔力消耗.<BR>施法器能够放置在任何表面上,而且允许神秘使非常精细地调整它攻击的目标.拿着法杖点击它会将其回收.
 #
-# Eldritch 
+tc.research_name.SEALCOLLECT=操控印记:聚集
+tc.research_text.SEALCOLLECT=丢出去,捡回来~
+tc.research_page.SEALCOLLECT.1=这个印记会持续检测范围内的掉落物.一旦发现掉落物,印记会指示附近的傀儡来拾取它们.<BR>你可以定义该印记所管辖的具体范围,也可以通过黑/白名单来过滤掉某些你不希望傀儡拾取的物品.
+tc.research_page.SEALCOLLECT.2=你现在可以制作出该印记的高级版本以设定更完善的过滤内容及扩充标记栏.因此,傀儡需要足够聪明来执行该印记的指令.<BR>你可以设定该印记在匹配过滤时忽略NBT数据或是物品损害值,抑或者是自动匹配矿物辞典.此外,该印记同样支持按照设定物品所属的模组来标记该模组的所有物品
+#
+tc.research_name.SEALSTORE=操控印记:填充
+tc.research_text.SEALSTORE=井井有条
+tc.research_page.SEALSTORE.1=你可以把这个印记贴在容器的任意面来使用.它将为附近持有物品的傀儡指定一个可用的目的地.只要该容器可以容纳傀儡手持的物品,傀儡就会把物品放到这个容器中.<BR>你可以通过黑/白名单来设置该容器可接受的物品类型.<BR>如果该印记的放置位置不是容器,傀儡会把手中的物品丢在该印记所在的位置.
+tc.research_page.SEALSTORE.2=你现在可以制作出该印记的升级版本以设定更完善的过滤内容及扩充标记栏.因此,傀儡需要足够聪明来执行该印记的指令.<BR>你可以设定该印记在匹配过滤时忽略NBT数据或是物品损害值,抑或者是自动匹配矿物辞典.此外,该印记同样支持按照设定物品所属的模组来标记该模组的所有物品
+#
+tc.research_name.SEALEMPTY=操控印记:空置
+tc.research_text.SEALEMPTY=杂乱无章
+tc.research_page.SEALEMPTY.1=这个印记的功能与储存印记相反.它会指示附近的傀儡拿出该容器中的物品.你必须使用其他印记来告诉傀儡如何处理手上的物品,否则傀儡会一直拿着它.<BR>你可以通过黑/白名单来设置傀儡可取出的物品类型.
+tc.research_page.SEALEMPTY.2=你现在可以制作出该印记的升级版本以设定更完善的过滤内容及扩充标记栏.因此,傀儡需要足够聪明来执行该印记的指令.<BR>你可以设定该印记在匹配过滤时忽略NBT数据或是物品损害值,抑或者是自动匹配矿物辞典.此外,该印记同样支持按照设定物品所属的模组来标记该模组的所有物品<BR>你也可以让印记按照设定的名单循环过滤傀儡可取出的物品.
+#
+tc.research_name.SEALPROVIDE=操控印记:供给
+tc.research_text.SEALPROVIDE=应汝所求
+tc.research_page.SEALPROVIDE.1=这个印记的功能类似于空置印记,但它只会在周围其他印记有需求时提供物品.<BR>某些特定的印记会发出需求指令.如果印记需求特定的物品来完成任务,他们会建立一个次级信号来告诉傀儡这个信息,傀儡会从标记有空置印记的容器内取得物品.<BR>这项指令的优先度取决于提出需求的印记,并且执行该任务的傀儡必须同时满足这两个印记的所有特性需求.
+tc.research_page.SEALPROVIDE.2=供给印记的筛选仅指定哪些物品可以被取出.具体的目标物品取决于提出需求的印记.
+#
+tc.research_name.SEALHARVEST=操控印记:收获
+tc.research_text.SEALHARVEST=傀儡园丁
+tc.research_page.SEALHARVEST.1=这个印记会搜寻范围内成熟的作物,发现后将指示傀儡进行收割.<BR>在必要时还可以让傀儡补种作物.
+#
+tc.research_name.SEALGUARD=操控印记:守卫
+tc.research_text.SEALGUARD=来人!护驾!
+tc.research_page.SEALGUARD.1=这个印记能使其管辖范围免遭入侵.任何进入该区域的敌对生物都会被附近有战斗能力的傀儡标记为肃清对象.<BR>如果傀儡具有§5灵巧§0属性,被击杀的生物会掉落经验球.<BR>§9这项研究解锁了新的傀儡部件§0.
+tc.research_page.SEALGUARD.2=你制作出了该印记的升级版本.现在你可以指定傀儡的攻击目标类型了
+#
+tc.research_name.SEALBUTCHER=操控印记:屠夫
+tc.research_text.SEALBUTCHER=血流成渠
+tc.research_page.SEALBUTCHER.1=虽然§5守卫§0印记可以用来屠宰动物,不过这种屠宰缺乏灵活性.<BR>为此,你发明出了屠夫印记.该印记类似于§5守卫§0印记,但它只会标记成年动物.此外,它还会保证每种动物总能留下一对陈年个体用于繁殖.
+#
+tc.research_name.SEALBREAK=操控印记:挖掘
+tc.research_text.SEALBREAK=咚!
+tc.research_page.SEALBREAK.1=这个印记会指示傀儡将其范围内的方块悉数破坏.<BR>挖掘速度取决于方块本身的硬度.<BR>你可以通过黑/白名单来设置需要破坏(或忽略)的方块.<BR>值得注意的是,由于傀儡的机动性及狭窄的活动范围,这个印记只能发挥其有限作用,而不能成为高效的挖矿工具.
+#
+tc.research_name.SEALLUMBER=操控印记:砍伐
+tc.research_text.SEALLUMBER=And I'm ok
+tc.research_page.SEALLUMBER.1=这是§5挖掘§0印记的改良版本.砍伐核心只会标记原木,并且从傀儡敲击的原木相连的最远处进行砍伐.(类似奔流斧)<BR>这意味着它可以从上到下高效地砍伐树木.
+#
+tc.research_name.SEALUSE=操控印记:使用
+tc.research_text.SEALUSE=嗒嗒点击
+tc.research_page.SEALUSE.1=这个印记能使傀儡模仿玩家左右击方块的操作.<BR>也可以让傀儡手持特定的物品进行点击.<BR>当你移除了该印记所依附的方块时,它仍能正常工作.这使得傀儡可以如你所想的那样对着空气方块进行右击.<BR>你可以启用白名单来让傀儡使用指定的物品.
+#
+tc.research_name.GOLEMVISION=神秘生物学之眼
+tc.research_text.GOLEMVISION=视野开阔
+tc.research_page.GOLEMVISION.1=你将生物组织与奥术零件进行了完美的结合并最终制作出了这双极其敏锐的眼睛.<BR>配备有这个部件的傀儡可以获得双倍视野(32 格).<BR>§9这项研究解锁了新的傀儡部件§0.
+#
+tc.research_name.GOLEMCLIMBER=机动改良:攀爬
+tc.research_text.GOLEMCLIMBER=如履平地
+tc.research_page.GOLEMCLIMBER.1=通过在傀儡腿部加装攀爪等设备使其可以在垂直的表面上进行移动作业.<BR>§9这项研究解锁了新的傀儡部件§0.
+#
+tc.research_name.GOLEMFLYER=机动改良:飞行
+tc.research_text.GOLEMFLYER=扶摇直上
+tc.research_page.GOLEMFLYER.1=使用改良过后的奥术悬浮台代替傀儡的腿部结构使傀儡获得了飞行能力.作为其机动性提升的代价,这种类型的傀儡移动速度会较为缓慢.<BR>§9这项研究解锁了新的傀儡部件§0.
+#
+tc.research_name.GOLEMBREAKER=能力改良:挖掘
+tc.research_text.GOLEMBREAKER=无坚不摧
+tc.research_page.GOLEMBREAKER.1=你将傀儡的手臂换成了强大的气动钻石轮锯,这使傀儡可以挖掘坚硬的物质.<BR>§9这项研究解锁了新的傀儡部件§0.
+#
+tc.research_name.GOLEMCOMBATADV=战争机器
+tc.research_text.GOLEMCOMBATADV=更好更快更强!
+tc.research_page.GOLEMCOMBATADV.1=现在你可以通过给傀儡装备上特制的武器及改良傀儡装甲来使傀儡成为新一代战争机器!.<BR>§9这项研究解锁了新的傀儡部件§0.
+#
+#
+# Eldritch
 #######################
 tc.research_name.ELDRITCHMINOR=邪术揭谛
 tc.research_text.ELDRITCHMINOR=迈入未知的第一步
@@ -1526,7 +1810,7 @@ tc.research_page.CRIMSON.1=书册内容多以密如蛛网,不知所云的字符�
 #
 tc.research_name.OCULUS=开眼仪式
 tc.research_text.OCULUS=向他们展示你的发现,向他们所有人.
-tc.research_page.OCULUS.1=一切都是那样简单 - 你对那些血腥邪徒一直没有发现它感到惊讶.<BR>想要完成仪式,需要将4颗邪术之眼放在一种特别显眼的拱顶石上.那种拱顶石在你头一回发现血腥邪徒的祭坛那里就能找到.<BR>完成上述步奏后,还需要再让拱顶石从法杖中抽取大量的元始要素 - 每种大约 1000 点.
+tc.research_page.OCULUS.1=一切都是那样简单 - 你对那些血腥邪徒一直没有发现它感到惊讶.<BR>想要完成仪式,需要将4颗邪术之眼放在一种特别显眼的拱顶石上.那种拱顶石在你头一回发现血腥邪徒的祭坛那里就能找到.<BR>完成上述步奏后,还需要再让拱顶石从法杖中抽取大量的元始要素 - 每种大约 500 点.
 tc.research_page.OCULUS.2=如果所有步骤均正确,那么仪式将被完成而名为"眼"之存在将会睁开.<BR>当然你并不知道那意味着什么.不过那又有什么关系呢?只有傻瓜才会畏惧未知.
 #
 tc.research_name.SINSTONE=凶险磁石
