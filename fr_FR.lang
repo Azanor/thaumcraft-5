@@ -11,6 +11,16 @@ enchantment.repair=Réparation
 enchantment.special.sapless=Faible Absorption
 enchantment.special.sapgreat=Grande Absorption
 #
++# Infusion Enchantments
++###################################
+enchantment.infusion.COLLECTOR=Collectionneur
+enchantment.infusion.DESTRUCTIVE=Dévastateur
+enchantment.infusion.BURROWING=Affouillement
+enchantment.infusion.SOUNDING=Émetteur
+enchantment.infusion.REFINING=Affinage
+enchantment.infusion.ARCING=Arc
+enchantment.infusion.ESSENCE=Moissonneur d'essence
+#
 # Potions
 ###################################
 potion.fluxtaint=Poison corrupteur
@@ -204,6 +214,7 @@ tile.eldritch.lock.name=Mechanisme de fermeture Ancien
 tile.eldritch.door.name=Ancienne porte
 tile.eldritch.teleporter.name=Portail surnaturel
 tile.eldritch.crabspawner.name=Ouverture incrustée
+tile.grass_ambient.name=Bloc d'herbe ambiante
 #
 # Doodads
 tile.table_stone.name=Table en pierre
@@ -505,10 +516,17 @@ item.baubles.0.name=Amulette quelconque
 item.baubles.1.name=Anneau quelconque
 item.baubles.2.name=Ceinture quelconque
 item.baubles.3.name=Anneau d'apprenti de %TYPE
+item.baubles.9.name=Amulette chic
+item.baubles.10.name=Anneau chic
+item.baubles.11.name=Ceinture chic
 item.amulet_vis.text=Recharges wands in hotbar
 item.amulet_vis.0.name=Pierre de Vis
 item.amulet_vis.1.name=Amulette de Stockage de Vis
 item.girdle_hover.name=Ceinture Thaumostatique
+item.ring_verdant.name=Bague de coeur verdoyant
+item.verdant.life.text=Donneur de vie
+item.verdant.sustain.text=Pourvoyeur
+ 
 
 # Wand
 item.focus_fire.name=Foci de baguette : Feu
@@ -595,6 +613,7 @@ item.creative_placer.obelisk.name=Placeur d'obélisque
 item.creative_placer.node.name=Placeur de nœud
 item.creative_placer.caster.name=Placeur de lanceur automatique ancien
 item.creative_flux_sponge.name=Éponge à Flux
+item.jar_brace.name=Attache de couvercle en laiton
 #
 #Golem
 item.module.vision.name=Module de Vision
@@ -662,6 +681,8 @@ golem.trait.hauler=Transporteur
 golem.trait.text.hauler=Le golem peut transporter deux stacks au lieu d'un seul.
 golem.trait.ranged=A Distance
 golem.trait.text.ranged=Le golem peut attaquer des cibles à distance.
+golem.trait.blastproof=Anti-explosion
+golem.trait.text.blastproof=Le golem est très résistant aux dommages causés par des explosions.
 #
 # Props
 golem.material.wood=Bois arcanique
@@ -787,7 +808,6 @@ recipe.type.workbenchshapeless=Atelier (Sans ordre)
 recipe.type.arcane=Atelier arcanique
 recipe.type.crucible=Creuset
 recipe.type.infusion=Infusion arcanique
-recipe.type.infusionenchantment=Infusion d'enchantement
 recipe.type.construct=Construction mystique
 wandtable.text1=Coût en vis
 wandtable.text2=Coût en experience
@@ -925,6 +945,7 @@ tc.discount=Réduction
 tc.visdiscount=Réduction de Vis
 tc.vis.cost=Coût de Vis
 tc.vis.costavg=Coût de Vis moyen
+tc.charge=Charge de Vis:
 tc.inst=Instabilité:
 tc.inst.0=§1Négligeable§0
 tc.inst.1=§9Mineure§0
@@ -1265,9 +1286,9 @@ tc.research_name.WANDPED=Piédestal de recharge
 tc.research_text.WANDPED=Recharge de baguette automatique
 tc.research_page.WANDPED.1=Traverser la campagne pour recharger votre baguette est très bien, mais une manière automatique de le faire serait beaucoup mieux.<BR>Ce piédestal est spécialement conçu pour ça. Toute baguette placée dessus va drainer automatiquement le Vis de l'aura.<BR>Les baguettes ne sont pas les seuls objets qui peuvent être recharger dans cet appareil - Plusieurs gadgets à Vis devraient pouvoir se recharger.
 #
-tc.research_name.VISAMULET=Stockage de Vis
+tc.research_name.VISAMULET=Rechargement de Vis portable
 tc.research_text.VISAMULET=Ne gâche rien, ne désire rien
-tc.research_page.VISAMULET.1=La plupart du temps une seule baguette est plus que suffisante pour n'importe quel thaumaturge, mais occasionnellement le Vis d'une seule baguette n'est pas suffisant. Transporter plus d'une baguette règlerais le problème, mais les expériences ont montré qu'il existait un autre moyen.<BR>En créant une amulette capable de stocker du Vis, vous serez capable de recharger votre baguette ou n'importe quel objet sur le terrain quand elle est portée.<BR>Votre succes est mitigé cependant. Vous pouvez seulement recharger un objet en le tenant dans votre main et le vitesse de charge est lente.
+tc.research_page.VISAMULET.1=La plupart du temps une seule baguette est plus que suffisante pour n'importe quel thaumaturge, mais occasionnellement le Vis d'une seule baguette n'est pas suffisant. Transporter plus de baguettes ou d'objets règlerais le problème, mais les expériences ont montré qu'il existait un autre moyen.<BR>En créant une amulette capable de canaliser le Vis de l'Aura, vous serez capable de recharger votre baguette ou n'importe quel objet sur le terrain<BR>Vous pouvez seulement recharger les baguettes et les objets dans votre barre d'inventaire, les cases baubles et d'armure (dans cet ordre). Elle peut recharger uniquement les objets qui peuvent être recharger par un piédestal de recharge.
 tc.research_page.VISAMULET.2=Par contre l'amulette se montre parfaite source d'énergie pour d'autre chose comme l'enchantement de réparation ou le bouclier runique.<BR>L'amulette se recharge d'elle même lentement lorsque elle est portée ou elle peut être placée dans un piédestal de recharge.<BR>It will not drain the aura once it falls below 10%.
 #
 tc.research_name.WORKBENCHCHARGER=Chargeur d'atelier arcanique
@@ -1369,7 +1390,7 @@ tc.research_page.JARBRAIN.1=Vous avez découvert un moyen de réanimer un cervea
 #
 tc.research_name.HOVERHARNESS=Harnais thaumostatique
 tc.research_text.HOVERHARNESS=Est-ce un oiseau...
-tc.research_page.HOVERHARNESS.1=Vous avez finalement réussi à percer le secret du vol. Vous avez créé un harnais qui s'ancre lui-même dans un champ thaumique en utilisant l'énergie thaumostatique et vous permettant ainsi de défier la gravité. Vous pensez que quantums et quarks pourraient aussi être impliqués d'une façon ou d'une autre.<BR>Le harnais est alimenter par le Vis provenant de l'Aura local. Une seule unité de vis d'Aer et d'Ignis fournissent assez de pussance pour 1 seconde de vol. Le harnais possède un tampon qui stocke assez de vis pour 10 secondes de vol si l'Aura local est épuisée.<BR>Appuyer sur 'H' lorsque le harnais est porté pour l'activer ou le désactiver.
+tc.research_page.HOVERHARNESS.1=Vous avez finalement réussi à percer le secret du vol. Vous avez créé un harnais qui s'ancre lui-même dans un champ thaumique en utilisant l'énergie thaumostatique et vous permettant ainsi de défier la gravité. Vous pensez que quantums et quarks pourraient aussi être impliqués d'une façon ou d'une autre.<BR>Le harnais est alimenter par le Vis donc il a besoin d'être chargé. Une seule unité de vis d'Aer et d'Ignis fournissent assez de puissance pour 1 seconde de vol. Le harnais possède un tampon qui stocke assez de vis pour 5 minutes de vol.<BR>Appuyer sur 'H' lorsque le harnais est porté pour l'activer ou le désactiver.
 tc.research_page.HOVERHARNESS.2=Il peut être enchanté avec Hâte pour améliorer la vitesse à laquelle vous bouger en volant.<BR>Le harnais ne réduira pas votre vitesse de destruction de blocs lorsque vous volez avec.
 #
 tc.research_name.HOVERGIRDLE=Ceinture Thaumostatique
@@ -1479,6 +1500,27 @@ tc.research_text.REDSTONERELAY=Intéraction de redstone magique
 tc.research_page.REDSTONERELAY.1=Vous avez toujours été curieux de la réaction négative apparente entre les dispositifs mystiques et les signaux redstone. Vous avez étudié la question et si le phénomène bien connu que la redstone inhibe la magie, vous avez découvert que dans des circonstances particulières, l'inverse peut être aussi vrai.<BR>Une application pratique de cela est le relais redstone. En envoyant un signal redstone à travers une substance magique comme les cristaux de Vis, vous pouvez l'inhiber autant que peu à votre souhait.
 tc.research_page.REDSTONERELAY.2=Les relais sont placés un peu comme les répéteurs redstone avec leur côté sortie marqué par une torche.<BR>Contrairement aux répéteurs, les relais ont deux bascules. Celui à l'arrière détermine le signal minimum d'entré recquis pour submerger cet effet inhibitant et permettre le relais de s'activer.<BR>La bascule avant (à côté de la torche) détermine la force du signal redstone que le relais va émettre une fois actif.
 #
+tc.research_name.INFUSIONENCHANTMENT=Infusion d'enchantement
+tc.research_text.INFUSIONENCHANTMENT=Enchantement thaumaturgique
+tc.research_page.INFUSIONENCHANTMENT.1=Les outils élémentaires se sont avérés très utiles, mais la méthode que vous utilisez pour les enchanter est inflexible... j'usqu'à maintenant. Vous avez découvert un moyen d'appliquer un grand nombre de leurs abilités à presque tout les outils et armes, pas seulement les outils en thaumium.<BR>Certains enchantements peuvent être appliqués plusieurs fois au même objet mais chaque rang a un prix en essentia plus élevé lors de la fabrication.<BR>Chaque infusion d'enchantement différent sur l'objet  augmente aussi le prix de 33% et a une chance accrue de lui donner la propriété Warper.
+tc.research_page.INFUSIONENCHANTMENT.2=Certains enchantements d'infusion peuvent seulement être appliqués à des outils ou armes spécifiques. Ce sera répertorié sous chaque entrée individuel qui suit.<BR>Les outils avec des enchantements d'infusion peuvent toujours être enchanté avec une table normal d'enchantement et vise versa.<BR>Comme avec les outils élémentaux, maintenir "Maj" lors de l'utilisation d'un outil enchanté par l'infusion va désactiver ses abilités.
+tc.research_page.INFUSIONENCHANTMENT.COLLECTOR=§nCollectionneur§r<BR>Chaque fois que cet outil récolte un objet, il va automatiquement flotter vers vous.<BR>§lRangs§r: aucun<BR>§lCible§r: hache, pioche, pelle, arme
+tc.research_page.INFUSIONENCHANTMENT.BURROWING=§nAffouillement§r<BR>Lorsque vous essayez de couper un arbre ou de récolter du minerai, le bloc le plus éloigné seras détruit au lieu de celui que vous êtes en train de briser.<BR>§lRangs§r: aucun<BR>§lCible§r: hache, pioche.
+tc.research_page.INFUSIONENCHANTMENT.REFINING=§nAffinage§r<BR>Chaque fois que vous récoltez du minerai, il y'a une chance que vous gagnez un amas inné à la place. Augmenter le rang de cet enchantement va améliorer les chances d'en obtenir.<BR>§lRangs§r: 1-4<BR>§lCible§r: pioche
+tc.research_page.INFUSIONENCHANTMENT.SOUNDING=§nÉmetteur§r<BR>Vous pouvez faire un clique droit sur un bloc avec cet  outil pour envoyer une impulsion sonore. Cette impulsion va réveler tout les minerai cachés à proximité. Utiliser cette abilité va causer des dommages à l'outil<BR>§lRangs§r: 1-4<BR>§lCible§r: pioche
+tc.research_page.INFUSIONENCHANTMENT.DESTRUCTIVE=§nDévastateur§r<BR>Lorsque vous récoltez un bloc, les 8 blocs qui les entourent seront aussi récoltés si ils sont aussi récoltable par cette outil. Chaque bloc supplémentaire récolter provoque une perte de durabilité comme si vous les aviez récolté à la main.<BR>§lRangs§r: aucun<BR>§lCible§r: hache, pioche, pelle
+tc.research_page.INFUSIONENCHANTMENT.ARCING=§nArc§r<BR>Lorsque vous frappez un ennemi avec une arme enchanté avec ceci, un arc de vent mordant va toucher une cible supplémentaire à proximité en appliquant la moitié des dommages de l'arme. Les rangs supplémentaires vont augmenter le nombre de cibles touchés a porté.<BR>§lRangs§r: 1-4<BR>§lCible§r: arme
+tc.research_page.INFUSIONENCHANTMENT.ESSENCE=§nMoissonneur d'essence§r<BR>Lorsque vous tuez une créature avec cette arme enchantée, elle a une chance de lâcher une partie de son essense sous forme de cristaux. Augmenter le rang de cette enchantement va augmenter les chances d'obtenir des cristaux mais aussi le nombre de cristaux lâchés<BR>§lRangs§r: 1-5<BR>§lCible§r: arme
+#
+tc.research_name.VERDANTHEART=Bague de coeur verdoyant
+tc.research_text.VERDANTHEART=Guérison de ce qui vous fait souffrir
+tc.research_page.VERDANTHEART.1=Cet anneau mystique pulse avec de l'énergie curative qui va laver tout les poisons ou afflictions similaire de votre corps. Malheuresement, il ne peut pas guérir les plaie actuel.<BR>L'anneau à un stockage de Vis interne qui a besoin d'être recharger avec un piédestal de recharge ou un objet similaire - Il ne peut pas drainer le Vis de l'Aura directement.
+#
+tc.research_name.VERDANTHEARTLIFE=Donneur de vie & Pourvoyeur
+tc.research_text.VERDANTHEARTLIFE=Baume pour le corps
+tc.research_page.VERDANTHEARTLIFE.1=Il y'a deux enchantement spécialisés qui peut être appliqué à la bague de coeur verdoyant. Malheuresement, ces enchantements d'exclus mutuellement - vous ne pouvez pas appliquer les deux en même temps.<LINE>§nDonneur de vie§r<BR>Cet enchantement d'infusion permet à la bague de regénérer la vie à quiconque la porte.
+tc.research_page.VERDANTHEARTLIFE.2=§nPourvoyeur§r<BR>Cet enchantement d'infusion permet à la bague de coeur verdoyant de nourrir et de pourvoyer lentement  quiconque la porte. Cela inclus de fournir de l'air respirable.<LINE>La surprise aux trois viandes est fabriquer avec du sucre et des différent morceaux de viande. Ce n'est pas seulement un composant d'artisanat, mais aussi un délicieux et sain régal.
+#
 # Alchemy
 #######################
 tc.research_name.CRUCIBLE=Alchimie basique
@@ -1564,6 +1606,7 @@ tc.research_text.JARLABEL=Stocker et organiser l'Essentia
 tc.research_page.JARLABEL.1=L'Essentia peut être stocké dans des §lbocaux renforcés§r.<BR>Les bocaux renforcés peuvent être placés dans le monde et sont capables de stocker l'Essentia quasiment indéfiniment. L'enchantement placé sur les bocaux permet également d'ajouter ou d'extraire l'Essentia.<BR>Les bocaux peuvent être remplis à partir d'un alambic en cliquant avec le bocal directement sur l'alambic. Ils peuvent également être remplis et vidés en utilisant des fioles.<BR>C'est ce qui fait d'eux un excellent support de stockage pour les confitures et les conserves.
 tc.research_page.JARLABEL.2=Faire shift-clic sur les bocaux et les alambics avec une main vide va les vider.<BR>Tant qu'un bocal contient de l'Essentia, vous pouvez lui attacher une §létiquette§r.<BR>Cette étiquette 'bloque' le pot pour ce type d'Essentia et il ne sera pas en mesure d'accepter un autre type d'Essentia.<BR>Vous pouvez supprimer une étiquette en faisant shift-clic avec une main vide sur le côté du bocal contenant l'étiquette. Prenez soin de ne pas déplacer clic sur un autre côté, sinon il va vider le bocal.
 tc.research_page.JARLABEL.3=Vous pouvez placer une étiquette dans un atelier avec une fiole d'Essentia pour lui attribuer un aspect et lorsqu'elle est placée sur un bocal vide, elle verrouille automatiquement le bocal sur cet aspect. L'Essentia utilisé dans la recette n'est pas consommé.<BR>En la plaçant sur un bocal rempli, elle va changer l'étiquette du type d'Essentia.<LINE>Une étiquette peut être vierge à nouveau en la plaçant simplement par elle-même dans une grille d'artisanat.
+tc.research_page.JARLABEL.4=Vous pouver également fabriquer des attaches de couvercle en laiton. Lorsqu'ils sont utilisés sur des bocaux, ils préviennent l'essentia d'être drainé ou placé par autre choses que des tubes.<BR>Récupérer le bocal va retirer l'attache qui tombera au sol.
 #
 tc.research_name.ETHEREALBLOOM=Fleur éthérée
 tc.research_text.ETHEREALBLOOM=Purification de fleur

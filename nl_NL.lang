@@ -6,6 +6,16 @@ enchantment.repair=Reparatie
 enchantment.special.sapless=Mindere Sapping #todo
 enchantment.special.sapgreat=Meerdere Sapping #todo
 #
+# Infusion Enchantments
+###################################
+enchantment.infusion.COLLECTOR=Verzamelaar
+enchantment.infusion.DESTRUCTIVE=Destructief
+enchantment.infusion.BURROWING=Gravend
+enchantment.infusion.SOUNDING=Klinkend
+enchantment.infusion.REFINING=Verfijnend
+enchantment.infusion.ARCING=Buigend
+enchantment.infusion.ESSENCE=Essentie Oogster
+#
 #Potions
 ###################################
 potion.fluxtaint=Stroomsmet
@@ -199,6 +209,7 @@ tile.eldritch.lock.name=Aloud Sluitmechanisme
 tile.eldritch.door.name=Aloude Deuropening
 tile.eldritch.teleporter.name=Akelig Portaal
 tile.eldritch.crabspawner.name=Met Korsten Bedekte Opening
+tile.grass_ambient.name=Omgevingsgrasblok
 #
 # Doodads
 tile.table_stone.name=Stenen Tafel
@@ -500,10 +511,16 @@ item.baubles.0.name=Suf Amulet
 item.baubles.1.name=Suffe Ring
 item.baubles.2.name=Suffe Riem
 item.baubles.3.name=Leerlingenring van %TYPE
+item.baubles.9.name=Zonderling Amulet
+item.baubles.10.name=Zonderlinge Ring
+item.baubles.11.name=Zonderling Riem
 item.amulet_vis.text=Laadt langzaam toverstokken op in uw hotbar
 item.amulet_vis.0.name=Vissteen
 item.amulet_vis.1.name=Amulet van Visopslag
 item.girdle_hover.name=Thaumostatische Gordel
+item.ring_verdant.name=Groene Hartband
+item.verdant.life.text=Levengever
+item.verdant.sustain.text=Behouder
 
 # Wand
 item.focus_fire.name=Staffocus: Vuur
@@ -590,6 +607,7 @@ item.creative_placer.obelisk.name=Obelisk Plaatser
 item.creative_placer.node.name=Knoop Plaatser
 item.creative_placer.caster.name=Aloude Autobezweerder Plaatser
 item.creative_flux_sponge.name=Stroomspons
+item.jar_brace.name=Messing Dekselgesp
 #
 # Golem
 item.module.vision.name=Zichtmodule
@@ -657,6 +675,8 @@ golem.trait.hauler=Opper
 golem.trait.text.hauler=De golem kan twee stapels voorwerpen meenemen in plaats van één.
 golem.trait.ranged=Schutter
 golem.trait.text.ranged=De golem kan doelen van afstand aanvallen.
+golem.trait.blastproof=Explosieweerstand
+golem.trait.text.blastproof=De golem is erg goed beschermd tegen explosie schade.
 #
 # Props 
 golem.material.wood=Groothout
@@ -782,7 +802,6 @@ recipe.type.workbenchshapeless=Werkbank (Vormeloos)
 recipe.type.arcane=Occulte Werkbank
 recipe.type.crucible=Smeltkroes
 recipe.type.infusion=Occulte Infusie
-recipe.type.infusionenchantment=Infusiebetoveringen
 recipe.type.construct=Mystieke Constructie
 wandtable.text1=Vis Kosten
 wandtable.text2=Ervaring Kosten
@@ -920,6 +939,7 @@ tc.discount=besparing
 tc.visdiscount=Visbesparing
 tc.vis.cost=vis kosten
 tc.vis.costavg=gemiddelde vis kosten
+tc.charge=Vis lading:
 tc.inst=Instabiliteit:
 tc.inst.0=§1Negeerbaar§0
 tc.inst.1=§9Minimaal§0
@@ -1257,9 +1277,9 @@ tc.research_name.WANDPED=Recharge Pedestal
 tc.research_text.WANDPED=Automated Wand Recharging
 tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from the aura to recharge itself.<BR>Wands are not the only items that can be recharged in this device - many vis holding gadgets should be rechargeble in this.<BR>It will not drain the aura once it falls below 10%.
 #
-tc.research_name.VISAMULET=Vis Storage
+tc.research_name.VISAMULET=Portable Vis Recharging
 tc.research_text.VISAMULET=Waste not, Want not
-tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>The amulet will only recharge wands or items located in your hotbar. The amulet can also be placed in a recharge pedestal.
+tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand or item would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of channeling vis from the aura, you will be able to recharge wands and other items in the field.<BR>The amulet will only recharge wands or items located in your hotbar, baubles or armor slots (in that order). It will only recharge items that can normally be recharged in a recharge pedestal.
 #
 tc.research_name.WORKBENCHCHARGER=Arcane Workbench Charger
 tc.research_text.WORKBENCHCHARGER=Arcane Crafting Simplified
@@ -1360,7 +1380,7 @@ tc.research_page.JARBRAIN.1=You have discovered a way to reanimate a zombie brai
 #
 tc.research_name.HOVERHARNESS=Thaumostatic Harness
 tc.research_text.HOVERHARNESS=Is it a bird?
-tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>The harness is powered by vis it draws directly from the local aura. Single unit of Aer and Ignis vis provides enough power for 1 second of flight. The harness has an internal buffer that stores enough vis for 10 seconds of flight if the local aura is depleted.<BR>Pressing 'H' while wearing the harness activates or deactivates it.
+tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>The harness is powered by vis so it will need to be charged. A single unit of Aer and Ignis vis provides enough power for 1 second of flight. The harness has an internal buffer that stores enough vis for 5 minutes of flight.<BR>Pressing 'H' while wearing the harness activates or deactivates it.
 tc.research_page.HOVERHARNESS.2=It can be enchanted with the Haste enchant to increase the speed at which you move while flying.<BR>The harness will not reduce your block breaking speed while you are flying with it.
 #
 tc.research_name.HOVERGIRDLE=Thaumostatic Girdle
@@ -1469,6 +1489,27 @@ tc.research_text.REDSTONERELAY=Magical Redstone Interaction
 tc.research_page.REDSTONERELAY.1=You have always been curious about the seemingly negative reaction between mystical devices and redstone signals. You have studied the matter and while it is a well-known phenomenon that redstone inhibits magic, you have discovered that in specific circumstances the opposite can be true as well.<BR>One practical application of this is the Redstone Relay. By sending a redstone signal through a magical substance like vis crystals you can inhibit it as much or as little as you want.
 tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay to activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.
 #
+tc.research_name.INFUSIONENCHANTMENT=Infusion Enchantment
+tc.research_text.INFUSIONENCHANTMENT=Thaumaturgical Enchantment
+tc.research_page.INFUSIONENCHANTMENT.1=The elemental tools have proven quite useful, but the method you used to enchant them is inflexible... till now. You have discovered a way to apply many of the same abilities to nearly any tool or weapon, not just thaumium tools.<BR>Some enchantments can be applied multiple times to the same item, but each rank has an increased essentia cost when crafted.<BR>Each different infusion enchantment on the item also increases the cost by 33% and has an increased chance of giving it the Warping property.
+tc.research_page.INFUSIONENCHANTMENT.2=Certain infusion enchantments can only be applied to specific tools or weapons. This will be listed under each individual entry that follows.<BR>Tools with infusion enchantments can still be enchanted with the normal enchanting table and visa versa.<BR>Like with the elemental tools, sneaking while using an infusion enchanted tool will suppress its abilities.
+tc.research_page.INFUSIONENCHANTMENT.COLLECTOR=§nCollector§r<BR>Whenever this tool harvests an item it will automatically float towards you.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe, shovel, weapon
+tc.research_page.INFUSIONENCHANTMENT.BURROWING=§nBurrowing§r<BR>When you try to harvest a tree or ore the furthest block will be harvested, instead of the one you are trying to break.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe
+tc.research_page.INFUSIONENCHANTMENT.REFINING=§nRefining§r<BR>Whenever you harvest ore there is a chance of gaining a native cluster instead. Increasing the rank of the enchant will improve the chance.<BR>§lRanks§r: 1-4<BR>§lTarget§r: pickaxe
+tc.research_page.INFUSIONENCHANTMENT.SOUNDING=§nSounding§r<BR>You can right click on a block with this tool to send out a sounding pulse. This pulse will reveal any ores hidden nearby. Using this ability will cause some damage to the tool.<BR>§lRanks§r: 1-4<BR>§lTarget§r: pickaxe
+tc.research_page.INFUSIONENCHANTMENT.DESTRUCTIVE=§nDestructive§r<BR>When you harvest a block the 8 blocks surrounding it will also be harvested if they are normally harvestable by the tool. Each additional block harvested causes durability loss as if you had harvested them by hand.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe, shovel
+tc.research_page.INFUSIONENCHANTMENT.ARCING=§nArcing§r<BR>When you strike an enemy with a weapon enchanted with this, an arc of biting wind will hit an additional target nearby for half your weapons damage. Additional ranks will increase the number of additional targets and the range.<BR>§lRanks§r: 1-4<BR>§lTarget§r: weapon
+tc.research_page.INFUSIONENCHANTMENT.ESSENCE=§nEssence Harvester§r<BR>When you you kill a creature with a weapon enchanted with this it has a chance of dropping some of its essence in crystal form. Increasing the rank of this enchantment increases the chance of crystals dropping and may also increase the number dropped.<BR>§lRanks§r: 1-5<BR>§lTarget§r: weapon
+#
+tc.research_name.VERDANTHEART=Verdant Heart Band
+tc.research_text.VERDANTHEART=Curing what ails you
+tc.research_page.VERDANTHEART.1=This mystical ring pulses with healing energy that will wash all poisons or similar afflictions from your body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly. 
+#
+tc.research_name.VERDANTHEARTLIFE=Lifegiver & Sustainer
+tc.research_text.VERDANTHEARTLIFE=Balm for the body
+tc.research_page.VERDANTHEARTLIFE.1=There are two specialized enchantments you can apply to the Verdant Heart Band. Unfortunately these enchantments are mutually exclusive - you cannot apply both at the same time.<LINE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Band to regenerate the health of whomever wears it. 
+tc.research_page.VERDANTHEARTLIFE.2=§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Band to slowly feed and sustain whomever wears it. This includes providing breathable air.<LINE>Triple meat treats are crafted by combining sugar with three different kinds of meat nuggets. This is not only a crafting component, but a tasty and healthy treat.
+#
 # Alchemy 
 #######################
 tc.research_name.CRUCIBLE=Basic Alchemy
@@ -1553,6 +1594,7 @@ tc.research_text.JARLABEL=Storing and organizing essentia
 tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantment placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars can be filled from an alembic by clicking with the jar directly on the alembic. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.
 tc.research_page.JARLABEL.2=Shift clicking on jars and alembics with an empty hand will empty them.<BR>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.
 tc.research_page.JARLABEL.3=You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<LINE>A label can be made blank again by simply placing it by itself in a crafting grid.
+tc.research_page.JARLABEL.4=You can also craft brass lid braces. When used on a jar, they will prevent essentia being drawn from or placed into the jar by anything other than tubes.<BR>Picking up the jar will remove the brace and return it as an item.
 #
 tc.research_name.ETHEREALBLOOM=Ethereal Bloom
 tc.research_text.ETHEREALBLOOM=Purifying Flower
@@ -1615,119 +1657,119 @@ tc.research_page.ESSENTIATRANSPORT.2=The Emptying Essentia Transfuser does the o
 #
 # Golemancy 
 #######################
-tc.research_name.BASICGOLEMANCY=Basic Golemancy
-tc.research_text.BASICGOLEMANCY=Motion Controlled
-tc.research_page.BASICGOLEMANCY.1=You have studied the basic, primitive golems anyone can create and found them lacking. They have potential, but it is not possible to control them.<BR>You are sure you can do better.
+tc.research_name.BASICGOLEMANCY=Basis Golemmeesterschap
+tc.research_text.BASICGOLEMANCY=Beweging Gecontroleerd
+tc.research_page.BASICGOLEMANCY.1=U heeft de standaard, primitieve golems bestudeerd die iedereen kan maken en u vindt dat ze tekort komen. Ze hebben toepassingsmogelijkheden, maar het is onmogelijk om ze te besturen.<BR>U weet zeker dat u dit beter kunt.
 #
-tc.research_name.MATSTUDWOOD=Material Studies: Wood
-tc.research_text.MATSTUDWOOD=Advanced Wood crafting
-tc.research_page.MATSTUDWOOD.1=Golemancy places great demands on your craftsmanship as it often requires intricate components with very narrow margins for error. You will need to increase your skill and knowledge of both mundane and arcane materials. Your first target is wood.<BR>Wood is a versatile substance and despite its weakness, it is light and easy to work. You have found Greatwood to be a superior wood particularly well suited to golemancy. 
+tc.research_name.MATSTUDWOOD=Materiaal Studie: Hout
+tc.research_text.MATSTUDWOOD=Geavanceerde Hout Vervaardiging
+tc.research_page.MATSTUDWOOD.1=Golemmeesterschap stelt hoge eisen aan uw handvaardigheid, omdat het vaak precieze onderdelen nodig heeft met erg kleine foutenmarges. U zult uw vaardigheid en kennis van zowel wereldse als occulte materialen moeten vergroten. Uw eerste doel is hout.<BR>Hout is een veelzijdige substantie en ondanks zijn zwakheid is het licht en makkelijk om te bewerken. U heeft ontdekt dat Groothout superieur is tot ander hout en uitzonderlijk geschikt voor golemmeesterschap.
 #
-tc.research_name.MATSTUDIRON=Material Studies: Iron
-tc.research_text.MATSTUDIRON=Advanced Iron crafting
-tc.research_page.MATSTUDIRON.1=Iron has many properties to recommend it - it is much sturdier than wood and malleable in a way that wood can never be. It is harder to work with however and quite heavy.
+tc.research_name.MATSTUDIRON=Materiaal Studie: Ijzer
+tc.research_text.MATSTUDIRON=Geavanceerde Ijzer Vervaardiging
+tc.research_page.MATSTUDIRON.1=Vanwege veel eigenschappen is ijzer aan te raden - het is veel stevige dan hout en vervormbaar op manieren die u met hout nooit voor elkaar krijgt. Het is alleen wel moeilijker te bewerken dan hout en ook erg zwaar.
 #
-tc.research_name.MATSTUDBRASS=Material Studies: Brass
-tc.research_text.MATSTUDBRASS=Advanced Brass crafting
-tc.research_page.MATSTUDBRASS.1=While brass is softer than iron, it is still quite sturdy and well suited to fine mechanical constructs. In your opinion it is the best mundane material for golemancy purposes and you would not dream of crafting intricate metals from any other material. It is quite pleasing to the eye as well. 
+tc.research_name.MATSTUDBRASS=Materiaal Studie: Messing
+tc.research_text.MATSTUDBRASS=Geavanceerde Messing Vervaardiging
+tc.research_page.MATSTUDBRASS.1=Hoewel messing zachter is dan ijzer, is het nog steeds best stevig en geschikt voor fijne mechanische onderdelen. Naar uw mening is het het beste wereldse materiaal voor golem doeleinden en u moet er niet aan denken om ingewikkelde werktuigen te vervaardigen uit enig ander materiaal. Het ziet er ook nog mooi uit.
 #
-tc.research_name.MATSTUDTHAUMIUM=Material Studies: Thaumium
-tc.research_text.MATSTUDTHAUMIUM=Advanced Thaumium crafting
-tc.research_page.MATSTUDTHAUMIUM.1=Thaumium is an arcane metal that sucks up enchantments like a proverbial sponge. It is significantly stronger than iron too. Unfortunately it is slightly heavier than iron and its strength also makes it hard to work.<BR>While it cannot compete with brass when it comes to intricate clockwork, thaumiums strength makes it a useful material to craft mechanisms that require strength over precision. 
+tc.research_name.MATSTUDTHAUMIUM=Materiaal Studie: Thaumium
+tc.research_text.MATSTUDTHAUMIUM=Geavanceerde Thaumium Vervaardiging
+tc.research_page.MATSTUDTHAUMIUM.1=Thaumium is een occult metaal dat betovering opzuigt als een spreekwoordelijke spons. Het is ook significant sterker dan ijzer. Jammer genoeg is het iets zwaarder dan ijzer en de sterkte maakt het ook moeilijker om te bewerken.<BR>Hoewel het geen competitie is voor messing als het om ingewikkelde uurwerken gaat, maakt de sterkte van thaumium het bruikbaar voor de vervaardiging van werktuigen die sterkte meer nodig hebben dan precisie.
 #
-tc.research_name.MATSTUDVOID=Material Studies: Void Metal
-tc.research_text.MATSTUDVOID=Advanced Void Metal crafting
-tc.research_page.MATSTUDVOID.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
+tc.research_name.MATSTUDVOID=Materiaal Studie: Leegtemetaal
+tc.research_text.MATSTUDVOID=Geavanceerde Leegtemetaal Vervaardiging
+tc.research_page.MATSTUDVOID.1=Leegtemetaal is relatief licht, maar best zacht, wat er normaal voor zou zorgen dat het ongeschikt zou zijn voor mechanismen, Gelukkig geven de morfische eigenschappen en het vermogen om zichzelf te repareren van dit materiaal de gelegenheid voor interessante mogelijkheden voor een thaumaturg die bereid is om "out of the box" te denken.
 #
-tc.research_name.MATSTUDCLAY=Material Studies: Clay
-tc.research_text.MATSTUDCLAY=Advanced Clay crafting
-tc.research_page.MATSTUDCLAY.1=Clay is not particularly strong, light or durable, but it is easy to work, highly resistant to fire and lighter than iron. Basically, the perfect choice for a thaumaturge on a budget.
+tc.research_name.MATSTUDCLAY=Materiaal Studie: Klei
+tc.research_text.MATSTUDCLAY=Geavanceerde Klei Vervaardiging
+tc.research_page.MATSTUDCLAY.1=Klei is niet erg sterk, licht of duurzaam, maar het is heel makkelijk te vervormen, erg vuurvast en lichter dan ijzer. Oftewel, de perfecte keuze voor de thaumaturg die zuinig aan moet doen.
 #
-tc.research_name.HUNGRYCHEST=Hungry Chest
-tc.research_text.HUNGRYCHEST=A chest that doesn't wait to be opened
-tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
+tc.research_name.HUNGRYCHEST=Hongerige Kist
+tc.research_text.HUNGRYCHEST=Een kist die niet open gemaakt wil worden
+tc.research_page.HUNGRYCHEST.1=De hongerige kist kan voorwerpen oppakken die dicht genoeg bij de kist op de grond liggen.
 #
-tc.research_name.ARCANEBORE=Arcane Bore
-tc.research_text.ARCANEBORE=Mining evolved
-tc.research_page.ARCANEBORE.1=You have discovered a device capable of extending the range and power of an Excavation focus. Of even greater use is the fact that the machine can do so without your constant supervision. You merely need to place it on a specially constructed base, point it in the right direction with a wand and apply a redstone signal.<BR>The arcane bore requires two things to function. The first is an excavation focus placed in its leftmost inventory slot. Any enchantments applied to the focus will also alter the functions of the bore. 
-tc.research_page.ARCANEBORE.2=Secondly you need to place any kind of pickaxe into the rightmost slot. The material of the pickaxe will have little effect on the operation of the bore, but the greater its durability, the longer it will last. Like the wand, any enchantments or special abilities of the pickaxe will also be applied to whatever the bore mines.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing.<BR>It will eject into an inventory if possible. This direction can be changed with a wand.
-tc.research_page.ARCANEBORE.3=The bore can be powered with §8Perditio§0 essentia which will greatly speed up the rate at which it mines. Essentia can be provided by pipes as normal.<BR>One point of §8Perditio§0 essentia will speed the bore for the next 20 blocks mined.<BR>If no essentia is provided the bore will use §8Perditio§0 vis to function. It is drawn from the aura and a single point of vis will only be able to mine a single block. The speed will be much slower when powered by vis.
+tc.research_name.ARCANEBORE=Occulte Boor
+tc.research_text.ARCANEBORE=Gevorderde mijnbouw
+tc.research_page.ARCANEBORE.1=U heeft een machine ontdekt die in staat is om het bereik en de kracht van een Uigravingsfocus te vergroten. Wat nog bruikbaarder is, is het feit dat de machine dit kan doen zonder constant toezicht. U hoeft het slechts te plaatsen op een specifiek geconstrueerde basis, te richten in de goede richting met een toverstok en te activeren met een redstone signaal.<BR>De occulte boor heeft twee dingen nodig om te functioneren. Het eerste is een uitgravingsfocus in zijn meest linkse inventarisvak. Alle betoveringen die op dit focus toegepast zijn, zullen de functies van de boor ook beïnvloeden.
+tc.research_page.ARCANEBORE.2=Ten tweede moet u een soort pikhouweel in het meest rechtse vak plaatsen. Het materiaal van het pikhouweel heeft weinig effect op de werking van de boor, maar hoe duurzamer het pikhouweel is, hoe langer het meegaat. Net zoals de bij het focus, worden alle betoveringen of speciale krachten van het pikhouweel ook toegepast op alles wat de Boor uitgraaft.<BR>Een occulte boor kan alleen geplaatst worden bovenop of onder een occulte boor basis. Alle voorwerpen die opgegraven zijn worden uit de basis "gespuugd" in de richting van de tuit.<BR>De tuit laat de voorwerpen in een kist (of ander opslagmedium) vallen als dat mogelijk is. De richting van de tuit kan veranderd worden met een toverstok.
+tc.research_page.ARCANEBORE.3=De boor kan door §8Perditio§0 essentia aangedreven worden waardoor hij veel sneller graaft. Essentia kan aangvoerd worden door pijpen zoals normaal.<BR>Eén §8Perditio§0 essentia geeft de boor extra snelheid voor de volgende twintig blokken.<BR>Als er geen essentia wordt toegevoerd zal de boor §8Perditio§0 vis gebruiken om te functioneren. Deze vis wordt aan de aura ontrokken en een één vis laat het slechts één blok uitgraven. De snelheid is veel langzamer als er vis gebruikt wordt.
 #
-tc.research_name.TRAVELTRUNK=Traveling Trunk
-tc.research_text.TRAVELTRUNK=Mobile Luggage
-tc.research_page.TRAVELTRUNK.1=An extension of your golemancy research has led to a useful companion for any thaumaturge on the go: The Traveling Trunk.<BR>This wooden chest will happily hop after its master, always ready to provide a convenient storage space for anything you pick up.<BR>The traveling trunk is tough and can take a significant amount of beating. It is highly resistant to fire and cannot be harmed by falling.<BR>The trunk can follow its master everywhere - even distant dimensions. Should you wish it to stay put however, there is a convenient  button located in its interface
-tc.research_page.TRAVELTRUNK.2=which will make it remain in its current position.<BR>The traveling trunk slowly heals itself over time, but you can also feed it all manner of food to speed up this process.<BR>Like normal golems, the trunk can be picked up by left-clicking with a golemancer's bell. It will drop all items in its inventory of you do so. Shift-clicking will also cause it to drop any upgrades you have applied to it with the normal loss chance.<BR>It can accept a single upgrade like normal golems, but they grant unique abilities to the trunk. See the following pages for details as you discover the relevant upgrades.
-tc.research_page.TRAVELTRUNK.UAI=§nGolem Upgrade: Air§r<BR>With this upgrade installed the traveling trunk will move faster.
-tc.research_page.TRAVELTRUNK.UEA=§nGolem Upgrade: Earth§r<BR>With this upgrade installed the traveling trunk be able to carry more items and will gain an additional row in its inventory.
-tc.research_page.TRAVELTRUNK.UFI=§nGolem Upgrade: Fire§r<BR>With this upgrade installed the traveling trunk will defend its master when he is attacked.
-tc.research_page.TRAVELTRUNK.UWA=§nGolem Upgrade: Water§r<BR>With this upgrade installed the traveling trunk cannot be opened or picked up by anyone else but its master.<BR>It also become highly resistant to all but the most devastating amounts of damage.
-tc.research_page.TRAVELTRUNK.UOR=§nGolem Upgrade: Order§r<BR>With this upgrade installed the traveling trunk will retain its items when it is picked up using a golemancer's bell. It will drop items as normal when shift-clicked is used.
-tc.research_page.TRAVELTRUNK.UEN=§nGolem Upgrade: Entropy§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
+tc.research_name.TRAVELTRUNK=Reiskist
+tc.research_text.TRAVELTRUNK=Baggage op pootjes
+tc.research_page.TRAVELTRUNK.1=Een uitbreiding van uw onderzoek naar golems heeft geleid tot een bruikbare reisgenoot voor elke thaumaturg: De Reiskist.<BR>Deze houten kist trippelt vrolijk achter zijn meester aan, altijd gereed om een handige opslagruimte te leveren voor alles wat u oppakt.<BR>De reiskist is erg stevig en kan veel klappen verduren. Hij is bestand tegen vuur en kan niet beschadigen door te vallen.<BR>De kist kan zijn meester overal volgen - zelfs naar verre dimensies. Als u echter wilt dat hij blijft staan waar hij is, dan is er een handige knop voor in zijn inventaris scherm,
+tc.research_page.TRAVELTRUNK.2=die er voor zegt dat hij op zijn huidige positie zal blijven.<BR>De reiskist herstelt zichzelf langzaam, maar u kunt hem ook allerhande voedingsmiddelen voeren om dit proces te versnellen.<BR>Net als normale golems, kan de kist opgepakt worden door er op te links-klikken met een golemmeestersbel. Hij zal alle voorwerpen die hij draagt in uw inventaris laten vallen als u dit doet. SHIFT-klikken zorgt er ook voor dat alle opwaarderingen die er aan gegeven zijn op de grond gegooid worden met de normale verlies kans.<BR>De reiskist kan een enkele opwaardering accepteren net als normale golems, maar deze geven unieke vaardigheden aan de kist. Op de volgende pagina's ziet u details al naar gelang u deze opwaarderingen ontdekt.
+tc.research_page.TRAVELTRUNK.UAI=§nGolem Opwaardering: Lucht§r<BR>De reiskist beweegt sneller als u deze opwaardering installeert.
+tc.research_page.TRAVELTRUNK.UEA=§nGolem Opwaardering: Aarde§r<BR>De reiskist kan meer voorwerpen dragen en krijgt een extra rij in zijn inventaris als u deze opwaardering installeert.
+tc.research_page.TRAVELTRUNK.UFI=§nGolem Opwaardering: Vuur§r<BR>De reiskist verdedigt zijn meester als u deze opwaardering installeert.
+tc.research_page.TRAVELTRUNK.UWA=§nGolem Opwaardering: Water§r<BR>De reiskist kan niet geopend of opgepakt worden door iemand anders dan zijn meester als u deze opwaardering installeert. <BR>Hij wordt ook bijna immuun voor schade.
+tc.research_page.TRAVELTRUNK.UOR=§nGolem Opwaardering: Orde§r<BR>De reiskist behoudt zijn inhoud als hij wordt opgepakt als u deze opwaardering installeert. Als u SHIFT-klik gebruikt, zal hij wel zoals normaal zijn inhoud lossen.
+tc.research_page.TRAVELTRUNK.UEN=§nGolem Opwaardering: Entropie§r<BR>De reiskist zuigt automatisch alle dichtbijzijnde voorwerpen op waar hij ruimte voor heeft als u deze opwaardering installeert.
 #
-tc.research_name.MINDCLOCKWORK=Clockwork Minds
-tc.research_text.MINDCLOCKWORK=Giving them life
-tc.research_page.MINDCLOCKWORK.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If you are going to create intelligent magical servants then you are going to have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by Thaumaturgy. It has its limitations and very little autonomy, but it is a start.
-tc.research_page.MINDCLOCKWORK.2=Of course, now that you have a mind it is time to put it to use.<BR>You have designed a special press that will allow you to craft simple golems. It includes an anvil and forge to make assembling the parts easier.<LINE>To assemble as golem you simply access the Golem Press and select the components you wish to craft the golem from. For now your selection is fairly limited, but you are sure you will develop more.
-tc.research_page.MINDCLOCKWORK.3=Each golem is made up from up to 5 components: The base material, a type of head, arms, legs and an optional addon module. Simply select which of these you want to use and a list of crafting components will be displayed on the right. You need to have the listed components in your inventory before you can start the crafting process.<BR>Listed in the middle of the interface you will see the traits, hearts, armor and damage the golem will possess.<BR>Lastly you will need to supply Machina essentia to the press. Several ports are provided below the main press mechanism for this purpose.
-tc.research_page.MINDCLOCKWORK.4=You can now place the golem wherever you wish, but it will not do much unless you also place down a §5Golem Control Seal§0. To learn more about them see the reseach category that will have unlocked.<BR>When they have no tasks to perform, golems will return to the spot they were originally placed. You can pick up a golem by right clicking on it with a wand.<BR>It is also possible to assign a color to a golem by clicking on it with dye. This is useful for limiting it specific seals. Picking up the golem will clear the color assigned to it.
+tc.research_name.MINDCLOCKWORK=Uurwerk Verstand
+tc.research_text.MINDCLOCKWORK=Ze leven schenken
+tc.research_page.MINDCLOCKWORK.1=Ijzeren golems, sneeuw golems en andere wezens die iedereen in elkaar kan zetten hebben allemaal één gemeenschappelijke eigenschap - ze zijn onvoorspelbaar en onstuurbaar.<BR>De geesten die hen tot leven doen komen hebben hun eigen wil. Dat is een probleem.<BR>Als u intelligente magisch onderdanen gaat creëren, dan zult u ze een verstand moeten geven dat gewillig is om orders op te volgen. De simpelste oplossing is een uurwerksamenstelling die versneld wordt door thaumaturgie. Het heeft een aantal limitaties en vrij weinig zelfstandigheid, maar het is een begin.
+tc.research_page.MINDCLOCKWORK.2=Natuurlijk is het, nu u een brein heeft, tijd om dit toe te passen.<BR>U heeft een speciale pers ontwerpen die u in staat stelt om simpele golems te vervaardigen. Het bestaat uit een aambeeld en smidse om het samenstellen van de onderdelen gemakkelijker te maken.<LINE>Om een golem samen te stellen verschaft u zich simpelweg toegang tot de Golem Pers en selecteert u de onderdelen die u wenst te gebruiken voor het vervaardigen van de golem. Nu is uw selectie nog vrij gelimiteerd, maar u weet zeker dat u nog meer zult ontwikkelen.
+tc.research_page.MINDCLOCKWORK.3=Elke golem is samengesteld uit maximaal vijf onderdelen: Het basis materiaal, een type hoofd, armen, benen en een optionele "addon" module. Als u simpleweg selecteert welke van deze onderdelen u wilt gebruiken, zal er een lijst met de benodigde ingredienten worden weergegeven aan de rechter kant. U moet de voorwerpen in deze lijst in uw inventaris hebben voordat u het vervaardigingsproces kunt beginnen.<BR>In het midden van het scherm ziet u een lijst met de eigenschappen, het leven, de bepantsering en schade van de te maken golem.<BR>Tenslotte heeft de pers Machina essentia nodig om te werken. Voor de toevoer hiervan zijn verschillende poorten te vinden onder het centrale persmechanisme.
+tc.research_page.MINDCLOCKWORK.4=U kunt de golem nu plaatsen waar u maar wilt, maar het zal niet veel doen tenzij u ook een §5Golem Controle Zegel§0 plaatst. Bekijk om meer te leren over de zegels de onderzoekscategorie die nu untgrendeld is.<BR>Als golems geen taken te vervullen hebben, keren golems terug naar de plaats waar ze origineel geplaatst zijn. U kunt een golem oppakken door op hem te rechts klikken met een toverstok.<BR>Het is ook mogelijk om een kleur aan een golem toe te kennen door op hem te klikken met verf. Dit is handig voor het limiteren tot specifieke zegels. Het oppakken van de golem verwijdert de kleur die aan hem toegekend is.
 #
-tc.research_name.GOLEMDIRECT=Golem Mastery
-tc.research_text.GOLEMDIRECT=Taking a direct hand in things
-tc.research_page.GOLEMDIRECT.1=Having golems mindlessly following seals is not your only goal. You want them to mindlessly follow you as well.<BR>You can now right click on a golem with the §5Golemancer's Bell§0 to have it follow you. While following you it will no longer obey seals and combat capable golems will defend you in combat.<BR>Clicking on the golem again will once again return it to normal functioning and its home location will be set to its current location. 
+tc.research_name.GOLEMDIRECT=Gevorderd Golem Meesterschap
+tc.research_text.GOLEMDIRECT=Een vinger in de pap hebben
+tc.research_page.GOLEMDIRECT.1=Dat golems als zombies de bevelen van zegels opvolgen is niet uw enige doel. U wilt dat ze ook u als zombies volgen.<BR>U kunt nu rechts klikken op een golem met de §5Golemmeestersbel§0 om hem u te laten volgen. Terwijl hij u volgt, volgt de golem niet langer de bevelen van zegels op en golems die kunnen vechten zullen u verdedigen in het gevecht.<BR>Nogmaals op de golem klikken zorgt er voor dat de golem zich weer zoals normaal gaat gedragen en zijn nieuwe thuislocatie wordt de locatie waar hij zich op dat moment bevindt.
 #
-tc.research_name.CONTROLSEALS=Golem Control Seals
-tc.research_text.CONTROLSEALS=Giving them purpose
-tc.research_page.CONTROLSEALS.1=Golems cannot do anything they are not told to do. For this purpose you have created Control Seals. You can place these circular clay seals against almost any surface you wish. Once you do they will become become ethereal and intangible, but you will still be able to see them as long as you hold a golem, another seal or §5Golemancer's Bell§0.<BR>The bell will be an important tool as you will use it to fine tune the settings and parameters of the command seals.<BR>Since seals are ethereal you can place down another block in the same spot as you placed a seal. 
-tc.research_page.CONTROLSEALS.2=Several seals can also occupy the same block space as long as the are located on different faces. This should allow you to keep things quite compact.<BR>You can retrieve a seal by shift and right-clicking on it with the bell.<LINE>Clicking on a seal with the bell will allow you to tweak its parameters. The exact parameters will vary from seal to seal, but most seals will allow you to give them a priority between -5 and +5 (default 0). Tasks created by higher priority seals will be performed first. You will also be able to see a list of required traits
-tc.research_page.CONTROLSEALS.3=that a golem will need to have in order to perform tasks created by that seal.<BR>For example, another seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0.<LINE>Seals can be set to become inactive when they recieve a redstone signal. All queued or in progress tasks from that seal will also be removed.
-tc.research_page.CONTROLSEALS.4=It is also possible to assign a color to a seal. If you do so tasks from that seal will only be performed by uncolored golems or golems with the same color. Uncolored seals will assign tasks to all golems (colored and uncolored alike).<BR>You set seal colors in the same location where you set priorities.<BR>You assign a golem a color by using a dye on it. The color will be cleared if the golem is picked up.
+tc.research_name.CONTROLSEALS=Golem Controle Zegels
+tc.research_text.CONTROLSEALS=Hen een doel geven
+tc.research_page.CONTROLSEALS.1=Golems kunnen niets doen zonder dat dit hen verteld wordt. Voor dit doel hebt u Controle Zegels gemaakt. U kunt deze ronde zegels van klei tegen bijna elk oppervlak plaatsen waartegen u dat wilt. Zodra u dit doet zullen ze etherisch en ontastbaar worden, maar u kunt ze nog steeds zien zolang u een golem, een ander zegel of de §5Golemmeestersbel§0 vast houdt.<BR>De bel wordt een belangrijk gereedschap, omdat u het zult gebruiken om instellingen en waarden van de commando zegels te veranderen.<BR>Omdat zegels etherisch zijn, kunt u een ander blok op de zelfde plaats plaatsen als waar u een zegel heeft geplaatst.
+tc.research_page.CONTROLSEALS.2=Ook verschillende zegels kunnen binnen de zelfde "blokruimte" geplaatst worden zolang ze allemaal maar op een andere kant gepositioneerd zijn. Dit zijn dus maximaal zes zegels per blok. Dit zou u toe moeten staan om zaken vrij compact te houden.<BR>U kunt een zegel terug krijgen door te SHIFT- en rechts-klikken op het zegel met de bel.<LINE>Op een zegel klikken met de bel staat u toe om de waarden van het zegel aan te passen. De exacte waarden zullen variëren van zegel tot zegel, maar de meeste zegels staan u toe om hen een prioriteit te geven tussen -5 en +5 (standaard 0). Taken gecreëerd door zegels met een hogere prioriteit, zullen eerder uitgevoerd worden. U kunt ook een lijst van golem eigenschappen, die 
+tc.research_page.CONTROLSEALS.3=nodig zijn om de taken voor dat specifieke zegel uit te voeren, zien.<BR>Bijvoorbeeld, voor een bepaald zegel is het misschien nodig dat een golem de §5Handig§0 eigenschap heeft, of misschien is er een ander zegel waarvoor de golem de eigenschap §5Onhandig§0 eigenschap juist NIET mag hebben.<BR>Kijk voor een praktijkvoorbeeld eens naar het §5Verzamelaar Zegel§0.<LINE>Zegels kunnen ingesteld worden om inactief te worden onder invloed van een redstone signaal. Alle geplande-, of in-uitvoering-zijnde taken worden dan ook geannuleerd.
+tc.research_page.CONTROLSEALS.4=Het is ook mogelijk om een kleur toe te kennen aan een zegel. Als u dit doet, zullen taken van dit zegel alleen door ongekleurde golems of golems met de zelfde kleur uitgevoerd worden. Ongekleurde zegels kennen taken toe aan alle golems (Het maakt niet uit of deze gekleurd of ongekleurd zijn).<BR>U stelt deze zegel kleuren in op de zelfde locatie als waar u de prioriteiten instelt.<BR>U kent een golem een kleur toe door er verf op te gebruiken. Deze kleur wordt gewist als de golem opgepakt wordt.
 #
-tc.research_name.MINDBIOTHAUMIC=Biothaumic Minds
-tc.research_text.MINDBIOTHAUMIC=I think therefore I am
-tc.research_page.MINDBIOTHAUMIC.1=As predicted the clockwork minds you have created offers very little in the way of abstract reasoning and autonomy. Attempting to create more complex clockworks has met with very little success, so you have turned to something you already know will work - human brains.<BR>Though hesitant at first, you soon overcame any trepidation you felt and delved into Biothaumaturgy - merging flesh, machines and magic into a single whole.<BR>The results are encouraging and you are now able to infuse clockwork minds with salvaged gray matter to form a mind with much greater capabilities.
-tc.research_page.MINDBIOTHAUMIC.2=Another advantage if this mind is that it will allow a golem to learn. As it completes tasks it will gain experience and rank up. Higher ranks grants a golem additional health, speed and damage.<BR>Golems start at rank 0 and can improve up to rank 10.<BR>Golems will retain their rank if picked up.
+tc.research_name.MINDBIOTHAUMIC=Biothaumisch Verstand
+tc.research_text.MINDBIOTHAUMIC=I denk dus ik ben
+tc.research_page.MINDBIOTHAUMIC.1=Zoals voorspeld, levert het uurwerk verstand dat u gemaakt heeft vrij weinig op het gebied van abstract redeneren en zelfstandigheid. Pogingen om complexere uurwerken in elkaar te prutsen strandden vruchteloos, dus u heeft uw hoop gevestigd op iets, waarvan u al weet dat het gaat werken - mensenhersens.<BR>Alhoewel u eerst een beetje aarzelde, zette u zich snel over de bange voorgevoelens heen en dook in de studie van de Biothaumaturgie Biothaumaturgy - het samenvoegen van vlees, machines en magie tot een enkel geheel.<BR>De resultaten zien er goed uie en u bent nu in staaat om uurwerk breinen te infuseren met verzamelde grijze massa met als doel het vormen van een verstand met veel grotere capaciteiten.
+tc.research_page.MINDBIOTHAUMIC.2=Een ander voordeel van dit brein is dat het een golem toestaat om te leren. Terwijl het taken voltooid, verdient het ervaring en wordt het af en toe gepromoveert. Hogere rangen geven een golem meer leven, snelheid en aanvalsschade.<BR>Golems beginnen op rang 0 en kunnen verbeteren tot rang 10.<BR>Golems behouden hun rang als ze opgepakt worden.
 #
-tc.research_name.BASICTURRET=Automated Crossbow
-tc.research_text.BASICTURRET=Simple defenses
-tc.research_page.BASICTURRET.1=You have found a way to give a crossbow a mind of its own turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile mobs it detects within range. Unfortunately its limited mind does not allow you to fine tune its targets.<BR>It has a very limited internal inventory, but if you wish you can place it over an upward facing dispenser which will allow it to automatically reload itself from that inventory.<BR>Clicking on it with a wand will pick it up.
+tc.research_name.BASICTURRET=Geautomatiseerde Kruisboog
+tc.research_text.BASICTURRET=Simpele verdedigingswerken
+tc.research_page.BASICTURRET.1=U heeft een manier gevondern om een kruisboog een eigen wil te geven, wat het in essentie transformeert in een geschutstoren.<BR>Als u deze toren in de wereld plaatst, zal het automatisch op alle vijandige mobs schieten die zich binnen het bereik van de toren wagen. Jammer genoeg staat zijn gelimiteerde brein het u niet to om te specificeren welke doelwitten het wel- en niet beschieten moet.<BR>De toren heeft een zeer kleine interne opslagcapaciteit, maar als u wilt kunt u het bovenop een naar boven gerichte Dispenser plaatsen, wat de toren toestaat om automatisch te herladen vanuit de Dispenser.<BR>U kunt de toren oppakken door er met een toverstok op te klikken.
 #
-tc.research_name.ADVANCEDTURRET=Advanced Automated Crossbow
-tc.research_text.ADVANCEDTURRET=Not so simple defenses
-tc.research_page.ADVANCEDTURRET.1=The Advanced Automated Crossbow works much like its basic couterpart, with a few significant exceptions.<BR>The addition of iron plating makes it much sturdier, and a more complicated loading mechanism gives it a greater rate of fire.<BR>Lastly it is possible to specify the type of targets it can attack.
+tc.research_name.ADVANCEDTURRET=Geavanceerde Geautomatiseerde Kruisboog
+tc.research_text.ADVANCEDTURRET=Niet zulke simpele verdedigingswerken
+tc.research_page.ADVANCEDTURRET.1=De Geavanceerde Geautomatiseerde Kruisboog werkt grotendeels zoals zijn simpele tegenhanger met een paar belangrijke uitzonderingen.<BR>De toevoeging van ijzeren bepantsering maakt het geheel veel steviger en een gecompliceerder herlaadmechanisme zorgt er voor dat het sneller kan vuren.<BR>Tenslotte is het mogelijk om het type doelwitten dat het aanvalt te specificeren.
 #
 tc.research_name.FOCUSTURRET=Autobezweerder
-tc.research_text.FOCUSTURRET=Automated Foci
-tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with the development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce the activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
+tc.research_text.FOCUSTURRET=Geautomatiseerde Focussen
+tc.research_page.FOCUSTURRET.1=Gedurende uw ontdekking van geavanceerde kunstmatige breinen en recente vooruitgang door het ontwikkelen van de Occulte Boor, heeft u een manier ontdekt om een geautomatiseerde toren te creëren dat staffocussen kan gebruiken.<BR>Het heeft een kleine interne vis-opslag, die het kan aanvullen vanuit de aura, maar een machine is geen thaumaturg - de herlaad-snelheid is langzaam en de toren kan geen gebruik maken van manieren om de vis kosten voor het gebruiken van focussen te verminderen.<BR>De autobezweerder kan tegen elk oppervlak geplaatst worden en het is mogelijk om in te stellen welke doelwitten het aan moet vallen. U kunt de toren oppakken door er met een toverstok op te klikken.
 #
 tc.research_name.SEALCOLLECT=Controle Zegel: Verzamelaar 
-tc.research_text.SEALCOLLECT=Picking up what you are putting down
-tc.research_page.SEALCOLLECT.1=This seal will constantly check an area you define for dropped items. If items are found it will instruct any nearby golems to pick up those items.<BR>You can define the exact dimensions of the area as well as filter out certain items using a white- or blacklist.
-tc.research_page.SEALCOLLECT.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.  
+tc.research_text.SEALCOLLECT=Oppakken wat men neerlegt #originele verwijzing: Engelse uidrukking: "Het met iemand eens zijn/begrijpen wat de ander bedoelt."
+tc.research_page.SEALCOLLECT.1=Dit zegel zal constant een gebied controleren op rondslingerende voorwerpen. Als voorwerpen gevonden worden, zal het alle nabije golems de opdracht geven om deze voorwerpen op te pakken.<BR>U kunt aangeven welke exacte dimensies dit gebied moet hebben. Ook kunt u bepaalde voorwerpen filteren door het gebruik van een white- of backlist.
+tc.research_page.SEALCOLLECT.2=U kunt nu ook een geavanceerde versie van het zegel vervaardigen, dat u toestaat om meer voorwerpen tegelijk te filteren en u meer controle geeft over hoe deze voorwerpen gefilterd worden, alhoewel golems veel slimmer moeten zijn om de taken uit te voeren die hen door dit zegel opgelegd worden.<BR>U kunt kiezen om het zegel NBT data of schade-waarden te laten negeren bij het filteren van voorwerpen, de "ore dictionary" te gebruiken, of het voorwerpen te laten filteren op basis van de mod waarvan het voorwerp in het filter deel uit maakt.  
 #
 tc.research_name.SEALSTORE=Controle Zegel: Vuller
-tc.research_text.SEALSTORE=Putting away your mess
-tc.research_page.SEALSTORE.1=This seal can be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.<BR>>For the white list you can alse specify a specific number of items that must be placed in the inventory. By default this number is infinite (marked with a gold star).
-tc.research_page.SEALSTORE.2=If placed against a non-container block the golem will simply drop items at that location.<BR>Like with inventories you can also specify a specific number of items with the white list. Any items located in the world within a 1 block radius of the seal will be counted.
-tc.research_page.SEALSTORE.3=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.<BR>If you specified item counts in the white list, then all items that match the filter with these settings will be counted.
+tc.research_text.SEALSTORE=De grote opruiming #originele verwijzing: onbekend
+tc.research_page.SEALSTORE.1=Dit zegel kan geplaatst worden op de zijkant van een opslagmedium. Het zal de kist aanwijzen als een mogelijke bestemming voor voorwerpen die golems allicht vasthouden. Zolang de kist niet vol is, zullen de golems hun items afleveren.<BR>U kunt zekere voorwerpen filteren met een white- of blacklist.<BR>Voor de whitelist kunt u ook aangeven hoe veel van deze voorwerpen er maximaal in de kist geplaatst mogen worden. Standaard is dit aantal oneindig (gemarkeerd met een gouden ster).
+tc.research_page.SEALSTORE.2=Als dit zegel tegen een niet-opslagmedium wordt geplaatst, zal de golem simpelweg de voorwerpen op de grond laten vallen op die locatie.<BR>Zoals met opslagmedia, kunt u ook een specifiek aantal voorwerpen aangeven met een whitelist. Alle voorwerpen binnen een straal van 1 blok vanaf het zegel zullen worden geteld.
+tc.research_page.SEALSTORE.3=U kunt nu ook een geavanceerde versie van het zegel vervaardigen, dat u toestaat om meer voorwerpen tegelijk te filteren en u meer controle geeft over hoe deze voorwerpen gefilterd worden, alhoewel golems veel slimmer moeten zijn om de taken uit te voeren die hen door dit zegel opgelegd worden.<BR>U kunt kiezen om het zegel NBT data of schade-waarden te laten negeren bij het filteren van voorwerpen, de "ore dictionary" te gebruiken, of het voorwerpen te laten filteren op basis van de mod waarvan het voorwerp in het filter deel uit maakt.<BR>Als u voorwerp-aantallen heeft aangegeven in de whitelist, dan zullen alle voorwerpen die met het filter met deze instellingen overeenkomen meegeteld worden.
 #
 tc.research_name.SEALEMPTY=Controle Zegel: Leger
-tc.research_text.SEALEMPTY=Making a whole new mess
-tc.research_page.SEALEMPTY.1=This seal is effectively the opposite of the Store seal. It will empty items from the inventory it is attached to. Any nearby golems will simply take the items and hold. You will need to use other seals to give them instructions as to what they need to do with the items they have taken.<BR>You can filter a specific item to remove or to exclude from removal.  
-tc.research_page.SEALEMPTY.2=You can now also craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.<BR>You can also have the seal only check for a single item in the filter at a time in the order they are listed.
+tc.research_text.SEALEMPTY=Nieuwe rommel maken #originele verwijzing: onbekend
+tc.research_page.SEALEMPTY.1=Dit zegel doet precies het tegenovergestelde van het §5Vuller§0 zegel. Het leegt alle voorwerpen uit een kist (of ander opslagmedium) waar het aan vast gemaakt is. Alle nabije golems pakken simpelweg de voorwerpen uit de kist en houden deze vast. U zult andere zegels moeten gebruiken om de golems te vertellenhoe ze deze voorwerpen gebruiken moeten.<BR>U kunt specifieke voorwerpen filteren om te verwijderen of juist van verwijdering te ontzien.
+tc.research_page.SEALEMPTY.2=U kunt nu een geavanceerde versi van het zegel vervaardigen, dat u in staat stelt om meer voorwerpen tegelijk te filteren en om u meer controle te geven over hoe de voorwerpen gefilterd moeten wordn, alhoewel golems veel slimmer moeten zijn om de taken uit te voeren die hen door dit zegel opgelegd worden.<BR>U kunt kiezen om het zegel NBT data of schade-waarden te laten negeren bij het filteren van voorwerpen, de "ore dictionary" te gebruiken, of het voorwerpen te laten filteren op basis van de mod waarvan het voorwerp in het filter deel uit maakt.<BR>Uk unt het zegel ook één voor één naar elk voorwerp laten kijken in de volgorde waarin ze gesorteerd staan.
 #
 tc.research_name.SEALPROVIDE=Controle Zegel: Bezorger
-tc.research_text.SEALPROVIDE=Getting what is needed
-tc.research_page.SEALPROVIDE.1=This seal is similar to the Empty seal, except it will only remove an item from the inventory if there is a specific need for it.<BR>Certain seals may request provisioning. If they require specific items for their tasks a secondary task will be created telling a nearby golem to retrieve those items from any inventories marked with a Provide seal.<BR>This task will use the requesting seals priority and the golem needs to meet the requirements for both the Provider seal and the requesting seal.
-tc.research_page.SEALPROVIDE.2=The filter on the Provide seal is merely used to compare what items may be taken from the container. The filters (if any) on the requesting seal will determine the exact item taken.
+tc.research_text.SEALPROVIDE=Verkrijgen wat nodig is #originele verwijzing: onbekend
+tc.research_page.SEALPROVIDE.1=Dit zegel lijkt op het §5Leger§0 zegel, maar het zal alleen een voorwerp uit een kist (of ander opslagmedium) verwijderen als het ergens anders nodig is.<BR>Sommige zegels kunnen om bevoorrading vragen. Als ze specifieke voorwerpen voor hun taken nodig hebben, zullen ze een secundaire taak creëren om een nabije golem te commanderen deze voorwerpen op te gaan halen uit één van de kisten met een Bezorger zegel.<BR>Deze secundaire taak gebruikt de prioriteit van het zegel dat de taak creëerde en de golems moeten zowel commando's van het Bezorger zegel als het andere zegel kunnen opvolgen.
+tc.research_page.SEALPROVIDE.2=Het filter op het Bezorger zegel wordt slechts gebruikt om te bepalen welke voorwerpen er uit een kist gehaald mogen worden. De filters op het zegel dat de taak aanmaakte, beslissen welk exact voorwerp er gepakt wordt.
 #
 tc.research_name.SEALHARVEST=Controle Zegel: Oogster
 tc.research_text.SEALHARVEST=Groene mechanische vingers #originele verwijzing: combinatie van uitdrukking "green thumbs" en "mechanical"
-tc.research_page.SEALHARVEST.1=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. If the seed was previously planted on farmland, the golem will also try to till the soil if it has turned into dirt.
+tc.research_page.SEALHARVEST.1=Dit zegel controleert het ingestelde gebied op volgroeide gewassen of andere oogstbare planten. Zodra het deze gevonden heeft, wordt een golem er opuit gestuurd om de plant te oogsten.<BR>Als dit nodig is, zal het zegel ook proberen om het gewas te herplanten zolang zaden (of voorwerpen die daar op lijken) beschikbaar zijn. Als een zaad eerder op akkerland geplant was, probeert de golem ook om het blok om te ploegen als het in normale aarde is veranderd.
 #
 tc.research_name.SEALGUARD=Controle Zegel: Bewaker
 tc.research_text.SEALGUARD=Meer blauw op straat #originele verwijzing: Motto van het Los Angeles Police Department
-tc.research_page.SEALGUARD.1=When placed this seal will protect and area from intrusion. Any hostile creatures it detects will be targeted by nearby combat-capable golems and attacked.<BR>If the golem has the §5Deft§0 property, any creatures slain will drop experience orbs.<BR>§9This research also unlocks additional golem parts§0. 
-tc.research_page.SEALGUARD.2=You can now create an advanced version of the seal that will give you greater control over which creatures your golems will target.
+tc.research_page.SEALGUARD.1=Waar dit zegel geplaatst wordt, zal het de golems commanderen om de omgeving tegen indringers te beschermen. Alle vijandige wezens die het detecteert krijgen als het ware een doelwit op hun voorhoofd geplakt en zullen door strijdlustige golems belaagd worden.<BR>Als een golem §5Handig§0 is, laten alle wezens die door deze golem koud gemaakt worden, ervaringbolletjes achter.<BR>§9Dit onderzoek ontgrendelt extra golem onderdelen§0.
+tc.research_page.SEALGUARD.2=U kunt nu een gevorderde versie van het zegel creëren dat u meer controle geeft over welke wezens uw golems aanvallen en welke niet.
 #
 tc.research_name.SEALBUTCHER=Controle Zegel: Slager
 tc.research_text.SEALBUTCHER=Kips, het meest veelzijdige stukje vlees. Kips! #originele verwijzing: onbekend

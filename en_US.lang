@@ -275,6 +275,7 @@ tile.paving_stone.barrier.name=Barrier Stone
 tile.paving_stone.travel.name=Paving Stone of Travel
 tile.flesh_block.name=Block of Flesh
 tile.redstone_relay.name=Redstone Relay
+tile.pattern_crafter.name=Arcane Pattern Crafter
 #
 # Misc
 tile.hole.name=Dimensional Tear
@@ -397,6 +398,7 @@ item.gear.void.name=Void Metal Gear
 item.wisp_essence.name=Ethereal Essence
 item.fabric.name=Enchanted Fabric
 item.crystal_essence.name=Crystallized Essence
+item.crystal_essence.balanced.name=Balanced Crystallized Essence
 item.wispy_essence.name=Wispy Essence
 item.phial.empty.name=Glass Phial
 item.phial.filled.name=Phial of Essentia
@@ -516,7 +518,7 @@ item.baubles.10.name=Fancy Ring
 item.baubles.11.name=Fancy Belt
 item.amulet_vis.text=Recharges wands in hotbar
 item.amulet_vis.0.name=Vis Stone
-item.amulet_vis.1.name=Amulet of Vis Storage
+item.amulet_vis.1.name=Amulet of Vis
 item.girdle_hover.name=Thaumostatic Girdle
 item.ring_verdant.name=Verdant Heart Band
 item.verdant.life.text=Lifegiver
@@ -848,6 +850,8 @@ golem.prop.lock=Only golems owned by seal owner can perform these tasks
 golem.prop.unlock=All golems can perform these tasks
 golem.prop.redon=Redstone sensitive
 golem.prop.redoff=Ignores Redstone signals
+golem.prop.exist=Container must already contain item
+golem.prop.leave=Always leave at least 1 item
 #
 tile.researchtable.noink.0=You have run out of ink!
 tile.researchtable.noink.1=Refill your scribing tools.
@@ -1316,7 +1320,7 @@ tc.research_page.GOGGLES.1=Building on the basic principles of the Thaumometer, 
 #
 tc.research_name.DIOPTRA=Thaumic Dioptra
 tc.research_text.DIOPTRA=Revealing the Aura
-tc.research_page.DIOPTRA.1=This complex device allows a thaumaturge to see the surrounding aura in a simple and clear manner.<BR>Simply insert the proper vis shard into the top of the device to have it render the aura in a 13 chunk diameter area around it.<BR>It will also occasionally mark sources of vis as sparkles on the display. While not very precise, it can be useful in finding such sources or places of interest. 
+tc.research_page.DIOPTRA.1=This complex device allows a thaumaturge to see the surrounding aura in a simple and clear manner.<BR>Simply insert the proper vis shard into the top of the device to have it render the aura in a 13 chunk diameter area around it.<BR>It will also occasionally mark sources of vis as sparkles on the display. While not very precise, it can be useful in finding such sources or places of interest.<BR>A comparator can be connected if you want to monitor the aura level of the chunk in which it is placed.
 #
 tc.research_name.BOOTSTRAVELLER=Boots of the Traveler
 tc.research_text.BOOTSTRAVELLER=These boots were made for walking
@@ -1364,7 +1368,7 @@ tc.research_name.INFUSION=Infusion
 tc.research_text.INFUSION=Mystical fusion
 tc.research_page.INFUSION.1=Arcane crafting and alchemy can go only so far. Something better is needed to create truly powerful mystical objects.<BR>Infusion crafting is the process of infusing a single object with magical energy and the properties of other objects. You could, for example, infuse a stone with §6Aer§0 vis and a feather and it would result in a very light stone.<BR>As is usual with thaumaturgy, things are not quite that simple. To even get started with infusion crafting there are several things you need: A Runic Matrix, arcane pedestals and a ready supply of magic in the form of essentia. 
 tc.research_page.INFUSION.2=Once you have your Runic Matrix properly placed into a structure commonly known as an Infusion Altar, you can begin to craft.<BR>The central pedestal located under the matrix is where the item you wish to infuse will go. You will also need several more pedestals placed around the altar where you can place the blocks and items you wish to infuse into the target object. Lastly you will need warded jars or similar essentia containers holding the requisite amount of vis.<BR>Once all this is gathered you can click on the Runic Matrix with a wand to start the crafting process.<BR>During the first stage of crafting essentia will be drained
-tc.research_page.INFUSION.3=from nearby sources. Crafting will stall of there is insufficient essentia available - something that you do not want as will be explained on following pages.<BR>Once all the required essentia has been infused into the target object, the other objects will have their essential essence drained. Only when this is done will the crafting process complete.<LINE>Infusion crafting is not without risks. The entire process involves forcing vast energies into a single object. Unpredictable things tend to happen.<BR>Usually one of the fusion objects get
+tc.research_page.INFUSION.3=from nearby sources. Crafting will stall if there is insufficient essentia available - something that you do not want as will be explained on following pages.<BR>Once all the required essentia has been infused into the target object, the other objects will have their essential essence drained. Only when this is done will the crafting process complete.<LINE>Infusion crafting is not without risks. The entire process involves forcing vast energies into a single object. Unpredictable things tend to happen.<BR>Usually one of the fusion objects get
 tc.research_page.INFUSION.4=knocked off a pedestal, or flux gets generated, but more catastrophic events are not unheard of.<BR>The longer crafting continues due to unresolved problems like lack of vis or dropped items, the greater the chance of something bad happening.<BR>These effects can be reduced by various means. Firstly you wish to keep the entire fusion structure as symmetrical as possible - take careful note of where you place pedestals and make sure they are balanced with other pedestals on the opposite side of the altar. When placing fusion items into them you may wish to keep them balanced as well. Lastly you can place occult paraphernalia around the  
 tc.research_page.INFUSION.5=altar in symmetrical formations (things like candles, skulls, crystals, etc.). These will have the effect of reducing instability.<IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
 tc.research_page.INFUSION.ANCIENT=§nAncient Stone§r<BR>The strange, ancient stone you have found has some interesting mystical properties. You believe that when used to craft the pillars for an infusion altar that it will help reduce the amount of essentia required during infusion crafting and speed up the crafting process by a small amount. It will however increase instability slightly.<BR>Should you find pedestals crafted from the same material each one will also help reduce essentia costs.
@@ -1381,7 +1385,7 @@ tc.research_page.JARBRAIN.1=You have discovered a way to reanimate a zombie brai
 tc.research_name.HOVERHARNESS=Thaumostatic Harness
 tc.research_text.HOVERHARNESS=Is it a bird?
 tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>The harness is powered by vis so it will need to be charged. A single unit of Aer and Ignis vis provides enough power for 1 second of flight. The harness has an internal buffer that stores enough vis for 5 minutes of flight.<BR>Pressing 'H' while wearing the harness activates or deactivates it.
-tc.research_page.HOVERHARNESS.2=It can be enchanted with the Haste enchant to increase the speed at which you move while flying.<BR>The harness will not reduce your block breaking speed while you are flying with it.
+tc.research_page.HOVERHARNESS.2=It can be enchanted with the Haste enchant to increase the speed at which you move while flying.<BR>The harness will not reduce your block breaking speed while you are flying with it. It is also possible to sprint for increased speed, but this greatly increases the vis consumed.
 #
 tc.research_name.HOVERGIRDLE=Thaumostatic Girdle
 tc.research_text.HOVERGIRDLE=Is it a plane?
@@ -1806,6 +1810,11 @@ tc.research_page.GOLEMBREAKER.1=By replacing a golems arms with a set of powerfu
 tc.research_name.GOLEMCOMBATADV=Improved Golem Combat
 tc.research_text.GOLEMCOMBATADV=Better Faster Stronger
 tc.research_page.GOLEMCOMBATADV.1=You can now craft specialized golem weaponry and armor to make them much more effective in combat.<BR>§9This research unlocks additional golem parts§0.
+#
+tc.research_name.ARCANEPATTERNCRAFTER=Arcane Pattern Crafter
+tc.research_text.ARCANEPATTERNCRAFTER=Automated pattern crafting
+tc.research_page.ARCANEPATTERNCRAFTER.1=Certain objects are very simple to craft - simply place the same type of item in a pattern and you get what you want. For example combining 2 wood planks to make a stick, or a single ingot making 9 nuggets. This process is so simple you have found a way to automate it.<BR>The Arcane Pattern Crafter needs an inventory above and below it. It will search the inventory above it for components and try to combine whatever it finds in the pattern you have selected. If this results in a valid crafting operation it will place the result in the container below it. 
+tc.research_page.ARCANEPATTERNCRAFTER.2=You can change the pattern by clicking on the brass dial on the front of the device.<BR>A redstone signal will disable the device.
 #
 #
 # Eldritch 
