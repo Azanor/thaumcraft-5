@@ -13,7 +13,7 @@ enchantment.infusion.DESTRUCTIVE=破壊的
 enchantment.infusion.BURROWING=抜け穴
 enchantment.infusion.SOUNDING=聴音
 enchantment.infusion.REFINING=自動精錬
-enchantment.infusion.ARCING=電弧
+enchantment.infusion.ARCING=弧斬
 enchantment.infusion.ESSENCE=エッセンス狩り
 #
 # Potions
@@ -275,6 +275,7 @@ tile.paving_stone.barrier.name=結界石
 tile.paving_stone.travel.name=旅の敷石
 tile.flesh_block.name=肉塊ブロック
 tile.redstone_relay.name=レッドストーンリレー
+tile.pattern_crafter.name=神秘の定形組立器
 #
 # Misc
 tile.hole.name=次元の裂け目
@@ -397,6 +398,7 @@ item.gear.void.name=虚無鋼歯車
 item.wisp_essence.name=天上のエッセンス
 item.fabric.name=魔法の布
 item.crystal_essence.name=結晶化エッセンス
+item.crystal_essence.balanced.name=均衡の結晶化エッセンス
 item.wispy_essence.name=ウィスプのエッセンス
 item.phial.empty.name=薬瓶
 item.phial.filled.name=エッセンシアの小瓶
@@ -516,7 +518,7 @@ item.baubles.10.name=高価な指輪
 item.baubles.11.name=高価な腰帯
 item.amulet_vis.text=ホットバーの杖を充填する
 item.amulet_vis.0.name=魔力石
-item.amulet_vis.1.name=魔力貯蔵の護符
+item.amulet_vis.1.name=魔力の護符
 item.girdle_hover.name=魔動制御帯
 item.ring_verdant.name=新緑の心の指輪
 item.verdant.life.text=生命を与えるもの
@@ -848,6 +850,8 @@ golem.prop.lock=印章の所有者の使役するゴーレムのみがこの作�
 golem.prop.unlock=全てのゴーレムがこの作業を行う
 golem.prop.redon=レッドストーンに反応
 golem.prop.redoff=レッドストーン信号を無視する
+golem.prop.exist=コンテナに予めアイテムが必要
+golem.prop.leave=少なくとも1つ残す
 #
 tile.researchtable.noink.0=インクを使い果たした!
 tile.researchtable.noink.1=筆記具のインクを補充しよう！
@@ -1316,7 +1320,7 @@ tc.research_page.GOGGLES.1=ソーモメーターの基本原理を元にして�
 #
 tc.research_name.DIOPTRA=魔導測量儀
 tc.research_text.DIOPTRA=オーラを暴く
-tc.research_page.DIOPTRA.1=この複雑な装置は魔導師が周りを取り囲むオーラをシンプル且つはっきりと見えるようにするものである。<BR>単純に適性な種類の結晶片を装置上部へ挿入することで、半径13チャンク以内のオーラ分布を描画する。<BR>またvisの供給源がある場合は火花として表示される。それほど厳密ではないが、そのような供給源や興味深い場所を見つけるのに役立つ。
+tc.research_page.DIOPTRA.1=この複雑な装置は魔導師が周りを取り囲むオーラをシンプル且つはっきりと見えるようにするものである。<BR>単純に適性な種類の結晶片を装置上部へ挿入することで、半径13チャンク以内のオーラ分布を描画する。<BR>またvisの供給源がある場合は火花として表示される。それほど厳密ではないが、そのような供給源や興味深い場所を見つけるのに役立つ。<BR>コンパレータを接続することで、それが設置されたチャンクのオーラ量を監視することもできる。
 
 #
 tc.research_name.BOOTSTRAVELLER=旅人の靴
@@ -1361,7 +1365,7 @@ tc.research_name.ARCANESTONE=神秘の石
 tc.research_text.ARCANESTONE=魔法的に強化された建築資材
 tc.research_page.ARCANESTONE.1=神秘の石はたくさんの複雑な神秘的構造物の構成素材である。これは普通の石を火の元素で焼きなめし、大地の元素で強化したものである。
 #
-tc.research_name.INFUSION=注入クラフト
+tc.research_name.INFUSION=注入の儀式
 tc.research_text.INFUSION=神秘的融合
 tc.research_page.INFUSION.1=神秘的クラフトと錬金術は同じくらい成功した。更に良い何かが本当に強力な神秘的物品を作るために必要になる。<BR>注入クラフトは単一の物品に魔法のエネルギーと他の物品の特性を注入する過程である。例えば、石に§6Aer§0のvisと羽根を注入することでとても軽い石がもたらされる。<BR>魔術の常として、事はそれほど単純ではない。注入クラフトを始めるためにすらいくつかの準備が必要になる。ルーンのマトリクス、神秘の台座、そしてエッセンシアの形で魔法を供給する準備が。
 tc.research_page.INFUSION.2=ルーンのマトリクスを一般的に注入の祭壇として知られる構造物に正しく配置したら、クラフトを始められる。<BR>マトリクスの下に位置する中央の台座は注入を行うアイテムを置く場所である。また注入に使用するアイテムやブロックを配置するためのもういくつかの台座が祭壇の周りに必要になる。最後に必要量のvisを保持するエッセンシアの入れ物として保護瓶かそれに類するものが必要になる。<BR>すべてが揃ったら、ルーンのマトリクスを杖でクリックしてクラフトの過程を開始できる。<BR>クラフトの最初のステップでは、近くの供給源からエッセンシアが
@@ -1382,7 +1386,7 @@ tc.research_page.JARBRAIN.1=ゾンビの脳を生き返らせ、それを独自�
 tc.research_name.HOVERHARNESS=魔動制御装備
 tc.research_text.HOVERHARNESS=鳥か？
 tc.research_page.HOVERHARNESS.1=ついに飛行の秘密の解明に成功した。魔動力学的エネルギーを用いて魔導力場に自身を固定する装具を作り出し、重力に逆らうことに成功した。量子とクォークが何かしら関係していると考えられる。<BR>この装備はVisによって稼働するため、それを充填する必要がある。1単位ごとのAerとIgnisのVisで1秒間の飛行が可能。この装備には5分間の飛行に充分な量の内部バッファが内蔵されている。<BR>装備して[H]キーを押すことで起動もしくは停止できる。
-tc.research_page.HOVERHARNESS.2=これには飛行中の速度を向上させるため迅速のエンチャントを付与することができる。<BR>この装備で飛んでいる間、ブロックの破壊速度は低減されない。
+tc.research_page.HOVERHARNESS.2=これには飛行中の速度を向上させるため迅速のエンチャントを付与することができる。<BR>この装備で飛んでいる間、ブロックの破壊速度は低減されない。またダッシュするように加速することもできるが、Vis消費量が大幅に増加する。
 #
 tc.research_name.HOVERGIRDLE=魔動制御帯
 tc.research_text.HOVERGIRDLE=飛行機か？
@@ -1499,7 +1503,7 @@ tc.research_page.INFUSIONENCHANTMENT.BURROWING=§n抜け穴§r<BR>このツー�
 tc.research_page.INFUSIONENCHANTMENT.REFINING=§n自動精錬§r<BR>鉱石を採掘する時、代わりに自然鉱物クラスターが得られることがある。エンチャントのランクが上がれば確率も増大する。<BR>§lランク§r: 1-4<BR>§l対象§r: つるはし
 tc.research_page.INFUSIONENCHANTMENT.SOUNDING=§n聴音§r<BR>このツールでブロックを右クリックすることで周辺に波動を放つ。この波動は近くに埋もれているどんな鉱石でも見つけ出すことができる。この能力を使用するとツールが少し損耗する。<BR>§lランク§r: 1-4<BR>§l対象§r: つるはし
 tc.research_page.INFUSIONENCHANTMENT.DESTRUCTIVE=§n破壊的§r<BR>このツールでブロックを破壊するとそれを取り囲む8個のブロックも同時に破壊する。追加破壊したブロックにつき、それを逐一破壊した時と同量の耐久値が消耗される。<BR>§lランク§r: なし<BR>§l対象§r: 斧、つるはし、シャベル
-tc.research_page.INFUSIONENCHANTMENT.ARCING=§n電弧§r<BR>このエンチャントが付与された武器で敵を打つと、近くの標的を疾風の稲妻が噛み付いて武器の半分のダメージを与える。追加のランクは追加対象の数を増やし、また範囲も増大させる。<BR>§lランク§r: 1-4<BR>§l対象§r: 武器
+tc.research_page.INFUSIONENCHANTMENT.ARCING=§n弧斬§r<BR>このエンチャントが付与された武器で敵を打つと、近くの標的を疾風の刃が噛み付いて武器の半分のダメージを与える。追加のランクは追加対象の数を増やし、また範囲も増大させる。<BR>§lランク§r: 1-4<BR>§l対象§r: 武器
 tc.research_page.INFUSIONENCHANTMENT.ESSENCE=§nエッセンス狩り§r<BR>モンスターをこれがエンチャントされた武器で倒した時、そのエッセンスを結晶の形でドロップすることがある。エンチャントのランクが上がるごとに結晶のドロップ率も増大し、またドロップ数も増加する。<BR>§lランク§r: 1-5<BR>§l対象§r: 武器
 #
 tc.research_name.VERDANTHEART=新緑の心の指輪
@@ -1809,6 +1813,11 @@ tc.research_page.GOLEMBREAKER.1=ゴーレムの腕を強力な、空圧式ダイ
 tc.research_name.GOLEMCOMBATADV=ゴーレムの戦闘改善
 tc.research_text.GOLEMCOMBATADV=より良く早く強く
 tc.research_page.GOLEMCOMBATADV.1=ゴーレムを兵器や武器の扱いに特化させ、戦闘を効果的に行わせる。<BR>§9この研究は追加のゴーレム部品を開放する§0。
+#
+tc.research_name.ARCANEPATTERNCRAFTER=神秘の定形組立器
+tc.research_text.ARCANEPATTERNCRAFTER=全自動定形クラフト
+tc.research_page.ARCANEPATTERNCRAFTER.1=ある種の物品は作成がとても単純で――同種のアイテムを特定のパターンに並べるだけで欲しいものが作れる。例えば木材2つを組み合わせて棒を作ったり、1つのインゴットから9つの鋳塊を作ったり。このプロセスを自動化する方法の探求は非常に簡単だった。<BR>神秘の定形組立器はその上と下にインベントリが必要になる。上部に接するインベントリからクラフト素材を探し、選択されたパターンでクラフトを試みる。それが正しいパターンならばクラフト作業が実行され、生成物が下のコンテナに収納される。
+tc.research_page.ARCANEPATTERNCRAFTER.2=パターンを変更するには装置前部にある真鍮のダイヤルをクリックすれば良い。<BR>レッドストーン信号はこの装置を停止させる。
 #
 #
 # Eldritch 
