@@ -275,6 +275,7 @@ tile.paving_stone.barrier.name=結界石
 tile.paving_stone.travel.name=旅行路磚
 tile.flesh_block.name=血肉方塊
 tile.redstone_relay.name=紅石繼能器
+tile.pattern_crafter.name=奧術模板化合成器
 #
 # Misc
 tile.hole.name=次元裂痕
@@ -397,6 +398,7 @@ item.gear.void.name=虛無鋼齒輪
 item.wisp_essence.name=源之華
 item.fabric.name=魔力布匹
 item.crystal_essence.name=源之晶
+item.crystal_essence.balanced.name=均衡源晶
 item.wispy_essence.name=源之縷
 item.phial.empty.name=玻璃管型瓶
 item.phial.filled.name=要素管型瓶
@@ -499,24 +501,24 @@ item.thaumostatic_harness.name=奧術韁繩
 item.traveller_boots.name=旅人之靴
 
 # Baubles
-item.amulet_runic.0.name=符文護盾護身符
-item.amulet_runic.1.name=應急護盾護身符
+item.amulet_runic.0.name=符文護盾護符
+item.amulet_runic.1.name=應急護盾護符
 item.ring_runic.0.name=防護戒指
 item.ring_runic.1.name=符文防護戒指
 item.ring_runic.2.name=充能防護戒指
 item.ring_runic.3.name=活力防護戒指
 item.girdle_runic.0.name=符文防護腰帶
 item.girdle_runic.1.name=動力防護腰帶
-item.baubles.0.name=平凡護身符
+item.baubles.0.name=平凡項鍊
 item.baubles.1.name=平凡戒指
 item.baubles.2.name=平凡腰帶
 item.baubles.3.name=%TYPE之學徒戒指
-item.baubles.9.name=精緻護身符
+item.baubles.9.name=精緻項鍊
 item.baubles.10.name=精緻戒指
 item.baubles.11.name=精緻腰帶
 item.amulet_vis.text=為快捷欄中的法杖充魔
 item.amulet_vis.0.name=魔石
-item.amulet_vis.1.name=儲魔護身符
+item.amulet_vis.1.name=魔力符石
 item.girdle_hover.name=祕法腰索
 item.ring_verdant.name=蔥鬱的脈動
 item.verdant.life.text=生命供給
@@ -848,6 +850,8 @@ golem.prop.lock=指定與該印記相同擁有者的傀儡執行工作
 golem.prop.unlock=所有傀儡皆能執行這項工作
 golem.prop.redon=反映紅石
 golem.prop.redoff=忽略紅石訊號
+golem.prop.exist=限定為容器中已存在之項目
+golem.prop.leave=至少保留一項物品
 #
 tile.researchtable.noink.0=墨水已耗盡！
 tile.researchtable.noink.1=請補充新的筆與墨。
@@ -1097,7 +1101,7 @@ tc.research_page.PLANTS.5=§l§n蘊靈菇§r<BR><IMG>thaumcraft:textures/researc
 #
 tc.research_name.CRYSTALFARMER=結晶農場
 tc.research_text.CRYSTALFARMER=幫助它們成長
-tc.research_page.CRYSTALFARMER.1=你所做的一系列發現讓你學會了如何把魔力碎片變成可以種植在岩石上的魔力結晶。<BR>不僅如此，你還學會了如何在不弄碎整塊結晶的前提下採集一片結晶——只要拿著法杖對著它右擊即可。
+tc.research_page.CRYSTALFARMER.1=一連串的研究使你學會了如何把魔力碎片變成可以種植在岩石上的魔力結晶。<BR>不僅如此，你還學會了如何在不弄碎整塊結晶的前提下採集一片結晶——只要拿著法杖對著它右擊即可。
 #
 tc.research_name.RESEARCHER1=研究專長
 tc.research_text.RESEARCHER1=知識就是力量
@@ -1278,7 +1282,7 @@ tc.research_page.WANDPED.1=在旅途中為法杖補充魔立雖然不錯，但�
 #
 tc.research_name.VISAMULET=魔力隨時補充
 tc.research_text.VISAMULET=勤儉節約，吃穿不缺。
-tc.research_page.VISAMULET.1=大多數時候，對秘術使來說，有一根法杖就遠遠滿足需求了，但有時候它儲存的魔力卻偏偏不夠用。多帶一支法杖就能解決問題，但實驗表明另有他法。<BR>製作出可以自靈氣中汲取魔力的護身符。你就能隨時為法杖和其他物品充魔<BR>護符會依序對快捷欄、飾品欄、以及盔甲欄的法杖或其他物品進行充魔。只對能在奧術充魔基座上充魔的物品有效。
+tc.research_page.VISAMULET.1=大多數時候，對秘術使來說，有一根法杖就遠遠滿足需求了，但有時候它儲存的魔力卻偏偏不夠用。多帶一支法杖就能解決問題，但實驗表明另有他法。<BR>製作出可以自靈氣中汲取魔力的護符。你就能隨時為法杖和其他物品充魔<BR>護符會依序對快捷欄、飾品欄、以及盔甲欄的法杖或其他物品進行充魔。只對能在奧術充魔基座上充魔的物品有效。
 #
 tc.research_name.WORKBENCHCHARGER=奧術工作台充魔架
 tc.research_text.WORKBENCHCHARGER=奧術合成簡化
@@ -1315,7 +1319,7 @@ tc.research_page.GOGGLES.1=基於秘術感測儀的原理，你優化其功能�
 #
 tc.research_name.DIOPTRA=秘術經緯儀
 tc.research_text.DIOPTRA=揭露靈氣的秘密
-tc.research_page.DIOPTRA.1=這台複雜的設備能夠讓秘術使以一種簡單而明瞭的方式察看周圍的靈氣。<BR>只需在設備頂部插入適當類型的魔力碎片。就能夠顯示出直徑為13個區塊範圍內的靈氣分佈。<BR>有時候它會以閃爍的形式標示出視圖中的魔力源頭。儘管並不是很精確，但用來尋找這些靈氣源頭或者特殊遺跡時它能派上很大用場。
+tc.research_page.DIOPTRA.1=這台複雜的設備能夠讓秘術使以一種簡單而明瞭的方式察看周圍的靈氣。<BR>只需在設備頂部插入適當類型的魔力碎片。就能夠顯示出直徑為13個區塊範圍內的靈氣分佈。<BR>有時候它會以閃爍的形式標示出視圖中的魔力源頭。儘管並不是很精確，但用來尋找這些靈氣源頭或者特殊遺跡時它能派上很大用場。<BR>在其側面安裝紅石比較器可以得知該處的靈氣等級。
 #
 tc.research_name.BOOTSTRAVELLER=旅人之靴
 tc.research_text.BOOTSTRAVELLER=專業行走設備
@@ -1380,7 +1384,7 @@ tc.research_page.JARBRAIN.1=你找到了能把殭屍的大腦復活，用以達�
 tc.research_name.HOVERHARNESS=奧術韁繩
 tc.research_text.HOVERHARNESS=那是一隻鳥？
 tc.research_page.HOVERHARNESS.1=終於，你揭開了飛行的秘密。你創造出一種通過使用奧術能量將自身錨定在神秘力場中，因此幫助你擺脫重力的韁繩。你認為量子和夸克在某種程度上也參與了這個過程。<BR>韁繩需要透過魔力來飛行。每單位的Aer和Ignis提供飛行1秒所需的能量。奧術韁繩內可以儲存足以飛行五分鐘的魔容量。<BR>當穿戴奧術韁繩時按下「H」以開啟或關閉其功能。
-tc.research_page.HOVERHARNESS.2=急迫附魔能夠加快奧術韁繩的飛行速度。<BR>使用奧術韁繩飛行並不會影響你破壞方塊的速度。
+tc.research_page.HOVERHARNESS.2=急迫附魔能夠加快奧術韁繩的飛行速度。<BR>使用奧術韁繩飛行並不會影響你破壞方塊的速度。另外在飛行時也能進行衝刺，但是會大量增加魔力消耗量。
 #
 tc.research_name.HOVERGIRDLE=祕法腰索
 tc.research_text.HOVERGIRDLE=那是一架飛機？
@@ -1473,7 +1477,7 @@ tc.research_page.RUNICARMOR.2=傷害量承受池隨著時間推移會自動回�
 #
 tc.research_name.RUNICAUGMENTATION=拓展符文護盾
 tc.research_text.RUNICAUGMENTATION=護盾全開
-tc.research_page.RUNICAUGMENTATION.1=嵌有符文護盾的戒指，護身符，腰帶都非常好用，但你是否確定能將這只防護附魔應用於其他物品呢？<BR>當然你可以的！利用秘術學法術(c) (專利申請中)，你將能夠將符文護盾鑲入多數魔力穩定的裝備。<BR>魔力穩定的裝備是指以秘術錠、魔力布料或其他類似的魔導材料製成的裝備。<BR>只有單層符文護盾能夠鑲嵌到物品上，但你可以對其進行多次附魔。
+tc.research_page.RUNICAUGMENTATION.1=嵌有符文護盾的戒指，項鍊，腰帶都非常好用，但你是否確定能將這只防護附魔應用於其他物品呢？<BR>當然你可以的！利用秘術學法術(c) (專利申請中)，你將能夠將符文護盾鑲入多數魔力穩定的裝備。<BR>魔力穩定的裝備是指以秘術錠、魔力布料或其他類似的魔導材料製成的裝備。<BR>只有單層符文護盾能夠鑲嵌到物品上，但你可以對其進行多次附魔。
 tc.research_page.RUNICAUGMENTATION.2=然而這非常昂貴，消耗的源質量會隨級別而上升。所需的世界鹽同防護級別成正比，耗費的源質則指數級增加。你也可以對像護盾戒指這樣已經做好的符文物品附魔，然而其源質消耗會基於已存在的符文總量來計算，這會使得該過程的消耗異常昂貴。
 #
 tc.research_name.RUNICSPECIAL=專業符文飾品
@@ -1481,7 +1485,7 @@ tc.research_text.RUNICSPECIAL=為充魔戒指充魔！
 tc.research_page.RUNICSPECIAL.1=§n充魔防護戒指§r<BR>這是防護戒指的一種特殊版本。<BR>較改造前的戒指蓄能量略少些，但是它能減少符文護盾1/4的充魔時間。<BR>你可以戴上不止一隻戒指，可以讓正常充魔時間減半。
 tc.research_page.RUNICSPECIAL.2=§n活力防護戒指§r<BR>這是防護戒指的一種特殊版本。<BR>較改造前的戒指蓄能量略少些，但當你你的符文護盾被打破時它能夠釋放出一波維持數秒的回復能量。<BR>在20s內只能啟動一次這種效果。
 tc.research_page.RUNICSPECIAL.3=§n動力防護腰帶§r<BR>這是防護腰帶的一種特殊版本。<BR>較改造前的腰帶蓄能量略少些，但當護盾被打破時會爆發出一陣能夠傷害並推開附近所有物品的衝擊波。<BR>在20s內只能啟動一次這種效果。
-tc.research_page.RUNICSPECIAL.4= §n應急護盾護身符§r<BR>這是護盾護身符的一種特殊版本。<BR>較改造前的護身符蓄能量略少些，但當護盾被打破時這項升級能夠立即再為護盾增加8點能量。<BR>每分鐘只能啟動一次這種效果。
+tc.research_page.RUNICSPECIAL.4= §n應急護盾護符§r<BR>這是護盾護符的一種特殊版本。<BR>較改造前的護符蓄能量略少些，但當護盾被打破時這項升級能夠立即再為護盾增加8點能量。<BR>每分鐘只能啟動一次這種效果。
 #
 tc.research_name.REDSTONERELAY=紅石繼能器
 tc.research_text.REDSTONERELAY=魔力紅石的交互作用
@@ -1490,15 +1494,15 @@ tc.research_page.REDSTONERELAY.2=就像紅石中繼器，其輸出端會標有�
 #
 tc.research_name.INFUSIONENCHANTMENT=注魔式附魔
 tc.research_text.INFUSIONENCHANTMENT=秘術附魔
-tc.research_page.INFUSIONENCHANTMENT.1=元素工具的實用性已受到證實，但是未能將其能力作為附魔使用… 而這只到目前為止。 你發現了能將這些能力套用在任何工具及武器上的技術，而不受限於秘術工具。<BR>某些附魔特性可以疊加，但是每級附魔都會增加源質消耗。<BR>每項不同的注魔式附魔也會增加33%消耗，並機率性的使工具產生扭曲。
+tc.research_page.INFUSIONENCHANTMENT.1=元素工具的實用性已受到證實，但是未能將其能力作為附魔使用… 而這只到目前為止。 你發現了能將這些能力套用在任何工具及武器上的技術，而不受限於秘術工具。<BR>某些附魔特性可以疊加，但是每級附魔都會增加源質消耗。<BR>每項不同的注魔式附魔也會增加33%消耗，並機率性的使工具產生扭曲。
 tc.research_page.INFUSIONENCHANTMENT.2=部分注魔式附魔只能以特定的工具或武器為對象，詳細內容註記於下文。<BR>經過注魔附魔的工具依然能施加一般附魔，反之亦然。<BR>就如同元素工具，可以藉由潛行來抑制這些工具的特殊能力。
-tc.research_page.INFUSIONENCHANTMENT.COLLECTOR=§n收集§r<BR>這項附魔工具採下的所有物品都會自動飄向你。<BR>§lRanks§r：無<BR>§l對象§r：斧、鎬、鏟、武器。
-tc.research_page.INFUSIONENCHANTMENT.BURROWING=§n鑽掘§r<BR>採集方塊時由最遠的相同方塊開始採收，而非你正在破壞的方塊。<BR>§lRanks§r：無<BR>§l對象§r：斧、鎬。
-tc.research_page.INFUSIONENCHANTMENT.REFINING=§n精煉§r<BR>採集礦物時有機會掉落原礦簇，其機率取決於等級。<BR>§lRanks§r：I~IV<BR>§l對象§r：鎬。
-tc.research_page.INFUSIONENCHANTMENT.SOUNDING=§n聲納§r<BR>以此附魔工具在方塊上右鍵可以放出一陣探測波，顯示出周圍埋藏的礦物。使用時會稍微消耗耐久。<BR>§lRanks§r：I~IV<BR>§l對象§r：鎬。
-tc.research_page.INFUSIONENCHANTMENT.DESTRUCTIVE=§n毀滅§r<BR>當你破壞方塊時，周圍8個類似的方塊也會被一併破壞。每多破壞一個方塊都會減少相對應的耐久值。<BR>§lRanks§r：無<BR>§l對象§r：斧、鎬、鏟。
-tc.research_page.INFUSIONENCHANTMENT.ARCING=§n斬弧§r<BR>當你以一把附有這項附魔的武器砍向敵人，弧狀的風刃會對周圍的其他敵人造成一半的傷害。依據附魔等級決定效果的目標數。<BR>§lRanks§r：I~IV<BR>§l對象§r：武器。
-tc.research_page.INFUSIONENCHANTMENT.ESSENCE=§n元素收割§r<BR>施有這項附魔的武器在擊殺生物時有機會掉落該生物身上要素的結晶。依據附魔等級決定機率和掉落量。<BR>§lRanks§r：I~V<BR>§l對象§r：武器。
+tc.research_page.INFUSIONENCHANTMENT.COLLECTOR=§n收集§r<BR>這項附魔工具採下的所有物品都會自動飄向你。<BR>§l附魔等級§r：無<BR>§l附魔對象§r：斧、鎬、鏟、武器。
+tc.research_page.INFUSIONENCHANTMENT.BURROWING=§n鑽掘§r<BR>採集方塊時由最遠的相同方塊開始採收，而非你正在破壞的方塊。<BR>§l附魔等級§r：無<BR>§l附魔對象§r：斧、鎬。
+tc.research_page.INFUSIONENCHANTMENT.REFINING=§n精煉§r<BR>採集礦物時有機會掉落原礦簇，其機率取決於等級。<BR>§l附魔等級§r：I~IV<BR>§l附魔對象§r：鎬。
+tc.research_page.INFUSIONENCHANTMENT.SOUNDING=§n聲納§r<BR>以此附魔工具在方塊上右鍵可以放出一陣探測波，顯示出周圍埋藏的礦物。使用時會稍微消耗耐久。<BR>§l附魔等級§r：I~IV<BR>§l附魔對象§r：鎬。
+tc.research_page.INFUSIONENCHANTMENT.DESTRUCTIVE=§n毀滅§r<BR>當你破壞方塊時，周圍8個類似的方塊也會被一併破壞。每多破壞一個方塊都會減少相對應的耐久值。<BR>§l附魔等級§r：無<BR>§l附魔對象§r：斧、鎬、鏟。
+tc.research_page.INFUSIONENCHANTMENT.ARCING=§n斬弧§r<BR>當你以一把附有這項附魔的武器砍向敵人，弧狀的風刃會對周圍的其他敵人造成一半的傷害。依據附魔等級決定效果的目標數。<BR>§lRanks§r：I~IV<BR>§l附魔對象§r：武器。
+tc.research_page.INFUSIONENCHANTMENT.ESSENCE=§n元素收割§r<BR>施有這項附魔的武器在擊殺生物時有機會掉落該生物身上要素的結晶。依據附魔等級決定機率和掉落量。<BR>§l附魔等級§r：I~V<BR>§l附魔對象§r：武器。
 #
 tc.research_name.VERDANTHEART=蔥鬱的脈動
 tc.research_text.VERDANTHEART=治癒你的煩惱
@@ -1805,6 +1809,11 @@ tc.research_page.GOLEMBREAKER.1=透過將傀儡的手腕換為強大的鑽石刀
 tc.research_name.GOLEMCOMBATADV=強化傀儡戰力
 tc.research_text.GOLEMCOMBATADV=更強，更壯！
 tc.research_page.GOLEMCOMBATADV.1=你現在能透過製造特製的傀儡武器及裝甲來使傀儡更加驍勇善戰。<BR>§9此研究解鎖了額外的傀儡部件。§0
+#
+tc.research_name.ARCANEPATTERNCRAFTER=奧術模板化合成器
+tc.research_text.ARCANEPATTERNCRAFTER=自動模板合成
+tc.research_page.ARCANEPATTERNCRAFTER.1=有些物件合成相當簡單——只需將相同物品排成固定形狀。例如將兩個木材製成木棍，或是將一個金屬錠分成九粒。你可以將如此單純的製程自動化。<BR>奧術模板化合成器的上方及下方都需要安置容器。他會試著將上方容器中的物品依照你設定的模板進行合成。若合成表有效，則完成品會送入下方容器內。
+tc.research_page.ARCANEPATTERNCRAFTER.2=你可以右鍵轉動前方的黃銅轉盤來切換模板。<BR>紅石訊號可以停止此裝置。
 #
 #
 # Eldritch 
