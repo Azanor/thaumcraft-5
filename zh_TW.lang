@@ -609,7 +609,7 @@ item.creative_placer.obelisk.name=方尖碑設置器
 item.creative_placer.node.name=節點設置器
 item.creative_placer.caster.name=遠古自動施術裝置設置器
 item.creative_flux_sponge.name=咒波海綿
-item.jar_brace.name=黃銅套蓋
+item.jar_brace.name=黃銅套環
 #
 # Golem
 item.module.vision.name=視覺組件
@@ -899,6 +899,7 @@ tc.handmirrorlinkedto=連結到
 tc.handmirrorlinked=連結已建立。
 tc.handmirrorerror=目標魔鏡重置或遺失，連結損壞。
 tc.researcherror=你淺陋的學識不足以理解箇中奧秘。
+tc.researchexists=你已具備這項知識。
 tc.discoveryerror=你必須先探索%1$s以解開其奧妙之處。
 tc.discoveryunknown=未知理論
 tc.discoveryprogress=% 完成
@@ -1597,7 +1598,7 @@ tc.research_text.JARLABEL=儲存和整理要素源質
 tc.research_page.JARLABEL.1=可以用§l封罐§r儲存要素源質。<BR>只要將封罐放置在地上，就能夠非常明瞭直觀地儲存源質。由於魔法的力量，使用或者存放封罐中的源質都是小菜一碟的事情。<BR>手持封罐直接點擊奧術蒸餾器就可以將源質裝進罐中。你也可以使用要素管型瓶來填充或清空罐子。<BR>此外它們還非常便於大量且密集地進行源質儲存。
 tc.research_page.JARLABEL.2=空手狀態下按住潛行鍵(Shift)右擊封罐或者蒸餾器能夠清空它們。<BR>只要罐子裡裝有源質，你就可以貼上§l封罐標籤§r。<BR>標籤可以將罐子鎖定為接收特定類型的要素源質，而不再接收其他類型的源質。<BR>空手對著罐子貼著標籤的一面按住潛行右鍵可以取下標籤。注意如果誤點了其他面會清空罐子裡裝的源質。
 tc.research_page.JARLABEL.3=你可以對著空罐子使用與某種要素綁定過的標籤(在合成台中合成裝有要素的管型瓶與標籤)，這樣空罐子會自動綁定到這種要素，變成對應標籤的封罐。而標籤上的要素僅僅只是標記，並不會消耗源質。<BR>對著裝滿了源質的罐子使用，則會把罐子變成和其容納要素相對應的標籤封罐。<LINE>綁定過某種要素的標籤只需要放入合成網格進行一次合成就能變回空白標籤。
-tc.research_page.JARLABEL.4=你可以製作一個黃銅套蓋套在封罐上。如此可以避免源質從管道之外的路徑進出封罐。<BR>取下罐子的同時會拆除封罐上的套蓋，並以物品形式掉落。
+tc.research_page.JARLABEL.4=你可以製作一個黃銅套環套在封罐上。以避免源質從管道之外的路徑進出封罐。<BR>取下罐子的同時會拆除封罐上的套蓋，並以物品形式掉落。
 #
 tc.research_name.ETHEREALBLOOM=天域花
 tc.research_text.ETHEREALBLOOM=純潔的花朵
