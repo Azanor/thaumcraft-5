@@ -638,7 +638,7 @@ item.warping=扭曲
 item.capacity.text=容量
 item.chargebonus.text=充能
 #
-# Golems 
+# Golems
 ########################
 # Traits
 golem.trait.deft=灵巧
@@ -680,7 +680,7 @@ golem.trait.text.ranged=这种傀儡具有远程攻击能力.
 golem.trait.blastproof=防爆
 golem.trait.text.blastproof=这种傀儡具有较高的爆炸抗性.
 #
-# Props 
+# Props
 golem.material.wood=宏伟之木傀儡
 golem.material.text.wood=由宏伟之木制成,轻而强度不足.
 golem.material.iron=铁质傀儡
@@ -1021,7 +1021,7 @@ tc.aspect.desiderium=愿望,意愿,渴望,需求
 tc.aspect.machina=机械,机构
 tc.aspect.vinculum=陷阱,监禁
 tc.aspect.permutatio=贸易,交换
-#  
+#
 # Research categories
 tc.research_category.BASICS=基本信息
 tc.research_category.THAUMATURGY=神秘学
@@ -1029,7 +1029,7 @@ tc.research_category.ALCHEMY=炼金术
 tc.research_category.ARTIFICE=炼化学
 tc.research_category.GOLEMANCY=傀儡学
 tc.research_category.ELDRITCH=邪术学
-#  
+#
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
 # <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
@@ -1040,8 +1040,8 @@ tc.research_category.ELDRITCH=邪术学
 #                    - y location of sub-image in png
 #                    - x size of sub-image (255 if full x size of png must be used)
 #                    - y size of sub-image (255 if full y size of png must be used)
-#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)   
-#               Examples: 
+#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)
+#               Examples:
 #                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
 #                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
 #
@@ -1136,7 +1136,7 @@ tc.research_page.WARP.1= §n扭曲§r<BR>许多人认为人类不应当涉足魔
 tc.research_page.WARP.2=扭曲通常表现为心神恍惚,肉体疼痛或者出现幻觉.<BR>这些症状并不仅仅只是精神疾患,有时候视野中会涌现出有用的知识,而幻觉看上去骇人地真实.
 tc.research_page.WARP.3=§n咒波§r<BR>倘若说扭曲是魔力紊乱在精神上的表现,那么咒波就是其物理上的表现.<BR>咒波能够以三种形式表现出来:液态,气态,以及身体疾患的状态.前两种是令大多数神秘使都烦恼过的问题,它们通常是魔力滥用的后果,并不特别难以清除,但它们常常会导致第三种形式出现: 以身体疾患为表现的咒流.<BR>咒流并不特别危险,但一旦神秘使染上这种疾病,聚集魔力就会变得更加困难,导致他不得不得在同样的操作中耗费更多魔力.
 #
-# Thaumaturgy 
+# Thaumaturgy
 #######################
 tc.research_name.BASICTHAUMATURGY=基础法杖工艺
 tc.research_text.BASICTHAUMATURGY=你的第一柄工具
@@ -1299,7 +1299,7 @@ tc.research_name.NODESTABLE=节点稳定器
 tc.research_text.NODESTABLE=不以规矩 不能成方圆
 tc.research_page.NODESTABLE.1=灵气节点有着相互吸引并合二为一的倾向,然而你并不希望发生这种事.这个设备完美地解决了这个问题.<BR>只需把它简单地放置在灵气节点下方,然后灵气节点就会受困于它产生的魔法气泡中.灵气节点将不会再被其他节点所吸引,也不会吸引其他的节点.
 #
-# Artifice 
+# Artifice
 #######################
 tc.research_name.BASICARTIFACE=基础炼化学
 tc.research_text.BASICARTIFACE=必需之物
@@ -1488,7 +1488,7 @@ tc.research_page.RUNICSPECIAL.2=§n活力防护指环§r<BR>这是防护指环�
 tc.research_page.RUNICSPECIAL.3=§n动力防护腰带§r<BR>这是防护腰带的一种特殊版本.<BR>较改造前的腰带充能量略少些,但当护盾被打破时会爆发出一阵能够伤害并推开附近所有物品的冲击波.<BR>在20s内只能激活一次这种效果.
 tc.research_page.RUNICSPECIAL.4= §n应急护盾护身符§r<BR>这是护盾护身符的一种特殊版本.<BR>较改造前的护身符充能量会略微少些,但当护盾被打破时这项升级能够立即再为护盾增加8点能量.<BR>在1分钟内只能激活一次这种效果.
 #
-tc.research_name.REDSTONERELAY=红石中继器
+tc.research_name.REDSTONERELAY=红石继能器
 tc.research_text.REDSTONERELAY=魔力红石交互
 tc.research_page.REDSTONERELAY.1=你总是会好奇魔力设备和红石信号为什么会表现出那样的负面反应.你已经做出了很多的研究工作,尽管红石信号对魔力的抑制作用广为人知,你还是找到了在特定情况下反转这一现象的方法.<BR>这项成果的一个实际应用便是这种红石继能器.通过它向魔力结晶这样的魔法物质发送强度不同的红石信号能够就按你所需的抑制它们的活动.
 tc.research_page.REDSTONERELAY.2=继能器能够像红石中继器那样使用,它的输出端会标有一个红石火把.<BR>相比中继器只有一个输入端口,红石继能器有两个控制端口.它最靠后的端口用来控制消除魔力抑制效果,激活继能器所需的最小红石信号.<BR>而正面的输入端(与红石火把相邻位置)则决定红石继能器输出的红石信号强度.
@@ -1514,7 +1514,7 @@ tc.research_text.VERDANTHEARTLIFE=药到病除
 tc.research_page.VERDANTHEARTLIFE.1=翠心指环有两项注魔附魔可供选用.不幸的是,鱼翅与熊掌不可兼得 - 你无法让一个指环同时获得这两种能力.<LINE>§n再生§r<BR>这项附魔使翠心指环能治愈使用者的伤势. 
 tc.research_page.VERDANTHEARTLIFE.2=§n续航§r<BR>这项附魔使翠心指环能够缓慢提供饱食度及水下呼吸所需的氧气.<LINE>三层肉饼由三种不同的肉粒掺以砂糖制成.不仅作为合成材料,更是健康美味的佳品.
 #
-# Alchemy 
+# Alchemy
 #######################
 tc.research_name.CRUCIBLE=坩埚
 tc.research_text.CRUCIBLE=沸腾并且冒着泡
@@ -1659,7 +1659,7 @@ tc.research_page.ESSENTIATRANSPORT.1=进行注魔合成时源质会从罐子中�
 tc.research_page.ESSENTIATRANSPORT.2=源质注入装置则正好相反-从附近的要素罐子内抽取要素源质并输送至其所依附的管道系统或具有源质需求设备中.
 #
 #
-# Golemancy 
+# Golemancy
 #######################
 tc.research_name.BASICGOLEMANCY=基础傀儡学
 tc.research_text.BASICGOLEMANCY=受控运动
@@ -1817,7 +1817,7 @@ tc.research_page.ARCANEPATTERNCRAFTER.1=有些物品合成相当简单 - 只需�
 tc.research_page.ARCANEPATTERNCRAFTER.2=你可以右击奥术组装台前方的旋钮以更改设定的合成图纸.<BR>该设备在收到红石信号时会停止工作.
 #
 #
-# Eldritch 
+# Eldritch
 #######################
 tc.research_name.ELDRITCHMINOR=邪术揭谛
 tc.research_text.ELDRITCHMINOR=迈入未知的第一步
