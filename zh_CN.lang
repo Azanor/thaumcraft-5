@@ -10,10 +10,10 @@ enchantment.special.sapgreat=高级削弱
 ###################################
 enchantment.infusion.COLLECTOR=收集
 enchantment.infusion.DESTRUCTIVE=破坏
-enchantment.infusion.BURROWING=奔流
+enchantment.infusion.BURROWING=连锁采集
 enchantment.infusion.SOUNDING=勘探
 enchantment.infusion.REFINING=炽心
-enchantment.infusion.ARCING=雷鸣
+enchantment.infusion.ARCING=弧光
 enchantment.infusion.ESSENCE=晶化
 #
 # Potions
