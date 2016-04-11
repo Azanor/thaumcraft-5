@@ -76,8 +76,8 @@ entity.Thaumcraft.Wisp.name=Wisp
 entity.Thaumcraft.Alumentum.name=Alumentum
 entity.Thaumcraft.GiantBrainyZombie.name=Zombie Furioso
 entity.Thaumcraft.BrainyZombie.name=Zombie Enfadado
-entity.Thaumcraft.FollowItem.name=Item Seguidor
-entity.Thaumcraft.SpecialItem.name=Item Mágico
+entity.Thaumcraft.FollowItem.name=Ítem Seguidor
+entity.Thaumcraft.SpecialItem.name=Ítem Mágico
 entity.Thaumcraft.FallingTaint.name=Corteza Contaminada
 entity.Thaumcraft.AspectOrb.name=Orbe de Aspecto
 entity.Thaumcraft.TaintCrawler.name=Gusanillo Contaminado
@@ -284,6 +284,7 @@ tile.paving_stone.barrier.name=Barrera de Piedra Mística
 tile.paving_stone.travel.name=Pavimento de Viaje
 tile.flesh_block.name=Bloque de Carne
 tile.redstone_relay.name=Relé de Redstone
+tile.pattern_crafter.name=Fabricador en Patrón Arcano
 #
 # Misc
 tile.hole.name=Lágrima Dimensional
@@ -406,6 +407,7 @@ item.gear.void.name=Engranaje de Vacío Metálico
 item.wisp_essence.name=Esencia Etérea
 item.fabric.name=Tejido Encantado
 item.crystal_essence.name=Esencia Cristalizada
+item.crystal_essence.balanced.name=Esencia Cristalizada Balanceada
 item.wispy_essence.name=Esencia Wispy
 item.phial.empty.name=Vial de Vidrio
 item.phial.filled.name=Vial de Esencia
@@ -525,7 +527,7 @@ item.baubles.10.name=Anillo Fantástico
 item.baubles.11.name=Cinturón Fantástico
 item.amulet_vis.text=Recarga lentamente las varitas sujetadas
 item.amulet_vis.0.name=Piedra de Vis
-item.amulet_vis.1.name=Amuleto de Almacenamiento de Vis
+item.amulet_vis.1.name=Amuleto de Vis
 item.girdle_hover.name=Cinturón Thaumostático
 item.ring_verdant.name=Venda Frondosa Acorazonada
 item.verdant.life.text=Dador de Vida
@@ -845,7 +847,7 @@ golem.prop.left=Click izquierdo
 golem.prop.empty=Click en el aire
 golem.prop.emptyhand=Puede usar la mano vacía
 golem.prop.sneak=Simular un shift-click
-golem.prop.single=Solo un item
+golem.prop.single=Solo un ítem
 golem.prop.provision=Solicitar aprovicionamiento
 golem.prop.provision.wl=Solicitar aprovicionamiento de la lista blanca
 golem.rank=Rango
@@ -857,6 +859,8 @@ golem.prop.lock=Todos los golems del dueño de este sello pueden hacer estas tar
 golem.prop.unlock=Todos los golems pueden hacer estas tareas
 golem.prop.redon=Sensibles a la redstone
 golem.prop.redoff=Ignorar las señales de redstone
+golem.prop.exist=El contenedor debe tener al menos un ítem
+golem.prop.leave=Deja al menos un ítem siempre
 #
 tile.researchtable.noink.0=¡Te has quedado sin tinta!
 tile.researchtable.noink.1=Vuelva a llenar tus herramientas de escritura.
@@ -1075,7 +1079,7 @@ tc.research_name.ASPECTS=Aspectos de la Magia
 tc.research_text.ASPECTS=Los componentes básicos de la magia
 tc.research_page.ASPECTS.1=Cada bloque, objeto o criatura está enlazada por diferentes elementos místicos conocidos como §5aspectos§0. Los aspectos describen como están formados y sometidos los objetos a los elementos mágicos. Una simple piedra puede poseer el aspecto de Terra mientras que los artículos más complejos, como los árboles o incluso las criaturas pueden estar formados por varios aspectos diferentes en cantidades variables. Hay cerca de 40 aspectos conocidos y más por ser descubiertos con el tiempo.<LINE>Hay dos tipos principales de aspectos: §5Primigenios§0 y §5Compuestos§0.
 tc.research_page.ASPECTS.2=Los §lAspectos Primigenios§r son los tipos más básicos de aspectos y sólo hay 6 de ellos: §6Aer§0 (aire), §2Terra§0 (tierra), §cIgnis§0 (fuego), §3Aqua§0 (agua), §7Ordo§0 (orden), §8Perditio§0 (desorden). Estos forman los bloques de construcción básicos para todos los demás aspectos.<BR>Los §lAspectos Compuestos§r son creados a partir de otros dos aspectos. Los aspectos compuestos más simples están hechos por dos aspectos primigenios, pero es posible conseguir aspectos compuestos increíblemente más complejos a partir de sucesivas capas de aspectos más simples.<BR>El ejemplo más simple de aspecto compuesto, es el aspecto Victus (Vida), el cual es una combinación de §2Terra§0 y §3Aqua§0.
-tc.research_page.ASPECTS.3=Para ver qué aspectos posee un elemento, basta con colocar el cursor sobre el elemento y pulsar Shift, podrás ver qué aspectos tiene el elemento y sus cantidades.<LINE>Los aspectos que de alguna manera han sido separados de sus objetos y han sido purificados se conocen como §5Vis§0 y son realmente valiosos: tanto como un ingrediente de fabricación y como un elemento para la investigación mágica.<BR>El vis está a menudo atado a las varitas, pero también es posible almacenarlo como un líquido mágico. El vis que está almacenado como un líquido es conocido como §5Esencia§0.
+tc.research_page.ASPECTS.3=Para ver qué aspectos posee un elemento, basta con colocar el cursor sobre el elemento y pulsar Shift, podrás ver qué aspectos tiene el elemento y sus cantidades.<LINE>Los aspectos que de alguna manera han sido separados de sus objetos y han sido purificados se conocen como §5Vis§0 y son realmente valiosos: tanto como un ingrediente de fabricación o como un elemento para la investigación mágica.<BR>El vis está a menudo atado a las varitas, pero también es posible almacenarlo como un líquido mágico. El vis que está almacenado como un líquido es conocido como §5Esencia§0.
 #
 tc.research_name.NODES=Auras y Nodos
 tc.research_text.NODES=La Magia está en todas partes
@@ -1123,7 +1127,7 @@ tc.research_page.RESTABLE.1=La Mesa de Investigación se crea haciendo clic en u
 #
 tc.research_name.THAUMONOMICON=Thaumonomicon
 tc.research_text.THAUMONOMICON=Un Depósito de Conocimiento
-tc.research_page.THAUMONOMICON.1=Para elaborar el Thaumonomicon, debes simplemente utilizar tu varita en una librería colocada en el mundo.<BR>El Thaumonomicon es un libro de referencia de todas las cosas thaumatúrgicas. Enumera todos los descubrimientos que has hecho hasta ahora, y te da una impresión general de cuántos te quedan por descubrir<BR>Cada vez que concluyas una investigación y la utilices esta automáticamente se añadirá a este libro. A continuación, podrás navegar a través de los descubrimientos y hacer clic en ellos para mostrar información más detallada sobre los mismos y de las recetas de fabricación asociadas con estos descubrimientos.
+tc.research_page.THAUMONOMICON.1=Para elaborar el Thaumonomicon, debes simplemente utilizar tu varita en una librería colocada en el mundo.<BR>El Thaumonomicon es un libro de referencia de todas las cosas thaumatúrgicas. Enumera todos los descubrimientos que has hecho hasta ahora, y te da una impresión general de cuántos te quedan por descubrir. | Cada vez que concluyas una investigación y la utilices esta automáticamente se añadirá a este libro. A continuación, podrás navegar a través de los descubrimientos y hacer clic en ellos para mostrar información más detallada sobre los mismos y de las recetas de fabricación asociadas con estos descubrimientos.
 #
 tc.research_name.ENCHANT=Encantamientos
 tc.research_text.ENCHANT=Nuevos Encantamientos
@@ -1137,101 +1141,105 @@ tc.research_page.PECH.2=tirado, aunque prefieren los objetos preciosos. Se comen
 #
 tc.research_name.WARP=Warp, Flux y todas las cosas malas
 tc.research_text.WARP=Todo tiene un precio
-tc.research_page.WARP.1=§nWarp§r<BR>Muchos creen que el hombre no estaba destinado a meterse con la magia, y nada da más credibilidad a esto que la existencia del Warp.<BR>Investigar magias prohibidas o elaborar objetos de carácter cuestionable tienden a distorsionar la visión de la realidad de un thaumaturgo, retorciendo sus mentes y sus cuerpos. Este efecto se llama Warp.<BR>En general el Warp que se adquiere es temporal y se desvanecerá con el tiempo, no se conoce ninguna manera de deshacerse de Warp permanente una vez que se gana y el thaumaturgo que opta por hacer caso omiso de los peligros en la búsqueda del poder 
-tc.research_page.WARP.2= se encuentra a menudo contra una pendiente resbaladiza.<BR>El Warp generalmente se manifiesta con lapsos menores de perdida de la concentración, dolores físico o alucinaciones.<BR>Estos son más que meramente mentales, aunque las visiones a veces imparten conocimientos útiles o alucinaciones que aparentan ser terroríficamente reales.
-tc.research_page.WARP.3=§nFlux§r<BR>Si el Warp es la manifestación mental de la magia que salió mal, entonces el Flux es su manifestación física.<BR>El flux puede manifestarse de tres maneras: como un líquido, un gas y en malestar físico. Las dos primeras manifestaciones se consideran molestas por la mayoría de los thaumaturgos y son a menudo el resultado del derroche de magia. No son particularmente difíciles de limpiar, pero si entras en contacto con estas esto hace que la tercera manifestación aparezca: Gripe de Flux.<BR>La Gripe de Flux no es particularmente peligrosa, pero mientras un thaumaturgo está sufriendo de ella, su concentración disminuye, haciendo que consuma una cantidad mayor de vis para lograr algo.
+tc.research_page.WARP.1=§nWarp§r<BR>Muchos creen que el hombre no estaba destinado a meterse con la magia, y nada da más credibilidad a esto que la existencia del Warp.<BR>Investigar magias prohibidas o elaborar objetos de carácter cuestionable tienden a distorsionar la visión de la realidad de un thaumaturgo, retorciendo sus mentes y sus cuerpos. Este efecto se llama Warp.<BR>En general el Warp que se adquiere es temporal y se desvanecerá con el tiempo, no se conoce ninguna manera de deshacerse de Warp permanente una vez que se gana y el 
+tc.research_page.WARP.2=thaumaturgo que opta por hacer caso omiso de los peligros en la búsqueda del poder se encuentra a menudo contra una pendiente resbaladiza.<BR>El Warp generalmente se manifiesta con lapsos menores de perdida de la concentración, dolores físico o alucinaciones.<BR>Estos son más que meramente mentales, aunque las visiones a veces imparten conocimientos útiles o alucinaciones que aparentan ser terroríficamente reales.
+tc.research_page.WARP.3=§nFlux§r<BR>Si el Warp es la manifestación mental de la magia que salió mal, entonces el Flux es su manifestación física. | El flux puede manifestarse de tres maneras: como un líquido, un gas y en malestar físico. Las dos primeras manifestaciones se consideran molestas por la mayoría de los thaumaturgos y son a menudo el resultado del derroche de magia. No son particularmente difíciles de limpiar, pero si entras en contacto con estas esto hace que la tercera manifestación aparezca: Gripe de Flux. | La Gripe de Flux no es particularmente peligrosa, pero mientras un thaumaturgo está sufriendo de ella, su concentración disminuye, haciendo que consuma una cantidad mayor de vis para lograr algo.
 #
 # Thaumaturgy 
 #######################
 tc.research_name.BASICTHAUMATURGY=Fabricacion de Varitas Básicas
 tc.research_text.BASICTHAUMATURGY=Tu primera herramienta
-tc.research_page.BASICTHAUMATURGY.1=La varita es la mas básica pero también mas importante de tus herramientas. Es lo que se utiliza para elaborar objetos, activar bloques como el crisol, y un sin numero de otras tareas.<BR>La varita mas básica almacena una cantidad muy limitada de energía mágica (llamada vis) que utiliza para realizar sus tareas. Para reponer la energiza en una varita, debes hacer clic derecho y mantenerlo pulsado para captar vis desde un nodo de aura.<BR>Mientras sostienes una varita veras un indicador en la parte superior izquierda de la pantalla que muestra la cantidad de vis que se almacena dentro de la varita.
-tc.research_page.BASICTHAUMATURGY.2=Al presionar Shift se mostraran los números exactos que almacena y los posibles descuentos que tienes para realizar tareas mágicas.<BR>Las Varitas se construyen mediante la combinación de una palo y dos capuchones en los extremos. A medida que avances con los estudios, descubrirás diferentes materiales que podran ser utilizados para la creación de palos y capuchones con los que conseguirás poderosas varitas. Solo la varita básica puede ser creada en una mesa de trabajo normal. El resto de varitas requieren una §5Mesa de Trabajo Arcana§0 y costara Vis hacerlas.<BR>La varita básica se construye a partir de madera mundana y hierro, pobres materiales ambos para trabajar la magia.
+tc.research_page.BASICTHAUMATURGY.1=La varita es la más básica pero también la más importante de tus herramientas. Es lo que se utiliza para elaborar objetos, activar bloques como el crisol, y un sin número de otras tareas.<BR>La varita más básica almacena una cantidad muy limitada de energía mágica (llamada vis) que utiliza para realizar sus tareas. Para reponer la energía de una varita, debes simplemente mantener tu varita a mano y esta empezara a obtener vis del aura de la zona. | Mientras sostienes una varita un indicador en la parte superior izquierda de la pantalla te mostrara la cantidad de vis que se almacena dentro de la varita.
+tc.research_page.BASICTHAUMATURGY.2=Al presionar Shift mientras el cursor esta sobre la varita se mostrara los números exactos que almacena y los posibles descuentos que tienes para realizar tareas mágicas. | Las Varitas se construyen alrededor de un núcleo de varita con dos cubiertas metálicas en los extremos. A medida que avances con los estudios, descubrirás diferentes materiales que podrán ser utilizados para la creación de núcleos de varita y cubiertas metálicas para crear poderosas varitas. Solo la varita básica puede ser creada en una mesa de trabajo normal. El resto de varitas requieren de una §5Mesa de Trabajo Arcana§0 y te costaran vis el hacerlas. | La varita básica se construye a partir de madera y hierro mundanos, materiales muy pobres para las tareas mágicas.
 #
-tc.research_name.NODETAPPER1=Utilizacion Avanzada de Nodos
-tc.research_text.NODETAPPER1=Tomando todo
-tc.research_page.NODETAPPER1.1=Usualmente, el proceso de absorción de un nodo con una varita es bastante lento... pero ya no.<BR>Has descubierto una manera mas eficiente de aprovechar los nodos de aura, lo que resulta en una duplicación de la tasa de absorción.
+tc.research_name.NODETAPPER1=Aprovechamiento Avanzado del Aura
+tc.research_text.NODETAPPER1=Tomandolo todo
+tc.research_page.NODETAPPER1.1=Usualmente, el proceso de absorción de vis desde el aura con una varita es bastante lento... pero ya no.<BR>Has descubierto una manera más eficiente de aprovechar el aura, esto te permitirá duplicar la tasa de absorción de aura. Como añadido ya no necesitaras mantener la varita en tu mano para aprovecharte del aura, ahora te es suficiente con tenerla en la barra de herramientas.
 #
-tc.research_name.NODETAPPER2=Utilizacion Maestra de Nodos
-tc.research_text.NODETAPPER2=Todo tu Vis nos pertenece
-tc.research_page.NODETAPPER2.1=Has añadido nuevas mejoras a los métodos que se utilizan con nodos de aura.<BR>Ahora eres capaz de absorber vis tres veces mas rápido de lo normal.
+tc.research_name.NODETAPPER2=Aprovechamiento Maestro del Aura
+tc.research_text.NODETAPPER2=Toda tu vis son nos pertenece
+tc.research_page.NODETAPPER2.1=Has ganado nuevas mejoras para los métodos que utilizas en el aprovechamiento del aura.<BR>Ahora eres capaz de absorber vis tres veces más rápido de lo normal.
 #
-tc.research_name.AURAMANIP1=Manipulación Básica de Aura
-tc.research_text.AURAMANIP1=Flujo de la Magia
-tc.research_page.AURAMANIP1.1=Usted ha hecho algunos descubrimientos interesantes sobre el aura y ya es hora de empezar a poner ese conocimiento para su uso. Ha creado un tótem que empuja vis lejos de sí mismo - El Tótem de Dispersión.<BR>El tótem requiere que fragmentos de cristal se coloquen en su inventario para actuar como combustible y para determinar qué tipo de efecto realizar.<BR>El tótem de dispersión expulsa el aura de un chunk interior a un exterior.<BR>
-tc.research_page.AURAMANIP1.2=Cada tótem opera un área interior y otra exterior. Por defecto, el área interior consiste en el chunk en el que se encuentra, mientras que la zona exterior se compone de los 8 chunks que rodean la zona interior.<BR>Jugar con el aura no está exenta de riesgos, sin embargo y el tótem tiene una pequeña posibilidad de convertir la relación, en flujo en lugar de moverlo.<LINE>También debes saber cómo elaborar dos tótems diferentes llamados polos. Estos polos deben ser colocados debajo de un tótem, cada tótem pueden tener hasta 5 polos situados debajo de ella. Estos polos aumentan el áreas de efecto interior o exterior.
-tc.research_page.AURAMANIP1.3=Por ejemplo, un tótem de dispersión con 1 polo interior y 2 polos exteriores, extraera vis del chunk verde, y la moverá hacia los chunks azules.<IMG>thaumcraft:textures/research/research3.png:168:0:80:80:1</IMG>   
+tc.research_name.AURAPRESERVE=Preservador del Aura
+tc.research_text.AURAPRESERVE=Mantenlo seguro
+tc.research_page.AURAPRESERVE.1=Ahora posees el instinto para que tus varitas u otros aparatos que lleves no absorban vis del aura local en el caso de que esta caiga muy bajo. Esto te ayudara a prevenir la acumulación de flux.<BR>Solo aplica a herramientas o aparatos que uses o lleves encima.
+#
+tc.research_name.AURAMANIP1=Manipulación Básica del Aura
+tc.research_text.AURAMANIP1=Deja que la magia fluya
+tc.research_page.AURAMANIP1.1=Has hecho algunos descubrimientos interesantes sobre el aura y ya es hora de empezar a poner ese conocimiento en uso. Has creado un tótem que empuja vis lejos de sí mismo - El Tótem de Dispersión. | Como el nombre sugiere toma el vis cercano y lo dispersa sobre una amplia área.<BR>Interactuar con el aura no está fuera de riesgo ya que el tótem tiene un pequeño chance de convertir el vis en flux y no de alejarlo. | El tótem requiere que fragmentos de cristal se coloquen en su inventario para para que actúen como combustible y determinen qué tipo de vis se verá afectado.
+tc.research_page.AURAMANIP1.2=Cada tótem opera en un área interior y otra exterior. Por defecto, el área interior consiste en el chunk en el que se encuentra el tótem, mientras que la zona exterior se compone de los 8 chunks que rodean la zona interior.<BR>El tótem de dispersión  mueve el vis desde el área interior al exterior.<LINE>También debes saber cómo elaborar dos tótems diferentes llamados polos. Estos polos deben colocarse debajo del tótem, cada tótem pueden tener hasta 5 polos situados debajo de ella. Estos polos aumentan el área de efecto, interior y exterior.
+tc.research_page.AURAMANIP1.3=Por ejemplo, un tótem de dispersión con 1 polo interior y 2 polos exteriores, extraerá vis del chunk verde, y lo moverá hacia los chunks azules.<IMG>thaumcraft:textures/research/research3.png:168:0:80:80:1</IMG>   
 #
 tc.research_name.AURAMANIP2=Tótem de Atracción
-tc.research_text.AURAMANIP2=Dibujando afuera
-tc.research_page.AURAMANIP2.1=El tótem de la atracción funciona de la misma manera que el tótem de dispersión, excepto que el aura fluye de un chunk exterior y a los interior.
+tc.research_text.AURAMANIP2=Absorbiendo para sí
+tc.research_page.AURAMANIP2.1=El Tótem de Atracción funciona de la misma manera que el Tótem de Dispersión, pero al contrario que este el aura fluye de un área exterior a una interior.
 #
-tc.research_name.AURAPOLESTABLE=Polo estabilizante para Tótem
-tc.research_text.AURAPOLESTABLE=Suavizador de flujo
-tc.research_page.AURAPOLESTABLE.1=Este Polo tiene un efecto estabilizador sobre el tótem. Se reduce la posibilidad de que se creé flux durante la manipulación del aura.
+tc.research_name.AURAPOLESTABLE=Polo Estabilizador para Tótem
+tc.research_text.AURAPOLESTABLE=Suavizando el flujo
+tc.research_page.AURAPOLESTABLE.1=Este polo tiene un efecto estabilizador sobre el tótem. Reduce la posibilidad de que se creé flux durante la manipulación del aura.
 #
-tc.research_name.CAP_gold=Cubierta de Oro para Varita
-tc.research_text.CAP_gold=Capsulando las cosas con estilo
-tc.research_page.CAP_gold.1=El oro es una cubierta muy superior que el hierro, y las varitas cubiertas con este material no tienen ninguna pena cuando se utiliza para canalizar vis.
+tc.research_name.CAP_gold=Cubiertas de Oro para Varitas
+tc.research_text.CAP_gold=Encapsulando las cosas con estilo
+tc.research_page.CAP_gold.1=La cubierta de oro es muy superior que la cubierta de hierro, y las varitas cubiertas con este material no tienen ninguna penalización cuando se utiliza para canalizar vis.
 #
-tc.research_name.CAP_brass=Cubierta de Latón para Varita
-tc.research_text.CAP_brass=Controlando el Vis
-tc.research_page.CAP_brass.1=Como el oro, las varitas cubierta con este material no tiene penalización para canalizar el vis. Más importante, sin embargo, es el hecho de que estas cubiertas pueden controlar el vis del aura más fácil de lo normal, permitiendo que las varitas con este material se recarguen más rápido.
+tc.research_name.CAP_brass=Cubiertas de Latón para Varitas
+tc.research_text.CAP_brass=Dibujando sobre el Vis
+tc.research_page.CAP_brass.1=Al igual que el oro, las varitas cubiertas con latón no tiene penalización para canalizar el vis. Más importante, sin embargo, es el hecho de que estas cubiertas pueden controlar el vis del aura más fácil de lo normal, permitiendo que las varitas con este material se recarguen más rápido.
 #
-tc.research_name.CAP_thaumium=Cubierta de Thaumium para Varitas
-tc.research_text.CAP_thaumium=Eficiencia es rapidez
-tc.research_page.CAP_thaumium.1=El Thaumium es conocido por su capacidad de almacenar y absorber la magia, por lo que su uso para elaborar tapas varita es una elección muy lógica. Es muy eficiente controlando el vis de todos los tipos.<BR>La elaboración de estas cubiertas en un mesa de trabajo arcana no es suficiente, por eso que necesitan ser pasadas por una infusión con la energía mágica adicional para que sean utilizables.
+tc.research_name.CAP_thaumium=Cubiertas de Thaumium para Varitas
+tc.research_text.CAP_thaumium=Eficiencia sobre rapidez
+tc.research_page.CAP_thaumium.1=El Thaumium es conocido por su capacidad de almacenar y absorber la magia, por lo que su uso para elaborar cubiertas de varita es una elección muy lógica. Las varitas cubiertas de este material son muy eficientes controlando el vis de todos los tipos.<BR>La elaboración de estas cubiertas en un mesa de trabajo arcana no es suficiente - por eso necesitan pasar por una infusión que les darán energía mágica adicional para que sean utilizables.
 #
-tc.research_name.CAP_void=Cubierta de Vació Metálico para Varitas
+tc.research_name.CAP_void=Cubiertas de Vacío Metálico para Varitas
 tc.research_text.CAP_void=Poder del más allá
-tc.research_page.CAP_void.1=La elaboración de las cubiertas de la varita de vacío metálico parece lo contrario a la intuición, ya que parece ser muy resistente a la magia, pero contrario a la intuición es donde vives ahora.<BR>Su apuesta funcionó. El metal en sí puede ser resistente a la magia y los canales de vis no fluyen mejor que el oro o latón, pero se puede controlar vis desde el aura mucho, mucho más rápido de lo normal. La magia parece §oExtraña§r de alguna manera, pero lo mas probable que sólo su imaginación.
+tc.research_page.CAP_void.1=La elaboración de las cubiertas de varitas de vacío metálico pareciera contraria a la intuición por su alta resistencia a la magia, pero da igual porque el lugar en donde te encuentras ahora es contrario a la intuición.<BR>Has ganado la apuesta. El metal en sí puede ser resistente a la magia y los canales de vis no fluyen mejor a como lo hacen el oro o el latón, pero se puede drenar vis desde el aura mucho, mucho más rápido de lo normal. De alguna u otra manera esta magia te parecerá §oextraña§r, pero créeme que quizás solo sea tu imaginación.
 #
-tc.research_name.ROD_greatwood=Nucleo de Árbol Magnificó para Varitas
+tc.research_name.ROD_greatwood=Nucleo de Árbol Magnífico para Varitas
 tc.research_text.ROD_greatwood=Repositorio de energía mágica
-tc.research_page.ROD_greatwood.1=Tallado con la madera del Árbol Magnificó, esta núcleo tiene más del doble del potencial de almacenamiento respecto de la madera mundana, pudiendo almacenar hasta 250 vis de cada tipo.
+tc.research_page.ROD_greatwood.1=Tallado con la madera del Árbol Magnífico, este núcleo tiene el doble de potencial de almacenamiento respecto a la madera mundana, pudiendo almacenar hasta 250 vis de cada tipo.
 #
 tc.research_name.ROD_silverwood=Nucleo de Árbol Plateado para Varitas
 tc.research_text.ROD_silverwood=Magico hasta el núcleo
-tc.research_page.ROD_silverwood.1=La madera de Árbol Plateado ha demostrado ser un excelente repositorio de energía mágica, y los núcleos para varita elaborado con esta pueden almacenar hasta 500 vis de cada tipo.
+tc.research_page.ROD_silverwood.1=La madera de Árbol Plateado ha demostrado ser un excelente repositorio de energía mágica, y los núcleos para varita elaborado con esta pueden almacenar hasta 500 de vis por cada tipo.
 #
 tc.research_name.SCEPTRE=Elaborando Cetros
 tc.research_text.SCEPTRE=Hechos para la tarea
-tc.research_page.SCEPTRE.1=Los cetros son varitas especializadas hechas para ser utilizado para elaborar objetos místicos y nada más. Los focos no pueden añadidos a estas, pero tienen varias características que todavía hacen uso de la pena.<BR>En primer lugar, tienen un descuento del 10% al usar vis adicional más allá de lo que sus cubiertas normalmente conceden.<BR>En segundo lugar son capaces de mantener 50% más vis que sus núcleos normalmente no permitirían.<BR>Al igual que otros varitas deben elaborados utilizando la mayoría de combinaciones de núcleos y cubiertas.
+tc.research_page.SCEPTRE.1=Los cetros son varitas especializadas hechas para ser utilizadas en la elaboración de objetos místicos y nada más. Los focos no pueden ser añadidos a estos, pero tienen varias características que hacen que su uso valga la pena. | En primer lugar, tienen un descuento del 10% de vis por encima del ya otorgado por las cubiertas. | En segundo lugar son capaces de almacenar un 50% más de vis al lado de lo que normalmente los núcleos almacenan. | Al igual que las varitas, los cetros puedes ser elaborados utilizando la mayoría de combinaciones de núcleos y cubiertas - algunos ejemplos de ello están en la siguiente página.
 #
 tc.research_name.PRIMALRODS=Nucleos elementales para varitas
 tc.research_text.PRIMALRODS=Almacenamiento elemental de vis
-tc.research_page.PRIMALRODS.1=Cada uno de estos núcleos para varita está vinculado a un elemento primigenio que les concede habilidades adicionales.<LINE>§l§nNucleo de Caña para Varitas§r<BR>Un núcleo de varita creado con caña tiene ligeramente mas capacidad de almacenamiento que los núcleos de Árbol Magnificó. Lo que los hace superiores sin embargo, es que si el nivel de §6Aer§0 almacenado en su interior cae por debajo de 10%, lo ira reponiendo poco a poco sin necedidad del aura.
-tc.research_page.PRIMALRODS.2=§l§nNúcleo de Blaze para Varitas§r<BR>Un nucleo de varita creado con varas de blaze tiene ligeramente mas capacidad de almacenamiento que los núcleos de Árbol Magnificó. Lo que los hace superiores sin embargo, es que si el nivel de §cIgnis§0 almacenado en su interior cae por debajo de 10%, lo ira reponiendo poco a poco sin necedidad del aura.
-tc.research_page.PRIMALRODS.3=§l§nNúcleo de Obsidiana para Varitas§r<BR>Un nucleo de varita creado con obsidiana tiene ligeramente mas capacidad de almacenamiento que los núcleos de Árbol Magnificó. Lo que los hace superiores sin embargo, es que si el nivel de §2Terra§0 almacenado en su interior cae por debajo de 10%, lo ira reponiendo poco a poco sin necedidad del aura.
-tc.research_page.PRIMALRODS.4=§l§nNúcleo de Hielo para Varitas§r<BR>Un nucleo de varita creado con hielo tiene ligeramente mas capacidad de almacenamiento que los núcleos de Árbol Magnificó. Lo que los hace superiores sin embargo, es que si el nivel de §3Aqua§0 almacenado en su interior cae por debajo de 10%, lo ira reponiendo poco a poco sin necedidad del aura.
-tc.research_page.PRIMALRODS.5=§l§nNúcleo de Cuarzo para Varitas§r<BR>Un nucleo de varita creado con cuarzo tiene ligeramente mas capacidad de almacenamiento que los núcleos de Árbol Magnificó. Lo que los hace superiores sin embargo, es que si el nivel de §fOrdo§0 almacenado en su interior cae por debajo de 10%, lo ira reponiendo poco a poco sin necedidad del aura.
-tc.research_page.PRIMALRODS.6=§l§nNúcleo de Hueso para Varitas§r<BR>Un núcleo de varita creado con un hueso tiene ligeramente mas capacidad de almacenamiento que los núcleos de Árbol Magnificó. Lo que los hace superiores sin embargo, es que si el nivel de §8Perditio§0 almacenado en su interior cae por debajo de 10%, lo ira reponiendo poco a poco sin necedidad del aura.
+tc.research_page.PRIMALRODS.1=Cada uno de estos núcleos para varita está vinculado a un elemento primigenio que les concede habilidades adicionales.<LINE>§l§nNúcleo de Caña para Varitas§r<BR>Un núcleo de varita creado con caña tiene un ligero aumento de capacidad de almacenamiento al lado de los núcleos de árbol magnífico. Lo que los hace superiores sin embargo, es que si el nivel de §6Aer§0 almacenado en su interior cae por debajo del 50%, lo ira reponiendo poco a poco sin necesidad del aura.
+tc.research_page.PRIMALRODS.2=§l§nNúcleo de Blaze para Varitas§r<BR>Un núcleo de varita creado con varas de blaze tiene un ligero aumento de capacidad de almacenamiento al lado de los núcleos de árbol magnífico. Lo que los hace superiores sin embargo, es que si el nivel de §cIgnis§0 almacenado en su interior cae por debajo del 50%, lo ira reponiendo poco a poco sin necesidad del aura.
+tc.research_page.PRIMALRODS.3=§l§nNúcleo de Obsidiana para Varitas§r<BR>Un núcleo de varita creado con obsidiana tiene un ligero aumento de capacidad de almacenamiento al lado de los núcleos de árbol magnífico. Lo que los hace superiores sin embargo, es que si el nivel de §2Terra§0 almacenado en su interior cae por debajo del 50%, lo ira reponiendo poco a poco sin necesidad del aura.
+tc.research_page.PRIMALRODS.4=§l§nNúcleo de Hielo para Varitas§r<BR>Un núcleo de varita creado con hielo tiene un ligero aumento de capacidad de almacenamiento al lado de los núcleos de árbol magnífico. Lo que los hace superiores sin embargo, es que si el nivel de §3Aqua§0 almacenado en su interior cae por debajo del 50%, lo ira reponiendo poco a poco sin necesidad del aura.
+tc.research_page.PRIMALRODS.5=§l§nNúcleo de Cuarzo para Varitas§r<BR>Un núcleo de varita creado con cuarzo tiene un ligero aumento de capacidad de almacenamiento al lado de los núcleos de árbol magnífico. Lo que los hace superiores sin embargo, es que si el nivel de §7Ordo§0 almacenado en su interior cae por debajo del 50%, lo ira reponiendo poco a poco sin necesidad del aura.
+tc.research_page.PRIMALRODS.6=§l§nNúcleo de Hueso para Varitas§r<BR>Un núcleo de varita creado con huesos tiene un ligero aumento de capacidad de almacenamiento al lado de los núcleos de árbol magnífico. Lo que los hace superiores sin embargo, es que si el nivel de §8Perditio§0 almacenado en su interior cae por debajo del 50%, lo ira reponiendo poco a poco sin necesidad del aura.
 #
 tc.research_name.PRIMALSTAVES=Bastones Elementales
 tc.research_text.PRIMALSTAVES=Almacenamiento elemental de vis
-tc.research_page.PRIMALSTAVES.1=Al igual que los núcleos elementales para varita, éstos bastones están vinculados a un aspecto primigenio específico que les concede habilidades adicionales y lentamente recarga su vis si esta lo suficientemente bajo. Pueden almacenar 750 vis de cada tipo.
+tc.research_page.PRIMALSTAVES.1=Al igual que los núcleos elementales para varita, éstos bastones están vinculados a un aspecto primigenio específico que les concede habilidades adicionales y lentamente recarga su vis si está lo suficientemente bajo. Pueden almacenar 750 vis de cada tipo.
 #
 tc.research_name.ROD_greatwood_staff=Bastones Mágicos
-tc.research_text.ROD_greatwood_staff=Los bastones de mago tienen pomo al final
-tc.research_page.ROD_greatwood_staff.1=Las varitas son el día a día de un thaumaturgo, pero a veces quieres mejores opciones. Los bastones mágicos son básicamente varitas grandes. Almacenan más Vis.<BR>Al ser físicamente más largas y resistentes que una varita, pueden ser usadas como arma en una emergencia.<BR>Desafortunadamente esto hace también que sean inadecuados para su uso en una mesa de trabajo arcana o similar.
-tc.research_page.ROD_greatwood_staff.2=Un bastón hecho de Madera Magnífica tiene más del doble de capacidad que una varita hecha del mismo material, pudiendo  almacenar hasta 500 de Vis de cada tipo.<BR>Nota: Es necesario añadir cubiertas al bastón, al igual que se hace con las varitas.
+tc.research_text.ROD_greatwood_staff=Los bastones de mago tienen pomos al final
+tc.research_page.ROD_greatwood_staff.1=Las varitas son el día a día de un thaumaturgo, pero a veces deseas mejores opciones. Los bastones mágicos son básicamente varitas grandes.<BR>Un bastón hecho de madera de árbol magnífico tiene un almacenamiento del 150% de vis por sobre una varita del mismo material, esto hace posible almacenar 375 de vis por cada tipo. Estas también garantiza un 10% de descuento de vis para los focos.<BR>Al ser físicamente más largas y resistentes que una varita, pueden ser usadas como arma en una emergencia.
+tc.research_page.ROD_greatwood_staff.2=Desafortunadamente esto hace también que sean inadecuados para su uso en una mesa de trabajo arcana o similar.<BR>Nota: Es necesario añadir cubiertas al bastón, al igual que se hace con las varitas.
 #
 tc.research_name.ROD_silverwood_staff=Núcleo de Árbol Plateado para Bastones
 tc.research_text.ROD_silverwood_staff=Mágico hasta el núcleo
-tc.research_page.ROD_silverwood_staff.1=Los núcleos construidos de Madera Plateada pueden almacenar hasta 1000 de Vis de cada tipo.
+tc.research_page.ROD_silverwood_staff.1=Los núcleos construidos de madera plateada pueden almacenar hasta 750 de Vis de cada tipo.
 #
 tc.research_name.ROD_primal_staff=Núcleo de Bastón Primigenio
 tc.research_text.ROD_primal_staff=Poder elemental combinado
-tc.research_page.ROD_primal_staff.1=Este núcleo palpita con energía latente. Es realmente un potente herramienta en el arsenal de cualquier thaumaturgo.<BR>Combina todas las propiedades de los núcleos previos - tiene la misma capacidad de Vis que el núcleo de Madera Plateada y es capaz de recargar el Vis de los elementos previos.<BR>Por último, añade un nivel de potencia a cualquier foco usado en el bastón.<BR>Nota: Es necesario añadir cubiertas al bastón, al igual que se hace con las varitas.
+tc.research_page.ROD_primal_staff.1=Este núcleo palpita con energía latente.<BR>Combina todas las propiedades de los núcleos previos - tiene la misma capacidad de Vis que el núcleo de Madera Plateada y es capaz de recargar el vis de los nucleos de varita previos. | Por último, añade un nivel de potencia a cualquier foco usado en el bastón.<BR>Es realmente un potente herramienta en el arsenal de cualquier thaumaturgo.<BR>Nota: Es necesario añadir cubiertas al bastón, al igual que se hace con las varitas.
 #
 tc.research_name.FOCUSFIRE=Focos de Varita
-tc.research_text.FOCUSFIRE=Diseño y funcionalidad
-tc.research_page.FOCUSFIRE.1=Algunos cuidadosos experimentos te han mostrado una forma de ampliar incluso la capacidad de la varita más básica.<BR>Mediante la combinación de fragmentos cristalinos de vis con cristales de cuarzo e infundiéndolos con magia, eres capaz de alinear los cristales en una matriz mística.<BR>Si los tipos y cantidades adecuadas se centran a través de esta matriz, se reconfigurarán las energías mágicas puras en algo útil, controlado y orientado a una tarea específica. 
+tc.research_text.FOCUSFIRE=El diseño se junta con la funcionalidad
+tc.research_page.FOCUSFIRE.1=Algunos cuidadosos experimentos te han mostrado una forma de ampliar las capacidades de incluso la varita más básica.<BR>Mediante la combinación de fragmentos cristalinos de vis con cristales de cuarzo e infundiéndolos con magia, eres capaz de alinear los cristales en una matriz mística.<BR>Si los tipos y cantidades adecuadas de vis se centran a través de esta matriz, se reconfigurarán sus energías mágicas puras en algo útil, controlado y orientado a una tarea específica. 
 tc.research_page.FOCUSFIRE.2=Añadir un foco a tu varita es una tarea sencilla - simplemente presiona F (por defecto) mientras sostienes la varita, y selecciona el foco que deseas. Sigue presionando F para desplazarte por los focos que lleves.<LINE>Tus primeros experimentos incluyeron la formación de fuego, y el foco resultante demostró ser una herramienta simple, pero útil.<BR> Es capaz de enviar un cono de fuego elemental, quemando todo a su paso.
 #
 tc.research_name.FOCUSFROST=Foco de Varita: Hielo
 tc.research_text.FOCUSFROST=La venganza es un plato que se sirve frío
-tc.research_page.FOCUSFROST.1=Este foco es capaz de lanzar trozos de hielo.<BR>Ten cuidado al apuntar, ya que los trozos de hielo son capaces de destruir objetos frágiles. 
+tc.research_page.FOCUSFROST.1=Este foco es capaz de lanzar trozos de hielo.<BR>Ten cuidado al apuntar, ya que los trozos de hielo tiende a rebotar en objetos sólidos. Esto puedes ser usado como una ventaja si se usa para que los cristales reboten y rodeen una esquina, o incluso para golpear múltiples enemigos.
 #
 tc.research_name.FOCUSSHOCK=Foco de Varita: Conmoción
 tc.research_text.FOCUSSHOCK=Rayos y truenos
@@ -1243,49 +1251,62 @@ tc.research_page.FOCUSEXCAVATION.1=Este foco convierte la varita en una herramie
 #
 tc.research_name.FOCUSTRADE=Foco de Varita: Comercio Justo
 tc.research_text.FOCUSTRADE=Esto por eso
-tc.research_page.FOCUSTRADE.1=Puedes utilizar este foco para comerciar con docenas de bloques en el mundo por otros de los que lleves.<BR>Primero debes presionar shift y hacer clic derecho en el bloque deseado. A continuación, haz clic izquierdo en otro bloque que se convertirá en el bloque objetivo. Al hacer clic derecho transformará toda una franja de bloques.<BR>Debes tener suficientes bloques para cambiar, y los bloques transformados reemplazarán tu inventario. Solamente los bloques con al menos una cara adyacente a bloques de aire o no sólidos serán transformados.
+tc.research_page.FOCUSTRADE.1=Puedes utilizar este foco para comerciar con docenas de bloques en el mundo por otros que lleves encima.<BR>Primero debes presionar shift y hacer clic derecho en el bloque deseado. A continuación, haz clic izquierdo en otro bloque que se convertirá en el bloque objetivo. Al hacer clic derecho transformará toda una franja de bloques.<BR>Debes tener suficientes bloques para cambiar, y los bloques transformados reemplazarán tu inventario. Solamente los bloques con al menos una cara adyacente a bloques de aire o no sólidos serán transformados.
 #
 tc.research_name.FOCUSHELLBAT=Foco de Varita: Nueve Infiernos
-tc.research_text.FOCUSHELLBAT=Terror Minúsculo
+tc.research_text.FOCUSHELLBAT=Terrores Minúsculos
 tc.research_page.FOCUSHELLBAT.1=Tus viajes por el Nether te han enseñado a temer a los pequeños terrores conocidos como Murciélagos del Infierno. Ahora has descubierto una manera de invocar a los pequeños terrores y enviarlos contra tus enemigos. Excelente.
 #
 tc.research_name.FOCUSPORTABLEHOLE=Foco de Varita: Agujero Portátil
-tc.research_text.FOCUSPORTABLEHOLE=Nunca estarás sin salida otra vez
-tc.research_page.FOCUSPORTABLEHOLE.1=Has tenido éxito usando Vis para crear espacios extradimensionales. El uso de este foco en una pared u otra superficie creará un pasaje extradimensional que lleva al otro lado.<BR>Este "agujero" sólo permanece abierto durante unos segundos y drena vis de la varita en función de su profundidad. <BR> Los Agujeros extradimensionales no se pueden crear a través de ciertos tipos de materia u objetos particularmente complejos.
+tc.research_text.FOCUSPORTABLEHOLE=Nunca te quedaras sin una salida otra vez
+tc.research_page.FOCUSPORTABLEHOLE.1=Has tenido éxito usando vis para crear espacios extra dimensionales. El uso de este foco en una pared u otra superficie creará un pasaje extra dimensional que lleva al otro lado. Este "agujero" sólo permanece abierto durante unos segundos. <BR> Los agujeros extra dimensionales no se pueden crear a través de ciertos tipos de materia u objetos particularmente complejos.
 #
 tc.research_name.FOCUSPRIMAL=Foco de Varita: Primigenio
 tc.research_text.FOCUSPRIMAL=Magia Cruda
 tc.research_page.FOCUSPRIMAL.1=¿Qué locura te poseyó para crear este objeto? Este foco parece salvajemente peligroso y únicamente un lunático intentará usarlo fuera de un entorno controlado.<BR>Francamente, el orbe de energía primigenia en crudo que crea es bastante devastador, pero su trayectoria es errática en el mejor de los casos y  malicioso en el peor. <BR> Sin embargo, se exige un mayor estudio: El orbe muestra algunas propiedades dimensionales interesantes y la energía muestra patrones que sólo se han visto en wisps y nodos de aura.
 #
+tc.research_name.FOCUSGRAPPLE=Foco de Varita: Látigo
+tc.research_text.FOCUSGRAPPLE=Zuuuash!
+tc.research_page.FOCUSGRAPPLE.1=La naturaleza de los focos hace que usualmente estos solo puedan crear efectos instantáneos, haciéndolos inadecuados para generar formas fáciles de viajar o para generar algún efecto que te permita volar. De todas maneras no te has dejado vencer por el desafío, y has descubierto el Foco de Látigo. | Este foco activa un mecanismo de energía elemental que se sujeta a un bloque y te empuja hacia él. Esto lo hace muy útil para atravesar brechas o zonas altas, o solo para llegar más rápido a algún sitio. Presionar Shift hará que te sueltes del bloque al que estas atado. | La potencia incrementa el rango del látigo.
+#
+tc.research_name.FOCUSBUILDER=Foco de Varita: Constructor
+tc.research_text.FOCUSBUILDER=El 9x9 más rapido
+tc.research_page.FOCUSBUILDER.1=Este foco es de alguna manera similar al de Comercio Justo, pero en vez de remplazar bloques, este puede simplemente ponerlos.<BR>Primero debes presionar shift y hacer clic derecho en el bloque deseado.<BR>Puedes marcar como objetivo la cara de un bloque que este a hasta 64 bloques de distancia. Un contorno te indicara el sitio donde se colocaran los bloques y dar click derecho los colocara. Al igual que en el foco de comercio justo, tu debes tener bloques en tu inventario para efectuar cualquier construcción.
+tc.research_page.FOCUSBUILDER.2=Los bloques siempre se colocaran en una línea desde donde apuntas hasta donde tu estas, colocando un máximo de 16 bloques al tiempo. Si actualizas el foco podrás colocar más bloques al tiempo.<BR>Si la línea de bloques se intersecta con un bloque ya existente, este será remplazado e ingresara a tu inventario.
+#
 tc.research_name.FOCUSPOUCH=Bolsa de Focos
 tc.research_text.FOCUSPOUCH=Conveniente recipiente para tus focos.
-tc.research_page.FOCUSPOUCH.1=Una vez que has reunido una gran colección de focos es bastante molesto llevarlos todos contigo. Esta bolsa resuelve ese problema.<BR>Cada vez que cambies el foco de la varita, el foco eliminado será colocado en la bolsa. También puedes hacer clic derecho en la bolsa para colocar o eliminar focos a mano.<BR> Se puede colocar también en el casillero para cinturones de Baubles.
+tc.research_page.FOCUSPOUCH.1=Una vez que has reunido una gran colección de focos es bastante molesto llevarlos todos contigo. Esta bolsa resuelve ese problema.<BR>Cada vez que cambies el foco de la varita, el foco eliminado será colocado en la bolsa. También puedes hacer clic derecho en la bolsa para colocar o eliminar focos a mano.<BR> Se puede colocar también en el casillero de ornamentos para cinturones.
 #
 tc.research_name.FOCALMANIPULATION=Manipulador de Focos
-tc.research_text.FOCALMANIPULATION=Diseñando focos
-tc.research_page.FOCALMANIPULATION.1=Los focos son capaces de realizar hazañas increíbles, pero no son muy flexibles. Un solo foco rara vez es capaz de realizar más de una única función.<BR>Usted ha descubierto una forma de actualizar focos básica para alterar la forma en que se manipulan magia. Usted sólo tendrá que colocar un foco en un manipulador de focos y elija la actualización que desea aplicar a la misma. Tomara vis aural y también puntos de experiencia para iniciar el proceso, pero después se trata de una simple cuestión de esperar.<BR> Cada foco se puede mejorar hasta cinco veces, pero cada nueva
-tc.research_page.FOCALMANIPULATION.2=mejora duplicara el costo.<BR>Mientras que algunas mejoras pueden aplicarse varias veces o en cualquier mejora, muchos focos tienen actualizaciones ocultas que sólo se pueden aplicar a con determinadas mejoras previas. Se fomenta la experimentación.<BR>Las mejoras son permanentes, eligirlas con sabiduría.
+tc.research_text.FOCALMANIPULATION=Rediseñando focos
+tc.research_page.FOCALMANIPULATION.1=Los focos son capaces de realizar hazañas increíbles, pero a final de cuentas estos no son muy flexibles. Un solo foco rara vez es capaz de realizar más de una única función.<BR>Has descubierto una manera de actualizar los focos básicos para alterar la manera en la que estos manipulan la magia. Para ello solo tendrás que colocar el foco en el Manipulador de Focos y escoger la actualización que deseas aplicar. Para realizar la actualización se drenara vis del aura y también se te desproveerá de tus puntos de experiencia, después ya solo será cuestión de esperar.
+tc.research_page.FOCALMANIPULATION.2=Cada foco se puede mejorar hasta cinco veces, pero cada nueva mejora duplicara el costo.<BR>Aunque algunas mejoras pueden aplicarse varias veces y en cualquier rango, muchos focos tienen actualizaciones ocultas que sólo se pueden aplicar con determinadas mejoras previas y en ciertos rangos. Con esto se fomentara en ti la experimentación.<BR>Las mejoras son permanentes - ya que no has encontrado ningún método para removerlas, así que elígelas con sabiduría.
 #
-tc.research_name.VAMPBAT=Tier 5 Upgrade: Vampire Bats 
-tc.research_text.VAMPBAT=Vicious little bloodsuckers  
+tc.research_name.VAMPBAT=Actualización de Nivel 5: Murciélagos Vampiro
+tc.research_text.VAMPBAT=Pequeñas y viciosas sanguijuelas
 #
 tc.research_name.WANDPED=Pedestal Recarga Varitas
 tc.research_text.WANDPED=Recargando varitas automáticamente
-tc.research_page.WANDPED.1=Viajar por el mundo para recargar tu varita está muy bien, pero una forma automática de hacerlo estaría mucho mejor.<BR>Este pedestal especialmente diseñado hace precisamente eso - cualquier varita depositada en él absorberá automáticamente vis de nodos cercanos.<BR>Además los nodos no se agotarán completamente a menos que sea una varita de mala calidad hecha de madera mundana y hierro.
+tc.research_page.WANDPED.1=Viajar por el mundo para recargar tu varita está muy bien, pero una forma automática de hacerlo estaría mucho mejor.<BR>Este pedestal especialmente diseñado hace precisamente eso - cualquier varita depositada en él absorberá automáticamente vis del aura local.<BR>Las varitas no son los únicos ítems que pueden ser recargados en este aparato - muchos artefactos que son capaces de almacenar vis pueden ser recargados también.<BR>El pedestal no drenara vis del aura si esta cae por debajo del 10% de su capacidad.
 #
-tc.research_name.VISAMULET=Almacenamiento de Vis
-tc.research_text.VISAMULET=No lo quieres, no lo pierdas
-tc.research_page.VISAMULET.1=La mayoría de las veces las varitas son más que suficiente para cualquier thaumaturgo, pero hay ocasiones en que el almacenamiento simplemente no es suficiente. Llevar más de una varita resolvería esto, pero la experimentación ha demostrado que hay otra manera.<BR>La elaboración de un amuleto capaz de almacenar vis, usted será capaz de recargar varitas y otros objetos varios mientras se desgastan.<BR>El amuleto sólo recargar varitas o artículos que se encuentran en su barra de acceso rápido. El amuleto también puede ser colocado en un pedestal de recarga.
+tc.research_name.VISAMULET=Almacenamiento Portable de Vis
+tc.research_text.VISAMULET=No lo quieres, no lo desperdicies
+tc.research_page.VISAMULET.1=La mayoría de las veces las varitas son más que suficiente para cualquier thaumaturgo, pero hay ocasiones en que el almacenamiento simplemente no es suficiente. Llevar más de una varita resolvería esto, pero la experimentación ha demostrado que hay otra manera.<BR>Elaborando un amuleto capaz de almacenar vis, serás capaz de recargar varitas y otros objetos varios mientras se desgastan.<BR>El amuleto sólo recarga varitas o artículos de tu barra de acceso rápido, ornamentos o armadura (en ese orden). El amuleto también puede ser colocado en un pedestal de recarga.
 #
 tc.research_name.WORKBENCHCHARGER=Cargador Arcano
-tc.research_text.WORKBENCHCHARGER=Manteniendo las varitas cargadas
-tc.research_page.WORKBENCHCHARGER.1=La molestia de todo thaumaturgo es mantener su varita constantemente cargada.<BR>Ahora que usted ha encontrado una forma automatizada para extraer el vis aural, podrás elaborar en un mesa de trabajo arcana, el cargador arcano. <BR>Está diseñado para ser colocado en la parte superior de una mesa de trabajo arcana y atraerá vis del aura para recargar varitas colocadas en la mesa. El único inconveniente es que se recarga mucho más lento de lo que sería de una varita pedestal de recarga o hacerlo a mano.
+tc.research_text.WORKBENCHCHARGER=Fabricación Arcana Simplificada
+tc.research_page.WORKBENCHCHARGER.1=Para todo thaumaturgo la cosa más molesta con la que tiene que lidiar es con la urgencia de recargar constantemente su varita.<BR>Ahora que has encontrado una manera automática de drenar vis directamente del aura, has adquirido la habilidad de fabricar un Cargador Arcano. Este está diseñado para ser colocado en la parte superior de una mesa de trabajo arcana y drenar vis del aura para recargar las varitas que se encuentren en la mesa.<BR>El cargador no drenara vis del aura si esta cae por debajo del 10% de su capacidad.
 #
-tc.research_name.NODEMAGNET=Imán de Nodos
+tc.research_name.NODEMAGNET=Atracción de Nodos
 tc.research_text.NODEMAGNET=Funciona con magnetismo
-tc.research_page.NODEMAGNET.1=Manipular el aura es una cosa, pero si usted fuera capaz de mover nodos a su voluntad, podría asegurar un suministro estable en relación al uso que le des. Con este fin usted ha desarrollado el imán de nodos.<BR>El imán se centra en el nodo más cercado dentro de 32 bloques y poco a poco lo atrae hacia sí. Suena simple, pero, en efecto, el nodo está siendo arrancado con fuerza a través del aura. Esto no sólo requiere grandes cantidades de vis de todos los tipos, pero causa una considerable cantidad de flux.<BR>Cuanto mayor es un nodo, más lenta será la que se mueve.
-tc.research_page.NODEMAGNET.2=El imán de nodo en sí es bastante frágil y se debe tener cuidado de no dañar o destruirlo. Puede sobrevivir pequeños golpes, pero algo más y se romperán los componentes delicados.<BR>Puede ser recogido por un clic derecho sobre el mismo con una varita.
-tc.research_page.NODEMAGNET.3=§n¡Precausion!§r<BR><BR>Si al momento de colocar el imán de nodos, notas algo extraño: Parece emitir un zumbido casi inaudible que se las arregla para establecerse en el lugar.<BR>Extraños gruñidos y aullidos en los alrededores parece indicar que no es el único perturbando el ruido
+tc.research_page.NODEMAGNET.1=Manipular el aura es una cosa, pero si fueras capaz de mover nodos a tu voluntad, podrías asegurarte un suministro estable de vis en relación al uso que le des. Con este fin usted ha desarrollado el Imán de Nodos.<BR>El imán se centra en el nodo más cercado en un radio de 32 bloques y poco a poco lo atrae hacia sí. Suena simple, pero, en efecto, el nodo está siendo arrancado con fuerza a través del aura. Esto no sólo requiere grandes cantidades de vis de todos los tipos, también puede causar una considerable cantidad de flux. | Cuanto mayor es un nodo, más lento se moverá.
+tc.research_page.NODEMAGNET.2=El Imán de Nodos en sí es bastante frágil y se debe tener cuidado de no dañarlo o derribarlo. Puede sobrevivir a pequeños golpes, pero algo más y se romperán sus delicados componentes.<BR>Puede ser recogido dando clic derecho sobre el con una varita.
+tc.research_page.NODEMAGNET.3=§n¡Precaucion!§r<BR><BR>Si al momento de colocar el imán de nodos notas algo extraño: Como un zumbido casi inaudible que logra que tus dientes rechinen.<BR>Extraños gruñidos y aullidos en los alrededores te indicaran que no eres al único al que perturba este ruido.
+#
+tc.research_name.NODESTABLE=Estabilizador de Nodos
+tc.research_text.NODESTABLE=Manteniendo las cosas a raya
+tc.research_page.NODESTABLE.1=Los nodos de aura tienen la tendencia de moverse a su alrededor y juntarse justo cuando tu no lo quieres. Este mecanismo te permite resolver ese problema.<BR>Simplemente coloca este mecanismo bajo un nodo y veras como este termina atrapado dentro de una burbuja mistica y se mantiene en su sitio. Si el nodo no es atraído por otros nodos, por lo tanto los otros nodos no seran atraídos a él.
 #
 # Artifice 
 #######################
