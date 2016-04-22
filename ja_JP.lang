@@ -6,6 +6,16 @@ enchantment.repair=修復
 enchantment.special.sapless=弱い衰耗
 enchantment.special.sapgreat=強い衰耗
 #
+# Infusion Enchantments
+###################################
+enchantment.infusion.COLLECTOR=蒐集家
+enchantment.infusion.DESTRUCTIVE=破壊的
+enchantment.infusion.BURROWING=抜け穴
+enchantment.infusion.SOUNDING=聴音
+enchantment.infusion.REFINING=自動精錬
+enchantment.infusion.ARCING=弧斬
+enchantment.infusion.ESSENCE=エッセンス狩り
+#
 # Potions
 ###################################
 potion.fluxtaint=汚染毒
@@ -199,6 +209,7 @@ tile.eldritch.lock.name=いにしえの施錠機構
 tile.eldritch.door.name=いにしえの扉
 tile.eldritch.teleporter.name=エルドリッチのポータル
 tile.eldritch.crabspawner.name=凝り固まった穴
+tile.grass_ambient.name=取り巻く草ブロック
 #
 # Doodads
 tile.table_stone.name=石のテーブル
@@ -264,6 +275,7 @@ tile.paving_stone.barrier.name=結界石
 tile.paving_stone.travel.name=旅の敷石
 tile.flesh_block.name=肉塊ブロック
 tile.redstone_relay.name=レッドストーンリレー
+tile.pattern_crafter.name=神秘の定形組立器
 #
 # Misc
 tile.hole.name=次元の裂け目
@@ -386,6 +398,7 @@ item.gear.void.name=虚無鋼歯車
 item.wisp_essence.name=天上のエッセンス
 item.fabric.name=魔法の布
 item.crystal_essence.name=結晶化エッセンス
+item.crystal_essence.balanced.name=均衡の結晶化エッセンス
 item.wispy_essence.name=ウィスプのエッセンス
 item.phial.empty.name=薬瓶
 item.phial.filled.name=エッセンシアの小瓶
@@ -500,10 +513,16 @@ item.baubles.0.name=ただの護符
 item.baubles.1.name=ただの指輪
 item.baubles.2.name=ただの腰帯
 item.baubles.3.name=%TYPEの新米の指輪
+item.baubles.9.name=高価な護符
+item.baubles.10.name=高価な指輪
+item.baubles.11.name=高価な腰帯
 item.amulet_vis.text=ホットバーの杖を充填する
 item.amulet_vis.0.name=魔力石
-item.amulet_vis.1.name=魔力貯蔵の護符
+item.amulet_vis.1.name=魔力の護符
 item.girdle_hover.name=魔動制御帯
+item.ring_verdant.name=新緑の心の指輪
+item.verdant.life.text=生命を与えるもの
+item.verdant.sustain.text=空腹を満たすもの
 
 # Wand
 item.focus_fire.name=火の杖星
@@ -590,6 +609,7 @@ item.creative_placer.obelisk.name=オベリスク設置
 item.creative_placer.node.name=オーラ節設置
 item.creative_placer.caster.name=いにしえの自動詠唱器設置
 item.creative_flux_sponge.name=フラックス・スポンジ
+item.jar_brace.name=真鍮のねじ蓋
 #
 # Golem
 item.module.vision.name=視界モジュール
@@ -657,6 +677,8 @@ golem.trait.hauler=運び屋
 golem.trait.text.hauler=ゴーレムが1スタックの代わりに2スタック分を運搬できる。
 golem.trait.ranged=長射程
 golem.trait.text.ranged=このゴーレムは遠距離から対象を狙撃できる。
+golem.trait.blastproof=耐爆
+golem.trait.text.blastproof=このゴーレムは爆破ダメージに高い耐性を持つ。
 #
 # Props 
 golem.material.wood=グレートウッド
@@ -781,8 +803,7 @@ recipe.type.smelting=精錬
 recipe.type.workbenchshapeless=作業台 (不定形)
 recipe.type.arcane=神秘の作業台
 recipe.type.crucible=るつぼ
-recipe.type.infusion=祭壇クラフト
-recipe.type.infusionenchantment=祭壇エンチャント
+recipe.type.infusion=注入の儀式
 recipe.type.construct=神秘的構造物
 wandtable.text1=Visコスト
 wandtable.text2=経験値コスト
@@ -829,6 +850,8 @@ golem.prop.lock=印章の所有者の使役するゴーレムのみがこの作�
 golem.prop.unlock=全てのゴーレムがこの作業を行う
 golem.prop.redon=レッドストーンに反応
 golem.prop.redoff=レッドストーン信号を無視する
+golem.prop.exist=コンテナに予めアイテムが必要
+golem.prop.leave=少なくとも1つ残す
 #
 tile.researchtable.noink.0=インクを使い果たした!
 tile.researchtable.noink.1=筆記具のインクを補充しよう！
@@ -920,6 +943,7 @@ tc.discount=軽減
 tc.visdiscount=Vis軽減
 tc.vis.cost=vis消費
 tc.vis.costavg=平均vis消費
+tc.charge=Vis充填量:
 tc.inst=不安定性: 
 tc.inst.0=§1無視できる§0
 tc.inst.1=§9小§0
@@ -1051,7 +1075,7 @@ tc.research_page.ASPECTS.3=アイテムが含む相を見るには、単にマ�
 tc.research_name.NODES=オーラと節
 tc.research_text.NODES=魔法は遍在する
 tc.research_page.NODES.1=§5オーラ§0は世界中いたるところに遍在する魔法の力場である。その起源はよく分かっていない。ある者は生物の生命力の蓄積だと信じており、別のある者は他の次元から漏れ出す他の種のエネルギーだと信じている。後者の説がもっともらしく、オーラはしばしば§5オーラ節§0と呼ばれる魔法のエネルギーが集中した節を囲むようにして見つかる。<BR>オーラはそれぞれの根源相について地形に影響を受ける。例えば、水場に近い場所では§3Aqua§0のオーラが多くなり、一方で砂漠のような場所ではより多くの§cIgnis§0が存在する。
-tc.research_page.NODES.2=オーラはこれに基いてチャンクごとに変化する。ある領域のオーラが枯渇した場合、より高いエネルギー値を持つ隣接する領域からオーラが流入するだろう。オーラは水よりも濃い糊のような振る舞いをするため、その濃度が完全に均質化されることはない。<BR>オーラは汚染されて§5Vitium§0(フラックス)の相を得ることもある。フラックスはより「濃い」傾向があり隣のチャンクに流入するよりも狭い領域に凝集しようとする。オーラの水準は極端に下がり、フラックスを生成するようになる。<BR>多すぎるフラックスが一定領域に集まると§l汚染§rが引き起こされる。汚染についての更なる情報はソーモノミコンの当該項目を参照のこと。
+tc.research_page.NODES.2=オーラはこれに基いてチャンクごとに変化する。ある領域のオーラが枯渇した場合、より高いエネルギー値を持つ隣接する領域からオーラが流入するだろう。オーラは水よりも濃い糊のような振る舞いをするため、その濃度が完全に均質化されることはない。<BR>オーラは汚染されて§5Vitium§0(フラックス)の相を得ることもある。フラックスはより「濃く」、隣接するチャンクに流出するより先に離散した領域で凝集する傾向にある。オーラ量が基本水準より大幅に減少することでもフラックスが生じる。<BR>多すぎるフラックスが一定領域に集まると§l汚染§rが引き起こされる。汚染についての更なる情報はソーモノミコンの当該項目を参照のこと。
 tc.research_page.NODES.3=オーラ節は他の魔法のエネルギーが湧き出す神秘的な隠れ家への玄関口のように働く。それぞれの節は普通§5根源相§0に「調律」されているが、まれに§l合成相§rに調律された節も存在する。<BR>節からは直接魔力を吸うことはできないが、周辺のオーラをゆっくりと回復する。<BR>一般的にオーラ補充の割合は月相に影響を受けているようで、満月の時ほど高い補充率になる。<BR>節の大きさはオーラの補充速度に直接関係する。
 tc.research_page.NODES.4=オーラ節は実質的に裸眼での視認が不可能である。多くの場合、局所的に高いレベルのオーラを探すことがその存在を検知する唯一の方法である。<BR>近い節同士はしばしば引かれ合いお互いに近づこうとする。これらが充分に接近した時、さまざまな結果をもたらす合体をするが、多くの場合は合体元の両者あるいは片方の特徴を備えたより大きな節になる。<BR>節には様々な種類が見つかっているが、それについて分かっていることは今のところ少ない。
 tc.research_page.NODES.A=§l§n星幽節§r<BR>この節は光に反応するようだ。より強い光でより速くオーラを回復する。
@@ -1257,9 +1281,9 @@ tc.research_name.WANDPED=杖充填台
 tc.research_text.WANDPED=自動化された杖の再充填
 tc.research_page.WANDPED.1=杖を充填するために土地を渡り歩くのは悪くないが、それが自動化できるならそれに越したことはないだろう。<BR>この特殊化された台座は設置された任意の杖に、オーラからVisを吸収して自動的に再充填する。<BR>杖はこの装置で再充填できる唯一のアイテムではない。様々なVisを保持するガジェットがこの装置で再充填できる。<BR>この装置はオーラが10%以下に下がると吸収を停止する。
 #
-tc.research_name.VISAMULET=Vis貯蔵
+tc.research_name.VISAMULET=携帯Vis貯蔵庫
 tc.research_text.VISAMULET=浪費せねば必要ならず
-tc.research_page.VISAMULET.1=ほとんどの場合、魔導師にとって一本の杖は充分以上のものであるが、Visの貯蔵が心許ないといった場面も少なくはない。複数の杖を持ち運べば解決するが、実験結果は他の方法を示唆している。<BR>Visを貯蔵できる護符を作りだすことで、それを着用している間に杖や場のアイテムを再充填することができるようになった。<BR>この護符はホットバーにある杖やアイテムのみに再充填する。この護符も杖充填台に置くことができる。
+tc.research_page.VISAMULET.1=ほとんどの場合、魔導師にとって一本の杖は充分以上のものであるが、Visの貯蔵が心許ないといった場面も少なくはない。複数の杖やそれに類するものを持ち運べば解決するが、実験結果は他の方法を示唆している。<BR>Visを貯蔵できる護符を作りだすことで、それを着用している間に杖や場のアイテムを再充填することができるようになった。<BR>この護符はホットバーや装飾品スロット、防具スロットにある杖やアイテムのみに再充填する(この順番に)。この護符は充填台で普通に充填できるアイテムにのみ再充填できる。
 #
 tc.research_name.WORKBENCHCHARGER=神秘の作業台充填器
 tc.research_text.WORKBENCHCHARGER=神秘のクラフトをシンプルに
@@ -1296,7 +1320,7 @@ tc.research_page.GOGGLES.1=ソーモメーターの基本原理を元にして�
 #
 tc.research_name.DIOPTRA=魔導測量儀
 tc.research_text.DIOPTRA=オーラを暴く
-tc.research_page.DIOPTRA.1=この複雑な装置は魔導師が周りを取り囲むオーラをシンプル且つはっきりと見えるようにするものである。<BR>単純に適性な種類の結晶片を装置上部へ挿入することで、半径13チャンク以内のオーラ分布を描画する。<BR>またvisの供給源がある場合は火花として表示される。それほど厳密ではないが、そのような供給源や興味深い場所を見つけるのに役立つ。
+tc.research_page.DIOPTRA.1=この複雑な装置は魔導師が周りを取り囲むオーラをシンプル且つはっきりと見えるようにするものである。<BR>単純に適性な種類の結晶片を装置上部へ挿入することで、半径13チャンク以内のオーラ分布を描画する。<BR>またvisの供給源がある場合は火花として表示される。それほど厳密ではないが、そのような供給源や興味深い場所を見つけるのに役立つ。<BR>コンパレータを接続することで、それが設置されたチャンクのオーラ量を監視することもできる。
 
 #
 tc.research_name.BOOTSTRAVELLER=旅人の靴
@@ -1341,7 +1365,7 @@ tc.research_name.ARCANESTONE=神秘の石
 tc.research_text.ARCANESTONE=魔法的に強化された建築資材
 tc.research_page.ARCANESTONE.1=神秘の石はたくさんの複雑な神秘的構造物の構成素材である。これは普通の石を火の元素で焼きなめし、大地の元素で強化したものである。
 #
-tc.research_name.INFUSION=注入クラフト
+tc.research_name.INFUSION=注入の儀式
 tc.research_text.INFUSION=神秘的融合
 tc.research_page.INFUSION.1=神秘的クラフトと錬金術は同じくらい成功した。更に良い何かが本当に強力な神秘的物品を作るために必要になる。<BR>注入クラフトは単一の物品に魔法のエネルギーと他の物品の特性を注入する過程である。例えば、石に§6Aer§0のvisと羽根を注入することでとても軽い石がもたらされる。<BR>魔術の常として、事はそれほど単純ではない。注入クラフトを始めるためにすらいくつかの準備が必要になる。ルーンのマトリクス、神秘の台座、そしてエッセンシアの形で魔法を供給する準備が。
 tc.research_page.INFUSION.2=ルーンのマトリクスを一般的に注入の祭壇として知られる構造物に正しく配置したら、クラフトを始められる。<BR>マトリクスの下に位置する中央の台座は注入を行うアイテムを置く場所である。また注入に使用するアイテムやブロックを配置するためのもういくつかの台座が祭壇の周りに必要になる。最後に必要量のvisを保持するエッセンシアの入れ物として保護瓶かそれに類するものが必要になる。<BR>すべてが揃ったら、ルーンのマトリクスを杖でクリックしてクラフトの過程を開始できる。<BR>クラフトの最初のステップでは、近くの供給源からエッセンシアが
@@ -1361,8 +1385,8 @@ tc.research_page.JARBRAIN.1=ゾンビの脳を生き返らせ、それを独自�
 #
 tc.research_name.HOVERHARNESS=魔動制御装備
 tc.research_text.HOVERHARNESS=鳥か？
-tc.research_page.HOVERHARNESS.1=ついに飛行の秘密の解明に成功した。魔動力学的エネルギーを用いて魔導力場に自身を固定する装具を作り出し、重力に逆らうことに成功した。量子とクォークが何かしら関係していると考えられる。<BR>この装備は周辺のオーラから直接visを吸って稼働する。AerとIgnisのセットを1visずつで1秒間の飛行が可能。この装備には周囲のオーラが枯渇した時のため、10秒分の飛行に必要なvisを蓄えられる内部バッファを内蔵してある。<BR>装備して[H]キーを押すことで起動もしくは停止できる。
-tc.research_page.HOVERHARNESS.2=これには飛行中の速度を向上させるため迅速のエンチャントを付与することができる。<BR>この装備で飛んでいる間、ブロックの破壊速度は低減されない。
+tc.research_page.HOVERHARNESS.1=ついに飛行の秘密の解明に成功した。魔動力学的エネルギーを用いて魔導力場に自身を固定する装具を作り出し、重力に逆らうことに成功した。量子とクォークが何かしら関係していると考えられる。<BR>この装備はVisによって稼働するため、それを充填する必要がある。1単位ごとのAerとIgnisのVisで1秒間の飛行が可能。この装備には5分間の飛行に充分な量の内部バッファが内蔵されている。<BR>装備して[H]キーを押すことで起動もしくは停止できる。
+tc.research_page.HOVERHARNESS.2=これには飛行中の速度を向上させるため迅速のエンチャントを付与することができる。<BR>この装備で飛んでいる間、ブロックの破壊速度は低減されない。またダッシュするように加速することもできるが、Vis消費量が大幅に増加する。
 #
 tc.research_name.HOVERGIRDLE=魔動制御帯
 tc.research_text.HOVERGIRDLE=飛行機か？
@@ -1470,6 +1494,27 @@ tc.research_text.REDSTONERELAY=魔法のレッドストーンの相互作用
 tc.research_page.REDSTONERELAY.1=あなたは常に神秘的装置とレッドストーン信号の間の一見反し合うような反応について興味を持っていた。その問題について研究し、レッドストーンが魔法を抑制するのがよく知られた現象である一方で、特定の状況下では逆もまた真なりということを発見した。<BR>これの実用化の例がレッドストーンリレーである。vis結晶のような魔法の物質を介してレッドストーン信号を送ることで信号を任意のレベルに調整できる。<BR>
 tc.research_page.REDSTONERELAY.2=リレーはレッドストーンリピーターと同じように設置して使い、レッドストーントーチのある方が出力側を示している。<BR>リピーターとは異なりリレーは2つの多段階スイッチを持っている。後ろ側のスイッチはリレーをオンにするための最低限の入力レベルを決定する。前側のスイッチ(トーチの側)はリレーがアクティブになった時に出力する信号の強さを決定する。
 #
+tc.research_name.INFUSIONENCHANTMENT=エンチャントの注入
+tc.research_text.INFUSIONENCHANTMENT=魔導的エンチャント
+tc.research_page.INFUSIONENCHANTMENT.1=元素のツールはその有用さを証明したが、それらにエンチャントを施す術は柔軟性に乏しかった……今までは。新しく発見された方法では魔導金属のツールに付与されたものと同様の能力をそれ以外のほとんど全てのツールや武器に付与できるようになった。<BR>一部のエンチャントは同じアイテムに複数回付与できるが、そのランクが上がるごとに儀式に消費するエッセンシアの量は増大する。<BR>またそれぞれ異なるエンチャントごとに33%ずつ増加し、また歪み促進の特性が付与される確率が増加する。
+tc.research_page.INFUSIONENCHANTMENT.2=特定の注入エンチャントは特定のツールや武器にしか付与できない。それらは以降にある個別の項目ごとのページ下部に列記してある。<BR>注入エンチャントがされたツールも通常のエンチャントテーブルでエンチャント可能であり、その逆もまた然りである。<BR>元素のツールと同様に、注入エンチャントされたツールもスニークして使用すればその特殊能力は抑制される。
+tc.research_page.INFUSIONENCHANTMENT.COLLECTOR=§n蒐集家§r<BR>このツールでブロックを破壊した時、ドロップしたアイテムは自動的に採掘者に向かって飛んで来る。<BR>§lランク§r: なし<BR>§l対象§r: 斧、つるはし、シャベル、武器
+tc.research_page.INFUSIONENCHANTMENT.BURROWING=§n抜け穴§r<BR>このツールで樹木や鉱石の破壊を試みると、そのブロックの代わりにそれに連続する最も遠い同種のブロックを破壊する。<BR>§lランク§r: なし<BR>§l対象§r: 斧、つるはし
+tc.research_page.INFUSIONENCHANTMENT.REFINING=§n自動精錬§r<BR>鉱石を採掘する時、代わりに自然鉱物クラスターが得られることがある。エンチャントのランクが上がれば確率も増大する。<BR>§lランク§r: 1-4<BR>§l対象§r: つるはし
+tc.research_page.INFUSIONENCHANTMENT.SOUNDING=§n聴音§r<BR>このツールでブロックを右クリックすることで周辺に波動を放つ。この波動は近くに埋もれているどんな鉱石でも見つけ出すことができる。この能力を使用するとツールが少し損耗する。<BR>§lランク§r: 1-4<BR>§l対象§r: つるはし
+tc.research_page.INFUSIONENCHANTMENT.DESTRUCTIVE=§n破壊的§r<BR>このツールでブロックを破壊するとそれを取り囲む8個のブロックも同時に破壊する。追加破壊したブロックにつき、それを逐一破壊した時と同量の耐久値が消耗される。<BR>§lランク§r: なし<BR>§l対象§r: 斧、つるはし、シャベル
+tc.research_page.INFUSIONENCHANTMENT.ARCING=§n弧斬§r<BR>このエンチャントが付与された武器で敵を打つと、近くの標的を疾風の刃が噛み付いて武器の半分のダメージを与える。追加のランクは追加対象の数を増やし、また範囲も増大させる。<BR>§lランク§r: 1-4<BR>§l対象§r: 武器
+tc.research_page.INFUSIONENCHANTMENT.ESSENCE=§nエッセンス狩り§r<BR>モンスターをこれがエンチャントされた武器で倒した時、そのエッセンスを結晶の形でドロップすることがある。エンチャントのランクが上がるごとに結晶のドロップ率も増大し、またドロップ数も増加する。<BR>§lランク§r: 1-5<BR>§l対象§r: 武器
+#
+tc.research_name.VERDANTHEART=新緑の心の指輪
+tc.research_text.VERDANTHEART=あなたの苦痛を癒す
+tc.research_page.VERDANTHEART.1=この神秘的な指輪は毒や同様の病苦を身体から洗い流す癒やしの力に脈打っている。残念ながら肉体的な怪我は治せない。<BR>この指輪は内部にVisを蓄えられ、充填台やそれに類するもので充填する必要がある――直接オーラからVisを吸うことはできない。
+#
+tc.research_name.VERDANTHEARTLIFE=生命を与えるもの、空腹を満たすもの
+tc.research_text.VERDANTHEARTLIFE=肉体のための香油
+tc.research_page.VERDANTHEARTLIFE.1=新緑の心の指輪を特殊化させるエンチャントが2つ付与できる。残念なことにこれらのエンチャントは相互に排他的であり、その両方を同時に付与することはできない。<LINE>§n生命を与えるもの§r<BR>この注入エンチャントは新緑の心の指輪に、それを身につける者の体力を回復させる力を与える。
+tc.research_page.VERDANTHEARTLIFE.2=§n空腹を満たすもの§r<BR>この注入エンチャントは新緑の心の指輪に、それを身に付ける者にゆっくりと空腹を満たす能力を与える。また呼吸可能な空気を供給する能力も含む。<LINE>トリプル・ミート・トリートは砂糖と三種の異なるミートナゲットを混合することで作成される。これはクラフト素材となるだけではなく、おいしくて栄養豊富な食事でもある。
+#
 # Alchemy 
 #######################
 tc.research_name.CRUCIBLE=基礎の錬金術
@@ -1548,13 +1593,14 @@ tc.research_page.DISTILESSENTIA3.1=虚無鋼の炉は基本の炉と同じよう
 tc.research_name.IMPROVED_DISTILLATION=改良されたエッセンシアの蒸留
 tc.research_text.IMPROVED_DISTILLATION=エッセンシアの収集……改良された
 tc.research_page.IMPROVED_DISTILLATION.1=エッセンシア炉はとても速く動作することができるが、常に最高速を出すには、とりわけエッセンシアの泥を使用可能なエッセンシアへと分解する速度が重要である。<BR>炉の側面に配置された各々の補助泥漿ポンプは、生成されたエッセンシアを上に配置された蘭引に排出する補助装置として機能する。
-tc.research_page.IMPROVED_DISTILLATION.2=また溶融過程でのフラックスの発生を制御する方法を発見した。泥漿をエッセンシアフィルターの二次的なセットに通してフラックスを分離し、安全孔から無害な蒸気として発散させる事ができる。<BR>この過程はフラックスの発生をおよそ3分の1にまで減らし、更に安全孔を追加することでその効果を向上させられるが、正規生成物が減少する。
+tc.research_page.IMPROVED_DISTILLATION.2=また溶融過程でのフラックスの発生を制御する方法を発見した。泥漿をエッセンシアフィルターの二次的なセットに通してフラックスを分離し、安全孔から無害な蒸気として発散させる事ができる。<BR>この過程はフラックスの発生を約3分の1減じ、更に安全孔を追加することでその効果を向上させられるが、正規生成物が減少する。
 #
 tc.research_name.JARLABEL=保護瓶とラベル
 tc.research_text.JARLABEL=エッセンシアの貯蔵と整理
 tc.research_page.JARLABEL.1=エッセンシアは§l保護瓶§rに保存できる。<BR>保護瓶はワールドに設置でき、事実上無期限にエッセンシアを保存することが可能である。またこの瓶に施された魔法のために、エッセンシアを風に乗せて搬入、搬出できる。<BR>瓶で蘭引をクリックすることで直接その瓶に蘭引の中身を汲み出せる。またそれらは薬瓶を使っての出し入れもできる。<BR>何より、それはジャムや保存食の素晴らしい保存媒体になり得る。
 tc.research_page.JARLABEL.2=瓶や蘭引を素手でShiftクリックすることでそれらを空にできる。<BR>瓶がエッセンシアを含んでいる限り、§l瓶ラベル§rを取り付けることができる。<BR>このラベルは瓶をそのタイプのエッセンシアに「固定」し、他の種類のエッセンシアが入らなくさせる。<BR>素手でラベルが貼られた面をShiftクリックしてラベルをはがせる。他の面をShiftクリックして瓶を空にしないように気をつけたい。
 tc.research_page.JARLABEL.3=ラベルをエッセンシアの小瓶とともに作業台に置くことで任意の相を指定することができ、それを空の保護瓶に貼り付けることで自動的にその瓶はそ相に固定される。このレシピではエッセンシアは消費されない。<BR>これを満たされた瓶に貼り付けると、ラベルは瓶のエッセンシアタイプに変更される。<LINE>ラベルは作業台に単体で置くことで再び白紙の状態に戻せる。
+tc.research_page.JARLABEL.4=また真鍮のねじ蓋もクラフトできる。これを瓶に使うと、これはその瓶から管などにエッセンシアが吸われたり、また注がれたりすることを阻害する。<BR>瓶を拾い上げればこの蓋も取り除かれ、アイテムとして回収できる。
 #
 tc.research_name.ETHEREALBLOOM=天上の華
 tc.research_text.ETHEREALBLOOM=浄化の花
@@ -1767,6 +1813,11 @@ tc.research_page.GOLEMBREAKER.1=ゴーレムの腕を強力な、空圧式ダイ
 tc.research_name.GOLEMCOMBATADV=ゴーレムの戦闘改善
 tc.research_text.GOLEMCOMBATADV=より良く早く強く
 tc.research_page.GOLEMCOMBATADV.1=ゴーレムを兵器や武器の扱いに特化させ、戦闘を効果的に行わせる。<BR>§9この研究は追加のゴーレム部品を開放する§0。
+#
+tc.research_name.ARCANEPATTERNCRAFTER=神秘の定形組立器
+tc.research_text.ARCANEPATTERNCRAFTER=全自動定形クラフト
+tc.research_page.ARCANEPATTERNCRAFTER.1=ある種の物品は作成がとても単純で――同種のアイテムを特定のパターンに並べるだけで欲しいものが作れる。例えば木材2つを組み合わせて棒を作ったり、1つのインゴットから9つの鋳塊を作ったり。このプロセスを自動化する方法の探求は非常に簡単だった。<BR>神秘の定形組立器はその上と下にインベントリが必要になる。上部に接するインベントリからクラフト素材を探し、選択されたパターンでクラフトを試みる。それが正しいパターンならばクラフト作業が実行され、生成物が下のコンテナに収納される。
+tc.research_page.ARCANEPATTERNCRAFTER.2=パターンを変更するには装置前部にある真鍮のダイヤルをクリックすれば良い。<BR>レッドストーン信号はこの装置を停止させる。
 #
 #
 # Eldritch 
