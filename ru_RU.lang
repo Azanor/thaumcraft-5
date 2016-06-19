@@ -162,7 +162,6 @@ tile.stone.arcane_brick.name=Магический кирпич
 tile.stone.ancient.name=Старинный камень
 tile.stone.ancient_rock.name=Старинная скала
 tile.stone.eldritch.name=Древний камень
-//Stopped checking here. Might continue sometime.
 tile.stone.ancient_tile.name=Старинная каменная основа
 tile.stone.crust.name=Заросший камень
 tile.stone.crust_glow.name=Светящийся заросший камень
