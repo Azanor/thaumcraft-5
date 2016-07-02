@@ -272,7 +272,7 @@ tile.purifying_fluid.name=정화의 액체
 tile.liquid_death.name=액체 죽음
 tile.placeholder.furnace_brick.name=지옥의 화로
 tile.placeholder.furnace_obsidian.name=지옥의 화로
-tile.barrier.name=보호의 기
+tile.barrier.name=보호의 기운
 #
 # Machines
 tile.research_table.name=연구 탁자
@@ -290,7 +290,7 @@ tile.hungry_chest.name=배고픈 상자
 tile.lamp_arcane.name=신비로운 램프
 tile.lamp_growth.name=성장의 램프
 tile.lamp_fertility.name=번식의 램프
-tile.jar.jar_normal.name=보호된 단지
+tile.jar.jar_normal.name=보호 단지
 tile.jar.jar_void.name=공허의 단지
 tile.jar.jar_brain.name=단지 안의 뇌
 tile.tube.tube_normal.name=에센시아 관
@@ -320,7 +320,7 @@ tile.aura_totem.pole_outer.name=외부 토템 폴
 tile.aura_totem.pole_pure.name=안정화 토템 폴
 tile.centrifuge.name=에센시아 원심분리기
 tile.crystallizer.name=에센시아 결정 장치
-tile.spa.name=마법의 욕탕
+tile.spa.name=마법의 욕조
 tile.mirror.name=마법의 거울
 tile.mirror_essentia.name=에센시아 거울
 #
@@ -445,7 +445,7 @@ item.goggles.name=진실의 고글
 item.fortress_helm.name=사우뮴 포트리스 투우
 item.fortress_helm.mask.0=위협하는 악마
 item.fortress_helm.mask.1=분노한 귀신
-item.fortress_helm.mask.2=흡수하는 적
+item.fortress_helm.mask.2=흡수하는 열광자
 item.fortress_chest.name=사우뮴 포트리스 흉갑
 item.fortress_legs.name=사우뮴 포트리스 하의
 item.thaumium_helm.name=사우뮴 투구
@@ -485,7 +485,7 @@ item.ring_runic.3.name=재활성 보호의 반지
 item.girdle_runic.0.name=루닉 보호의 반지
 item.girdle_runic.1.name=기동성 보호의 반지
 item.baubles.0.name=평범한 목걸이
-item.baubles.1.name=Mundane Ring
+item.baubles.1.name=평범한 반지
 item.baubles.2.name=평범한 허리띠
 item.baubles.3.name=견습 마법사의 %TYPE 반지
 item.amulet_vis.text=핫바의 마법봉을 충전합니다.
@@ -587,32 +587,32 @@ item.chargebonus.text=충전 속도
 ##############################
 fluid.fluxGoo=플럭스 점액
 fluid.fluxGas=플럭스 기체
-fluid.purifying_fluid=정화의 액체 ㅋ. ㅔ
-fluid.liquid_death=액체 죽음
+fluid.purifying_fluid=정화의 액체
+fluid.liquid_death=액체화된 죽음
 #
 # General Focus Upgrades
 #########################
 focus.upgrade.potency.name=강화
 focus.upgrade.potency.text=이 업그레이드는 포커스의 공격력 혹은 작동 속도를 증가시켜 줍니다. 정확한 공격력 증가량은 포커스마다 다르지만 레벨당 20% 정도입니다.
 focus.upgrade.frugal.name=절약
-focus.upgrade.frugal.text=This upgrade reduces the vis cost of activating the focus's powers by 10% per level.
+focus.upgrade.frugal.text=이 업그레이드는 포커스의 사용에 필요한 비스를 레벨당 10%씩 감소시켜줍니다.
 focus.upgrade.treasure.name=보물
-focus.upgrade.treasure.text=This upgrade acts like the Fortune or Looting enchantments. It increases the chance of getting more/better loot.
+focus.upgrade.treasure.text=이 업그레이드는 행운 또는 약탈 인챈트와 같은 효과를 갖습니다. 더 많은, 더 나은 아이템 획득의 기회를 얻습니다.
 focus.upgrade.enlarge.name=확장
-focus.upgrade.enlarge.text=This upgrade increases how large an area the focus's powers effect, or increases the number of targets effected.
+focus.upgrade.enlarge.text=이 업그레이드는 포커스의 영향 범위 또는 영향을 줄 수 있는 최대 숫자를 늘려줍니다.
 focus.upgrade.extend.name=연장
-focus.upgrade.extend.text=This upgrade increases the duration of any effects the upgrade might create.
+focus.upgrade.extend.text=이 업그레이드는 포커스가 일으킨 효과의 지속시간을 증가시킵니다.
 focus.upgrade.architect.name=건축
-focus.upgrade.architect.text=This upgrade gives a lot more control over the area certain foci effect. The exact area that will be effected is displayed and you can change the size using the misc wand toggle key (default G). Sneak+G allows you to toggle which dimensions you can change.
+focus.upgrade.architect.text=이 업그레이드는 특정 포커스가 영향을 줄 수 있는 선택범위를 늘려줍니다. 효과를 받는 정확한 범위가 보여지며 당신은 완드변환 키를 통해 범위를 조절할 수 있습니다. (기본값 G). 웅크리기+G 로 어떠한 평면을 바꿀지 결정할 수 있습니다.
 #
 # Specific Focus Upgrades
 ##############################
-focus.upgrade.chainlightning.name=Chain Lightning
-focus.upgrade.chainlightning.text=This upgrade reduces the speed at which the focus fires bolts, but the damage is increased and the bolt can chain to up to two additional targets.
-focus.upgrade.earthshock.name=Earth Shock
-focus.upgrade.earthshock.text=Instead of a bolt of lightning, the focus now lobs a ball of electrical energy. It inflicts damage in an area around where it hits and leaves the ground dangerously electrified for some time.
-focus.upgrade.fireball.name=Fireball
-focus.upgrade.fireball.text=The focus will now produce a explosive ball of fire you can hurl at your foes. The Alchemists Fire upgrade causes it to also set the ground aflame around the point of impact.
+focus.upgrade.chainlightning.name=연쇄 번개
+focus.upgrade.chainlightning.text=이 업그레이드는 완드의 볼트 발사 속도를 줄이지만, 공격력이 상승하며 두개의 추가적인 타겟을 맞출 수 있습니다..
+focus.upgrade.earthshock.name=정전기장
+focus.upgrade.earthshock.text=전격 화살을 발사하는 대신에, 포커스는 전기적 에너지의 구를 던질것입니다. 구체는 닿은곳과 그 주변에 데미지를 입히며 일정 시간동안 해당 구역을 전기가 통하게 합니다.
+focus.upgrade.fireball.name=화염구
+focus.upgrade.fireball.text=포커스는 이제 당신의 적에게 퍼부을 수 있는 폭발성 구체를 만들어 냅니다 연금술사의 불 업그레이드는 효과의 중앙으로부터 불이 퍼지는 정도를 증가시킵니다.
 focus.upgrade.firebeam.name=Fire Beam
 focus.upgrade.firebeam.text=The focus now emits a narrow stream of fire instead of a wide swathe. It burns through anything it touches inflicting massive damage.
 focus.upgrade.batbombs.name=Bat Bombs
