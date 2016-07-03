@@ -855,133 +855,132 @@ tc.research_page.KNOWFRAG.1=당신은 여행중에 고대의 잃어버린 지식
 #
 tc.research_name.ASPECTS=마법의 위상
 tc.research_text.ASPECTS=마법을 쌓아나가는 블럭들
-tc.research_page.ASPECTS.1=모든 아이템, 오브젝트, 그리고 생물들은 저마다 §5위상§0 을 담고 있습니다. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Terra while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 40 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
-tc.research_page.ASPECTS.2=§lPrimal Aspects§r are the most basic types of aspects and there are only 6 of them: §6Aer§0 (air), §2Terra§0 (earth), §cIgnis§0 (fire), §3Aqua§0 (Water), §7Ordo§0 (order), §8Perditio§0 (entropy).<BR>These form the basic building blocks of all other aspects.<BR>§lCompound Aspects§r are built from two other aspects. The simplest compound aspects are made from two primal aspects, but it is possible to have incredibly complex compound aspects made from successive layers of simpler aspects.<BR>The simplest example of such a compound aspect, is the aspect of Victus (life), which is a combination of §2Terra§0 and §3Aqua§0. 
-tc.research_page.ASPECTS.3=To view what aspects an item possesses, simply hover your cursor over the item and press sneak (shift), and you will see what aspects that item has and what amounts of each.<LINE>Aspects that have somehow been separated from their object and purified is known as §5Vis§0 and is very valuable: both as a crafting ingredient and as a subject for magical research.<BR>Vis is most often bound into wands, but it is also possible to store it as a magical liquid. Vis stored as a liquid is known as §5Essentia§0.
+tc.research_page.ASPECTS.1=모든 아이템, 오브젝트, 그리고 생물들은 저마다 §5위상§0 을 담고 있습니다. 위상은 해당 물체들이 어떻게 구성되어 있는지를 나타냅니다. 간단한 바위의 경우 Terra 위상정도만 함유하고 있겠지만 나무나 심지어 생물들은 그보다 훨씬 복잡한, 그리고 다양한 위상들을 가지고 있을것입니다. 현재까지 알려진 것으로는 약 40개의 위상이 존재한다고 합니다..<LINE>위상에는 두가지 종류가 있습니다: §5태초의§0 그리고 §5복합된§0.
+tc.research_page.ASPECTS.2=§l태초의 위상§r은 가장 기초적인 위상이며 단 6개만 존재합니다: §6Aer§0 (공기), §2Terra§0 (땅), §cIgnis§0 (불), §3Aqua§0 (물), §7Ordo§0 (질서), §8Perditio§0 (혼돈).<BR>이것들은 다른 복합 위상들을 구성하는 재료 위상이 되곤 합니다.<BR>§l복합 위상§r 은 다른 두 쉬상이 합성됨으로서 생겨납니다.. 가장 단순한 복합위상은 두개의 태초의 위상을 섞는 것입지만,  한단계 간단한 위상들로부터 더욱더 복잡한 위상을 만들어 내는것 또한 가능합니다.<BR>가장 간단한 복합위상은 Victus (생명)이며, 이는 §2Terra§0 와 §3Aqua§0 의 조합으로 만들어집니다. 
+tc.research_page.ASPECTS.3=아이템이 가진 위상을 보기 위해서, 간단히 아이템 위에 마우스를 올린 뒤 (shift)를 누르면 됩니다., 그렇게되면 아이콘에 어떤 위상이 얼만큼 들어있는지 볼 수 있을 것입니다..<LINE>위상들은 종종 물건에서 공기중으로 떨어져나오곤 하는데 이를 §5Vis§0 라고 합니다 또한 이는 매우 가치있습니다: 재료를 만들때나 마법적인 연구소재로서의 가치로서 말이죠.<BR>비스는 완드에 집어넣는것도 가능하지만 마법적 액체로 만들어 보관하는것 또한 가능합니다. 액체상태로 저장한 비스를 우리는 §5에센시아§0 라고 부릅니다. .
 #
-tc.research_name.NODES=Auras and Nodes
-tc.research_text.NODES=Magic is everywhere
-tc.research_page.NODES.1=The §5Aura§0 is a field of magical energy prevalent throughout the world. Its origin is unclear. Some believe it is the accumulated life force of living beings, while others believe it to merely be another type of energy seeping in from some other place. The last theory seems to be most likely, as the aura is often found surrounding a node of concentrated mystical energy known as an §5Aura Node§0.<BR>The aura has varying levels of energy for each primal. For example, auras near water often has more §3Aqua§0, while those in a desert would have more §cIgnis§0.
-tc.research_page.NODES.2=The aura varies from chunk to chunk based on this. If the aura in an area becomes depleted then aura will flow in from neighboring areas that have higher energy values. The levels will never quite equalize as the aura acts more like an ocean of thick glue than water.<BR>The aura can also become tainted and gain the §5Vitium§0 (flux) aspect. Flux is 'thicker' and tends gather more in discrete areas before flowing to neighboring chunks. Auras that fall too far below their base levels can also generate Flux.<BR>If too much flux gathers in an area it can lead to §lTaint§r. For more information on taint see the relevant section in your Thaumonomicon.
-tc.research_page.NODES.3=Aura nodes act like a doorway to some other mystical realm through which magical energy seeps. Each node is usually 'tuned' to a §5Primal Aspect§0, but rarely a node may be tuned to a §5Compound Aspect§0.<BR>Nodes cannot be tapped directly, but do slowly replenish the aura around them.<BR>Generally the rate of replenishment seems to vary with the phases of the moon with the full moon having the highest rates.<BR>The size of the node is also directly related to how quickly it will replenish the aura.
-tc.research_page.NODES.4=Aura nodes are virtually impossible to see with the naked eye. Often the only way to determine their presence is to look for elevated aura levels in a localized area.<BR>Nearby nodes often attract each other and will move closer together. When they get close enough they will merge with varying results, but usually resulting in a larger node containing features of one or both the original nodes.<BR>There are many different kinds of nodes to be found, but as yet you know very little about them.
-tc.research_page.NODES.A=§l§nAstral Nodes§r<BR>These nodes seems to react to light - the greater the amount of light, the faster they recharge the aura.  
-tc.research_page.NODES.D=§l§nSinister Nodes§r<BR>These nodes operate best in darkness and when the moon is waning. Furthermore the area around such nodes is often quite sinister and dangerous as if they are tapping into some evil and dangerous mystical realm.
-tc.research_page.NODES.H=§l§nHungry Nodes§r<BR>Instead of recharging the aura, these nodes slowly drain it instead. These nodes seem to increase in size and strength the more aura they consume.<BR>Many thaumaturges speculate that what you call a hungry node may merely be a node seen from the other side, but if that was true then and normal nodes would also grow in size and hungry nodes would be far more common. Fortunately, they are not.
-tc.research_page.NODES.P=§l§nPure Nodes§r<BR>Pure nodes are always a welcome find. They slowly remove any flux from the surrounding aura, though this seems to weaken and eventually destroy them.
-tc.research_page.NODES.T=§l§nTainted Nodes§r<BR>These nodes are mystically tainted. The energy they tap into has been fouled and will occasionally create flux in the aura they are replenishing.
-tc.research_page.NODES.U=§l§nUnstable Nodes§r<BR>These nodes are highly unstable and the type of aspect they replenish will occasionally change to some other random primal.
+tc.research_name.NODES=오라와 노드들
+tc.research_text.NODES=마법은 어디에나 있지.
+tc.research_page.NODES.1=§5오라§0는 세계에 퍼져있는 마법적 에너지장 같은 것입니다. 이것의 기원은 알려지지 않았습니다. 몇몇 이들은 살아있는것들의 생명에너지가 축적된 것이라고 믿지만, 다른 몇몇 이들은 어떠한 다른 세계에서 흡수되어 온것이라고 믿는 이들도 존재합니다. 마지막 이론이 가장 그럴싸한데, 오라가 §5오라 노드§0로 알려진 것의 주변에서 자주 관측되는것을 보았을때 노드가 근원이라는 점입니다.<BR>오라는 근처의 장소에 따라 다양한 태초의 위상들을 지니고 있습니다. 예를들어, 물이 많은곳 근처의 오라는  §3Aqua§0를 많이 가지고 있습니다.사막 근처의 오라는 §cIgnis§0가 많은 반면에 말이죠.
+tc.research_page.NODES.2=오라는 이것에 근간해 청크 단위로 퍼져있습니다. 해당 공간에서 오라가 어떠한 이유로 고갈될 경우 근처의 다른 높은 오라를 지닌 지역에서 끌어오게 됩니다. 하지만 오라는 물 대신 끈적한 풀과 같이 행동하지 때문에 오라가 전부 평준화 되는 일은 일어나지 않습니다.<BR>오라또한 테인트화 되고 §5Vitium§0 (플럭스) 위상을 얻을 수 있습니다. 플럭스는 좀 더 끈적하며 다른곳으로 퍼지기 보다는 한곳에 머물러 있으려는 경향이 강합니다. 오라가 원래보다 매우 낮게 존재하게 될 경우 플럭스가 발생하게 됩니다.<BR>만약 너무 많은 플럭스가 존재하게 될경우 해당 구역을 §l테인트§r로 이끌게 됩니다.. 테인트에대한 더 많은 정보는 사우모노미콘의 다른 부분을 참조하시기 바랍니다.
+tc.research_page.NODES.4=오라노드는 맨눈으로는 관측이 불가능합니다. 근처 지역에서 해당 오라가 매우 높은것을 통해 근처에 노드가 있음을 그저 추측할 수 있을 뿐입니다.<BR근처의 노드들은 나른 노드를 끌어당기며 서로 가깝게 이동합니다. 그들이 충분히 가까워지면 하나로 합쳐져 다양한 결과를 나타냅니다, 하지만 보통 합쳐진 노드는 원래 두 노드를 합친 정도의 능력을 지니고 있습니다.<BR>이곳에는 많은 특이한 노드들을 찾을 수 있지만 당신은 아직 거의 알지 못합니다.
+tc.research_page.NODES.A=§l§n눈부신 노드§r<BR>These nodes seems to react to light - the greater the amount of light, the faster they recharge the aura.  
+tc.research_page.NODES.D=§l§n불길한 노드§r<BR>These nodes operate best in darkness and when the moon is waning. Furthermore the area around such nodes is often quite sinister and dangerous as if they are tapping into some evil and dangerous mystical realm.
+tc.research_page.NODES.H=§l§n굶주린 노드§r<BR>Instead of recharging the aura, these nodes slowly drain it instead. These nodes seem to increase in size and strength the more aura they consume.<BR>Many thaumaturges speculate that what you call a hungry node may merely be a node seen from the other side, but if that was true then and normal nodes would also grow in size and hungry nodes would be far more common. Fortunately, they are not.
+tc.research_page.NODES.P=§l§n순수한 노드§r<BR>Pure nodes are always a welcome find. They slowly remove any flux from the surrounding aura, though this seems to weaken and eventually destroy them.
+tc.research_page.NODES.T=§l§n테인트 노드§r<BR>These nodes are mystically tainted. The energy they tap into has been fouled and will occasionally create flux in the aura they are replenishing.
+tc.research_page.NODES.U=§l§n불안정한 노드§r<BR>These nodes are highly unstable and the type of aspect they replenish will occasionally change to some other random primal.
 #
-tc.research_name.ORE=Ores
-tc.research_text.ORE=Dig deep
+tc.research_name.ORE=광물들
+tc.research_text.ORE=깊게 파고들자.
 tc.research_page.ORE.1=§l§nVis Crystals§r<BR><IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG><BR>On occasion there is so much primal energy in an aura that it will settle into rock from which vis infused crystals will grow. As long as they are fed vis they will continue to grow and even spread.<BR>Once the aura dips low enough the 
 tc.research_page.ORE.2=energy once again dissipates out of the crystals, replenishing the aura and causing the crystals to crumble. In effect, they are natural, or in this case, supernatural vis batteries. They will never crumble away completely and at least a small remnant of the crystal will remain.<BR>These crystals can be harvested for elemental shards that have many uses in Thaumaturgy.<BR><IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG><BR>You know of no way to only harvest some of the crystals. It is a matter of all or none.
 tc.research_page.ORE.3=§l§nCinnabar§r<BR><IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG><BR>This reddish ore is found deep underground and when smelted produces quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.ORE.4=§l§nAmber§r<BR><IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG><BR>This ore is found near the surface and when mined drops chunks of amber.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
-tc.research_name.PLANTS=Plants & Trees
-tc.research_text.PLANTS=Magical vegetation
+tc.research_name.PLANTS=식물과 나무들
+tc.research_text.PLANTS=마법의 식물학
 tc.research_page.PLANTS.1=§l§nGreatwood Trees§r<BR><IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG><BR>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
 tc.research_page.PLANTS.2=§l§nSilverwood Trees§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><BR>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that aura nodes often form within their hearts - this feature alone makes a silverwood sapling a prize beyond measure.
 tc.research_page.PLANTS.3=§l§nShimmerleaf§r<BR><IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG><BR>The strange, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l§nCinderpearl§r<BR><IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG><BR>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
 tc.research_page.PLANTS.5=§l§nVishroom§r<BR><IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>This strange, glowing mushroom can only be found growing in magical forests.<BR>They have hallucinogenic properties so one must be careful not to approach too closely. 
 #
-tc.research_name.CRYSTALFARMER=Crystal Farmer
-tc.research_text.CRYSTALFARMER=Helping them grow
+tc.research_name.CRYSTALFARMER=크리스탈 농부
+tc.research_text.CRYSTALFARMER=자라게 도와주자
 tc.research_page.CRYSTALFARMER.1=You have made a couple of discoveries that have given you the ability to turn vis shards into 'plantable' vis crystals on stone.<BR>What is more, you can now pluck a single shard from a crystal growth without having to break it - simply right click on it with your wand.
 #
-tc.research_name.RESEARCHER1=Research Expertise
-tc.research_text.RESEARCHER1=Knowledge is Power
+tc.research_name.RESEARCHER1=연구 전문가
+tc.research_text.RESEARCHER1=지식은 곧 힘이다.
 tc.research_page.RESEARCHER1.1=You have become more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 25% chance that you will regain the research point.<BR>You are also able to see what aspects you need to combine to create an aspect you are hovering over.<BR>Lastly it gives you the ability to consume a knowledge fragment to add one point to each primal. 
 #
-tc.research_name.RESEARCHER2=Research Mastery
-tc.research_text.RESEARCHER2=Power is Knowledge
+tc.research_name.RESEARCHER2=연구 달인
+tc.research_text.RESEARCHER2=힘이 곧 지식이다.
 tc.research_page.RESEARCHER2.1=You have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.<BR>Lastly you are able to combine aspects in the research table by shift-clicking on the aspect you wish to create. If you have enough of the component aspects they will automatically combine to create the clicked aspect.
 #
-tc.research_name.RESTABLE=Research Table
-tc.research_text.RESTABLE=To gather knowledge
+tc.research_name.RESTABLE=연구 테이블
+tc.research_text.RESTABLE=지식을 모으기 위해
 tc.research_page.RESTABLE.1=The Research table is created by clicking on a wooden table with a set of Scribing tools.<BR>The research table is the most important tool for any thaumaturge. It is used to unlock all the hidden secrets of the universe and discover new ways of harnessing magic. 
 #
-tc.research_name.THAUMONOMICON=Thaumonomicon
-tc.research_text.THAUMONOMICON=A Repository of Knowledge
+tc.research_name.THAUMONOMICON=사우모노미콘
+tc.research_text.THAUMONOMICON=지식의 보고
 tc.research_page.THAUMONOMICON.1=To craft the Thaumonomicon, you must simply use your wand on a bookshelf placed in the world.<BR>The Thaumonomicon is a reference book of all things thaumaturgical. It lists all the discoveries you have made so far and gives you a general impression of how many there are still to be made.<BR>Whenever you successfully research something and use the scroll, it will automatically be added to this book. You can then browse through the discoveries and click on them to be shown more detailed information regarding them as well as any crafting recipes associated with those discoveries. 
 #
-tc.research_name.ENCHANT=Enchantments
-tc.research_text.ENCHANT=New Enchantments
+tc.research_name.ENCHANT=인챈트
+tc.research_text.ENCHANT=새로운 인챈트들
 tc.research_page.ENCHANT.1=Thaumcraft adds several unique enchantments.<BR>§nHaste§r<BR>This enchantment can be applied to footwear of all types and increases the wearers land speed. The higher the enchantment level, the greater the speed bonus granted.<BR>§nRepair§r<BR>This enchantment slowly repairs the durability of items by drawing vis from wands in your inventory. The vis cost is determined by the value of the item.
 tc.research_page.ENCHANT.2=The higher the level of the enchantment, the quicker this takes place. This enchantment can only be applied to items made with Thaumcraft, and even then not all of them.
 #
-tc.research_name.PECH=The Pech
-tc.research_text.PECH=Strange Creatures
+tc.research_name.PECH=펙에 대해
+tc.research_text.PECH=신비한 생물들
 tc.research_page.PECH.1=These strange humanoids can be found wherever the veil between worlds is at its thinnest. They seem drawn to the magical energies that abound in such places.<BR>Don't let their small stature fool you. They have incredible strength and can carry many times their own bodyweight.<BR>Pech are normally not aggressive, but when riled up they will band together and hunt down their attacker. Under normal conditions they avoid people at all costs.<BR>Pechs are notoriously avaricious, and will loot anything not nailed
 tc.research_page.PECH.2=down, though they prefer precious things. It is said that if you feed this desire for material wealth it could be possible to befriend one. Once befriended they often carry wondrous objects that they might be willing to part with.<BR>It should be noted that such 'friendships' seldom last long.<BR><IMG>thaumcraft:textures/research/research5.png:128:136:112:120:.75</IMG>
 #
-tc.research_name.WARP=Warp, Flux and all things bad
-tc.research_text.WARP=Everything has a price
+tc.research_name.WARP=뒤틀림, 플럭스 그 외 나쁜것들
+tc.research_text.WARP=모든것엔 대가가 따르는법
 tc.research_page.WARP.1=§nWarp§r<BR>Many believe man was not meant to meddle with magic, and nothing gives more credence to this than the existence of Warp.<BR>Researching forbidden magics or crafting objects of a questionable nature tends to distort a thaumaturge's view of reality, twisting both their minds and their bodies. This effect is called Warp.<BR>While some warp gained is temporary and will fade over time, there is no known way to get rid of permanent Warp once it is gained and a thaumaturge who chooses to ignore the dangers in the pursuit of power
 tc.research_page.WARP.2=often finds himself on a slippery slope.<BR>Warp usually manifests as minor lapses in concentration, physical pain or hallucinations.<BR>These are more than merely mental though, as the visions sometimes impart useful knowledge or seeming hallucinations prove to be frighteningly real.
 tc.research_page.WARP.3=§nFlux§r<BR>If Warp is the mental manifestation of magic gone wrong, then Flux is its physical manifestation.<BR>Flux can manifest in three ways: a liquid, a gas and a physical malady. The first two manifestations are considered annoyances by most thaumaturges and is often the result of wasteful use of magic. It is not particularly hard to clean up, but coming into contact with it often causes the third manifestation: Flux Flu<BR>Flux Flu is not particularly dangerous, but while a thaumaturge is suffering from it he finds it difficult to focus vis which often leads to increased vis usage to get something done.
 #
 # Thaumaturgy 
 #######################
-tc.research_name.BASICTHAUMATURGY=Basic Wand Craft
-tc.research_text.BASICTHAUMATURGY=Your first tool
+tc.research_name.BASICTHAUMATURGY=기초 완드 제작
+tc.research_text.BASICTHAUMATURGY=당신의 첫번째 도구
 tc.research_page.BASICTHAUMATURGY.1=The casting wand is your most basic, but also your most important tool. It is what you use to craft objects, activate blocks like the crucible, and countless other tasks.<BR>The most basic wand stores a very limited amount of magical energy (called vis) that it uses to perform its tasks. To replenish the energy in a wand you must simply hold it in your hand and it will draw vis from the aura.<BR>While holding a wand you will see a indicator on the top left of the screen that shows how much vis is stored within the wand.
 tc.research_page.BASICTHAUMATURGY.2=Holding shift will display exact numbers held by the wand and any possible discounts you have to performing magical tasks.<BR>Wands are always constructed by the combination of a rod and two end-caps. As you progress with your studies, you are sure you will discover different materials that you can use to craft rods and caps to make powerful wands. Only the basic wand can be put together in a normal crafting table. All other wands require the §5Arcane Workbench§0 and will cost vis to construct.<BR>The basic wand is constructed from mundane wood and iron, both of which make poor materials for working magic.
 #
-tc.research_name.NODETAPPER1=Advanced Aura Tapping
-tc.research_text.NODETAPPER1=Taking it all
+tc.research_name.NODETAPPER1=오라 흡수 심화
+tc.research_text.NODETAPPER1=다 빨아 들이겠다.
 tc.research_page.NODETAPPER1.1=Usually the process of drawing vis from the aura with a wand is quite slow... but not anymore.<BR>You have discovered a more efficient way of tapping into the aura, doubling the normal draw rate. In addition you no longer need to hold the wand in your hand to do this, merely having it on your hotbar is sufficient.
 #
-tc.research_name.NODETAPPER2=Master Aura Tapping
-tc.research_text.NODETAPPER2=All your vis are belong to us
+tc.research_name.NODETAPPER2=오라 흡수의 달인
+tc.research_text.NODETAPPER2=네 비스는 모두 내것이야.
 tc.research_page.NODETAPPER2.1=You have added further refinements to the methods you use to tap the aura.<BR>You are now able to draw vis three times faster than normal. Furthermore you will recharge wands anywhere in your inventory, not just in your hand or hotbar.
 #
-tc.research_name.AURAMANIP1=Basic Aura Manipulation
-tc.research_text.AURAMANIP1=Let the magic flow
+tc.research_name.AURAMANIP1=기초 오라 조작
+tc.research_text.AURAMANIP1=마법이 흐르게 두자.
 tc.research_page.AURAMANIP1.1=You have made a few interesting discoveries regarding the aura and it is high time you start putting that knowledge to use. You have created a totem that pushes vis away from itself - the Totem of Dispersal.<BR>As the name suggests it takes vis near the totem and spreads it over a wider area.<BR>Messing with the aura is not without risk however and the totem has a small chance of converting the vis into flux instead of moving it.<BR>The totem requires that crystal shards be placed in its inventory to act as fuel and to determine what type of vis is effected.  
 tc.research_page.AURAMANIP1.2=Each totem has an inner and outer area in which it operates. By default the inner area consists of the chunk in which it is located while the outer area consists of the 8 chunks surrounding the inner area.<BR>The dispersal totem moves vis from its inner area towards the outer area.<LINE>You also know how to craft two different totem poles. These poles must be placed below a totem and each totem can have up to 5 poles located below it. These poles modify the inner and outer areas that the totem effects. 
 tc.research_page.AURAMANIP1.3=For example, a Dispersal totem with 1 inner and 2 outer poles will draw from vis from the green chunks below and push it towards the blue chunks.<IMG>thaumcraft:textures/research/research3.png:168:0:80:80:1</IMG>  
 #
-tc.research_name.AURAMANIP2=Totem of Attraction
-tc.research_text.AURAMANIP2=Drawing it in
+tc.research_name.AURAMANIP2=인력의 토템
+tc.research_text.AURAMANIP2=안에 담기.
 tc.research_page.AURAMANIP2.1=The Totem of Attraction works in much the same way is the Totem of Dispersal, except that it draws vis from the outer area and moves it towards the inner area.    
 #
-tc.research_name.AURAPOLESTABLE=Stabilizing Totem Pole
-tc.research_text.AURAPOLESTABLE=Smoothing the flow
+tc.research_name.AURAPOLESTABLE=안정화 토템 폴
+tc.research_text.AURAPOLESTABLE=흐름을 좀 더 부드럽게
 tc.research_page.AURAPOLESTABLE.1=This totem pole has a stabilizing effect on the totem it supports. It reduces the chance that flux is created during aura manipulation.
 #
-tc.research_name.CAP_gold=Gold Wand Caps
-tc.research_text.CAP_gold=Capping things off with style
+tc.research_name.CAP_gold=황금 마개
+tc.research_text.CAP_gold=스타일리쉬한 마무리
 tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and wands capped with this material takes no penalty when used to channel vis.
 #
-tc.research_name.CAP_brass=Brass Wand Caps
-tc.research_text.CAP_brass=Drawing in the Vis
+tc.research_name.CAP_brass=황동 마개
+tc.research_text.CAP_brass=비스를 뽑아내다
 tc.research_page.CAP_brass.1=Like gold, wands capped with this material takes no penalty when used to channel vis. More importantly however, is the fact that these caps can draw vis from the aura easier than normal, allowing the wands they are placed on to charge faster.
 #
-tc.research_name.CAP_thaumium=Thaumium Wand Caps
-tc.research_text.CAP_thaumium=Efficiency over speed
+tc.research_name.CAP_thaumium=사우뮴 마개
+tc.research_text.CAP_thaumium=속도 이상의 효율
 tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.<BR>Crafting these wand caps in an arcane workbench is not sufficient - they need to be infused with additional magical energy to make them usable.
 #
-tc.research_name.CAP_void=Void Metal Wand Caps
-tc.research_text.CAP_void=Power from beyond
+tc.research_name.CAP_void=공허 금속 마개
+tc.research_text.CAP_void=멀리에서 온 힘
 tc.research_page.CAP_void.1=Crafting wand caps from void metal seems counterintuitive since it seems to be highly resistant to magic, but counterintuitive is where you live now.<BR>Your gamble paid off. The metal itself may be resistant to magic and channels vis no better than gold or brass, but it can draw vis from the aura much, much quicker than normal. The magic does seem §ostrange§r somehow, but it is probably just your imagination.
 #
-tc.research_name.ROD_greatwood=Greatwood Wand Core
-tc.research_text.ROD_greatwood=Repository of magical energy
+tc.research_name.ROD_greatwood=그레이트우드 막대
+tc.research_text.ROD_greatwood=마법적 에너지의 저장소
 tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has more than double the vis storage potential of mundane wood, being able to store up to 250 vis of each type.
 #
-tc.research_name.ROD_silverwood=Silverwood Wand Core
-tc.research_text.ROD_silverwood=Magical to the core
+tc.research_name.ROD_silverwood=실버우드 막대
+tc.research_text.ROD_silverwood=코어에 있어서 마법적인!
 tc.research_page.ROD_silverwood.1=Silverwood has proved to be an excellent repository of magical energy, and wand cores crafted from it can store up to 500 vis of each type.
 #
-tc.research_name.SCEPTRE=Crafting Scepters
-tc.research_text.SCEPTRE=Made to task
+tc.research_name.SCEPTRE=제작용 홀
+tc.research_text.SCEPTRE=일을 위해 태어난
 tc.research_page.SCEPTRE.1=Crafting scepters are specialized wands made to be used to craft mystical objects and nothing else. Foci cannot be attached to them, but they have several features that still make them worthwhile using.<BR>Firstly, they have an additional 10% vis discount above and beyond what their caps would normally grant.<BR>Secondly they are able to hold 50% more vis than their cores would normally allow.<BR>Like other wands they can be crafted using most combinations of rods and caps - just a few examples are given on the next page.
 #
-tc.research_name.PRIMALRODS=Elemental Wand Cores
-tc.research_text.PRIMALRODS=Elemental vis storage
+tc.research_name.PRIMALRODS=엘레멘탈 막대
+tc.research_text.PRIMALRODS=속성별 비스 저장소
 tc.research_page.PRIMALRODS.1=Each of these wand cores is linked to a specific primal element which grants them additional abilities.<LINE>§l§nReed Wand Core§r<BR>A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, its will slowly replenish without drawing from the aura.
 tc.research_page.PRIMALRODS.2=§l§nBlazing Wand Core§r<BR>Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
 tc.research_page.PRIMALRODS.3=§l§nObsidian Wand Core§r<BR>A wand core chiseled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
@@ -989,42 +988,42 @@ tc.research_page.PRIMALRODS.4=§l§nIcy Wand Core§r<BR>Wand cores crafted from 
 tc.research_page.PRIMALRODS.5=§l§nQuartz Wand Core§r<BR>A wand core chiseled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §7Ordo§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
 tc.research_page.PRIMALRODS.6=§l§nBone Wand Core§r<BR>A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
 #
-tc.research_name.PRIMALSTAVES=Elemental Staves 
-tc.research_text.PRIMALSTAVES=Elemental vis storage
+tc.research_name.PRIMALSTAVES=엘레멘탈 지팡이 막대 
+tc.research_text.PRIMALSTAVES=속성 비스 저장
 tc.research_page.PRIMALSTAVES.1=Like the elemental wand cores, these stave cores are linked to a specific primal element which grants them additional abilities and slowly replenish their vis stores if they get low enough. They can store 750 vis of each type.
 #
-tc.research_name.ROD_greatwood_staff=Magic Staves
-tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
+tc.research_name.ROD_greatwood_staff=마법 지팡이
+tc.research_text.ROD_greatwood_staff=마법사의 지팡이 끝엔 매듭이 있지!
 tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for your buck. Magical staves are basically just bigger wands. They are able to store more vis.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.<BR>Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.
 tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has double the vis storage potential of a greatwood wand, being able to store up to 500 vis of each type.<BR>Note: You still need to add caps to a stave rod, just like you would for a wand.
 #
-tc.research_name.ROD_silverwood_staff=Silverwood Staff Core
-tc.research_text.ROD_silverwood_staff=Magical to the core
+tc.research_name.ROD_silverwood_staff=실버우드 지팡이 막대
+tc.research_text.ROD_silverwood_staff=코어에 있어서 마법적인!
 tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 1000 vis of each type.
 #
-tc.research_name.ROD_primal_staff=Staff Core of the Primal
-tc.research_text.ROD_primal_staff=Elemental power combined
+tc.research_name.ROD_primal_staff=태초의 지팡이 막대
+tc.research_text.ROD_primal_staff=원소의 힘이 결합된
 tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish its vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturge's arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
 #
-tc.research_name.FOCUSFIRE=Wand Foci
-tc.research_text.FOCUSFIRE=Form meets Function
+tc.research_name.FOCUSFIRE=완드 포커스
+tc.research_text.FOCUSFIRE=형태가 기능을 만날때
 tc.research_page.FOCUSFIRE.1=Some careful experimentation has shown you a way to expand the abilities of even the most basic wand.<BR>By combining crystalline vis shards with quartz crystals and infusing them with magic, you are able to align the crystals into a mystical matrix.<BR>If the proper types and amounts of vis is focused through this matrix, it will reshape the raw magical energies into something useful, controlled, and geared to a specific task. 
 tc.research_page.FOCUSFIRE.2=Adding a focus to your wand is a simple task - simply press F while holding the wand, and any foci you a carrying will show up in a radial menu allowing you to choose from any of the ones you are carrying with a simple click.<LINE>Your initial experiments involved the shaping of fire, and the resulting focus proved to be a simple, but useful tool.<BR>It is capable of sending forth a cone of elemental fire, burning all in its wake.
 #
-tc.research_name.FOCUSFROST=Wand Focus: Frost
-tc.research_text.FOCUSFROST=Revenge is a dish best served cold
+tc.research_name.FOCUSFROST=완드 포커스:냉기
+tc.research_text.FOCUSFROST=복수의 냉기를 맛보아라!
 tc.research_page.FOCUSFROST.1=This focus is capable of hurling chunks of ice.<BR>Care must be taken when aiming, as the ice chunks tend to bounce off solid objects. This can be used to your advantage however as you can bounce the shards around corners, or even hit multiple foes. 
 #
-tc.research_name.FOCUSSHOCK=Wand Focus: Shock
-tc.research_text.FOCUSSHOCK=Thunder and Lightning
+tc.research_name.FOCUSSHOCK=완드 포커스:전격
+tc.research_text.FOCUSSHOCK=천둥과 번개!
 tc.research_page.FOCUSSHOCK.1=This focus is capable of focusing elemental energy into bolts of lightning that you can hurl at your enemies.
 #
-tc.research_name.FOCUSEXCAVATION=Wand Focus: Excavation
-tc.research_text.FOCUSEXCAVATION=Terra Terror
+tc.research_name.FOCUSEXCAVATION=완드 포커스:채굴
+tc.research_text.FOCUSEXCAVATION=땅에 있어서 공포스러운
 tc.research_page.FOCUSEXCAVATION.1=This focus turns your wand into a tool capable of moving vast amounts of earth and stone with little effort.<BR>Simply point it at what you want to excavate and the magic does the rest. Tougher materials take longer to mine, and anything other than earth, stone or similar materials will take much longer to mine.
 #
-tc.research_name.FOCUSTRADE=Wand Focus: Equal Trade
-tc.research_text.FOCUSTRADE=This for That
+tc.research_name.FOCUSTRADE=완드 포커스: 등가 교환
+tc.research_text.FOCUSTRADE=이걸 위한 저것
 tc.research_page.FOCUSTRADE.1=You can use this focus to trade dozens of blocks in the world with some you are carrying.<BR>You must first choose the block you wish to change other blocks into by sneaking and right clicking on the desired block. When you then left-click on another block it will turn into the target block. Right clicking will transform a whole swathe of blocks.<BR>You must be carrying enough target blocks, and the transformed blocks will replace them in your inventory. Only blocks with at least one face adjacent to open air or non-solid blocks will be transformed.
 #
 tc.research_name.FOCUSHELLBAT=Wand Focus: Nine Hells
