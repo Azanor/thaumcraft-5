@@ -3,7 +3,7 @@
 ###################################
 enchantment.haste=신속
 enchantment.repair=수리
-enchantment.special.sapless=저급 흡수
+enchantment.special.sapless=하급 흡수
 enchantment.special.sapgreat=고급 흡수
 #
 # Potions
@@ -17,7 +17,7 @@ potion.warpward=뒤틀림 완화
 potion.deathgaze=죽음의 시선
 potion.blurred=흐릿한 시야
 potion.sunscorned=일사병
-potion.thaumarhia=플럭스 배출
+potion.thaumarhia=플럭스 구토
 #
 # Warp
 ###################################
@@ -810,12 +810,12 @@ tc.aspect.vinculum=함정, 틀에박힌
 tc.aspect.permutatio=거래, 교환
 #  
 # Research categories
-tc.research_category.기초=기초
-tc.research_category.마도학=마도학
-tc.research_category.연금술=연금술
-tc.research_category.마공학=마공학
-tc.research_category.골렘학=골렘학
-tc.research_category.엘드리치=엘드리치
+tc.research_category.BASICS=기초 마법학
+tc.research_category.THAUMATURGY=마도학
+tc.research_category.ALCHEMY=연금술
+tc.research_category.ARTIFICE=마공학
+tc.research_category.GOLEMANCY=골렘학
+tc.research_category.ELDRITCH=엘드리치
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
@@ -838,24 +838,24 @@ tc.research_name.RESEARCH=연구
 tc.research_text.RESEARCH=당신이 무언가 발견하는법
 tc.research_page.RESEARCH.1=당신이 대부분의 마법적인 아이템 또는 블럳들을 만들기 위해서, 당신은 먼저 그것이 어떻게 돌아가는지를 알아내야 합니다. 이것은 두가지 방법으로 해결될 수 있습니다.:<BR>(1) 당신이 아는 위상들을 발견한 선행지식과 레시피와 함께 §5연구 테이블§0 에서 사용하는 방법.<BR><BR>(2) 세계를 돌아다니며 블럭들, 아이템들 ,그리고 생물들을 , §5사우모미터§0 로 분석하여  미래의 연구에 대한 단서를 찾는것.<LINE>이 둘을 위해서 각각 §5사우모미터§0 와 연구탁자가 필요합니다.
 tc.research_page.RESEARCH.2=§5연구 테이블§0 을 만들기 위해서는 간단히 땅 위에 배치한 뒤에 필기도구와 함께 클릭하면 됩니다 <BR>§5사우모미터§0 와 §5S필기도구§0 의 레시피는 뒤에 있습니다.<LINE><IMG>thaumcraft:textures/research/research1.png:0:0:255:208:.5</IMG>
-tc.research_page.RESEARCH.3=§l§n(1) 연구의 첫번째§r<BR>당신은 이 단계를 위해 여러장의 종이와 필기도구가 필요합니다. 당신의 사우모노미콘을 열게되면 당신이 알고있는 그리고 앞으로 알게될 수많은 지식들이 존재합니다.<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
+tc.research_page.RESEARCH.3=§l§n(1) 주 연구§r<BR>당신은 이 단계를 위해 여러장의 종이와 필기도구가 필요합니다. 당신의 사우모노미콘을 열게되면 당신이 알고있는 그리고 앞으로 알게될 수많은 지식들이 존재합니다.<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
 tc.research_page.RESEARCH.4=빛나는 사각형 또는 원형 아이콘은 당신이 진행 할 수 있는 첫번째 연구를 나타냅니다.<BR>당신이 이 빛나는 아이콘들을 클릭하게되면 당신 가방속의 종이화 필기도구의 잉크가 소모되며 연구 노트를 손에 얻게 될것입니다. <BR>당신은 연구노트를 연구 테이블에 가져간 뒤 필기도구를 해당 슬롯에 놓음으로서 연구를 시작 할 수 있습니다. §l1§r (연구 테이블을 만들때 자동으로 필기도구는 연구 테이블에 위치하게 됩니다)  §l2§r.
 tc.research_page.RESEARCH.5=§l3§r 번구역은 당신이 이 연구를 완료하기 위해 태초의 위상을 얼마나 많이 사용할 수 있는지를 보여줍니다.<BR>§l5§r 구역은 바깥족 육각형에 위상이 배치되어있는 육각형들의 모임을 나타내는 종이가 보여집니다.<IMG>thaumcraft:textures/research/research2.png:0:88:255:158:.5</IMG>
 tc.research_page.RESEARCH.6=당신의 연구를 완수하기 위해서 당신은 그저 위상들을 연결하여 모두 활성화 시키면 됩니다. 당신은 이것을 바깥쪽 위상을 이루고 있는 위상 또는 바깥쪽 위상으로 구성된 위상을 근처에  드래그해서 할 수 있습니다.<IMG>thaumcraft:textures/research/research3.png:0:0:150:95:.75</IMG>
 tc.research_page.RESEARCH.7=위상을 놓는것은 해당 위상 포인트를 1 소모하게 됩니다. 만약 당신이 위상을 놓는데에 실수했다면 다시 그 위상을 클릭하여 제거 할 수 있지만, 당신의 연구포인트는 돌려받지 못합니다.<BR>만약 연구 포인트를 모두 다 사용해 버렸다면 해당 연구 노트를 버린 후 다시 만드는것이 가장 현명한 방법일 것입니다..<BR>대부분의 연구에 필요한 복합 위상을 얻기 위해서 당신은 태초의 위상으로부터 그것들을 합성해야 할것입니다. 이것은 조금 뒷장에 마저 설명될 것입니다.
 tc.research_page.RESEARCH.8=당신은 시작 위상 모두를 연결할때까지 전 페이지의 과정을 반복할 것입니다. 바깥 위상들이 다른 모든 위상들과 연결될 필요는 없습니다, 그것들이 그저 큰 하나의 덩어리로 묶여지기만 하면 됩니다.<BR>이 과정이 완료되면 연구는 완성되고 연구는 발견으로 바뀌어 인벤토리에 들어갑니다.<LINE>NOTE: 육각형 틀에서 위상을 배치하는것, 제거하는것 모두 당신의 필기도구의 잉크를 조금씩 소모합니다. 만약 모두 떨어진다면 다시 채우기 전까지는 아무것도 진행되지 않을것입니다.
-tc.research_page.RESEARCH.9=§l§n위상을 합성하기§r<BR>간단하게 클릭하거나 드래그 하는것으로  §l4§r 번에 위상이 위치하게 됩니다. The selected aspects will appear in area §l4§r and when you have two selected pressing the purple button will attempt to combine them. If successful you should see what was gained in the bottom right and it should appear in area §l3§r.<BR>The component aspects are consumed even if the combination did not result in valid compound aspect.
-tc.research_page.RESEARCH.10=§l§nSecondary Research§r<BR>Hexagonal icons indicate Secondary research. Much like primary research you just need to click on them. However instead of gaining a research note, you will simply learn the research directly. Secondary research does not require you to perform the research at the table, but they do cost experience levels to learn.
-tc.research_page.RESEARCH.11=§l§n(2) Exploration§r<BR><BR>While many researches are available from the start, some require knowledge that cannot be learned at a table while others are hidden completely until the some mystery is uncovered.<BR>You do this by exploration and examining objects in the world.<BR>The first thing you will need to do is construct a §5Thaumometer§0. By pointing the §5Thaumometer§0 at objects or creatures and pressing the right mouse button you will scan them. 
-tc.research_page.RESEARCH.12=Once complete you will be notified if you have discovered a clue.<BR>The exact nature of the clue might not be immediately apparent. Check your Thaumonomicon to see if any new research icons have been revealed (indicated by a gold star), or if new knowledge had been added to existing research (shown by a green plus).<BR>Usually new research discovered in this fashion will have amber icons.
+tc.research_page.RESEARCH.9=§l§n위상을 합성하기§r<BR>간단하게 클릭하거나 드래그 하는것으로  §l4§r 번에 위상이 위치하게 됩니다. 그렇게 총 두개의 위상을 누른 뒤 가운데의 보라색 버튼을 눌러 위상을 합성하게 됩니다. 만약 성공적인 조합이라면 13번에 합성된 위상이 나타나게 될것입니다.<BR>주의할점은 바른 조합이 아니더라도 재료 위상은 소모된다는 것입니다.
+tc.research_page.RESEARCH.10=§l§n보조 연구§r<BR>육각형 아이콘은 보조연구를 뜻합니다. 주 연구를 할때처럼 당신은 그저 아이콘을 클릭하기만 하면 됩니다. 하지만 연구노트를 얻는 대신 당신은 해당 지식을 바로 습득할것입니다. 보조연구는 테이블에서의 과정을 거치지는 않지만 그것들은 약간의 레벨을 소모할 것입니다.
+tc.research_page.RESEARCH.11=§l§n(2) 탐험§r<BR><BR>대부분의 연구가 시작부터 가능한 반면에, 몇몇 지식은 그것의 신비를 스스로 밝혀내기 전까지는 숨겨져 있는 경우도 존재합니다.<BR>당신은 탐험, 그리고 물체를 조사함으로서 해당 신비를 풀어낼 수 있습니다.<BR>당신이 처음으로 해야할것은 §5사우모미터§0 를 만드는 일입니다. §5Thaumometer§0 를 물체나 생물을 가리킨 뒤 우클릭 함으로서 스캔 할 수 있습니다. 
+tc.research_page.RESEARCH.12=만약 당신이 단서를 발견했다면 그것이 바로 알려질 것입니다..<BR>몇몇 자연 단서들은 바로 드러나지는 않을것입니다. 당신의 사우모노미콘에 새로운 아이콘이 떴는지 확인해 봅시다. (황금 별을 통해 알려집니다), 아니면 현재 존재하는 연구에 새로운 페이지가 추가되는 경우도 존재합니다 (녹색 +를 통해 알려집니다).<BR>주로 이렇게 추가된 새로운 연구들은 호박색 아이콘을 가지고 있습니다.
 #
 tc.research_name.KNOWFRAG=지식의 조각
 tc.research_text.KNOWFRAG=잃어버린 지식을 찾아서.
-tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of ancient and lost knowledge.<BR>When used they will grant you a small amount of experience.<BR>They might have other uses as well...
+tc.research_page.KNOWFRAG.1=당신은 여행중에 고대의 잃어버린 지식의 조각을 발견할 수 있을것입니다..<BR>그것들을 사용하는것은 당신에게 약간의 경험치를 줄것입니다.<BR>다른 사용방법 또한 있을지도 모르지만...
 #
-tc.research_name.ASPECTS=Aspects of Magic
-tc.research_text.ASPECTS=The building blocks of magic
-tc.research_page.ASPECTS.1=Every item, object or creature is bound by varying mystical elements known as §5aspects§0. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Terra while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 40 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
+tc.research_name.ASPECTS=마법의 위상
+tc.research_text.ASPECTS=마법을 쌓아나가는 블럭들
+tc.research_page.ASPECTS.1=모든 아이템, 오브젝트, 그리고 생물들은 저마다 §5위상§0 을 담고 있습니다. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Terra while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 40 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
 tc.research_page.ASPECTS.2=§lPrimal Aspects§r are the most basic types of aspects and there are only 6 of them: §6Aer§0 (air), §2Terra§0 (earth), §cIgnis§0 (fire), §3Aqua§0 (Water), §7Ordo§0 (order), §8Perditio§0 (entropy).<BR>These form the basic building blocks of all other aspects.<BR>§lCompound Aspects§r are built from two other aspects. The simplest compound aspects are made from two primal aspects, but it is possible to have incredibly complex compound aspects made from successive layers of simpler aspects.<BR>The simplest example of such a compound aspect, is the aspect of Victus (life), which is a combination of §2Terra§0 and §3Aqua§0. 
 tc.research_page.ASPECTS.3=To view what aspects an item possesses, simply hover your cursor over the item and press sneak (shift), and you will see what aspects that item has and what amounts of each.<LINE>Aspects that have somehow been separated from their object and purified is known as §5Vis§0 and is very valuable: both as a crafting ingredient and as a subject for magical research.<BR>Vis is most often bound into wands, but it is also possible to store it as a magical liquid. Vis stored as a liquid is known as §5Essentia§0.
 #
