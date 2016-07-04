@@ -1077,22 +1077,22 @@ tc.research_page.BASICARTIFACE.1=§근원의 마석§r<BR><BR근원의 마석은
 tc.research_name.ARCANELAMP=신비로운 램프
 tc.research_text.ARCANELAMP=광대한 빛의 근원
 tc.research_page.ARCANELAMP.1=이 마법적인 등불은 어디에나 붙으며 오래가고 강렬한 빛을 냅니다.<BR>16 블럭 이내에 몬스터가 생기지 않도록 빛의 근원이 주변에 추가로 발생합니다. 기억할것: 오직 당신이 좀비를 막을 수 있습니다.<BR>이러한 두번째 빛의 근원은 등불이 사라지면 함꼐 사라집니다.<BR>이 등불은 레드스톤 신호에 의해 꺼졌다 켜질 수 있습니다.
-tc.research_page.ARCANELAMP.2=§n아케인 시굴기§r<BR아케인 시굴기의 중앙에 붙을경우, 아케인 등불은 추가적인 능력을 갖습니다: 시굴기가 파는 터널을 비춰 줄것입니다.
+tc.research_page.ARCANELAMP.2=§n아케인 채굴기§r<BR아케인 채굴기의 중앙에 붙을경우, 아케인 등불은 추가적인 능력을 갖습니다: 시굴기가 파는 터널을 비춰 줄것입니다.
 #
 tc.research_name.THAUMOMETER=사우모미터
 tc.research_text.THAUMOMETER=마법을 측정하기
-tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to click on things to scan them. Things that can be scanned for new information will be surrounded by golden questionmarks while you hold the thaumometer<BR>Secondly They display the current aura in the chunk you are located. Pressing 'F' while holding it allows you to change what aspect of the aura it displays. 
+tc.research_page.THAUMOMETER.1=이 사우모미터는 연금술사에게 있어서 가장 중요한 장비중 하나입니다, 두번째는 완드라 할 수 있겠네요.<BR>먼저, 물체, 생물 또는 신비로운 현상를 스캔할수 있게 해주며 어떠한 마법적 현상을 가지고 있는지를 보여줍니다. 당신은 그저 우클릭을 통해 스캔하기만 하면 됩니다. 당신이 사우모미터를 들고있는 동안 새로운 정보가 있는 물체는 물음표가 물체 주변에 뜰것입니다.<BR>두번째로 현재 당신의 청크의 오라 비율을 알려줍니다. 사우모미터를 든 채로 f 를 누르는것은 어떠한 오라를 보여줄 것인지를 변경할 수 있습니다. 
 #
 tc.research_name.GOGGLES=발견의 고글
 tc.research_text.GOGGLES=보이지 않던것을 보자.
-tc.research_page.GOGGLES.1=Building on the basic principles of the Thaumometer, you have begun refining its ability to detect magic into something more... revealing.<BR>This set of mystical lenses will make aura nodes much easier to find along with revealing all manner of hidden things.<BR>They form an important tool in any Thaumaturgist's arsenal.
+tc.research_page.GOGGLES.1=사우모미터의 이론에 근간하여, 당신은 그것의 능력을 찾아내는데에서..발견해내는것 까지로 발전시켰습니다.<BR>이 신비한 렌즈들은 노드들을 수비게 찾을 수 있도록 도와줍니다.<BR>이것은 연금술사의 장비중 매우 중요한 역할을 합니다.
 #
 tc.research_name.DIOPTRA=사우믹 대기 측량기
 tc.research_text.DIOPTRA=오라를 드러내다.
-tc.research_page.DIOPTRA.1=This complex device allows a thaumaturge to see the surrounding aura in a simple and clear manner.<BR>Simply insert the proper vis shard into the top of the device to have it render the aura in a 13 chunk diameter area around it.<BR>It will also occasionally mark sources of vis as sparkles on the display. While not very precise, it can be useful in finding such sources or places of interest. 
+tc.research_page.DIOPTRA.1=이 복잡한 기계는 연금술사로 하여금 주변의 오라를 쉽고 간편한 방법으로 관측할 수 있게 해줍니다.<BR>그저 원하는 비스 조각을 가운데 넣으면 주변 13 청크의 해당 위상의 오라 비율이 나타나게 됩니다.<BR>또한 그것은 종종 비스의 근원을 반짝임으로써 나타내곤 합니다. 매우 정확하진 않더라도 필요한 정보를 얻는데에는 매우 유용할 것입니다. 
 #
 tc.research_name.BOOTSTRAVELLER=여행자의 신발
-tc.research_text.BOOTSTRAVELLER=These boots were made for walking
+tc.research_text.BOOTSTRAVELLER=걷기위한 안성맞춤
 tc.research_page.BOOTSTRAVELLER.1=This pair of enchanted boots have been stuffed full of magic to ease the journey of any traveler.<BR>They allow you to move faster than normal. They also allow you to jump higher and fall further.<BR>Lastly they allow you to cut through water like a fish. A slow and clumsy fish, but a fish nonetheless.
 #
 tc.research_name.TABLE=탁자
