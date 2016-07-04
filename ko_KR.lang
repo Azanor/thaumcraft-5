@@ -1074,7 +1074,7 @@ tc.research_name.BASICARTIFACE=기초 마공학
 tc.research_text.BASICARTIFACE=유용한 물건들
 tc.research_page.BASICARTIFACE.1=§근원의 마석§r<BR><BR근원의 마석은 마법적 구조에 있어 필수적인 요소입니다. 그것은 그것 고유의 힘이 없어 태초의 비스와 에센시아와 연결되기 매우 쉽습니다.<BR>여전히 마석 안에 힘이 있다 주장하는 사람들도 존재하지만 그저 낭설일 뿐입니다.
 #
-tc.research_name.ARCANELAMP=아케인 등불
+tc.research_name.ARCANELAMP=신비로운 램프
 tc.research_text.ARCANELAMP=광대한 빛의 근원
 tc.research_page.ARCANELAMP.1=이 마법적인 등불은 어디에나 붙으며 오래가고 강렬한 빛을 냅니다.<BR>16 블럭 이내에 몬스터가 생기지 않도록 빛의 근원이 주변에 추가로 발생합니다. 기억할것: 오직 당신이 좀비를 막을 수 있습니다.<BR>이러한 두번째 빛의 근원은 등불이 사라지면 함꼐 사라집니다.<BR>이 등불은 레드스톤 신호에 의해 꺼졌다 켜질 수 있습니다.
 tc.research_page.ARCANELAMP.2=§n아케인 시굴기§r<BR아케인 시굴기의 중앙에 붙을경우, 아케인 등불은 추가적인 능력을 갖습니다: 시굴기가 파는 터널을 비춰 줄것입니다.
@@ -1087,7 +1087,7 @@ tc.research_name.GOGGLES=발견의 고글
 tc.research_text.GOGGLES=보이지 않던것을 보자.
 tc.research_page.GOGGLES.1=Building on the basic principles of the Thaumometer, you have begun refining its ability to detect magic into something more... revealing.<BR>This set of mystical lenses will make aura nodes much easier to find along with revealing all manner of hidden things.<BR>They form an important tool in any Thaumaturgist's arsenal.
 #
-tc.research_name.DIOPTRA=사우믹 광학측정기
+tc.research_name.DIOPTRA=사우믹 대기 측량기
 tc.research_text.DIOPTRA=오라를 드러내다.
 tc.research_page.DIOPTRA.1=This complex device allows a thaumaturge to see the surrounding aura in a simple and clear manner.<BR>Simply insert the proper vis shard into the top of the device to have it render the aura in a 13 chunk diameter area around it.<BR>It will also occasionally mark sources of vis as sparkles on the display. While not very precise, it can be useful in finding such sources or places of interest. 
 #
