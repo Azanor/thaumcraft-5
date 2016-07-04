@@ -171,8 +171,8 @@ tile.slab_stone.arcane_brick.name=아케인 벽돌 반 블록
 tile.slab_stone.ancient.name=고대의 돌 반 블럭
 tile.slab_stone.eldritch.name=엘드리치의 돌 반 블럭
 tile.shimmerleaf.name=은초롱이
-tile.cinderpearl.name=재투성이꽃
-tile.vishroom.name=고약한 버섯
+tile.cinderpearl.name=신더펄
+tile.vishroom.name=비쉬룸
 tile.bloom.name=천상의 꽃
 tile.flux_goo.name=플럭스 점액
 tile.taint_dust.name=테인트 가루
@@ -380,8 +380,8 @@ item.phial.empty.name=유리 용기
 item.phial.filled.name=에센시아 용기
 item.label.blank.name=라벨
 item.label.filled.name=표시된 라벨
-item.mind.clockwork.name=태엽 두뇌
-item.mind.biothaumic.name=자연-마법적 두뇌
+item.mind.clockwork.name=시계 태엽 두뇌
+item.mind.biothaumic.name=생체사우믹 두뇌
 #
 # Consumables
 item.alumentum.name=알루멘툼
@@ -441,8 +441,8 @@ item.primal_arrow.entropy.name=혼돈의 화살
 item.hand_mirror.name=마법 손거울
 
 # Armor
-item.goggles.name=진실의 고글
-item.fortress_helm.name=사우뮴 포트리스 투우
+item.goggles.name=발견의 고글
+item.fortress_helm.name=사우뮴 포트리스 투구
 item.fortress_helm.mask.0=위협하는 악마
 item.fortress_helm.mask.1=분노한 귀신
 item.fortress_helm.mask.2=흡수하는 열광자
@@ -837,7 +837,7 @@ tc.research_category.ELDRITCH=엘드리치
 tc.research_name.RESEARCH=연구
 tc.research_text.RESEARCH=당신이 무언가 발견하는법
 tc.research_page.RESEARCH.1=당신이 대부분의 마법적인 아이템 또는 블럳들을 만들기 위해서, 당신은 먼저 그것이 어떻게 돌아가는지를 알아내야 합니다. 이것은 두가지 방법으로 해결될 수 있습니다.:<BR>(1) 당신이 아는 위상들을 발견한 선행지식과 레시피와 함께 §5연구 테이블§0 에서 사용하는 방법.<BR><BR>(2) 세계를 돌아다니며 블럭들, 아이템들 ,그리고 생물들을 , §5사우모미터§0 로 분석하여  미래의 연구에 대한 단서를 찾는것.<LINE>이 둘을 위해서 각각 §5사우모미터§0 와 연구탁자가 필요합니다.
-tc.research_page.RESEARCH.2=§5연구 테이블§0 을 만들기 위해서는 간단히 땅 위에 배치한 뒤에 필기도구와 함께 클릭하면 됩니다 <BR>§5사우모미터§0 와 §5S필기도구§0 의 레시피는 뒤에 있습니다.<LINE><IMG>thaumcraft:textures/research/research1.png:0:0:255:208:.5</IMG>
+tc.research_page.RESEARCH.2=§5연구 탁자§0 을 만들기 위해서는 간단히 땅 위에 배치한 뒤에 필기도구와 함께 클릭하면 됩니다 <BR>§5사우모미터§0 와 §5S필기도구§0 의 레시피는 뒤에 있습니다.<LINE><IMG>thaumcraft:textures/research/research1.png:0:0:255:208:.5</IMG>
 tc.research_page.RESEARCH.3=§l§n(1) 주 연구§r<BR>당신은 이 단계를 위해 여러장의 종이와 필기도구가 필요합니다. 당신의 사우모노미콘을 열게되면 당신이 알고있는 그리고 앞으로 알게될 수많은 지식들이 존재합니다.<IMG>thaumcraft:textures/research/research2.png:0:0:128:83:1</IMG> 
 tc.research_page.RESEARCH.4=빛나는 사각형 또는 원형 아이콘은 당신이 진행 할 수 있는 첫번째 연구를 나타냅니다.<BR>당신이 이 빛나는 아이콘들을 클릭하게되면 당신 가방속의 종이화 필기도구의 잉크가 소모되며 연구 노트를 손에 얻게 될것입니다. <BR>당신은 연구노트를 연구 테이블에 가져간 뒤 필기도구를 해당 슬롯에 놓음으로서 연구를 시작 할 수 있습니다. §l1§r (연구 테이블을 만들때 자동으로 필기도구는 연구 테이블에 위치하게 됩니다)  §l2§r.
 tc.research_page.RESEARCH.5=§l3§r 번구역은 당신이 이 연구를 완료하기 위해 태초의 위상을 얼마나 많이 사용할 수 있는지를 보여줍니다.<BR>§l5§r 구역은 바깥족 육각형에 위상이 배치되어있는 육각형들의 모임을 나타내는 종이가 보여집니다.<IMG>thaumcraft:textures/research/research2.png:0:88:255:158:.5</IMG>
@@ -864,43 +864,43 @@ tc.research_text.NODES=마법은 어디에나 있지.
 tc.research_page.NODES.1=§5오라§0는 세계에 퍼져있는 마법적 에너지장 같은 것입니다. 이것의 기원은 알려지지 않았습니다. 몇몇 이들은 살아있는것들의 생명에너지가 축적된 것이라고 믿지만, 다른 몇몇 이들은 어떠한 다른 세계에서 흡수되어 온것이라고 믿는 이들도 존재합니다. 마지막 이론이 가장 그럴싸한데, 오라가 §5오라 노드§0로 알려진 것의 주변에서 자주 관측되는것을 보았을때 노드가 근원이라는 점입니다.<BR>오라는 근처의 장소에 따라 다양한 태초의 위상들을 지니고 있습니다. 예를들어, 물이 많은곳 근처의 오라는  §3Aqua§0를 많이 가지고 있습니다.사막 근처의 오라는 §cIgnis§0가 많은 반면에 말이죠.
 tc.research_page.NODES.2=오라는 이것에 근간해 청크 단위로 퍼져있습니다. 해당 공간에서 오라가 어떠한 이유로 고갈될 경우 근처의 다른 높은 오라를 지닌 지역에서 끌어오게 됩니다. 하지만 오라는 물 대신 끈적한 풀과 같이 행동하지 때문에 오라가 전부 평준화 되는 일은 일어나지 않습니다.<BR>오라또한 테인트화 되고 §5Vitium§0 (플럭스) 위상을 얻을 수 있습니다. 플럭스는 좀 더 끈적하며 다른곳으로 퍼지기 보다는 한곳에 머물러 있으려는 경향이 강합니다. 오라가 원래보다 매우 낮게 존재하게 될 경우 플럭스가 발생하게 됩니다.<BR>만약 너무 많은 플럭스가 존재하게 될경우 해당 구역을 §l테인트§r로 이끌게 됩니다.. 테인트에대한 더 많은 정보는 사우모노미콘의 다른 부분을 참조하시기 바랍니다.
 tc.research_page.NODES.4=오라노드는 맨눈으로는 관측이 불가능합니다. 근처 지역에서 해당 오라가 매우 높은것을 통해 근처에 노드가 있음을 그저 추측할 수 있을 뿐입니다.<BR근처의 노드들은 나른 노드를 끌어당기며 서로 가깝게 이동합니다. 그들이 충분히 가까워지면 하나로 합쳐져 다양한 결과를 나타냅니다, 하지만 보통 합쳐진 노드는 원래 두 노드를 합친 정도의 능력을 지니고 있습니다.<BR>이곳에는 많은 특이한 노드들을 찾을 수 있지만 당신은 아직 거의 알지 못합니다.
-tc.research_page.NODES.A=§l§n눈부신 노드§r<BR>These nodes seems to react to light - the greater the amount of light, the faster they recharge the aura.  
-tc.research_page.NODES.D=§l§n불길한 노드§r<BR>These nodes operate best in darkness and when the moon is waning. Furthermore the area around such nodes is often quite sinister and dangerous as if they are tapping into some evil and dangerous mystical realm.
-tc.research_page.NODES.H=§l§n굶주린 노드§r<BR>Instead of recharging the aura, these nodes slowly drain it instead. These nodes seem to increase in size and strength the more aura they consume.<BR>Many thaumaturges speculate that what you call a hungry node may merely be a node seen from the other side, but if that was true then and normal nodes would also grow in size and hungry nodes would be far more common. Fortunately, they are not.
-tc.research_page.NODES.P=§l§n순수한 노드§r<BR>Pure nodes are always a welcome find. They slowly remove any flux from the surrounding aura, though this seems to weaken and eventually destroy them.
-tc.research_page.NODES.T=§l§n테인트 노드§r<BR>These nodes are mystically tainted. The energy they tap into has been fouled and will occasionally create flux in the aura they are replenishing.
-tc.research_page.NODES.U=§l§n불안정한 노드§r<BR>These nodes are highly unstable and the type of aspect they replenish will occasionally change to some other random primal.
+tc.research_page.NODES.A=§l§n눈부신 노드§r<BR>이것들은 빛에 반응하는것처럼 보입니다 - 빛의 양이 강할수록 오라가 더욱 빨리 충전됩니다.  
+tc.research_page.NODES.D=§l§n불길한 노드§r<BR>이 노드들은 어둡고 달이 하현달일때 가장 최고의 효과를 발휘합니다. 나아가, 이 노드 주변은 매우 불길하고 위험해서 어떤 사악하고 위험하며 신비로운 영역에 활용되기도 합니다.
+tc.research_page.NODES.H=§l§n굶주린 노드§r<BR>주변의 오라를 충전하는 대신에 이 노드들은 천천히 오라를 흡수합니다.이 노드들은 주변의 오라를 많이 빨아들였을수록 더욱 커지게 됩니다.<BR>많은 연금술사들이 굶주린 노드는 그저 일반 노드와 반대되는 개념일 뿐이라고 주장했습니다, 하지만 그것이 사실이라면 일반 노드들이 많아질수록 굶주린 노드 또한 흔해질 것입니다. 다행스럽게도 그들은 그러지 않습니다..
+tc.research_page.NODES.P=§l§n순수한 노드§r<BR>순수한 노드는 항상 좋은 발견입니다. 그들은 천천히 주변 오라에서 플럭스를 제거해줍니다, 심지어 노드가 약해지고 부서진 뒤에도 말이죠.
+tc.research_page.NODES.T=§l§n테인트 노드§r<BR>이 노드들은 어떤 신비한 힘에 의해 테인트화 되었습니다. 그들이 오라 안으로 공급해주는 에너지는 망가져있고 종종 플럭스를 생산해냅니다.
+tc.research_page.NODES.U=§l§n불안정한 노드§r<BR>이 노드들은 매우 불안정해서 그들이 공급해주는 위상의 타입이 종종 다른 태초의 위상으로 바뀌고는 합니다.
 #
 tc.research_name.ORE=광물들
 tc.research_text.ORE=깊게 파고들자.
-tc.research_page.ORE.1=§l§nVis Crystals§r<BR><IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG><BR>On occasion there is so much primal energy in an aura that it will settle into rock from which vis infused crystals will grow. As long as they are fed vis they will continue to grow and even spread.<BR>Once the aura dips low enough the 
-tc.research_page.ORE.2=energy once again dissipates out of the crystals, replenishing the aura and causing the crystals to crumble. In effect, they are natural, or in this case, supernatural vis batteries. They will never crumble away completely and at least a small remnant of the crystal will remain.<BR>These crystals can be harvested for elemental shards that have many uses in Thaumaturgy.<BR><IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG><BR>You know of no way to only harvest some of the crystals. It is a matter of all or none.
-tc.research_page.ORE.3=§l§nCinnabar§r<BR><IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG><BR>This reddish ore is found deep underground and when smelted produces quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.ORE.4=§l§nAmber§r<BR><IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG><BR>This ore is found near the surface and when mined drops chunks of amber.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.1=§l§n비스 결정§r<BR><IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG><BR>종종 오라 속에 너무나 많은 태초의 위상 에너지가 존재하여 에너지가 바위에 붙어 비스가 결합된 결정이 자라나곤 합니다. 그들이 비스를 계속 공급받을수록 결정은 더욱 커지고 퍼져나갈 것입니다.<BR>오라가 적정 선까지 떨어지기 전까진 말이죠.
+tc.research_page.ORE.2=결정 바깥쪽 에너지가 고갈될 경우, 오라를 다시 공급하기 위해 결정은 부서집니다. 따라서, 이 결정들은 자연적인 또한 초자연적인 비스 배터리인 셈입니다. 그들은 결코 완벽히 부서지지는 않고 약간의 조각을 남깁니다.<BR>이 결정들은 여러 원소 결정으로 수확되며 이는 마도학에서 자주 쓰이는 재료입니다..<BR><IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG><BR>You know of no way to only harvest some of the crystals. It is a matter of all or none.
+tc.research_page.ORE.3=§l§n진사 광석§r<BR><IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG><BR>이 붉은 광석들은 깊은 땅 속에서 종종 발견되며 용해시켰을 경우 수은을 얻을 수 있습니다.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.4=§l§n호박석§r<BR><IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG><BR>이 광석은 지표 근처에서 발견할 수 있으며 캐낼 경우 호박 결정을 얻을 수 있습니다.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
 tc.research_name.PLANTS=식물과 나무들
 tc.research_text.PLANTS=마법의 식물학
-tc.research_page.PLANTS.1=§l§nGreatwood Trees§r<BR><IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG><BR>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
-tc.research_page.PLANTS.2=§l§nSilverwood Trees§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><BR>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that aura nodes often form within their hearts - this feature alone makes a silverwood sapling a prize beyond measure.
-tc.research_page.PLANTS.3=§l§nShimmerleaf§r<BR><IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG><BR>The strange, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.PLANTS.4=§l§nCinderpearl§r<BR><IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG><BR>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
-tc.research_page.PLANTS.5=§l§nVishroom§r<BR><IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>This strange, glowing mushroom can only be found growing in magical forests.<BR>They have hallucinogenic properties so one must be careful not to approach too closely. 
+tc.research_page.PLANTS.1=§l§n그레이트 우드 나무§r<BR><IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG><BR>이 거대하고 위대한 나무는 세계 곳곳에 퍼져 있습니다.<BR>그 나무의 목재는 매우 많은량의 마법을 흡수 할 수 있기 때문에 마법 장비를 만드는데에 중대한 재료입니다.
+tc.research_page.PLANTS.2=§l§n실버우드 나무§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><BR>이 희귀하고 마법적인 나무들은 신비로운 장관입니다. 잎들은 마법 에너지에 옅게 떨며 그들의 창백하고 부드러운 목재는 재료들을 정화, 증류하는데에 쓰이고는 합니다.<BR>T이 나무의 마법적 특성은 그들의 심장부에 오라노드가 존재한다는 것입니다. - 이 기능은 실버우드 묘목의 가치를 매우 상승시킵니다.
+tc.research_page.PLANTS.3=§l§n은초롱이§r<BR><IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG><BR>이 이상하고 빛나는 풀은 오직 실버우드의 그늘 아래에서만 자랍니다. 그들은 수확후 약간의 가공을 거쳐 수은으로 사용할 수 있습니다.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.4=§l§n신더펄§r<BR><IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG><BR>가장 더운 사막에서만 발견됩니다, 이 식물들은 마법적 불꽃으로 타오흡니다. 그들은 수확된 뒤 가공을 거쳐 블레이즈 가루를 대용할 수 있는 가루를 만듭니다.
+tc.research_page.PLANTS.5=§l§n비쉬룸§r<BR><IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>이 이상하고 빛나는 버섯은 마법의 숲 바이옴 에서만 발견할 수 있습니다.<BR>그들은 환각적인 포자를 내뿜으므로 너무 가까이 다가가지 않도록 주의해야합니다. 
 #
 tc.research_name.CRYSTALFARMER=크리스탈 농부
 tc.research_text.CRYSTALFARMER=자라게 도와주자
-tc.research_page.CRYSTALFARMER.1=You have made a couple of discoveries that have given you the ability to turn vis shards into 'plantable' vis crystals on stone.<BR>What is more, you can now pluck a single shard from a crystal growth without having to break it - simply right click on it with your wand.
+tc.research_page.CRYSTALFARMER.1=당신은 여러 발견을 통해 비스 조각을 돌 위에 심을 수 있는 결정으로 바꿀 능력을 얻게되었습니다. <BR>더 나아가 당신은 결정을 모두 부수지 않고 조각 한개씩 수확하는 법을 배웠습니다 - 그저 당신의 완드로 결정을 우클릭 하면 됩니다.
 #
 tc.research_name.RESEARCHER1=연구 전문가
 tc.research_text.RESEARCHER1=지식은 곧 힘이다.
-tc.research_page.RESEARCHER1.1=You have become more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 25% chance that you will regain the research point.<BR>You are also able to see what aspects you need to combine to create an aspect you are hovering over.<BR>Lastly it gives you the ability to consume a knowledge fragment to add one point to each primal. 
+tc.research_page.RESEARCHER1.1=당신은 연구를 함에 있어 좀더 효율적이게 되었습니다.<BR>당신이 육각형에 놓여진 위상을 제거하려 할때 25%의 확률로 연구 포인트를 돌려 받을 수 있습니다.<BR>당신은 또한 복합 위상을 합성하기 위해 어떠한 위상이 필요한지 마우스를 위에 올려 놓음으로서 알 수 있습니다.<BR>마지막으로 당신은 지식의 조각을 사용하여 태초의 위상 연구 포인트를 한개씩 얻을 수 있습니다. 
 #
 tc.research_name.RESEARCHER2=연구 달인
 tc.research_text.RESEARCHER2=힘이 곧 지식이다.
-tc.research_page.RESEARCHER2.1=You have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.<BR>Lastly you are able to combine aspects in the research table by shift-clicking on the aspect you wish to create. If you have enough of the component aspects they will automatically combine to create the clicked aspect.
+tc.research_page.RESEARCHER2.1=당신은 연구를 함에 있어 더욱 더 효율적이게 되었습니다.<BR>당신이 육각형에 놓여진 위상을 제거하려 할때 50%의 확률로 연구 포인트를 돌려 받을 수 있습니다.<BR>추가적으로 위상을 육각형 위에 놓으려 할때 10%의 확률로 위상 소모 없이 놓을 수 있습니다.<BR>마지막으로 당신은 만들고 싶은 위상을 shift-클릭을 함으로서 바로 합성할 수 있습니다. 충분한 구성 위상만 존재한다면 합성된 복합위상이 바로 생성되어질 것입니다.
 #
-tc.research_name.RESTABLE=연구 테이블
+tc.research_name.RESTABLE=연구 탁자
 tc.research_text.RESTABLE=지식을 모으기 위해
-tc.research_page.RESTABLE.1=The Research table is created by clicking on a wooden table with a set of Scribing tools.<BR>The research table is the most important tool for any thaumaturge. It is used to unlock all the hidden secrets of the universe and discover new ways of harnessing magic. 
+tc.research_page.RESTABLE.1=연구탁자는 테이블을 필기도구로 우클릭 함으로서 만들 수 있습니다.<BR>연구 탁자는 모든 마도학자에 있어 중요한 기구입니다. 그것은 우주의 신비와 새로운 마법의 사용 방법을 연구하기 위해 사용됩니다. 
 #
 tc.research_name.THAUMONOMICON=사우모노미콘
 tc.research_text.THAUMONOMICON=지식의 보고
@@ -979,7 +979,7 @@ tc.research_name.SCEPTRE=제작용 홀
 tc.research_text.SCEPTRE=일을 위해 태어난
 tc.research_page.SCEPTRE.1=Crafting scepters are specialized wands made to be used to craft mystical objects and nothing else. Foci cannot be attached to them, but they have several features that still make them worthwhile using.<BR>Firstly, they have an additional 10% vis discount above and beyond what their caps would normally grant.<BR>Secondly they are able to hold 50% more vis than their cores would normally allow.<BR>Like other wands they can be crafted using most combinations of rods and caps - just a few examples are given on the next page.
 #
-tc.research_name.PRIMALRODS=엘레멘탈 막대
+tc.research_name.PRIMALRODS=원소 막대
 tc.research_text.PRIMALRODS=속성별 비스 저장소
 tc.research_page.PRIMALRODS.1=Each of these wand cores is linked to a specific primal element which grants them additional abilities.<LINE>§l§nReed Wand Core§r<BR>A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, its will slowly replenish without drawing from the aura.
 tc.research_page.PRIMALRODS.2=§l§nBlazing Wand Core§r<BR>Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
@@ -988,7 +988,7 @@ tc.research_page.PRIMALRODS.4=§l§nIcy Wand Core§r<BR>Wand cores crafted from 
 tc.research_page.PRIMALRODS.5=§l§nQuartz Wand Core§r<BR>A wand core chiseled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §7Ordo§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
 tc.research_page.PRIMALRODS.6=§l§nBone Wand Core§r<BR>A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
 #
-tc.research_name.PRIMALSTAVES=엘레멘탈 지팡이 막대 
+tc.research_name.PRIMALSTAVES=원소의 지팡이 막대 
 tc.research_text.PRIMALSTAVES=속성 비스 저장
 tc.research_page.PRIMALSTAVES.1=Like the elemental wand cores, these stave cores are linked to a specific primal element which grants them additional abilities and slowly replenish their vis stores if they get low enough. They can store 750 vis of each type.
 #
@@ -1026,90 +1026,90 @@ tc.research_name.FOCUSTRADE=완드 포커스: 등가 교환
 tc.research_text.FOCUSTRADE=이걸 위한 저것
 tc.research_page.FOCUSTRADE.1=You can use this focus to trade dozens of blocks in the world with some you are carrying.<BR>You must first choose the block you wish to change other blocks into by sneaking and right clicking on the desired block. When you then left-click on another block it will turn into the target block. Right clicking will transform a whole swathe of blocks.<BR>You must be carrying enough target blocks, and the transformed blocks will replace them in your inventory. Only blocks with at least one face adjacent to open air or non-solid blocks will be transformed.
 #
-tc.research_name.FOCUSHELLBAT=Wand Focus: Nine Hells
-tc.research_text.FOCUSHELLBAT=Tiny Terrors
+tc.research_name.FOCUSHELLBAT=완드 포커스: 구중 지옥
+tc.research_text.FOCUSHELLBAT=조그만한 공포
 tc.research_page.FOCUSHELLBAT.1=Your trips onto the Nether have taught you to fear the tiny terrors known as Hellbats. Now you have discovered a way to summon the little terrors and send them after your enemies. Excellent.
 #
-tc.research_name.FOCUSPORTABLEHOLE=Wand Focus: Portable Hole
-tc.research_text.FOCUSPORTABLEHOLE=Never be without an exit again
+tc.research_name.FOCUSPORTABLEHOLE=완드 포커스: 천공
+tc.research_text.FOCUSPORTABLEHOLE=두번 다시 탈출구가 없는일은 없을거에요!
 tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extra dimensional spaces. Using this focus on a wall or other surface will create an extra dimensional passage leading to the other side. This 'hole' only remains open for a few seconds.<BR>Extra dimensional holes cannot be created through certain kinds of matter or particularly complex objects.
 #
-tc.research_name.FOCUSPRIMAL=Wand Focus: Primal
-tc.research_text.FOCUSPRIMAL=Raw Magic
+tc.research_name.FOCUSPRIMAL=완드 포커스 : 태고
+tc.research_text.FOCUSPRIMAL=마법 그 자체
 tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
 #
-tc.research_name.FOCUSPOUCH=Focus Pouch
-tc.research_text.FOCUSPOUCH=Convenient carry container for your foci.
+tc.research_name.FOCUSPOUCH=포커스 주머니
+tc.research_text.FOCUSPOUCH=당신의 포커스들을 위한 편리한 운반책
 tc.research_page.FOCUSPOUCH.1=Once you have gathered a sizable collection of foci it is quite annoying to carry them all with you. This pouch solves that problem.<BR>Whenever you change the focus on your wand, it will check this pouch first and any foci that get removed will be placed inside it first. You can also right-click the pouch to place or remove foci by hand.<BR>It can also be carried in your belt bauble slot.
 #
-tc.research_name.FOCALMANIPULATION=Focal Manipulation 
-tc.research_text.FOCALMANIPULATION=Wand foci remade
+tc.research_name.FOCALMANIPULATION=포커스 조작 
+tc.research_text.FOCALMANIPULATION=포커스를 좀 더 특별하게.
 tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible. A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focal Manipulator and choose the upgrade you wish to apply to it. It will draw vis from the aura and you also need to provide it with experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
 tc.research_page.FOCALMANIPULATION.2=but each rank is doubles the cost.<BR>While some upgrades can be applied multiple times or at any rank, many foci have upgrades that can only be applied at certain ranks or only if certain requisite upgrades had been taken at lower ranks. Experimentation is encouraged.<BR>Upgrades are permanent - you are not aware of any method to remove unwanted upgrades so care must be taken when choosing them. 
 #
-tc.research_name.VAMPBAT=Tier 5 Upgrade: Vampire Bats 
-tc.research_text.VAMPBAT=Vicious little bloodsuckers  
+tc.research_name.VAMPBAT=티어 5 업그레이드: 흡혈 박쥐 
+tc.research_text.VAMPBAT=작지만 잔인한 흡혈마  
 #
-tc.research_name.WANDPED=Recharge Pedestal
-tc.research_text.WANDPED=Automated Wand Recharging
+tc.research_name.WANDPED=충전용 토대
+tc.research_text.WANDPED=자동화된 완드 충전
 tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from the aura to recharge itself.<BR>Wands are not the only items that can be recharged in this device - many vis holding gadgets should be rechargeble in this.
 #
-tc.research_name.VISAMULET=Vis Storage
-tc.research_text.VISAMULET=Waste not, Want not
+tc.research_name.VISAMULET=비스 저장소
+tc.research_text.VISAMULET=낭비하지 않으면 부족할일 없지.
 tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>The amulet will only recharge wands or items located in your hotbar. The amulet can also be placed in a recharge pedestal.
 #
-tc.research_name.WORKBENCHCHARGER=Arcane Workbench Charger
-tc.research_text.WORKBENCHCHARGER=Arcane Crafting Simplified
+tc.research_name.WORKBENCHCHARGER=아케인 작업대 충전기
+tc.research_text.WORKBENCHCHARGER=간편해진 아케인 작업들.
 tc.research_page.WORKBENCHCHARGER.1=An annoyance for any thaumaturge that performs regular arcane crafting is to constantly keep his wand charged.<BR>Now that you have found an automated way to draw vis directly from the aura you are able to craft an Arcane Workbench Charger. It is designed to be placed on top of an arcane crafting table and will draw vis from the aura to recharge wands placed in the table.<BR>The only drawback is that it recharges much slower than it would from a wand recharging pedestal or doing it by hand. 
 #
-tc.research_name.NODEMAGNET=Node Attraction
-tc.research_text.NODEMAGNET=It works with magnets
+tc.research_name.NODEMAGNET=노드 당기기
+tc.research_text.NODEMAGNET=자석과 함께
 tc.research_page.NODEMAGNET.1=Manipulating the aura is one thing, but if you were able to move nodes around you could insure a steady supply of vis where and when you want it. To this end you have developed Node Magnets.<BR>The magnet focuses on the nearest node within 32 blocks and slowly draws it towards itself. It sounds simple, but in effect the node is being forcefully ripped through the aura. This not only requires large amounts of vis of all types, but causes considerable amounts of flux.<BR>The larger a node is, the slower the it moves.
 tc.research_page.NODEMAGNET.2=The Node Magnet itself is quite fragile and care must be taken not to damage or topple it. It can survive minor knocks, but anything more will shatter the delicate components.<BR>It can be picked up by right-clicking on it with a wand.
 tc.research_page.NODEMAGNET.3=§nWarning!§r<BR><BR>The moment you place down the node magnet you notice something strange: It seems to emit an almost inaudible humming noise that still manages to set your teeth on edge.<BR>Angry grunts and howls from the surrounding area seems to indicate you are not the only one disturbed by the noise.
 #
 # Artifice 
 #######################
-tc.research_name.BASICARTIFACE=Basic Artifacing
-tc.research_text.BASICARTIFACE=Needful things
+tc.research_name.BASICARTIFACE=기초 마공학
+tc.research_text.BASICARTIFACE=유용한 물건들
 tc.research_page.BASICARTIFACE.1=§nPrimal Charm§r<BR><BR>Primal Charms form an important basis for many thaumaturgical constructs. They have no inherent power of their own beyond being able to focus and channel primal energy and essentia.<BR>Rumors persist that these charms have additional powers, but that is little more than hearsay.
 #
-tc.research_name.ARCANELAMP=Arcane Lamp
-tc.research_text.ARCANELAMP=Large Source of Light
+tc.research_name.ARCANELAMP=아케인 등불
+tc.research_text.ARCANELAMP=광대한 빛의 근원
 tc.research_page.ARCANELAMP.1=This mystical lamp can be attached to walls, floors or ceilings and will provide strong and steady light.<BR>Additional sources of light may also appear up to 16 blocks away wherever light levels fall below accepted 'safe' levels. Remember: Only YOU can prevent zombie outbreaks.<BR>These secondary sources of light will disappear soon after the lamp has been removed.<BR>The lamp can be turned off by applying a redstone signal.
 tc.research_page.ARCANELAMP.2=§nArcane Bore§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
 #
-tc.research_name.THAUMOMETER=Thaumometer
-tc.research_text.THAUMOMETER=Measuring Magic
+tc.research_name.THAUMOMETER=사우모미터
+tc.research_text.THAUMOMETER=마법을 측정하기
 tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to click on things to scan them. Things that can be scanned for new information will be surrounded by golden questionmarks while you hold the thaumometer<BR>Secondly They display the current aura in the chunk you are located. Pressing 'F' while holding it allows you to change what aspect of the aura it displays. 
 #
-tc.research_name.GOGGLES=Goggles of Revealing
-tc.research_text.GOGGLES=Seeing the Unseen
+tc.research_name.GOGGLES=발견의 고글
+tc.research_text.GOGGLES=보이지 않던것을 보자.
 tc.research_page.GOGGLES.1=Building on the basic principles of the Thaumometer, you have begun refining its ability to detect magic into something more... revealing.<BR>This set of mystical lenses will make aura nodes much easier to find along with revealing all manner of hidden things.<BR>They form an important tool in any Thaumaturgist's arsenal.
 #
-tc.research_name.DIOPTRA=Thaumic Dioptra
-tc.research_text.DIOPTRA=Revealing the Aura
+tc.research_name.DIOPTRA=사우믹 광학측정기
+tc.research_text.DIOPTRA=오라를 드러내다.
 tc.research_page.DIOPTRA.1=This complex device allows a thaumaturge to see the surrounding aura in a simple and clear manner.<BR>Simply insert the proper vis shard into the top of the device to have it render the aura in a 13 chunk diameter area around it.<BR>It will also occasionally mark sources of vis as sparkles on the display. While not very precise, it can be useful in finding such sources or places of interest. 
 #
-tc.research_name.BOOTSTRAVELLER=Boots of the Traveler
+tc.research_name.BOOTSTRAVELLER=여행자의 신발
 tc.research_text.BOOTSTRAVELLER=These boots were made for walking
 tc.research_page.BOOTSTRAVELLER.1=This pair of enchanted boots have been stuffed full of magic to ease the journey of any traveler.<BR>They allow you to move faster than normal. They also allow you to jump higher and fall further.<BR>Lastly they allow you to cut through water like a fish. A slow and clumsy fish, but a fish nonetheless.
 #
-tc.research_name.TABLE=Table
-tc.research_text.TABLE=Some assembly required
+tc.research_name.TABLE=탁자
+tc.research_text.TABLE=다른 여러것을 위해 필요한것
 tc.research_page.TABLE.1=The table is more than a simple decorative block - it also serves as a base for other surfaces useful in the practice of magic, like the Arcane Workbench and the Research Table. 
 #
-tc.research_name.ARCTABLE=Arcane Workbench
-tc.research_text.ARCTABLE=Crafting with magic
+tc.research_name.ARCTABLE=아케인 작업대
+tc.research_text.ARCTABLE=마법과 함께 만들기
 tc.research_page.ARCTABLE.1=To create an Arcane Workbench simply right-click with a wand on a table you have placed in the world. The Arcane Workbench serves the same purpose as a normal crafting table, with a few key exceptions.<BR>Apart from normal crafting recipes, it can also craft some of the items unique to Thaumaturgy. To do that you need to place a wand in the top-right slot. This will allow you to craft items that require vis by drawing the energy directly from the wand.<BR>The vis required to craft an item will be shown in the six circular symbols surrounding the crafting grid.
 #
-tc.research_name.ENCHFABRIC=Enchanted Fabric
-tc.research_text.ENCHFABRIC=Silky and Stylish
+tc.research_name.ENCHFABRIC=마법의 직물
+tc.research_text.ENCHFABRIC=부드럽고 스타일 있게.
 tc.research_page.ENCHFABRIC.1=By combining spider silk and wool and infusing it with primal vis, you can creat a silky length of magical cloth that has numerous uses.<BR>You also have patterns to create cloth robes from the magical fabric. These robes have similar protective properties to leather armor, but they are much more durable than mundane materials could ever be.<BR>They also hold mystical enchantments very well and can hold powerful magic much better than even expensive armor.  
 tc.research_page.ENCHFABRIC.2=The various pieces of this outfit grant a small discount to the amount of vis drained from casting wands when you use them.<BR>You can dye the armor like you would leather armor.
 #
-tc.research_name.ELEMENTALTOOLS=Elemental Tools
-tc.research_text.ELEMENTALTOOLS=Harnessing the elements
+tc.research_name.ELEMENTALTOOLS=원소의 도구
+tc.research_text.ELEMENTALTOOLS=원소를 통해 다루기
 tc.research_page.ELEMENTALTOOLS.1=With the discovery of infusion, you have found a way to bind the primal elements into tools and weapons, each with unique and powerful properties.<LINE>§l§nAxe of the Stream§r<BR>By combining water shards and a thaumium axe, you have created a tool that embodies the aspects of motion and flow.<BR>It functions like a normal axe on all materials except natural logs and trees. When used on them the axe seeks to furthest block of the same type that is still connected to the
 tc.research_page.ELEMENTALTOOLS.2=block you are attempting to harvest and harvests that one instead.<BR>In effect you will chop trees from the top down even if you hit the bottom-most block.<BR>Any wood chopped in this fashion will automatically float towards you.<BR>If you press and hold right click the axe will axe will draw all nearby items towards you - not just wood it chopped.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal axe.
 tc.research_page.ELEMENTALTOOLS.3=§l§nPickaxe of the Core§r<BR>By infusing a thaumium pickaxe with fire shards, you have created a pickaxe that glows with the heat of a forge.<BR>When you mine ore blocks there is a chance that you will mine a cluster instead. Native clusters are much easier to process and produces double the normal amount of metal when smelted.<BR>It can also be used to sound out any surface you right click against to find out what valuable ores, lava or water can be found nearby.
@@ -1119,22 +1119,22 @@ tc.research_page.ELEMENTALTOOLS.6=§l§nShovel of the Earthmover§r<BR>Combining
 tc.research_page.ELEMENTALTOOLS.7=in the world and you can change the orientation of how blocks are placed by pressing 'G' on the keyboard. Blocks can be placed either parallel to the block face selected, or extending out of the face vertically or horizontally. <BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal shovel.
 tc.research_page.ELEMENTALTOOLS.8=§l§nHoe of Growth§r<BR>By merging the magical energy from order and entropy shards with a thaumium hoe, you have created a farming implement with few equals.<BR>When used to till fields, it will till a 3x3 area instead of just a single block.<BR>When used to crops or other plants it will act as bonemeal to promote its growth, though at a higher cost to its durability. It might even be able to grow plants that normal bonemeal can't.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal hoe.
 #
-tc.research_name.INFERNALFURNACE=Infernal Furnace
-tc.research_text.INFERNALFURNACE=Hot enough?
+tc.research_name.INFERNALFURNACE=지옥불 화로
+tc.research_text.INFERNALFURNACE=이제 좀 뜨겁나?
 tc.research_page.INFERNALFURNACE.1=By harnessing raw §cIgnis§0 within a furnace crafted from obsidian and netherbrick you have created a highly efficient and fuel free furnace. So efficient in fact, that occasionally it will produce bonus materials in the form of nuggets or other items.<BR>While this is essentially free, it is also very slow unless the furnace gets a steady supply of §cIgnis§0 vis from the aura. 
 tc.research_page.INFERNALFURNACE.2=It should also be noted that the occasional bit of Flux escapes into the environment.<BR>Items you wish to smelt needs to be dropped into the top of the furnace and will be spit out the front.
 #
-tc.research_name.BELLOWS=Arcane Bellows
-tc.research_text.BELLOWS=Stoking the flames
+tc.research_name.BELLOWS=아케인 풀무
+tc.research_text.BELLOWS=좀 더 화끈하게!
 tc.research_page.BELLOWS.1=The Arcane Bellows performs much the same function as its mundane counterpart, the only difference is that it happily pumps away by itself sending forth a stream of never-ending air.<BR>Attaching it to an Infernal Furnace has shown some interesting results. The elemental infused air not only stokes the flames increasing its smelting speed, but causes them to burn much purer, resulting in a reduction of flux generated and increasing the chance of creating bonus nuggets and other materials when smelting.
 tc.research_page.BELLOWS.2=They can also be attached to normal or essentia smelteries to increase their speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>Bellows can be deactivated by applying a redstone signal.<BR>You are confident more uses will reveal themselves eventually. 
 #
-tc.research_name.ARCANESTONE=Arcane Stone
-tc.research_text.ARCANESTONE=Magically strengthened building material
+tc.research_name.ARCANESTONE=아케인 스톤
+tc.research_text.ARCANESTONE=마법으로 강화된 건축 재료
 tc.research_page.ARCANESTONE.1=Arcane stone is a basic building material for many complex mystical constructs. It is normal stone that has been seared by elemental fire and strengthened by elemental earth.
 #
-tc.research_name.INFUSION=Infusion
-tc.research_text.INFUSION=Mystical fusion
+tc.research_name.INFUSION=인퓨전
+tc.research_text.INFUSION=신비로운 인퓨전의 세계로
 tc.research_page.INFUSION.1=Arcane crafting and alchemy can go only so far. Something better is needed to create truly powerful mystical objects.<BR>Infusion crafting is the process of infusing a single object with magical energy and the properties of other objects. You could, for example, infuse a stone with §6Aer§0 vis and a feather and it would result in a very light stone.<BR>As is usual with thaumaturgy, things are not quite that simple. To even get started with infusion crafting there are several things you need: A Runic Matrix, arcane pedestals and a ready supply of magic in the form of essentia. 
 tc.research_page.INFUSION.2=Once you have your Runic Matrix properly placed into a structure commonly known as an Infusion Altar, you can begin to craft.<BR>The central pedestal located under the matrix is where the item you wish to infuse will go. You will also need several more pedestals placed around the altar where you can place the blocks and items you wish to infuse into the target object. Lastly you will need warded jars or similar essentia containers holding the requisite amount of vis.<BR>Once all this is gathered you can click on the Runic Matrix with a wand to start the crafting process.<BR>During the first stage of crafting essentia will be drained
 tc.research_page.INFUSION.3=from nearby sources. Crafting will stall of there is insufficient essentia available - something that you do not want as will be explained on following pages.<BR>Once all the required essentia has been infused into the target object, the other objects will have their essential essence drained. Only when this is done will the crafting process complete.<LINE>Infusion crafting is not without risks. The entire process involves forcing vast energies into a single object. Unpredictable things tend to happen.<BR>Usually one of the fusion objects get
@@ -1143,297 +1143,297 @@ tc.research_page.INFUSION.5=altar in symmetrical formations (things like candles
 tc.research_page.INFUSION.ANCIENT=§nAncient Stone§r<BR>The strange, ancient stone you have found has some interesting mystical properties. You believe that when used to craft the pillars for an infusion altar that it will help reduce the amount of essentia required during infusion crafting and speed up the crafting process by a small amount. It will however increase instability slightly.<BR>Should you find pedestals crafted from the same material each one will also help reduce essentia costs. Unfortunately you have been unable to craft such pedestals yourself.
 tc.research_page.INFUSION.ELDRITCH=§nEldritch Stone§r<BR>The dark, eldritch stone you have discovered has some strange properties. When used to craft the infusion altar pillars it will help reduce instability and speed up the crafting process by a moderate amount. It will unfortunately increase crafting cost slightly.<BR>Should you happen accross any pedestals made from the same material it will have much the same effect. Caution should be taken to carefully balance them however as unbalanced eldritch pedestals will massively increase your instability. Unfortunately you have been unable to craft such pedestals yourself.
 #
-tc.research_name.INFUSIONBOOST=Infusion Boosting
-tc.research_text.INFUSIONBOOST=Upgraded mystical fusion
+tc.research_name.INFUSIONBOOST=인퓨전 가속
+tc.research_text.INFUSIONBOOST=강화된 인퓨전의 세계로
 tc.research_page.INFUSIONBOOST.1=You have found a way to improve infusion altars through the use of special blocks placed under one or more of the four altar pillars.<BR>The §5Infusion Speed Stone§0 will increase the speed at which the altar operates, but at a slight increase to costs.<BR>The §5Infusion Cost Stone§0 will decrease infusion costs, but at a slight reduction to operating speed.<BR>These stones must be placed directly under an altar pillar, but they need not be balanced for instability purposes.
 #
-tc.research_name.JARBRAIN=Brain in a Jar
-tc.research_text.JARBRAIN=Sealing in the foulness
+tc.research_name.JARBRAIN=단지 안의 뇌
+tc.research_text.JARBRAIN=멍청함 속에 봉인되어있는
 tc.research_page.JARBRAIN.1=You have discovered a way to reanimate a zombie brain and put it to your own dark uses.<BR>It retains some of the hunger it possessed as a zombie and while it cannot consume brains, it still enjoys eating the thoughts and experiences of those slain nearby. Giving its jar a good shake will make it surrender some of its ill-gotten gains for your own use.<BR>Particle effects will be displayed above the jar when it is full.
 #
-tc.research_name.HOVERHARNESS=Thaumostatic Harness
-tc.research_text.HOVERHARNESS=Is it a bird?
+tc.research_name.HOVERHARNESS=사우모스테틱 하네스
+tc.research_text.HOVERHARNESS=새 같은 건가?
 tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>The harness is powered by vis it draws directly from the local aura. Single unit of Aer and Ignis vis provides enough power for 1 second of flight. The harness has an internal buffer that stores enough vis for 10 seconds of flight if the local aura is depleted.<BR>Pressing 'H' while wearing the harness activates or deactivates it.
 tc.research_page.HOVERHARNESS.2=It can be enchanted with the Haste enchant to increase the speed at which you move while flying.<BR>The harness will not reduce your block breaking speed while you are flying with it.
 #
-tc.research_name.HOVERGIRDLE=Thaumostatic Girdle
-tc.research_text.HOVERGIRDLE=Is it a plane?
+tc.research_name.HOVERGIRDLE=사우모스태틱 허리띠
+tc.research_text.HOVERGIRDLE=저거 비행기야?
 tc.research_page.HOVERGIRDLE.1=This girdle is designed to be used with the Thaumostatic Harness. On its own it has very little lifting power - it has just enough to prevent most fall damage.<BR>When worn with the harness however it greatly increases the speed at which you are able to fly. The only drawback is that the harness will consume slightly more vis than normal.
 #
-tc.research_name.WATERJUG=Everfull Urn
-tc.research_text.WATERJUG=A source of infinite water
+tc.research_name.WATERJUG=끝없이 차오르는 항아리
+tc.research_text.WATERJUG=무한물의 원천
 tc.research_page.WATERJUG.1=A small fountain of pure water always flows from the top of this urn, making it a perfect water source to fill your buckets, bottles or other liquid containers.<BR>It will also automatically replenish any liquid containers within two blocks of it if they can accept water from the top. This is perfect for automatically refilling crucibles, but has other uses as well.<BR>Every bucket full of water created costs 1 §3Aqua§0 vis which is drawn from the aura.
 #
-tc.research_name.LEVITATOR=Arcane Levitator
-tc.research_text.LEVITATOR=Next best thing to flying
+tc.research_name.LEVITATOR=아케인 부양장치
+tc.research_text.LEVITATOR=다음으로 좋은 비행 장치
 tc.research_page.LEVITATOR.1=While not true flight, the Arcane Levitator is the next best thing.<BR>When placed the levitator lifts any item or creature above it up to 8 blocks into the air. A sneaking creature or player will be slowly lowered.<BR>While levitating something it consumes 2 aer CV per second from the aura.<BR>The levitator can be placed in any orientation, and when placed horizontally will push creatures along while keeping them aloft.
 tc.research_page.LEVITATOR.2=A toggle on the back of the device allows you to alter the range at which it operates, but also changes the amount of CV it uses.  
 #
-tc.research_name.ARCANEEAR=Arcane Ear
-tc.research_text.ARCANEEAR=Shhh, do you hear something?
+tc.research_name.ARCANEEAR=아케인 귀
+tc.research_text.ARCANEEAR=쉬이잇, 뭔가 들리지 않았어?
 tc.research_page.ARCANEEAR.1=The Arcane Ear is a device that is capable of detecting the sound emitted from nearby note blocks. If it hears a note it recognizes it will emit a short redstone pulse.<BR>The Arcane Ear needs to be tuned in a manner identical to note blocks, the tone and note it listens for depends on the material it is placed against. Arcane ears can be placed against any surface.
 #
-tc.research_name.MIRROR=Mirror Magic
-tc.research_text.MIRROR=Through the looking glass
+tc.research_name.MIRROR=거울 마법
+tc.research_text.MIRROR=거울을 보는것을 통해
 tc.research_page.MIRROR.1=You are now able to enchant a pair of magical mirrors that act as doorways to the void between the worlds. Anything shoved (or piped) through one mirror will pass through this realm and emerge from the other mirror - even across dimensional boundaries.<BR>Unfortunately this realm is extremely hostile to mortal creatures like yourself so using these mirrors to transport living creatures is not yet possible.<BR>To link a pair of these magical mirrors you simply need to place one of them in a desired location. You then right-click with a second
 tc.research_page.MIRROR.2=mirror on the one you placed, and the pair will become linked. You may then place the second wherever you wish and items thrown into one will be ejected out the other.<BR>Mirrors can only be linked in pairs, so while both are placed in the world and able to transmit items you cannot link them to another mirror. When you pick up a mirror it will remember the last partner it was linked with, allowing you to easily move it without having to relink it. While one of the paired mirrors is picked up, you may easily relink either of them.
 tc.research_page.MIRROR.3=Transporting items through mirrors places stress on the magical aura. Every now and again this causes Flux to be generated. The more items you transport, the more flux is generated..
 #
-tc.research_name.MIRRORHAND=Magical Hand Mirror
-tc.research_text.MIRRORHAND=Personal reflection
+tc.research_name.MIRRORHAND=마법의 손거울
+tc.research_text.MIRRORHAND=나만의 거울
 tc.research_page.MIRRORHAND.1=This magical hand mirror functions much the same way as other magical mirrors. You simply push items through the glass and they will pop out at the linked mirror.<BR>Simple right-click while holding the linked hand mirror and you will be able to place any items in your inventory into the looking glass to have them transported.<BR>The hand mirror can be linked to a mirror that is already paired with another.<BR>It should be noted that the hand mirror can only send items, not receive them.
 #
-tc.research_name.PAVETRAVEL=Paving Stone of Travel
-tc.research_text.PAVETRAVEL=Easing your journey
+tc.research_name.PAVETRAVEL=여행의 포석
+tc.research_text.PAVETRAVEL=당신의 여행을 좀 더 쉽게
 tc.research_page.PAVETRAVEL.1=By altering the magical structure of arcane stone you are able to create a paving stone that adds new bounce to the step of anyone walking across it.<BR>Anything walking across it will have greater speed and agility for a couple of seconds.
 #
-tc.research_name.PAVEBARRIER=Barrier Stone
-tc.research_text.PAVEBARRIER=Keeping things out
+tc.research_name.PAVEBARRIER=경계석
+tc.research_text.PAVEBARRIER=저들은 바깥쪽으로
 tc.research_page.PAVEBARRIER.1=You have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the areas you wish to protect and the outside world.<BR>An active redstone signal will disable this block.
 tc.research_page.PAVEBARRIER.2=The color of the runes above the stone indicates its current status.<BR>Purple runes show that it is currently preventing something from passing through.<BR>Blue runes indicates it has been deactivated with a redstone signal.<BR>Red runes shows that something is preventing it from fully warding an area and a gap exists where something might be able to pass through.
 #
-tc.research_name.ARMORFORTRESS=Thaumium Fortress Armor
-tc.research_text.ARMORFORTRESS=Nothing is getting in
+tc.research_name.ARMORFORTRESS=사우뮴 포트리스 갑주
+tc.research_text.ARMORFORTRESS=아무것도 뚫지 못해!
 tc.research_page.ARMORFORTRESS.1=Thaumium armor has many things to recommend it, but its basic construction leaves it inferior to diamond armor. By improving the construction process and complexity you have found a way to create armor of exceptional craftsmanship, durability and strength.<BR>Each individual piece of Thaumium Fortress armor has the same protective properties as diamond armor, but has greater durability and offers additional protection against magic and fire.<BR>The biggest benefit however is that the individual armor pieces is designed and constructed to be worn together: Each additional
 tc.research_page.ARMORFORTRESS.2=piece of this armor worn increases the overall protection offered by all other pieces and improves its visual appeal.<BR>As with most objects constructed from thaumium, the armor is easy to enchant.
 #
-tc.research_name.HELMGOGGLES=Helm of Revealing
-tc.research_text.HELMGOGGLES=Thaumium Fortress Helm Upgrade
+tc.research_name.HELMGOGGLES=발견의 투구
+tc.research_text.HELMGOGGLES=사우뮴 포트리스 투구의 업그레이드
 tc.research_page.HELMGOGGLES.1=Usually a thaumaturge needs to choose between protection and utility when out and about. Not anymore!<BR>This modifies a Thaumium Fortress Helm to give you all the functionality of Goggles of Revealing. It does however not give the vis discount the goggles usually do.<BR>A helm can have this upgrade along with faceplates. 
 #
-tc.research_name.MASKGRINNINGDEVIL=Grinning Devil Faceplate
+tc.research_name.MASKGRINNINGDEVIL=안면: 위협하는 악마 
 tc.research_text.MASKGRINNINGDEVIL=Thaumium Fortress Helm Upgrade
 tc.research_page.MASKGRINNINGDEVIL.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When worn, this mask has an interesting damping effect on those suffering from Warp event. While it does not reduce the number of events, it does reduce their severity somewhat.<BR>It seems laughing in the face of danger does have its rewards. 
 #
-tc.research_name.MASKANGRYGHOST=Angry Ghost Faceplate
+tc.research_name.MASKANGRYGHOST=안면: 분노한 귀신
 tc.research_text.MASKANGRYGHOST=Thaumium Fortress Helm Upgrade
 tc.research_page.MASKANGRYGHOST.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you are struck in combat while wearing this grim mask the creature striking you has a chance to suffer a Withering effect.<BR>Serves them right.
 #
-tc.research_name.MASKSIPPINGFIEND=Sipping Fiend Faceplate
+tc.research_name.MASKSIPPINGFIEND=안명: 흡수하는 열광자
 tc.research_text.MASKSIPPINGFIEND=Thaumium Fortress Helm Upgrade
 tc.research_page.MASKSIPPINGFIEND.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you strike a creature in combat while wearing this mask, you sometimes steal a small portion of their life force to strengthen your own.<BR>The fact that you do this by supping on their blood doesn't seem to bother you nearly as much as it should. You wonder if you should be worried about that.
 #
-tc.research_name.BANNERS=Banners 
-tc.research_text.BANNERS=Caution: For decorative purposes only
+tc.research_name.BANNERS=깃발
+tc.research_text.BANNERS=주의: 장식 목적이 전부입니다.
 tc.research_page.BANNERS.1=Sometimes a thaumaturge doesn't need to create something that shakes the very foundations of reality - sometimes he just wants something pleasing to the eye.<BR>You have developed a simple enchantment that allows you to apply thaumaturgical symbols to banners. You do so by simply clicking with a phial of essentia on a banner you crafted and the symbol will be emblazoned on it. Shift-clicking on the banner will remove the symbol.
 #
-tc.research_name.LAMPGROWTH=Lamp of Growth
-tc.research_text.LAMPGROWTH=Encouraging things to grow
+tc.research_name.LAMPGROWTH=성장의 램프
+tc.research_text.LAMPGROWTH=자라도록 격려해주기
 tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp by attaching it directly to an essentia piping system.<BR>The lamp can be turned off by applying a redstone signal.
 #
-tc.research_name.LAMPFERTILITY=Lamp of Fertility
-tc.research_text.LAMPFERTILITY=Casting a romantic light on things
+tc.research_name.LAMPFERTILITY=번식의 램프
+tc.research_text.LAMPFERTILITY=생물에게 로맨틱한 불빛을 선사해주기.
 tc.research_page.LAMPFERTILITY.1=Any living creatures bathed in the gentle pink glow of this lamp is immediately placed in a much more romantic mood. If they are able they will seek others of their kind to mate.<BR>This lamp will have no effect if there is 8 or more of a particular species already present.<BR>It requires Victus essentia to function which can be fed to the lamp by attaching it directly to an essentia piping system.<BR>The lamp can be turned off by applying a redstone signal.
 #
-tc.research_name.MIRRORESSENTIA=Essentia Mirrors
-tc.research_text.MIRRORESSENTIA=Essentia where you need it
+tc.research_name.MIRRORESSENTIA=에센시아 거울
+tc.research_text.MIRRORESSENTIA=언제 어디서나 에센시아를
 tc.research_page.MIRRORESSENTIA.1=Magical mirrors are very useful for transporting items over long distances, but what if that same principle can be applied to essentia? You think you have discovered a way to do just that.<BR>Essentia mirrors, like their name implies, can transport essentia in the same way that magic mirrors transport items. There are a few important limitations however.<BR>You cannot pipe essentia directly into the mirrors - they are only able to transport essentia that has been drawn from a source towards something like an Infusion Matrix.    
 tc.research_page.MIRRORESSENTIA.2=In effect the mirrors allow these things to draw essentia from sources via the mirror.<BR>Like item mirrors, these mirrors cause great stress to the magical aura and will generate flux. 
 #
-tc.research_name.BONEBOW=Bone Bow
-tc.research_text.BONEBOW=Sticks and stones...
+tc.research_name.BONEBOW=골제 활
+tc.research_text.BONEBOW=물리적인 복수...
 tc.research_page.BONEBOW.1=You have discovered a way of crafting a bow from bone and infusing it with entropic energy.<BR>The resulting weapon is capable of firing much faster than a normal bow and arrows launched from it travels faster and hit harder.
 #
-tc.research_name.PRIMALARROW=Primal Arrows
-tc.research_text.PRIMALARROW=Arrows with an elemental bite
+tc.research_name.PRIMALARROW=속성 화살
+tc.research_text.PRIMALARROW=속성의 힘이 담긴 화살들
 tc.research_page.PRIMALARROW.1=These arrows are each infused with a specific type of primal energy which gives them interesting and destructive properties<BR>§nAir Arrow§r<BR>These arrows crackle with energy. They inflict similar damage to normal arrows, but the magical energy bypasses any kind of armor protection.<BR>§nFire Arrow§r<BR>These arrows inflict pure fire damage and set their targets alight.
 tc.research_page.PRIMALARROW.2=§nWater Arrow§r<BR>These arrows inflict normal damage, but chills your target to the bone, reducing their movement speed.<BR>§nEarth Arrow§r<BR>These arrows have no special property beyond packing a lot more punch than normal arrows.<BR>§nOrder Arrow§r<BR>This arrow does a little less damage than normal, but it bypasses armor and leaves your enemy weakened.<BR>§nEntropy Arrow§r<BR>This arrow does slightly less damage than normal, 
 tc.research_page.PRIMALARROW.3=but inflicts a withering effect on whatever it hits.<LINE>Primal arrows cannot be picked up from the ground and the Infinity enchantment has only a 1 in 3 chance of preventing a primal arrow from being consumed.
 #
-tc.research_name.RUNICARMOR=Runic Shielding
-tc.research_text.RUNICARMOR=Shields up!
+tc.research_name.RUNICARMOR=루닉 결계
+tc.research_text.RUNICARMOR=실드 업!
 tc.research_page.RUNICARMOR.1=Your research into protective magics have led you to discover Runic Shielding. This is not armor in the traditional sense, but a collection of charms, rings and similar protective baubles worn with your everyday clothes.<BR>These devices create a barrier of magical energy that wards out most types of damage. The shielding has a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal.
 tc.research_page.RUNICARMOR.2=The pool replenishes over time and requires §2Terra§0 and §eAer§0 vis to replenish its charge which it draws from the aura.<BR>The armor offers no protection from damage suffered due to drowning, starvation or similar environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
 #
-tc.research_name.RUNICAUGMENTATION=Runic Shielding Augmentation
-tc.research_text.RUNICAUGMENTATION=Shields to maximum!
+tc.research_name.RUNICAUGMENTATION=루닉 결계 강화
+tc.research_text.RUNICAUGMENTATION=실드를 최대치로!
 tc.research_page.RUNICAUGMENTATION.1=Rings, amulets and girdles with runic shielding is all good and well, but surely you can apply this protective enchantment to other things?<BR>Of course you can! By utilizing the magic of Thaumaturgy(c) (patent pending), you are able to add runic shielding to most magically stable pieces of armor.<BR>'Magically stable' items are those crafted from thaumium, enchanted fabric or similarly magical materials.<BR>Only a single charge of runic shielding is added to the item, but you can enchant an item multiple times. This is expensive and
 tc.research_page.RUNICAUGMENTATION.2=the amount of ingredients and essentia required will increase with each level. The Salis Mundus required will equal the level of shielding you want, and the essentia cost will increase exponentially.<BR>You can enchant existing runic items like Rings of Shielding as well, however the cost is calculated based on their existing runic charge making it an exceptionally expensive process.
 #
-tc.research_name.RUNICSPECIAL=Specialized Runic Baubles
-tc.research_text.RUNICSPECIAL=Charge for the Charge Ring!
+tc.research_name.RUNICSPECIAL=특화된 루닉 장신구
+tc.research_text.RUNICSPECIAL=강화된 링을 위한 강화!
 tc.research_page.RUNICSPECIAL.1=§nCharged Ring of Shielding§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but increases the recharge time of runic shielding by 25%.<BR>You can wear more than one of these rings, effectively halving the normal recharge time.
 tc.research_page.RUNICSPECIAL.2=§nRevitalizing Ring of Shielding§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but when your runic shielding is breached it will release a pulse of regenerative energy that will last for a few seconds.<BR>This effect cannot trigger more than once every 20 seconds.
 tc.research_page.RUNICSPECIAL.3=§nKinetic Girdle of Shielding§r<BR>This is a specialized version of the Girdle of Shielding.<BR>It has slightly less charge than the girdle it is based on, but when your shielding is breached a detonation of kinetic energy will be released damaging and shoving back anything nearby.<BR>This effect cannot trigger more than once every 20 seconds.
 tc.research_page.RUNICSPECIAL.4= §nAmulet of Emergency Shielding§r<BR>This is a specialized version of the Amulet of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once a minute.
 #
-tc.research_name.REDSTONERELAY=Redstone Relay
-tc.research_text.REDSTONERELAY=Magical Redstone Interaction
+tc.research_name.REDSTONERELAY=레드스톤 릴레이
+tc.research_text.REDSTONERELAY=마법적인 레드스톤 상호작용
 tc.research_page.REDSTONERELAY.1=You have always been curious about the seemingly negative reaction between mystical devices and redstone signals. You have studied the matter and while it is a well-known phenomenon that redstone inhibits magic, you have discovered that in specific circumstances the opposite can be true as well.<BR>One practical application of this is the Redstone Relay. By sending a redstone signal through a magical substance like vis crystals you can inhibit it as much or as little as you want.
 tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay to activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.
 #
 # Alchemy 
 #######################
-tc.research_name.CRUCIBLE=Basic Alchemy
-tc.research_text.CRUCIBLE=Bubble and Boil
+tc.research_name.CRUCIBLE=기초 연금학
+tc.research_text.CRUCIBLE=거품과 함께 끓이기
 tc.research_page.CRUCIBLE.1=To craft the Crucible, you must simply use your wand on a cauldron placed in the world.<BR>The crucible is an important tool for any thaumaturge. It allows him to render physical objects into their component Essentia and recombine it again as he wishes.<BR>The crucible needs to be placed over a source of constant heat and filled with water. Once the water starts boiling you simply throw any items you wish into the crucible and they will be broken down into their component Essentia.<BR>If you know the proper formula and the mix of essentia within the    
 tc.research_page.CRUCIBLE.2=crucible is correct, you can then drop a special item into the crucible known as a Catalyst. The catalyst draws the essentia into itself and transforms into a whole new item that the crucible then ejects.<BR>Any leftover Essentia remains within the crucible for further use, but it is not a good idea to leave essentia within a crucible for too long as it will eventually degrade into Flux.<BR>Crafting also uses some of the water within the crucible and you will eventually need to refill it.  
 tc.research_page.CRUCIBLE.3=You can empty a crucible by shift right-clicking on it with a wand. All the essentia is dumped into the atmosphere as flux... not something you would want to do too often.<LINE>There are some basic alchemical recipes that anyone can perform. See the following pages for their recipes.
 tc.research_page.CRUCIBLE.4=§nBalanced Vis Shards§r<BR><BR>These are normal vis shards that have been alchemically infused with the five primal elements they do not already possess. This results in a shard of crystal that is perfectly resonating with primal energy.<BR>Smelting a balanced vis shard in a furnace creates Salis Mundus (see following pages).
 tc.research_page.CRUCIBLE.5=§nSalis Mundus§r<BR><BR>Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by exposing a balanced vis shard to high enough heat that it shatters into a fine powder.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavor (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.
 #
-tc.research_name.METALLURGY=Magical Metallurgy
-tc.research_text.METALLURGY=Where metals meet magic
+tc.research_name.METALLURGY=마법 금속학
+tc.research_text.METALLURGY=금속이 마법을 만났을때
 tc.research_page.METALLURGY.1=Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to the discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armor in a crafting table using the normal recipes.
 tc.research_page.METALLURGY.2=§nAlchemical Brass§r<BR>While thaumium has many useful features, sometimes mundane metals are better suited to certain tasks. Brass is a sturdy, low friction metal perfectly suited to craft intricate mechanical devices.<BR>Unfortunately it is not always possible to get hold of it due to the morphic properties of the universe you may find yourself in. Fortunately you have found an alchemical method of crafting this useful metal.
 #
-tc.research_name.NITOR=Nitor
-tc.research_text.NITOR=Mystical Flame
+tc.research_name.NITOR=니토르
+tc.research_text.NITOR=신비한 불꽃
 tc.research_page.NITOR.1=This flame seems to be fuelled by magic itself. The number of uses for an ever burning flame seems endless, but unfortunately it seems to produce much more light than heat. Despite that it could still prove to be a steady source of energy.<BR>Nitor can also be placed in the world to act as a magical light source. It will take on the color of any dye you combine it with in a crafting table.
 #
-tc.research_name.ALUMENTUM=Alumentum
-tc.research_text.ALUMENTUM=Mystical Energy Source
+tc.research_name.ALUMENTUM=알루멘툼
+tc.research_text.ALUMENTUM=신비한 에너지 원천
 tc.research_page.ALUMENTUM.1=This substance throbs with fiery energy and it is more than eager to release that energy at the slightest bump. It may be unstable, but it would probably make a good source of fuel.<BR>It is probably not a good idea to throw it against a solid surface unless you enjoy explosions.
 #
-tc.research_name.PHIAL=Glass Phial
-tc.research_text.PHIAL=Mystical containers
+tc.research_name.PHIAL=유리 용기
+tc.research_text.PHIAL=신비한 용기
 tc.research_page.PHIAL.1=Glass phials are capable of holding all manner of liquids and substances, but their most important use to a thaumaturge is their ability to hold Essentia. 
 #
-tc.research_name.BOTTLETAINT=Bottled Taint 
-tc.research_text.BOTTLETAINT=Why would you want this?
+tc.research_name.BOTTLETAINT=병에 담긴 테인트
+tc.research_text.BOTTLETAINT=대체 이게 왜 필요해..?
 tc.research_page.BOTTLETAINT.1=Cleaning Taint is one thing, but ever considered spreading it?<BR>By concentrating and collecting the essence of taint into a bottle it is simply a matter of dropping it somewhere to create a patch of taint. It is up to you to decide why you would want to do this. 
 #
-tc.research_name.ALCHEMICALDUPLICATION=Alchemical Duplication
-tc.research_text.ALCHEMICALDUPLICATION=You can never have too much of a good thing.
+tc.research_name.ALCHEMICALDUPLICATION=연금 복제
+tc.research_text.ALCHEMICALDUPLICATION=당신은 좋은걸 너무 많이 가질 순 없어.
 tc.research_page.ALCHEMICALDUPLICATION.1=There are many substances in the world that are alchemical in nature.<BR>By carefully adding the proper aspects to these substances you should be able to make more of them.
 #
-tc.research_name.ALCHEMICALMANUFACTURE=Alchemical Manufacture
-tc.research_text.ALCHEMICALMANUFACTURE=More than one way to skin a cat.
+tc.research_name.ALCHEMICALMANUFACTURE=연금 생산
+tc.research_text.ALCHEMICALMANUFACTURE=고양이 가죽을 얻는 더 좋은 방법.
 tc.research_page.ALCHEMICALMANUFACTURE.1=You have mastered the basics of alchemy and are now ready to try creating more complex substances from scratch.<BR>You have formulated several recipes that create normally hard to get substances and items via alchemy.
 #
-tc.research_name.ENTROPICPROCESSING=Entropic Processing
-tc.research_text.ENTROPICPROCESSING=Making things worse?
+tc.research_name.ENTROPICPROCESSING=엔트로피화 과정
+tc.research_text.ENTROPICPROCESSING=더 나쁘게 할 수 있나?
 tc.research_page.ENTROPICPROCESSING.1=While creating magical and mundane substances is quite satisfying, sometimes you just want to break things down into their component parts. What is simpler than adding entropic energy to things?<BR>Actually, there is several reasons why this is a bad idea, but what is progress without some risk?
 #
-tc.research_name.PUREMETAL=Metal Purification
-tc.research_text.PUREMETAL=Purification of metals into native clusters
+tc.research_name.PUREMETAL=금속 순화
+tc.research_text.PUREMETAL=광석을 순수한 덩어리로
 tc.research_page.PUREMETAL.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal ore into a native cluster.<BR>When smelted these clusters produces twice the normal amount of ingots.
 #
-tc.research_name.TRANSMETAL=Metal Transmutation
-tc.research_text.TRANSMETAL=Transformation of metals into other metals
+tc.research_name.TRANSMETAL=금속 변환
+tc.research_text.TRANSMETAL=금속을 다른 금속으로 바꾸기
 tc.research_page.TRANSMETAL.1=You have discovered a way to multiply metals by steeping nuggets of that metal in §5metallum§0 and other aspects.
 #
-tc.research_name.TALLOW=Magic Tallow
-tc.research_text.TALLOW=Rendered fat with a touch of magic
+tc.research_name.TALLOW=마법 수지
+tc.research_text.TALLOW=마법과 함께 지방을 가공하기
 tc.research_page.TALLOW.1=By processing and heating flesh in a crucible, you can create a mystical tallow suited for many arcane uses.<BR>This tallow can be used to craft candles. It is also possible to craft different colored candles by combining a candle with a dye in an arcane workbench.
 #
-tc.research_name.DISTILESSENTIA=Essentia Distillation
-tc.research_text.DISTILESSENTIA=Harvesting essentia
+tc.research_name.DISTILESSENTIA=에센시아 증류
+tc.research_text.DISTILESSENTIA=에센시아의 수확
 tc.research_page.DISTILESSENTIA.1=In the future you will definitely need to have ready access to multiple different kinds of aspects - not just primal aspects drawn from your wand.<BR>Using basic alchemical principles you have devised a way to break down objects and convert them into essentia.<BR>The first step in this process requires an §lEssentia Smeltery§r. The smelter works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia. This process isn't very efficient and a small 
 tc.research_page.DISTILESSENTIA.2=amount of essentia is converted into flux roughly 20% of the time.<BR>The next step in the process is to take the essentia slurry and distill it using an §lArcane Alembic§r.<BR>To work, arcane alembics need to be placed on top of a smelter. Multiple alembics can be placed on top of each other to increase storage, but it does not influence processing speed. The essentia slurry will slowly be drawn into the alembic and the individual aspected essentia separated out.<BR>If the smelter is being powered by alumentum, this distillation process is much faster.
 tc.research_page.DISTILESSENTIA.3=The essentia can then be extracted out of an alembic using phials, jars or more complex means.
 tc.research_page.DISTILESSENTIA.4=§nArcane Bellows§r<BR>Arcane bellows placed on the side of a smelter will greatly increase the heat it generates, allowing items to be broken down into a slurry much quicker.
 #
-tc.research_name.DISTILESSENTIA2=Thaumium Essentia Smeltery
-tc.research_text.DISTILESSENTIA2=Harvesting essentia
+tc.research_name.DISTILESSENTIA2=사우뮴 에센시아 추출기
+tc.research_text.DISTILESSENTIA2=에센시아의 더 나은 수확
 tc.research_page.DISTILESSENTIA2.1=The Thaumium Smeltery works much like the basic smeltery, but it has roughly 85% efficiency instead of 80%.<BR>Its main benefit is that it breaks down essentia slurry at double the normal speed. 
 #
-tc.research_name.DISTILESSENTIA3=Void Metal Essentia Smeltery
-tc.research_text.DISTILESSENTIA3=Harvesting essentia
+tc.research_name.DISTILESSENTIA3=공허 금속 에센시아 추출기
+tc.research_text.DISTILESSENTIA3=다른 차원의 에센시아 수확
 tc.research_page.DISTILESSENTIA3.1=The Void Metal Smeltery works much like the basic smeltery, but it has roughly 95% efficiency instead of 80%.<BR>It breaks down essentia slurry slightly quicker than the basic smeltery, but not nearly as fast as the thaumium smeltery.<LINE>When crafting the Advanced Alchemical Construct the primordial pearl is not consumed - it is merely required as a catalyst.
 #
-tc.research_name.IMPROVED_DISTILLATION=Improved Essentia Distillation
-tc.research_text.IMPROVED_DISTILLATION=Essentia Harvesting... Improved
+tc.research_name.IMPROVED_DISTILLATION=개선된 에센시아 증류
+tc.research_text.IMPROVED_DISTILLATION=에센시아 수확....발전된!!
 tc.research_page.IMPROVED_DISTILLATION.1=While smelters can be very fast, they could always be faster - especially the speed at which they break down the essentia slurry into usable essentia.<BR>Each Auxiliary Slurry Pump placed on the side of a smelter acts as a secondary processor, outputting refined essentia to any alembics placed above it.
 tc.research_page.IMPROVED_DISTILLATION.2=You have also discovered a way to manage the flux generated by the smelting process. By running the slurry through a secondary set of essentia filters you are able to separate out the flux and safely vent it as harmless steam.<BR>The process manages to reduce flux produced by about a third and additional vents will increase this, though there is diminishing returns. 
 #
-tc.research_name.JARLABEL=Warded Jars and Labels
-tc.research_text.JARLABEL=Storing and organizing essentia
+tc.research_name.JARLABEL=보호된 단지와 라벨들
+tc.research_text.JARLABEL=에센시아를 모으고 정리하기
 tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantment placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars can be filled from an alembic by clicking with the jar directly on the alembic. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.
 tc.research_page.JARLABEL.2=Shift clicking on jars and alembics with an empty hand will empty them.<BR>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.
 tc.research_page.JARLABEL.3=You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<LINE>A label can be made blank again by simply placing it by itself in a crafting grid.
 #
-tc.research_name.ETHEREALBLOOM=Ethereal Bloom
-tc.research_text.ETHEREALBLOOM=Purifying Flower
+tc.research_name.ETHEREALBLOOM=천상의 꽃
+tc.research_text.ETHEREALBLOOM=정화시키는 꽃
 tc.research_page.ETHEREALBLOOM.1=Shimmerleaf is often overshadowed by its mystical neighbor the Silverwood tree, but it has magical properties of its own.<BR>Like the Silverwood, Shimmerleaf flowers have purifying properties that lie dormant. You have found a way to awaken these properties and turn it into an Ethereal Bloom.<BR>Ethereal blooms slowly, but surely, restores land corrupted by mystical means to its former glory - this includes the blight known as Taint. While it cannot combat Taint directly, few tainted growths can survive outside their native environment for long and tend to die back.
 tc.research_page.ETHEREALBLOOM.2=The flower only purifies the land bathed in its light out to a range of about 8 blocks. 
 #
-tc.research_name.TUBES=Essentia Tubes
-tc.research_text.TUBES=Transportation of essentia
+tc.research_name.TUBES=에센시아 튜브
+tc.research_text.TUBES=에센시아의 수송
 tc.research_page.TUBES.1=You have discovered several ways to transport essentia, but none of them has proven useful for large scale alchemical operations - until now.<BR>You have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass, certain types of essentia either dissolve or simply pass right through it. By wrapping the glass in iron and treating it with quicksilver you have managed to protect it from even the most volatile types of essentia. Gold fittings finish off the piping system and make it visually appealing.
 tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars.<BR>Jars containing different kinds of essentia will only draw their kind of essentia towards them. Tubes however can only draw and transport one kind of essentia at a time - the highest drawing strength will take priority. Without the proper use of valves it is quite easy for a network of tubes to get gummed up. The use of valves is essential.<BR>When you see gasses being vented
 tc.research_page.TUBES.3=from a tube, it means different kinds of suction are interfering with each other. The color gives a clue as to the types of suction.<LINE>The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off.<LINE>The Essentia Resonator is handy for troubleshooting your tube network. You can use it on a tube or other essentia using device to see what essentia it currently contains and the suction it is applying. 
 tc.research_page.TUBES.4=Tubes can be connected and disconnected from their neighbors by clicking on a section of tubing with a wand.<BR>The wand can also be used to click on the central section to rotate certain tubes like the valve.
 #
-tc.research_name.CENTRIFUGE=Alchemical Centrifuge
-tc.research_text.CENTRIFUGE=Taking things apart
+tc.research_name.CENTRIFUGE=연금 구조물
+tc.research_text.CENTRIFUGE=따로따로 합시다.
 tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wondrous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system, it would be best to connect a §5Essentia Buffer§0 to the top of the centrifuge.
 #
-tc.research_name.JARVOID=Void Jar
-tc.research_text.JARVOID=Too much essentia? Impossible!
+tc.research_name.JARVOID=공허의 단지
+tc.research_text.JARVOID=에센시아가 넘쳐난다고? 불가능해!
 tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply vented as flux. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
 #
-tc.research_name.TUBEFILTER=Advanced Essentia Tubes
-tc.research_text.TUBEFILTER=What you want, where you want it
+tc.research_name.TUBEFILTER=개선된 에센시아 관
+tc.research_text.TUBEFILTER=언제 무엇을 원하던지
 tc.research_page.TUBEFILTER.1=§nFiltered essentia tubes§r work like normal tubes, except it is possible to mark them with labels, phails or other items that clearly identify a single type of essentia. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the filter.
 tc.research_page.TUBEFILTER.2=§nRestricted essentia tubes§r work like normal tubes, except they halve the any suction passing through them.<LINE>§nDirectional essentia tubes§r only accept suction from one direction. The blue markings indicate the direction from which suction will be accepted.
 tc.research_page.TUBEFILTER.3=The essentia buffer allows you to store a limited amount of essentia - 8 points total, though it can be made up of any combination of essentia types. Like a jar it has suction, though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides, meaning that it is invaluable for getting essentia out of devices like the centrifuges that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 32.
 tc.research_page.TUBEFILTER.4=Additionally you can toggle individual connections on and off as with a normal tube, but if you shift click a connection, it will choke the suction back to 1 (blue band) or 0 (red band) on that side.<BR>This allows for some interesting possibilities when routing essentia.
 #
-tc.research_name.THAUMATORIUM=Automated Alchemy
-tc.research_text.THAUMATORIUM=Alchemy for the masses
+tc.research_name.THAUMATORIUM=연금 자동화
+tc.research_text.THAUMATORIUM=대량 연금을 위해서
 tc.research_page.THAUMATORIUM.1=Up to now alchemy has been somewhat of a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. This is finally a thing of the past.<BR>The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.
 tc.research_page.THAUMATORIUM.2=When you access this device you will see several slots. The top-left slot is where you place the catalyst. Once you have done this you will be able to choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.
 tc.research_page.THAUMATORIUM.3=Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side you can increase the number of formulas it can keep track.<BR>Each matrix increases the number of formulas by 2. 
 #
-tc.research_name.BATHSALTS=Purifying Bath Salts
-tc.research_text.BATHSALTS=Stress relief for the mind
+tc.research_name.BATHSALTS=정화의 입욕 소금
+tc.research_text.BATHSALTS=마음을 위한 안정을
 tc.research_page.BATHSALTS.1=Warp is a danger for even the most careful of thaumaturges. For those that have done a bit too much dabbling Warp effects are probably more than just an annoyance. Purifying Bath Salts help with that.<BR>Simply tossing these salts into water will turn the water into a silvery, purifying liquid that sooths away the stresses of the day and brings temporary relief from the effects of Warp. It should be noted however the more warp a thaumaturge suffers from, the shorter the duration of this protection.<BR>The salts are quite fragile and will soon dissolve if tossed around haphazardly. 
 #
-tc.research_name.LIQUIDDEATH=Liquid Death
-tc.research_text.LIQUIDDEATH=For external use only
+tc.research_name.LIQUIDDEATH=액체화된 죽음
+tc.research_text.LIQUIDDEATH=연구 외적 용도로만 사용할것
 tc.research_page.LIQUIDDEATH.1=This liquid is so dangerously toxic that virtually nothing can prevent it from dissolving flesh, bone and even harder substances. Nothing alive or that even displays the semblance of life can survive it.<BR>Apart from obvious practical applications, this vile substance has another interesting property: Any essentia a dissolved creature possessed form into crystals that can be harvested.<BR>I will leave it to the reader's imagination what uses those crystals can be put to. 
 #
-tc.research_name.ARCANESPA=Arcane Spa
-tc.research_text.ARCANESPA=Relaxing in style
+tc.research_name.ARCANESPA=아케인 스파
+tc.research_text.ARCANESPA=멋지게 휴식하기
 tc.research_page.ARCANESPA.1=Pouring bath salts into water is a bit of a chore, but luckily one easily solved with a bit of magic.<BR>You have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally, you have found that it can be used to pump nearly any liquid you can fill it with. You can fill it with automation, or by clicking on the block with the appropriate container. Applying a redstone signal will disable it.
 #
-tc.research_name.SANESOAP=Sanitizing Soap
-tc.research_text.SANESOAP=Getting rid of dirty thoughts
+tc.research_name.SANESOAP=이성의 비누
+tc.research_text.SANESOAP=더러운 생각을 제거하기
 tc.research_page.SANESOAP.1=Cleaning the body is easy enough, but once warp becomes a nuisance you need something that can clean the mind as well.<BR>This soap cleans the flesh, but the effects it has on your psyche is what truly makes it special. When used it has a small chance of reducing non-permanent warp and will remove all temporary warp.<BR>Using it while under the effects of a Warp Ward or while standing in Purifying Fluid will increase your odds.  
 #
-tc.research_name.ESSENTIACRYSTAL=Essentia Crystallization 
-tc.research_text.ESSENTIACRYSTAL=Hard currency or liquid assets?
+tc.research_name.ESSENTIACRYSTAL=에센시아 결정화
+tc.research_text.ESSENTIACRYSTAL=단단한게 좋아? 아니면 액체가 좋아?
 tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystallizer draws in liquid essentia from a pipe network and converts it into small shards of crystalline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystallizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>It draws terra vis from the aura to power itself.
 #
 # Golemancy 
 #######################
-tc.research_name.BASICGOLEMANCY=Basic Golemancy
-tc.research_text.BASICGOLEMANCY=Motion Controlled
+tc.research_name.BASICGOLEMANCY=기초 골렘학
+tc.research_text.BASICGOLEMANCY=움직임을 제어하기
 tc.research_page.BASICGOLEMANCY.1=You have studied the basic, primitive golems anyone can create and found them lacking. They have potentional, but it is not possible to control them.<BR>You are sure you can do better.
 #
-tc.research_name.MATSTUDWOOD=Material Studies: Wood
-tc.research_text.MATSTUDWOOD=Advanced Wood crafting
+tc.research_name.MATSTUDWOOD=재료 연구: 목재
+tc.research_text.MATSTUDWOOD=숙련된 나무 제조
 tc.research_page.MATSTUDWOOD.1=Golemancy places great demands on your craftsmanship as it often requires intricate components with very narrow margins for error. You will need to increase your skill and knowledge of both mundane and arcane materials. Your first target is wood.<BR>Wood is a versatile substance and despite its weakness, it is light and easy to work. You have found Greatwood to be a superior wood particularly well suited to golemancy. 
 #
-tc.research_name.MATSTUDIRON=Material Studies: Iron
-tc.research_text.MATSTUDIRON=Advanced Iron crafting
+tc.research_name.MATSTUDIRON=재료 연구: 강철
+tc.research_text.MATSTUDIRON=숙련된 강철 제조
 tc.research_page.MATSTUDIRON.1=Iron has many properties to recommend it - it is much sturdier than wood and malleable in a way that wood can never be. It is harder to work with however and quite heavy.
 #
-tc.research_name.MATSTUDBRASS=Material Studies: Brass
-tc.research_text.MATSTUDBRASS=Advanced Brass crafting
+tc.research_name.MATSTUDBRASS=재료 연구: 황동
+tc.research_text.MATSTUDBRASS=숙련된 황동 제조
 tc.research_page.MATSTUDBRASS.1=While brass is softer than iron, it is still quite sturdy and well suited to fine mechanical constructs. In your opinion it is the best mundane material for golemancy purposes and you would not dream of crafting intricate metals from any other material. It is quite pleasing to the eye as well. 
 #
-tc.research_name.MATSTUDTHAUMIUM=Material Studies: Thaumium
-tc.research_text.MATSTUDTHAUMIUM=Advanced Thaumium crafting
+tc.research_name.MATSTUDTHAUMIUM=재료 연구: 사우뮴
+tc.research_text.MATSTUDTHAUMIUM=숙련된 사우뮴 제조
 tc.research_page.MATSTUDTHAUMIUM.1=Thaumium is an arcane metal that sucks up enchantments like a proverbial sponge. It is significantly stronger than iron too. Unfortunately it is slightly heavier than iron and its strength also makes it hard to work.<BR>While it cannot compete with brass when it comes to intricate clockwork, thaumiums strength makes it a useful material to craft mechanisms that require strength over precision. 
 #
-tc.research_name.MATSTUDVOID=Material Studies: Void Metal
-tc.research_text.MATSTUDVOID=Advanced Void Metal crafting
+tc.research_name.MATSTUDVOID=재료 연구: 공허 금속
+tc.research_text.MATSTUDVOID=숙련된 공허 금속 제조
 tc.research_page.MATSTUDVOID.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
 #
-tc.research_name.HUNGRYCHEST=Hungry Chest
-tc.research_text.HUNGRYCHEST=A chest that doesn't wait to be opened
+tc.research_name.HUNGRYCHEST=배고픈 상자
+tc.research_text.HUNGRYCHEST=열리기만을 항상 기다리는 상자
 tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
 #
-tc.research_name.ARCANEBORE=Arcane Bore
-tc.research_text.ARCANEBORE=Mining evolved
+tc.research_name.ARCANEBORE=아케인시굴
+tc.research_text.ARCANEBORE=발전된 채광
 tc.research_page.ARCANEBORE.1=You have discovered a device capable of extending the range and power of an Excavation focus. Of even greater use is the fact that the machine can do so without your constant supervision. You merely need to place it on a specially constructed base, point it in the right direction with a wand and apply a redstone signal.<BR>The arcane bore requires two things to function. The first is an excavation focus placed in its leftmost inventory slot. Any enchantments applied to the focus will also alter the functions of the bore. 
 tc.research_page.ARCANEBORE.2=Secondly you need to place any kind of pickaxe into the rightmost slot. The material of the pickaxe will have little effect on the operation of the bore, but the greater its durability, the longer it will last. Like the wand, any enchantments or special abilities of the pickaxe will also be applied to whatever the bore mines.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing.<BR>It will eject into an inventory if possible. This direction can be changed with a wand.
 tc.research_page.ARCANEBORE.3=The bore can be powered with §8Perditio§0 essentia which will greatly speed up the rate at which it mines. Essentia can be provided by pipes as normal.<BR>One point of §8Perditio§0 essentia will speed the bore for the next 20 blocks mined.<BR>If no essentia is provided the bore will use §8Perditio§0 vis to function. It is drawn from the aura and a single point of vis will only be able to mine a single block. The speed will be much slower when powered by vis.
 #
-tc.research_name.TRAVELTRUNK=Traveling Trunk
-tc.research_text.TRAVELTRUNK=Mobile Luggage
+tc.research_name.TRAVELTRUNK=여행하는 상자
+tc.research_text.TRAVELTRUNK=휴대용 보관소
 tc.research_page.TRAVELTRUNK.1=An extension of your golemancy research has led to a useful companion for any thaumaturge on the go: The Traveling Trunk.<BR>This wooden chest will happily hop after its master, always ready to provide a convenient storage space for anything you pick up.<BR>The traveling trunk is tough and can take a significant amount of beating. It is highly resistant to fire and cannot be harmed by falling.<BR>The trunk can follow its master everywhere - even distant dimensions. Should you wish it to stay put however, there is a convenient  button located in its interface
 tc.research_page.TRAVELTRUNK.2=which will make it remain in its current position.<BR>The traveling trunk slowly heals itself over time, but you can also feed it all manner of food to speed up this process.<BR>Like normal golems, the trunk can be picked up by left-clicking with a golemancer's bell. It will drop all items in its inventory of you do so. Shift-clicking will also cause it to drop any upgrades you have applied to it with the normal loss chance.<BR>It can accept a single upgrade like normal golems, but they grant unique abilities to the trunk. See the following pages for details as you discover the relevant upgrades.
 tc.research_page.TRAVELTRUNK.UAI=§nGolem Upgrade: Air§r<BR>With this upgrade installed the traveling trunk will move faster.
@@ -1443,74 +1443,74 @@ tc.research_page.TRAVELTRUNK.UWA=§nGolem Upgrade: Water§r<BR>With this upgrade
 tc.research_page.TRAVELTRUNK.UOR=§nGolem Upgrade: Order§r<BR>With this upgrade installed the traveling trunk will retain its items when it is picked up using a golemancer's bell. It will drop items as normal when shift-clicked is used.
 tc.research_page.TRAVELTRUNK.UEN=§nGolem Upgrade: Entropy§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
 #
-tc.research_name.MINDCLOCKWORK=Clockwork Minds
-tc.research_text.MINDCLOCKWORK=Tick Tock
+tc.research_name.MINDCLOCKWORK=시계태엽의 정신
+tc.research_text.MINDCLOCKWORK=똑,딱,똑,딱
 tc.research_page.MINDCLOCKWORK.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If you are going to create intelligent magical servants then you are going to have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by Thaumaturgy. It has its limitations and very little autonomy, but it is a start.
 #
-tc.research_name.MINDBIOTHAUMIC=Biothaumic Minds
-tc.research_text.MINDBIOTHAUMIC=I think therefore I am
+tc.research_name.MINDBIOTHAUMIC=생체사우믹의 정신
+tc.research_text.MINDBIOTHAUMIC=내가 뭐였었는지 생각하는 중이야.
 tc.research_page.MINDBIOTHAUMIC.1=As predicted the clockwork minds you have created offers very little in the way of abstract reasoning and autonomy. Attempting to create more complex clockworks has met with very little success, so you have turned to something you already know will work - human brains.<BR>Though hesitant at first, you soon overcame any trepidation you felt and delved into Biothaumaturgy - merging flesh, machines and magic into a single whole.<BR>The results are encouraging and you are now able to infuse clockwork minds with salvaged gray matter to form a mind with much greater capabilities.
 #
-tc.research_name.BASICTURRET=Automated Crossbow
-tc.research_text.BASICTURRET=Simple defenses
+tc.research_name.BASICTURRET=자동화된 쇠뇌
+tc.research_text.BASICTURRET=간단한 방어
 tc.research_page.BASICTURRET.1=You have found a way to give a crossbow a mind of its own turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile mobs it detects within range. Unfortunately its limited mind does not allow you to fine tune its targets.<BR>It has a very limited internal inventory, but if you wish you can place it over an upward facing dispenser which will allow it to automatically reload itself from that inventory.<BR>Clicking on it with a wand will pick it up.
 #
-tc.research_name.FOCUSTURRET=Autocaster
-tc.research_text.FOCUSTURRET=Automated Foci
+tc.research_name.FOCUSTURRET=자동캐스터
+tc.research_text.FOCUSTURRET=포커스의 자동화
 tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with via development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce to activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
 #
 # Eldritch 
 #######################
-tc.research_name.ELDRITCHMINOR=Eldritch Epiphany
-tc.research_text.ELDRITCHMINOR=First steps into the unknown
+tc.research_name.ELDRITCHMINOR=엘드리치의 공현
+tc.research_text.ELDRITCHMINOR=모르는것에 한걸음 
 tc.research_page.ELDRITCHMINOR.1=It has suddenly become clear to you. Where others see chaos, you occasionally catch a glimpse of a pattern... a very strange and disturbing pattern. Something stirs in the darkest corners of the universe.<BR>You have tried to explain it to others, but received only strange looks in return. No matter, you will show them someday.<BR>You will show them all.
 #
-tc.research_name.ELDRITCHMAJOR=Eldritch Revelation
-tc.research_text.ELDRITCHMAJOR=I have seen beyond the bounds of infinity
+tc.research_name.ELDRITCHMAJOR=엘드리치의 폭로
+tc.research_text.ELDRITCHMAJOR=나는 무한의 경계 너머를 보았다
 tc.research_page.ELDRITCHMAJOR.1=A veil has been lifted - a door opened in my mind.<BR> When I look through I see wonders. No, not wonders. §mWhat I see is§r<BR>§oWhat I see is I see i see I sEee i§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
 tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Who wrote this?
 #
-tc.research_name.VOIDMETAL=Void Metal
-tc.research_text.VOIDMETAL=Strange, it should feel cold...
+tc.research_name.VOIDMETAL=공허 금속
+tc.research_text.VOIDMETAL=이상해..차가워야 하는데..
 tc.research_page.VOIDMETAL.1=By infusing magic into metal you had managed to create Thaumium. It was a worthy discovery, but the time has come to leave thaumium to amateurs and dabblers.<BR>A strange and half-remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic, but with the very essence where magic is drawn from: Darkness and the Void that dwells between the stars.<BR>The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but
 tc.research_page.VOIDMETAL.2=when struck it becomes as hard as thaumium and sometimes even harder. More impressively all but the most devastating damage soon repairs itself as the metal slowly flows back into place.<BR>The only downside is that it isn't as easy to enchant as thaumium, but still compares favorably to mundane materials like iron.<BR>You have discovered that care must be taken when handling the metal - being harmed by it seems to temporarily sap your strength.
 #
-tc.research_name.ARMORVOIDFORTRESS=Void Thaumaturge Robes
-tc.research_text.ARMORVOIDFORTRESS=Otherworldly Style
+tc.research_name.ARMORVOIDFORTRESS=공허 마법사 로브
+tc.research_text.ARMORVOIDFORTRESS=이계 최신 스타일
 tc.research_page.ARMORVOIDFORTRESS.1=A truly enlightened thaumaturge realizes that he need not choose between utility and defense.<BR>By augmenting existing void armor with the proper enchantments and combining them with thaumaturge's robes he will be able to create a set of armored robes that not only offers physical protection and mental focus, but mystical protection as well.<BR>The robes will also retain all the properties of void armor while the hood will offer all the benefits of the goggles used in its crafting.<BR>This armor can be dyed.
 #
-tc.research_name.ENTEROUTER=The Outer Lands 
-tc.research_text.ENTEROUTER=We are not in Kansas anymore
+tc.research_name.ENTEROUTER=이계
+tc.research_text.ENTEROUTER=우린 더이상 이 세상에 있지 않아.
 tc.research_page.ENTEROUTER.1=You are not quite sure what you were expecting when you stepped through the Oculus, but this strange structure of crumbling stone and twisted passageways was not it.<BR>Something is not quite right here - this structure was not designed for any practical purpose you can discern... unless that purpose was for it to be a deadly maze.<BR>Strange energies abound and your magic seems to act strangely in this alien environment. Even the other denizens you encounter seem out of place here.
 #
-tc.research_name.OUTERREV=Revelations in the Outer Lands 
-tc.research_text.OUTERREV=Things are not what they seem
+tc.research_name.OUTERREV=이계의 드러남
+tc.research_text.OUTERREV=보이는게 전부는 아니야.
 tc.research_page.OUTERREV.1=Your suspicions have been confirmed. This is not the home of the race you have come to call the Eldritch. This place is something else entirely and you do not believe it exists in what you understand as being "reality" - it is as much a mental construct as a physical one, but what mind can contain this?<BR>You have been able to decipher only a small number of the symbols, but you are sure this place is a trap - a place to test visitors and weed out the weak. For what purpose you are not sure.
 #
-tc.research_name.PRIMPEARL=Primordial Pearl 
-tc.research_text.PRIMPEARL=What came before
+tc.research_name.PRIMPEARL=태초의 진주
+tc.research_text.PRIMPEARL=무엇으로 부터 온걸까
 tc.research_page.PRIMPEARL.1=For the first time you find yourself with a puzzle that you do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what you consider normal, everyday primal aspects. You have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of
 tc.research_page.PRIMPEARL.2=magic as you have come to understand it. You are not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is time you start putting it to use.
 #
-tc.research_name.PRIMALCRUSHER=Primal Crusher 
-tc.research_text.PRIMALCRUSHER=Breaking all the things
+tc.research_name.PRIMALCRUSHER=태고의 파괴기
+tc.research_text.PRIMALCRUSHER=모든것을 부숴버린다
 tc.research_page.PRIMALCRUSHER.1=The theory behind infusion crafting is simple - infuse a single object with essentia and the properties of other objects. There are limits however, but it seems with the discovery of the primordial pearl these limits are becoming less and less.<BR>As an experiment you tried infusing the properties of completely different objects into the pearl with suprising success. The Primal Crusher is the first practical application of this discovery.<BR>By combining a Shovel of the Earthmover and a Pickaxe of the Core with their void metal counterparts you created a
 tc.research_page.PRIMALCRUSHER.2=tool of unrivaled destructive capabilities that has most of the features of its component pieces.<BR>The Primal Crusher can mine through earth and stone with equal ease and does so in a 3x3 area. Like the Pickaxe of the Core it occasionally mines native clusters instead of raw ore.<BR>It repairs itself over time, has high enchantability and serves as a relatively good weapon in a pinch.<BR>Unfortunately it seems purely destructive in nature and has lost the construction and detection abilities of its parent tools.
 #
-tc.research_name.SANITYCHECK=Sanity Check
-tc.research_text.SANITYCHECK=Introspection for the brave
+tc.research_name.SANITYCHECK=정신 측정
+tc.research_text.SANITYCHECK=용감함에 대한 자아성찰
 tc.research_page.SANITYCHECK.1=Things have become busy in your mind lately. It is probably best that you have a look inside there and make sure everything is still all right.<BR>This tool will allow you to check the effects of warp on your psyche and how much it is effecting you.<BR>Of course you cannot allow a tool like this to fall into the hands of your enemies so you have taken great pains to obfuscate the information it provides. You might have gone too far though - you are having a hard time deciphering it yourself.  
 #
-tc.research_name.CRIMSON=The Crimson Cult
-tc.research_text.CRIMSON=A Cautionary Tale
+tc.research_name.CRIMSON=진홍의 교단
+tc.research_text.CRIMSON=조심스러운 이야기
 tc.research_page.CRIMSON.1=Much of this book is written in a spidery and unintelligible script, but what you do understand offers some strange insights into the goals of the Crimson Cult.<BR>Their origins are shrouded in mystery, but it seems their goal is the perfection of a ritual they refer to as "Apertis Oculis" - Opening the Eye. What it does is unclear, but you doubt it is anything good.<BR>Interestingly enough, you think thaumaturgy might offer the missing pieces they have so long sought. Obviously only a madman would pursue this line of study...
 #
-tc.research_name.OCULUS=Opening the Eye
-tc.research_text.OCULUS=I will show them, I will show them all!
+tc.research_name.OCULUS=눈을 뜨다
+tc.research_text.OCULUS=내가 보여줄거야! 보여주고 말거라고!!
 tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 1000 units of each should be sufficient.
 tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown! 
 #
-tc.research_name.SINSTONE=Sinister Lodestone 
-tc.research_text.SINSTONE=Do you dare follow it?
+tc.research_name.SINSTONE=불길한 자석 
+tc.research_text.SINSTONE=감히 따라갈 자신은 있는가?
 tc.research_page.SINSTONE.1=You have made an interesting discovery during your study of the Apertis Oculis ritual. The spot where the "eye" will open emits a very distinct kind of energy that is detectable even when it is still closed.<BR>By infusing a piece of flint you think you can create a simple scrying device that will light up whenever it is pointed towards such an energy signature.<BR>The range is limited, but it is a worthwhile invention since the ritual stones are often hard to find.
 #
