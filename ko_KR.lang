@@ -6,6 +6,16 @@ enchantment.repair=수리
 enchantment.special.sapless=하급 흡수
 enchantment.special.sapgreat=고급 흡수
 #
+# Infusion Enchantments 
+################################### 
+enchantment.infusion.COLLECTOR=수집가 
+enchantment.infusion.DESTRUCTIVE=파괴적인 
+enchantment.infusion.BURROWING=파고드는 
+enchantment.infusion.SOUNDING=찾아내는 
+enchantment.infusion.REFINING=정제하는 
+enchantment.infusion.ARCING=북풍의 
+enchantment.infusion.ESSENCE=정수 수집가
+#
 # Potions
 ###################################
 potion.fluxtaint=플럭스 중독
@@ -46,10 +56,11 @@ entity.Thaumcraft.AuraNode.name=오라 노드
 entity.Thaumcraft.Golem.name=골렘
 entity.Thaumcraft.ThaumSlime.name=사우믹 슬라임
 entity.Thaumcraft.Dart.name=골렘 다트
+entity.Thaumcraft.PrimalArrow.name=속성 화살
 entity.Thaumcraft.FrostShard.name= 얼음 덩어리
 entity.Thaumcraft.ExplosiveOrb.name=화염탄
 entity.Thaumcraft.ShockOrb.name=전격탄
-entity.Thaumcraft.GolemOrb.name=에너지 구
+entity.Thaumcraft.GolemOrb.name=에너지 구체
 entity.Thaumcraft.BottleTaint.name=테인트 병
 entity.Thaumcraft.Firebat.name=화염 박쥐
 entity.Thaumcraft.Wisp.name=위습
@@ -76,7 +87,7 @@ entity.Thaumcraft.TaintedCow.name=오염된 소
 entity.Thaumcraft.TaintedCreeper.name=오염된 크리퍼
 entity.Thaumcraft.Pech.name=펙 약탈자
 entity.Thaumcraft.Pech.1.name=펙 마법사
-entity.Thaumcraft.Pech.2.name=펙 스토커
+entity.Thaumcraft.Pech.2.name=펙 추적자
 entity.Thaumcraft.PrimalOrb.name=태고의 에너지 구체
 entity.Thaumcraft.TravelingTrunk.name=여행 상자
 entity.trunk.guiname=의 상자
@@ -98,6 +109,7 @@ entity.Thaumcraft.CultistPortalLesser.name=작은 진홍의 관문
 entity.Thaumcraft.EldritchCrab.name=엘드리치의 게
 entity.Thaumcraft.InhabitedZombie.name=이계를 떠도는 시체
 entity.Thaumcraft.TurretBasic.name=자동 쇠뇌
+entity.Thaumcraft.TurretAdvanced.name=개선된 자동 쇠뇌
 entity.Thaumcraft.TurretFocus.name=마법 포탑
 entity.Thaumcraft.TurretEldritch.name=엘드리치의 마법 포탑
 entity.Thaumcraft.NodeMagnet.name=노드 자석
@@ -164,6 +176,7 @@ tile.arcane_brick_stairs.name=아케인 벽돌 계단
 tile.ancient_stairs.name=고대의 돌 계단
 tile.translucent.amber_block.name=호박 블럭
 tile.translucent.amber_brick.name=호박 벽돌
+tile.translucent.empty.name=빈 공간
 tile.slab_wood.greatwood.name=그레이트우드 반 블럭
 tile.slab_wood.silverwood.name=실버우드 반 블럭
 tile.slab_stone.arcane.name=아케인 스톤 반 블럭
@@ -196,6 +209,7 @@ tile.eldritch.lock.name=엘드리치의 봉인
 tile.eldritch.door.name=엘드리치의 문
 tile.eldritch.teleporter.name=엘드리치 관문
 tile.eldritch.crabspawner.name=게딱지
+tile.grass_ambient.name=환경 잔디 블럭
 #
 # Doodads
 tile.table_stone.name=돌 탁자
@@ -261,6 +275,7 @@ tile.paving_stone.barrier.name=경계석
 tile.paving_stone.travel.name=여행의 포석
 tile.flesh_block.name=살점 블럭
 tile.redstone_relay.name=레드스톤 릴레이
+tile.pattern_crafter.name=신비로운 패턴 제조기
 #
 # Misc
 tile.hole.name=차원의 틈
@@ -272,6 +287,10 @@ tile.purifying_fluid.name=정화의 액체
 tile.liquid_death.name=액체 죽음
 tile.placeholder.furnace_brick.name=지옥의 화로
 tile.placeholder.furnace_obsidian.name=지옥의 화로
+tile.placeholder.gb_anvil.name=골렘 누르기
+tile.placeholder.gb_table.name=골렘 누르기
+tile.placeholder.gb_bars.name=골렘 누르기
+tile.placeholder.gb_cauldron.name=골렘 누르기
 tile.barrier.name=보호의 기운
 #
 # Machines
@@ -323,6 +342,10 @@ tile.crystallizer.name=에센시아 결정 장치
 tile.spa.name=마법의 욕조
 tile.mirror.name=마법의 거울
 tile.mirror_essentia.name=에센시아 거울
+tile.golem_builder.name=골렘 누르기 
+tile.node_stabilizer.name=노드 안정화기
+tile.essentia_input.name=에센시아 방출기 
+tile.essentia_output.name=에센시아 흡입기 
 #
 # Items
 ###################################
