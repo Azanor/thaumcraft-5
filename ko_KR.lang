@@ -945,128 +945,128 @@ tc.research_page.AURAMANIP1.3=예를들어, 1개의 내부 그리고 2개의 외
 #
 tc.research_name.AURAMANIP2=인력의 토템
 tc.research_text.AURAMANIP2=안에 담기.
-tc.research_page.AURAMANIP2.1=The Totem of Attraction works in much the same way is the Totem of Dispersal, except that it draws vis from the outer area and moves it towards the inner area.    
+tc.research_page.AURAMANIP2.1=인력의 토템은 분산의 토템과 같은 방식으로 작동합니다, 외부 영역에서 비스를 흡수하여 내부로 모아준다는 점만 빼면 말이죠.    
 #
 tc.research_name.AURAPOLESTABLE=안정화 토템 폴
 tc.research_text.AURAPOLESTABLE=흐름을 좀 더 부드럽게
-tc.research_page.AURAPOLESTABLE.1=This totem pole has a stabilizing effect on the totem it supports. It reduces the chance that flux is created during aura manipulation.
+tc.research_page.AURAPOLESTABLE.1=이 토템폴이 놓여진 토템은 좀 더 안정적이게 됩니다. 작동하는 동안 플럭스가 조금이나마 덜 생기게 해주는 것이죠.
 #
 tc.research_name.CAP_gold=황금 마개
 tc.research_text.CAP_gold=스타일리쉬한 마무리
-tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and wands capped with this material takes no penalty when used to channel vis.
+tc.research_page.CAP_gold.1=금은 철보다는 매우 집중적인 재료입니다, 그리고 이 재료로 만들어진 완드캡은 비스 사용에 패널티가 없어집니다.
 #
 tc.research_name.CAP_brass=황동 마개
 tc.research_text.CAP_brass=비스를 뽑아내다
-tc.research_page.CAP_brass.1=Like gold, wands capped with this material takes no penalty when used to channel vis. More importantly however, is the fact that these caps can draw vis from the aura easier than normal, allowing the wands they are placed on to charge faster.
+tc.research_page.CAP_brass.1=금과 같이, 이 재료로 만들어진 완드캡은 비스 사용에 패널티가 없습니다. 그러나 중요한것은, 비스를 평소보다 오라에서 더 쉽게 뽑아낼 수 있다는 점입니다, 완드가 더욱 빨리 충전되는 것이죠.
 #
 tc.research_name.CAP_thaumium=사우뮴 마개
 tc.research_text.CAP_thaumium=속도 이상의 효율
-tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.<BR>Crafting these wand caps in an arcane workbench is not sufficient - they need to be infused with additional magical energy to make them usable.
+tc.research_page.CAP_thaumium.1=사우뮴은 마법을 저장하고 흡수한다고 알려져 있습니다, 따라서 완드캡으로 사용하는것은 현명한 선택입니다. 그것은 모든 종류의 비스에 있어서 효과적입니다.<BR>아케인 작업대에서 만드는것 만으로는 충분하지 않습니다 - 그것들을 사용하기 위해서는 인퓨전 제단에서 충전을 해줄 필요가 있습니다.
 #
 tc.research_name.CAP_void=공허 금속 마개
 tc.research_text.CAP_void=멀리에서 온 힘
-tc.research_page.CAP_void.1=Crafting wand caps from void metal seems counterintuitive since it seems to be highly resistant to magic, but counterintuitive is where you live now.<BR>Your gamble paid off. The metal itself may be resistant to magic and channels vis no better than gold or brass, but it can draw vis from the aura much, much quicker than normal. The magic does seem §ostrange§r somehow, but it is probably just your imagination.
+tc.research_page.CAP_void.1=공허 금속은 마법에 저항하는 성질이 있기 때문에 이것으로 완드캡을 만드는것은 매우 역설적으로 들립니다, 하지만 지금 당신이 그 역설을 해내고 있습니다!.<BR>당신이 옳았습니다. 금속 그 자체는 마법에 저항이 있고 금과 황동보다 나은게 없을지도 모르지만, 오라로 부터 비스를 매우, 매우 빠르게 흡수할 수 있습니다. 마법이 매우 §형이상학§r 적으로 보일지 모르지만, 아마 그저 당신의 상상일지도 모르겠습니다.
 #
 tc.research_name.ROD_greatwood=그레이트우드 막대
 tc.research_text.ROD_greatwood=마법적 에너지의 저장소
-tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has more than double the vis storage potential of mundane wood, being able to store up to 250 vis of each type.
+tc.research_page.ROD_greatwood.1=그레이트 목재로부터 조각된 코어는, 이 로드는 평범한 나무의 두배에 해당하는 비스를 저장할 수 있습니다, 각 타입의 비스를 250씩 담을 수 있습니다.
 #
 tc.research_name.ROD_silverwood=실버우드 막대
 tc.research_text.ROD_silverwood=코어에 있어서 마법적인!
-tc.research_page.ROD_silverwood.1=Silverwood has proved to be an excellent repository of magical energy, and wand cores crafted from it can store up to 500 vis of each type.
+tc.research_page.ROD_silverwood.1=실버우드는 이미 뛰어난 마법에너지의 저장소로 알려져 있습니다, 각 타입의 비스를 500씩 담을 수 있습니다.
 #
 tc.research_name.SCEPTRE=제작용 홀
 tc.research_text.SCEPTRE=일을 위해 태어난
-tc.research_page.SCEPTRE.1=Crafting scepters are specialized wands made to be used to craft mystical objects and nothing else. Foci cannot be attached to them, but they have several features that still make them worthwhile using.<BR>Firstly, they have an additional 10% vis discount above and beyond what their caps would normally grant.<BR>Secondly they are able to hold 50% more vis than their cores would normally allow.<BR>Like other wands they can be crafted using most combinations of rods and caps - just a few examples are given on the next page.
+tc.research_page.SCEPTRE.1=제작용 홀은 이름 그대로 제작에 특화된 완드 입니다.포커스를 붙일 수는 없습니다, 하지만 그럼에도 사용할만한 가치는 충분히 있습니다.<BR>먼저, 완드캡이 제공하는것에 10%만큼 추가로 더 비스를 절약해 줍니다.<BR>두번째로 코어는 원래의 능력보다 50%만큼 더 많은 비스를 저장할 수 있습니다.<BR>다른 완드처럼 제작용 홀 또한 완드캡과 코어의 조합을 통해 만들어집니다 - 약간의 예시가 다음 페이지에 주어져 있습니다.
 #
 tc.research_name.PRIMALRODS=원소 막대
 tc.research_text.PRIMALRODS=속성별 비스 저장소
-tc.research_page.PRIMALRODS.1=Each of these wand cores is linked to a specific primal element which grants them additional abilities.<LINE>§l§nReed Wand Core§r<BR>A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, its will slowly replenish without drawing from the aura.
-tc.research_page.PRIMALRODS.2=§l§nBlazing Wand Core§r<BR>Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
-tc.research_page.PRIMALRODS.3=§l§nObsidian Wand Core§r<BR>A wand core chiseled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
-tc.research_page.PRIMALRODS.4=§l§nIcy Wand Core§r<BR>Wand cores crafted from ice can store slightly more vis than greatwood cores. What makes it superior to greatwood cores however is that if the level of §3Aqua§0 stored inside it drops below 10%, its icy nature will slowly replenish it.
-tc.research_page.PRIMALRODS.5=§l§nQuartz Wand Core§r<BR>A wand core chiseled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §7Ordo§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
-tc.research_page.PRIMALRODS.6=§l§nBone Wand Core§r<BR>A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_page.PRIMALRODS.1=각각의 이러한 완드 코어는 추가적인 능력을 부여하는 최초의 원소들과 연결된다.<LINE>§l§n갈대 막대§r<BR>갈대로 만들어진 코어는 그레이트 우드로 만들어진 코어보다 더 많은 저장량을 갖고 있다. 그러나 그레이트우드 코어보다 뛰어나게 만드는점은 저장된§6Aer§0가 10% 미만으로 떨어졌을때 , 오라에서 뜯어냄 없이 스스로 회복한다는 점이다.
+tc.research_page.PRIMALRODS.2=§l§n블레이즈 막대§r<BR>블레이즈 막대로 만들어진 코어는 그레이트 우드로 만들어진 코어보다 더 많은 저장량을 갖고 있다 . 그러나 그레이트 우드 코어보다 뛰어난점은 저장된 §cIgnis§0가 10% 미만으로 떨어졌을때 , 그것의 불타는 특성이 천천히 채워준다는 것이다.
+tc.research_page.PRIMALRODS.3=§l§n흑요석 막대§r<BR>흑요석을 깎아 만든 막대는 그레이트 우드로 만들어진 코어보다 더 많은 저장량을 갖고있다. 그러나 그레이트 우드 코어보다 뛰어난점은 저장된 §2Terra§0가 10% 미만으로 떨어졌을때, 그것을 노드의 활용 없이 천천히 재충전 시켜준다는 점이다.
+tc.research_page.PRIMALRODS.4=§l§n얼음 막대§r<BR>얼음으로 만든 막대는 그레이트 우드로 만들어진 코어보다 더 많은 저장량을 갖고있다. 그러나 그레이트 우드 코어보다 뛰어난점은 저장된 §3Aqua§0가 10%미만으로 떨어졌을때, 그것의 얼어붙는 특성이 천천히 채워준다는 것이다.
+tc.research_page.PRIMALRODS.5=§l§n석영 막대§r<BR>네더 석영을 깎아 만든 막대는 그레이트 우드로 만들어진 코어보다 더 많은 저장량을 갖고있다.  그러나 그레이트 우드 코어보다 뛰어난점은 저장된  §7Ordo§0가 10%미만으로 떨어졌을때, 그것을 노드의 활용 없이 천천히 재충전 시켜준다는 점이다.
+tc.research_page.PRIMALRODS.6=§l§n골제 막대§r<BR>뼈는 그레이트 우드보다 더 많은 저장량을 갖도록 사용되었다. 그러나 그레이트 우드 코어보다 뛰어난점은 저장된 §8Perditio§0가 10%미만으로 떨어졌을때, 그것을 노드의 활용 없이 천천히 채워준다는 것이다.
 #
 tc.research_name.PRIMALSTAVES=원소의 지팡이 막대 
 tc.research_text.PRIMALSTAVES=속성 비스 저장
-tc.research_page.PRIMALSTAVES.1=Like the elemental wand cores, these stave cores are linked to a specific primal element which grants them additional abilities and slowly replenish their vis stores if they get low enough. They can store 750 vis of each type.
+tc.research_page.PRIMALSTAVES.1=다른 원소 막대처럼, 이 지팡이 막대들은 특정 위상에 특화되어 있으며 매우 낮을 경우 특정 비스를 일정량 스스로 채워줍니다. 그들은 각 타입의 비스를 750까지 담을 수 있습니다.
 #
 tc.research_name.ROD_greatwood_staff=마법 지팡이
 tc.research_text.ROD_greatwood_staff=마법사의 지팡이 끝엔 매듭이 있지!
-tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for your buck. Magical staves are basically just bigger wands. They are able to store more vis.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.<BR>Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.
-tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has double the vis storage potential of a greatwood wand, being able to store up to 500 vis of each type.<BR>Note: You still need to add caps to a stave rod, just like you would for a wand.
+tc.research_page.ROD_greatwood_staff.1=완드는 연금술사의 상징이라고 할 수 있습니다, 하지만 더 멋진걸 원할 수 도 있죠. 마법 지팡이는 아주 간단히 말하자면 커다란 완드입니다. 그들은 더 많은 비스를 저장할 수 있습니다.<BR>물론 완드보다 더 크고 두껍기 때문이죠, 또한 급할때는 무기로서의 역할도 해냅니다.<BR>안타깝게도 이러한 지팡이는 아케인 작업대에 크기도 맞지 않으며 필요한 세밀한 비스 조정은 잘 하지 못하는 것으로 알려져 있습니다.
+tc.research_page.ROD_greatwood_staff.2=그래이트우드 지팡이는 그레이트우드 완드의 두배를 저장할 수 있습니다, 각각 500씩의 비스를 말이죠.<BR>Note: 당신은 여전히 완드처럼 완드 캡을 지팡이의 끝에 씌워야 합니다.
 #
 tc.research_name.ROD_silverwood_staff=실버우드 지팡이 막대
 tc.research_text.ROD_silverwood_staff=코어에 있어서 마법적인!
-tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 1000 vis of each type.
+tc.research_page.ROD_silverwood_staff.1=실버우드로 만들어진 스태프 코어는 각 타입의 비스를 1000씩 보관할 수 있습니다.
 #
 tc.research_name.ROD_primal_staff=태초의 지팡이 막대
 tc.research_text.ROD_primal_staff=원소의 힘이 결합된
-tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish its vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturge's arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
+tc.research_page.ROD_primal_staff.1=이 막대는 막대한 에너지를 방출합니다.<BR>이것은 모든 지팡이의 특성을 갖고 있습니다 - 이것은 실버우드 지팡이 코어와 같은 저장량을 가지며 각각의 원소 막대와 같은 절약성을 보입니다.<BR>마지막으로 사용하는 모든 포커스에 잠재력을 한단계 상승시킵니다.<BR>이것은 연금술사에게 있어 매우 강력한 도구입니다.<BR>Note: 당신은 여전히 완드 캡이 필요합니다.
 #
 tc.research_name.FOCUSFIRE=완드 포커스
 tc.research_text.FOCUSFIRE=형태가 기능을 만날때
-tc.research_page.FOCUSFIRE.1=Some careful experimentation has shown you a way to expand the abilities of even the most basic wand.<BR>By combining crystalline vis shards with quartz crystals and infusing them with magic, you are able to align the crystals into a mystical matrix.<BR>If the proper types and amounts of vis is focused through this matrix, it will reshape the raw magical energies into something useful, controlled, and geared to a specific task. 
-tc.research_page.FOCUSFIRE.2=Adding a focus to your wand is a simple task - simply press F while holding the wand, and any foci you a carrying will show up in a radial menu allowing you to choose from any of the ones you are carrying with a simple click.<LINE>Your initial experiments involved the shaping of fire, and the resulting focus proved to be a simple, but useful tool.<BR>It is capable of sending forth a cone of elemental fire, burning all in its wake.
+tc.research_page.FOCUSFIRE.1=몇몇 조심스러운 실험을 통해 당신은기초 완드의 사용을 더욱 확장시키게 되었습니다.<BR>결정화된 비스 조각과 석영 조각을 섞고 마법을 넣어준 결과, 당신은 결정에 마법적인 에너지장을 만들 수 있었습니다.<BR>앞서말한 비스가 집중되어 이 에너지 장을 통과하게 되면, 그것은 순수한 마법 에너지로 작동하여 좀 더 나은, 그리고 주체적인 작업에 쓰일 수 있게 됩니다. 
+tc.research_page.FOCUSFIRE.2=포커스를 당신의 완드에 넣는것은 쉬운 일이였습니다 - 완드를 든 채로 f를 누른 뒤,원형 메뉴에 당신이 가지고 있는 포커스들이 뜰것이고 이를 간단히 클릭하는것으로 장착할 수 있습니다 .<LINE>당신의 첫 실험은 불을 다루는 것이였으며, 그 결과는 간단하지만 매우 유용한 포커스였습니다.<BR>그것은 전방에 부채꼴 모양으로 불을 내뿜어 모든것을 태울 수 있습니다.
 #
 tc.research_name.FOCUSFROST=완드 포커스:냉기
 tc.research_text.FOCUSFROST=복수의 냉기를 맛보아라!
-tc.research_page.FOCUSFROST.1=This focus is capable of hurling chunks of ice.<BR>Care must be taken when aiming, as the ice chunks tend to bounce off solid objects. This can be used to your advantage however as you can bounce the shards around corners, or even hit multiple foes. 
+tc.research_page.FOCUSFROST.1=이 포커스는 얼음 조각을 던지는것이 가능합니다.<BR>얼음 조각은 고체에 부딪혀 팅기기 때문에 조준에 주의를 요합니다. 하지만 이러한점은 코너 또는 여러대를 타격하는데에 효과적일 수도 있습니다. 
 #
 tc.research_name.FOCUSSHOCK=완드 포커스:전격
 tc.research_text.FOCUSSHOCK=천둥과 번개!
-tc.research_page.FOCUSSHOCK.1=This focus is capable of focusing elemental energy into bolts of lightning that you can hurl at your enemies.
+tc.research_page.FOCUSSHOCK.1=이 포커스틑 전기 에너지를 볼트의 형태로 바꾸어 쏘아낼 수 있습니다
 #
 tc.research_name.FOCUSEXCAVATION=완드 포커스:채굴
 tc.research_text.FOCUSEXCAVATION=땅에 있어서 공포스러운
-tc.research_page.FOCUSEXCAVATION.1=This focus turns your wand into a tool capable of moving vast amounts of earth and stone with little effort.<BR>Simply point it at what you want to excavate and the magic does the rest. Tougher materials take longer to mine, and anything other than earth, stone or similar materials will take much longer to mine.
+tc.research_page.FOCUSEXCAVATION.1=이 포커스는 적은 노력으로 땅을 파낼 수 있습니다.<BR>간단히 가리키리만 하고 나머지는 마법이 모든것은 해줄것입니다. 단단할수록 채굴 시간은 오래걸리며 돌이나 비슷한 재료들은 더욱더 오래 걸릴것입니다.
 #
 tc.research_name.FOCUSTRADE=완드 포커스: 등가 교환
 tc.research_text.FOCUSTRADE=이걸 위한 저것
-tc.research_page.FOCUSTRADE.1=You can use this focus to trade dozens of blocks in the world with some you are carrying.<BR>You must first choose the block you wish to change other blocks into by sneaking and right clicking on the desired block. When you then left-click on another block it will turn into the target block. Right clicking will transform a whole swathe of blocks.<BR>You must be carrying enough target blocks, and the transformed blocks will replace them in your inventory. Only blocks with at least one face adjacent to open air or non-solid blocks will be transformed.
+tc.research_page.FOCUSTRADE.1=당신은 이 포커스를 세계의 블럭과 당신이 들고있는 블럭을 한번에 바꾸기 위해 사용할 수 있습니다.<BR>당신은 우선 바꾸고 싶은 블럭을 시프트 우클릭 함으로서 선택해야 합니다. 그리고 당신이 다른 블럭을 클릭할경우 먼저 정한 블록으로 바뀔 것입니다. 우클릭은 인접한 같은 블럭 모두를 바꿀것입니다.<BR>당신은 충분한 타겟 블럭을 가지고 있어야 하며, 바뀐 블럭은 당신의 가방 안에 담길것입니다. 오직 공기중에 노출되어있고 액체가 아닌 고체만이 바뀔 것입니다.
 #
 tc.research_name.FOCUSHELLBAT=완드 포커스: 구중 지옥
 tc.research_text.FOCUSHELLBAT=조그만한 공포
-tc.research_page.FOCUSHELLBAT.1=Your trips onto the Nether have taught you to fear the tiny terrors known as Hellbats. Now you have discovered a way to summon the little terrors and send them after your enemies. Excellent.
+tc.research_page.FOCUSHELLBAT.1=당신의 네더로의 여행은 지옥박쥐에대한 공포를 다시금 떠올리게 했습니다. 이제 당신은 그 작은 공포를 소환하여 적에게 보내는 법을 깨달았습니다. 훌륭합니다.
 #
 tc.research_name.FOCUSPORTABLEHOLE=완드 포커스: 천공
 tc.research_text.FOCUSPORTABLEHOLE=두번 다시 탈출구가 없는일은 없을거에요!
-tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extra dimensional spaces. Using this focus on a wall or other surface will create an extra dimensional passage leading to the other side. This 'hole' only remains open for a few seconds.<BR>Extra dimensional holes cannot be created through certain kinds of matter or particularly complex objects.
+tc.research_page.FOCUSPORTABLEHOLE.1=당신은 비스를 사용하여 차원외적의 문을 여는데에 성공하였습니다. 이 포커스를 한쪽 표면 또는 벽에 사용하면 반대쪽으로 이어주는 차원외적 통로를 만들어 줄것입니다. 이 구멍은 오직 몇초 동안만 지속될 것입니다.<BR>차원외적 구멍은 특별한 재질 그리고 복잡한 구조는 뚫지 못합니다.
 #
 tc.research_name.FOCUSPRIMAL=완드 포커스 : 태고
 tc.research_text.FOCUSPRIMAL=마법 그 자체
-tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
+tc.research_page.FOCUSPRIMAL.1=어떠한 광기가 당신으로 하여금 이걸 만들게 했을까요? 이 포커스는 매우 날뛰듯 위험하며 오직 미친 일부만이 이 포커스를 아무데나 휘두를 것입니다<BR>이 오브가 만들어내는 에너지 구체는 매우 파괴적입니다, 하지만 그것이 날아가는 경로는 불규칙하며 최악의 경우 바로 아래에 떨어집니다.<BR>이것은 더 많은 연구가 필요하겠지만: 오브는 어떠한 차원적 특성을 지니고 있으며 노드와 위습만이 보여주던 특수한 에너지 패턴을 보여주고 있습니다.
 #
 tc.research_name.FOCUSPOUCH=포커스 주머니
 tc.research_text.FOCUSPOUCH=당신의 포커스들을 위한 편리한 운반책
-tc.research_page.FOCUSPOUCH.1=Once you have gathered a sizable collection of foci it is quite annoying to carry them all with you. This pouch solves that problem.<BR>Whenever you change the focus on your wand, it will check this pouch first and any foci that get removed will be placed inside it first. You can also right-click the pouch to place or remove foci by hand.<BR>It can also be carried in your belt bauble slot.
+tc.research_page.FOCUSPOUCH.1=당신이 포커스를 충분히 모았을때 쯤 포커스를 들고 다니는것은 귀찮은 일이 될 것입니다. 이 주머니가 그 문제를 해결해 줄것입니다.<BR>당신이 완드에서 포커스를 바꿀때, 이 포커스 주머니에서 먼저 찾으며 바뀐 포커스는 이 안으로 들어갈 것입니다.. 당신은 이 주머니를 우클릭 하여 내부를 보거나 포커스를 빼낼 수 있습니다.<BR>버블즈의 벨트 슬롯에 장착하여 입을 수 도 있습니다.
 #
-tc.research_name.FOCALMANIPULATION=포커스 조작 
+tc.research_name.FOCALMANIPULATION=포커스 가공 
 tc.research_text.FOCALMANIPULATION=포커스를 좀 더 특별하게.
-tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible. A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focal Manipulator and choose the upgrade you wish to apply to it. It will draw vis from the aura and you also need to provide it with experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
-tc.research_page.FOCALMANIPULATION.2=but each rank is doubles the cost.<BR>While some upgrades can be applied multiple times or at any rank, many foci have upgrades that can only be applied at certain ranks or only if certain requisite upgrades had been taken at lower ranks. Experimentation is encouraged.<BR>Upgrades are permanent - you are not aware of any method to remove unwanted upgrades so care must be taken when choosing them. 
+tc.research_page.FOCALMANIPULATION.1=완드 포커스는 매우 특별한 능력입니다, 하지만 그들은 제한적이죠. 하나의 포커스는 거의 하나의 기능밖에 하지 못합니다.<BR>당신은 기초 포커스들을 조작하여 다른 일을 행하도록 하는 법을 발견했습니다. 당신은 그저 포커스를 포커스 가공기에 넣은 후 당신이 적용시키고 싶은 업그레이드를 선택하기만 하면 됩니다. 그것은 오라상에서 비스를 흡수할 것이며 당신은 시작하기 위해 추가적으로 경험치를 요구할 것입니다, 하지만 그 뒤엔 그저 기다리기만 하면 됩니다.<BR>각각 포커스는 최대 다섯번 업그레이드 가능합니다. 
+tc.research_page.FOCALMANIPULATION.2=하지만 각 단계마다 비용은 배로 증가합니다.<BR>하지만 일부 업그레이드는 단계에 상관없이 몇배로 증가할 것입니다, 어떠한 업그레이드는 특정 단계에서만 가능하며 이전에 특정 업그레이드가 필요한 경우도 존재합니다. 실험적으로 도전해 보십시오.<BR>업그레이드는 영구적입니다 - 한번 선택된 업그레이드는 되돌릴 수 없으니 신중하게 선택하시길 바랍니다. 
 #
 tc.research_name.VAMPBAT=티어 5 업그레이드: 흡혈 박쥐 
 tc.research_text.VAMPBAT=작지만 잔인한 흡혈마  
 #
 tc.research_name.WANDPED=충전용 토대
 tc.research_text.WANDPED=자동화된 완드 충전
-tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from the aura to recharge itself.<BR>Wands are not the only items that can be recharged in this device - many vis holding gadgets should be rechargeble in this.
+tc.research_page.WANDPED.1=당신의 완드를 충전하기위해 여기저기 다니는것도 좋지만,자동으로 된다면 더할나위 없이 좋을것입니다.<BR>이 특별한 장치가 그것을 해줍니다 - 이것에 놓여진 완드는 스스로 비스를 오라에서 흡수합니다.<BR>이 장치에 완드만 들어갈 수 있는것은 아닙니다 - 많은 비스를 담은 물건들은 모두 이곳에서 충전 가능합니다.
 #
 tc.research_name.VISAMULET=비스 저장소
 tc.research_text.VISAMULET=낭비하지 않으면 부족할일 없지.
-tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>The amulet will only recharge wands or items located in your hotbar. The amulet can also be placed in a recharge pedestal.
+tc.research_page.VISAMULET.1=대부분 연금술사에게 있어 하나의 완드로도 충분하지만, 담은 비스가 충분하지 않은 경우도 존재합니다. 두개 이상의 완드를 들 수도 있지만 실험은 다른 방법을 찾아내었습니다.<BR>비스를 저장할 수 있는 아뮬렛을 만듬으로서, 그것을 쓰는 동안 비스를 비스석에서 꺼내 쓸 수 있습니다.<BR>아뮬렛은 핫바 위에 있는 아이템만을 충전해 줍니다. 아뮬렛 또한 충전대 위에 올려 놓을 수 있습니다.
 #
 tc.research_name.WORKBENCHCHARGER=아케인 작업대 충전기
 tc.research_text.WORKBENCHCHARGER=간편해진 아케인 작업들.
-tc.research_page.WORKBENCHCHARGER.1=An annoyance for any thaumaturge that performs regular arcane crafting is to constantly keep his wand charged.<BR>Now that you have found an automated way to draw vis directly from the aura you are able to craft an Arcane Workbench Charger. It is designed to be placed on top of an arcane crafting table and will draw vis from the aura to recharge wands placed in the table.<BR>The only drawback is that it recharges much slower than it would from a wand recharging pedestal or doing it by hand. 
+tc.research_page.WORKBENCHCHARGER.1=평범한 연금술사에게 있어 가장 귀찮은것은 완드를 항상 충전해야 한다는 것입니다.<BR>이제 당신은 아케인 작업대 충전기를 통해 아케인 작업대로 바로 비스를 흡수할 수 있습니다.. 이것은 아케인 작업대 위에 놓게 되어있으며 비스를 오라중에서 스스로 조금씩 흡수합니다.<BR>유일한 단점은 손에 있을때나 충전대를 사용할때 보다 매우 느리게 충전된다는 점입니다. 
 #
 tc.research_name.NODEMAGNET=노드 당기기
 tc.research_text.NODEMAGNET=자석과 함께
-tc.research_page.NODEMAGNET.1=Manipulating the aura is one thing, but if you were able to move nodes around you could insure a steady supply of vis where and when you want it. To this end you have developed Node Magnets.<BR>The magnet focuses on the nearest node within 32 blocks and slowly draws it towards itself. It sounds simple, but in effect the node is being forcefully ripped through the aura. This not only requires large amounts of vis of all types, but causes considerable amounts of flux.<BR>The larger a node is, the slower the it moves.
-tc.research_page.NODEMAGNET.2=The Node Magnet itself is quite fragile and care must be taken not to damage or topple it. It can survive minor knocks, but anything more will shatter the delicate components.<BR>It can be picked up by right-clicking on it with a wand.
-tc.research_page.NODEMAGNET.3=§nWarning!§r<BR><BR>The moment you place down the node magnet you notice something strange: It seems to emit an almost inaudible humming noise that still manages to set your teeth on edge.<BR>Angry grunts and howls from the surrounding area seems to indicate you are not the only one disturbed by the noise.
+tc.research_page.NODEMAGNET.1오라를 조작하는것 또한 방법입니다, 하지만 노드를 만약 옮길 수 있다면 당신은 필요할때 원하는 에너지를 얻을 수 있는 것입니다. 결국 당신은 노드 자석을 발명해 내었습니다.<BR>노드 자석은 근처 32블럭 내의 노드를 찾아 자신의 방향으로 서서히 당깁니다. 간단하게 들릴지 몰라도 노드는 강제로 해당 지역에서 뜯겨져 나가는 것입니다. 이것은 많은양의 비스를 요구할 분 아니라 상당한 양의 플럭스를 만들어 냅니다.<BR>노드가 클 수록 천천히 움직입니다.
+tc.research_page.NODEMAGNET.2=노드 자석은 매우 민감한 장비이므로 충격받거나 떨어지지 않도록 해야합니다. 몇몇 두드림에는 견딜지 몰라도 결국에는 그것으 구성품 일부로 분해될것입니다.<BR>완드로 우클릭 함을 통해 원형 그대로 회수 가능합니다.
+tc.research_page.NODEMAGNET.3=§n주의!§r<BR><BR>노드 자석을 놓는 순간 이상한 점이 발견됨: 들리지 않는 휘파람 소리가 당신의 이빨을 자극합니다.<BR>화난듯한 그르렁대는 소리와 하울링이 당신만 방해받는것은 아닌듯 합니다.
 #
 # Artifice 
 #######################
