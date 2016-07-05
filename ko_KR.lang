@@ -398,6 +398,7 @@ item.gear.void.name=공허 금속 톱니바퀴
 item.wisp_essence.name=천상의 정수
 item.fabric.name=마법의 직물
 item.crystal_essence.name=결정화된 정기
+item.crystal_essence.balanced.name=균형된 결정화된 정기
 item.wispy_essence.name=위습 정기
 item.phial.empty.name=유리 용기
 item.phial.filled.name=에센시아 용기
@@ -426,6 +427,7 @@ item.loot_bag.uncommon.name=특이한 보물
 item.loot_bag.rare.name=희귀한 보물
 tc.lootbag=개봉하거나 교환을 위해 보관하세요.
 item.turret.basic.name=자동 쇠뇌
+item.turret.advanced.name=개선된 자동 쇠뇌
 item.turret.focus.name=마법 포탑
 item.turret.magnet.name=노드 자석
 #
@@ -511,10 +513,17 @@ item.baubles.0.name=평범한 목걸이
 item.baubles.1.name=평범한 반지
 item.baubles.2.name=평범한 허리띠
 item.baubles.3.name=견습 마법사의 %TYPE 반지
+item.baubles.9.name=치장용 목걸이 
+item.baubles.10.name=치장용 반지
+item.baubles.11.name=치장용 벨트 
 item.amulet_vis.text=핫바의 마법봉을 충전합니다.
 item.amulet_vis.0.name=비스석
 item.amulet_vis.1.name=비스 저장의 목걸이
 item.girdle_hover.name=사우모스태틱 허리띠
+item.ring_verdant.name=신록의 심장 밴드 
+item.verdant.life.text=생명을 주는 자
+item.verdant.sustain.text=삶을 유지시켜주는 자
+
 
 # Wand
 item.focus_fire.name=마법봉 포커스: 화염
@@ -528,6 +537,7 @@ item.focus_pech.name=마법봉 포커스: 펙의 저주
 item.focus_warding.name=마법봉 포커스: 결계
 item.focus_primal.name=마법봉 포커스: 태고
 item.focus_shard.name=마법봉 포커스: 비스 탄환
+item.focus_grapple.name=마법봉 포커스: 그래플러
 item.wand_cap.iron.name=철 마개
 item.wand_cap.gold.name=금 마개
 item.wand_cap.brass.name=황동 마개
@@ -598,13 +608,132 @@ item.researchnotes.learn=오른쪽 클릭으로 연구를 완료하세요.
 item.creative_placer.obelisk.name=오벨리스크 생성기
 item.creative_placer.node.name=노드 생성기
 item.creative_placer.caster.name=고대 마법 포탑 생성기
+item.creative_flux_sponge.name=플럭스 스펀지
+item.jar_brace.name=황동 뚜껑 조임쇠 
+#
+# Golem 
+item.module.vision.name=시각 모듈 
+item.module.aggression.name=공격 모듈
+item.golem_bell.name=골레멘서의 종 
+item.golem.name=골렘
+item.seal.blank.name=빈 인장 
+item.seal.pickup.name=조종 인장: 수집 
+item.seal.pickup_advanced.name=개선된 조종 인장: 수집 
+item.seal.fill.name=조종 인장: 저장 
+item.seal.fill_advanced.name=개선된 조종 인장: 저장 
+item.seal.empty.name=조종 인장: 비우기
+item.seal.empty_advanced.name=개선된 조종 인장: 비우기 
+item.seal.harvest.name=조종 인장: 수확 
+item.seal.butcher.name=조종 인장: 도살
+item.seal.guard.name=조종 인장: 수호
+item.seal.guard_advanced.name=개선된 조종 인장: 수호 
+item.seal.lumber.name=조종 인장: 벌목 
+item.seal.breaker.name=조종 인장: 파괴 
+item.seal.use.name=조종 인장: 사용 
+item.seal.provider.name=조종 인장: 제공
 #
 # Text
 item.runic.charge=루닉 보호
 item.warping=뒤틀림
 item.capacity.text=용량
 item.chargebonus.text=충전 속도
-
+# 
+# Golems  
+######################## 
+# Traits 
+golem.trait.deft=재빠른 
+golem.trait.text.deft=This golem has a great deal of manual dexterity and can perform tasks requiring precision and a delicate touch. Counters and countered by Clumsy. 
+golem.trait.clumsy=게으른
+golem.trait.text.clumsy=This golem has almost no manual dexterity and cannot perform tasks requiring more than the most basic kind of interaction. Counters and countered by Deft. 
+golem.trait.smart=똑똑한 
+golem.trait.text.smart=This golem is nearly sentient with greater reasoning and decision making capabilities. 
+golem.trait.wheeled=바퀴달린
+golem.trait.text.wheeled=The golem propels itself using wheels. This gives it greater speed, but it is unable to jump or navigate steep slopes. 
+golem.trait.light=가벼운 골격의
+golem.trait.text.light=The golem is lighter than average which gives it increased speed and agility. Counters and countered by Heavy. 
+golem.trait.heavy=무거운 골격의 
+golem.trait.text.heavy=The golem is heavier than average which reduces its speed and agility. Counters and countered by Light. 
+golem.trait.fragile=부서지기 쉬운 
+golem.trait.text.fragile=The golem is contructed from delicate components or weak materials which reduces its life total and armor rating. Counters and countered by Armored. 
+golem.trait.armored=튼튼한
+golem.trait.text.armored=The golem is reinforced with additional material which increases its armor rating. Counters and countered by Fragile. 
+golem.trait.repair=개선된 자가 수리 
+golem.trait.text.repair=The golem repairs any damage suffered at more than double the normal rate. 
+golem.trait.fighter=싸움꾼 
+golem.trait.text.fighter=The golem is capable of taking hostile action against other entities. 
+golem.trait.flyer=비행가
+golem.trait.text.flyer=The golem is capable of flight, giving it greater mobility at the cost of speed. 
+golem.trait.climber=등반가 
+golem.trait.text.climber=Sheer cliffs to not deter this golem. It can easily scale them to get to its destination. 
+golem.trait.scout=정찰병 
+golem.trait.text.scout=The golem has a greater visual range and can operate in a much greater area (32 blocks range from home location instead of 16). 
+golem.trait.fireproof=화염 내성 
+golem.trait.text.fireproof=The golem is immune to fire damage. 
+golem.trait.brutal=악랄한 
+golem.trait.text.brutal=This golem inflicts greater melee damage in combat. 
+golem.trait.breaker=파괴자 
+golem.trait.text.breaker=This golem is capable of destroying most blocks with ease. 
+golem.trait.hauler=운반책 
+golem.trait.text.hauler=Allows the golem to carry two stack of items instead of one. 
+golem.trait.ranged=원거리 공격 
+golem.trait.text.ranged=The golem can attack targets at range.  
+golem.trait.blastproof=폭발면역 
+golem.trait.text.blastproof=The golem is highly resistant to explosion damage. 
+# 
+# Props  
+golem.material.wood=그레이트우드
+golem.material.text.wood=The golem is crafted from greatwood. It is light and agile, but not particularly sturdy. 
+golem.material.iron=강철
+golem.material.text.iron=The golem is crafted from iron. It is sturdy and fireproof, but heavy. 
+golem.material.brass=황동 
+golem.material.text.brass=The golem is crafted from brass. It is not as sturdy as iron nor as resistant to fire. Normally brass is heavier than iron, but it allows for superior construction methods which results in a much lighter frame. 
+golem.material.clay=점토 
+golem.material.text.clay=The golem is crafted from baked clay. It is not a particularly sturdy material, but the resulting golem is fireproof and relatively light. 
+golem.material.thaumium=사우뮴
+golem.material.text.thaumium=The golem is crafted from thaumium. It shares many characteristics with iron, though it is sturdier and more resistant to damage. 
+golem.material.void=공허 금속 
+golem.material.text.void=The golem is crafted from void metal. Slightly softer than iron, this metal makes up for it by being lighter and able to repair itself. 
+# 
+golem.head.basic=시계태엽 두뇌
+golem.head.text.basic=The default golem head. No particular strengths or weaknesses. 
+golem.head.smart=똑똑한 두뇌 
+golem.head.text.smart=This head contains an advanced biothaumic brain, giving the golem greater capabilities and the ability to learn.  
+golem.head.smart_armored=보호된 똑똑한 두뇌
+golem.head.text.smart_armored=The smart head enhanced with additional armor and padding. 
+golem.head.scout=통찰력 있는 두뇌 
+golem.head.text.scout=The basic clockwork head enchanced with improved biothaumic eyes.  
+golem.head.smart_scout=생체 사우믹 두뇌 
+golem.head.text.smart_scout=Using both biothaumic eyes and brain, this head is the pinnacle of the biothaumic art.  
+# 
+golem.arm.basic=기본 팔 
+golem.arm.text.basic=The default golem arms and hands. No particular strengths or weaknesses. 
+golem.arm.fine=고품질 팔 
+golem.arm.text.fine=These arms end in delicate and dexterous hands.  
+golem.arm.claws=손톱 팔 
+golem.arm.text.claws=These arms end in a terrifying pair of razor sharp metal pincers. Comes with a built-in aggression module. 
+golem.arm.breakers=파괴자의 팔 
+golem.arm.text.breakers=These arms end in a pair of pneumatic, diamond tipped grinders.  
+golem.arm.darts=다트 발사기 
+golem.arm.text.darts=These arms end in a pair of pneumatic dart launchers. The darts are magically created as they are needed. Comes with a built-in aggression module. 
+# 
+golem.leg.walker=기본 다리 
+golem.leg.text.walker=A pair of simple legs. No particular strengths or weaknesses. 
+golem.leg.roller=외바퀴  
+golem.leg.text.roller=A single wheel. Quite fast, but incapable of jumping or going up steep hills. 
+golem.leg.climber=등반용 다리
+golem.leg.text.climber=A pair of simple legs enhanced with crampons and other devices allowing for vertical ascent. 
+golem.leg.flyer=부양 모듈 
+golem.leg.text.flyer=A modified arcane levitator granting the golem the power of flight. Reduces speed by a third. 
+# 
+golem.addon.armored=플레이트 갑옷 
+golem.addon.text.armored=Grants the golem increased durability. 
+golem.addon.fighter=공격성 모듈
+golem.addon.text.fighter=Allows the golem to engage in combat. 
+golem.addon.hauler=운반용 장비
+golem.addon.text.hauler=Allows the golem to carry two stack of items instead of one. 
+# 
+golem.follow=따라가겠습니다. 주인님 
+golem.stay=이곳에 머물러 있겠습니다. 주인님 
 #
 # Fluids
 ##############################
@@ -1478,7 +1607,7 @@ tc.research_name.BASICTURRET=자동화된 쇠뇌
 tc.research_text.BASICTURRET=간단한 방어
 tc.research_page.BASICTURRET.1=You have found a way to give a crossbow a mind of its own turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile mobs it detects within range. Unfortunately its limited mind does not allow you to fine tune its targets.<BR>It has a very limited internal inventory, but if you wish you can place it over an upward facing dispenser which will allow it to automatically reload itself from that inventory.<BR>Clicking on it with a wand will pick it up.
 #
-tc.research_name.FOCUSTURRET=자동캐스터
+tc.research_name.FOCUSTURRET=마법 포탑
 tc.research_text.FOCUSTURRET=포커스의 자동화
 tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with via development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce to activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
 #
