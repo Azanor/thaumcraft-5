@@ -287,10 +287,10 @@ tile.purifying_fluid.name=정화의 액체
 tile.liquid_death.name=액체 죽음
 tile.placeholder.furnace_brick.name=지옥의 화로
 tile.placeholder.furnace_obsidian.name=지옥의 화로
-tile.placeholder.gb_anvil.name=골렘 누르기
-tile.placeholder.gb_table.name=골렘 누르기
-tile.placeholder.gb_bars.name=골렘 누르기
-tile.placeholder.gb_cauldron.name=골렘 누르기
+tile.placeholder.gb_anvil.name=골렘 발판
+tile.placeholder.gb_table.name=골렘 발판
+tile.placeholder.gb_bars.name=골렘 발판
+tile.placeholder.gb_cauldron.name=골렘 발판
 tile.barrier.name=보호의 기운
 #
 # Machines
@@ -804,7 +804,6 @@ recipe.type.workbenchshapeless=작업대
 recipe.type.arcane=아케인 작업대
 recipe.type.crucible=도가니
 recipe.type.infusion=아케인 인퓨전
-recipe.type.infusionenchantment=인퓨전 강화
 recipe.type.construct=신비한 구조물
 wandtable.text1=비스 비용
 wandtable.text2=경험치 비용
@@ -814,11 +813,67 @@ button.turretfocus.2=목표: 몬스터
 button.turretfocus.3=목표: 플레이어
 button.turretfocus.4=목표: 우호적인
 turretfocus.range=%t 블럭
+button.category.0=우선도/잠금 
+button.category.1=필터 
+button.category.2=공간 
+button.category.3=옵션 
+button.category.4=요구사항
+button.caption.x=동쪽 / 서쪽 
+button.caption.y=위 / 아래 
+button.caption.z=북쪽 / 남쪽 
+button.bl=블랙리스트 
+button.wl=화이트리스트
+button.caption.required=필요한 
+button.caption.forbidden=금지된 
+golem.prop.replant=식물을 다시심기 
+golem.prop.cycle=Cycle whitelist 
+golem.prop.meta=메타데이터 사용
+golem.prop.nbt=NBT 데이터 사용 
+golem.prop.ore=광물 사전 사용 
+golem.prop.mod=같은 모드에서 사용 
+golem.prop.mob=몬스터를 목표로함
+golem.prop.animal=동물을 목표로함 
+golem.prop.player=플레이어를 목표로함 
+golem.prop.left=좌 클릭 
+golem.prop.empty=빈 공간을 클릭
+golem.prop.emptyhand=빈 손 사용 가능 
+golem.prop.sneak=시프트 좌클릭으로 작동 
+golem.prop.single=한개의 아이템만 가능 
+golem.prop.provision=권한이 필요 
+golem.prop.provision.wl=화이트리스트의 권한이 필요합니다 
+golem.rank=랭크
+golem.prop.priority=작업 우선도 
+golem.prop.color=%s 색 골렘만
+golem.prop.colorall=모든 골렘
+golem.prop.owner=당신은 이 인장의 주인입니다 
+golem.prop.lock=골렘의 주인만이 이 작업을 수행할 수 있습니다 
+golem.prop.unlock=모든 골렘은 이 작업을 할 수 있습니다
+golem.prop.redon=레드스톤 신호에 반응합니다
+golem.prop.redoff=레드스톤 신호를 무시합니다
+golem.prop.exist=운반자가 이미 물건을 들고 있습니다 
+golem.prop.leave=항상 아이템 1개는 남겨놓습니다 
 #
 tile.researchtable.noink.0=잉크를 모두 사용했습니다!
 tile.researchtable.noink.1=잉크를 다시 채우세요.
 text.spa.mix.true=재료를 섞기.
 text.spa.mix.false=액체만 사용.
+# 
+color.white=흰색 
+color.orange=주황색 
+color.magenta=자홍색 
+color.light_blue=하늘색 
+color.yellow=노란색 
+color.lime=연두색
+color.pink=분홍색
+color.gray=회색
+color.silver=연한 회색
+color.cyan=청록색 
+color.purple=보라색 
+color.blue=파란색
+color.brown=갈색 
+color.green=녹색 
+color.red=빨간색
+color.black=검은색 
 #
 # Other
 ###################
@@ -844,6 +899,7 @@ tc.handmirrorlinkedto=여기에 링크 만들기
 tc.handmirrorlinked=링크 활성화됨
 tc.handmirrorerror=목적지의 거울이 사라졌거나 잘못 놓여졌습니다. 링크 비활성화됨.
 tc.researcherror=당신은 이것을 알기 위한 선행 지식이 부족합니다..
+tc.researchexists=당신은 이미 해당 지식을 갖고 있습니다
 tc.discoveryerror=이것을 연구하기 위해 당신은 %1$s 을 연구해야 합니다.
 tc.discoveryunknown=알려지지 않은 이론
 tc.discoveryprogress=% 완료됨
@@ -886,7 +942,8 @@ tc.researchmissing=필수 연구가 부족합니다!
 tc.discount=절약
 tc.visdiscount=비스 절약
 tc.vis.cost=비스 비용
-tc.vis.costavg=총 비스 비용
+tc.vis.costavg=평균 비스 비용
+tc.charge=비스 충전:
 tc.inst=Instability: 
 tc.inst.0=§1무시가능한§0
 tc.inst.1=§9미약한§0
@@ -923,6 +980,8 @@ tc.dioptra.1=오라 내의 %s 의 정도를 표시합니다.
 tc.dioptra.2=가장 높은 오라들을 보여줍니다..
 tc.dioptra.3=오라들의 비율을 보여줍니다.
 tc.notowned=이것은 당신의것이 아닙니다..
+tc.fluxevent.1=근처의 오라가 급작스럽게 뒤틀려 당신의 새각을 혼란속으로 빠트렸습니다. 
+tc.fluxevent.2=지역의 오라가 순간적으로 불안정해져 당신의 마법 능력을 방해합니다. 
 #
 # Aspects
 tc.aspect.primal=태고의 원소
@@ -986,7 +1045,7 @@ tc.research_category.ELDRITCH=엘드리치
 #                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
 #                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
 #
-# 기초
+# Basic Research
 #######################
 tc.research_name.RESEARCH=연구
 tc.research_text.RESEARCH=당신이 무언가 발견하는법
@@ -1017,6 +1076,7 @@ tc.research_name.NODES=오라와 노드들
 tc.research_text.NODES=마법은 어디에나 있지.
 tc.research_page.NODES.1=§5오라§0는 세계에 퍼져있는 마법적 에너지장 같은 것입니다. 이것의 기원은 알려지지 않았습니다. 몇몇 이들은 살아있는것들의 생명에너지가 축적된 것이라고 믿지만, 다른 몇몇 이들은 어떠한 다른 세계에서 흡수되어 온것이라고 믿는 이들도 존재합니다. 마지막 이론이 가장 그럴싸한데, 오라가 §5오라 노드§0로 알려진 것의 주변에서 자주 관측되는것을 보았을때 노드가 근원이라는 점입니다.<BR>오라는 근처의 장소에 따라 다양한 태초의 위상들을 지니고 있습니다. 예를들어, 물이 많은곳 근처의 오라는  §3Aqua§0를 많이 가지고 있습니다.사막 근처의 오라는 §cIgnis§0가 많은 반면에 말이죠.
 tc.research_page.NODES.2=오라는 이것에 근간해 청크 단위로 퍼져있습니다. 해당 공간에서 오라가 어떠한 이유로 고갈될 경우 근처의 다른 높은 오라를 지닌 지역에서 끌어오게 됩니다. 하지만 오라는 물 대신 끈적한 풀과 같이 행동하지 때문에 오라가 전부 평준화 되는 일은 일어나지 않습니다.<BR>오라또한 테인트화 되고 §5Vitium§0 (플럭스) 위상을 얻을 수 있습니다. 플럭스는 좀 더 끈적하며 다른곳으로 퍼지기 보다는 한곳에 머물러 있으려는 경향이 강합니다. 오라가 원래보다 매우 낮게 존재하게 될 경우 플럭스가 발생하게 됩니다.<BR>만약 너무 많은 플럭스가 존재하게 될경우 해당 구역을 §l테인트§r로 이끌게 됩니다.. 테인트에대한 더 많은 정보는 사우모노미콘의 다른 부분을 참조하시기 바랍니다.
+tc.research_page.NODES.3=오라노드는 다른 세계에서 에너지가 흘러나오는 문과 같습니다. 대부분의 노드는 a §5태초의 위상§0에 맞춰져 있으나, 아주 적게 §5복합 위상§0에 맞춰져 있기도 합니다.<BR>노드는 바로 흡수될 수는 없지만 주변의 오라를 천천히 재충전 시켜줍니다,<BR>보통 달의 모양에 따라 충전의 속도가 다르며 보름달일때 가장 좋은 효율을 보이는것으로 알려져있습니다.<BR>노드의 크기 또한 주변 오라를 얼마나 빨리 채워주는지에 관여합니다.
 tc.research_page.NODES.4=오라노드는 맨눈으로는 관측이 불가능합니다. 근처 지역에서 해당 오라가 매우 높은것을 통해 근처에 노드가 있음을 그저 추측할 수 있을 뿐입니다.<BR근처의 노드들은 나른 노드를 끌어당기며 서로 가깝게 이동합니다. 그들이 충분히 가까워지면 하나로 합쳐져 다양한 결과를 나타냅니다, 하지만 보통 합쳐진 노드는 원래 두 노드를 합친 정도의 능력을 지니고 있습니다.<BR>이곳에는 많은 특이한 노드들을 찾을 수 있지만 당신은 아직 거의 알지 못합니다.
 tc.research_page.NODES.A=§l§n눈부신 노드§r<BR>이것들은 빛에 반응하는것처럼 보입니다 - 빛의 양이 강할수록 오라가 더욱 빨리 충전됩니다.  
 tc.research_page.NODES.D=§l§n불길한 노드§r<BR>이 노드들은 어둡고 달이 하현달일때 가장 최고의 효과를 발휘합니다. 나아가, 이 노드 주변은 매우 불길하고 위험해서 어떤 사악하고 위험하며 신비로운 영역에 활용되기도 합니다.
@@ -1090,6 +1150,10 @@ tc.research_page.NODETAPPER1.1=오라에서 비스를 완드로 뽑아내는 과
 tc.research_name.NODETAPPER2=오라 흡수의 달인
 tc.research_text.NODETAPPER2=네 비스는 모두 내것이야.
 tc.research_page.NODETAPPER2.1=당신은 오라에서 흡수하는 최상의 방법을 찾아내었습니다.<BR>당신은 처음의 세배에 달하는 속도로 비스를 흡수할 수 있습니다. 더 나아가 당신은 완드를 인벤토리 어디에서든지 충전할 수 있습니다, 더이상 손에 쥐거나 핫바에 놓을 필요가 없는셈이죠.
+#
+tc.research_name.AURAPRESERVE=오라 수호자 
+tc.research_text.AURAPRESERVE=안전하게 지켜줄게 
+tc.research_page.AURAPRESERVE.1=당신은 이제 완드나 다른 장비들이 오라를 흡수하는것을 멈추게 할 수 있습니다.
 #
 tc.research_name.AURAMANIP1=기초 오라 조작
 tc.research_text.AURAMANIP1=마법이 흐르게 하자.
@@ -1191,7 +1255,16 @@ tc.research_page.FOCUSPORTABLEHOLE.1=당신은 비스를 사용하여 차원외�
 tc.research_name.FOCUSPRIMAL=완드 포커스 : 태고
 tc.research_text.FOCUSPRIMAL=마법 그 자체
 tc.research_page.FOCUSPRIMAL.1=어떠한 광기가 당신으로 하여금 이걸 만들게 했을까요? 이 포커스는 매우 날뛰듯 위험하며 오직 미친 일부만이 이 포커스를 아무데나 휘두를 것입니다<BR>이 오브가 만들어내는 에너지 구체는 매우 파괴적입니다, 하지만 그것이 날아가는 경로는 불규칙하며 최악의 경우 바로 아래에 떨어집니다.<BR>이것은 더 많은 연구가 필요하겠지만: 오브는 어떠한 차원적 특성을 지니고 있으며 노드와 위습만이 보여주던 특수한 에너지 패턴을 보여주고 있습니다.
-#
+# 
+tc.research_name.FOCUSGRAPPLE=완드 포커스: 그래플러 
+tc.research_text.FOCUSGRAPPLE=슈욱! 
+tc.research_page.FOCUSGRAPPLE.1=포커스들은 즉각적인 반응을 보이는것이 대다수여서 쉬운 여행이나 비행들을 위한 경우는 없었습니다. 그러나 당신은 도전해 마지않는 사람이죠, 결국 당신은 그래플러 포커스를 발명해냈습니다.<BR>이 포커스는 에너지 구체를 발사한 뒤 그 구체가 닿은 블럴까지 당신을 당깁니다. 이것은 높은곳이나 큰 협곡 또는 그저 빨리 갈때에 유용합니다, . 시프트 키를 누름으로서 당신을 구체에서 떼어낼 수 있습니다.<BR>잠재력 포커스 강화는 그래플러의 사정거리를 증가시킵니다.  
+# 
+tc.research_name.FOCUSBUILDER=완드 포커스: 건축 
+tc.research_text.FOCUSBUILDER=9x9를 더욱 빠르게
+tc.research_page.FOCUSBUILDER.1=이 포커스는 등가 교환과 비슷합니다, 하지만 이 포커스는 바꾸는 대신 그저 놓기만 하죠.<BR>당신은 우선 놓고싶은 블럭을 시프트 우클릭을 통해 지정해야 합니다.<BR>당신은 최대 64 블럭 이내의 블럭을 목표로 집을 수 있습니다. 블럭이 놓여질 외형이 미리 보여지며 우클릭 함으로서 보여진대로 놓여집니다. 등가교환 포커스처럼 당신의 가방 속에 충분한 양의 블럭이 존재해야 합니다. 
+tc.research_page.FOCUSBUILDER.2=블럭은 선택지점에서 당신의 위치까지 한줄로 쌓아질 것입니다. 당신을 포함해 최대 16 블럭이 한계입니다. 이 포커스를 업그레이드 하는것은 한번에 여러개를 놓을 수 있게 해줄것입니다.<BR>만약 블럭이 현재 있는 블럭을 관통한다면, 그것은 대체되어 당신의 가방 속으로 들어갈것입니다. 
+# 
 tc.research_name.FOCUSPOUCH=포커스 주머니
 tc.research_text.FOCUSPOUCH=당신의 포커스들을 위한 편리한 운반책
 tc.research_page.FOCUSPOUCH.1=당신이 포커스를 충분히 모았을때 쯤 포커스를 들고 다니는것은 귀찮은 일이 될 것입니다. 이 주머니가 그 문제를 해결해 줄것입니다.<BR>당신이 완드에서 포커스를 바꿀때, 이 포커스 주머니에서 먼저 찾으며 바뀐 포커스는 이 안으로 들어갈 것입니다.. 당신은 이 주머니를 우클릭 하여 내부를 보거나 포커스를 빼낼 수 있습니다.<BR>버블즈의 벨트 슬롯에 장착하여 입을 수 도 있습니다.
@@ -1222,6 +1295,10 @@ tc.research_page.NODEMAGNET.1오라를 조작하는것 또한 방법입니다, �
 tc.research_page.NODEMAGNET.2=노드 자석은 매우 민감한 장비이므로 충격받거나 떨어지지 않도록 해야합니다. 몇몇 두드림에는 견딜지 몰라도 결국에는 그것으 구성품 일부로 분해될것입니다.<BR>완드로 우클릭 함을 통해 원형 그대로 회수 가능합니다.
 tc.research_page.NODEMAGNET.3=§n주의!§r<BR><BR>노드 자석을 놓는 순간 이상한 점이 발견됨: 들리지 않는 휘파람 소리가 당신의 이빨을 자극합니다.<BR>화난듯한 그르렁대는 소리와 하울링이 당신만 방해받는것은 아닌듯 합니다.
 #
+tc.research_name.NODESTABLE=노드 안정화기 
+tc.research_text.NODESTABLE=모든것은 제자리에 
+tc.research_page.NODESTABLE.1=오라노드는 움직이고 당신이 원하지 않아도 합쳐지는 경향이 있습니다. 이 기기는 그 문제를 해결해줍니다.<BR>노드 아래에 놓는것으로 노드는 신비한 에너지 안에갇히게 됩니다. 노드는 다른 노드를 끌어오지도, 끌리지도 않게 됩니다. 
+# 
 # Artifice 
 #######################
 tc.research_name.BASICARTIFACE=기초 마공학
@@ -1416,6 +1493,27 @@ tc.research_text.REDSTONERELAY=마법적인 레드스톤 상호작용
 tc.research_page.REDSTONERELAY.1=You have always been curious about the seemingly negative reaction between mystical devices and redstone signals. You have studied the matter and while it is a well-known phenomenon that redstone inhibits magic, you have discovered that in specific circumstances the opposite can be true as well.<BR>One practical application of this is the Redstone Relay. By sending a redstone signal through a magical substance like vis crystals you can inhibit it as much or as little as you want.
 tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay to activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.
 #
+tc.research_name.INFUSIONENCHANTMENT=인퓨전 인챈트
+tc.research_text.INFUSIONENCHANTMENT=마법을 이용한 인챈트
+tc.research_page.INFUSIONENCHANTMENT.1=The elemental tools have proven quite useful, but the method you used to enchant them is inflexible... till now. You have discovered a way to apply many of the same abilities to nearly any tool or weapon, not just thaumium tools.<BR>Some enchantments can be applied multiple times to the same item, but each rank has an increased essentia cost when crafted.<BR>Each different infusion enchantment on the item also increases the cost by 33% and has an increased chance of giving it the Warping property. 
+tc.research_page.INFUSIONENCHANTMENT.2=Certain infusion enchantments can only be applied to specific tools or weapons. This will be listed under each individual entry that follows.<BR>Tools with infusion enchantments can still be enchanted with the normal enchanting table and visa versa.<BR>Like with the elemental tools, sneaking while using an infusion enchanted tool will suppress its abilities. 
+tc.research_page.INFUSIONENCHANTMENT.COLLECTOR=§nCollector§r<BR>Whenever this tool harvests an item it will automatically float towards you.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe, shovel, weapon 
+tc.research_page.INFUSIONENCHANTMENT.BURROWING=§nBurrowing§r<BR>When you try to harvest a tree or ore the furthest block will be harvested, instead of the one you are trying to break.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe 
+tc.research_page.INFUSIONENCHANTMENT.REFINING=§nRefining§r<BR>Whenever you harvest ore there is a chance of gaining a native cluster instead. Increasing the rank of the enchant will improve the chance.<BR>§lRanks§r: 1-4<BR>§lTarget§r: pickaxe 
+tc.research_page.INFUSIONENCHANTMENT.SOUNDING=§nSounding§r<BR>You can right click on a block with this tool to send out a sounding pulse. This pulse will reveal any ores hidden nearby. Using this ability will cause some damage to the tool.<BR>§lRanks§r: 1-4<BR>§lTarget§r: pickaxe 
+tc.research_page.INFUSIONENCHANTMENT.DESTRUCTIVE=§nDestructive§r<BR>When you harvest a block the 8 blocks surrounding it will also be harvested if they are normally harvestable by the tool. Each additional block harvested causes durability loss as if you had harvested them by hand.<BR>§lRanks§r: none<BR>§lTarget§r: axe, pickaxe, shovel 
+tc.research_page.INFUSIONENCHANTMENT.ARCING=§nArcing§r<BR>When you strike an enemy with a weapon enchanted with this, an arc of biting wind will hit an additional target nearby for half your weapons damage. Additional ranks will increase the number of additional targets and the range.<BR>§lRanks§r: 1-4<BR>§lTarget§r: weapon 
+tc.research_page.INFUSIONENCHANTMENT.ESSENCE=§nEssence Harvester§r<BR>When you you kill a creature with a weapon enchanted with this it has a chance of dropping some of its essence in crystal form. Increasing the rank of this enchantment increases the chance of crystals dropping and may also increase the number dropped.<BR>§lRanks§r: 1-5<BR>§lTarget§r: weapon 
+# 
+tc.research_name.VERDANTHEART=Verdant Heart Band 
+tc.research_text.VERDANTHEART=Curing what ails you 
+tc.research_page.VERDANTHEART.1=This mystical ring pulses with healing energy that will wash all poisons or similar afflictions from your body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly.  
+# 
+tc.research_name.VERDANTHEARTLIFE=Lifegiver & Sustainer 
+tc.research_text.VERDANTHEARTLIFE=Balm for the body 
+tc.research_page.VERDANTHEARTLIFE.1=There are two specialized enchantments you can apply to the Verdant Heart Band. Unfortunately these enchantments are mutually exclusive - you cannot apply both at the same time.<LINE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Band to regenerate the health of whomever wears it.  
+tc.research_page.VERDANTHEARTLIFE.2=§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Band to slowly feed and sustain whomever wears it. This includes providing breathable air.<LINE>Triple meat treats are crafted by combining sugar with three different kinds of meat nuggets. This is not only a crafting component, but a tasty and healthy treat. 
+# 
 # Alchemy 
 #######################
 tc.research_name.CRUCIBLE=기초 연금학
