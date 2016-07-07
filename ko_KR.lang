@@ -1438,11 +1438,11 @@ tc.research_page.MASKGRINNINGDEVIL.1=이 마스크는 사우뮴 포트리스 투
 #
 tc.research_name.MASKANGRYGHOST=안면: 분노한 귀신
 tc.research_text.MASKANGRYGHOST=사우뮴 포트리스 투구 업그레이드
-tc.research_page.MASKANGRYGHOST.1=이 마스크는 사우뮴 포트리스 투구에 추가되도록 디자인되었습니다.<BR>When you are struck in combat while wearing this grim mask the creature striking you has a chance to suffer a Withering effect.<BR>Serves them right.
+tc.research_page.MASKANGRYGHOST.1=이 마스크는 사우뮴 포트리스 투구에 추가되도록 디자인되었습니다.<BR>이것을 입었을때 이 헬멧은 당신과 싸우는 적이 위더 효과를 겪도록 합니다.<BR>그들이 응당한 댓가를 치르게 합시다.
 #
 tc.research_name.MASKSIPPINGFIEND=안면: 흡수하는 열광자
 tc.research_text.MASKSIPPINGFIEND=사우뮴 포트리스 투구 업그레이드
-tc.research_page.MASKSIPPINGFIEND.1=이 마스크는 사우뮴 포트리스 투구에 추가되도록 디자인되었습니다.<BR>When you strike a creature in combat while wearing this mask, you sometimes steal a small portion of their life force to strengthen your own.<BR>The fact that you do this by supping on their blood doesn't seem to bother you nearly as much as it should. You wonder if you should be worried about that.
+tc.research_page.MASKSIPPINGFIEND.1=이 마스크는 사우뮴 포트리스 투구에 추가되도록 디자인되었습니다.<BR>이 마스크를 쓰고 당신이 어떠한 생물과 싸운다면, 당신은 적의 생명을 빼앗아 자신의 것으로 만들 수 있습니다.<BR>사실 적의 피를 빼앗는 것이지만 당신에게는 별로 중요하진 않아보립니다. 당신이 그것을 걱정 하긴 해야하나 싶습니다.
 #
 tc.research_name.BANNERS=깃발
 tc.research_text.BANNERS=주의: 장식 목적이 전부입니다.
@@ -1450,7 +1450,7 @@ tc.research_page.BANNERS.1=가끔 연금술사들은 반드시 현실을 뒤흔�
 #
 tc.research_name.LAMPGROWTH=성장의 램프
 tc.research_text.LAMPGROWTH=자라도록 격려해주기
-tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp by attaching it directly to an essentia piping system.<BR>The lamp can be turned off by applying a redstone signal.
+tc.research_page.LAMPGROWTH.1=만들어진 기초의 성능과는 달리, 이 램프는 빛을 많이 뿜지는 않습니다, Herba 에센시아가 공급되기 전까지는 말이죠. 만약 공급받는다면 빛이 주어지는 곳에서 식물은 더욱 빨리 자라게 됩니다.<BR>Essentia can be fed to the lamp by attaching it directly to an essentia piping system.<BR>The lamp can be turned off by applying a redstone signal.
 #
 tc.research_name.LAMPFERTILITY=번식의 램프
 tc.research_text.LAMPFERTILITY=생물에게 로맨틱한 불빛을 선사해주기.
@@ -1483,10 +1483,10 @@ tc.research_page.RUNICAUGMENTATION.2=the amount of ingredients and essentia requ
 #
 tc.research_name.RUNICSPECIAL=특화된 루닉 장신구
 tc.research_text.RUNICSPECIAL=강화된 링을 위한 강화!
-tc.research_page.RUNICSPECIAL.1=§nCharged Ring of Shielding§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but increases the recharge time of runic shielding by 25%.<BR>You can wear more than one of these rings, effectively halving the normal recharge time.
-tc.research_page.RUNICSPECIAL.2=§nRevitalizing Ring of Shielding§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but when your runic shielding is breached it will release a pulse of regenerative energy that will last for a few seconds.<BR>This effect cannot trigger more than once every 20 seconds.
-tc.research_page.RUNICSPECIAL.3=§nKinetic Girdle of Shielding§r<BR>This is a specialized version of the Girdle of Shielding.<BR>It has slightly less charge than the girdle it is based on, but when your shielding is breached a detonation of kinetic energy will be released damaging and shoving back anything nearby.<BR>This effect cannot trigger more than once every 20 seconds.
-tc.research_page.RUNICSPECIAL.4= §nAmulet of Emergency Shielding§r<BR>This is a specialized version of the Amulet of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once a minute.
+tc.research_page.RUNICSPECIAL.1=§n충전된 보호의 반지§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but increases the recharge time of runic shielding by 25%.<BR>You can wear more than one of these rings, effectively halving the normal recharge time.
+tc.research_page.RUNICSPECIAL.2=§n재활성 보호의 반지§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but when your runic shielding is breached it will release a pulse of regenerative energy that will last for a few seconds.<BR>This effect cannot trigger more than once every 20 seconds.
+tc.research_page.RUNICSPECIAL.3=§n기동성 보호의 벨트§r<BR>This is a specialized version of the Girdle of Shielding.<BR>It has slightly less charge than the girdle it is based on, but when your shielding is breached a detonation of kinetic energy will be released damaging and shoving back anything nearby.<BR>This effect cannot trigger more than once every 20 seconds.
+tc.research_page.RUNICSPECIAL.4= §n긴급 보호의 목걸이§r<BR>This is a specialized version of the Amulet of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once a minute.
 #
 tc.research_name.REDSTONERELAY=레드스톤 릴레이
 tc.research_text.REDSTONERELAY=마법적인 레드스톤 상호작용
@@ -1653,7 +1653,7 @@ tc.research_name.ESSENTIACRYSTAL=에센시아 결정화
 tc.research_text.ESSENTIACRYSTAL=단단한게 좋아? 아니면 액체가 좋아?
 tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystallizer draws in liquid essentia from a pipe network and converts it into small shards of crystalline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystallizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>It draws terra vis from the aura to power itself.
 #
-tc.research_name.ESSENTIATRANSPORT=에센시아 수송
+tc.research_name.ESSENTIATRANSPORT=에센시아 변환
 tc.research_text.ESSENTIATRANSPORT=기화된 에센시아
 tc.research_page.ESSENTIATRANSPORT.1=During the infusion crafting process essentia is drawn directly from jars and floats through the air to the infusion matrix. The magic of the matrix keeps it stable enough for the infusion process, but normally the essentia is still changed in such a way that it becomes unusable for anything else. You have discovered a way to transport essentia in a similar manner without it becoming unstable.<BR>You have drawn up plans for two devices. The Filling Essentia Transfuser can take essentia directly from a pipe network or other essentia source and transport it to jars within 16 blocks of the direction it is facing.  
 tc.research_page.ESSENTIATRANSPORT.2=The Emptying Essentia Transfuser does the opposite - drawing essentia from jars within range and placing it within tubes or devices requiring essentia of a specific type. 
