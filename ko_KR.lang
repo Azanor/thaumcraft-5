@@ -1838,11 +1838,11 @@ tc.research_page.ARMORVOIDFORTRESS.1=가장 꺠우친 연금술사는 방어도�
 #
 tc.research_name.ENTEROUTER=이계
 tc.research_text.ENTEROUTER=우린 더이상 이 세상에 있지 않아.
-tc.research_page.ENTEROUTER.1=당신은 오큘러, but this strange structure of crumbling stone and twisted passageways was not it.<BR>Something is not quite right here - this structure was not designed for any practical purpose you can discern... unless that purpose was for it to be a deadly maze.<BR>Strange energies abound and your magic seems to act strangely in this alien environment. Even the other denizens you encounter seem out of place here.
+tc.research_page.ENTEROUTER.1=당신은 오큘러스를 통해 새로운 곳에 발을 디뎠습니다, 하지만 부스러지는 돌로 구성된 구조물과 뒤틀린 통로만이 전부는 아니였습니다.<BR>뭔가가 옳지 않습니다 - 이 구조의 목적이 무엇인지 당신은 전혀 생각해 낼 수는 없었습니다... 뭐, 정말 죽을만큼 위험한 미로만 빼면 말이죠.<BR>뭔가 이상한 에너지가 당신의 마법을 감싸는것만 같습니다.이곳에 있는 사람들 조차 무엇인가 이상한것 같습니다.
 #
 tc.research_name.OUTERREV=이계의 드러남
 tc.research_text.OUTERREV=보이는게 전부는 아니야.
-tc.research_page.OUTERREV.1=Your suspicions have been confirmed. This is not the home of the race you have come to call the Eldritch. This place is something else entirely and you do not believe it exists in what you understand as being "reality" - it is as much a mental construct as a physical one, but what mind can contain this?<BR>You have been able to decipher only a small number of the symbols, but you are sure this place is a trap - a place to test visitors and weed out the weak. For what purpose you are not sure.
+tc.research_page.OUTERREV.1=당신의 가정이 확신시되었습니다.이것은 우리가 엘드리치라고 부르는것의 집이 아니였습니다. 이 공간 전체는 무엇인가 다른곳이며 이곳은 현실적으로 존재하지 않는 공간입니다 - 이것은 물질적 공간과 같은 정신적 공간입니다. 하지만 누구의 정신이 이러한 공간을 담고 있는거죠?<BR>당신은 오직 소수의 기호만을 판독할 수 있었습니다,하지만 당신은 이 장소가 함정이라는것을 알 수 있었습니다 - 방문자를 시험하고 나약한자를 걸러내기 위함이죠. 무엇을 위해 그러는지는 당신은 확신할 수 없습니다.
 #
 tc.research_name.PRIMPEARL=태초의 진주
 tc.research_text.PRIMPEARL=무엇으로 부터 온걸까
