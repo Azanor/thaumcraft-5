@@ -287,10 +287,10 @@ tile.purifying_fluid.name=정화의 액체
 tile.liquid_death.name=액체 죽음
 tile.placeholder.furnace_brick.name=지옥의 화로
 tile.placeholder.furnace_obsidian.name=지옥의 화로
-tile.placeholder.gb_anvil.name=골렘 발판
-tile.placeholder.gb_table.name=골렘 발판
-tile.placeholder.gb_bars.name=골렘 발판
-tile.placeholder.gb_cauldron.name=골렘 발판
+tile.placeholder.gb_anvil.name=골렘 압력판
+tile.placeholder.gb_table.name=골렘 압력판
+tile.placeholder.gb_bars.name=골렘 압력판
+tile.placeholder.gb_cauldron.name=골렘 압력판
 tile.barrier.name=보호의 기운
 #
 # Machines
@@ -1406,47 +1406,47 @@ tc.research_page.ARCANEEAR.1=이 아케인 귀는 노트블럭으로부터 나�
 #
 tc.research_name.MIRROR=거울 마법
 tc.research_text.MIRROR=거울을 보는것을 통해
-tc.research_page.MIRROR.1=당신은 마법 거울을 세계와 세계를 연결하는 문과 같은 역할을 하도록 강화하였습니다. 하나의 거울로 들어간 어떤 아이템이던 반대쪽 거울로 나오게 됩니다r - 차원의 경계를 넘어서까지 말이지요.<BR>안타깝게도 당신을 포함한 어떤 생물에도 거울은 적대적이여서 살아있는것은 옮기지 못합니다.<BR>거울을 연결하기 위해서는 우선 첫번째 거울을 원하는 장소에 놓습니다. 그 뒤 당신은 두번째 거울로
+tc.research_page.MIRROR.1=당신은 마법 거울을 세계와 세계를 연결하는 문과 같은 역할을 하도록 강화하였습니다. 하나의 거울로 들어간 어떤 아이템이던 반대쪽 거울로 나오게 됩니다 - 차원의 경계를 넘어서까지 말이지요.<BR>안타깝게도 당신을 포함한 어떤 생물에도 거울은 적대적이여서 살아있는것은 옮기지 못합니다.<BR>거울을 연결하기 위해서는 우선 첫번째 거울을 원하는 장소에 놓습니다. 그 뒤 당신은 두번째 거울로
 tc.research_page.MIRROR.2=첫번째 거울을 우클릭하면 두개 사이의 링크가 활성화 됩니다. 당신은 두번째 거울을 어디에나 놓아도 되며 한쪽으로 들어간 아이템은 다른쪽으로 나오게 될것입니다.<BR>거울은 오직 한 쌍 끼리만 연결 가능하며 당신은 추가적인 다른 거울을 연결할 수 없습니다.당신이 한쪽 거울을 제거할떄 거울은 자신의 파트너를 기억하므로 당신은 다시 링크를 걸 필요가 없습니다.
-tc.research_page.MIRROR.3=Transporting items through mirrors places stress on the magical aura. Every now and again this causes Flux to be generated. The more items you transport, the more flux is generated..
+tc.research_page.MIRROR.3=거울을 통해 아이템을 전달하는것에 오라에 무리를 줍니다. 언제나 약간의 플럭스가 발생할 수 있습니다. 더 많이 수송할수록 플럭스는 더 많이 생기게됩니다..
 #
 tc.research_name.MIRRORHAND=마법의 손거울
 tc.research_text.MIRRORHAND=나만의 거울
-tc.research_page.MIRRORHAND.1=This magical hand mirror functions much the same way as other magical mirrors. You simply push items through the glass and they will pop out at the linked mirror.<BR>Simple right-click while holding the linked hand mirror and you will be able to place any items in your inventory into the looking glass to have them transported.<BR>The hand mirror can be linked to a mirror that is already paired with another.<BR>It should be noted that the hand mirror can only send items, not receive them.
+tc.research_page.MIRRORHAND.1=이 마법의 손거울은 마법의 거울과 같은 방식으로 작동합니다. 아이템을 집어넣으면 연결된 반대쪽 거울로 나오게 됩니다.<BR>마법의 손거울을 손에 든 채로 우클릭하면 당신의가방 속 아이템을 넣어 옮겨지도록 할 수 있습니다<BR>손거울은 이미 두 쌍과 연결된 거울에도 연결할 수 있습니다<BR>그러나 손거울은 아이템을 보낼 수만 있으며 받을 수 는 없습니다.
 #
 tc.research_name.PAVETRAVEL=여행의 포석
 tc.research_text.PAVETRAVEL=당신의 여행을 좀 더 쉽게
-tc.research_page.PAVETRAVEL.1=By altering the magical structure of arcane stone you are able to create a paving stone that adds new bounce to the step of anyone walking across it.<BR>Anything walking across it will have greater speed and agility for a couple of seconds.
+tc.research_page.PAVETRAVEL.1=당신은 아케인 스톤을 좀 더 연구하면서 돌 위를 걷는 여행자를 좀 더 빠르게 해주는 방법을 알아내었습니다.<BR>이 위를 걷는 사람은 잠시동안 빠른 속도와 민첩성을 얻게됩니다.
 #
 tc.research_name.PAVEBARRIER=경계석
 tc.research_text.PAVEBARRIER=저들은 바깥쪽으로
-tc.research_page.PAVEBARRIER.1=You have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the areas you wish to protect and the outside world.<BR>An active redstone signal will disable this block.
-tc.research_page.PAVEBARRIER.2=The color of the runes above the stone indicates its current status.<BR>Purple runes show that it is currently preventing something from passing through.<BR>Blue runes indicates it has been deactivated with a redstone signal.<BR>Red runes shows that something is preventing it from fully warding an area and a gap exists where something might be able to pass through.
+tc.research_page.PAVEBARRIER.1=당신은 아케인 스톤을 좀 더 연구하면서 다른 생물들을 막아주는 결계 역할을 하는 돌을 발명해내었습니다.<BR>이 결계가 완벽하게 막거나 또는 플레이어가 지나다니는것을 막지는 못하지만, 그래도 이것은 대부분의 위험을 막아줍니다. 이것들은 또한 이 위를 지나려는 골렘을 막습니다.<BR>완벽한 결과를 위해서는 당신이 막고자 하는 공간을 바깥으로부터 완벽하게 둘러싸야합니다.<BR>활성화된 레드스톤 신호는 이 돌의 기능을 중지시킬것입니다..
+tc.research_page.PAVEBARRIER.2=돌 위의 룬의 색깔이 돌의 현재 상태를 알려줄 것입니다.<BR>보라색 룬은 이 위를 지나가는것을 막고 있다는 것을 가리킵니다.<BR>파란 룬은 레드스톤 신호에 의해 비활성화 됬다는 뜻입니다.<BR빨간색 룬은 막고 있는 공간 어딘가에 지나갈 수 있는 틈이 있다는 뜻입니다.
 #
 tc.research_name.ARMORFORTRESS=사우뮴 포트리스 갑주
 tc.research_text.ARMORFORTRESS=아무것도 뚫지 못해!
-tc.research_page.ARMORFORTRESS.1=Thaumium armor has many things to recommend it, but its basic construction leaves it inferior to diamond armor. By improving the construction process and complexity you have found a way to create armor of exceptional craftsmanship, durability and strength.<BR>Each individual piece of Thaumium Fortress armor has the same protective properties as diamond armor, but has greater durability and offers additional protection against magic and fire.<BR>The biggest benefit however is that the individual armor pieces is designed and constructed to be worn together: Each additional
-tc.research_page.ARMORFORTRESS.2=piece of this armor worn increases the overall protection offered by all other pieces and improves its visual appeal.<BR>As with most objects constructed from thaumium, the armor is easy to enchant.
+tc.research_page.ARMORFORTRESS.1=사우뮴 갑주도 나쁘지는 않습니다, 하지만 성능은 다이아몬드 갑옷보다 떨어지지요..제작 과정과 밀도를 높임으로써 당신은 뛰어난 손재주로 내구성 높으며 단단한 새로운 갑주를 만들어내었습니다.<BR>각각의 사우뮴 포트리스 갑주 부위는 다이아몬드 갑옷과 같은 방어도를 갖고 있습니다, 하지만 더 높은 내구성과 마법과 불에 면역을 갖습니다.<BR>하지만 가장 뛰어난 장점은다 함께 입었을때 입니다: 각각의 추가적인
+tc.research_page.ARMORFORTRESS.2=이 갑주는 전체 갑주보다 조금 더 높은 방어력을 가지며 시각적으로 뛰어나게 됩니다.<BR>사우뮴으로 만들어졌기 때문에 어쨌던 인챈트 하기 쉽습니다.
 #
 tc.research_name.HELMGOGGLES=발견의 투구
 tc.research_text.HELMGOGGLES=사우뮴 포트리스 투구의 업그레이드
-tc.research_page.HELMGOGGLES.1=Usually a thaumaturge needs to choose between protection and utility when out and about. Not anymore!<BR>This modifies a Thaumium Fortress Helm to give you all the functionality of Goggles of Revealing. It does however not give the vis discount the goggles usually do.<BR>A helm can have this upgrade along with faceplates. 
+tc.research_page.HELMGOGGLES.1=평소 연금술사들은 방어력과 능력 사이에서 고민해야했습니다. 더이상은 아닙니다!<BR>이 조작은 사우뮴 포트리스 투구가 발견의 고글의 능력을 갖게 해줍니다. 그러나 비스 절약은 주지 않습니다.<BR>이 투구 업그레이트드는 안면 강화와 함꼐 적용될 수 있습니다. 
 #
 tc.research_name.MASKGRINNINGDEVIL=안면: 위협하는 악마 
-tc.research_text.MASKGRINNINGDEVIL=Thaumium Fortress Helm Upgrade
-tc.research_page.MASKGRINNINGDEVIL.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When worn, this mask has an interesting damping effect on those suffering from Warp event. While it does not reduce the number of events, it does reduce their severity somewhat.<BR>It seems laughing in the face of danger does have its rewards. 
+tc.research_text.MASKGRINNINGDEVIL=사우뮴 포트리스 투구 업그레이드
+tc.research_page.MASKGRINNINGDEVIL.1=이 마스크는 사우뮴 포트리스 투구에 추가되도록 디자인되었습니다.<BR>이것을 입었을때 이 헬멧은 뒤틀림으로 인해 발생하는 이벤트를 감축시켜 줍니다. 발생 횟수를 줄여주지는 못하지만 얼마나 심하게 발생되는 정도를 줄여줄 수는 있습니다..<BR>마스크의 표정이 그에 영향을 끼치는듯 합니다. 
 #
 tc.research_name.MASKANGRYGHOST=안면: 분노한 귀신
-tc.research_text.MASKANGRYGHOST=Thaumium Fortress Helm Upgrade
-tc.research_page.MASKANGRYGHOST.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you are struck in combat while wearing this grim mask the creature striking you has a chance to suffer a Withering effect.<BR>Serves them right.
+tc.research_text.MASKANGRYGHOST=사우뮴 포트리스 투구 업그레이드
+tc.research_page.MASKANGRYGHOST.1=이 마스크는 사우뮴 포트리스 투구에 추가되도록 디자인되었습니다.<BR>When you are struck in combat while wearing this grim mask the creature striking you has a chance to suffer a Withering effect.<BR>Serves them right.
 #
-tc.research_name.MASKSIPPINGFIEND=안명: 흡수하는 열광자
-tc.research_text.MASKSIPPINGFIEND=Thaumium Fortress Helm Upgrade
-tc.research_page.MASKSIPPINGFIEND.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you strike a creature in combat while wearing this mask, you sometimes steal a small portion of their life force to strengthen your own.<BR>The fact that you do this by supping on their blood doesn't seem to bother you nearly as much as it should. You wonder if you should be worried about that.
+tc.research_name.MASKSIPPINGFIEND=안면: 흡수하는 열광자
+tc.research_text.MASKSIPPINGFIEND=사우뮴 포트리스 투구 업그레이드
+tc.research_page.MASKSIPPINGFIEND.1=이 마스크는 사우뮴 포트리스 투구에 추가되도록 디자인되었습니다.<BR>When you strike a creature in combat while wearing this mask, you sometimes steal a small portion of their life force to strengthen your own.<BR>The fact that you do this by supping on their blood doesn't seem to bother you nearly as much as it should. You wonder if you should be worried about that.
 #
 tc.research_name.BANNERS=깃발
 tc.research_text.BANNERS=주의: 장식 목적이 전부입니다.
-tc.research_page.BANNERS.1=Sometimes a thaumaturge doesn't need to create something that shakes the very foundations of reality - sometimes he just wants something pleasing to the eye.<BR>You have developed a simple enchantment that allows you to apply thaumaturgical symbols to banners. You do so by simply clicking with a phial of essentia on a banner you crafted and the symbol will be emblazoned on it. Shift-clicking on the banner will remove the symbol.
+tc.research_page.BANNERS.1=가끔 연금술사들은 반드시 현실을 뒤흔드는 장비들을 만들고 싶어하진 않습니다 -그저 눈을 만족시키고 싶어할 뿐이죠.<BR당신은 연금술적 표식을 깃발에 남기는 법을 배웠습니다. 당신은 그저 깃발을 에센시아가 담긴 용기로 우클릭 하면 깃발 위에 자동으로 새겨지게 됩니다.깃발을 쉬프트 우클릭 함으로서 표식을 지울 수 있습니다.
 #
 tc.research_name.LAMPGROWTH=성장의 램프
 tc.research_text.LAMPGROWTH=자라도록 격려해주기
@@ -1507,12 +1507,12 @@ tc.research_page.INFUSIONENCHANTMENT.ESSENCE=§n정수 수집가r§r<BR>When you
 # 
 tc.research_name.VERDANTHEART=신록의 심장 밴드 
 tc.research_text.VERDANTHEART=당신을 괴롭게 하는것을 치유해줍니다.
-tc.research_page.VERDANTHEART.1=This mystical ring pulses with healing energy that will wash all poisons or similar afflictions from your body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly.  
+tc.research_page.VERDANTHEART.1=이 신비한 반지는 당신의 몸에 있는 해로운 기운들을 없애줍니다. 안타깝게도 실제 상처는 치유해 주지 않습니다.<BR>이 반지는 내부에 비스 저장소가 있으며 따라서 비스 충전소 등에서 충전이 필요합니다 - 이 아이템은 공기중에서 비스를 바로 끌어올 수는 없습니다..  
 # 
 tc.research_name.VERDANTHEARTLIFE=생명을 주는 & 삶을 유지해주는 
 tc.research_text.VERDANTHEARTLIFE=몸을 위한 작은 위안 
-tc.research_page.VERDANTHEARTLIFE.1=There are two specialized enchantments you can apply to the Verdant Heart Band. Unfortunately these enchantments are mutually exclusive - you cannot apply both at the same time.<LINE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Band to regenerate the health of whomever wears it.  
-tc.research_page.VERDANTHEARTLIFE.2=§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Band to slowly feed and sustain whomever wears it. This includes providing breathable air.<LINE>Triple meat treats are crafted by combining sugar with three different kinds of meat nuggets. This is not only a crafting component, but a tasty and healthy treat. 
+tc.research_page.VERDANTHEARTLIFE.1=이 두개의 특화된 업그레이드는 신록의 심장 밴드에만 적용시킬 수 있습니다. 안타깝게도 이 두 인챈트는 상호대립적입니다. - 동시에 같은 인챈트를 적용시킬 수는 없습니다.<LINE>§n생명을 주는 자§r<BR>이 인퓨전 강화는 기존에 없던 생명 회복 기능을 부여합니다.  
+tc.research_page.VERDANTHEARTLIFE.2=§n삶을 유지해주는 자§r<BR>이 인퓨전 인챈트는 착용자의 배고픔을 서서히 달래줍니다. 또한 숨 쉴수 있는 공기도 제공해줍니다. 
 # 
 # Alchemy 
 #######################
