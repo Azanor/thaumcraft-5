@@ -358,7 +358,7 @@ item.shard.water.name=물의 조각
 item.shard.earth.name=대지의 조각
 item.shard.order.name=질서의 조각
 item.shard.entropy.name=혼돈의 조각
-item.shard.balanced.name=균형의 조각
+item.shard.balanced.name=균형된 비스 조각
 item.shard.flux.name=뒤틀림의 조각
 item.ingot.thaumium.name=사우뮴 주괴
 item.ingot.void.name=공허 금속 주괴
@@ -1518,36 +1518,36 @@ tc.research_page.VERDANTHEARTLIFE.2=§n삶을 유지해주는 자§r<BR>이 인�
 #######################
 tc.research_name.CRUCIBLE=기초 연금학
 tc.research_text.CRUCIBLE=거품과 함께 끓이기
-tc.research_page.CRUCIBLE.1=To craft the Crucible, you must simply use your wand on a cauldron placed in the world.<BR>The crucible is an important tool for any thaumaturge. It allows him to render physical objects into their component Essentia and recombine it again as he wishes.<BR>The crucible needs to be placed over a source of constant heat and filled with water. Once the water starts boiling you simply throw any items you wish into the crucible and they will be broken down into their component Essentia.<BR>If you know the proper formula and the mix of essentia within the    
-tc.research_page.CRUCIBLE.2=crucible is correct, you can then drop a special item into the crucible known as a Catalyst. The catalyst draws the essentia into itself and transforms into a whole new item that the crucible then ejects.<BR>Any leftover Essentia remains within the crucible for further use, but it is not a good idea to leave essentia within a crucible for too long as it will eventually degrade into Flux.<BR>Crafting also uses some of the water within the crucible and you will eventually need to refill it.  
-tc.research_page.CRUCIBLE.3=You can empty a crucible by shift right-clicking on it with a wand. All the essentia is dumped into the atmosphere as flux... not something you would want to do too often.<LINE>There are some basic alchemical recipes that anyone can perform. See the following pages for their recipes.
-tc.research_page.CRUCIBLE.4=§nBalanced Vis Shards§r<BR><BR>These are normal vis shards that have been alchemically infused with the five primal elements they do not already possess. This results in a shard of crystal that is perfectly resonating with primal energy.<BR>Smelting a balanced vis shard in a furnace creates Salis Mundus (see following pages).
-tc.research_page.CRUCIBLE.5=§nSalis Mundus§r<BR><BR>Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by exposing a balanced vis shard to high enough heat that it shatters into a fine powder.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavor (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.
+tc.research_page.CRUCIBLE.1=도가니를 만들기 위해선 세계에 놓인 가마솥을 완드로 우클릭 하면 됩니다<BR>도가니는 연금술에 있어서 매우 중요한 도구입니다. 이것은 물리적인 물건을 에센시아의 형태로 녹인 뒤 자신이 원하는 형태로 다시 결합시키게 할 수 있습니다.<BR>도가니는 열을 발산하는 물체 위에 있어야 하며 물이 채워져야합니다(니토르, 용암, 불 등등). 물이 끓기 시작하면 당신은 그저 원하는 아이템을 던져 넣기만 하면 도가니가 스스로 분해해줄 것입니다.<BR>만약 당신이 공식을 알고있고    
+tc.research_page.CRUCIBLE.2=도가니에 알맞게 들어가 있다면, 당신은 촉매로 알려진 특정 물질을 넣으면 됩니다. 촉매는 들어가서 에센시아를 흡수한 뒤 새로운 형태로 변환되에 도가니에서 나오게 됩니다.<BR>이후 남은 에센시아를 다른 용도에 사용하기위해 남길 수도 있지만 그렇게 현명한 생각은 아닙니다, 남아있는 에센시아가 증발하여 플럭스가 될 수도 있기 때문입니다.<BR>제조는 약간의 물을 요구하기 떄문에 당신은 물을 항상 재충전 해주어야 합니다.  
+tc.research_page.CRUCIBLE.3=당신은 완드로 도가니를 쉬프트 클릭 함으로서 비울 수 있습니다.모든 에센시아는 공기중에 플럭스의 형태로 날아가기 때문에 자주 하고 싶지는 않을것입니다.<LINE>몇몇의 가장 기초적인 연금 공식이 있습니다. 그들의 레시피는 다음장에 있습니다.
+tc.research_page.CRUCIBLE.4=§n균형된 비스 조각§r<BR><BR>이것은 연금술적으로 하나의 비스 조각에 나머지 존재하는 다섯 태초의 원소를 결합시킨 비스 조각 입니다. 이 비스 조각은 태초의 에너지에 완벽하게 공명합니다.<BR>이 조각을 화로에 녹이는것은 살리스 문두스를 만들어 낼것입니다 (다음 장에 계속).
+tc.research_page.CRUCIBLE.5=§n살리스 문두스§r<BR><BR>살리스 문두스, 또는 마법사의 소금으로 더 잘 알려진 이 물체는, 균형된 비스 조각에 열을 가해 녹여 고운 입자로 만들어낸 것입니다.<BR>일반 소금처럼, 마법사의 소금은 여러 마법적 제조나 방식에 마법적인 맛을 더해줍니다 (비유하자면 말이죠). 이것은 강력한 마법적 접착제로 쓰여 거의 붙지 못할 두 원소를 결합하는데에도 쓰입니다.
 #
 tc.research_name.METALLURGY=마법 금속학
 tc.research_text.METALLURGY=금속이 마법을 만났을때
-tc.research_page.METALLURGY.1=Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to the discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armor in a crafting table using the normal recipes.
-tc.research_page.METALLURGY.2=§nAlchemical Brass§r<BR>While thaumium has many useful features, sometimes mundane metals are better suited to certain tasks. Brass is a sturdy, low friction metal perfectly suited to craft intricate mechanical devices.<BR>Unfortunately it is not always possible to get hold of it due to the morphic properties of the universe you may find yourself in. Fortunately you have found an alchemical method of crafting this useful metal.
+tc.research_page.METALLURGY.1=금속은 연금술적 방법으로 조작하기 쉬움은 이미 알려져 있습니다. 당신의 첫 발견은 사우뮴 이였습니다.<BR>사우뮴은 기초적인 금속에 마법의 힘을 결합시킨 금속입니다. 그 결과물은 철보다 단단함과 동시에 인챈트를 더 잘 받을 수 있습니다.<BR>이 금속은 다른 여러한 마법적 도구에 사용될 수 있습니다.<BR>또한 이것은 평범한 방식처럼 도구,갑옷,무기 등이 될 수 있습니다.
+tc.research_page.METALLURGY.2=§n연금 황동§r<BR>사우뮴이 많은 기능을 가지고는 있지만 다른 평범한 금속또한 필요하기 마련입니다. 황동은 단단하고 마찰이 적어 기계적인 도구에 많은 도움을 줍니다.<BR>안타깝게도 이러한 연금술적 금속은 세상에 거의 존재하지  않습니다. 다행히도 이 유용한 금속을 연금술을 통해 만들 수 있습니다.
 #
 tc.research_name.NITOR=니토르
 tc.research_text.NITOR=신비한 불꽃
-tc.research_page.NITOR.1=This flame seems to be fuelled by magic itself. The number of uses for an ever burning flame seems endless, but unfortunately it seems to produce much more light than heat. Despite that it could still prove to be a steady source of energy.<BR>Nitor can also be placed in the world to act as a magical light source. It will take on the color of any dye you combine it with in a crafting table.
+tc.research_page.NITOR.1=이 불꽃은 마법 그 자체로 불타오릅니다. 불태우는 수많은 과정에 쓰일 수 있을것 같았으나 이것은 열보다는 빛을 더욱 생산해내었습니다. 하지만 여전히 지속적인 열의 공급원으로는 사용할 수 있습니다.<BR>니토르는 빛의 근원으로서 세계에 설치될 수 있습니다. 당신은 염료를 섞어 원하는 색의 니토르를 얻을 수 있습니다.
 #
 tc.research_name.ALUMENTUM=알루멘툼
 tc.research_text.ALUMENTUM=신비한 에너지 원천
-tc.research_page.ALUMENTUM.1=This substance throbs with fiery energy and it is more than eager to release that energy at the slightest bump. It may be unstable, but it would probably make a good source of fuel.<BR>It is probably not a good idea to throw it against a solid surface unless you enjoy explosions.
+tc.research_page.ALUMENTUM.1=이 물질은 불타는 에너지로 이글거리며 작은 충격에도 매우 쉽게 에너지를 방출하려 합니다. 이것은 매우 불안정 하지만 연료로서는 안성맞춤입니다.<BR>딱딱한 표면에 던지는것은 당신이 폭발광이 아니고서야 추천하지 않습니다.
 #
 tc.research_name.PHIAL=유리 용기
 tc.research_text.PHIAL=신비한 용기
-tc.research_page.PHIAL.1=Glass phials are capable of holding all manner of liquids and substances, but their most important use to a thaumaturge is their ability to hold Essentia. 
+tc.research_page.PHIAL.1=유리용기는 액체를 담을 수 있는 용기입니다, 하지만 연금술사에게 있어 가장 중요한점은 에센시아를 담을 수 있다는 점입니다. 
 #
 tc.research_name.BOTTLETAINT=병에 담긴 테인트
 tc.research_text.BOTTLETAINT=대체 이게 왜 필요해..?
-tc.research_page.BOTTLETAINT.1=Cleaning Taint is one thing, but ever considered spreading it?<BR>By concentrating and collecting the essence of taint into a bottle it is simply a matter of dropping it somewhere to create a patch of taint. It is up to you to decide why you would want to do this. 
+tc.research_page.BOTTLETAINT.1=테인트를 치우는 방법도 하나지만..퍼뜨려 보는건 어떨까요?<BR>테은트를 농축시키고 압축시켜서 그저 병을 던지기만 하면 테인트가 표면에 퍼져나가기 시작합니다. 이걸 왜 원하는지는 당신에게 달려있습니다. 
 #
 tc.research_name.TAINTSHARD=테인트 조각  
 tc.research_text.TAINTSHARD=결정을 타락시키기
-tc.research_page.TAINTSHARD.1=Tainted vis shards are usually (and fortunately) quite hard to come by. Still, they have their uses and you have found a way to create them via alchemy.<BR>The process is not particularly efficient as the amount of vitium required to everwhelm a healthy vis shard is much greater than the resulting tainted shard actually contains.   
+tc.research_page.TAINTSHARD.1=테인트 비스 결정은 주로 (그리고 다행이도y) 거의 찾아보기 힘듭니다. 여전히 그것들은 나름대로의 사용처가 존재하며 당신은 그것을 연금술을 통해 만들어내는 법을 배웠습니다.<BR>과정이 그리 효율적이지는 못한데, 그것은 평범한 비스 조각을 오염시키는데 필요한 victum의 양이 결과물이 담고있는 양보다 더욱 많기 때문입니다..   
 # 
 tc.research_name.ALCHEMICALDUPLICATION=연금 복제
 tc.research_text.ALCHEMICALDUPLICATION=당신은 좋은걸 너무 많이 가질 순 없어.
@@ -1820,25 +1820,25 @@ tc.research_page.ARCANEPATTERNCRAFTER.2=You can change the pattern by clicking o
 #######################
 tc.research_name.ELDRITCHMINOR=엘드리치의 공현
 tc.research_text.ELDRITCHMINOR=모르는것에 한걸음 
-tc.research_page.ELDRITCHMINOR.1=It has suddenly become clear to you. Where others see chaos, you occasionally catch a glimpse of a pattern... a very strange and disturbing pattern. Something stirs in the darkest corners of the universe.<BR>You have tried to explain it to others, but received only strange looks in return. No matter, you will show them someday.<BR>You will show them all.
+tc.research_page.ELDRITCHMINOR.1=그것은 갑자기 당신에게 명확해졌습니다. 다른이들은 그저 혼돈을 보았을때 당신은 어떠한 특정 패턴을 발견하였습니다... 매우 이상하고 방해되는 패턴을 말이죠. 무엇인가 우주의 어두은 구석에서 흔들리고 있습니다.<BR>당신은 다른이들에게 설명하려 했지만 돌아오는것은 냉담한 시선 뿐이였습니다. 상관 없습니다. 당신은 보여줄테니까요..<BR>그들 모두 보게 될것입니다.
 #
 tc.research_name.ELDRITCHMAJOR=엘드리치의 폭로
 tc.research_text.ELDRITCHMAJOR=나는 무한의 경계 너머를 보았다
-tc.research_page.ELDRITCHMAJOR.1=A veil has been lifted - a door opened in my mind.<BR> When I look through I see wonders. No, not wonders. §mWhat I see is§r<BR>§oWhat I see is I see i see I sEee i§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
-tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Who wrote this?
+tc.research_page.ELDRITCHMAJOR.1=장막이 들춰졌다. - 내 마음의 문이 열렸다.<BR> 내가 들여다 보았을때 나는 이상한것은 보았다. 아니, 이상하지 않았어. §m내가 본 것은§r<BR>§o내가 본것 내가 본것 내가 본것 내가..§r<IMG>thaumcraft:textures/research/eldritchajor1.png:0:255:255:255:.5</IMG>
+tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/research/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>누가 쓴거야 이거?
 #
 tc.research_name.VOIDMETAL=공허 금속
 tc.research_text.VOIDMETAL=이상해..차가워야 하는데..
-tc.research_page.VOIDMETAL.1=By infusing magic into metal you had managed to create Thaumium. It was a worthy discovery, but the time has come to leave thaumium to amateurs and dabblers.<BR>A strange and half-remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic, but with the very essence where magic is drawn from: Darkness and the Void that dwells between the stars.<BR>The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but
-tc.research_page.VOIDMETAL.2=when struck it becomes as hard as thaumium and sometimes even harder. More impressively all but the most devastating damage soon repairs itself as the metal slowly flows back into place.<BR>The only downside is that it isn't as easy to enchant as thaumium, but still compares favorably to mundane materials like iron.<BR>You have discovered that care must be taken when handling the metal - being harmed by it seems to temporarily sap your strength.
+tc.research_page.VOIDMETAL.1=마법을 금속에 결합시켜 사우뮴을 만들었었죠. 그건 충분히 가치있는 발견이였습니다, 하지만 시간이 지날수록 사우뮴은 초심자나 겁쟁이들이나 만드는 것이라는걸 알았죠.<BR>이상하고 반쯤 기억되는 한 꿈은 당신이 새로운 시도를 할 욕구를 주었습니다. 금속에 마법을 넣는것이 아닌 마법이 온 곳을 넣으면 어떨까요?: 별들 사이에 있는 어둠과 공허를 말이죠.<BR>그 결과는 부드럽고 따듯한 금속이였습니다. 이것은 금과 같아 가공하기 쉬웠지만
+tc.research_page.VOIDMETAL.2=충격이 가해질 경우 사우뮴이나 그 이상의 단단함을 보였습니다. 가장 중요한것은 충격을 받은 이후 금속이 스스로 수리를 해냈다는 점입니다.<BR>단 한가지 단점은 사우뮴 만큼 인챈트가 잘 되지는 않는다는 점이지만 그래도 철보다는 잘 됩니다.<BR>당신은 주의사항 하나를 발견했는데 이 금속을 만질때 당신의 힘이 미약하게 빠져나감을 느꼈습니다.
 #
 tc.research_name.ARMORVOIDFORTRESS=공허 마법사 로브
 tc.research_text.ARMORVOIDFORTRESS=이계 최신 스타일
-tc.research_page.ARMORVOIDFORTRESS.1=A truly enlightened thaumaturge realizes that he need not choose between utility and defense.<BR>By augmenting existing void armor with the proper enchantments and combining them with thaumaturge's robes he will be able to create a set of armored robes that not only offers physical protection and mental focus, but mystical protection as well.<BR>The robes will also retain all the properties of void armor while the hood will offer all the benefits of the goggles used in its crafting.<BR>This armor can be dyed.
+tc.research_page.ARMORVOIDFORTRESS.1=가장 꺠우친 연금술사는 방어도와 부가능력중 하나를 고민하지 않아도 됐습니다.<BR>B현존하는 공허의 갑옷과 연금술사의 옷을 결합하여 그는 물리적 방어와 함께 정신적 집중 그리고 신비한 보호 또한 얻을 수 있었습니다, .<BR>로브는 공허의 갑옷의 효과와 함께 발견의 고글 능력 또한 가지고 있습니다.<BR>이 갑옷은 염색될 수 있습니다.
 #
 tc.research_name.ENTEROUTER=이계
 tc.research_text.ENTEROUTER=우린 더이상 이 세상에 있지 않아.
-tc.research_page.ENTEROUTER.1=You are not quite sure what you were expecting when you stepped through the Oculus, but this strange structure of crumbling stone and twisted passageways was not it.<BR>Something is not quite right here - this structure was not designed for any practical purpose you can discern... unless that purpose was for it to be a deadly maze.<BR>Strange energies abound and your magic seems to act strangely in this alien environment. Even the other denizens you encounter seem out of place here.
+tc.research_page.ENTEROUTER.1=당신은 오큘러, but this strange structure of crumbling stone and twisted passageways was not it.<BR>Something is not quite right here - this structure was not designed for any practical purpose you can discern... unless that purpose was for it to be a deadly maze.<BR>Strange energies abound and your magic seems to act strangely in this alien environment. Even the other denizens you encounter seem out of place here.
 #
 tc.research_name.OUTERREV=이계의 드러남
 tc.research_text.OUTERREV=보이는게 전부는 아니야.
