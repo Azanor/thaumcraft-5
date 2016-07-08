@@ -344,8 +344,8 @@ tile.mirror.name=마법의 거울
 tile.mirror_essentia.name=에센시아 거울
 tile.golem_builder.name=골렘 누르기 
 tile.node_stabilizer.name=노드 안정화기
-tile.essentia_input.name=에센시아 방출기 
-tile.essentia_output.name=에센시아 흡입기 
+tile.essentia_input.name=에센시아 방출 전환기 
+tile.essentia_output.name=에센시아 흡입 전환기 
 #
 # Items
 ###################################
@@ -1625,38 +1625,38 @@ tc.research_text.TUBEFILTER=언제 무엇을 원하던지
 tc.research_page.TUBEFILTER.1=§n필터 에센시아 관§r 은 일반 관처럼 사용됩니다, 라벨을 붙일 수 있다는 점만 뺴면요, 유리용기나 다른 아이템을 통해 특정 에센시아를 지정해 줄 수 있습니다. 에센시아가 지정되었을때 해당 관에는 해당 에센시아만 흐를 수 있습니다<BR>빈 손으로 해당 필터를 시프트 클릭함으로써 정해진 에센시아를 지울 수 있습니다.
 tc.research_page.TUBEFILTER.2=§n감압식 에센시아 관§r 는 일반 관처럼 사용됩니다s, 지나가는 흡입력을 얼반으로 줄인다는 점만 빼면요.<LINE>§n단방향 에센시아 관§r 은 오직 한 방향으로만 빨이들입니다.. 파란색 마크는 어뜨쪽으로 흡릭력이 적용되고 있는지를 보여줍니다.
 tc.research_page.TUBEFILTER.3=에센시아 버퍼는 제한된 에센시아 - 총 8 포인트를 일시적으로 저장해 둘 수 있습니다, 어떠한 에센시아 종류던지 말이죠. 병이 흡수하는것처럼 버터또한 최소합의 흡입력을 갖고 있습니다 (1).<BR>이것은 직접 연결된 경우에만 흡수할 수 있다는 것입니다.. 그러나 관은 모든방향으로 연결 될 수 없습니다, 에센시아 원심분리기 같은 곳에서나 유용하다고 할 수 있겠습니다 <BR>풀무를 장찾함으로서 흡입력을 최대 32까지 끌어올릴 수 있습니다.
-tc.research_page.TUBEFILTER.4=Additionally you can toggle individual connections on and off as with a normal tube, but if you shift click a connection, it will choke the suction back to 1 (blue band) or 0 (red band) on that side.<BR>This allows for some interesting possibilities when routing essentia.
+tc.research_page.TUBEFILTER.4=또한 당신은 개별적인 관에대해 연결을 키고 끌 수 있습니다, 하지만 만약 연결을 쉬프트 우클릭 할것입니다, 그것은 그 방향의 흡수력을 1 (파란색) 또는 0 (빨간색) 으로 만들것입니다.<BR>이것들은 에센시아 수송을 더욱 복잡하고 기묘하게 해줄 수 있습니다.
 #
 tc.research_name.THAUMATORIUM=연금 자동화
 tc.research_text.THAUMATORIUM=대량 연금을 위해서
-tc.research_page.THAUMATORIUM.1=Up to now alchemy has been somewhat of a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. This is finally a thing of the past.<BR>The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.
-tc.research_page.THAUMATORIUM.2=When you access this device you will see several slots. The top-left slot is where you place the catalyst. Once you have done this you will be able to choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.
-tc.research_page.THAUMATORIUM.3=Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side you can increase the number of formulas it can keep track.<BR>Each matrix increases the number of formulas by 2. 
+tc.research_page.THAUMATORIUM.1=지금까지 와서도 연금술은 고단한 일입니다 - 잘못된  위상, 증발하는 에센시아,, 그리고 일일히 재료를 넣는 일 등등 말이죠.하지만 이젠 과거의 일 입니다.<BR>사우마토리엄은 연금술사로 하여금 공식을 선택하고 촉매만 넣어주면 되게 해주었습니다. 그 다음에는 관을 사용해 필요한 에센시아를 흡수하지요. 촉매만 충분하다면 언제나 필요한 물품들을 빠르게 만들어 낼것입니다.<BR>이 형태에서의 도가니는 물이 필요하지만 열의 근원은 여전히 필요합니다.
+tc.research_page.THAUMATORIUM.2=당신이 이 장비를 처음 접할때 여러 슬롯을 보게 될것입니다. 왼쪽 위는 촉매를 넣는 곳입니다. 촉매를 넣고나면 오른쪽 창에 만들 수 있는 것들이 뜨게 됩니다.<BR>아래쪽 바는 해당 물품을 만들기 위해 필요한 에센시아를 표시해줍니다. 또한 아래의 창은 얼만큼 진행됬는지 바의 형태를 보여줍니다.<BR>만들어진 아이템은 기기의 앞부분으로 튀어나오거나 앞에 위치한 배출구에 놓인 상자에 담기게 됩니다.
+tc.research_page.THAUMATORIUM.3=일반적으로 사우마토리엄은 한번에 하나를 만들 수 있습니다,하지만 네모닉 매트릭스를 붙임으로써 한번에 여러개를 만들 수 있게됩니다.<BR>각각의 매트릭스는 제조칸을 2개씩 더 늘려줍니다. 
 #
 tc.research_name.BATHSALTS=정화의 입욕 소금
 tc.research_text.BATHSALTS=마음을 위한 안정을
-tc.research_page.BATHSALTS.1=Warp is a danger for even the most careful of thaumaturges. For those that have done a bit too much dabbling Warp effects are probably more than just an annoyance. Purifying Bath Salts help with that.<BR>Simply tossing these salts into water will turn the water into a silvery, purifying liquid that sooths away the stresses of the day and brings temporary relief from the effects of Warp. It should be noted however the more warp a thaumaturge suffers from, the shorter the duration of this protection.<BR>The salts are quite fragile and will soon dissolve if tossed around haphazardly. 
+tc.research_page.BATHSALTS.1=뒤틀림은 가장 주의깊은 연금술사에게도 여전히 위협적입니다. 너무 많은 뒤틀림을 겪을 연금술사에겐 귀찮음 그 이상이겠지요. 정화의 입욕 소금이 그것을 도와줄것입니다<BR>물안에 던져 집어넣는것으로서 물을 은빛의 정화하는 액체로 바꿀것이며 이는 하루의 스트레스를 날려버림과 동시에 뒤틀림으로 부터 안정을 취할 수 있도록 도와줄 것입니다.하지만 연금술사가 껶오있는 뒤틀림의 정도가 심할수록 보호해주는 기간 또한 짧다고 알려져있습니다<BR>소금은 매우 쉽게 오염되기 때문에 함부로 던지지 않아야 합니다. 
 #
 tc.research_name.LIQUIDDEATH=액체화된 죽음
 tc.research_text.LIQUIDDEATH=연구 외적 용도로만 사용할것
-tc.research_page.LIQUIDDEATH.1=This liquid is so dangerously toxic that virtually nothing can prevent it from dissolving flesh, bone and even harder substances. Nothing alive or that even displays the semblance of life can survive it.<BR>Apart from obvious practical applications, this vile substance has another interesting property: Any essentia a dissolved creature possessed form into crystals that can be harvested.<BR>I will leave it to the reader's imagination what uses those crystals can be put to. 
+tc.research_page.LIQUIDDEATH.1=이 액체는 너무나도 유독해서 뼈와 살 그 외 어떠한 단단한것 모두를 녹여버립니다. 어떠한 생명체도 그에 닿은채로 살아남진 못합니다.<BR>연습적인 실험 결과 이 액체는 특수한 기능 하나를 갖고 있습니다 이 액체를 통해 녹아내린 생물의 에센시아가 바로 결정화되어 떨어진다는 점입니다.<BR>이렇게 얻은 조각을 어디에 쓸지는 독자의 상상에 맡기겠습니다. 
 #
 tc.research_name.ARCANESPA=아케인 스파
 tc.research_text.ARCANESPA=멋지게 휴식하기
-tc.research_page.ARCANESPA.1=Pouring bath salts into water is a bit of a chore, but luckily one easily solved with a bit of magic.<BR>You have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally, you have found that it can be used to pump nearly any liquid you can fill it with. You can fill it with automation, or by clicking on the block with the appropriate container. Applying a redstone signal will disable it.
+tc.research_page.ARCANESPA.1=물에 소금을 넣고 젓는것도 어떻게보면 일입니다, 하지만 마법을 통해 그것을 간단하게 할 수 있었습니다.<BR>당신은 소금과 액체를 안에 집어넣으면 자동으로 섞어준 뒤 기기 위로 배출해주는 기기를 개발해냈습니다. T액체는 놓여진곳의 5X5만큼의 공간을 채워줄 것입니다.<BR>추가적으로 당신은 기기 안에 어떠한 액체던 넣을 수 있다는것을 알아냈습니다. 당신은 자동으로 채우게 두거나, 적절한 용기로 클릭함으로써 채울 수 있습니다. 레드스톤 신호는 이 기기를 멈추게 할것입니다.
 #
 tc.research_name.SANESOAP=이성의 비누
 tc.research_text.SANESOAP=더러운 생각을 제거하기
-tc.research_page.SANESOAP.1=Cleaning the body is easy enough, but once warp becomes a nuisance you need something that can clean the mind as well.<BR>This soap cleans the flesh, but the effects it has on your psyche is what truly makes it special. When used it has a small chance of reducing non-permanent warp and will remove all temporary warp.<BR>Using it while under the effects of a Warp Ward or while standing in Purifying Fluid will increase your odds.  
+tc.research_page.SANESOAP.1=몸을 꺠끗하게 하는것은 쉬운일입니다, 뒤틀림이 성가실때엔 마음을 씼어낼 비슷한 용구가 필요하기 마련입니다.<BR>T이 비누가 특별한 점은 몸을 씼겨주지만 영향은 정신에 미친다는 점입니다. 이것을 사용할땐 영구적이지 않은 뒤틀림과 함께 모든 일시적 뒤틀림을 한번에 제거해줍니다.<BR>뒤틀림 경계 또는 정화의 액체 안에서 사용하는것은 효과를 증대시켜줄 것입니다.  
 #
 tc.research_name.ESSENTIACRYSTAL=에센시아 결정화
 tc.research_text.ESSENTIACRYSTAL=단단한게 좋아? 아니면 액체가 좋아?
-tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystallizer draws in liquid essentia from a pipe network and converts it into small shards of crystalline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystallizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>It draws terra vis from the aura to power itself.
+tc.research_page.ESSENTIACRYSTAL.1=당신은 농축된 물건을 액체의 에센시아로 분해시키는데 거의 달인이 되었습니다, 따라서 그 역은 매우 쉬운 일이죠.<BR>에센시아 결정화기는 관 네트워크로부터 액체 에센시아를 빨아들여 작은 결정으로 만들어냅니다. 결정화된 에센시아는 수송에 용이하며 매우 안정적입니다.<BR>결정화기는 세계 또는 아래의 상자로 배출시킬 수 있습니다. 또한 이것은 레드스톤을 통해 꺼질 수 있습니다.<BR>이것은 terra vis 를 공기중에서 직접 빨아다 사용합니다.
 #
 tc.research_name.ESSENTIATRANSPORT=에센시아 변환
 tc.research_text.ESSENTIATRANSPORT=기화된 에센시아
-tc.research_page.ESSENTIATRANSPORT.1=During the infusion crafting process essentia is drawn directly from jars and floats through the air to the infusion matrix. The magic of the matrix keeps it stable enough for the infusion process, but normally the essentia is still changed in such a way that it becomes unusable for anything else. You have discovered a way to transport essentia in a similar manner without it becoming unstable.<BR>You have drawn up plans for two devices. The Filling Essentia Transfuser can take essentia directly from a pipe network or other essentia source and transport it to jars within 16 blocks of the direction it is facing.  
-tc.research_page.ESSENTIATRANSPORT.2=The Emptying Essentia Transfuser does the opposite - drawing essentia from jars within range and placing it within tubes or devices requiring essentia of a specific type. 
+tc.research_page.ESSENTIATRANSPORT.1=인퓨전 제작 과정에 있어서 에센시아는 병에서 바로 매트릭스로 전해지게 됩니다. 마법의 매트릭스가 이러한 형태로도 안정적이도록 도와주기 때문입니다, 하지만 여전히 그러한 에센시아를 사용할 다른 방법은 없었습니다. 그러나 당신은 에센시아를 그러한 형태로 옮기면서도 불안정적이지 않게 하는법을 알아냈습니다.<BR>당신은 두 기계를 위한 계획을 세웠습니다. 에센시아 방출 전환기는 파이프 시스템이나 다른 용기에서 에센시아를 공급받은 뒤 16 블럭 이내의 단지로 방출해줍니다.  
+tc.research_page.ESSENTIATRANSPORT.2=에센시아 흡입 전환기는 반대의 역할을 합니다 주변의 병으로부터 에센시아를 흡수하여 연결된 에센시아가 필요한 관 또는 기기로 옮겨줍니다. 
 #
 #
 # Golemancy 
@@ -1703,12 +1703,12 @@ tc.research_name.TRAVELTRUNK=여행 상자
 tc.research_text.TRAVELTRUNK=휴대용 보관소
 tc.research_page.TRAVELTRUNK.1=An extension of your golemancy research has led to a useful companion for any thaumaturge on the go: The Traveling Trunk.<BR>This wooden chest will happily hop after its master, always ready to provide a convenient storage space for anything you pick up.<BR>The traveling trunk is tough and can take a significant amount of beating. It is highly resistant to fire and cannot be harmed by falling.<BR>The trunk can follow its master everywhere - even distant dimensions. Should you wish it to stay put however, there is a convenient  button located in its interface
 tc.research_page.TRAVELTRUNK.2=which will make it remain in its current position.<BR>The traveling trunk slowly heals itself over time, but you can also feed it all manner of food to speed up this process.<BR>Like normal golems, the trunk can be picked up by left-clicking with a golemancer's bell. It will drop all items in its inventory of you do so. Shift-clicking will also cause it to drop any upgrades you have applied to it with the normal loss chance.<BR>It can accept a single upgrade like normal golems, but they grant unique abilities to the trunk. See the following pages for details as you discover the relevant upgrades.
-tc.research_page.TRAVELTRUNK.UAI=§nGolem Upgrade: Air§r<BR>With this upgrade installed the traveling trunk will move faster.
-tc.research_page.TRAVELTRUNK.UEA=§nGolem Upgrade: Earth§r<BR>With this upgrade installed the traveling trunk be able to carry more items and will gain an additional row in its inventory.
-tc.research_page.TRAVELTRUNK.UFI=§nGolem Upgrade: Fire§r<BR>With this upgrade installed the traveling trunk will defend its master when he is attacked.
-tc.research_page.TRAVELTRUNK.UWA=§nGolem Upgrade: Water§r<BR>With this upgrade installed the traveling trunk cannot be opened or picked up by anyone else but its master.<BR>It also become highly resistant to all but the most devastating amounts of damage.
-tc.research_page.TRAVELTRUNK.UOR=§nGolem Upgrade: Order§r<BR>With this upgrade installed the traveling trunk will retain its items when it is picked up using a golemancer's bell. It will drop items as normal when shift-clicked is used.
-tc.research_page.TRAVELTRUNK.UEN=§nGolem Upgrade: Entropy§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
+tc.research_page.TRAVELTRUNK.UAI=§n골렘 업그레이드: Air§r<BR>With this upgrade installed the traveling trunk will move faster.
+tc.research_page.TRAVELTRUNK.UEA=§n골렘 업그레이드: Earth§r<BR>With this upgrade installed the traveling trunk be able to carry more items and will gain an additional row in its inventory.
+tc.research_page.TRAVELTRUNK.UFI=§n골렘 업그레이드: Fire§r<BR>With this upgrade installed the traveling trunk will defend its master when he is attacked.
+tc.research_page.TRAVELTRUNK.UWA=§n골렘 업그레이드: Water§r<BR>With this upgrade installed the traveling trunk cannot be opened or picked up by anyone else but its master.<BR>It also become highly resistant to all but the most devastating amounts of damage.
+tc.research_page.TRAVELTRUNK.UOR=§n골렘 업그레이드: Order§r<BR>With this upgrade installed the traveling trunk will retain its items when it is picked up using a golemancer's bell. It will drop items as normal when shift-clicked is used.
+tc.research_page.TRAVELTRUNK.UEN=§n골렘 업그레이드: Entropy§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
 #
 tc.research_name.MINDCLOCKWORK=시계태엽의 정신
 tc.research_text.MINDCLOCKWORK=그들에게 삶을 주자
