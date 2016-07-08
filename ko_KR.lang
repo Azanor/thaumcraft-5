@@ -1663,41 +1663,41 @@ tc.research_page.ESSENTIATRANSPORT.2=에센시아 흡입 전환기는 반대의 
 #######################
 tc.research_name.BASICGOLEMANCY=기초 골렘학
 tc.research_text.BASICGOLEMANCY=움직임을 제어하기
-tc.research_page.BASICGOLEMANCY.1=You have studied the basic, primitive golems anyone can create and found them lacking. They have potentional, but it is not possible to control them.<BR>You are sure you can do better.
+tc.research_page.BASICGOLEMANCY.1=당신은 아무나 만들 수 있는 그러나 어딘가 부족한 골렘을 연구해보았습니다. 그들은 잠재력 있지만 직접 조종할 수는 없었습니다.<BR>당신은 더 나은걸 만들 수 있으리라 확신합니다.
 #
 tc.research_name.MATSTUDWOOD=재료 연구: 목재
 tc.research_text.MATSTUDWOOD=숙련된 나무 제조
-tc.research_page.MATSTUDWOOD.1=Golemancy places great demands on your craftsmanship as it often requires intricate components with very narrow margins for error. You will need to increase your skill and knowledge of both mundane and arcane materials. Your first target is wood.<BR>Wood is a versatile substance and despite its weakness, it is light and easy to work. You have found Greatwood to be a superior wood particularly well suited to golemancy. 
+tc.research_page.MATSTUDWOOD.1=G골렘학은 당신의 제조 숙력도르 매우 요구합니다 종종 복잡한 구성과 함께 실패가 거의 용납되지 않기 때문이죠. 당신은 평범한, 그리고 마법적인 재료에대한 지식을 더욱 늘릴 필요가 있었습니다. 당신의 첫 목표는 나무였습니다<BR>나무는 다재다능한 재료이며 그것의 명확한 약점에도 불구하고 가볍고 만들기 쉬웠습니다. 당신은 그레이트 우드가 골렘학에 있어서는 가장 최적의 나무임을 알아냈습니다. 
 #
 tc.research_name.MATSTUDIRON=재료 연구: 강철
 tc.research_text.MATSTUDIRON=숙련된 강철 제조
-tc.research_page.MATSTUDIRON.1=Iron has many properties to recommend it - it is much sturdier than wood and malleable in a way that wood can never be. It is harder to work with however and quite heavy.
+tc.research_page.MATSTUDIRON.1=강철은 추천할만한 많은 특성을 가지고 있습니다 - 우선 나무보다 단단하며 나무가 가질 수 없는 가단성을 갖고 있습니다. 그러나 작업하기 조금 더 어려우며 무겁습니다.
 #
 tc.research_name.MATSTUDBRASS=재료 연구: 황동
 tc.research_text.MATSTUDBRASS=숙련된 황동 제조
-tc.research_page.MATSTUDBRASS.1=While brass is softer than iron, it is still quite sturdy and well suited to fine mechanical constructs. In your opinion it is the best mundane material for golemancy purposes and you would not dream of crafting intricate metals from any other material. It is quite pleasing to the eye as well. 
+tc.research_page.MATSTUDBRASS.1=황동은 강철보다는 부드럽지만 여전히 단단하며 마법적인 구조물에 적합합니다. 당신생각에 이것은 골렘학에 아주 뛰어난 물질이며 다른 어떠한 금속을 찾을 생각은 꿈에도 하지 못할것 같습니다. 거기다 눈까지 만족시켜 주니까요!. 
 #
 tc.research_name.MATSTUDTHAUMIUM=재료 연구: 사우뮴
 tc.research_text.MATSTUDTHAUMIUM=숙련된 사우뮴 제조
-tc.research_page.MATSTUDTHAUMIUM.1=Thaumium is an arcane metal that sucks up enchantments like a proverbial sponge. It is significantly stronger than iron too. Unfortunately it is slightly heavier than iron and its strength also makes it hard to work.<BR>While it cannot compete with brass when it comes to intricate clockwork, thaumiums strength makes it a useful material to craft mechanisms that require strength over precision. 
+tc.research_page.MATSTUDTHAUMIUM.1=사우뮴은 인챈트를 스펀지 처럼 흡수하는 마법 도구입니다. 또한 강철보다도 단단하지요. 안타깝게도 사우뮴은 강철보다 약간 더 무거우며 그 단단한이 작업하기 조금 더 어렵게 만듭니다<BR>복잡한 시계태엽에는 황동을 따라갈 수 없지만, 정교함을 넘어선 강도가 필요한 기기에는 사우뮴이 가장 적합합니다. 
 #
 tc.research_name.MATSTUDVOID=재료 연구: 공허 금속
 tc.research_text.MATSTUDVOID=숙련된 공허 금속 제조
-tc.research_page.MATSTUDVOID.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
+tc.research_page.MATSTUDVOID.1=공허 금속은 상대적으로 가볍고 부드러운 특성때문에 기계적인 부분에서는 사용하기 힘듭니다. 운좋게도 그것의 유동성과 자가 수리성은 연금술사로 하여금 가만히 두지 않고 더 많은 연구를 하게 두었습니다.
 #
 tc.research_name.MATSTUDCLAY=재료 연구: 점토
 tc.research_text.MATSTUDCLAY=숙련된 점토 제조
-tc.research_page.MATSTUDCLAY.1=Clay is not particularly strong, light or durable, but it is easy to work, highly resistant to fire and lighter than iron. Basically, the perfect choice for a thaumaturge on a budget.
+tc.research_page.MATSTUDCLAY.1=점토는 강하지도, 가볍지도, 튼튼하지도 않지만 매우 작업하기 쉬우며, 불에 대한 내성이 강하고 그래도 강철보다는 가볍습니다. 이론적으로 기한에 시달리는 연금술사에게는 딱이죠.
 #
 tc.research_name.HUNGRYCHEST=배고픈 상자
 tc.research_text.HUNGRYCHEST=열리기만을 항상 기다리는 상자
-tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
+tc.research_page.HUNGRYCHEST.1=이 배고픈 상자는 닿는 거리에만 있다면 주변의 아이템을 전부 스스로 집어삼킬것입니다.
 #
 tc.research_name.ARCANEBORE=아케인 채굴기
 tc.research_text.ARCANEBORE=발전된 채광
-tc.research_page.ARCANEBORE.1=You have discovered a device capable of extending the range and power of an Excavation focus. Of even greater use is the fact that the machine can do so without your constant supervision. You merely need to place it on a specially constructed base, point it in the right direction with a wand and apply a redstone signal.<BR>The arcane bore requires two things to function. The first is an excavation focus placed in its leftmost inventory slot. Any enchantments applied to the focus will also alter the functions of the bore. 
-tc.research_page.ARCANEBORE.2=Secondly you need to place any kind of pickaxe into the rightmost slot. The material of the pickaxe will have little effect on the operation of the bore, but the greater its durability, the longer it will last. Like the wand, any enchantments or special abilities of the pickaxe will also be applied to whatever the bore mines.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing.<BR>It will eject into an inventory if possible. This direction can be changed with a wand.
-tc.research_page.ARCANEBORE.3=The bore can be powered with §8Perditio§0 essentia which will greatly speed up the rate at which it mines. Essentia can be provided by pipes as normal.<BR>One point of §8Perditio§0 essentia will speed the bore for the next 20 blocks mined.<BR>If no essentia is provided the bore will use §8Perditio§0 vis to function. It is drawn from the aura and a single point of vis will only be able to mine a single block. The speed will be much slower when powered by vis.
+tc.research_page.ARCANEBORE.1=당신은 채굴 포커스의 힘과 범위를 극대화 시켜줄 기기를 개발해냈습니다. 심지어 더 놀라운점은 이것을 계속 지켜볼 필요가 없다는 점입니다. 당신은 그저 특수 제작된 기반을 놓고, 완드로 우클릭하여 방향을 정한 뒤 레드스톤 신호를 부여하기만 해주면 됩니다.<BR>아케인 채굴기는 기능하기 위해 두가지를 요구합니다. 먼저 채굴 포커스가 내부 인벤토리의 왼쪽에 놓여져야 합니다. 포커스에 주어진 강화는 채굴기에도 동일하게 적용될것입니다. 
+tc.research_page.ARCANEBORE.2=두번째로 오른쪽에 어떠한 형태의 곡괭이가 필요합니다. 곡괭이의 재질은 채굴기의 성능에 약간 영향을 주지만,무엇보다 내구성이 길수록 오래 가게 됩니다. 포커스처럼 곡괭이에 적용된 인챈트 또한 적용될 것입니다.<BR>아캐인 채굴기는 아케인 채굴 토대의 위 또는 아래에만 놓여질 수 있습니다.채굴된 아이템은 토대의 노즐 방향으로 배출될 것입니다.<BR>만약 가능하다면 노즐이 연결된 상자 안으로 바로 들어갈것입니다.. 이 방향은 완드로 변결될 수 있습니다.
+tc.research_page.ARCANEBORE.3=채굴기는 §8Perditio§0 에센시아를 공급받음으로써 채굴 속도가 월등히 증가하게 됩니다. 에센시아는 파이프를 통해 동급받아야합니다.<BR>§8Perditio§0 에센시아 1만큼은 채굴기가 캘 20 블럭에 영향을 미칩니다.<BR>에센시아가 공급되지 않는다면 채굴기는 §8Perditio§0 비스를 가동되기 위해 사용될 것입니다.. 오라중으로부터 비스를 뽑아내어 사용할땐 블럭 하나당 1의 비스를 소모합니다. 또한 비스로 사용할때엔 속도가 매우 느려지게 됩니다.
 #
 tc.research_name.TRAVELTRUNK=여행 상자
 tc.research_text.TRAVELTRUNK=휴대용 보관소
@@ -1792,28 +1792,28 @@ tc.research_page.SEALUSE.1=This seal allows a golem to act like a player and lef
 #
 tc.research_name.GOLEMVISION=골렘 생체 사우믹 눈
 tc.research_text.GOLEMVISION=더나은 시각 범위 
-tc.research_page.GOLEMVISION.1=By merging flesh and arcane construct you have crafted a set of highly acute eyes.<BR>Any golem equipped with such a set of peepers will be able to operate at twice the normal range (32 blocks).<BR>§9This research unlocks additional golem parts§0. 
+tc.research_page.GOLEMVISION.1=살점과 당신이 만든 매우 명민한 눈을 마법적으로 결합함으로써.<BR>이 눈알을 착용한 골렘은 보통때보다 두배 더 멀리 볼 수 있게 되었습니다 (32 블럭).<BR>§9이 연구는 추가적인 골렘 부위를 활성화시켰습니다§0. 
 #
 tc.research_name.GOLEMCLIMBER=골렘 이동수단:등반
 tc.research_text.GOLEMCLIMBER=오르지 못할 산은 없다
-tc.research_page.GOLEMCLIMBER.1=By equipping a golem with crampons, hooks and various other tools, it will be able to scale sheer walls and other obstacles.<BR>§9This research unlocks additional golem parts§0.
+tc.research_page.GOLEMCLIMBER.1=골렘에게 아이젠 그리고 갈고리 등등의 장비를 주어, 가파른 절벽 또는 다른 장애물을 타고 오를 수 있게 되었습니다.<BR>§9이 연구는 추가적인 골렘 부위를 활성화시켰습니다§0.
 #
 tc.research_name.GOLEMFLYER=골렘 이동수단: 비행
 tc.research_text.GOLEMFLYER=더! 더욱 더 높이!
-tc.research_page.GOLEMFLYER.1=By basically chopping off a golems legs and glueing an Arcane levitator in their place you have managed to get a golem to fly. This grants it good (if slightly erratic) mobility, though it does move slower.<BR>§9This research unlocks additional golem parts§0.
+tc.research_page.GOLEMFLYER.1=골렘의 다리를 잘라내어 해당 부분에 아케인 부양기를 붙인 결과 당신은 골렘을 날게 할 수 있었습니다. 이것은 좋은 이동성을 부여했습니다, 약간 느리게 움직이지만 말이죠.<BR>§9이 연구는 추가적인 골렘 부위를 활성화시켰습니다§0.
 #
 tc.research_name.GOLEMBREAKER=골렘 조작: 블럭 파괴 
 tc.research_text.GOLEMBREAKER=부수고 잡는다
-tc.research_page.GOLEMBREAKER.1=By replacing a golems arms with a set of powerful, diamond tipped pneumatic grinders it will be able to break through all be the hardest material.<BR>§9This research unlocks additional golem parts§0.
+tc.research_page.GOLEMBREAKER.1=골렘의 팔을 단단하고 다이아몬드가 끝에 박힌 감압 드릴로 바꾼 결과, 골렘은 어떠한 단단한 블럭도 부술 수 있게 되었습니다<BR>§9이 연구는 추가적인 골렘 부위를 활성화시켰습니다§0.
 #
 tc.research_name.GOLEMCOMBATADV=개선된 골렘 전투
 tc.research_text.GOLEMCOMBATADV=더 낫게! 빠르게! 강하게!
-tc.research_page.GOLEMCOMBATADV.1=You can now craft specialized golem weaponry and armor to make them much more effective in combat.<BR>§9This research unlocks additional golem parts§0.
+tc.research_page.GOLEMCOMBATADV.1=당신은 이제 무기와 방어에 치중되어 더욱 전투에 효과적인 골렘을 만들 수 있습니다.<BR>§9이 연구는 추가적인 골렘 부위를 활성화시켰습니다§0.
 #
 tc.research_name.ARCANEPATTERNCRAFTER=신비한 패턴 제조기
 tc.research_text.ARCANEPATTERNCRAFTER=자동화된 패턴 제조
-tc.research_page.ARCANEPATTERNCRAFTER.1=Certain objects are very simple to craft - simply place the same type of item in a pattern and you get what you want. For example combining 2 wood planks to make a stick, or a single ingot making 9 nuggets. This process is so simple you have found a way to automate it.<BR>The Arcane Pattern Crafter needs an inventory above and below it. It will search the inventory above it for components and try to combine whatever it finds in the pattern you have selected. If this results in a valid crafting operation it will place the result in the container below it. 
-tc.research_page.ARCANEPATTERNCRAFTER.2=You can change the pattern by clicking on the brass dial on the front of the device.<BR>A redstone signal will disable the device.
+tc.research_page.ARCANEPATTERNCRAFTER.1=몇몇 물건은 매우 만들기 간단합니다 - 같은 물건을 특정 패턴으로 놓아서 원하는 물건을 얻는것이죠. 예를들어 나무 판자 2개로 막대기를 만들거나 금속 하나를 넣어 금속 조각을 얻는것처럼 말이죠. 이 과정은 매우 간단하기 때문에 당신은 간단히 하는법을 찾아내었습니다.<BR>아케인 패턴 생성기는 그것의 위 아래에 각각 상자를 필요로합니다 그것은 위의 상자에서 어떠한 아이템이던 찾은 뒤 정해진 패턴으로 제작하려 시도합니다. 만약 제조법이 존재한다면 과정은 진행되어 그 결과물이 아래 상자에 놓이게 됩니다. 
+tc.research_page.ARCANEPATTERNCRAFTER.2=당신은 기기 앞의 황동 다이얼을 누름으로써 패턴을 바꿀 수 있습니다.<BR>레드스톤 신호는 이 기기를 멈출것입니다.
 #
 #
 # Eldritch 
